@@ -187,17 +187,54 @@ def main():
     both_g = sorted([r for r in rows if r["fvb_g"] and r["bxt_g"]], key=lambda x: -x["mcap"])
     both_r = sorted([r for r in rows if r["fvb_r"] and r["bxt_r"]], key=lambda x: -x["mcap"])
 
+    # Diff vs previous run
+    out_path = os.path.join(HERE, "docs", "results.json")
+    prev_g_set, prev_r_set, prev_ts = set(), set(), None
+    try:
+        with open(out_path) as f:
+            prev = json.load(f)
+        prev_g_set = {r["sym"] for r in prev.get("both_green", [])}
+        prev_r_set = {r["sym"] for r in prev.get("both_red", [])}
+        prev_ts = prev.get("updated_at")
+    except Exception:
+        pass
+
+    cur_g_set = {r["sym"] for r in both_g}
+    cur_r_set = {r["sym"] for r in both_r}
+    name_lookup = {r["sym"]: r["name"] for r in both_g + both_r}
+    # for removed names we need names too — fall back to prev data
+    if prev_g_set or prev_r_set:
+        try:
+            for pr in prev.get("both_green", []) + prev.get("both_red", []):
+                name_lookup.setdefault(pr["sym"], pr.get("name", pr["sym"]))
+        except Exception: pass
+
+    def annotate(syms, kind):
+        out = []
+        for s in sorted(syms, key=lambda x: -MCAPS.get(x, 0)):
+            out.append({"sym": s, "name": name_lookup.get(s, NAMES.get(s, s)), "mcap": MCAPS.get(s, 0), "kind": kind})
+        return out
+
+    changes = {
+        "green_added":   annotate(cur_g_set - prev_g_set, "green"),
+        "green_removed": annotate(prev_g_set - cur_g_set, "green"),
+        "red_added":     annotate(cur_r_set - prev_r_set, "red"),
+        "red_removed":   annotate(prev_r_set - cur_r_set, "red"),
+        "compared_to":   prev_ts,
+    }
+
     out = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "scan_seconds": round(time.time() - t0, 2),
         "scanned_count": len(closes_map),
         "both_green": both_g,
         "both_red": both_r,
+        "changes": changes,
     }
-    out_path = os.path.join(HERE, "docs", "results.json")
     with open(out_path, "w") as f:
         json.dump(out, f, indent=2)
-    print(f"[{out['updated_at']}] scanned {out['scanned_count']} in {out['scan_seconds']}s — {len(both_g)} both-green, {len(both_r)} both-red")
+    n_changes = sum(len(v) for k, v in changes.items() if isinstance(v, list))
+    print(f"[{out['updated_at']}] scanned {out['scanned_count']} in {out['scan_seconds']}s — {len(both_g)} both-green, {len(both_r)} both-red ({n_changes} changes vs prev)")
 
 if __name__ == "__main__":
     main()

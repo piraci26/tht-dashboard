@@ -18,6 +18,11 @@
 </header>
 
 <main>
+<section class="changes">
+<h2><span class="dot dot-changes"></span>Changes since last 5-min refresh</h2>
+<div id="changes-table" class="table-wrap"></div>
+</section>
+
 <section class="green">
 <h2><span class="dot dot-green"></span>Both flipped GREEN today</h2>
 <div id="green-table" class="table-wrap"></div>
@@ -67,6 +72,34 @@ function renderTable(rows, sectionClass) {
   return head + body + '</tbody></table>';
 }
 
+function renderChanges(changes) {
+  if (!changes) return '<p class="empty">No prior run to compare to.</p>';
+  const buckets = [
+    {label: '🟢 New GREEN flip',   items: changes.green_added,   action: 'added'},
+    {label: '🟢 GREEN dropped off', items: changes.green_removed, action: 'removed'},
+    {label: '🔴 New RED flip',     items: changes.red_added,     action: 'added'},
+    {label: '🔴 RED dropped off',   items: changes.red_removed,   action: 'removed'},
+  ];
+  const total = buckets.reduce((s,b) => s + (b.items?.length || 0), 0);
+  if (total === 0) {
+    return '<p class="empty">No changes since last refresh.</p>';
+  }
+  const head = `<table>
+    <thead><tr>
+      <th>Bucket</th><th>Action</th><th>Company</th><th>Sym</th><th class="num">Mkt Cap</th>
+    </tr></thead><tbody>`;
+  const body = buckets.flatMap(b =>
+    (b.items || []).map(item => `<tr class="change-${b.action}">
+      <td>${b.label}</td>
+      <td><span class="badge badge-${b.action}">${b.action.toUpperCase()}</span></td>
+      <td>${item.name}</td>
+      <td><strong>${item.sym}</strong></td>
+      <td class="num">${fmtMcap(item.mcap)}</td>
+    </tr>`)
+  ).join('');
+  return head + body + '</tbody></table>';
+}
+
 async function load() {
   try {
     const res = await fetch('results.json?t=' + Date.now());
@@ -74,6 +107,7 @@ async function load() {
     document.getElementById('updated').textContent = fmtUpd(data.updated_at);
     document.getElementById('stats').textContent =
       `${data.scanned_count} scanned in ${data.scan_seconds}s · ${data.both_green.length} green / ${data.both_red.length} red`;
+    document.getElementById('changes-table').innerHTML = renderChanges(data.changes);
     document.getElementById('green-table').innerHTML = renderTable(data.both_green, 'green');
     document.getElementById('red-table').innerHTML = renderTable(data.both_red, 'red');
   } catch (e) {
