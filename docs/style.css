@@ -56,10 +56,10 @@ td strong { color: var(--fg); font-weight: 600; }
   display: inline-block; padding: 2px 8px; border-radius: 4px;
   font-size: 11px; font-weight: 600; letter-spacing: 0.05em;
 }
-.badge-added { background: var(--green-dim); color: var(--green); }
-.badge-removed { background: #2a2a2a; color: var(--dim); }
-tr.change-added td:first-child { border-left: 3px solid var(--green); }
-tr.change-removed td:first-child { border-left: 3px solid var(--dim); opacity: 0.7; }
+.badge-green { background: var(--green-dim); color: var(--green); }
+.badge-red   { background: var(--red-dim);   color: var(--red); }
+/* "removed" still uses bucket color, but slightly faded */
+.badge-removed { opacity: 0.65; text-decoration: line-through; }
 
 /* Sortable table headers */
 th.sortable { cursor: pointer; user-select: none; transition: color 0.15s; }
