@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-28T20:04:18.203881+00:00",
-  "scan_seconds": 2.47,
-  "scanned_count": 503,
+  "updated_at": "2026-04-28T20:09:23.126844+00:00",
+  "scan_seconds": 3.06,
+  "scanned_count": 501,
   "both_green": [
     {
       "sym": "BRK.B",
@@ -352,42 +352,10 @@
     }
   ],
   "changes": {
-    "green_added": [
-      {
-        "sym": "VZ",
-        "name": "Verizon",
-        "mcap": 190,
-        "price": 47.25,
-        "basis": 47.23,
-        "bxt_today": 1.76,
-        "ath": 62.5,
-        "pct_to_ath": 32.3
-      },
-      {
-        "sym": "TRGP",
-        "name": "Targa Resources",
-        "mcap": 40,
-        "price": 248.37,
-        "basis": 241.67,
-        "bxt_today": 0.03,
-        "ath": 253.87,
-        "pct_to_ath": 2.2
-      }
-    ],
+    "green_added": [],
     "green_removed": [],
-    "red_added": [
-      {
-        "sym": "AME",
-        "name": "AME",
-        "mcap": 0,
-        "price": 228.95,
-        "basis": 229.12,
-        "bxt_today": -0.59,
-        "ath": 242.05,
-        "pct_to_ath": 5.7
-      }
-    ],
+    "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-04-28T19:59:13.822538+00:00"
+    "compared_to": "2026-04-28T20:04:18.203881+00:00"
   }
 }
