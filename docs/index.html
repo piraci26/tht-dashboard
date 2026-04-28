@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>THT Dual Scan — S&P 500</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header>
+<h1>THT Dual Scan</h1>
+<div class="meta">
+  <span id="updated">Loading...</span>
+  <span class="separator">·</span>
+  <span id="stats"></span>
+</div>
+<p class="subtitle">S&P 500 names where both <strong>THT Fair Value Bands</strong> AND <strong>B-Xtrender</strong> flipped on the same day.</p>
+</header>
+
+<main>
+<section class="green">
+<h2><span class="dot dot-green"></span>Both flipped GREEN today</h2>
+<div id="green-table" class="table-wrap"></div>
+</section>
+
+<section class="red">
+<h2><span class="dot dot-red"></span>Both flipped RED today</h2>
+<div id="red-table" class="table-wrap"></div>
+</section>
+</main>
+
+<footer>
+<p>Auto-refreshes every 30 seconds. Yahoo Finance daily OHLCV. Indicator math from open-source Pine.</p>
+</footer>
+
+<script>
+const fmtMcap = b => !b ? '—' : b >= 1000 ? `$${(b/1000).toFixed(2)}T` : `$${b}B`;
+const fmtPct  = p => p == null ? '—' : `+${p.toFixed(1)}%`;
+const fmtUpd  = iso => {
+  const d = new Date(iso);
+  const h = d.getUTCHours().toString().padStart(2,'0');
+  const m = d.getUTCMinutes().toString().padStart(2,'0');
+  return `Updated ${d.getUTCFullYear()}-${(d.getUTCMonth()+1).toString().padStart(2,'0')}-${d.getUTCDate().toString().padStart(2,'0')} ${h}:${m} UTC`;
+};
+
+function renderTable(rows, sectionClass) {
+  if (!rows || rows.length === 0) {
+    return '<p class="empty">No flips in this bucket.</p>';
+  }
+  const head = `<table>
+    <thead><tr>
+      <th>#</th><th>Company</th><th>Sym</th>
+      <th class="num">Mkt Cap</th><th class="num">Price</th>
+      <th class="num">Basis</th><th class="num">BXT</th>
+      <th class="num">% to ATH</th>
+    </tr></thead><tbody>`;
+  const body = rows.map((r,i) => `<tr>
+    <td class="num">${i+1}</td>
+    <td>${r.name}</td>
+    <td><strong>${r.sym}</strong></td>
+    <td class="num">${fmtMcap(r.mcap)}</td>
+    <td class="num">$${r.price.toFixed(2)}</td>
+    <td class="num">$${r.basis.toFixed(2)}</td>
+    <td class="num ${r.bxt_today >= 0 ? 'pos' : 'neg'}">${r.bxt_today.toFixed(2)}</td>
+    <td class="num">${fmtPct(r.pct_to_ath)}</td>
+  </tr>`).join('');
+  return head + body + '</tbody></table>';
+}
+
+async function load() {
+  try {
+    const res = await fetch('results.json?t=' + Date.now());
+    const data = await res.json();
+    document.getElementById('updated').textContent = fmtUpd(data.updated_at);
+    document.getElementById('stats').textContent =
+      `${data.scanned_count} scanned in ${data.scan_seconds}s · ${data.both_green.length} green / ${data.both_red.length} red`;
+    document.getElementById('green-table').innerHTML = renderTable(data.both_green, 'green');
+    document.getElementById('red-table').innerHTML = renderTable(data.both_red, 'red');
+  } catch (e) {
+    document.getElementById('updated').textContent = 'Failed to load results.json';
+  }
+}
+
+load();
+setInterval(load, 30000);
+</script>
+</body>
+</html>
