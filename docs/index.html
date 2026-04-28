@@ -130,10 +130,10 @@ let currentData = null;
 function renderChanges(changes) {
   if (!changes) return '<p class="empty">No prior run to compare to.</p>';
   const buckets = [
-    {label: '🟢 New GREEN flip',   items: changes.green_added,   action: 'added'},
-    {label: '🟢 GREEN dropped off', items: changes.green_removed, action: 'removed'},
-    {label: '🔴 New RED flip',     items: changes.red_added,     action: 'added'},
-    {label: '🔴 RED dropped off',   items: changes.red_removed,   action: 'removed'},
+    {label: '🟢 New GREEN',     items: changes.green_added,   action: 'added'},
+    {label: '🟢 GREEN dropped', items: changes.green_removed, action: 'removed'},
+    {label: '🔴 New RED',       items: changes.red_added,     action: 'added'},
+    {label: '🔴 RED dropped',   items: changes.red_removed,   action: 'removed'},
   ];
   const total = buckets.reduce((s,b) => s + (b.items?.length || 0), 0);
   if (total === 0) {
@@ -141,8 +141,17 @@ function renderChanges(changes) {
   }
   const head = `<table>
     <thead><tr>
-      <th>Bucket</th><th>Action</th><th>Company</th><th>Sym</th><th class="num">Mkt Cap</th>
+      <th>Bucket</th><th>Action</th>
+      <th>Company</th><th>Sym</th>
+      <th class="num">Mkt Cap</th>
+      <th class="num">Price</th>
+      <th class="num">Basis</th>
+      <th class="num">BXT</th>
+      <th class="num">ATH</th>
+      <th class="num">% to ATH</th>
     </tr></thead><tbody>`;
+  const cell = (v, prefix='', suffix='') => v == null ? '—' : `${prefix}${typeof v === 'number' ? v.toFixed(2) : v}${suffix}`;
+  const bxtCell = v => v == null ? '<td class="num">—</td>' : `<td class="num ${v >= 0 ? 'pos' : 'neg'}">${v.toFixed(2)}</td>`;
   const body = buckets.flatMap(b =>
     (b.items || []).map(item => `<tr class="change-${b.action}">
       <td>${b.label}</td>
@@ -150,6 +159,11 @@ function renderChanges(changes) {
       <td>${item.name}</td>
       <td><strong>${item.sym}</strong></td>
       <td class="num">${fmtMcap(item.mcap)}</td>
+      <td class="num">${cell(item.price, '$')}</td>
+      <td class="num">${cell(item.basis, '$')}</td>
+      ${bxtCell(item.bxt_today)}
+      <td class="num">${cell(item.ath, '$')}</td>
+      <td class="num">${item.pct_to_ath != null ? '+' + item.pct_to_ath.toFixed(1) + '%' : '—'}</td>
     </tr>`)
   ).join('');
   return head + body + '</tbody></table>';

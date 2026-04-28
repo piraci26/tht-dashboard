@@ -201,25 +201,35 @@ def main():
 
     cur_g_set = {r["sym"] for r in both_g}
     cur_r_set = {r["sym"] for r in both_r}
-    name_lookup = {r["sym"]: r["name"] for r in both_g + both_r}
-    # for removed names we need names too — fall back to prev data
+    cur_lookup = {r["sym"]: r for r in both_g + both_r}
+    prev_lookup = {}
     if prev_g_set or prev_r_set:
         try:
             for pr in prev.get("both_green", []) + prev.get("both_red", []):
-                name_lookup.setdefault(pr["sym"], pr.get("name", pr["sym"]))
+                prev_lookup[pr["sym"]] = pr
         except Exception: pass
 
-    def annotate(syms, kind):
-        out = []
-        for s in sorted(syms, key=lambda x: -MCAPS.get(x, 0)):
-            out.append({"sym": s, "name": name_lookup.get(s, NAMES.get(s, s)), "mcap": MCAPS.get(s, 0), "kind": kind})
-        return out
+    def enrich(sym, action):
+        # Use current data for ADDED, previous data for REMOVED
+        src = cur_lookup.get(sym) if action == "added" else prev_lookup.get(sym, cur_lookup.get(sym))
+        if not src:
+            return {"sym": sym, "name": NAMES.get(sym, sym), "mcap": MCAPS.get(sym, 0)}
+        return {
+            "sym": src["sym"], "name": src.get("name", sym),
+            "mcap": src.get("mcap", MCAPS.get(sym, 0)),
+            "price": src.get("price"), "basis": src.get("basis"),
+            "bxt_today": src.get("bxt_today"),
+            "ath": src.get("ath"), "pct_to_ath": src.get("pct_to_ath"),
+        }
+
+    def annotate(syms, action):
+        return [enrich(s, action) for s in sorted(syms, key=lambda x: -MCAPS.get(x, 0))]
 
     changes = {
-        "green_added":   annotate(cur_g_set - prev_g_set, "green"),
-        "green_removed": annotate(prev_g_set - cur_g_set, "green"),
-        "red_added":     annotate(cur_r_set - prev_r_set, "red"),
-        "red_removed":   annotate(prev_r_set - cur_r_set, "red"),
+        "green_added":   annotate(cur_g_set - prev_g_set, "added"),
+        "green_removed": annotate(prev_g_set - cur_g_set, "removed"),
+        "red_added":     annotate(cur_r_set - prev_r_set, "added"),
+        "red_removed":   annotate(prev_r_set - cur_r_set, "removed"),
         "compared_to":   prev_ts,
     }
 
