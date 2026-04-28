@@ -62,6 +62,7 @@ const COLS = [
   {key:'price',       label:'Price',     cls:'num',  type:'num'},
   {key:'basis',       label:'Basis',     cls:'num',  type:'num'},
   {key:'bxt_today',   label:'BXT',       cls:'num',  type:'num'},
+  {key:'ath',         label:'ATH',       cls:'num',  type:'num'},
   {key:'pct_to_ath',  label:'% to ATH',  cls:'num',  type:'num'},
 ];
 
@@ -102,6 +103,7 @@ function renderTable(rows, tableId) {
     <td class="num">$${r.price.toFixed(2)}</td>
     <td class="num">$${r.basis.toFixed(2)}</td>
     <td class="num ${r.bxt_today >= 0 ? 'pos' : 'neg'}">${r.bxt_today.toFixed(2)}</td>
+    <td class="num">${r.ath != null ? '$' + r.ath.toFixed(2) : '—'}</td>
     <td class="num">${fmtPct(r.pct_to_ath)}</td>
   </tr>`).join('');
   return head + body + '</tbody></table>';
