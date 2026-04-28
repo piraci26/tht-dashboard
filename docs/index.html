@@ -3,6 +3,9 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<meta http-equiv="Pragma" content="no-cache">
+<meta http-equiv="Expires" content="0">
 <title>THT Dual Scan — S&P 500</title>
 <link rel="stylesheet" href="style.css">
 </head>
@@ -117,6 +120,23 @@ async function load() {
 
 load();
 setInterval(load, 30000);
+
+// Re-fetch immediately when the tab regains focus (defeats browser throttling)
+document.addEventListener('visibilitychange', () => {
+  if (document.visibilityState === 'visible') load();
+});
+window.addEventListener('focus', load);
+
+// Watchdog: hard reload the whole page if data is more than 12 min old
+// (catches edge cases where setInterval got fully suspended)
+setInterval(() => {
+  const updEl = document.getElementById('updated').textContent;
+  const m = updEl.match(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2})/);
+  if (!m) return;
+  const dataTime = Date.UTC(+m[1], +m[2]-1, +m[3], +m[4], +m[5]);
+  const ageMin = (Date.now() - dataTime) / 60000;
+  if (ageMin > 12) location.reload();
+}, 60000);
 </script>
 </body>
 </html>
