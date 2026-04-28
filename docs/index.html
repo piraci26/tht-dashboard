@@ -51,18 +51,50 @@ const fmtUpd  = iso => {
   return `Updated ${d.getUTCFullYear()}-${(d.getUTCMonth()+1).toString().padStart(2,'0')}-${d.getUTCDate().toString().padStart(2,'0')} ${h}:${m} UTC`;
 };
 
-function renderTable(rows, sectionClass) {
+// Sort state per table id: { col, dir }
+const sortState = { 'green-table': {col:'mcap', dir:'desc'}, 'red-table': {col:'mcap', dir:'desc'} };
+
+const COLS = [
+  {key:'idx',         label:'#',         cls:'num',  type:'idx'},
+  {key:'name',        label:'Company',   cls:'',     type:'str'},
+  {key:'sym',         label:'Sym',       cls:'',     type:'str'},
+  {key:'mcap',        label:'Mkt Cap',   cls:'num',  type:'num'},
+  {key:'price',       label:'Price',     cls:'num',  type:'num'},
+  {key:'basis',       label:'Basis',     cls:'num',  type:'num'},
+  {key:'bxt_today',   label:'BXT',       cls:'num',  type:'num'},
+  {key:'pct_to_ath',  label:'% to ATH',  cls:'num',  type:'num'},
+];
+
+function sortRows(rows, col, dir) {
+  if (col === 'idx') return rows;
+  const sorted = rows.slice();
+  sorted.sort((a, b) => {
+    let av = a[col], bv = b[col];
+    if (av == null) av = (typeof bv === 'number') ? -Infinity : '';
+    if (bv == null) bv = (typeof av === 'number') ? -Infinity : '';
+    if (typeof av === 'string') return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+    return dir === 'asc' ? av - bv : bv - av;
+  });
+  return sorted;
+}
+
+function renderTable(rows, tableId) {
   if (!rows || rows.length === 0) {
     return '<p class="empty">No flips in this bucket.</p>';
   }
-  const head = `<table>
-    <thead><tr>
-      <th>#</th><th>Company</th><th>Sym</th>
-      <th class="num">Mkt Cap</th><th class="num">Price</th>
-      <th class="num">Basis</th><th class="num">BXT</th>
-      <th class="num">% to ATH</th>
-    </tr></thead><tbody>`;
-  const body = rows.map((r,i) => `<tr>
+  const state = sortState[tableId];
+  const sorted = sortRows(rows, state.col, state.dir);
+  const arrow = (key) => {
+    if (key === 'idx') return '';
+    if (state.col !== key) return '<span class="sort-arrow">↕</span>';
+    return state.dir === 'asc' ? '<span class="sort-arrow active">↑</span>' : '<span class="sort-arrow active">↓</span>';
+  };
+  const headCells = COLS.map(c => {
+    const cls = (c.cls + ' sortable' + (state.col === c.key ? ' sorted' : '')).trim();
+    return `<th class="${cls}" data-col="${c.key}" data-table="${tableId}">${c.label} ${arrow(c.key)}</th>`;
+  }).join('');
+  const head = `<table><thead><tr>${headCells}</tr></thead><tbody>`;
+  const body = sorted.map((r,i) => `<tr>
     <td class="num">${i+1}</td>
     <td>${r.name}</td>
     <td><strong>${r.sym}</strong></td>
@@ -74,6 +106,24 @@ function renderTable(rows, sectionClass) {
   </tr>`).join('');
   return head + body + '</tbody></table>';
 }
+
+// Persistent click handler delegated on body so it survives re-renders
+document.addEventListener('click', e => {
+  const th = e.target.closest('th.sortable');
+  if (!th) return;
+  const col = th.dataset.col;
+  const tableId = th.dataset.table;
+  if (!col || !tableId || col === 'idx') return;
+  const state = sortState[tableId];
+  if (state.col === col) state.dir = state.dir === 'asc' ? 'desc' : 'asc';
+  else { state.col = col; state.dir = (col === 'name' || col === 'sym') ? 'asc' : 'desc'; }
+  if (currentData) {
+    const rows = tableId === 'green-table' ? currentData.both_green : currentData.both_red;
+    document.getElementById(tableId).innerHTML = renderTable(rows, tableId);
+  }
+});
+
+let currentData = null;
 
 function renderChanges(changes) {
   if (!changes) return '<p class="empty">No prior run to compare to.</p>';
@@ -110,9 +160,10 @@ async function load() {
     document.getElementById('updated').textContent = fmtUpd(data.updated_at);
     document.getElementById('stats').textContent =
       `${data.scanned_count} scanned in ${data.scan_seconds}s · ${data.both_green.length} green / ${data.both_red.length} red`;
+    currentData = data;
     document.getElementById('changes-table').innerHTML = renderChanges(data.changes);
-    document.getElementById('green-table').innerHTML = renderTable(data.both_green, 'green');
-    document.getElementById('red-table').innerHTML = renderTable(data.both_red, 'red');
+    document.getElementById('green-table').innerHTML = renderTable(data.both_green, 'green-table');
+    document.getElementById('red-table').innerHTML = renderTable(data.both_red, 'red-table');
   } catch (e) {
     document.getElementById('updated').textContent = 'Failed to load results.json';
   }
