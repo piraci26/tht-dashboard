@@ -56,10 +56,10 @@ td strong { color: var(--fg); font-weight: 600; }
   display: inline-block; padding: 2px 8px; border-radius: 4px;
   font-size: 11px; font-weight: 600; letter-spacing: 0.05em;
 }
-.badge-green { background: var(--green-dim); color: var(--green); }
-.badge-red   { background: var(--red-dim);   color: var(--red); }
-/* "removed" still uses bucket color, but slightly faded */
-.badge-removed { opacity: 0.65; text-decoration: line-through; }
+.badge-green { background: var(--green-dim) !important; color: var(--green) !important; border: 1px solid var(--green); }
+.badge-red   { background: var(--red-dim)   !important; color: var(--red)   !important; border: 1px solid var(--red); }
+/* "removed" — keeps bucket color but with strikethrough */
+.badge-removed { text-decoration: line-through; opacity: 0.85; }
 
 /* Sortable table headers */
 th.sortable { cursor: pointer; user-select: none; transition: color 0.15s; }

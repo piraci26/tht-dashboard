@@ -102,7 +102,7 @@ function renderTable(rows, tableId) {
     <td class="num">${fmtMcap(r.mcap)}</td>
     <td class="num">$${r.price.toFixed(2)}</td>
     <td class="num">$${r.basis.toFixed(2)}</td>
-    <td class="num ${r.bxt_today >= 0 ? 'pos' : 'neg'}">${r.bxt_today.toFixed(2)}</td>
+    <td class="num">${r.bxt_today.toFixed(2)}</td>
     <td class="num">${r.ath != null ? '$' + r.ath.toFixed(2) : '—'}</td>
     <td class="num">${fmtPct(r.pct_to_ath)}</td>
   </tr>`).join('');
