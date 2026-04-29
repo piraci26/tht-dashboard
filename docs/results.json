@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-29T06:20:37.908260+00:00",
-  "scan_seconds": 2.38,
+  "updated_at": "2026-04-29T06:25:42.359419+00:00",
+  "scan_seconds": 2.49,
   "scanned_count": 502,
   "both_green": [
     {
@@ -186,21 +186,6 @@
       "pct_to_ath": 35.2
     },
     {
-      "sym": "LRCX",
-      "name": "Lam Research",
-      "mcap": 92,
-      "price": 251.23,
-      "basis": 251.28,
-      "bxt_today": -4.22,
-      "bxt_yest": 1.11,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 275.84,
-      "pct_to_ath": 9.8
-    },
-    {
       "sym": "EMR",
       "name": "Emerson Electric",
       "mcap": 80,
@@ -355,7 +340,18 @@
     "green_added": [],
     "green_removed": [],
     "red_added": [],
-    "red_removed": [],
-    "compared_to": "2026-04-29T06:15:33.812250+00:00"
+    "red_removed": [
+      {
+        "sym": "LRCX",
+        "name": "Lam Research",
+        "mcap": 92,
+        "price": 251.23,
+        "basis": 251.28,
+        "bxt_today": -4.22,
+        "ath": 275.84,
+        "pct_to_ath": 9.8
+      }
+    ],
+    "compared_to": "2026-04-29T06:20:37.908260+00:00"
   }
 }
