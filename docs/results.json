@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-29T06:40:54.797729+00:00",
-  "scan_seconds": 2.47,
+  "updated_at": "2026-04-29T06:45:59.586011+00:00",
+  "scan_seconds": 2.87,
   "scanned_count": 503,
   "both_green": [
     {
@@ -201,21 +201,6 @@
       "pct_to_ath": 9.8
     },
     {
-      "sym": "EMR",
-      "name": "Emerson Electric",
-      "mcap": 80,
-      "price": 138.42,
-      "basis": 140.38,
-      "bxt_today": -0.92,
-      "bxt_yest": 3.98,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 165.15,
-      "pct_to_ath": 19.3
-    },
-    {
       "sym": "HLT",
       "name": "Hilton",
       "mcap": 80,
@@ -229,6 +214,21 @@
       "bxt_r": true,
       "ath": 344.75,
       "pct_to_ath": 6.6
+    },
+    {
+      "sym": "EMR",
+      "name": "Emerson Electric",
+      "mcap": 80,
+      "price": 138.42,
+      "basis": 140.38,
+      "bxt_today": -0.92,
+      "bxt_yest": 3.98,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 165.15,
+      "pct_to_ath": 19.3
     },
     {
       "sym": "PCAR",
@@ -356,6 +356,6 @@
     "green_removed": [],
     "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-04-29T06:35:50.627537+00:00"
+    "compared_to": "2026-04-29T06:40:54.797729+00:00"
   }
 }
