@@ -10,6 +10,17 @@ from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 TICKERS = json.load(open(os.path.join(HERE, "sp500_tickers.json")))
+try:
+    SHARES = {k: v["shares"] for k, v in json.load(open(os.path.join(HERE, "shares_outstanding.json"))).items()}
+except FileNotFoundError:
+    SHARES = {}
+
+def live_mcap(sym, price):
+    """Live mcap in $B = price × shares_outstanding / 1e9. Falls back to MCAPS dict."""
+    s = SHARES.get(sym)
+    if s and price:
+        return round(price * s / 1e9)
+    return MCAPS.get(sym, 0)
 
 # ─── Indicator math (ported from THT Pine source) ─────────────────────────
 def sma(values, length):
@@ -166,7 +177,7 @@ def main():
         bxt_r = bxt["today"] < 0 and bxt["yest"] >= 0
         if not (fvb_g or fvb_r or bxt_g or bxt_r): continue
         rows.append({
-            "sym": sym, "name": NAMES.get(sym, sym), "mcap": MCAPS.get(sym, 0),
+            "sym": sym, "name": NAMES.get(sym, sym), "mcap": live_mcap(sym, fvb["price"]),
             "price": round(fvb["price"], 2), "basis": round(fvb["basis"], 2),
             "bxt_today": round(bxt["today"], 2), "bxt_yest": round(bxt["yest"], 2),
             "fvb_g": fvb_g, "fvb_r": fvb_r, "bxt_g": bxt_g, "bxt_r": bxt_r,
