@@ -1,239 +1,278 @@
 {
-  "updated_at": "2026-04-29T19:53:48.970395+00:00",
-  "scan_seconds": 2.73,
+  "updated_at": "2026-04-29T19:58:53.318704+00:00",
+  "scan_seconds": 2.66,
   "scanned_count": 503,
-  "both_green": [],
+  "both_green": [
+    {
+      "sym": "TMUS",
+      "name": "TMUS",
+      "mcap": 218,
+      "price": 198.28,
+      "basis": 194.87,
+      "bxt_today": 0.31,
+      "bxt_yest": -12.81,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 276.49,
+      "pct_to_ath": 39.4
+    }
+  ],
   "both_red": [
     {
       "sym": "PLD",
       "name": "PLD",
-      "mcap": 132,
-      "price": 138.64,
-      "basis": 139.04,
-      "bxt_today": -2.62,
+      "mcap": 133,
+      "price": 138.92,
+      "basis": 139.06,
+      "bxt_today": -2.2,
       "bxt_yest": 3.62,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 174.54,
-      "pct_to_ath": 25.9
+      "pct_to_ath": 25.6
     },
     {
       "sym": "PH",
       "name": "PH",
       "mcap": 120,
-      "price": 948.56,
-      "basis": 961.41,
-      "bxt_today": -3.52,
+      "price": 947.03,
+      "basis": 961.34,
+      "bxt_today": -3.78,
       "bxt_yest": 1.03,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 1034.96,
-      "pct_to_ath": 9.1
+      "pct_to_ath": 9.3
+    },
+    {
+      "sym": "GM",
+      "name": "General Motors",
+      "mcap": 69,
+      "price": 76.55,
+      "basis": 77.29,
+      "bxt_today": -0.4,
+      "bxt_yest": 6.08,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 87.62,
+      "pct_to_ath": 14.5
     },
     {
       "sym": "HOOD",
       "name": "HOOD",
       "mcap": 64,
-      "price": 71.21,
+      "price": 71.12,
       "basis": 78.84,
-      "bxt_today": -4.62,
+      "bxt_today": -4.67,
       "bxt_yest": 6.91,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 153.86,
-      "pct_to_ath": 116.1
+      "pct_to_ath": 116.3
     },
     {
       "sym": "ALL",
       "name": "ALL",
       "mcap": 55,
-      "price": 212.93,
-      "basis": 213.22,
-      "bxt_today": -4.06,
+      "price": 212.46,
+      "basis": 213.2,
+      "bxt_today": -4.73,
       "bxt_yest": 0.64,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 219.48,
-      "pct_to_ath": 3.1
+      "pct_to_ath": 3.3
     },
     {
       "sym": "GWW",
       "name": "Grainger",
       "mcap": 54,
-      "price": 1144.17,
-      "basis": 1148.1,
-      "bxt_today": -3.1,
+      "price": 1145.7,
+      "basis": 1148.17,
+      "bxt_today": -2.79,
       "bxt_yest": 1.21,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 1227.66,
-      "pct_to_ath": 7.3
+      "pct_to_ath": 7.2
     },
     {
       "sym": "PSA",
       "name": "PSA",
       "mcap": 52,
-      "price": 293.21,
-      "basis": 297.31,
-      "bxt_today": -3.98,
+      "price": 293.95,
+      "basis": 297.35,
+      "bxt_today": -3.63,
       "bxt_yest": 2.85,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 421.76,
-      "pct_to_ath": 43.8
+      "pct_to_ath": 43.5
     },
     {
       "sym": "COIN",
       "name": "COIN",
       "mcap": 48,
-      "price": 180.85,
-      "basis": 187.53,
-      "bxt_today": -1.54,
+      "price": 181.55,
+      "basis": 187.56,
+      "bxt_today": -1.3,
       "bxt_yest": 5.73,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 444.65,
-      "pct_to_ath": 145.9
+      "pct_to_ath": 144.9
     },
     {
       "sym": "TER",
       "name": "TER",
       "mcap": 48,
-      "price": 303.92,
-      "basis": 362.03,
-      "bxt_today": -13.79,
+      "price": 305.86,
+      "basis": 362.12,
+      "bxt_today": -13.54,
       "bxt_yest": 6.31,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 422.11,
-      "pct_to_ath": 38.9
+      "pct_to_ath": 38.0
     },
     {
       "sym": "ODFL",
       "name": "ODFL",
       "mcap": 44,
-      "price": 210.18,
-      "basis": 212.08,
-      "bxt_today": -3.66,
+      "price": 209.59,
+      "basis": 212.06,
+      "bxt_today": -4.03,
       "bxt_yest": 7.48,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 233.79,
-      "pct_to_ath": 11.2
+      "pct_to_ath": 11.5
     },
     {
       "sym": "CBRE",
       "name": "CBRE",
       "mcap": 41,
-      "price": 143.14,
-      "basis": 145.06,
-      "bxt_today": -1.39,
+      "price": 142.57,
+      "basis": 145.03,
+      "bxt_today": -1.97,
       "bxt_yest": 5.43,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 174.27,
-      "pct_to_ath": 21.7
+      "pct_to_ath": 22.2
     },
     {
       "sym": "HBAN",
       "name": "HBAN",
       "mcap": 33,
-      "price": 16.33,
+      "price": 16.3,
       "basis": 16.48,
-      "bxt_today": -0.16,
+      "bxt_today": -0.65,
       "bxt_yest": 4.3,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 30.89,
-      "pct_to_ath": 89.2
+      "pct_to_ath": 89.5
     },
     {
       "sym": "MTB",
       "name": "M&T Bank",
       "mcap": 32,
-      "price": 215.92,
-      "basis": 217.1,
-      "bxt_today": -2.03,
+      "price": 215.68,
+      "basis": 217.09,
+      "bxt_today": -2.29,
       "bxt_yest": 0.72,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 239.0,
-      "pct_to_ath": 10.7
+      "pct_to_ath": 10.8
     },
     {
       "sym": "TDY",
       "name": "TDY",
       "mcap": 29,
-      "price": 630.35,
-      "basis": 642.63,
-      "bxt_today": -3.26,
+      "price": 632.36,
+      "basis": 642.73,
+      "bxt_today": -2.66,
       "bxt_yest": 3.29,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 693.38,
-      "pct_to_ath": 10.0
+      "pct_to_ath": 9.6
     },
     {
       "sym": "WY",
       "name": "WY",
-      "mcap": 18,
-      "price": 24.28,
+      "mcap": 17,
+      "price": 24.24,
       "basis": 24.69,
-      "bxt_today": -1.64,
+      "bxt_today": -2.05,
       "bxt_yest": 6.29,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 87.09,
-      "pct_to_ath": 258.7
-    },
-    {
-      "sym": "BAX",
-      "name": "Baxter",
-      "mcap": 9,
-      "price": 16.84,
-      "basis": 17.68,
-      "bxt_today": -0.23,
-      "bxt_yest": 11.91,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 95.19,
-      "pct_to_ath": 465.3
+      "pct_to_ath": 259.3
     }
   ],
   "changes": {
-    "green_added": [],
+    "green_added": [
+      {
+        "sym": "TMUS",
+        "name": "TMUS",
+        "mcap": 218,
+        "price": 198.28,
+        "basis": 194.87,
+        "bxt_today": 0.31,
+        "ath": 276.49,
+        "pct_to_ath": 39.4
+      }
+    ],
     "green_removed": [],
     "red_added": [
+      {
+        "sym": "GM",
+        "name": "General Motors",
+        "mcap": 69,
+        "price": 76.55,
+        "basis": 77.29,
+        "bxt_today": -0.4,
+        "ath": 87.62,
+        "pct_to_ath": 14.5
+      }
+    ],
+    "red_removed": [
       {
         "sym": "BAX",
         "name": "Baxter",
@@ -245,18 +284,6 @@
         "pct_to_ath": 465.3
       }
     ],
-    "red_removed": [
-      {
-        "sym": "GM",
-        "name": "General Motors",
-        "mcap": 69,
-        "price": 76.41,
-        "basis": 77.28,
-        "bxt_today": -0.73,
-        "ath": 87.62,
-        "pct_to_ath": 14.7
-      }
-    ],
-    "compared_to": "2026-04-29T19:48:44.510410+00:00"
+    "compared_to": "2026-04-29T19:53:48.970395+00:00"
   }
 }
