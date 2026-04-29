@@ -113,10 +113,12 @@ def fetch_ohlc(sym):
         t = result["timestamp"]
         q = result["indicators"]["quote"][0]
         bars = []
+        v = q.get("volume", [None]*len(t))
         for i, ts in enumerate(t):
             if q["open"][i] is None: continue
             bars.append({"time": ts, "open": q["open"][i], "high": q["high"][i],
-                         "low": q["low"][i], "close": q["close"][i]})
+                         "low": q["low"][i], "close": q["close"][i],
+                         "volume": v[i] if v[i] is not None else 0})
         return sym, bars
     except Exception:
         return sym, None
