@@ -46,9 +46,13 @@ const fmtMcap = b => !b ? '—' : b >= 1000 ? `$${(b/1000).toFixed(2)}T` : `$${b
 const fmtPct  = p => p == null ? '—' : `+${p.toFixed(1)}%`;
 const fmtUpd  = iso => {
   const d = new Date(iso);
-  const h = d.getUTCHours().toString().padStart(2,'0');
-  const m = d.getUTCMinutes().toString().padStart(2,'0');
-  return `Updated ${d.getUTCFullYear()}-${(d.getUTCMonth()+1).toString().padStart(2,'0')}-${d.getUTCDate().toString().padStart(2,'0')} ${h}:${m} UTC`;
+  const parts = new Intl.DateTimeFormat('en-GB', {
+    timeZone: 'Europe/London',
+    year: 'numeric', month: '2-digit', day: '2-digit',
+    hour: '2-digit', minute: '2-digit', hour12: false,
+    timeZoneName: 'short'
+  }).formatToParts(d).reduce((o,p) => (o[p.type]=p.value, o), {});
+  return `Updated ${parts.year}-${parts.month}-${parts.day} ${parts.hour}:${parts.minute} ${parts.timeZoneName}`;
 };
 
 // Sort state per table id: { col, dir }
@@ -196,11 +200,8 @@ window.addEventListener('focus', load);
 // Watchdog: hard reload the whole page if data is more than 12 min old
 // (catches edge cases where setInterval got fully suspended)
 setInterval(() => {
-  const updEl = document.getElementById('updated').textContent;
-  const m = updEl.match(/(\d{4})-(\d{2})-(\d{2}) (\d{2}):(\d{2})/);
-  if (!m) return;
-  const dataTime = Date.UTC(+m[1], +m[2]-1, +m[3], +m[4], +m[5]);
-  const ageMin = (Date.now() - dataTime) / 60000;
+  if (!currentData || !currentData.updated_at) return;
+  const ageMin = (Date.now() - new Date(currentData.updated_at)) / 60000;
   if (ageMin > 12) location.reload();
 }, 60000);
 </script>
