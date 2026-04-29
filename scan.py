@@ -101,6 +101,26 @@ def fetch(sym):
     except Exception:
         return sym, None
 
+def fetch_ohlc(sym):
+    """1y daily OHLC for charting. Writes to docs/bars/{sym}.json."""
+    sym_q = sym.replace(".", "-")
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=1y&interval=1d"
+    try:
+        req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
+        with urllib.request.urlopen(req, timeout=15) as r:
+            data = json.loads(r.read())
+        result = data["chart"]["result"][0]
+        t = result["timestamp"]
+        q = result["indicators"]["quote"][0]
+        bars = []
+        for i, ts in enumerate(t):
+            if q["open"][i] is None: continue
+            bars.append({"time": ts, "open": q["open"][i], "high": q["high"][i],
+                         "low": q["low"][i], "close": q["close"][i]})
+        return sym, bars
+    except Exception:
+        return sym, None
+
 def fetch_ath(sym):
     sym_q = sym.replace(".","-")
     url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=max&interval=1wk"
@@ -197,6 +217,17 @@ def main():
 
     both_g = sorted([r for r in rows if r["fvb_g"] and r["bxt_g"]], key=lambda x: -x["mcap"])
     both_r = sorted([r for r in rows if r["fvb_r"] and r["bxt_r"]], key=lambda x: -x["mcap"])
+
+    # Cache 1y OHLC bars for flipped tickers (so the dashboard chart can read same-origin)
+    bars_dir = os.path.join(HERE, "docs", "bars")
+    os.makedirs(bars_dir, exist_ok=True)
+    flipped_for_chart = [r["sym"] for r in (both_g + both_r)]
+    with ThreadPoolExecutor(max_workers=15) as ex:
+        for f in as_completed([ex.submit(fetch_ohlc, s) for s in flipped_for_chart]):
+            sym, bars = f.result()
+            if bars:
+                with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
+                    json.dump(bars, fh, separators=(',', ':'))
 
     # Diff vs previous run
     out_path = os.path.join(HERE, "docs", "results.json")
