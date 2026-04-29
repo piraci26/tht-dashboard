@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-29T12:45:28.685199+00:00",
-  "scan_seconds": 2.53,
-  "scanned_count": 503,
+  "updated_at": "2026-04-29T12:50:47.857990+00:00",
+  "scan_seconds": 17.29,
+  "scanned_count": 501,
   "both_green": [
     {
       "sym": "BRK.B",
@@ -60,8 +60,8 @@
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
-      "ath": 62.5,
-      "pct_to_ath": 32.3
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "WMB",
@@ -356,6 +356,6 @@
     "green_removed": [],
     "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-04-29T12:40:24.360467+00:00"
+    "compared_to": "2026-04-29T12:45:28.685199+00:00"
   }
 }
