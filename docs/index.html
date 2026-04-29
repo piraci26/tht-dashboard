@@ -8,6 +8,7 @@
 <meta http-equiv="Expires" content="0">
 <title>THT Dual Scan — S&P 500</title>
 <link rel="stylesheet" href="style.css">
+<script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
 </head>
 <body>
 <header>
@@ -17,7 +18,7 @@
   <span class="separator">·</span>
   <span id="stats"></span>
 </div>
-<p class="subtitle">S&P 500 names where both <strong>THT Fair Value Bands</strong> AND <strong>B-Xtrender</strong> flipped on the same day.</p>
+<p class="subtitle">S&P 500 names where both <strong>THT Fair Value Bands</strong> AND <strong>B-Xtrender</strong> flipped on the same day. Click any row to expand chart.</p>
 </header>
 
 <main>
@@ -55,7 +56,6 @@ const fmtUpd  = iso => {
   return `Updated ${parts.year}-${parts.month}-${parts.day} ${parts.hour}:${parts.minute} ${parts.timeZoneName}`;
 };
 
-// Sort state per table id: { col, dir }
 const sortState = { 'green-table': {col:'mcap', dir:'desc'}, 'red-table': {col:'mcap', dir:'desc'} };
 
 const COLS = [
@@ -99,7 +99,7 @@ function renderTable(rows, tableId) {
     return `<th class="${cls}" data-col="${c.key}" data-table="${tableId}">${c.label} ${arrow(c.key)}</th>`;
   }).join('');
   const head = `<table><thead><tr>${headCells}</tr></thead><tbody>`;
-  const body = sorted.map((r,i) => `<tr>
+  const body = sorted.map((r,i) => `<tr class="row-clickable" data-sym="${r.sym}">
     <td class="num">${i+1}</td>
     <td>${r.name}</td>
     <td><strong>${r.sym}</strong></td>
@@ -113,19 +113,374 @@ function renderTable(rows, tableId) {
   return head + body + '</tbody></table>';
 }
 
-// Persistent click handler delegated on body so it survives re-renders
+// ─────────────────────────────────────────────────────────────────
+// Indicator math (mirrors scan.py — THT Fair Value Bands + B-Xtrender)
+// ─────────────────────────────────────────────────────────────────
+function sma(arr, len) {
+  const out = new Array(arr.length).fill(null);
+  for (let i = len - 1; i < arr.length; i++) {
+    let s = 0; for (let j = i - len + 1; j <= i; j++) s += arr[j];
+    out[i] = s / len;
+  }
+  return out;
+}
+function stdev(arr, len) {
+  const out = new Array(arr.length).fill(null);
+  for (let i = len - 1; i < arr.length; i++) {
+    let m = 0; for (let j = i - len + 1; j <= i; j++) m += arr[j]; m /= len;
+    let v = 0; for (let j = i - len + 1; j <= i; j++) v += (arr[j] - m) ** 2;
+    out[i] = Math.sqrt(v / len);
+  }
+  return out;
+}
+function ema(arr, len) {
+  const out = new Array(arr.length).fill(null);
+  if (arr.length < len) return out;
+  const k = 2 / (len + 1);
+  let e = 0; for (let i = 0; i < len; i++) e += arr[i]; e /= len;
+  out[len - 1] = e;
+  for (let i = len; i < arr.length; i++) { e = arr[i] * k + e * (1 - k); out[i] = e; }
+  return out;
+}
+function rsi(arr, len) {
+  const out = new Array(arr.length).fill(null);
+  if (arr.length <= len) return out;
+  let gains = 0, losses = 0;
+  for (let i = 1; i <= len; i++) {
+    const ch = arr[i] - arr[i - 1];
+    if (ch > 0) gains += ch; else losses -= ch;
+  }
+  let avgG = gains / len, avgL = losses / len;
+  out[len] = 100 - 100 / (1 + (avgL === 0 ? Infinity : avgG / avgL));
+  for (let i = len + 1; i < arr.length; i++) {
+    const ch = arr[i] - arr[i - 1];
+    const g = ch > 0 ? ch : 0, l = ch < 0 ? -ch : 0;
+    avgG = (avgG * (len - 1) + g) / len;
+    avgL = (avgL * (len - 1) + l) / len;
+    out[i] = 100 - 100 / (1 + (avgL === 0 ? Infinity : avgG / avgL));
+  }
+  return out;
+}
+
+function computeFVB(closes) {
+  const basis = sma(closes, 20);
+  const sd    = stdev(closes, 20);
+  const upper = basis.map((b, i) => b == null ? null : b + 2 * sd[i]);
+  const lower = basis.map((b, i) => b == null ? null : b - 2 * sd[i]);
+  return { basis, upper, lower };
+}
+
+function computeBXT(closes) {
+  const e5  = ema(closes, 5);
+  const e20 = ema(closes, 20);
+  const diff = e5.map((v, i) => v != null && e20[i] != null ? v - e20[i] : null);
+  const valid = diff.filter(v => v != null);
+  const r = rsi(valid, 15);
+  const out = new Array(closes.length).fill(null);
+  let j = 0;
+  for (let i = 0; i < closes.length; i++) {
+    if (diff[i] != null) {
+      out[i] = r[j] != null ? r[j] - 50 : null;
+      j++;
+    }
+  }
+  return out;
+}
+
+function computeBXTLong(closes) {
+  // long-term: RSI(close, 15) - 50
+  const r = rsi(closes, 15);
+  return r.map(v => v != null ? v - 50 : null);
+}
+
+function wma(arr, len) {
+  // Weighted moving average for smoothing
+  const out = new Array(arr.length).fill(null);
+  for (let i = len - 1; i < arr.length; i++) {
+    let valid = true, num = 0, denom = 0;
+    for (let j = 0; j < len; j++) {
+      const v = arr[i - j];
+      if (v == null) { valid = false; break; }
+      const w = len - j;
+      num += v * w; denom += w;
+    }
+    if (valid) out[i] = num / denom;
+  }
+  return out;
+}
+
+// ─────────────────────────────────────────────────────────────────
+// Chart rendering
+// ─────────────────────────────────────────────────────────────────
+const TV_COLORS = {
+  bg:        '#131722',
+  text:      '#d1d4dc',
+  grid:      '#1e222d',
+  border:    '#2A2E39',
+  bull:      '#26a69a',
+  bear:      '#ef5350',
+  basis:     '#2962FF',
+  band:      '#787B86',
+  bxt_pos:   '#26a69a',
+  bxt_neg:   '#ef5350',
+};
+
+let openChartSym = null;
+
+async function fetchBars(sym) {
+  // Bars are pre-cached by scan.py in the prod repo (same origin, no CORS).
+  const url = `bars/${encodeURIComponent(sym)}.json?t=${Date.now()}`;
+  const res = await fetch(url);
+  if (!res.ok) throw new Error(`HTTP ${res.status} (no cached bars for ${sym})`);
+  return await res.json();
+}
+
+function renderChart(container, bars, sym) {
+  container.innerHTML = '';
+  const closes = bars.map(b => b.close);
+  const { basis, upper, lower } = computeFVB(closes);
+  const bxtShort = computeBXT(closes);
+  const bxtLong  = computeBXTLong(closes);
+  const bxtShortSmooth = wma(bxtShort, 5);
+  const bxtLongSmooth  = wma(bxtLong, 5);
+
+  // ─── TV-style OHLC header ─────────────────────────────────────────
+  const last = bars[bars.length - 1];
+  const prev = bars[bars.length - 2] || last;
+  const ch = last.close - prev.close;
+  const chPct = (ch / prev.close) * 100;
+  const chCol = ch >= 0 ? TV_COLORS.bull : TV_COLORS.bear;
+  const headBar = document.createElement('div');
+  headBar.className = 'tv-header';
+  headBar.innerHTML = `
+    <span class="tv-sym">${sym}</span>
+    <span class="tv-tf">· 1D ·</span>
+    <span class="tv-ohlc">O <b>${last.open.toFixed(2)}</b> H <b>${last.high.toFixed(2)}</b> L <b>${last.low.toFixed(2)}</b> C <b>${last.close.toFixed(2)}</b></span>
+    <span class="tv-change" style="color:${chCol}">${ch >= 0 ? '+' : ''}${ch.toFixed(2)} (${ch >= 0 ? '+' : ''}${chPct.toFixed(2)}%)</span>
+  `;
+  container.appendChild(headBar);
+
+  // ─── Price + FVB pane ─────────────────────────────────────────────
+  const priceWrap = document.createElement('div');
+  priceWrap.style.cssText = 'height: 360px; width: 100%;';
+  container.appendChild(priceWrap);
+
+  const baseLayout = {
+    layout: { background: { color: TV_COLORS.bg }, textColor: TV_COLORS.text, fontSize: 11, fontFamily: '-apple-system, "Trebuchet MS", sans-serif' },
+    grid: { vertLines: { color: TV_COLORS.grid }, horzLines: { color: TV_COLORS.grid } },
+    crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
+    rightPriceScale: { borderColor: TV_COLORS.border, scaleMargins: { top: 0.05, bottom: 0.25 } },
+    timeScale: { borderColor: TV_COLORS.border, timeVisible: false, secondsVisible: false },
+    watermark: { visible: false },
+  };
+
+  const priceChart = LightweightCharts.createChart(priceWrap, baseLayout);
+
+  // FVB cloud — group consecutive same-regime bars into segments, render each as one pair
+  // of area series (upper = regime fill, lower = bg mask). NO bridge → tiny 1-px gap at flips,
+  // which is way better than the mud-color overlap from bridging.
+  const greenFill = 'rgba(0,135,90,0.40)';   // saturated TV green
+  const redFill   = 'rgba(120,40,40,0.45)';  // dark TV red
+
+  const segments = [];
+  let curr = null;
+  for (let i = 0; i < bars.length; i++) {
+    if (upper[i] == null || lower[i] == null || basis[i] == null) continue;
+    const type = closes[i] > basis[i] ? 'bull' : 'bear';
+    if (!curr || curr.type !== type) {
+      curr = { type, upper: [], lower: [] };
+      segments.push(curr);
+    }
+    curr.upper.push({ time: bars[i].time, value: upper[i] });
+    curr.lower.push({ time: bars[i].time, value: lower[i] });
+  }
+
+  const greenEdge = '#26a69a';
+  const redEdge   = '#ef5350';
+
+  for (const seg of segments) {
+    const fill = seg.type === 'bull' ? greenFill : redFill;
+    const edge = seg.type === 'bull' ? greenEdge : redEdge;
+    // Fill (upper) + bg-mask (lower)
+    const u = priceChart.addAreaSeries({
+      topColor: fill, bottomColor: fill, lineColor: 'rgba(0,0,0,0)', lineWidth: 0,
+      priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false,
+    });
+    u.setData(seg.upper);
+    const l = priceChart.addAreaSeries({
+      topColor: TV_COLORS.bg, bottomColor: TV_COLORS.bg, lineColor: 'rgba(0,0,0,0)', lineWidth: 0,
+      priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false,
+    });
+    l.setData(seg.lower);
+    // Thick edge lines on upper + lower bands, regime-colored
+    const upperEdgeLine = priceChart.addLineSeries({
+      color: edge, lineWidth: 2,
+      priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false,
+    });
+    upperEdgeLine.setData(seg.upper);
+    const lowerEdgeLine = priceChart.addLineSeries({
+      color: edge, lineWidth: 2,
+      priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false,
+    });
+    lowerEdgeLine.setData(seg.lower);
+  }
+
+  // Basis line (drawn on top of the cloud) — TV blue
+  const basisLine = priceChart.addLineSeries({
+    color: '#2962FF', lineWidth: 2,
+    priceLineVisible: true, priceLineColor: '#2962FF', priceLineStyle: 2,
+    lastValueVisible: true, crosshairMarkerVisible: false,
+  });
+  basisLine.setData(bars.map((b, i) => basis[i] != null ? { time: b.time, value: basis[i] } : null).filter(Boolean));
+
+  // Candles on top
+  const candles = priceChart.addCandlestickSeries({
+    upColor: TV_COLORS.bull, downColor: TV_COLORS.bear,
+    borderUpColor: TV_COLORS.bull, borderDownColor: TV_COLORS.bear,
+    wickUpColor: TV_COLORS.bull, wickDownColor: TV_COLORS.bear,
+  });
+  candles.setData(bars);
+
+  // Flip markers placed ON the basis line (TV-style)
+  const markers = [];
+  for (let i = 1; i < bars.length; i++) {
+    if (basis[i] == null || basis[i-1] == null) continue;
+    const bullToday = bars[i].close > basis[i];
+    const bullYest  = bars[i-1].close > basis[i-1];
+    if (bullToday && !bullYest) {
+      markers.push({ time: bars[i].time, position: 'inBar', color: '#26a69a', shape: 'circle', size: 1.2 });
+    } else if (!bullToday && bullYest) {
+      markers.push({ time: bars[i].time, position: 'inBar', color: '#ef5350', shape: 'circle', size: 1.2 });
+    }
+  }
+  basisLine.setMarkers(markers);
+
+  // Volume — overlay on price pane (bottom 20% of chart area)
+  const volSeries = priceChart.addHistogramSeries({
+    priceFormat: { type: 'volume' },
+    priceScaleId: 'volume',
+    color: 'rgba(120,123,134,0.5)',
+  });
+  volSeries.priceScale().applyOptions({ scaleMargins: { top: 0.8, bottom: 0 } });
+  volSeries.setData(bars.map(b => ({
+    time: b.time, value: b.volume || 0,
+    color: b.close >= b.open ? 'rgba(38,166,154,0.4)' : 'rgba(239,83,80,0.4)',
+  })));
+
+  // ─── BXT pane ─────────────────────────────────────────────────────
+  const bxtWrap = document.createElement('div');
+  bxtWrap.style.cssText = 'height: 150px; width: 100%; margin-top: 1px;';
+  container.appendChild(bxtWrap);
+
+  const bxtChart = LightweightCharts.createChart(bxtWrap, {
+    ...baseLayout,
+    rightPriceScale: { borderColor: TV_COLORS.border, scaleMargins: { top: 0.1, bottom: 0.1 } },
+    watermark: { visible: true, color: 'rgba(120,123,134,0.25)', text: 'B-Xtrender', fontSize: 14, horzAlign: 'left', vertAlign: 'top' },
+  });
+
+  // Short-term: histogram — bright lime green positive / dark crimson negative
+  const shortHist = bxtChart.addHistogramSeries({
+    priceFormat: { type: 'price', precision: 2, minMove: 0.01 },
+  });
+  shortHist.setData(bars.map((b, i) => bxtShort[i] != null ? {
+    time: b.time, value: bxtShort[i],
+    color: bxtShort[i] >= 0 ? '#00C853' : '#B71C1C',
+  } : null).filter(Boolean));
+
+  // Smoothed short-term BXT line (bright green)
+  const shortLine = bxtChart.addLineSeries({
+    color: '#00E676', lineWidth: 2,
+    priceLineVisible: false, lastValueVisible: true,
+  });
+  shortLine.setData(bars.map((b, i) => bxtShortSmooth[i] != null ? { time: b.time, value: bxtShortSmooth[i] } : null).filter(Boolean));
+
+  // Long-term BXT smoothed (bright red)
+  const longLine = bxtChart.addLineSeries({
+    color: '#FF5252', lineWidth: 2,
+    priceLineVisible: false, lastValueVisible: true,
+  });
+  longLine.setData(bars.map((b, i) => bxtLongSmooth[i] != null ? { time: b.time, value: bxtLongSmooth[i] } : null).filter(Boolean));
+
+  // Crossover dots: when shortSmooth crosses longSmooth
+  const xMarkers = [];
+  for (let i = 1; i < bars.length; i++) {
+    const a = bxtShortSmooth, b = bxtLongSmooth;
+    if (a[i] == null || a[i-1] == null || b[i] == null || b[i-1] == null) continue;
+    if (a[i-1] <= b[i-1] && a[i] > b[i]) {
+      xMarkers.push({ time: bars[i].time, position: 'belowBar', color: TV_COLORS.bull, shape: 'circle' });
+    } else if (a[i-1] >= b[i-1] && a[i] < b[i]) {
+      xMarkers.push({ time: bars[i].time, position: 'aboveBar', color: TV_COLORS.bear, shape: 'circle' });
+    }
+  }
+  shortLine.setMarkers(xMarkers);
+
+  // Sync time scales
+  priceChart.timeScale().subscribeVisibleLogicalRangeChange(r => r && bxtChart.timeScale().setVisibleLogicalRange(r));
+  bxtChart.timeScale().subscribeVisibleLogicalRangeChange(r => r && priceChart.timeScale().setVisibleLogicalRange(r));
+  priceChart.timeScale().fitContent();
+
+  // Sync crosshair
+  priceChart.subscribeCrosshairMove(p => {
+    if (!p.time) return;
+    bxtChart.setCrosshairPosition(0, p.time, longLine);
+  });
+  bxtChart.subscribeCrosshairMove(p => {
+    if (!p.time) return;
+    priceChart.setCrosshairPosition(0, p.time, basisLine);
+  });
+}
+
+async function toggleChart(tr, sym) {
+  const next = tr.nextElementSibling;
+  // If chart is already open under this row, close it
+  if (next && next.classList.contains('chart-row') && next.dataset.sym === sym) {
+    next.remove();
+    openChartSym = null;
+    return;
+  }
+  // Close any other open chart row in any table
+  document.querySelectorAll('tr.chart-row').forEach(el => el.remove());
+
+  const colspan = tr.children.length;
+  const chartRow = document.createElement('tr');
+  chartRow.className = 'chart-row';
+  chartRow.dataset.sym = sym;
+  chartRow.innerHTML = `<td colspan="${colspan}"><div class="chart-container"><div class="chart-body"><div class="chart-loading">Loading…</div></div></div></td>`;
+  tr.parentNode.insertBefore(chartRow, tr.nextSibling);
+  openChartSym = sym;
+
+  try {
+    const bars = await fetchBars(sym);
+    if (bars.length < 25) throw new Error('Not enough bars');
+    const body = chartRow.querySelector('.chart-body');
+    body.innerHTML = '';
+    renderChart(body, bars, sym);
+  } catch (e) {
+    chartRow.querySelector('.chart-body').innerHTML = `<div class="chart-error">Failed to load: ${e.message}</div>`;
+  }
+}
+
+// Click handlers
 document.addEventListener('click', e => {
+  // Sortable header
   const th = e.target.closest('th.sortable');
-  if (!th) return;
-  const col = th.dataset.col;
-  const tableId = th.dataset.table;
-  if (!col || !tableId || col === 'idx') return;
-  const state = sortState[tableId];
-  if (state.col === col) state.dir = state.dir === 'asc' ? 'desc' : 'asc';
-  else { state.col = col; state.dir = (col === 'name' || col === 'sym') ? 'asc' : 'desc'; }
-  if (currentData) {
-    const rows = tableId === 'green-table' ? currentData.both_green : currentData.both_red;
-    document.getElementById(tableId).innerHTML = renderTable(rows, tableId);
+  if (th) {
+    const col = th.dataset.col;
+    const tableId = th.dataset.table;
+    if (!col || !tableId || col === 'idx') return;
+    const state = sortState[tableId];
+    if (state.col === col) state.dir = state.dir === 'asc' ? 'desc' : 'asc';
+    else { state.col = col; state.dir = (col === 'name' || col === 'sym') ? 'asc' : 'desc'; }
+    if (currentData) {
+      const rows = tableId === 'green-table' ? currentData.both_green : currentData.both_red;
+      document.getElementById(tableId).innerHTML = renderTable(rows, tableId);
+    }
+    return;
+  }
+  // Clickable row → expand chart
+  const tr = e.target.closest('tr.row-clickable');
+  if (tr) {
+    toggleChart(tr, tr.dataset.sym);
   }
 });
 
@@ -140,9 +495,7 @@ function renderChanges(changes) {
     {label: '🔴 RED dropped',   items: changes.red_removed,   action: 'removed', color: 'red'},
   ];
   const total = buckets.reduce((s,b) => s + (b.items?.length || 0), 0);
-  if (total === 0) {
-    return '<p class="empty">No changes since last refresh.</p>';
-  }
+  if (total === 0) return '<p class="empty">No changes since last refresh.</p>';
   const head = `<table>
     <thead><tr>
       <th>Bucket</th><th>Action</th>
@@ -156,7 +509,7 @@ function renderChanges(changes) {
     </tr></thead><tbody>`;
   const cell = (v, prefix='') => v == null ? '—' : `${prefix}${typeof v === 'number' ? v.toFixed(2) : v}`;
   const body = buckets.flatMap(b =>
-    (b.items || []).map(item => `<tr>
+    (b.items || []).map(item => `<tr class="row-clickable" data-sym="${item.sym}">
       <td>${b.label}</td>
       <td><span class="badge badge-${b.color} badge-${b.action}">${b.action.toUpperCase()}</span></td>
       <td>${item.name}</td>
@@ -191,14 +544,11 @@ async function load() {
 load();
 setInterval(load, 30000);
 
-// Re-fetch immediately when the tab regains focus (defeats browser throttling)
 document.addEventListener('visibilitychange', () => {
   if (document.visibilityState === 'visible') load();
 });
 window.addEventListener('focus', load);
 
-// Watchdog: hard reload the whole page if data is more than 12 min old
-// (catches edge cases where setInterval got fully suspended)
 setInterval(() => {
   if (!currentData || !currentData.updated_at) return;
   const ageMin = (Date.now() - new Date(currentData.updated_at)) / 60000;
