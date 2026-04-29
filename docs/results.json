@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-29T02:31:49.453620+00:00",
-  "scan_seconds": 2.22,
+  "updated_at": "2026-04-29T02:36:55.383296+00:00",
+  "scan_seconds": 4.28,
   "scanned_count": 502,
   "both_green": [
     {
@@ -246,21 +246,6 @@
       "pct_to_ath": 10.3
     },
     {
-      "sym": "IR",
-      "name": "Ingersoll Rand",
-      "mcap": 35,
-      "price": 81.19,
-      "basis": 83.54,
-      "bxt_today": -1.5,
-      "bxt_yest": 4.42,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 106.03,
-      "pct_to_ath": 30.6
-    },
-    {
       "sym": "WSM",
       "name": "Williams-Sonoma",
       "mcap": 24,
@@ -355,7 +340,18 @@
     "green_added": [],
     "green_removed": [],
     "red_added": [],
-    "red_removed": [],
-    "compared_to": "2026-04-29T02:26:45.641287+00:00"
+    "red_removed": [
+      {
+        "sym": "IR",
+        "name": "Ingersoll Rand",
+        "mcap": 35,
+        "price": 81.19,
+        "basis": 83.54,
+        "bxt_today": -1.5,
+        "ath": 106.03,
+        "pct_to_ath": 30.6
+      }
+    ],
+    "compared_to": "2026-04-29T02:31:49.453620+00:00"
   }
 }
