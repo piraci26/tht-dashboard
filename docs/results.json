@@ -1,16 +1,32 @@
 {
-  "updated_at": "2026-04-29T15:24:38.642591+00:00",
-  "scan_seconds": 2.39,
+  "updated_at": "2026-04-29T15:29:42.703561+00:00",
+  "scan_seconds": 2.34,
   "scanned_count": 503,
-  "both_green": [],
+  "both_green": [
+    {
+      "sym": "GD",
+      "name": "GD",
+      "mcap": 93,
+      "price": 345.51,
+      "basis": 335.06,
+      "bxt_today": 0.41,
+      "bxt_yest": -28.9,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 369.7,
+      "pct_to_ath": 7.0
+    }
+  ],
   "both_red": [
     {
       "sym": "WMT",
       "name": "Walmart",
       "mcap": 1012,
-      "price": 126.93,
+      "price": 126.99,
       "basis": 127.06,
-      "bxt_today": -1.15,
+      "bxt_today": -1.06,
       "bxt_yest": 2.67,
       "fvb_g": false,
       "fvb_r": true,
@@ -23,9 +39,9 @@
       "sym": "DIS",
       "name": "DIS",
       "mcap": 178,
-      "price": 100.79,
+      "price": 100.78,
       "basis": 101.33,
-      "bxt_today": -0.46,
+      "bxt_today": -0.48,
       "bxt_yest": 3.68,
       "fvb_g": false,
       "fvb_r": true,
@@ -35,42 +51,27 @@
       "pct_to_ath": 101.4
     },
     {
-      "sym": "UBER",
-      "name": "UBER",
-      "mcap": 151,
-      "price": 73.8,
-      "basis": 74.1,
-      "bxt_today": -0.08,
-      "bxt_yest": 3.48,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 101.99,
-      "pct_to_ath": 38.2
-    },
-    {
       "sym": "PH",
       "name": "PH",
       "mcap": 120,
-      "price": 950.05,
-      "basis": 961.49,
-      "bxt_today": -3.27,
+      "price": 949.06,
+      "basis": 961.44,
+      "bxt_today": -3.44,
       "bxt_yest": 1.03,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 1034.96,
-      "pct_to_ath": 8.9
+      "pct_to_ath": 9.1
     },
     {
       "sym": "SPG",
       "name": "SPG",
       "mcap": 76,
-      "price": 199.1,
-      "basis": 199.3,
-      "bxt_today": -2.38,
+      "price": 199.04,
+      "basis": 199.29,
+      "bxt_today": -2.45,
       "bxt_yest": 2.43,
       "fvb_g": false,
       "fvb_r": true,
@@ -80,27 +81,12 @@
       "pct_to_ath": 15.1
     },
     {
-      "sym": "DASH",
-      "name": "DASH",
-      "mcap": 72,
-      "price": 164.99,
-      "basis": 168.57,
-      "bxt_today": -0.04,
-      "bxt_yest": 6.44,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 285.5,
-      "pct_to_ath": 73.0
-    },
-    {
       "sym": "GM",
       "name": "General Motors",
       "mcap": 69,
-      "price": 76.18,
+      "price": 76.2,
       "basis": 77.27,
-      "bxt_today": -1.26,
+      "bxt_today": -1.21,
       "bxt_yest": 6.08,
       "fvb_g": false,
       "fvb_r": true,
@@ -113,24 +99,24 @@
       "sym": "HOOD",
       "name": "HOOD",
       "mcap": 64,
-      "price": 71.28,
+      "price": 71.35,
       "basis": 78.85,
-      "bxt_today": -4.57,
+      "bxt_today": -4.53,
       "bxt_yest": 6.91,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 153.86,
-      "pct_to_ath": 115.9
+      "pct_to_ath": 115.6
     },
     {
       "sym": "GWW",
       "name": "Grainger",
       "mcap": 54,
-      "price": 1145.95,
+      "price": 1145.84,
       "basis": 1148.18,
-      "bxt_today": -2.74,
+      "bxt_today": -2.77,
       "bxt_yest": 1.21,
       "fvb_g": false,
       "fvb_r": true,
@@ -143,135 +129,123 @@
       "sym": "PSA",
       "name": "PSA",
       "mcap": 52,
-      "price": 294.79,
-      "basis": 297.39,
-      "bxt_today": -3.23,
+      "price": 294.27,
+      "basis": 297.37,
+      "bxt_today": -3.48,
       "bxt_yest": 2.85,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 421.76,
-      "pct_to_ath": 43.1
+      "pct_to_ath": 43.3
     },
     {
       "sym": "TER",
       "name": "TER",
       "mcap": 50,
-      "price": 320.43,
-      "basis": 362.85,
-      "bxt_today": -11.49,
+      "price": 318.51,
+      "basis": 362.76,
+      "bxt_today": -11.77,
       "bxt_yest": 6.31,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 422.11,
-      "pct_to_ath": 31.7
+      "pct_to_ath": 32.5
     },
     {
       "sym": "COIN",
       "name": "COIN",
-      "mcap": 47,
-      "price": 179.71,
-      "basis": 187.47,
-      "bxt_today": -1.92,
+      "mcap": 48,
+      "price": 180.52,
+      "basis": 187.51,
+      "bxt_today": -1.65,
       "bxt_yest": 5.73,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 444.65,
-      "pct_to_ath": 147.4
+      "pct_to_ath": 146.3
     },
     {
       "sym": "CBRE",
       "name": "CBRE",
       "mcap": 41,
-      "price": 143.73,
-      "basis": 145.09,
-      "bxt_today": -0.77,
+      "price": 143.57,
+      "basis": 145.08,
+      "bxt_today": -0.94,
       "bxt_yest": 5.43,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 174.27,
-      "pct_to_ath": 21.2
+      "pct_to_ath": 21.4
     },
     {
       "sym": "MTB",
       "name": "M&T Bank",
       "mcap": 32,
-      "price": 215.93,
-      "basis": 217.1,
-      "bxt_today": -2.01,
+      "price": 215.48,
+      "basis": 217.08,
+      "bxt_today": -2.5,
       "bxt_yest": 0.72,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 239.0,
-      "pct_to_ath": 10.7
+      "pct_to_ath": 10.9
     },
     {
       "sym": "TDY",
       "name": "TDY",
       "mcap": 29,
-      "price": 628.68,
-      "basis": 642.54,
-      "bxt_today": -3.74,
+      "price": 629.04,
+      "basis": 642.56,
+      "bxt_today": -3.64,
       "bxt_yest": 3.29,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 693.38,
-      "pct_to_ath": 10.3
+      "pct_to_ath": 10.2
     },
     {
-      "sym": "CINF",
-      "name": "CINF",
-      "mcap": 25,
-      "price": 162.5,
-      "basis": 163.47,
-      "bxt_today": -0.28,
-      "bxt_yest": 6.97,
+      "sym": "WY",
+      "name": "WY",
+      "mcap": 18,
+      "price": 24.45,
+      "basis": 24.7,
+      "bxt_today": -0.0,
+      "bxt_yest": 6.29,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
-      "ath": 174.27,
-      "pct_to_ath": 7.2
+      "ath": 87.09,
+      "pct_to_ath": 256.2
     }
   ],
   "changes": {
-    "green_added": [],
-    "green_removed": [
+    "green_added": [
       {
         "sym": "GD",
         "name": "GD",
         "mcap": 93,
-        "price": 345.02,
-        "basis": 335.04,
-        "bxt_today": 0.14,
+        "price": 345.51,
+        "basis": 335.06,
+        "bxt_today": 0.41,
         "ath": 369.7,
-        "pct_to_ath": 7.2
+        "pct_to_ath": 7.0
       }
     ],
+    "green_removed": [],
     "red_added": [
-      {
-        "sym": "CINF",
-        "name": "CINF",
-        "mcap": 25,
-        "price": 162.5,
-        "basis": 163.47,
-        "bxt_today": -0.28,
-        "ath": 174.27,
-        "pct_to_ath": 7.2
-      }
-    ],
-    "red_removed": [
       {
         "sym": "WY",
         "name": "WY",
@@ -283,6 +257,38 @@
         "pct_to_ath": 256.2
       }
     ],
-    "compared_to": "2026-04-29T15:19:34.330623+00:00"
+    "red_removed": [
+      {
+        "sym": "DASH",
+        "name": "DASH",
+        "mcap": 72,
+        "price": 164.99,
+        "basis": 168.57,
+        "bxt_today": -0.04,
+        "ath": 285.5,
+        "pct_to_ath": 73.0
+      },
+      {
+        "sym": "UBER",
+        "name": "UBER",
+        "mcap": 151,
+        "price": 73.8,
+        "basis": 74.1,
+        "bxt_today": -0.08,
+        "ath": 101.99,
+        "pct_to_ath": 38.2
+      },
+      {
+        "sym": "CINF",
+        "name": "CINF",
+        "mcap": 25,
+        "price": 162.5,
+        "basis": 163.47,
+        "bxt_today": -0.28,
+        "ath": 174.27,
+        "pct_to_ath": 7.2
+      }
+    ],
+    "compared_to": "2026-04-29T15:24:38.642591+00:00"
   }
 }
