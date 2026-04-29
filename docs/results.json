@@ -1,77 +1,61 @@
 {
-  "updated_at": "2026-04-29T15:19:34.330623+00:00",
-  "scan_seconds": 2.62,
+  "updated_at": "2026-04-29T15:24:38.642591+00:00",
+  "scan_seconds": 2.39,
   "scanned_count": 503,
-  "both_green": [
-    {
-      "sym": "GD",
-      "name": "GD",
-      "mcap": 93,
-      "price": 345.02,
-      "basis": 335.04,
-      "bxt_today": 0.14,
-      "bxt_yest": -28.9,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 369.7,
-      "pct_to_ath": 7.2
-    }
-  ],
+  "both_green": [],
   "both_red": [
     {
       "sym": "WMT",
       "name": "Walmart",
-      "mcap": 1011,
-      "price": 126.88,
+      "mcap": 1012,
+      "price": 126.93,
       "basis": 127.06,
-      "bxt_today": -1.24,
+      "bxt_today": -1.15,
       "bxt_yest": 2.67,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 134.69,
-      "pct_to_ath": 6.2
+      "pct_to_ath": 6.1
     },
     {
       "sym": "DIS",
       "name": "DIS",
       "mcap": 178,
-      "price": 100.83,
+      "price": 100.79,
       "basis": 101.33,
-      "bxt_today": -0.4,
+      "bxt_today": -0.46,
       "bxt_yest": 3.68,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 203.02,
-      "pct_to_ath": 101.3
+      "pct_to_ath": 101.4
     },
     {
       "sym": "UBER",
       "name": "UBER",
-      "mcap": 150,
-      "price": 73.72,
+      "mcap": 151,
+      "price": 73.8,
       "basis": 74.1,
-      "bxt_today": -0.24,
+      "bxt_today": -0.08,
       "bxt_yest": 3.48,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 101.99,
-      "pct_to_ath": 38.3
+      "pct_to_ath": 38.2
     },
     {
       "sym": "PH",
       "name": "PH",
       "mcap": 120,
-      "price": 950.34,
-      "basis": 961.5,
-      "bxt_today": -3.22,
+      "price": 950.05,
+      "basis": 961.49,
+      "bxt_today": -3.27,
       "bxt_yest": 1.03,
       "fvb_g": false,
       "fvb_r": true,
@@ -84,9 +68,9 @@
       "sym": "SPG",
       "name": "SPG",
       "mcap": 76,
-      "price": 199.09,
+      "price": 199.1,
       "basis": 199.3,
-      "bxt_today": -2.39,
+      "bxt_today": -2.38,
       "bxt_yest": 2.43,
       "fvb_g": false,
       "fvb_r": true,
@@ -99,46 +83,46 @@
       "sym": "DASH",
       "name": "DASH",
       "mcap": 72,
-      "price": 164.58,
-      "basis": 168.55,
-      "bxt_today": -0.24,
+      "price": 164.99,
+      "basis": 168.57,
+      "bxt_today": -0.04,
       "bxt_yest": 6.44,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 285.5,
-      "pct_to_ath": 73.5
+      "pct_to_ath": 73.0
     },
     {
       "sym": "GM",
       "name": "General Motors",
       "mcap": 69,
-      "price": 76.34,
-      "basis": 77.28,
-      "bxt_today": -0.89,
+      "price": 76.18,
+      "basis": 77.27,
+      "bxt_today": -1.26,
       "bxt_yest": 6.08,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 87.62,
-      "pct_to_ath": 14.8
+      "pct_to_ath": 15.0
     },
     {
       "sym": "HOOD",
       "name": "HOOD",
       "mcap": 64,
-      "price": 70.97,
-      "basis": 78.83,
-      "bxt_today": -4.77,
+      "price": 71.28,
+      "basis": 78.85,
+      "bxt_today": -4.57,
       "bxt_yest": 6.91,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 153.86,
-      "pct_to_ath": 116.8
+      "pct_to_ath": 115.9
     },
     {
       "sym": "GWW",
@@ -159,9 +143,9 @@
       "sym": "PSA",
       "name": "PSA",
       "mcap": 52,
-      "price": 294.8,
+      "price": 294.79,
       "basis": 297.39,
-      "bxt_today": -3.22,
+      "bxt_today": -3.23,
       "bxt_yest": 2.85,
       "fvb_g": false,
       "fvb_r": true,
@@ -174,95 +158,96 @@
       "sym": "TER",
       "name": "TER",
       "mcap": 50,
-      "price": 317.29,
-      "basis": 362.7,
-      "bxt_today": -11.95,
+      "price": 320.43,
+      "basis": 362.85,
+      "bxt_today": -11.49,
       "bxt_yest": 6.31,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 422.11,
-      "pct_to_ath": 33.0
+      "pct_to_ath": 31.7
     },
     {
       "sym": "COIN",
       "name": "COIN",
       "mcap": 47,
-      "price": 179.05,
-      "basis": 187.44,
-      "bxt_today": -2.14,
+      "price": 179.71,
+      "basis": 187.47,
+      "bxt_today": -1.92,
       "bxt_yest": 5.73,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 444.65,
-      "pct_to_ath": 148.3
+      "pct_to_ath": 147.4
     },
     {
       "sym": "CBRE",
       "name": "CBRE",
       "mcap": 41,
-      "price": 143.86,
+      "price": 143.73,
       "basis": 145.09,
-      "bxt_today": -0.63,
+      "bxt_today": -0.77,
       "bxt_yest": 5.43,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 174.27,
-      "pct_to_ath": 21.1
+      "pct_to_ath": 21.2
     },
     {
       "sym": "MTB",
       "name": "M&T Bank",
       "mcap": 32,
-      "price": 215.78,
-      "basis": 217.09,
-      "bxt_today": -2.18,
+      "price": 215.93,
+      "basis": 217.1,
+      "bxt_today": -2.01,
       "bxt_yest": 0.72,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 239.0,
-      "pct_to_ath": 10.8
+      "pct_to_ath": 10.7
     },
     {
       "sym": "TDY",
       "name": "TDY",
       "mcap": 29,
-      "price": 629.83,
-      "basis": 642.6,
-      "bxt_today": -3.41,
+      "price": 628.68,
+      "basis": 642.54,
+      "bxt_today": -3.74,
       "bxt_yest": 3.29,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 693.38,
-      "pct_to_ath": 10.1
+      "pct_to_ath": 10.3
     },
     {
-      "sym": "WY",
-      "name": "WY",
-      "mcap": 18,
-      "price": 24.45,
-      "basis": 24.7,
-      "bxt_today": -0.0,
-      "bxt_yest": 6.29,
+      "sym": "CINF",
+      "name": "CINF",
+      "mcap": 25,
+      "price": 162.5,
+      "basis": 163.47,
+      "bxt_today": -0.28,
+      "bxt_yest": 6.97,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
-      "ath": 87.09,
-      "pct_to_ath": 256.2
+      "ath": 174.27,
+      "pct_to_ath": 7.2
     }
   ],
   "changes": {
-    "green_added": [
+    "green_added": [],
+    "green_removed": [
       {
         "sym": "GD",
         "name": "GD",
@@ -274,8 +259,19 @@
         "pct_to_ath": 7.2
       }
     ],
-    "green_removed": [],
     "red_added": [
+      {
+        "sym": "CINF",
+        "name": "CINF",
+        "mcap": 25,
+        "price": 162.5,
+        "basis": 163.47,
+        "bxt_today": -0.28,
+        "ath": 174.27,
+        "pct_to_ath": 7.2
+      }
+    ],
+    "red_removed": [
       {
         "sym": "WY",
         "name": "WY",
@@ -285,19 +281,8 @@
         "bxt_today": -0.0,
         "ath": 87.09,
         "pct_to_ath": 256.2
-      },
-      {
-        "sym": "DASH",
-        "name": "DASH",
-        "mcap": 72,
-        "price": 164.58,
-        "basis": 168.55,
-        "bxt_today": -0.24,
-        "ath": 285.5,
-        "pct_to_ath": 73.5
       }
     ],
-    "red_removed": [],
-    "compared_to": "2026-04-29T15:14:29.851912+00:00"
+    "compared_to": "2026-04-29T15:19:34.330623+00:00"
   }
 }
