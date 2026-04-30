@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-30T05:59:56.706250+00:00",
-  "scan_seconds": 2.39,
-  "scanned_count": 501,
+  "updated_at": "2026-04-30T06:05:00.689895+00:00",
+  "scan_seconds": 2.43,
+  "scanned_count": 503,
   "both_green": [
     {
       "sym": "TMUS",
@@ -201,6 +201,21 @@
       "pct_to_ath": 89.4
     },
     {
+      "sym": "MTB",
+      "name": "M&T Bank",
+      "mcap": 32,
+      "price": 215.54,
+      "basis": 217.08,
+      "bxt_today": -2.44,
+      "bxt_yest": 0.72,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 239.0,
+      "pct_to_ath": 10.9
+    },
+    {
       "sym": "TDY",
       "name": "TDY",
       "mcap": 29,
@@ -234,8 +249,7 @@
   "changes": {
     "green_added": [],
     "green_removed": [],
-    "red_added": [],
-    "red_removed": [
+    "red_added": [
       {
         "sym": "MTB",
         "name": "M&T Bank",
@@ -247,6 +261,7 @@
         "pct_to_ath": 10.9
       }
     ],
-    "compared_to": "2026-04-30T05:54:52.775645+00:00"
+    "red_removed": [],
+    "compared_to": "2026-04-30T05:59:56.706250+00:00"
   }
 }
