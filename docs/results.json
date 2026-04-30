@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-30T07:41:56.407813+00:00",
-  "scan_seconds": 3.17,
-  "scanned_count": 503,
+  "updated_at": "2026-04-30T07:47:00.769082+00:00",
+  "scan_seconds": 2.69,
+  "scanned_count": 502,
   "both_green": [
     {
       "sym": "TMUS",
@@ -249,19 +249,8 @@
   "changes": {
     "green_added": [],
     "green_removed": [],
-    "red_added": [
-      {
-        "sym": "GM",
-        "name": "General Motors",
-        "mcap": 69,
-        "price": 76.62,
-        "basis": 77.29,
-        "bxt_today": -0.23,
-        "ath": 87.62,
-        "pct_to_ath": 14.4
-      }
-    ],
+    "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-04-30T07:36:51.488520+00:00"
+    "compared_to": "2026-04-30T07:41:56.407813+00:00"
   }
 }
