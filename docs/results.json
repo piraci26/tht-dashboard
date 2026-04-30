@@ -1,45 +1,60 @@
 {
-  "updated_at": "2026-04-30T13:48:16.223045+00:00",
-  "scan_seconds": 11.5,
+  "updated_at": "2026-04-30T13:53:23.885669+00:00",
+  "scan_seconds": 5.86,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "ABBV",
       "name": "ABBV",
-      "mcap": 375,
-      "price": 211.68,
-      "basis": 205.8,
-      "bxt_today": 8.98,
+      "mcap": 374,
+      "price": 211.18,
+      "basis": 205.77,
+      "bxt_today": 8.62,
       "bxt_yest": -2.59,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 244.81,
-      "pct_to_ath": 15.7
+      "pct_to_ath": 15.9
     },
     {
       "sym": "ORLY",
       "name": "ORLY",
-      "mcap": 83,
-      "price": 99.5,
-      "basis": 93.23,
-      "bxt_today": 13.1,
+      "mcap": 82,
+      "price": 98.01,
+      "basis": 93.15,
+      "bxt_today": 10.28,
       "bxt_yest": -7.27,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 108.72,
-      "pct_to_ath": 9.3
+      "pct_to_ath": 10.9
+    },
+    {
+      "sym": "DTE",
+      "name": "DTE Energy",
+      "mcap": 31,
+      "price": 149.28,
+      "basis": 147.4,
+      "bxt_today": 2.88,
+      "bxt_yest": -1.75,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 154.63,
+      "pct_to_ath": 3.6
     },
     {
       "sym": "AWK",
       "name": "AWK",
       "mcap": 27,
-      "price": 135.83,
+      "price": 135.88,
       "basis": 134.05,
-      "bxt_today": 1.91,
+      "bxt_today": 2.01,
       "bxt_yest": -7.42,
       "fvb_g": true,
       "fvb_r": false,
@@ -52,187 +67,184 @@
       "sym": "OMC",
       "name": "OMC",
       "mcap": 22,
-      "price": 78.03,
+      "price": 77.99,
       "basis": 76.73,
-      "bxt_today": 2.83,
+      "bxt_today": 2.74,
       "bxt_yest": -1.66,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 107.0,
-      "pct_to_ath": 37.1
+      "pct_to_ath": 37.2
     },
     {
       "sym": "TXT",
       "name": "TXT",
       "mcap": 16,
-      "price": 93.15,
-      "basis": 90.31,
-      "bxt_today": 7.34,
+      "price": 93.59,
+      "basis": 90.33,
+      "bxt_today": 8.13,
       "bxt_yest": -2.39,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 101.57,
-      "pct_to_ath": 9.0
-    },
-    {
-      "sym": "AKAM",
-      "name": "AKAM",
-      "mcap": 15,
-      "price": 101.15,
-      "basis": 100.34,
-      "bxt_today": 1.99,
-      "bxt_yest": -2.53,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 345.5,
-      "pct_to_ath": 241.6
+      "pct_to_ath": 8.5
     }
   ],
   "both_red": [
     {
       "sym": "META",
       "name": "META",
-      "mcap": 1535,
-      "price": 604.33,
-      "basis": 644.96,
-      "bxt_today": -5.56,
+      "mcap": 1543,
+      "price": 607.32,
+      "basis": 645.11,
+      "bxt_today": -5.13,
       "bxt_yest": 8.32,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 796.25,
-      "pct_to_ath": 31.8
+      "pct_to_ath": 31.1
     },
     {
       "sym": "KLAC",
       "name": "KLAC",
-      "mcap": 220,
-      "price": 1676.89,
-      "basis": 1746.85,
-      "bxt_today": -8.68,
+      "mcap": 222,
+      "price": 1691.75,
+      "basis": 1747.59,
+      "bxt_today": -7.98,
       "bxt_yest": 2.72,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 1939.36,
-      "pct_to_ath": 15.7
+      "pct_to_ath": 14.6
     },
     {
       "sym": "UBER",
       "name": "UBER",
       "mcap": 150,
-      "price": 73.51,
-      "basis": 74.23,
-      "bxt_today": -2.08,
+      "price": 73.35,
+      "basis": 74.22,
+      "bxt_today": -2.41,
       "bxt_yest": 1.39,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 101.99,
-      "pct_to_ath": 38.7
+      "pct_to_ath": 39.0
+    },
+    {
+      "sym": "PGR",
+      "name": "PGR",
+      "mcap": 116,
+      "price": 198.26,
+      "basis": 200.41,
+      "bxt_today": -0.49,
+      "bxt_yest": 4.97,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 292.99,
+      "pct_to_ath": 47.8
     },
     {
       "sym": "DASH",
       "name": "DASH",
-      "mcap": 74,
-      "price": 169.65,
-      "basis": 169.74,
-      "bxt_today": -0.36,
+      "mcap": 73,
+      "price": 168.16,
+      "basis": 169.67,
+      "bxt_today": -1.09,
       "bxt_yest": 2.1,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 285.5,
-      "pct_to_ath": 68.3
+      "pct_to_ath": 69.8
     },
     {
       "sym": "AFL",
       "name": "AFL",
       "mcap": 57,
-      "price": 110.16,
-      "basis": 113.29,
-      "bxt_today": -5.04,
+      "price": 111.08,
+      "basis": 113.34,
+      "bxt_today": -2.84,
       "bxt_yest": 15.64,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 119.32,
-      "pct_to_ath": 8.3
-    },
-    {
-      "sym": "EXR",
-      "name": "EXR",
-      "mcap": 31,
-      "price": 139.93,
-      "basis": 140.18,
-      "bxt_today": -0.57,
-      "bxt_yest": 1.53,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 228.84,
-      "pct_to_ath": 63.5
+      "pct_to_ath": 7.4
     },
     {
       "sym": "HUBB",
       "name": "HUBB",
-      "mcap": 28,
-      "price": 524.85,
-      "basis": 534.36,
-      "bxt_today": -6.51,
+      "mcap": 27,
+      "price": 517.71,
+      "basis": 534.0,
+      "bxt_today": -8.32,
       "bxt_yest": 2.8,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 565.5,
-      "pct_to_ath": 7.7
+      "pct_to_ath": 9.2
     },
     {
       "sym": "FTV",
       "name": "FTV",
       "mcap": 18,
-      "price": 58.43,
-      "basis": 59.79,
-      "bxt_today": -4.57,
+      "price": 57.93,
+      "basis": 59.76,
+      "bxt_today": -6.21,
       "bxt_yest": 13.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 65.64,
-      "pct_to_ath": 12.3
+      "pct_to_ath": 13.3
     },
     {
       "sym": "FDS",
       "name": "FactSet",
       "mcap": 8,
-      "price": 226.3,
-      "basis": 228.21,
-      "bxt_today": -1.3,
+      "price": 225.17,
+      "basis": 228.16,
+      "bxt_today": -1.84,
       "bxt_yest": 1.42,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 499.87,
-      "pct_to_ath": 120.9
+      "pct_to_ath": 122.0
     }
   ],
   "changes": {
     "green_added": [
+      {
+        "sym": "DTE",
+        "name": "DTE Energy",
+        "mcap": 31,
+        "price": 149.28,
+        "basis": 147.4,
+        "bxt_today": 2.88,
+        "ath": 154.63,
+        "pct_to_ath": 3.6
+      }
+    ],
+    "green_removed": [
       {
         "sym": "AKAM",
         "name": "AKAM",
@@ -244,29 +256,19 @@
         "pct_to_ath": 241.6
       }
     ],
-    "green_removed": [
-      {
-        "sym": "DTE",
-        "name": "DTE Energy",
-        "mcap": 31,
-        "price": 148.24,
-        "basis": 147.35,
-        "bxt_today": 0.74,
-        "ath": 154.63,
-        "pct_to_ath": 4.3
-      }
-    ],
     "red_added": [
       {
-        "sym": "DASH",
-        "name": "DASH",
-        "mcap": 74,
-        "price": 169.65,
-        "basis": 169.74,
-        "bxt_today": -0.36,
-        "ath": 285.5,
-        "pct_to_ath": 68.3
-      },
+        "sym": "PGR",
+        "name": "PGR",
+        "mcap": 116,
+        "price": 198.26,
+        "basis": 200.41,
+        "bxt_today": -0.49,
+        "ath": 292.99,
+        "pct_to_ath": 47.8
+      }
+    ],
+    "red_removed": [
       {
         "sym": "EXR",
         "name": "EXR",
@@ -278,18 +280,6 @@
         "pct_to_ath": 63.5
       }
     ],
-    "red_removed": [
-      {
-        "sym": "PGR",
-        "name": "PGR",
-        "mcap": 116,
-        "price": 198.53,
-        "basis": 200.42,
-        "bxt_today": -0.14,
-        "ath": 292.99,
-        "pct_to_ath": 47.6
-      }
-    ],
-    "compared_to": "2026-04-30T13:43:02.758366+00:00"
+    "compared_to": "2026-04-30T13:48:16.223045+00:00"
   }
 }
