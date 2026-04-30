@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-04-30T20:08:50.022034+00:00",
-  "scan_seconds": 2.95,
+  "updated_at": "2026-04-30T20:13:54.763462+00:00",
+  "scan_seconds": 2.68,
   "scanned_count": 503,
   "both_green": [
     {
@@ -259,21 +259,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "LNT",
-      "name": "Alliant Energy",
-      "mcap": 19,
-      "price": 73.52,
-      "basis": 72.51,
-      "bxt_today": 0.26,
-      "bxt_yest": -6.63,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 74.4,
-      "pct_to_ath": 1.2
-    },
-    {
       "sym": "EVRG",
       "name": "EVRG",
       "mcap": 19,
@@ -428,9 +413,20 @@
   ],
   "changes": {
     "green_added": [],
-    "green_removed": [],
+    "green_removed": [
+      {
+        "sym": "LNT",
+        "name": "Alliant Energy",
+        "mcap": 19,
+        "price": 73.52,
+        "basis": 72.51,
+        "bxt_today": 0.26,
+        "ath": 74.4,
+        "pct_to_ath": 1.2
+      }
+    ],
     "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-04-30T20:03:45.072557+00:00"
+    "compared_to": "2026-04-30T20:08:50.022034+00:00"
   }
 }
