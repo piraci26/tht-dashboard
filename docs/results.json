@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-04-30T20:03:45.072557+00:00",
-  "scan_seconds": 3.32,
-  "scanned_count": 502,
+  "updated_at": "2026-04-30T20:08:50.022034+00:00",
+  "scan_seconds": 2.95,
+  "scanned_count": 503,
   "both_green": [
     {
       "sym": "LLY",
@@ -430,28 +430,7 @@
     "green_added": [],
     "green_removed": [],
     "red_added": [],
-    "red_removed": [
-      {
-        "sym": "CBOE",
-        "name": "CBOE",
-        "mcap": 31,
-        "price": 299.74,
-        "basis": 299.86,
-        "bxt_today": -2.45,
-        "ath": 309.87,
-        "pct_to_ath": 3.4
-      },
-      {
-        "sym": "FTV",
-        "name": "FTV",
-        "mcap": 18,
-        "price": 59.64,
-        "basis": 59.85,
-        "bxt_today": -0.04,
-        "ath": 65.64,
-        "pct_to_ath": 10.1
-      }
-    ],
-    "compared_to": "2026-04-30T19:58:39.480557+00:00"
+    "red_removed": [],
+    "compared_to": "2026-04-30T20:03:45.072557+00:00"
   }
 }
