@@ -1,45 +1,45 @@
 {
-  "updated_at": "2026-05-01T14:20:26.321740+00:00",
-  "scan_seconds": 2.58,
+  "updated_at": "2026-05-01T14:25:30.639193+00:00",
+  "scan_seconds": 2.48,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "LIN",
       "name": "LIN",
-      "mcap": 239,
-      "price": 515.64,
-      "basis": 502.37,
-      "bxt_today": 3.77,
+      "mcap": 240,
+      "price": 518.36,
+      "basis": 502.51,
+      "bxt_today": 5.18,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 519.99,
-      "pct_to_ath": 0.8
+      "pct_to_ath": 0.3
     },
     {
       "sym": "DASH",
       "name": "DASH",
       "mcap": 76,
-      "price": 175.03,
-      "basis": 170.62,
-      "bxt_today": 0.64,
+      "price": 174.66,
+      "basis": 170.6,
+      "bxt_today": 0.45,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 63.1
+      "pct_to_ath": 63.5
     },
     {
       "sym": "VST",
       "name": "VST",
       "mcap": 54,
-      "price": 159.24,
+      "price": 159.26,
       "basis": 158.64,
-      "bxt_today": 0.41,
+      "bxt_today": 0.42,
       "bxt_yest": -0.07,
       "fvb_g": true,
       "fvb_r": false,
@@ -47,41 +47,51 @@
       "bxt_r": false,
       "ath": 219.82,
       "pct_to_ath": 38.0
-    }
-  ],
-  "both_red": [
+    },
     {
-      "sym": "TRMB",
-      "name": "Trimble",
-      "mcap": 16,
-      "price": 66.94,
-      "basis": 66.98,
-      "bxt_today": -0.3,
-      "bxt_yest": 0.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 96.49,
-      "pct_to_ath": 44.1
+      "sym": "AIG",
+      "name": "AIG",
+      "mcap": 42,
+      "price": 78.55,
+      "basis": 76.64,
+      "bxt_today": 0.61,
+      "bxt_yest": -13.48,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 2075.0,
+      "pct_to_ath": 2541.6
     }
   ],
+  "both_red": [],
   "changes": {
-    "green_added": [],
-    "green_removed": [
+    "green_added": [
       {
         "sym": "AIG",
         "name": "AIG",
         "mcap": 42,
-        "price": 78.46,
+        "price": 78.55,
         "basis": 76.64,
-        "bxt_today": 0.38,
+        "bxt_today": 0.61,
         "ath": 2075.0,
-        "pct_to_ath": 2544.7
+        "pct_to_ath": 2541.6
       }
     ],
+    "green_removed": [],
     "red_added": [],
-    "red_removed": [],
-    "compared_to": "2026-05-01T14:15:21.873346+00:00"
+    "red_removed": [
+      {
+        "sym": "TRMB",
+        "name": "Trimble",
+        "mcap": 16,
+        "price": 66.94,
+        "basis": 66.98,
+        "bxt_today": -0.3,
+        "ath": 96.49,
+        "pct_to_ath": 44.1
+      }
+    ],
+    "compared_to": "2026-05-01T14:20:26.321740+00:00"
   }
 }
