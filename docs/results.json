@@ -1,45 +1,45 @@
 {
-  "updated_at": "2026-05-01T16:32:22.726872+00:00",
-  "scan_seconds": 4.97,
+  "updated_at": "2026-05-01T16:37:27.077242+00:00",
+  "scan_seconds": 2.47,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "PLTR",
       "name": "Palantir",
-      "mcap": 346,
-      "price": 144.01,
-      "basis": 141.56,
-      "bxt_today": 0.84,
+      "mcap": 345,
+      "price": 143.87,
+      "basis": 141.55,
+      "bxt_today": 0.74,
       "bxt_yest": -2.21,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 207.52,
-      "pct_to_ath": 44.1
+      "pct_to_ath": 44.2
     },
     {
       "sym": "LIN",
       "name": "LIN",
-      "mcap": 238,
-      "price": 513.08,
-      "basis": 502.24,
-      "bxt_today": 2.36,
+      "mcap": 237,
+      "price": 512.38,
+      "basis": 502.21,
+      "bxt_today": 1.95,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 521.28,
-      "pct_to_ath": 1.6
+      "pct_to_ath": 1.7
     },
     {
       "sym": "DASH",
       "name": "DASH",
       "mcap": 76,
-      "price": 175.19,
+      "price": 175.18,
       "basis": 170.63,
-      "bxt_today": 0.72,
+      "bxt_today": 0.71,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
@@ -52,56 +52,56 @@
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 79.0,
+      "price": 79.01,
       "basis": 76.67,
-      "bxt_today": 1.73,
+      "bxt_today": 1.76,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2526.6
+      "pct_to_ath": 2526.2
     },
     {
       "sym": "ROP",
       "name": "Roper Technologies",
       "mcap": 37,
-      "price": 359.6,
-      "basis": 357.12,
-      "bxt_today": 0.55,
+      "price": 359.02,
+      "basis": 357.09,
+      "bxt_today": 0.12,
       "bxt_yest": -2.79,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 595.17,
-      "pct_to_ath": 65.5
+      "pct_to_ath": 65.8
     },
     {
       "sym": "FDS",
       "name": "FactSet",
-      "mcap": 8,
-      "price": 233.27,
-      "basis": 228.56,
-      "bxt_today": 0.84,
+      "mcap": 9,
+      "price": 233.46,
+      "basis": 228.57,
+      "bxt_today": 0.93,
       "bxt_yest": -0.68,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 499.87,
-      "pct_to_ath": 114.3
+      "pct_to_ath": 114.1
     }
   ],
   "both_red": [
     {
       "sym": "APH",
       "name": "APH",
-      "mcap": 176,
-      "price": 143.45,
-      "basis": 144.69,
-      "bxt_today": -3.66,
+      "mcap": 177,
+      "price": 143.52,
+      "basis": 144.7,
+      "bxt_today": -3.6,
       "bxt_yest": 1.07,
       "fvb_g": false,
       "fvb_r": true,
@@ -113,50 +113,39 @@
     {
       "sym": "AFL",
       "name": "AFL",
-      "mcap": 58,
-      "price": 113.51,
+      "mcap": 59,
+      "price": 113.6,
       "basis": 113.62,
-      "bxt_today": -1.59,
+      "bxt_today": -1.36,
       "bxt_yest": 4.71,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 119.32,
-      "pct_to_ath": 5.1
+      "pct_to_ath": 5.0
     },
     {
       "sym": "MGM",
       "name": "MGM",
       "mcap": 10,
-      "price": 37.78,
-      "basis": 38.41,
-      "bxt_today": -6.53,
+      "price": 37.81,
+      "basis": 38.42,
+      "bxt_today": -6.41,
       "bxt_yest": 2.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 100.5,
-      "pct_to_ath": 166.0
+      "pct_to_ath": 165.8
     }
   ],
   "changes": {
     "green_added": [],
     "green_removed": [],
-    "red_added": [
-      {
-        "sym": "AFL",
-        "name": "AFL",
-        "mcap": 58,
-        "price": 113.51,
-        "basis": 113.62,
-        "bxt_today": -1.59,
-        "ath": 119.32,
-        "pct_to_ath": 5.1
-      }
-    ],
+    "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-05-01T16:27:15.711122+00:00"
+    "compared_to": "2026-05-01T16:32:22.726872+00:00"
   }
 }
