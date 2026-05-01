@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-05-01T16:27:15.711122+00:00",
-  "scan_seconds": 2.55,
+  "updated_at": "2026-05-01T16:32:22.726872+00:00",
+  "scan_seconds": 4.97,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "PLTR",
       "name": "Palantir",
-      "mcap": 345,
-      "price": 143.75,
-      "basis": 141.55,
-      "bxt_today": 0.66,
+      "mcap": 346,
+      "price": 144.01,
+      "basis": 141.56,
+      "bxt_today": 0.84,
       "bxt_yest": -2.21,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 207.52,
-      "pct_to_ath": 44.4
+      "pct_to_ath": 44.1
     },
     {
       "sym": "LIN",
       "name": "LIN",
       "mcap": 238,
-      "price": 512.93,
-      "basis": 502.23,
-      "bxt_today": 2.27,
+      "price": 513.08,
+      "basis": 502.24,
+      "bxt_today": 2.36,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
@@ -37,71 +37,71 @@
       "sym": "DASH",
       "name": "DASH",
       "mcap": 76,
-      "price": 174.91,
-      "basis": 170.62,
-      "bxt_today": 0.58,
+      "price": 175.19,
+      "basis": 170.63,
+      "bxt_today": 0.72,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 63.2
+      "pct_to_ath": 63.0
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 79.15,
+      "price": 79.0,
       "basis": 76.67,
-      "bxt_today": 2.09,
+      "bxt_today": 1.73,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2521.6
+      "pct_to_ath": 2526.6
     },
     {
       "sym": "ROP",
       "name": "Roper Technologies",
       "mcap": 37,
-      "price": 359.16,
-      "basis": 357.09,
-      "bxt_today": 0.23,
+      "price": 359.6,
+      "basis": 357.12,
+      "bxt_today": 0.55,
       "bxt_yest": -2.79,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 595.17,
-      "pct_to_ath": 65.7
+      "pct_to_ath": 65.5
     },
     {
       "sym": "FDS",
       "name": "FactSet",
       "mcap": 8,
-      "price": 232.46,
-      "basis": 228.52,
-      "bxt_today": 0.42,
+      "price": 233.27,
+      "basis": 228.56,
+      "bxt_today": 0.84,
       "bxt_yest": -0.68,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 499.87,
-      "pct_to_ath": 115.0
+      "pct_to_ath": 114.3
     }
   ],
   "both_red": [
     {
       "sym": "APH",
       "name": "APH",
-      "mcap": 177,
-      "price": 143.54,
-      "basis": 144.7,
-      "bxt_today": -3.58,
+      "mcap": 176,
+      "price": 143.45,
+      "basis": 144.69,
+      "bxt_today": -3.66,
       "bxt_yest": 1.07,
       "fvb_g": false,
       "fvb_r": true,
@@ -111,26 +111,52 @@
       "pct_to_ath": 16.4
     },
     {
+      "sym": "AFL",
+      "name": "AFL",
+      "mcap": 58,
+      "price": 113.51,
+      "basis": 113.62,
+      "bxt_today": -1.59,
+      "bxt_yest": 4.71,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 119.32,
+      "pct_to_ath": 5.1
+    },
+    {
       "sym": "MGM",
       "name": "MGM",
       "mcap": 10,
-      "price": 37.77,
+      "price": 37.78,
       "basis": 38.41,
-      "bxt_today": -6.59,
+      "bxt_today": -6.53,
       "bxt_yest": 2.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 100.5,
-      "pct_to_ath": 166.1
+      "pct_to_ath": 166.0
     }
   ],
   "changes": {
     "green_added": [],
     "green_removed": [],
-    "red_added": [],
+    "red_added": [
+      {
+        "sym": "AFL",
+        "name": "AFL",
+        "mcap": 58,
+        "price": 113.51,
+        "basis": 113.62,
+        "bxt_today": -1.59,
+        "ath": 119.32,
+        "pct_to_ath": 5.1
+      }
+    ],
     "red_removed": [],
-    "compared_to": "2026-05-01T16:22:11.230128+00:00"
+    "compared_to": "2026-05-01T16:27:15.711122+00:00"
   }
 }
