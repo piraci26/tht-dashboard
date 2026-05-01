@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-01T05:58:19.403816+00:00",
-  "scan_seconds": 2.53,
-  "scanned_count": 501,
+  "updated_at": "2026-05-01T06:03:24.237171+00:00",
+  "scan_seconds": 2.55,
+  "scanned_count": 503,
   "both_green": [
     {
       "sym": "LLY",
@@ -274,6 +274,21 @@
       "pct_to_ath": 2.9
     },
     {
+      "sym": "TXT",
+      "name": "TXT",
+      "mcap": 17,
+      "price": 95.96,
+      "basis": 90.45,
+      "bxt_today": 11.96,
+      "bxt_yest": -2.39,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 101.57,
+      "pct_to_ath": 5.8
+    },
+    {
       "sym": "TRMB",
       "name": "Trimble",
       "mcap": 16,
@@ -397,8 +412,7 @@
     }
   ],
   "changes": {
-    "green_added": [],
-    "green_removed": [
+    "green_added": [
       {
         "sym": "TXT",
         "name": "TXT",
@@ -410,8 +424,9 @@
         "pct_to_ath": 5.8
       }
     ],
+    "green_removed": [],
     "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-05-01T05:53:14.953856+00:00"
+    "compared_to": "2026-05-01T05:58:19.403816+00:00"
   }
 }
