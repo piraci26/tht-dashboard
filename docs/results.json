@@ -1,15 +1,15 @@
 {
-  "updated_at": "2026-05-01T14:25:30.639193+00:00",
-  "scan_seconds": 2.48,
+  "updated_at": "2026-05-01T14:30:36.520844+00:00",
+  "scan_seconds": 4.11,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "LIN",
       "name": "LIN",
       "mcap": 240,
-      "price": 518.36,
-      "basis": 502.51,
-      "bxt_today": 5.18,
+      "price": 518.28,
+      "basis": 502.5,
+      "bxt_today": 5.14,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
@@ -22,24 +22,24 @@
       "sym": "DASH",
       "name": "DASH",
       "mcap": 76,
-      "price": 174.66,
-      "basis": 170.6,
-      "bxt_today": 0.45,
+      "price": 175.04,
+      "basis": 170.62,
+      "bxt_today": 0.64,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 63.5
+      "pct_to_ath": 63.1
     },
     {
       "sym": "VST",
       "name": "VST",
       "mcap": 54,
-      "price": 159.26,
+      "price": 159.33,
       "basis": 158.64,
-      "bxt_today": 0.42,
+      "bxt_today": 0.48,
       "bxt_yest": -0.07,
       "fvb_g": true,
       "fvb_r": false,
@@ -52,46 +52,51 @@
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 78.55,
-      "basis": 76.64,
-      "bxt_today": 0.61,
+      "price": 78.6,
+      "basis": 76.65,
+      "bxt_today": 0.72,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2541.6
+      "pct_to_ath": 2539.9
     }
   ],
-  "both_red": [],
+  "both_red": [
+    {
+      "sym": "MGM",
+      "name": "MGM",
+      "mcap": 10,
+      "price": 38.35,
+      "basis": 38.44,
+      "bxt_today": -4.15,
+      "bxt_yest": 2.37,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 100.5,
+      "pct_to_ath": 162.1
+    }
+  ],
   "changes": {
-    "green_added": [
-      {
-        "sym": "AIG",
-        "name": "AIG",
-        "mcap": 42,
-        "price": 78.55,
-        "basis": 76.64,
-        "bxt_today": 0.61,
-        "ath": 2075.0,
-        "pct_to_ath": 2541.6
-      }
-    ],
+    "green_added": [],
     "green_removed": [],
-    "red_added": [],
-    "red_removed": [
+    "red_added": [
       {
-        "sym": "TRMB",
-        "name": "Trimble",
-        "mcap": 16,
-        "price": 66.94,
-        "basis": 66.98,
-        "bxt_today": -0.3,
-        "ath": 96.49,
-        "pct_to_ath": 44.1
+        "sym": "MGM",
+        "name": "MGM",
+        "mcap": 10,
+        "price": 38.35,
+        "basis": 38.44,
+        "bxt_today": -4.15,
+        "ath": 100.5,
+        "pct_to_ath": 162.1
       }
     ],
-    "compared_to": "2026-05-01T14:20:26.321740+00:00"
+    "red_removed": [],
+    "compared_to": "2026-05-01T14:25:30.639193+00:00"
   }
 }
