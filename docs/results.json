@@ -1,128 +1,132 @@
 {
-  "updated_at": "2026-05-01T14:56:06.503435+00:00",
-  "scan_seconds": 2.52,
+  "updated_at": "2026-05-01T15:01:10.784892+00:00",
+  "scan_seconds": 2.55,
   "scanned_count": 502,
   "both_green": [
     {
       "sym": "PLTR",
       "name": "Palantir",
       "mcap": 345,
-      "price": 143.73,
+      "price": 143.77,
       "basis": 141.55,
-      "bxt_today": 0.65,
+      "bxt_today": 0.68,
       "bxt_yest": -2.21,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 207.52,
-      "pct_to_ath": 44.4
+      "pct_to_ath": 44.3
     },
     {
       "sym": "LIN",
       "name": "LIN",
-      "mcap": 240,
-      "price": 517.21,
-      "basis": 502.45,
-      "bxt_today": 4.59,
+      "mcap": 239,
+      "price": 516.8,
+      "basis": 502.43,
+      "bxt_today": 4.38,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 521.28,
-      "pct_to_ath": 0.8
+      "pct_to_ath": 0.9
     },
     {
       "sym": "DASH",
       "name": "DASH",
       "mcap": 77,
-      "price": 175.93,
+      "price": 176.04,
       "basis": 170.67,
-      "bxt_today": 1.09,
+      "bxt_today": 1.15,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 62.3
+      "pct_to_ath": 62.2
     },
     {
       "sym": "VST",
       "name": "VST",
       "mcap": 54,
-      "price": 159.01,
-      "basis": 158.63,
-      "bxt_today": 0.21,
+      "price": 159.15,
+      "basis": 158.64,
+      "bxt_today": 0.33,
       "bxt_yest": -0.07,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 219.82,
-      "pct_to_ath": 38.2
+      "pct_to_ath": 38.1
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 79.09,
-      "basis": 76.67,
-      "bxt_today": 1.95,
+      "price": 78.85,
+      "basis": 76.66,
+      "bxt_today": 1.36,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2523.6
+      "pct_to_ath": 2531.6
     }
   ],
   "both_red": [
     {
+      "sym": "APH",
+      "name": "APH",
+      "mcap": 176,
+      "price": 143.25,
+      "basis": 144.68,
+      "bxt_today": -3.81,
+      "bxt_yest": 1.07,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 167.04,
+      "pct_to_ath": 16.6
+    },
+    {
       "sym": "MGM",
       "name": "MGM",
       "mcap": 10,
-      "price": 38.37,
+      "price": 38.33,
       "basis": 38.44,
-      "bxt_today": -4.07,
+      "bxt_today": -4.24,
       "bxt_yest": 2.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 100.5,
-      "pct_to_ath": 161.9
+      "pct_to_ath": 162.2
     }
   ],
   "changes": {
-    "green_added": [
-      {
-        "sym": "VST",
-        "name": "VST",
-        "mcap": 54,
-        "price": 159.01,
-        "basis": 158.63,
-        "bxt_today": 0.21,
-        "ath": 219.82,
-        "pct_to_ath": 38.2
-      }
-    ],
+    "green_added": [],
     "green_removed": [],
-    "red_added": [],
-    "red_removed": [
+    "red_added": [
       {
         "sym": "APH",
         "name": "APH",
-        "mcap": 177,
-        "price": 143.53,
-        "basis": 144.7,
-        "bxt_today": -3.59,
+        "mcap": 176,
+        "price": 143.25,
+        "basis": 144.68,
+        "bxt_today": -3.81,
         "ath": 167.04,
-        "pct_to_ath": 16.4
+        "pct_to_ath": 16.6
       }
     ],
-    "compared_to": "2026-05-01T14:51:02.260057+00:00"
+    "red_removed": [],
+    "compared_to": "2026-05-01T14:56:06.503435+00:00"
   }
 }
