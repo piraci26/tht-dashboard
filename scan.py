@@ -9,11 +9,15 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timezone
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TICKERS = json.load(open(os.path.join(HERE, "sp500_tickers.json")))
+TICKERS = json.load(open(os.path.join(HERE, "universe.json")))
 try:
     SHARES = {k: v["shares"] for k, v in json.load(open(os.path.join(HERE, "shares_outstanding.json"))).items()}
 except FileNotFoundError:
     SHARES = {}
+try:
+    UNIVERSE_NAMES = json.load(open(os.path.join(HERE, "universe_names.json")))
+except FileNotFoundError:
+    UNIVERSE_NAMES = {}
 
 def live_mcap(sym, price):
     """Live mcap in $B = price × shares_outstanding / 1e9. Falls back to MCAPS dict."""
@@ -198,18 +202,26 @@ def main():
         bxt_g = bxt["today"] > 0 and bxt["yest"] <= 0
         bxt_r = bxt["today"] < 0 and bxt["yest"] >= 0
         if not (fvb_g or fvb_r or bxt_g or bxt_r): continue
+        nm = UNIVERSE_NAMES.get(sym) or NAMES.get(sym, sym)
         rows.append({
-            "sym": sym, "name": NAMES.get(sym, sym), "mcap": live_mcap(sym, fvb["price"]),
+            "sym": sym, "name": nm, "mcap": live_mcap(sym, fvb["price"]),
             "price": round(fvb["price"], 2), "basis": round(fvb["basis"], 2),
             "bxt_today": round(bxt["today"], 2), "bxt_yest": round(bxt["yest"], 2),
             "fvb_g": fvb_g, "fvb_r": fvb_r, "bxt_g": bxt_g, "bxt_r": bxt_r,
         })
 
-    # Fetch ATH only for flipped tickers
+    # 4 separate flip categories (sorted by mcap desc)
+    sort_mcap = lambda x: -x["mcap"]
+    fvb_green_list = sorted([r for r in rows if r["fvb_g"]], key=sort_mcap)
+    fvb_red_list   = sorted([r for r in rows if r["fvb_r"]], key=sort_mcap)
+    bxt_green_list = sorted([r for r in rows if r["bxt_g"]], key=sort_mcap)
+    bxt_red_list   = sorted([r for r in rows if r["bxt_r"]], key=sort_mcap)
+
+    # Fetch ATH for any flipped ticker (union across all 4 categories)
+    flipped_syms = {r["sym"] for r in fvb_green_list + fvb_red_list + bxt_green_list + bxt_red_list}
     ath_map = {}
-    flipped = [r["sym"] for r in rows if (r["fvb_g"] and r["bxt_g"]) or (r["fvb_r"] and r["bxt_r"])]
     with ThreadPoolExecutor(max_workers=15) as ex:
-        for f in as_completed([ex.submit(fetch_ath, s) for s in flipped]):
+        for f in as_completed([ex.submit(fetch_ath, s) for s in flipped_syms]):
             sym, ath = f.result()
             ath_map[sym] = ath
     for r in rows:
@@ -217,78 +229,78 @@ def main():
         r["ath"] = round(ath, 2) if ath else None
         r["pct_to_ath"] = round((ath - r["price"]) / r["price"] * 100, 1) if ath else None
 
-    both_g = sorted([r for r in rows if r["fvb_g"] and r["bxt_g"]], key=lambda x: -x["mcap"])
-    both_r = sorted([r for r in rows if r["fvb_r"] and r["bxt_r"]], key=lambda x: -x["mcap"])
-
-    # Cache 1y OHLC bars for flipped tickers (so the dashboard chart can read same-origin)
+    # Cache 1y OHLC bars for ALL flipped tickers
     bars_dir = os.path.join(HERE, "docs", "bars")
     os.makedirs(bars_dir, exist_ok=True)
-    flipped_for_chart = [r["sym"] for r in (both_g + both_r)]
     with ThreadPoolExecutor(max_workers=15) as ex:
-        for f in as_completed([ex.submit(fetch_ohlc, s) for s in flipped_for_chart]):
+        for f in as_completed([ex.submit(fetch_ohlc, s) for s in flipped_syms]):
             sym, bars = f.result()
             if bars:
                 with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
                     json.dump(bars, fh, separators=(',', ':'))
 
-    # Diff vs previous run
+    # Diff vs previous run — track all 4 categories
     out_path = os.path.join(HERE, "docs", "results.json")
-    prev_g_set, prev_r_set, prev_ts = set(), set(), None
+    prev = {}
+    prev_sets = {"fvb_green": set(), "fvb_red": set(), "bxt_green": set(), "bxt_red": set()}
+    prev_ts = None
     try:
         with open(out_path) as f:
             prev = json.load(f)
-        prev_g_set = {r["sym"] for r in prev.get("both_green", [])}
-        prev_r_set = {r["sym"] for r in prev.get("both_red", [])}
+        for k in prev_sets:
+            prev_sets[k] = {r["sym"] for r in prev.get(k, [])}
         prev_ts = prev.get("updated_at")
     except Exception:
         pass
 
-    cur_g_set = {r["sym"] for r in both_g}
-    cur_r_set = {r["sym"] for r in both_r}
-    cur_lookup = {r["sym"]: r for r in both_g + both_r}
+    cur_lists = {
+        "fvb_green": fvb_green_list, "fvb_red": fvb_red_list,
+        "bxt_green": bxt_green_list, "bxt_red": bxt_red_list,
+    }
+    cur_sets = {k: {r["sym"] for r in v} for k, v in cur_lists.items()}
+    cur_lookup = {r["sym"]: r for lst in cur_lists.values() for r in lst}
     prev_lookup = {}
-    if prev_g_set or prev_r_set:
-        try:
-            for pr in prev.get("both_green", []) + prev.get("both_red", []):
+    try:
+        for k in prev_sets:
+            for pr in prev.get(k, []):
                 prev_lookup[pr["sym"]] = pr
-        except Exception: pass
+    except Exception: pass
 
     def enrich(sym, action):
-        # Use current data for ADDED, previous data for REMOVED
         src = cur_lookup.get(sym) if action == "added" else prev_lookup.get(sym, cur_lookup.get(sym))
         if not src:
-            return {"sym": sym, "name": NAMES.get(sym, sym), "mcap": MCAPS.get(sym, 0)}
+            return {"sym": sym, "name": UNIVERSE_NAMES.get(sym) or NAMES.get(sym, sym), "mcap": 0}
         return {
             "sym": src["sym"], "name": src.get("name", sym),
-            "mcap": src.get("mcap", MCAPS.get(sym, 0)),
+            "mcap": src.get("mcap", 0),
             "price": src.get("price"), "basis": src.get("basis"),
             "bxt_today": src.get("bxt_today"),
             "ath": src.get("ath"), "pct_to_ath": src.get("pct_to_ath"),
         }
-
     def annotate(syms, action):
-        return [enrich(s, action) for s in sorted(syms, key=lambda x: -MCAPS.get(x, 0))]
+        items = [enrich(s, action) for s in syms]
+        return sorted(items, key=lambda x: -(x.get("mcap") or 0))
 
-    changes = {
-        "green_added":   annotate(cur_g_set - prev_g_set, "added"),
-        "green_removed": annotate(prev_g_set - cur_g_set, "removed"),
-        "red_added":     annotate(cur_r_set - prev_r_set, "added"),
-        "red_removed":   annotate(prev_r_set - cur_r_set, "removed"),
-        "compared_to":   prev_ts,
-    }
+    changes = {"compared_to": prev_ts}
+    for k in cur_sets:
+        changes[f"{k}_added"]   = annotate(cur_sets[k] - prev_sets[k], "added")
+        changes[f"{k}_removed"] = annotate(prev_sets[k] - cur_sets[k], "removed")
 
     out = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
         "scan_seconds": round(time.time() - t0, 2),
         "scanned_count": len(closes_map),
-        "both_green": both_g,
-        "both_red": both_r,
+        "fvb_green": fvb_green_list,
+        "fvb_red":   fvb_red_list,
+        "bxt_green": bxt_green_list,
+        "bxt_red":   bxt_red_list,
         "changes": changes,
     }
     with open(out_path, "w") as f:
         json.dump(out, f, indent=2)
     n_changes = sum(len(v) for k, v in changes.items() if isinstance(v, list))
-    print(f"[{out['updated_at']}] scanned {out['scanned_count']} in {out['scan_seconds']}s — {len(both_g)} both-green, {len(both_r)} both-red ({n_changes} changes vs prev)")
+    print(f"[{out['updated_at']}] scanned {out['scanned_count']} in {out['scan_seconds']}s — "
+          f"FVB {len(fvb_green_list)}g/{len(fvb_red_list)}r, BXT {len(bxt_green_list)}g/{len(bxt_red_list)}r ({n_changes} changes)")
 
 if __name__ == "__main__":
     main()

@@ -5,7 +5,7 @@ import json, os, urllib.request, time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 
 HERE = os.path.dirname(os.path.abspath(__file__))
-TICKERS = json.load(open(os.path.join(HERE, "sp500_tickers.json")))
+TICKERS = json.load(open(os.path.join(HERE, "universe.json")))
 OUT = os.path.join(HERE, "shares_outstanding.json")
 
 UA = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36"
