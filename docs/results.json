@@ -1,154 +1,142 @@
 {
-  "updated_at": "2026-05-01T14:05:13.363388+00:00",
-  "scan_seconds": 2.76,
+  "updated_at": "2026-05-01T14:10:17.570164+00:00",
+  "scan_seconds": 2.55,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "LIN",
       "name": "LIN",
       "mcap": 240,
-      "price": 518.84,
-      "basis": 502.53,
-      "bxt_today": 5.42,
+      "price": 517.9,
+      "basis": 502.48,
+      "bxt_today": 4.94,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 519.99,
-      "pct_to_ath": 0.2
+      "pct_to_ath": 0.4
     },
     {
       "sym": "DASH",
       "name": "DASH",
       "mcap": 77,
-      "price": 176.09,
-      "basis": 170.68,
-      "bxt_today": 1.17,
+      "price": 176.02,
+      "basis": 170.67,
+      "bxt_today": 1.14,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 62.1
+      "pct_to_ath": 62.2
     },
     {
       "sym": "VST",
       "name": "VST",
       "mcap": 54,
-      "price": 160.02,
-      "basis": 158.68,
-      "bxt_today": 1.05,
+      "price": 159.02,
+      "basis": 158.63,
+      "bxt_today": 0.22,
       "bxt_yest": -0.07,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 219.82,
-      "pct_to_ath": 37.4
+      "pct_to_ath": 38.2
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 78.89,
-      "basis": 76.66,
-      "bxt_today": 1.46,
+      "price": 78.68,
+      "basis": 76.65,
+      "bxt_today": 0.95,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2530.2
+      "pct_to_ath": 2537.3
     }
   ],
   "both_red": [
     {
+      "sym": "APH",
+      "name": "APH",
+      "mcap": 178,
+      "price": 144.57,
+      "basis": 144.75,
+      "bxt_today": -2.75,
+      "bxt_yest": 1.07,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 167.04,
+      "pct_to_ath": 15.5
+    },
+    {
       "sym": "COP",
       "name": "ConocoPhillips",
       "mcap": 150,
-      "price": 123.05,
-      "basis": 123.11,
-      "bxt_today": -0.15,
+      "price": 122.62,
+      "basis": 123.08,
+      "bxt_today": -0.66,
       "bxt_yest": 2.9,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 138.49,
-      "pct_to_ath": 12.5
+      "pct_to_ath": 12.9
+    },
+    {
+      "sym": "TRMB",
+      "name": "Trimble",
+      "mcap": 16,
+      "price": 66.92,
+      "basis": 66.98,
+      "bxt_today": -0.38,
+      "bxt_yest": 0.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 96.49,
+      "pct_to_ath": 44.2
     }
   ],
   "changes": {
     "green_added": [],
-    "green_removed": [
-      {
-        "sym": "PLTR",
-        "name": "Palantir",
-        "mcap": 344,
-        "price": 143.51,
-        "basis": 141.53,
-        "bxt_today": 0.5,
-        "ath": 207.52,
-        "pct_to_ath": 44.6
-      },
-      {
-        "sym": "YUM",
-        "name": "Yum! Brands",
-        "mcap": 45,
-        "price": 161.39,
-        "basis": 159.96,
-        "bxt_today": 1.15,
-        "ath": 169.39,
-        "pct_to_ath": 5.0
-      },
-      {
-        "sym": "FDS",
-        "name": "FactSet",
-        "mcap": 8,
-        "price": 232.99,
-        "basis": 228.54,
-        "bxt_today": 0.69,
-        "ath": 499.87,
-        "pct_to_ath": 114.5
-      },
-      {
-        "sym": "WY",
-        "name": "WY",
-        "mcap": 18,
-        "price": 25.01,
-        "basis": 24.73,
-        "bxt_today": 0.06,
-        "ath": 87.09,
-        "pct_to_ath": 248.2
-      }
-    ],
+    "green_removed": [],
     "red_added": [
       {
-        "sym": "COP",
-        "name": "ConocoPhillips",
-        "mcap": 150,
-        "price": 123.05,
-        "basis": 123.11,
-        "bxt_today": -0.15,
-        "ath": 138.49,
-        "pct_to_ath": 12.5
-      }
-    ],
-    "red_removed": [
+        "sym": "TRMB",
+        "name": "Trimble",
+        "mcap": 16,
+        "price": 66.92,
+        "basis": 66.98,
+        "bxt_today": -0.38,
+        "ath": 96.49,
+        "pct_to_ath": 44.2
+      },
       {
-        "sym": "MGM",
-        "name": "MGM",
-        "mcap": 10,
-        "price": 38.24,
-        "basis": 38.44,
-        "bxt_today": -4.64,
-        "ath": 100.5,
-        "pct_to_ath": 162.8
+        "sym": "APH",
+        "name": "APH",
+        "mcap": 178,
+        "price": 144.57,
+        "basis": 144.75,
+        "bxt_today": -2.75,
+        "ath": 167.04,
+        "pct_to_ath": 15.5
       }
     ],
-    "compared_to": "2026-05-01T14:00:08.520770+00:00"
+    "red_removed": [],
+    "compared_to": "2026-05-01T14:05:13.363388+00:00"
   }
 }
