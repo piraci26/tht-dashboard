@@ -1,97 +1,100 @@
 {
-  "updated_at": "2026-05-01T13:34:36.981355+00:00",
-  "scan_seconds": 7.21,
+  "updated_at": "2026-05-01T13:39:41.954049+00:00",
+  "scan_seconds": 2.77,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "PLTR",
       "name": "Palantir",
       "mcap": 349,
-      "price": 145.51,
-      "basis": 141.63,
-      "bxt_today": 1.83,
+      "price": 145.23,
+      "basis": 141.62,
+      "bxt_today": 1.65,
       "bxt_yest": -2.21,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 207.52,
-      "pct_to_ath": 42.6
+      "pct_to_ath": 42.9
     },
     {
       "sym": "LIN",
       "name": "LIN",
-      "mcap": 236,
-      "price": 510.17,
-      "basis": 502.1,
-      "bxt_today": 0.64,
+      "mcap": 237,
+      "price": 512.45,
+      "basis": 502.21,
+      "bxt_today": 1.99,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 515.63,
-      "pct_to_ath": 1.1
+      "pct_to_ath": 0.6
     },
     {
-      "sym": "DASH",
-      "name": "DASH",
-      "mcap": 76,
-      "price": 174.52,
-      "basis": 170.6,
-      "bxt_today": 0.37,
-      "bxt_yest": -0.86,
+      "sym": "AIG",
+      "name": "AIG",
+      "mcap": 42,
+      "price": 78.78,
+      "basis": 76.65,
+      "bxt_today": 1.17,
+      "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
-      "ath": 285.5,
-      "pct_to_ath": 63.6
-    },
-    {
-      "sym": "ROP",
-      "name": "Roper Technologies",
-      "mcap": 37,
-      "price": 360.46,
-      "basis": 357.16,
-      "bxt_today": 1.18,
-      "bxt_yest": -2.79,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 595.17,
-      "pct_to_ath": 65.1
+      "ath": 2075.0,
+      "pct_to_ath": 2533.9
     },
     {
       "sym": "FDS",
       "name": "FactSet",
       "mcap": 8,
-      "price": 232.4,
-      "basis": 228.51,
-      "bxt_today": 0.39,
+      "price": 231.96,
+      "basis": 228.49,
+      "bxt_today": 0.15,
       "bxt_yest": -0.68,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 499.87,
-      "pct_to_ath": 115.1
+      "pct_to_ath": 115.5
     }
   ],
-  "both_red": [],
+  "both_red": [
+    {
+      "sym": "BMY",
+      "name": "BMY",
+      "mcap": 119,
+      "price": 58.2,
+      "basis": 58.75,
+      "bxt_today": -0.43,
+      "bxt_yest": 2.88,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 81.44,
+      "pct_to_ath": 39.9
+    }
+  ],
   "changes": {
     "green_added": [
       {
-        "sym": "PLTR",
-        "name": "Palantir",
-        "mcap": 349,
-        "price": 145.51,
-        "basis": 141.63,
-        "bxt_today": 1.83,
-        "ath": 207.52,
-        "pct_to_ath": 42.6
-      },
+        "sym": "AIG",
+        "name": "AIG",
+        "mcap": 42,
+        "price": 78.78,
+        "basis": 76.65,
+        "bxt_today": 1.17,
+        "ath": 2075.0,
+        "pct_to_ath": 2533.9
+      }
+    ],
+    "green_removed": [
       {
         "sym": "ROP",
         "name": "Roper Technologies",
@@ -101,26 +104,6 @@
         "bxt_today": 1.18,
         "ath": 595.17,
         "pct_to_ath": 65.1
-      },
-      {
-        "sym": "FDS",
-        "name": "FactSet",
-        "mcap": 8,
-        "price": 232.4,
-        "basis": 228.51,
-        "bxt_today": 0.39,
-        "ath": 499.87,
-        "pct_to_ath": 115.1
-      },
-      {
-        "sym": "LIN",
-        "name": "LIN",
-        "mcap": 236,
-        "price": 510.17,
-        "basis": 502.1,
-        "bxt_today": 0.64,
-        "ath": 515.63,
-        "pct_to_ath": 1.1
       },
       {
         "sym": "DASH",
@@ -133,281 +116,19 @@
         "pct_to_ath": 63.6
       }
     ],
-    "green_removed": [
-      {
-        "sym": "COST",
-        "name": "Costco",
-        "mcap": 450,
-        "price": 1014.53,
-        "basis": 1003.65,
-        "bxt_today": 0.94,
-        "ath": 1078.23,
-        "pct_to_ath": 6.3
-      },
-      {
-        "sym": "O",
-        "name": "Realty Income",
-        "mcap": 60,
-        "price": 64.24,
-        "basis": 63.52,
-        "bxt_today": 1.18,
-        "ath": 82.29,
-        "pct_to_ath": 28.1
-      },
-      {
-        "sym": "DTE",
-        "name": "DTE Energy",
-        "mcap": 32,
-        "price": 151.69,
-        "basis": 147.52,
-        "bxt_today": 7.22,
-        "ath": 154.63,
-        "pct_to_ath": 1.9
-      },
-      {
-        "sym": "AEE",
-        "name": "Ameren",
-        "mcap": 31,
-        "price": 113.65,
-        "basis": 111.86,
-        "bxt_today": 2.46,
-        "ath": 115.53,
-        "pct_to_ath": 1.7
-      },
-      {
-        "sym": "TRMB",
-        "name": "Trimble",
-        "mcap": 16,
-        "price": 67.32,
-        "basis": 66.89,
-        "bxt_today": 0.2,
-        "ath": 96.49,
-        "pct_to_ath": 43.3
-      },
-      {
-        "sym": "PRU",
-        "name": "PRU",
-        "mcap": 34,
-        "price": 98.11,
-        "basis": 97.55,
-        "bxt_today": 2.01,
-        "ath": 130.55,
-        "pct_to_ath": 33.1
-      },
-      {
-        "sym": "SO",
-        "name": "SO",
-        "mcap": 109,
-        "price": 96.7,
-        "basis": 95.11,
-        "bxt_today": 2.71,
-        "ath": 100.84,
-        "pct_to_ath": 4.3
-      },
-      {
-        "sym": "KMI",
-        "name": "KMI",
-        "mcap": 73,
-        "price": 32.87,
-        "basis": 32.18,
-        "bxt_today": 2.86,
-        "ath": 44.71,
-        "pct_to_ath": 36.0
-      },
-      {
-        "sym": "HBAN",
-        "name": "HBAN",
-        "mcap": 34,
-        "price": 16.76,
-        "basis": 16.52,
-        "bxt_today": 2.4,
-        "ath": 30.89,
-        "pct_to_ath": 84.3
-      },
-      {
-        "sym": "EVRG",
-        "name": "EVRG",
-        "mcap": 19,
-        "price": 82.84,
-        "basis": 82.12,
-        "bxt_today": 0.21,
-        "ath": 85.27,
-        "pct_to_ath": 2.9
-      },
-      {
-        "sym": "WAB",
-        "name": "WAB",
-        "mcap": 46,
-        "price": 269.89,
-        "basis": 263.35,
-        "bxt_today": 0.2,
-        "ath": 275.84,
-        "pct_to_ath": 2.2
-      },
-      {
-        "sym": "CNP",
-        "name": "CNP",
-        "mcap": 29,
-        "price": 43.65,
-        "basis": 43.08,
-        "bxt_today": 2.33,
-        "ath": 44.47,
-        "pct_to_ath": 1.9
-      },
-      {
-        "sym": "XEL",
-        "name": "XEL",
-        "mcap": 52,
-        "price": 82.95,
-        "basis": 80.31,
-        "bxt_today": 5.98,
-        "ath": 84.23,
-        "pct_to_ath": 1.5
-      },
-      {
-        "sym": "TXT",
-        "name": "TXT",
-        "mcap": 17,
-        "price": 95.96,
-        "basis": 90.45,
-        "bxt_today": 11.96,
-        "ath": 101.57,
-        "pct_to_ath": 5.8
-      },
-      {
-        "sym": "LLY",
-        "name": "LLY",
-        "mcap": 836,
-        "price": 934.6,
-        "basis": 915.19,
-        "bxt_today": 2.05,
-        "ath": 1133.95,
-        "pct_to_ath": 21.3
-      },
+    "red_added": [
       {
         "sym": "BMY",
         "name": "BMY",
-        "mcap": 124,
-        "price": 60.59,
-        "basis": 58.82,
-        "bxt_today": 2.88,
+        "mcap": 119,
+        "price": 58.2,
+        "basis": 58.75,
+        "bxt_today": -0.43,
         "ath": 81.44,
-        "pct_to_ath": 34.4
-      },
-      {
-        "sym": "AKAM",
-        "name": "AKAM",
-        "mcap": 15,
-        "price": 102.98,
-        "basis": 100.43,
-        "bxt_today": 3.45,
-        "ath": 345.5,
-        "pct_to_ath": 235.5
-      },
-      {
-        "sym": "ABBV",
-        "name": "ABBV",
-        "mcap": 374,
-        "price": 211.32,
-        "basis": 205.78,
-        "bxt_today": 8.72,
-        "ath": 244.81,
-        "pct_to_ath": 15.8
-      },
-      {
-        "sym": "PEG",
-        "name": "PEG",
-        "mcap": 41,
-        "price": 81.66,
-        "basis": 81.15,
-        "bxt_today": 2.71,
-        "ath": 95.22,
-        "pct_to_ath": 16.6
-      },
-      {
-        "sym": "ORLY",
-        "name": "ORLY",
-        "mcap": 83,
-        "price": 99.4,
-        "basis": 93.22,
-        "bxt_today": 12.92,
-        "ath": 108.72,
-        "pct_to_ath": 9.4
-      },
-      {
-        "sym": "WEC",
-        "name": "WEC",
-        "mcap": 38,
-        "price": 117.94,
-        "basis": 116.02,
-        "bxt_today": 2.48,
-        "ath": 119.62,
-        "pct_to_ath": 1.4
+        "pct_to_ath": 39.9
       }
     ],
-    "red_added": [],
-    "red_removed": [
-      {
-        "sym": "FDS",
-        "name": "FactSet",
-        "mcap": 8,
-        "price": 227.58,
-        "basis": 228.28,
-        "bxt_today": -0.68,
-        "ath": 499.87,
-        "pct_to_ath": 119.6
-      },
-      {
-        "sym": "META",
-        "name": "META",
-        "mcap": 1554,
-        "price": 611.91,
-        "basis": 645.34,
-        "bxt_today": -4.46,
-        "ath": 796.25,
-        "pct_to_ath": 30.1
-      },
-      {
-        "sym": "DASH",
-        "name": "DASH",
-        "mcap": 73,
-        "price": 168.65,
-        "basis": 169.69,
-        "bxt_today": -0.86,
-        "ath": 285.5,
-        "pct_to_ath": 69.3
-      },
-      {
-        "sym": "HUBB",
-        "name": "HUBB",
-        "mcap": 27,
-        "price": 508.17,
-        "basis": 533.52,
-        "bxt_today": -10.51,
-        "ath": 565.5,
-        "pct_to_ath": 11.3
-      },
-      {
-        "sym": "KLAC",
-        "name": "KLAC",
-        "mcap": 229,
-        "price": 1750.35,
-        "basis": 1750.52,
-        "bxt_today": -4.98,
-        "ath": 1939.36,
-        "pct_to_ath": 10.8
-      },
-      {
-        "sym": "LIN",
-        "name": "LIN",
-        "mcap": 232,
-        "price": 501.14,
-        "basis": 501.72,
-        "bxt_today": -1.98,
-        "ath": 515.63,
-        "pct_to_ath": 2.9
-      }
-    ],
-    "compared_to": "2026-05-01T13:29:28.023678+00:00"
+    "red_removed": [],
+    "compared_to": "2026-05-01T13:34:36.981355+00:00"
   }
 }
