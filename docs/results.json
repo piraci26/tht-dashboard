@@ -1,129 +1,100 @@
 {
-  "updated_at": "2026-05-01T14:10:17.570164+00:00",
-  "scan_seconds": 2.55,
+  "updated_at": "2026-05-01T14:15:21.873346+00:00",
+  "scan_seconds": 2.61,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "LIN",
       "name": "LIN",
       "mcap": 240,
-      "price": 517.9,
-      "basis": 502.48,
-      "bxt_today": 4.94,
+      "price": 518.84,
+      "basis": 502.53,
+      "bxt_today": 5.42,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 519.99,
-      "pct_to_ath": 0.4
+      "pct_to_ath": 0.2
     },
     {
       "sym": "DASH",
       "name": "DASH",
-      "mcap": 77,
-      "price": 176.02,
-      "basis": 170.67,
-      "bxt_today": 1.14,
+      "mcap": 76,
+      "price": 174.86,
+      "basis": 170.61,
+      "bxt_today": 0.55,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 62.2
+      "pct_to_ath": 63.3
     },
     {
       "sym": "VST",
       "name": "VST",
       "mcap": 54,
-      "price": 159.02,
-      "basis": 158.63,
-      "bxt_today": 0.22,
+      "price": 159.33,
+      "basis": 158.64,
+      "bxt_today": 0.48,
       "bxt_yest": -0.07,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 219.82,
-      "pct_to_ath": 38.2
+      "pct_to_ath": 38.0
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 78.68,
-      "basis": 76.65,
-      "bxt_today": 0.95,
+      "price": 78.46,
+      "basis": 76.64,
+      "bxt_today": 0.38,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2537.3
+      "pct_to_ath": 2544.7
     }
   ],
   "both_red": [
     {
-      "sym": "APH",
-      "name": "APH",
-      "mcap": 178,
-      "price": 144.57,
-      "basis": 144.75,
-      "bxt_today": -2.75,
-      "bxt_yest": 1.07,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 167.04,
-      "pct_to_ath": 15.5
-    },
-    {
-      "sym": "COP",
-      "name": "ConocoPhillips",
-      "mcap": 150,
-      "price": 122.62,
-      "basis": 123.08,
-      "bxt_today": -0.66,
-      "bxt_yest": 2.9,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 138.49,
-      "pct_to_ath": 12.9
-    },
-    {
       "sym": "TRMB",
       "name": "Trimble",
       "mcap": 16,
-      "price": 66.92,
+      "price": 66.96,
       "basis": 66.98,
-      "bxt_today": -0.38,
+      "bxt_today": -0.24,
       "bxt_yest": 0.2,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 96.49,
-      "pct_to_ath": 44.2
+      "pct_to_ath": 44.1
     }
   ],
   "changes": {
     "green_added": [],
     "green_removed": [],
-    "red_added": [
+    "red_added": [],
+    "red_removed": [
       {
-        "sym": "TRMB",
-        "name": "Trimble",
-        "mcap": 16,
-        "price": 66.92,
-        "basis": 66.98,
-        "bxt_today": -0.38,
-        "ath": 96.49,
-        "pct_to_ath": 44.2
+        "sym": "COP",
+        "name": "ConocoPhillips",
+        "mcap": 150,
+        "price": 122.62,
+        "basis": 123.08,
+        "bxt_today": -0.66,
+        "ath": 138.49,
+        "pct_to_ath": 12.9
       },
       {
         "sym": "APH",
@@ -136,7 +107,6 @@
         "pct_to_ath": 15.5
       }
     ],
-    "red_removed": [],
-    "compared_to": "2026-05-01T14:05:13.363388+00:00"
+    "compared_to": "2026-05-01T14:10:17.570164+00:00"
   }
 }
