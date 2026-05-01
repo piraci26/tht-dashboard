@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-05-01T12:12:37.853590+00:00",
-  "scan_seconds": 2.81,
+  "updated_at": "2026-05-01T12:17:42.590600+00:00",
+  "scan_seconds": 2.82,
   "scanned_count": 503,
   "both_green": [
     {
@@ -30,8 +30,8 @@
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 1078.23,
+      "pct_to_ath": 6.3
     },
     {
       "sym": "ABBV",
@@ -412,21 +412,10 @@
     }
   ],
   "changes": {
-    "green_added": [
-      {
-        "sym": "O",
-        "name": "Realty Income",
-        "mcap": 60,
-        "price": 64.24,
-        "basis": 63.52,
-        "bxt_today": 1.18,
-        "ath": 82.29,
-        "pct_to_ath": 28.1
-      }
-    ],
+    "green_added": [],
     "green_removed": [],
     "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-05-01T12:07:33.109476+00:00"
+    "compared_to": "2026-05-01T12:12:37.853590+00:00"
   }
 }
