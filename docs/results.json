@@ -1,97 +1,82 @@
 {
-  "updated_at": "2026-05-01T15:11:19.507170+00:00",
-  "scan_seconds": 2.47,
+  "updated_at": "2026-05-01T15:16:23.926515+00:00",
+  "scan_seconds": 2.59,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "PLTR",
       "name": "Palantir",
-      "mcap": 344,
-      "price": 143.2,
-      "basis": 141.52,
-      "bxt_today": 0.29,
+      "mcap": 345,
+      "price": 143.7,
+      "basis": 141.54,
+      "bxt_today": 0.63,
       "bxt_yest": -2.21,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 207.52,
-      "pct_to_ath": 44.9
+      "pct_to_ath": 44.4
     },
     {
       "sym": "LIN",
       "name": "LIN",
-      "mcap": 240,
-      "price": 516.99,
-      "basis": 502.44,
-      "bxt_today": 4.48,
+      "mcap": 239,
+      "price": 515.97,
+      "basis": 502.39,
+      "bxt_today": 3.94,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 521.28,
-      "pct_to_ath": 0.8
+      "pct_to_ath": 1.0
     },
     {
       "sym": "DASH",
       "name": "DASH",
-      "mcap": 76,
-      "price": 174.79,
-      "basis": 170.61,
-      "bxt_today": 0.51,
+      "mcap": 77,
+      "price": 175.72,
+      "basis": 170.66,
+      "bxt_today": 0.99,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 63.3
+      "pct_to_ath": 62.5
     },
     {
       "sym": "VST",
       "name": "VST",
       "mcap": 54,
-      "price": 159.67,
-      "basis": 158.66,
-      "bxt_today": 0.76,
+      "price": 159.74,
+      "basis": 158.67,
+      "bxt_today": 0.81,
       "bxt_yest": -0.07,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 219.82,
-      "pct_to_ath": 37.7
+      "pct_to_ath": 37.6
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 78.61,
-      "basis": 76.65,
-      "bxt_today": 0.76,
+      "price": 78.47,
+      "basis": 76.64,
+      "bxt_today": 0.41,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2539.6
-    },
-    {
-      "sym": "LUV",
-      "name": "Southwest Airlines",
-      "mcap": 20,
-      "price": 39.94,
-      "basis": 39.63,
-      "bxt_today": 1.94,
-      "bxt_yest": -4.58,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 66.99,
-      "pct_to_ath": 67.7
+      "pct_to_ath": 2544.3
     }
   ],
   "both_red": [
@@ -99,35 +84,36 @@
       "sym": "APH",
       "name": "APH",
       "mcap": 176,
-      "price": 143.36,
-      "basis": 144.69,
-      "bxt_today": -3.73,
+      "price": 143.24,
+      "basis": 144.68,
+      "bxt_today": -3.82,
       "bxt_yest": 1.07,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 167.04,
-      "pct_to_ath": 16.5
+      "pct_to_ath": 16.6
     },
     {
       "sym": "MGM",
       "name": "MGM",
       "mcap": 10,
-      "price": 38.21,
-      "basis": 38.44,
-      "bxt_today": -4.77,
+      "price": 38.12,
+      "basis": 38.43,
+      "bxt_today": -5.13,
       "bxt_yest": 2.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 100.5,
-      "pct_to_ath": 163.0
+      "pct_to_ath": 163.6
     }
   ],
   "changes": {
-    "green_added": [
+    "green_added": [],
+    "green_removed": [
       {
         "sym": "LUV",
         "name": "Southwest Airlines",
@@ -139,9 +125,8 @@
         "pct_to_ath": 67.7
       }
     ],
-    "green_removed": [],
     "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-05-01T15:06:15.293443+00:00"
+    "compared_to": "2026-05-01T15:11:19.507170+00:00"
   }
 }
