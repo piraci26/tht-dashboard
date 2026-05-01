@@ -1,67 +1,97 @@
 {
-  "updated_at": "2026-05-01T14:30:36.520844+00:00",
-  "scan_seconds": 4.11,
+  "updated_at": "2026-05-01T14:35:46.012594+00:00",
+  "scan_seconds": 2.73,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "LIN",
       "name": "LIN",
-      "mcap": 240,
-      "price": 518.28,
-      "basis": 502.5,
-      "bxt_today": 5.14,
+      "mcap": 241,
+      "price": 520.61,
+      "basis": 502.62,
+      "bxt_today": 6.28,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
-      "ath": 519.99,
-      "pct_to_ath": 0.3
+      "ath": 520.8,
+      "pct_to_ath": 0.0
+    },
+    {
+      "sym": "CB",
+      "name": "Chubb",
+      "mcap": 129,
+      "price": 331.42,
+      "basis": 328.64,
+      "bxt_today": 0.06,
+      "bxt_yest": -5.58,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 345.67,
+      "pct_to_ath": 4.3
     },
     {
       "sym": "DASH",
       "name": "DASH",
-      "mcap": 76,
-      "price": 175.04,
-      "basis": 170.62,
-      "bxt_today": 0.64,
+      "mcap": 77,
+      "price": 175.86,
+      "basis": 170.66,
+      "bxt_today": 1.06,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 63.1
+      "pct_to_ath": 62.3
     },
     {
       "sym": "VST",
       "name": "VST",
       "mcap": 54,
-      "price": 159.33,
-      "basis": 158.64,
-      "bxt_today": 0.48,
+      "price": 159.53,
+      "basis": 158.65,
+      "bxt_today": 0.64,
       "bxt_yest": -0.07,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 219.82,
-      "pct_to_ath": 38.0
+      "pct_to_ath": 37.8
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 78.6,
-      "basis": 76.65,
-      "bxt_today": 0.72,
+      "price": 78.96,
+      "basis": 76.66,
+      "bxt_today": 1.63,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2539.9
+      "pct_to_ath": 2527.9
+    },
+    {
+      "sym": "FDS",
+      "name": "FactSet",
+      "mcap": 8,
+      "price": 232.68,
+      "basis": 228.53,
+      "bxt_today": 0.53,
+      "bxt_yest": -0.68,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 499.87,
+      "pct_to_ath": 114.8
     }
   ],
   "both_red": [
@@ -82,21 +112,31 @@
     }
   ],
   "changes": {
-    "green_added": [],
-    "green_removed": [],
-    "red_added": [
+    "green_added": [
       {
-        "sym": "MGM",
-        "name": "MGM",
-        "mcap": 10,
-        "price": 38.35,
-        "basis": 38.44,
-        "bxt_today": -4.15,
-        "ath": 100.5,
-        "pct_to_ath": 162.1
+        "sym": "CB",
+        "name": "Chubb",
+        "mcap": 129,
+        "price": 331.42,
+        "basis": 328.64,
+        "bxt_today": 0.06,
+        "ath": 345.67,
+        "pct_to_ath": 4.3
+      },
+      {
+        "sym": "FDS",
+        "name": "FactSet",
+        "mcap": 8,
+        "price": 232.68,
+        "basis": 228.53,
+        "bxt_today": 0.53,
+        "ath": 499.87,
+        "pct_to_ath": 114.8
       }
     ],
+    "green_removed": [],
+    "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-05-01T14:25:30.639193+00:00"
+    "compared_to": "2026-05-01T14:30:36.520844+00:00"
   }
 }
