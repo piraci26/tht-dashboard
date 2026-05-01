@@ -1,30 +1,45 @@
 {
-  "updated_at": "2026-05-01T14:40:50.435197+00:00",
-  "scan_seconds": 2.68,
+  "updated_at": "2026-05-01T14:45:57.751848+00:00",
+  "scan_seconds": 5.63,
   "scanned_count": 503,
   "both_green": [
+    {
+      "sym": "PLTR",
+      "name": "Palantir",
+      "mcap": 343,
+      "price": 142.8,
+      "basis": 141.5,
+      "bxt_today": 0.02,
+      "bxt_yest": -2.21,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 207.52,
+      "pct_to_ath": 45.3
+    },
     {
       "sym": "LIN",
       "name": "LIN",
       "mcap": 241,
-      "price": 520.3,
-      "basis": 502.6,
-      "bxt_today": 6.13,
+      "price": 520.04,
+      "basis": 502.59,
+      "bxt_today": 6.01,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
-      "ath": 521.18,
+      "ath": 521.28,
       "pct_to_ath": 0.2
     },
     {
       "sym": "DASH",
       "name": "DASH",
       "mcap": 76,
-      "price": 175.09,
-      "basis": 170.63,
-      "bxt_today": 0.67,
+      "price": 175.02,
+      "basis": 170.62,
+      "bxt_today": 0.63,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
@@ -37,39 +52,39 @@
       "sym": "VST",
       "name": "VST",
       "mcap": 54,
-      "price": 159.24,
-      "basis": 158.64,
-      "bxt_today": 0.4,
+      "price": 158.98,
+      "basis": 158.63,
+      "bxt_today": 0.19,
       "bxt_yest": -0.07,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 219.82,
-      "pct_to_ath": 38.0
+      "pct_to_ath": 38.3
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 78.93,
+      "price": 78.92,
       "basis": 76.66,
-      "bxt_today": 1.54,
+      "bxt_today": 1.53,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2528.9
+      "pct_to_ath": 2529.2
     },
     {
       "sym": "FDS",
       "name": "FactSet",
       "mcap": 8,
-      "price": 231.73,
+      "price": 231.77,
       "basis": 228.48,
-      "bxt_today": 0.03,
+      "bxt_today": 0.05,
       "bxt_yest": -0.68,
       "fvb_g": true,
       "fvb_r": false,
@@ -83,61 +98,50 @@
     {
       "sym": "APH",
       "name": "APH",
-      "mcap": 178,
-      "price": 144.35,
-      "basis": 144.74,
-      "bxt_today": -2.94,
+      "mcap": 177,
+      "price": 143.86,
+      "basis": 144.71,
+      "bxt_today": -3.33,
       "bxt_yest": 1.07,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 167.04,
-      "pct_to_ath": 15.7
+      "pct_to_ath": 16.1
     },
     {
       "sym": "MGM",
       "name": "MGM",
       "mcap": 10,
-      "price": 38.41,
-      "basis": 38.45,
-      "bxt_today": -3.89,
+      "price": 38.37,
+      "basis": 38.44,
+      "bxt_today": -4.07,
       "bxt_yest": 2.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 100.5,
-      "pct_to_ath": 161.7
+      "pct_to_ath": 161.9
     }
   ],
   "changes": {
-    "green_added": [],
-    "green_removed": [
+    "green_added": [
       {
-        "sym": "CB",
-        "name": "Chubb",
-        "mcap": 129,
-        "price": 331.42,
-        "basis": 328.64,
-        "bxt_today": 0.06,
-        "ath": 345.67,
-        "pct_to_ath": 4.3
+        "sym": "PLTR",
+        "name": "Palantir",
+        "mcap": 343,
+        "price": 142.8,
+        "basis": 141.5,
+        "bxt_today": 0.02,
+        "ath": 207.52,
+        "pct_to_ath": 45.3
       }
     ],
-    "red_added": [
-      {
-        "sym": "APH",
-        "name": "APH",
-        "mcap": 178,
-        "price": 144.35,
-        "basis": 144.74,
-        "bxt_today": -2.94,
-        "ath": 167.04,
-        "pct_to_ath": 15.7
-      }
-    ],
+    "green_removed": [],
+    "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-05-01T14:35:46.012594+00:00"
+    "compared_to": "2026-05-01T14:40:50.435197+00:00"
   }
 }
