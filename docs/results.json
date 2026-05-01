@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-01T03:41:17.303639+00:00",
-  "scan_seconds": 2.44,
-  "scanned_count": 502,
+  "updated_at": "2026-05-01T03:46:21.697537+00:00",
+  "scan_seconds": 2.41,
+  "scanned_count": 503,
   "both_green": [
     {
       "sym": "LLY",
@@ -321,6 +321,21 @@
   ],
   "both_red": [
     {
+      "sym": "META",
+      "name": "META",
+      "mcap": 1554,
+      "price": 611.91,
+      "basis": 645.34,
+      "bxt_today": -4.46,
+      "bxt_yest": 8.32,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 796.25,
+      "pct_to_ath": 30.1
+    },
+    {
       "sym": "LIN",
       "name": "LIN",
       "mcap": 232,
@@ -399,8 +414,7 @@
   "changes": {
     "green_added": [],
     "green_removed": [],
-    "red_added": [],
-    "red_removed": [
+    "red_added": [
       {
         "sym": "META",
         "name": "META",
@@ -412,6 +426,7 @@
         "pct_to_ath": 30.1
       }
     ],
-    "compared_to": "2026-05-01T03:36:12.875944+00:00"
+    "red_removed": [],
+    "compared_to": "2026-05-01T03:41:17.303639+00:00"
   }
 }
