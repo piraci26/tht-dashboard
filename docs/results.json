@@ -1,97 +1,112 @@
 {
-  "updated_at": "2026-05-01T13:49:51.060005+00:00",
-  "scan_seconds": 2.74,
-  "scanned_count": 503,
+  "updated_at": "2026-05-01T13:54:55.427908+00:00",
+  "scan_seconds": 2.71,
+  "scanned_count": 502,
   "both_green": [
     {
       "sym": "PLTR",
       "name": "Palantir",
-      "mcap": 348,
-      "price": 144.95,
-      "basis": 141.61,
-      "bxt_today": 1.46,
+      "mcap": 347,
+      "price": 144.47,
+      "basis": 141.58,
+      "bxt_today": 1.15,
       "bxt_yest": -2.21,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 207.52,
-      "pct_to_ath": 43.2
+      "pct_to_ath": 43.6
     },
     {
       "sym": "LIN",
       "name": "LIN",
-      "mcap": 240,
-      "price": 518.18,
-      "basis": 502.5,
-      "bxt_today": 5.09,
+      "mcap": 239,
+      "price": 516.72,
+      "basis": 502.42,
+      "bxt_today": 4.34,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 519.99,
-      "pct_to_ath": 0.3
+      "pct_to_ath": 0.6
     },
     {
       "sym": "DASH",
       "name": "DASH",
-      "mcap": 76,
-      "price": 174.65,
-      "basis": 170.6,
-      "bxt_today": 0.44,
+      "mcap": 77,
+      "price": 175.76,
+      "basis": 170.66,
+      "bxt_today": 1.01,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 63.5
+      "pct_to_ath": 62.4
+    },
+    {
+      "sym": "VST",
+      "name": "VST",
+      "mcap": 54,
+      "price": 159.15,
+      "basis": 158.64,
+      "bxt_today": 0.33,
+      "bxt_yest": -0.07,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 219.82,
+      "pct_to_ath": 38.1
     },
     {
       "sym": "YUM",
       "name": "Yum! Brands",
       "mcap": 44,
-      "price": 160.75,
-      "basis": 159.93,
-      "bxt_today": 0.07,
+      "price": 160.96,
+      "basis": 159.94,
+      "bxt_today": 0.42,
       "bxt_yest": -3.54,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 169.39,
-      "pct_to_ath": 5.4
+      "pct_to_ath": 5.2
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 78.35,
-      "basis": 76.63,
-      "bxt_today": 0.08,
+      "price": 78.57,
+      "basis": 76.64,
+      "bxt_today": 0.64,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2548.4
+      "pct_to_ath": 2541.0
     },
     {
       "sym": "FDS",
       "name": "FactSet",
       "mcap": 8,
-      "price": 232.5,
-      "basis": 228.52,
-      "bxt_today": 0.44,
+      "price": 232.29,
+      "basis": 228.51,
+      "bxt_today": 0.33,
       "bxt_yest": -0.68,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 499.87,
-      "pct_to_ath": 115.0
+      "pct_to_ath": 115.2
     }
   ],
   "both_red": [
@@ -99,84 +114,75 @@
       "sym": "APH",
       "name": "APH",
       "mcap": 178,
-      "price": 144.54,
-      "basis": 144.75,
-      "bxt_today": -2.79,
+      "price": 144.41,
+      "basis": 144.74,
+      "bxt_today": -2.89,
       "bxt_yest": 1.07,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 167.04,
-      "pct_to_ath": 15.6
+      "pct_to_ath": 15.7
     },
     {
       "sym": "BMY",
       "name": "BMY",
       "mcap": 119,
-      "price": 58.17,
-      "basis": 58.74,
-      "bxt_today": -0.55,
+      "price": 58.2,
+      "basis": 58.75,
+      "bxt_today": -0.43,
       "bxt_yest": 2.88,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 81.44,
-      "pct_to_ath": 40.0
+      "pct_to_ath": 39.9
     },
     {
-      "sym": "MLM",
-      "name": "Martin Marietta",
-      "mcap": 37,
-      "price": 605.93,
-      "basis": 616.78,
-      "bxt_today": -0.09,
-      "bxt_yest": 3.93,
+      "sym": "MGM",
+      "name": "MGM",
+      "mcap": 10,
+      "price": 38.3,
+      "basis": 38.44,
+      "bxt_today": -4.37,
+      "bxt_yest": 2.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
-      "ath": 710.97,
-      "pct_to_ath": 17.3
+      "ath": 100.5,
+      "pct_to_ath": 162.4
     }
   ],
   "changes": {
     "green_added": [
       {
-        "sym": "YUM",
-        "name": "Yum! Brands",
-        "mcap": 44,
-        "price": 160.75,
-        "basis": 159.93,
-        "bxt_today": 0.07,
-        "ath": 169.39,
-        "pct_to_ath": 5.4
-      },
-      {
-        "sym": "FDS",
-        "name": "FactSet",
-        "mcap": 8,
-        "price": 232.5,
-        "basis": 228.52,
-        "bxt_today": 0.44,
-        "ath": 499.87,
-        "pct_to_ath": 115.0
-      }
-    ],
-    "green_removed": [
-      {
         "sym": "VST",
         "name": "VST",
         "mcap": 54,
-        "price": 159.48,
-        "basis": 158.65,
-        "bxt_today": 0.6,
+        "price": 159.15,
+        "basis": 158.64,
+        "bxt_today": 0.33,
         "ath": 219.82,
-        "pct_to_ath": 37.8
+        "pct_to_ath": 38.1
       }
     ],
+    "green_removed": [],
     "red_added": [
+      {
+        "sym": "MGM",
+        "name": "MGM",
+        "mcap": 10,
+        "price": 38.3,
+        "basis": 38.44,
+        "bxt_today": -4.37,
+        "ath": 100.5,
+        "pct_to_ath": 162.4
+      }
+    ],
+    "red_removed": [
       {
         "sym": "MLM",
         "name": "Martin Marietta",
@@ -186,29 +192,8 @@
         "bxt_today": -0.09,
         "ath": 710.97,
         "pct_to_ath": 17.3
-      },
-      {
-        "sym": "BMY",
-        "name": "BMY",
-        "mcap": 119,
-        "price": 58.17,
-        "basis": 58.74,
-        "bxt_today": -0.55,
-        "ath": 81.44,
-        "pct_to_ath": 40.0
-      },
-      {
-        "sym": "APH",
-        "name": "APH",
-        "mcap": 178,
-        "price": 144.54,
-        "basis": 144.75,
-        "bxt_today": -2.79,
-        "ath": 167.04,
-        "pct_to_ath": 15.6
       }
     ],
-    "red_removed": [],
-    "compared_to": "2026-05-01T13:44:46.531698+00:00"
+    "compared_to": "2026-05-01T13:49:51.060005+00:00"
   }
 }
