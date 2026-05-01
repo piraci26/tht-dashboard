@@ -1,97 +1,67 @@
 {
-  "updated_at": "2026-05-01T14:45:57.751848+00:00",
-  "scan_seconds": 5.63,
+  "updated_at": "2026-05-01T14:51:02.260057+00:00",
+  "scan_seconds": 2.69,
   "scanned_count": 503,
   "both_green": [
     {
       "sym": "PLTR",
       "name": "Palantir",
-      "mcap": 343,
-      "price": 142.8,
-      "basis": 141.5,
-      "bxt_today": 0.02,
+      "mcap": 344,
+      "price": 143.31,
+      "basis": 141.52,
+      "bxt_today": 0.36,
       "bxt_yest": -2.21,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 207.52,
-      "pct_to_ath": 45.3
+      "pct_to_ath": 44.8
     },
     {
       "sym": "LIN",
       "name": "LIN",
-      "mcap": 241,
-      "price": 520.04,
-      "basis": 502.59,
-      "bxt_today": 6.01,
+      "mcap": 240,
+      "price": 518.02,
+      "basis": 502.49,
+      "bxt_today": 5.01,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 521.28,
-      "pct_to_ath": 0.2
+      "pct_to_ath": 0.6
     },
     {
       "sym": "DASH",
       "name": "DASH",
       "mcap": 76,
-      "price": 175.02,
-      "basis": 170.62,
-      "bxt_today": 0.63,
+      "price": 175.21,
+      "basis": 170.63,
+      "bxt_today": 0.73,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 63.1
-    },
-    {
-      "sym": "VST",
-      "name": "VST",
-      "mcap": 54,
-      "price": 158.98,
-      "basis": 158.63,
-      "bxt_today": 0.19,
-      "bxt_yest": -0.07,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 219.82,
-      "pct_to_ath": 38.3
+      "pct_to_ath": 62.9
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 78.92,
-      "basis": 76.66,
-      "bxt_today": 1.53,
+      "price": 79.1,
+      "basis": 76.67,
+      "bxt_today": 1.96,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2529.2
-    },
-    {
-      "sym": "FDS",
-      "name": "FactSet",
-      "mcap": 8,
-      "price": 231.77,
-      "basis": 228.48,
-      "bxt_today": 0.05,
-      "bxt_yest": -0.68,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 499.87,
-      "pct_to_ath": 115.7
+      "pct_to_ath": 2523.3
     }
   ],
   "both_red": [
@@ -99,49 +69,59 @@
       "sym": "APH",
       "name": "APH",
       "mcap": 177,
-      "price": 143.86,
-      "basis": 144.71,
-      "bxt_today": -3.33,
+      "price": 143.53,
+      "basis": 144.7,
+      "bxt_today": -3.59,
       "bxt_yest": 1.07,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 167.04,
-      "pct_to_ath": 16.1
+      "pct_to_ath": 16.4
     },
     {
       "sym": "MGM",
       "name": "MGM",
       "mcap": 10,
-      "price": 38.37,
+      "price": 38.35,
       "basis": 38.44,
-      "bxt_today": -4.07,
+      "bxt_today": -4.18,
       "bxt_yest": 2.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 100.5,
-      "pct_to_ath": 161.9
+      "pct_to_ath": 162.1
     }
   ],
   "changes": {
-    "green_added": [
+    "green_added": [],
+    "green_removed": [
       {
-        "sym": "PLTR",
-        "name": "Palantir",
-        "mcap": 343,
-        "price": 142.8,
-        "basis": 141.5,
-        "bxt_today": 0.02,
-        "ath": 207.52,
-        "pct_to_ath": 45.3
+        "sym": "FDS",
+        "name": "FactSet",
+        "mcap": 8,
+        "price": 231.77,
+        "basis": 228.48,
+        "bxt_today": 0.05,
+        "ath": 499.87,
+        "pct_to_ath": 115.7
+      },
+      {
+        "sym": "VST",
+        "name": "VST",
+        "mcap": 54,
+        "price": 158.98,
+        "basis": 158.63,
+        "bxt_today": 0.19,
+        "ath": 219.82,
+        "pct_to_ath": 38.3
       }
     ],
-    "green_removed": [],
     "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-05-01T14:40:50.435197+00:00"
+    "compared_to": "2026-05-01T14:45:57.751848+00:00"
   }
 }
