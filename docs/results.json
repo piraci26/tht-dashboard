@@ -1,30 +1,30 @@
 {
-  "updated_at": "2026-05-01T16:22:11.230128+00:00",
-  "scan_seconds": 2.49,
-  "scanned_count": 502,
+  "updated_at": "2026-05-01T16:27:15.711122+00:00",
+  "scan_seconds": 2.55,
+  "scanned_count": 503,
   "both_green": [
     {
       "sym": "PLTR",
       "name": "Palantir",
-      "mcap": 346,
-      "price": 144.19,
-      "basis": 141.57,
-      "bxt_today": 0.96,
+      "mcap": 345,
+      "price": 143.75,
+      "basis": 141.55,
+      "bxt_today": 0.66,
       "bxt_yest": -2.21,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 207.52,
-      "pct_to_ath": 43.9
+      "pct_to_ath": 44.4
     },
     {
       "sym": "LIN",
       "name": "LIN",
       "mcap": 238,
-      "price": 513.04,
-      "basis": 502.24,
-      "bxt_today": 2.34,
+      "price": 512.93,
+      "basis": 502.23,
+      "bxt_today": 2.27,
       "bxt_yest": -1.98,
       "fvb_g": true,
       "fvb_r": false,
@@ -36,62 +36,62 @@
     {
       "sym": "DASH",
       "name": "DASH",
-      "mcap": 77,
-      "price": 175.63,
-      "basis": 170.65,
-      "bxt_today": 0.94,
+      "mcap": 76,
+      "price": 174.91,
+      "basis": 170.62,
+      "bxt_today": 0.58,
       "bxt_yest": -0.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 285.5,
-      "pct_to_ath": 62.6
+      "pct_to_ath": 63.2
     },
     {
       "sym": "AIG",
       "name": "AIG",
       "mcap": 42,
-      "price": 79.02,
+      "price": 79.15,
       "basis": 76.67,
-      "bxt_today": 1.78,
+      "bxt_today": 2.09,
       "bxt_yest": -13.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 2075.0,
-      "pct_to_ath": 2525.9
+      "pct_to_ath": 2521.6
     },
     {
       "sym": "ROP",
       "name": "Roper Technologies",
       "mcap": 37,
-      "price": 359.3,
-      "basis": 357.1,
-      "bxt_today": 0.33,
+      "price": 359.16,
+      "basis": 357.09,
+      "bxt_today": 0.23,
       "bxt_yest": -2.79,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 595.17,
-      "pct_to_ath": 65.6
+      "pct_to_ath": 65.7
     },
     {
       "sym": "FDS",
       "name": "FactSet",
       "mcap": 8,
-      "price": 233.3,
-      "basis": 228.56,
-      "bxt_today": 0.85,
+      "price": 232.46,
+      "basis": 228.52,
+      "bxt_today": 0.42,
       "bxt_yest": -0.68,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "ath": 499.87,
-      "pct_to_ath": 114.3
+      "pct_to_ath": 115.0
     }
   ],
   "both_red": [
@@ -99,31 +99,31 @@
       "sym": "APH",
       "name": "APH",
       "mcap": 177,
-      "price": 143.95,
-      "basis": 144.72,
-      "bxt_today": -3.26,
+      "price": 143.54,
+      "basis": 144.7,
+      "bxt_today": -3.58,
       "bxt_yest": 1.07,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 167.04,
-      "pct_to_ath": 16.0
+      "pct_to_ath": 16.4
     },
     {
       "sym": "MGM",
       "name": "MGM",
       "mcap": 10,
-      "price": 37.81,
-      "basis": 38.42,
-      "bxt_today": -6.43,
+      "price": 37.77,
+      "basis": 38.41,
+      "bxt_today": -6.59,
       "bxt_yest": 2.37,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
       "ath": 100.5,
-      "pct_to_ath": 165.8
+      "pct_to_ath": 166.1
     }
   ],
   "changes": {
@@ -131,6 +131,6 @@
     "green_removed": [],
     "red_added": [],
     "red_removed": [],
-    "compared_to": "2026-05-01T16:17:06.844382+00:00"
+    "compared_to": "2026-05-01T16:22:11.230128+00:00"
   }
 }
