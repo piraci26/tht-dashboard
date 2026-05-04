@@ -168,7 +168,7 @@ function renderTable(rows, tableId) {
     <td class="num">$${r.price.toFixed(2)}</td>
     <td class="num">$${r.basis.toFixed(2)}</td>
     <td class="num">${r.bxt_today.toFixed(2)}</td>
-    <td class="num">${streak != null ? streak + 'd' : '—'}</td>
+    <td class="num">${streak != null ? streak + (timeframe === 'weekly' ? 'W' : timeframe === 'monthly' ? 'M' : 'd') : '—'}</td>
     <td class="num">${r.ath != null ? '$' + r.ath.toFixed(2) : '—'}</td>
     <td class="num">${fmtPct(r.pct_to_ath)}</td>
   </tr>`;
