@@ -62,6 +62,58 @@ def rsi_series(values, length=14):
         out.append(100 - 100/(1+rs))
     return out
 
+def fvb_prior_days(closes, length=20):
+    """If FVB flipped today, count how many bars the PRIOR regime lasted (yesterday looking back)."""
+    n = len(closes)
+    if n < length + 2: return None
+    # Rolling SMA series
+    basis = [None] * n
+    s = sum(closes[:length])
+    basis[length - 1] = s / length
+    for i in range(length, n):
+        s += closes[i] - closes[i - length]
+        basis[i] = s / length
+    if basis[-1] is None or basis[-2] is None: return None
+    today_bull = closes[-1] > basis[-1]
+    yest_bull  = closes[-2] > basis[-2]
+    if today_bull == yest_bull: return None
+    prior_bull = yest_bull
+    days = 0
+    for i in range(n - 2, length - 2, -1):
+        if (closes[i] > basis[i]) == prior_bull:
+            days += 1
+        else:
+            break
+    return days
+
+def bxt_prior_days(closes, length=15):
+    """If BXT flipped today (crossed zero), count how many bars the PRIOR sign lasted."""
+    e5  = ema_series(closes, 5)
+    e20 = ema_series(closes, 20)
+    diff = [a - b if a is not None and b is not None else None for a, b in zip(e5, e20)]
+    valid = [d for d in diff if d is not None]
+    if len(valid) < length + 2: return None
+    rsi_vals = rsi_series(valid, length)
+    bxt = [None] * len(closes)
+    j = 0
+    for i in range(len(closes)):
+        if diff[i] is not None:
+            bxt[i] = (rsi_vals[j] - 50) if j < len(rsi_vals) and rsi_vals[j] is not None else None
+            j += 1
+    if bxt[-1] is None or bxt[-2] is None: return None
+    today_pos = bxt[-1] > 0
+    yest_pos  = bxt[-2] > 0
+    if today_pos == yest_pos: return None
+    prior_pos = yest_pos
+    days = 0
+    for i in range(len(closes) - 2, -1, -1):
+        if bxt[i] is None: break
+        if (bxt[i] > 0) == prior_pos:
+            days += 1
+        else:
+            break
+    return days
+
 def fvb_state(closes, length=20):
     if len(closes) < length + 2: return None
     basis_today = sma(closes, length)
@@ -211,11 +263,14 @@ def run_scan(timeframe="daily"):
         bxt_r = bxt["today"] < 0 and bxt["yest"] >= 0
         if not (fvb_g or fvb_r or bxt_g or bxt_r): continue
         nm = UNIVERSE_NAMES.get(sym) or NAMES.get(sym, sym)
+        fvb_streak = fvb_prior_days(closes) if (fvb_g or fvb_r) else None
+        bxt_streak = bxt_prior_days(closes) if (bxt_g or bxt_r) else None
         rows.append({
             "sym": sym, "name": nm, "mcap": live_mcap(sym, fvb["price"]),
             "price": round(fvb["price"], 2), "basis": round(fvb["basis"], 2),
             "bxt_today": round(bxt["today"], 2), "bxt_yest": round(bxt["yest"], 2),
             "fvb_g": fvb_g, "fvb_r": fvb_r, "bxt_g": bxt_g, "bxt_r": bxt_r,
+            "fvb_streak": fvb_streak, "bxt_streak": bxt_streak,
         })
 
     # 4 separate flip categories (sorted by mcap desc)
