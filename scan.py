@@ -188,6 +188,7 @@ TIMEFRAMES = {
     # name        interval   range
     "daily":   ("1d",  "1y"),
     "weekly":  ("1wk", "5y"),
+    "monthly": ("1mo", "max"),
 }
 
 def run_scan(timeframe="daily"):
@@ -313,3 +314,4 @@ def run_scan(timeframe="daily"):
 if __name__ == "__main__":
     run_scan("daily")
     run_scan("weekly")
+    run_scan("monthly")

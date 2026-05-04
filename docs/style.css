@@ -18,7 +18,17 @@ body {
   font-size: 14px; line-height: 1.5;
 }
 header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 32px; }
-h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; margin-bottom: 8px; }
+.header-top { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
+h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; }
+.version-toggle {
+  font-size: 12px; font-weight: 500; color: var(--dim); text-decoration: none;
+  letter-spacing: 0.02em; padding: 6px 12px; border: 1px solid var(--line);
+  border-radius: 999px; background: #141414; transition: all 0.15s;
+  display: inline-flex; align-items: center; gap: 6px;
+}
+.version-toggle:hover { color: var(--green); border-color: rgba(0,255,187,0.4); background: #1a1a1a; }
+.version-toggle .arrow { transition: transform 0.15s; }
+.version-toggle:hover .arrow { transform: translateX(2px); }
 .meta { color: var(--dim); font-size: 13px; }
 .separator { margin: 0 8px; opacity: 0.5; }
 .subtitle { color: var(--dim); margin-top: 12px; font-size: 13px; }
