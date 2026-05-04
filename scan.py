@@ -92,9 +92,9 @@ def bxt_state(closes):
     return {"today": short_clean[-1], "yest": short_clean[-2]}
 
 # ─── Yahoo fetch ───────────────────────────────────────────────────────────
-def fetch(sym):
+def fetch(sym, interval="1d", rng="1y"):
     sym_q = sym.replace(".", "-")
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=1y&interval=1d"
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range={rng}&interval={interval}"
     try:
         req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
@@ -105,10 +105,10 @@ def fetch(sym):
     except Exception:
         return sym, None
 
-def fetch_ohlc(sym):
-    """1y daily OHLC for charting. Writes to docs/bars/{sym}.json."""
+def fetch_ohlc(sym, interval="1d", rng="1y"):
+    """OHLC bars for charting."""
     sym_q = sym.replace(".", "-")
-    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range=1y&interval=1d"
+    url = f"https://query1.finance.yahoo.com/v8/finance/chart/{sym_q}?range={rng}&interval={interval}"
     try:
         req = urllib.request.Request(url, headers={"User-Agent":"Mozilla/5.0"})
         with urllib.request.urlopen(req, timeout=15) as r:
@@ -184,11 +184,18 @@ MCAPS = {
 }
 
 # ─── Run ───────────────────────────────────────────────────────────────────
-def main():
+TIMEFRAMES = {
+    # name        interval   range
+    "daily":   ("1d",  "1y"),
+    "weekly":  ("1wk", "5y"),
+}
+
+def run_scan(timeframe="daily"):
+    interval, rng = TIMEFRAMES[timeframe]
     t0 = time.time()
     closes_map = {}
     with ThreadPoolExecutor(max_workers=25) as ex:
-        for f in as_completed([ex.submit(fetch, s) for s in TICKERS]):
+        for f in as_completed([ex.submit(fetch, s, interval, rng) for s in TICKERS]):
             sym, closes = f.result()
             if closes: closes_map[sym] = closes
 
@@ -229,18 +236,18 @@ def main():
         r["ath"] = round(ath, 2) if ath else None
         r["pct_to_ath"] = round((ath - r["price"]) / r["price"] * 100, 1) if ath else None
 
-    # Cache 1y OHLC bars for ALL flipped tickers
-    bars_dir = os.path.join(HERE, "docs", "bars")
+    # Cache OHLC bars for ALL flipped tickers (one folder per timeframe)
+    bars_dir = os.path.join(HERE, "docs", "bars" if timeframe == "daily" else f"bars_{timeframe}")
     os.makedirs(bars_dir, exist_ok=True)
     with ThreadPoolExecutor(max_workers=15) as ex:
-        for f in as_completed([ex.submit(fetch_ohlc, s) for s in flipped_syms]):
+        for f in as_completed([ex.submit(fetch_ohlc, s, interval, rng) for s in flipped_syms]):
             sym, bars = f.result()
             if bars:
                 with open(os.path.join(bars_dir, f"{sym}.json"), "w") as fh:
                     json.dump(bars, fh, separators=(',', ':'))
 
     # Diff vs previous run — track all 4 categories
-    out_path = os.path.join(HERE, "docs", "results.json")
+    out_path = os.path.join(HERE, "docs", "results.json" if timeframe == "daily" else f"results_{timeframe}.json")
     prev = {}
     prev_sets = {"fvb_green": set(), "fvb_red": set(), "bxt_green": set(), "bxt_red": set()}
     prev_ts = None
@@ -288,6 +295,7 @@ def main():
 
     out = {
         "updated_at": datetime.now(timezone.utc).isoformat(),
+        "timeframe": timeframe,
         "scan_seconds": round(time.time() - t0, 2),
         "scanned_count": len(closes_map),
         "fvb_green": fvb_green_list,
@@ -299,8 +307,9 @@ def main():
     with open(out_path, "w") as f:
         json.dump(out, f, indent=2)
     n_changes = sum(len(v) for k, v in changes.items() if isinstance(v, list))
-    print(f"[{out['updated_at']}] scanned {out['scanned_count']} in {out['scan_seconds']}s — "
+    print(f"[{out['updated_at']}] [{timeframe}] scanned {out['scanned_count']} in {out['scan_seconds']}s — "
           f"FVB {len(fvb_green_list)}g/{len(fvb_red_list)}r, BXT {len(bxt_green_list)}g/{len(bxt_red_list)}r ({n_changes} changes)")
 
 if __name__ == "__main__":
-    main()
+    run_scan("daily")
+    run_scan("weekly")
