@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-04T21:46:33.161559+00:00",
+  "updated_at": "2026-05-04T21:51:59.278688+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.64,
-  "scanned_count": 1511,
+  "scan_seconds": 6.95,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -602,23 +602,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 171.88,
-      "basis": 171.93,
-      "bxt_today": 12.43,
-      "bxt_yest": 12.16,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 737.45,
-      "pct_to_ath": 329.0
-    },
-    {
       "sym": "CNA",
       "name": "CNA Financial Corporation",
       "mcap": 12,
@@ -634,6 +617,23 @@
       "bxt_streak": 9,
       "ath": 55.62,
       "pct_to_ath": 25.8
+    },
+    {
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
+      "mcap": 12,
+      "price": 171.88,
+      "basis": 171.93,
+      "bxt_today": 12.43,
+      "bxt_yest": 12.16,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 737.45,
+      "pct_to_ath": 329.0
     },
     {
       "sym": "OKLO",
@@ -891,23 +891,6 @@
       "pct_to_ath": 664.9
     },
     {
-      "sym": "MRP",
-      "name": "Millrose Properties, Inc.",
-      "mcap": 5,
-      "price": 29.55,
-      "basis": 30.34,
-      "bxt_today": -6.51,
-      "bxt_yest": 1.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 18,
-      "bxt_streak": 18,
-      "ath": 36.0,
-      "pct_to_ath": 21.8
-    },
-    {
       "sym": "BC",
       "name": "Brunswick Corporation",
       "mcap": 5,
@@ -923,6 +906,23 @@
       "bxt_streak": null,
       "ath": 117.62,
       "pct_to_ath": 58.0
+    },
+    {
+      "sym": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "mcap": 5,
+      "price": 29.55,
+      "basis": 30.34,
+      "bxt_today": -6.51,
+      "bxt_yest": 1.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 18,
+      "bxt_streak": 18,
+      "ath": 36.0,
+      "pct_to_ath": 21.8
     },
     {
       "sym": "ONDS",
@@ -1061,21 +1061,21 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "CBT",
-      "name": "Cabot Corporation",
+      "sym": "CVCO",
+      "name": "Cavco Industries, Inc. When Issued",
       "mcap": 4,
-      "price": 75.85,
-      "basis": 76.58,
-      "bxt_today": -7.49,
-      "bxt_yest": -6.91,
+      "price": 479.45,
+      "basis": 507.86,
+      "bxt_today": -11.31,
+      "bxt_yest": -8.26,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
       "fvb_streak": 2,
       "bxt_streak": null,
-      "ath": 117.46,
-      "pct_to_ath": 54.9
+      "ath": 713.01,
+      "pct_to_ath": 48.7
     },
     {
       "sym": "LBTYK",
@@ -1095,23 +1095,6 @@
       "pct_to_ath": 101.4
     },
     {
-      "sym": "CVCO",
-      "name": "Cavco Industries, Inc. When Issued",
-      "mcap": 4,
-      "price": 479.45,
-      "basis": 507.86,
-      "bxt_today": -11.31,
-      "bxt_yest": -8.26,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 713.01,
-      "pct_to_ath": 48.7
-    },
-    {
       "sym": "EE",
       "name": "Excelerate Energy, Inc.",
       "mcap": 4,
@@ -1127,6 +1110,23 @@
       "bxt_streak": null,
       "ath": 43.17,
       "pct_to_ath": 25.6
+    },
+    {
+      "sym": "CBT",
+      "name": "Cabot Corporation",
+      "mcap": 4,
+      "price": 75.85,
+      "basis": 76.58,
+      "bxt_today": -7.49,
+      "bxt_yest": -6.91,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.46,
+      "pct_to_ath": 54.9
     }
   ],
   "bxt_green": [
@@ -1830,23 +1830,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 58.01,
-      "basis": 54.91,
-      "bxt_today": -1.62,
-      "bxt_yest": 3.93,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1881,21 +1864,21 @@
       "pct_to_ath": 7.5
     },
     {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
-      "price": 44.17,
-      "basis": 40.35,
-      "bxt_today": -1.63,
-      "bxt_yest": 0.09,
+      "price": 58.01,
+      "basis": 54.91,
+      "bxt_today": -1.62,
+      "bxt_yest": 3.93,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 14.3
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "CCK",
@@ -1913,6 +1896,23 @@
       "bxt_streak": 2,
       "ath": 130.42,
       "pct_to_ath": 31.7
+    },
+    {
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
+      "mcap": 11,
+      "price": 44.17,
+      "basis": 40.35,
+      "bxt_today": -1.63,
+      "bxt_yest": 0.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 14.3
     },
     {
       "sym": "ENSG",
@@ -2000,23 +2000,6 @@
       "pct_to_ath": 11.0
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
-      "bxt_today": -0.45,
-      "bxt_yest": 0.15,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
-    },
-    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -2049,10 +2032,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 30.3
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.3,
+      "basis": 33.8,
+      "bxt_today": -0.45,
+      "bxt_yest": 0.15,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-04T21:41:07.185915+00:00",
+    "compared_to": "2026-05-04T21:46:33.161559+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
