@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-04T20:40:11.608391+00:00",
+  "updated_at": "2026-05-04T20:45:56.788962+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.93,
+  "scan_seconds": 7.75,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -158,23 +158,6 @@
       "pct_to_ath": 4.2
     },
     {
-      "sym": "PINS",
-      "name": "Pinterest, Inc.",
-      "mcap": 12,
-      "price": 20.85,
-      "basis": 20.76,
-      "bxt_today": 12.08,
-      "bxt_yest": 9.15,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 32,
-      "bxt_streak": null,
-      "ath": 89.9,
-      "pct_to_ath": 331.2
-    },
-    {
       "sym": "RBRK",
       "name": "Rubrik, Inc.",
       "mcap": 12,
@@ -207,6 +190,23 @@
       "bxt_streak": null,
       "ath": 80.13,
       "pct_to_ath": 106.8
+    },
+    {
+      "sym": "PINS",
+      "name": "Pinterest, Inc.",
+      "mcap": 12,
+      "price": 20.85,
+      "basis": 20.76,
+      "bxt_today": 12.08,
+      "bxt_yest": 9.15,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 32,
+      "bxt_streak": null,
+      "ath": 89.9,
+      "pct_to_ath": 331.2
     },
     {
       "sym": "FIG",
@@ -704,23 +704,6 @@
       "pct_to_ath": 186.9
     },
     {
-      "sym": "LINE",
-      "name": "Lineage, Inc.",
-      "mcap": 9,
-      "price": 35.29,
-      "basis": 35.9,
-      "bxt_today": 2.67,
-      "bxt_yest": 9.26,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 15,
-      "bxt_streak": null,
-      "ath": 89.85,
-      "pct_to_ath": 154.6
-    },
-    {
       "sym": "PRI",
       "name": "Primerica, Inc.",
       "mcap": 8,
@@ -840,23 +823,6 @@
       "pct_to_ath": 337.1
     },
     {
-      "sym": "FCN",
-      "name": "FTI Consulting, Inc.",
-      "mcap": 5,
-      "price": 168.05,
-      "basis": 172.16,
-      "bxt_today": -2.26,
-      "bxt_yest": -0.4,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 243.6,
-      "pct_to_ath": 45.0
-    },
-    {
       "sym": "OTF",
       "name": "Blue Owl Technology Finance Corp.",
       "mcap": 5,
@@ -872,6 +838,23 @@
       "bxt_streak": null,
       "ath": 21.62,
       "pct_to_ath": 88.7
+    },
+    {
+      "sym": "FCN",
+      "name": "FTI Consulting, Inc.",
+      "mcap": 5,
+      "price": 168.05,
+      "basis": 172.16,
+      "bxt_today": -2.26,
+      "bxt_yest": -0.4,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 243.6,
+      "pct_to_ath": 45.0
     },
     {
       "sym": "OPEN",
@@ -891,23 +874,6 @@
       "pct_to_ath": 664.9
     },
     {
-      "sym": "BC",
-      "name": "Brunswick Corporation",
-      "mcap": 5,
-      "price": 74.46,
-      "basis": 76.93,
-      "bxt_today": -5.94,
-      "bxt_yest": -6.37,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.62,
-      "pct_to_ath": 58.0
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -923,6 +889,23 @@
       "bxt_streak": 18,
       "ath": 36.0,
       "pct_to_ath": 21.8
+    },
+    {
+      "sym": "BC",
+      "name": "Brunswick Corporation",
+      "mcap": 5,
+      "price": 74.46,
+      "basis": 76.93,
+      "bxt_today": -5.94,
+      "bxt_yest": -6.37,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.62,
+      "pct_to_ath": 58.0
     },
     {
       "sym": "ONDS",
@@ -1027,23 +1010,6 @@
       "pct_to_ath": 91.5
     },
     {
-      "sym": "DOO",
-      "name": "BRP Inc. Common Subordinate Voting Shares",
-      "mcap": 4,
-      "price": 53.52,
-      "basis": 55.49,
-      "bxt_today": -0.45,
-      "bxt_yest": 3.4,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 10,
-      "bxt_streak": 10,
-      "ath": 102.96,
-      "pct_to_ath": 92.4
-    },
-    {
       "sym": "ALHC",
       "name": "Alignment Healthcare, Inc.",
       "mcap": 4,
@@ -1061,38 +1027,21 @@
       "pct_to_ath": 48.5
     },
     {
-      "sym": "CVCO",
-      "name": "Cavco Industries, Inc. When Issued",
+      "sym": "DOO",
+      "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
-      "price": 479.45,
-      "basis": 507.86,
-      "bxt_today": -11.31,
-      "bxt_yest": -8.26,
+      "price": 53.52,
+      "basis": 55.49,
+      "bxt_today": -0.45,
+      "bxt_yest": 3.4,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 713.01,
-      "pct_to_ath": 48.7
-    },
-    {
-      "sym": "LBTYK",
-      "name": "Liberty Global Ltd. Class C Common Shares",
-      "mcap": 4,
-      "price": 11.51,
-      "basis": 11.62,
-      "bxt_today": 2.67,
-      "bxt_yest": 3.75,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 23.19,
-      "pct_to_ath": 101.4
+      "bxt_r": true,
+      "fvb_streak": 10,
+      "bxt_streak": 10,
+      "ath": 102.96,
+      "pct_to_ath": 92.4
     },
     {
       "sym": "CBT",
@@ -1112,6 +1061,23 @@
       "pct_to_ath": 54.9
     },
     {
+      "sym": "CVCO",
+      "name": "Cavco Industries, Inc. When Issued",
+      "mcap": 4,
+      "price": 479.45,
+      "basis": 507.86,
+      "bxt_today": -11.31,
+      "bxt_yest": -8.26,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 713.01,
+      "pct_to_ath": 48.7
+    },
+    {
       "sym": "EE",
       "name": "Excelerate Energy, Inc.",
       "mcap": 4,
@@ -1127,6 +1093,23 @@
       "bxt_streak": null,
       "ath": 43.17,
       "pct_to_ath": 25.6
+    },
+    {
+      "sym": "LBTYK",
+      "name": "Liberty Global Ltd. Class C Common Shares",
+      "mcap": 4,
+      "price": 11.51,
+      "basis": 11.62,
+      "bxt_today": 2.67,
+      "bxt_yest": 3.75,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 23.19,
+      "pct_to_ath": 101.4
     }
   ],
   "bxt_green": [
@@ -1386,23 +1369,6 @@
       "pct_to_ath": 280.6
     },
     {
-      "sym": "BMNR",
-      "name": "BitMine Immersion Technologies, Inc.",
-      "mcap": 12,
-      "price": 22.79,
-      "basis": 21.81,
-      "bxt_today": 3.86,
-      "bxt_yest": -1.23,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 161.0,
-      "pct_to_ath": 606.5
-    },
-    {
       "sym": "OKLO",
       "name": "Oklo Inc. common stock",
       "mcap": 12,
@@ -1418,6 +1384,23 @@
       "bxt_streak": 25,
       "ath": 193.84,
       "pct_to_ath": 182.6
+    },
+    {
+      "sym": "BMNR",
+      "name": "BitMine Immersion Technologies, Inc.",
+      "mcap": 12,
+      "price": 22.79,
+      "basis": 21.81,
+      "bxt_today": 3.86,
+      "bxt_yest": -1.23,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 161.0,
+      "pct_to_ath": 606.5
     },
     {
       "sym": "BSY",
@@ -1898,23 +1881,6 @@
       "pct_to_ath": 14.3
     },
     {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 99.05,
-      "basis": 94.43,
-      "bxt_today": -0.61,
-      "bxt_yest": 1.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 31.7
-    },
-    {
       "sym": "ENSG",
       "name": "The Ensign Group, Inc.",
       "mcap": 11,
@@ -1930,6 +1896,23 @@
       "bxt_streak": 12,
       "ath": 218.0,
       "pct_to_ath": 19.8
+    },
+    {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 99.05,
+      "basis": 94.43,
+      "bxt_today": -0.61,
+      "bxt_yest": 1.92,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 31.7
     },
     {
       "sym": "BYD",
@@ -2052,11 +2035,22 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-04T20:34:27.813303+00:00",
+    "compared_to": "2026-05-04T20:40:11.608391+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [],
+    "fvb_red_removed": [
+      {
+        "sym": "LINE",
+        "name": "Lineage, Inc.",
+        "mcap": 9,
+        "price": 35.29,
+        "basis": 35.9,
+        "bxt_today": 2.67,
+        "ath": 89.85,
+        "pct_to_ath": 154.6
+      }
+    ],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
