@@ -246,11 +246,17 @@ TIMEFRAMES = {
 def run_scan(timeframe="daily"):
     interval, rng = TIMEFRAMES[timeframe]
     t0 = time.time()
+    MIN_OK = 100  # below this, treat as Yahoo rate-limit / network failure and skip the write
     closes_map = {}
     with ThreadPoolExecutor(max_workers=25) as ex:
         for f in as_completed([ex.submit(fetch, s, interval, rng) for s in TICKERS]):
             sym, closes = f.result()
             if closes: closes_map[sym] = closes
+
+    if len(closes_map) < MIN_OK:
+        print(f"[{datetime.now(timezone.utc).isoformat()}] [{timeframe}] ABORT — only {len(closes_map)} tickers fetched "
+              f"(< {MIN_OK} threshold). Likely Yahoo rate-limit. Keeping previous results.json untouched.")
+        return
 
     rows = []
     for sym, closes in closes_map.items():
