@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-04T20:51:21.345870+00:00",
+  "updated_at": "2026-05-04T20:56:47.695682+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.18,
-  "scanned_count": 1509,
+  "scan_seconds": 7.93,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -243,23 +243,6 @@
       "pct_to_ath": 77.8
     },
     {
-      "sym": "NTNX",
-      "name": "Nutanix, Inc.",
-      "mcap": 12,
-      "price": 43.73,
-      "basis": 42.18,
-      "bxt_today": 13.85,
-      "bxt_yest": 10.48,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 30,
-      "bxt_streak": null,
-      "ath": 83.36,
-      "pct_to_ath": 90.6
-    },
-    {
       "sym": "DT",
       "name": "Dynatrace, Inc.",
       "mcap": 12,
@@ -275,6 +258,23 @@
       "bxt_streak": null,
       "ath": 80.13,
       "pct_to_ath": 106.8
+    },
+    {
+      "sym": "NTNX",
+      "name": "Nutanix, Inc.",
+      "mcap": 12,
+      "price": 43.73,
+      "basis": 42.18,
+      "bxt_today": 13.85,
+      "bxt_yest": 10.48,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 30,
+      "bxt_streak": null,
+      "ath": 83.36,
+      "pct_to_ath": 90.6
     },
     {
       "sym": "TEM",
@@ -1044,23 +1044,6 @@
       "pct_to_ath": 16.0
     },
     {
-      "sym": "NLY",
-      "name": "Annaly Capital Management Inc.",
-      "mcap": 16,
-      "price": 22.35,
-      "basis": 22.64,
-      "bxt_today": -3.15,
-      "bxt_yest": -2.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 86.0,
-      "pct_to_ath": 284.8
-    },
-    {
       "sym": "TXT",
       "name": "Textron Inc.",
       "mcap": 16,
@@ -1076,6 +1059,23 @@
       "bxt_streak": null,
       "ath": 101.57,
       "pct_to_ath": 11.7
+    },
+    {
+      "sym": "NLY",
+      "name": "Annaly Capital Management Inc.",
+      "mcap": 16,
+      "price": 22.35,
+      "basis": 22.64,
+      "bxt_today": -3.15,
+      "bxt_yest": -2.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 86.0,
+      "pct_to_ath": 284.8
     },
     {
       "sym": "RGC",
@@ -1503,23 +1503,6 @@
       "pct_to_ath": 12.2
     },
     {
-      "sym": "HWC",
-      "name": "Hancock Whitney Corporation",
-      "mcap": 5,
-      "price": 66.39,
-      "basis": 66.68,
-      "bxt_today": -3.05,
-      "bxt_yest": -2.12,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 4,
-      "bxt_streak": null,
-      "ath": 75.43,
-      "pct_to_ath": 13.6
-    },
-    {
       "sym": "FCN",
       "name": "FTI Consulting, Inc.",
       "mcap": 5,
@@ -1535,6 +1518,23 @@
       "bxt_streak": null,
       "ath": 243.6,
       "pct_to_ath": 45.0
+    },
+    {
+      "sym": "HWC",
+      "name": "Hancock Whitney Corporation",
+      "mcap": 5,
+      "price": 66.39,
+      "basis": 66.68,
+      "bxt_today": -3.05,
+      "bxt_yest": -2.12,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 75.43,
+      "pct_to_ath": 13.6
     },
     {
       "sym": "AUB",
@@ -1571,6 +1571,23 @@
       "pct_to_ath": 664.9
     },
     {
+      "sym": "SIGI",
+      "name": "Selective Insurance Group, Inc.",
+      "mcap": 5,
+      "price": 80.88,
+      "basis": 81.7,
+      "bxt_today": 3.81,
+      "bxt_yest": 4.18,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 109.58,
+      "pct_to_ath": 35.5
+    },
+    {
       "sym": "BC",
       "name": "Brunswick Corporation",
       "mcap": 5,
@@ -1603,23 +1620,6 @@
       "bxt_streak": null,
       "ath": 16.0,
       "pct_to_ath": 64.4
-    },
-    {
-      "sym": "SIGI",
-      "name": "Selective Insurance Group, Inc.",
-      "mcap": 5,
-      "price": 80.88,
-      "basis": 81.7,
-      "bxt_today": 3.81,
-      "bxt_yest": 4.18,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 109.58,
-      "pct_to_ath": 35.5
     },
     {
       "sym": "EBC",
@@ -2389,23 +2389,6 @@
       "pct_to_ath": 73.4
     },
     {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
-      "mcap": 5,
-      "price": 53.58,
-      "basis": 52.35,
-      "bxt_today": 0.32,
-      "bxt_yest": -2.0,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 2,
-      "ath": 220.2,
-      "pct_to_ath": 311.0
-    },
-    {
       "sym": "PBF",
       "name": "PBF Energy Inc.",
       "mcap": 5,
@@ -2421,6 +2404,23 @@
       "bxt_streak": 2,
       "ath": 62.88,
       "pct_to_ath": 38.1
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 53.58,
+      "basis": 52.35,
+      "bxt_today": 0.32,
+      "bxt_yest": -2.0,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 2,
+      "ath": 220.2,
+      "pct_to_ath": 311.0
     },
     {
       "sym": "EXLS",
@@ -2748,23 +2748,6 @@
       "pct_to_ath": 13.0
     },
     {
-      "sym": "CNP",
-      "name": "CenterPoint Energy, Inc (Holding Co)",
-      "mcap": 28,
-      "price": 43.32,
-      "basis": 41.67,
-      "bxt_today": -0.75,
-      "bxt_yest": 0.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 44.47,
-      "pct_to_ath": 2.7
-    },
-    {
       "sym": "PPL",
       "name": "PPL Corporation",
       "mcap": 28,
@@ -2780,6 +2763,23 @@
       "bxt_streak": 12,
       "ath": 51.44,
       "pct_to_ath": 36.1
+    },
+    {
+      "sym": "CNP",
+      "name": "CenterPoint Energy, Inc (Holding Co)",
+      "mcap": 28,
+      "price": 43.32,
+      "basis": 41.67,
+      "bxt_today": -0.75,
+      "bxt_yest": 0.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 44.47,
+      "pct_to_ath": 2.7
     },
     {
       "sym": "CFG",
@@ -3275,6 +3275,23 @@
       "pct_to_ath": 445.1
     },
     {
+      "sym": "NOV",
+      "name": "NOV Inc.",
+      "mcap": 7,
+      "price": 19.95,
+      "basis": 18.82,
+      "bxt_today": -0.26,
+      "bxt_yest": 0.92,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 86.55,
+      "pct_to_ath": 333.8
+    },
+    {
       "sym": "PB",
       "name": "Prosperity Bancshares, Inc.",
       "mcap": 7,
@@ -3307,23 +3324,6 @@
       "bxt_streak": 17,
       "ath": 155.44,
       "pct_to_ath": 45.4
-    },
-    {
-      "sym": "NOV",
-      "name": "NOV Inc.",
-      "mcap": 7,
-      "price": 19.95,
-      "basis": 18.82,
-      "bxt_today": -0.26,
-      "bxt_yest": 0.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 86.55,
-      "pct_to_ath": 333.8
     },
     {
       "sym": "PTGX",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-04T20:45:49.032592+00:00",
+    "compared_to": "2026-05-04T20:51:21.345870+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

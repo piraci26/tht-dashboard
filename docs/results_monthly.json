@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-04T20:51:28.556811+00:00",
+  "updated_at": "2026-05-04T20:56:54.784484+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.19,
-  "scanned_count": 1511,
+  "scan_seconds": 7.08,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -158,23 +158,6 @@
       "pct_to_ath": 4.2
     },
     {
-      "sym": "PINS",
-      "name": "Pinterest, Inc.",
-      "mcap": 12,
-      "price": 20.85,
-      "basis": 20.76,
-      "bxt_today": 12.08,
-      "bxt_yest": 9.15,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 32,
-      "bxt_streak": null,
-      "ath": 89.9,
-      "pct_to_ath": 331.2
-    },
-    {
       "sym": "RBRK",
       "name": "Rubrik, Inc.",
       "mcap": 12,
@@ -190,6 +173,23 @@
       "bxt_streak": null,
       "ath": 103.0,
       "pct_to_ath": 77.8
+    },
+    {
+      "sym": "PINS",
+      "name": "Pinterest, Inc.",
+      "mcap": 12,
+      "price": 20.85,
+      "basis": 20.76,
+      "bxt_today": 12.08,
+      "bxt_yest": 9.15,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 32,
+      "bxt_streak": null,
+      "ath": 89.9,
+      "pct_to_ath": 331.2
     },
     {
       "sym": "DT",
@@ -602,23 +602,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "CNA",
-      "name": "CNA Financial Corporation",
-      "mcap": 12,
-      "price": 44.22,
-      "basis": 44.95,
-      "bxt_today": -1.68,
-      "bxt_yest": 2.77,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 11,
-      "bxt_streak": 9,
-      "ath": 55.62,
-      "pct_to_ath": 25.8
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -634,6 +617,23 @@
       "bxt_streak": null,
       "ath": 737.45,
       "pct_to_ath": 329.0
+    },
+    {
+      "sym": "CNA",
+      "name": "CNA Financial Corporation",
+      "mcap": 12,
+      "price": 44.22,
+      "basis": 44.95,
+      "bxt_today": -1.68,
+      "bxt_yest": 2.77,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 11,
+      "bxt_streak": 9,
+      "ath": 55.62,
+      "pct_to_ath": 25.8
     },
     {
       "sym": "OKLO",
@@ -738,23 +738,6 @@
       "pct_to_ath": 13.8
     },
     {
-      "sym": "HSIC",
-      "name": "Henry Schein, Inc.",
-      "mcap": 8,
-      "price": 72.02,
-      "basis": 72.2,
-      "bxt_today": 3.16,
-      "bxt_yest": 6.08,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 7,
-      "bxt_streak": null,
-      "ath": 92.68,
-      "pct_to_ath": 28.7
-    },
-    {
       "sym": "W",
       "name": "Wayfair Inc.",
       "mcap": 8,
@@ -770,6 +753,23 @@
       "bxt_streak": null,
       "ath": 369.0,
       "pct_to_ath": 469.0
+    },
+    {
+      "sym": "HSIC",
+      "name": "Henry Schein, Inc.",
+      "mcap": 8,
+      "price": 72.02,
+      "basis": 72.2,
+      "bxt_today": 3.16,
+      "bxt_yest": 6.08,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": null,
+      "ath": 92.68,
+      "pct_to_ath": 28.7
     },
     {
       "sym": "AWI",
@@ -891,23 +891,6 @@
       "pct_to_ath": 664.9
     },
     {
-      "sym": "MRP",
-      "name": "Millrose Properties, Inc.",
-      "mcap": 5,
-      "price": 29.55,
-      "basis": 30.34,
-      "bxt_today": -6.51,
-      "bxt_yest": 1.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 18,
-      "bxt_streak": 18,
-      "ath": 36.0,
-      "pct_to_ath": 21.8
-    },
-    {
       "sym": "BC",
       "name": "Brunswick Corporation",
       "mcap": 5,
@@ -923,6 +906,23 @@
       "bxt_streak": null,
       "ath": 117.62,
       "pct_to_ath": 58.0
+    },
+    {
+      "sym": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "mcap": 5,
+      "price": 29.55,
+      "basis": 30.34,
+      "bxt_today": -6.51,
+      "bxt_yest": 1.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 18,
+      "bxt_streak": 18,
+      "ath": 36.0,
+      "pct_to_ath": 21.8
     },
     {
       "sym": "ONDS",
@@ -1061,23 +1061,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "LBTYK",
-      "name": "Liberty Global Ltd. Class C Common Shares",
-      "mcap": 4,
-      "price": 11.51,
-      "basis": 11.62,
-      "bxt_today": 2.67,
-      "bxt_yest": 3.75,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 23.19,
-      "pct_to_ath": 101.4
-    },
-    {
       "sym": "CBT",
       "name": "Cabot Corporation",
       "mcap": 4,
@@ -1110,6 +1093,23 @@
       "bxt_streak": null,
       "ath": 713.01,
       "pct_to_ath": 48.7
+    },
+    {
+      "sym": "LBTYK",
+      "name": "Liberty Global Ltd. Class C Common Shares",
+      "mcap": 4,
+      "price": 11.51,
+      "basis": 11.62,
+      "bxt_today": 2.67,
+      "bxt_yest": 3.75,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 23.19,
+      "pct_to_ath": 101.4
     },
     {
       "sym": "EE",
@@ -1728,23 +1728,6 @@
       "pct_to_ath": 186.8
     },
     {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 30,
-      "price": 141.06,
-      "basis": 136.03,
-      "bxt_today": -0.97,
-      "bxt_yest": 2.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 146.67,
-      "pct_to_ath": 4.0
-    },
-    {
       "sym": "NTRA",
       "name": "Natera, Inc.",
       "mcap": 30,
@@ -1760,6 +1743,23 @@
       "bxt_streak": 31,
       "ath": 256.36,
       "pct_to_ath": 21.2
+    },
+    {
+      "sym": "Q",
+      "name": "Qnity Electronics, Inc.",
+      "mcap": 30,
+      "price": 141.06,
+      "basis": 136.03,
+      "bxt_today": -0.97,
+      "bxt_yest": 2.47,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 146.67,
+      "pct_to_ath": 4.0
     },
     {
       "sym": "TW",
@@ -1830,6 +1830,23 @@
       "pct_to_ath": 25.8
     },
     {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 11,
+      "price": 229.12,
+      "basis": 217.45,
+      "bxt_today": -1.0,
+      "bxt_yest": 1.25,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
+    },
+    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1864,21 +1881,21 @@
       "pct_to_ath": 27.0
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
       "mcap": 11,
-      "price": 229.12,
-      "basis": 217.45,
-      "bxt_today": -1.0,
-      "bxt_yest": 1.25,
+      "price": 99.05,
+      "basis": 94.43,
+      "bxt_today": -0.61,
+      "bxt_yest": 1.92,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 31.7
     },
     {
       "sym": "EXEL",
@@ -1896,23 +1913,6 @@
       "bxt_streak": 37,
       "ath": 50.5,
       "pct_to_ath": 14.3
-    },
-    {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 99.05,
-      "basis": 94.43,
-      "bxt_today": -0.61,
-      "bxt_yest": 1.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 31.7
     },
     {
       "sym": "ENSG",
@@ -2052,21 +2052,10 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-04T20:45:56.788962+00:00",
+    "compared_to": "2026-05-04T20:51:28.556811+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "LINE",
-        "name": "Lineage, Inc.",
-        "mcap": 9,
-        "price": 35.29,
-        "basis": 35.9,
-        "bxt_today": 2.67,
-        "ath": 89.85,
-        "pct_to_ath": 154.6
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
