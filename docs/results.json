@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-04T09:07:13.923720+00:00",
-  "scan_seconds": 14.99,
-  "scanned_count": 1509,
+  "updated_at": "2026-05-04T09:12:24.899272+00:00",
+  "scan_seconds": 9.1,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "ORCL",
@@ -559,21 +559,6 @@
       "pct_to_ath": 2088.2
     },
     {
-      "sym": "MASI",
-      "name": "Masimo Corporation",
-      "mcap": 9,
-      "price": 178.48,
-      "basis": 178.47,
-      "bxt_today": -26.84,
-      "bxt_yest": -26.51,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "ath": 305.21,
-      "pct_to_ath": 71.0
-    },
-    {
       "sym": "DOCU",
       "name": "DocuSign, Inc.",
       "mcap": 9,
@@ -587,6 +572,21 @@
       "bxt_r": false,
       "ath": 314.76,
       "pct_to_ath": 556.3
+    },
+    {
+      "sym": "MASI",
+      "name": "Masimo Corporation",
+      "mcap": 9,
+      "price": 178.48,
+      "basis": 178.47,
+      "bxt_today": -26.84,
+      "bxt_yest": -26.51,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "ath": 305.21,
+      "pct_to_ath": 71.0
     },
     {
       "sym": "SAIL",
@@ -1356,6 +1356,21 @@
       "pct_to_ath": 26.7
     },
     {
+      "sym": "CW",
+      "name": "Curtiss-Wright Corporation",
+      "mcap": 26,
+      "price": 713.14,
+      "basis": 719.83,
+      "bxt_today": -9.06,
+      "bxt_yest": -9.24,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "ath": 748.14,
+      "pct_to_ath": 4.9
+    },
+    {
       "sym": "ROL",
       "name": "Rollins, Inc.",
       "mcap": 26,
@@ -1384,21 +1399,6 @@
       "bxt_r": false,
       "ath": 78.96,
       "pct_to_ath": 19.0
-    },
-    {
-      "sym": "CW",
-      "name": "Curtiss-Wright Corporation",
-      "mcap": 26,
-      "price": 713.14,
-      "basis": 719.83,
-      "bxt_today": -9.06,
-      "bxt_yest": -9.24,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "ath": 748.14,
-      "pct_to_ath": 4.9
     },
     {
       "sym": "XPO",
@@ -1761,21 +1761,6 @@
       "pct_to_ath": 18.5
     },
     {
-      "sym": "AES",
-      "name": "The AES Corporation",
-      "mcap": 10,
-      "price": 14.28,
-      "basis": 14.43,
-      "bxt_today": 2.98,
-      "bxt_yest": 10.4,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "ath": 72.81,
-      "pct_to_ath": 409.9
-    },
-    {
       "sym": "GTLS",
       "name": "Chart Industries, Inc.",
       "mcap": 10,
@@ -1791,19 +1776,19 @@
       "pct_to_ath": 16.7
     },
     {
-      "sym": "WTS",
-      "name": "Watts Water Technologies, Inc.",
+      "sym": "AES",
+      "name": "The AES Corporation",
       "mcap": 10,
-      "price": 293.6,
-      "basis": 299.95,
-      "bxt_today": -2.78,
-      "bxt_yest": 2.03,
+      "price": 14.28,
+      "basis": 14.43,
+      "bxt_today": 2.98,
+      "bxt_yest": 10.4,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
-      "bxt_r": true,
-      "ath": 345.17,
-      "pct_to_ath": 17.6
+      "bxt_r": false,
+      "ath": 72.81,
+      "pct_to_ath": 409.9
     },
     {
       "sym": "DCI",
@@ -1819,6 +1804,21 @@
       "bxt_r": false,
       "ath": 112.84,
       "pct_to_ath": 30.9
+    },
+    {
+      "sym": "WTS",
+      "name": "Watts Water Technologies, Inc.",
+      "mcap": 10,
+      "price": 293.6,
+      "basis": 299.95,
+      "bxt_today": -2.78,
+      "bxt_yest": 2.03,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 345.17,
+      "pct_to_ath": 17.6
     },
     {
       "sym": "SSB",
@@ -2031,36 +2031,6 @@
       "pct_to_ath": 29.8
     },
     {
-      "sym": "MHK",
-      "name": "Mohawk Industries, Inc.",
-      "mcap": 6,
-      "price": 99.93,
-      "basis": 104.63,
-      "bxt_today": -2.14,
-      "bxt_yest": 6.33,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 286.85,
-      "pct_to_ath": 187.1
-    },
-    {
-      "sym": "RYN",
-      "name": "Rayonier Inc. REIT",
-      "mcap": 6,
-      "price": 20.95,
-      "basis": 21.19,
-      "bxt_today": 1.07,
-      "bxt_yest": 6.6,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "ath": 45.87,
-      "pct_to_ath": 118.9
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -2089,6 +2059,36 @@
       "bxt_r": true,
       "ath": 28.47,
       "pct_to_ath": 18.3
+    },
+    {
+      "sym": "RYN",
+      "name": "Rayonier Inc. REIT",
+      "mcap": 6,
+      "price": 20.95,
+      "basis": 21.19,
+      "bxt_today": 1.07,
+      "bxt_yest": 6.6,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "ath": 45.87,
+      "pct_to_ath": 118.9
+    },
+    {
+      "sym": "MHK",
+      "name": "Mohawk Industries, Inc.",
+      "mcap": 6,
+      "price": 99.93,
+      "basis": 104.63,
+      "bxt_today": -2.14,
+      "bxt_yest": 6.33,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 286.85,
+      "pct_to_ath": 187.1
     },
     {
       "sym": "URBN",
@@ -2136,21 +2136,6 @@
       "pct_to_ath": 19.7
     },
     {
-      "sym": "COMP",
-      "name": "Compass, Inc.",
-      "mcap": 6,
-      "price": 7.39,
-      "basis": 7.51,
-      "bxt_today": 10.23,
-      "bxt_yest": 15.64,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "ath": 22.11,
-      "pct_to_ath": 199.2
-    },
-    {
       "sym": "TMHC",
       "name": "Taylor Morrison Home Corporation",
       "mcap": 6,
@@ -2164,6 +2149,21 @@
       "bxt_r": true,
       "ath": 75.49,
       "pct_to_ath": 25.0
+    },
+    {
+      "sym": "COMP",
+      "name": "Compass, Inc.",
+      "mcap": 6,
+      "price": 7.39,
+      "basis": 7.51,
+      "bxt_today": 10.23,
+      "bxt_yest": 15.64,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "ath": 22.11,
+      "pct_to_ath": 199.2
     },
     {
       "sym": "NJR",
@@ -2271,21 +2271,6 @@
       "pct_to_ath": 32.6
     },
     {
-      "sym": "MC",
-      "name": "Moelis & Company",
-      "mcap": 5,
-      "price": 64.76,
-      "basis": 65.51,
-      "bxt_today": -4.92,
-      "bxt_yest": 0.95,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 82.89,
-      "pct_to_ath": 28.0
-    },
-    {
       "sym": "AX",
       "name": "Axos Financial, Inc.",
       "mcap": 5,
@@ -2299,6 +2284,21 @@
       "bxt_r": true,
       "ath": 101.92,
       "pct_to_ath": 16.6
+    },
+    {
+      "sym": "MC",
+      "name": "Moelis & Company",
+      "mcap": 5,
+      "price": 64.76,
+      "basis": 65.51,
+      "bxt_today": -4.92,
+      "bxt_yest": 0.95,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 82.89,
+      "pct_to_ath": 28.0
     },
     {
       "sym": "FBIN",
@@ -2466,6 +2466,21 @@
       "pct_to_ath": 90.8
     },
     {
+      "sym": "KTB",
+      "name": "Kontoor Brands, Inc.",
+      "mcap": 4,
+      "price": 72.2,
+      "basis": 73.12,
+      "bxt_today": -8.65,
+      "bxt_yest": -7.8,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "ath": 96.8,
+      "pct_to_ath": 34.1
+    },
+    {
       "sym": "SKT",
       "name": "Tanger Inc.",
       "mcap": 4,
@@ -2496,21 +2511,6 @@
       "pct_to_ath": 106.5
     },
     {
-      "sym": "KTB",
-      "name": "Kontoor Brands, Inc.",
-      "mcap": 4,
-      "price": 72.2,
-      "basis": 73.12,
-      "bxt_today": -8.65,
-      "bxt_yest": -7.8,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "ath": 96.8,
-      "pct_to_ath": 34.1
-    },
-    {
       "sym": "LRN",
       "name": "Stride, Inc.",
       "mcap": 4,
@@ -2524,36 +2524,6 @@
       "bxt_r": false,
       "ath": 171.17,
       "pct_to_ath": 83.9
-    },
-    {
-      "sym": "IRTC",
-      "name": "iRhythm Holdings, Inc.",
-      "mcap": 4,
-      "price": 120.8,
-      "basis": 121.87,
-      "bxt_today": 11.34,
-      "bxt_yest": 18.91,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "ath": 286.19,
-      "pct_to_ath": 136.9
-    },
-    {
-      "sym": "ABG",
-      "name": "Asbury Automotive Group Inc",
-      "mcap": 4,
-      "price": 203.01,
-      "basis": 203.23,
-      "bxt_today": 3.87,
-      "bxt_yest": 3.34,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "ath": 312.56,
-      "pct_to_ath": 54.0
     },
     {
       "sym": "HRB",
@@ -2571,19 +2541,49 @@
       "pct_to_ath": 119.0
     },
     {
-      "sym": "DAN",
-      "name": "Dana Incorporated",
+      "sym": "ABG",
+      "name": "Asbury Automotive Group Inc",
       "mcap": 4,
-      "price": 35.87,
-      "basis": 36.55,
-      "bxt_today": -12.42,
-      "bxt_yest": -8.47,
+      "price": 203.01,
+      "basis": 203.23,
+      "bxt_today": 3.87,
+      "bxt_yest": 3.34,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "ath": 39.56,
-      "pct_to_ath": 10.3
+      "ath": 312.56,
+      "pct_to_ath": 54.0
+    },
+    {
+      "sym": "IRTC",
+      "name": "iRhythm Holdings, Inc.",
+      "mcap": 4,
+      "price": 120.8,
+      "basis": 121.87,
+      "bxt_today": 11.34,
+      "bxt_yest": 18.91,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "ath": 286.19,
+      "pct_to_ath": 136.9
+    },
+    {
+      "sym": "CVSA",
+      "name": "Covista Inc. Common Shares",
+      "mcap": 4,
+      "price": 113.86,
+      "basis": 114.55,
+      "bxt_today": -8.13,
+      "bxt_yest": -7.85,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "ath": 156.26,
+      "pct_to_ath": 37.2
     },
     {
       "sym": "BNL",
@@ -2601,6 +2601,21 @@
       "pct_to_ath": 42.6
     },
     {
+      "sym": "DAN",
+      "name": "Dana Incorporated",
+      "mcap": 4,
+      "price": 35.87,
+      "basis": 36.55,
+      "bxt_today": -12.42,
+      "bxt_yest": -8.47,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "ath": 39.56,
+      "pct_to_ath": 10.3
+    },
+    {
       "sym": "ACAD",
       "name": "ACADIA Pharmaceuticals Inc.",
       "mcap": 4,
@@ -2614,21 +2629,6 @@
       "bxt_r": false,
       "ath": 58.72,
       "pct_to_ath": 167.5
-    },
-    {
-      "sym": "CVSA",
-      "name": "Covista Inc. Common Shares",
-      "mcap": 4,
-      "price": 113.86,
-      "basis": 114.55,
-      "bxt_today": -8.13,
-      "bxt_yest": -7.85,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "ath": 156.26,
-      "pct_to_ath": 37.2
     },
     {
       "sym": "CALM",
@@ -2738,21 +2738,6 @@
       "pct_to_ath": 13.7
     },
     {
-      "sym": "MELI",
-      "name": "MercadoLibre, Inc.",
-      "mcap": 94,
-      "price": 1850.05,
-      "basis": 1814.44,
-      "bxt_today": 2.28,
-      "bxt_yest": -2.4,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 2645.22,
-      "pct_to_ath": 43.0
-    },
-    {
       "sym": "NOW",
       "name": "ServiceNow, Inc.",
       "mcap": 94,
@@ -2766,6 +2751,21 @@
       "bxt_r": false,
       "ath": 239.62,
       "pct_to_ath": 162.9
+    },
+    {
+      "sym": "MELI",
+      "name": "MercadoLibre, Inc.",
+      "mcap": 94,
+      "price": 1850.05,
+      "basis": 1814.44,
+      "bxt_today": 2.28,
+      "bxt_yest": -2.4,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 2645.22,
+      "pct_to_ath": 43.0
     },
     {
       "sym": "ING",
@@ -3173,21 +3173,6 @@
       "pct_to_ath": 19.1
     },
     {
-      "sym": "AGX",
-      "name": "Argan, Inc.",
-      "mcap": 10,
-      "price": 702.27,
-      "basis": 622.06,
-      "bxt_today": 5.48,
-      "bxt_yest": -1.36,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 704.59,
-      "pct_to_ath": 0.3
-    },
-    {
       "sym": "OGE",
       "name": "OGE Energy Corp",
       "mcap": 10,
@@ -3201,6 +3186,21 @@
       "bxt_r": false,
       "ath": 50.13,
       "pct_to_ath": 4.0
+    },
+    {
+      "sym": "AGX",
+      "name": "Argan, Inc.",
+      "mcap": 10,
+      "price": 702.27,
+      "basis": 622.06,
+      "bxt_today": 5.48,
+      "bxt_yest": -1.36,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 704.59,
+      "pct_to_ath": 0.3
     },
     {
       "sym": "CGNX",
@@ -3263,21 +3263,6 @@
       "pct_to_ath": 154.9
     },
     {
-      "sym": "TXNM",
-      "name": "TXNM Energy, Inc.",
-      "mcap": 6,
-      "price": 59.2,
-      "basis": 59.02,
-      "bxt_today": 5.21,
-      "bxt_yest": -0.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "ath": 59.52,
-      "pct_to_ath": 0.5
-    },
-    {
       "sym": "DSGX",
       "name": "Descartes Systems Group Inc. (The)",
       "mcap": 6,
@@ -3291,6 +3276,21 @@
       "bxt_r": false,
       "ath": 124.31,
       "pct_to_ath": 70.0
+    },
+    {
+      "sym": "TXNM",
+      "name": "TXNM Energy, Inc.",
+      "mcap": 6,
+      "price": 59.2,
+      "basis": 59.02,
+      "bxt_today": 5.21,
+      "bxt_yest": -0.12,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "ath": 59.52,
+      "pct_to_ath": 0.5
     },
     {
       "sym": "RGTI",
@@ -3970,21 +3970,6 @@
       "pct_to_ath": 123.8
     },
     {
-      "sym": "WTS",
-      "name": "Watts Water Technologies, Inc.",
-      "mcap": 10,
-      "price": 293.6,
-      "basis": 299.95,
-      "bxt_today": -2.78,
-      "bxt_yest": 2.03,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 345.17,
-      "pct_to_ath": 17.6
-    },
-    {
       "sym": "MGM",
       "name": "MGM Resorts International",
       "mcap": 10,
@@ -3998,6 +3983,21 @@
       "bxt_r": true,
       "ath": 100.5,
       "pct_to_ath": 161.0
+    },
+    {
+      "sym": "WTS",
+      "name": "Watts Water Technologies, Inc.",
+      "mcap": 10,
+      "price": 293.6,
+      "basis": 299.95,
+      "bxt_today": -2.78,
+      "bxt_yest": 2.03,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 345.17,
+      "pct_to_ath": 17.6
     },
     {
       "sym": "SSB",
@@ -4180,21 +4180,6 @@
       "pct_to_ath": 12.4
     },
     {
-      "sym": "MHK",
-      "name": "Mohawk Industries, Inc.",
-      "mcap": 6,
-      "price": 99.93,
-      "basis": 104.63,
-      "bxt_today": -2.14,
-      "bxt_yest": 6.33,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 286.85,
-      "pct_to_ath": 187.1
-    },
-    {
       "sym": "HIMS",
       "name": "Hims & Hers Health, Inc.",
       "mcap": 6,
@@ -4223,6 +4208,21 @@
       "bxt_r": true,
       "ath": 28.47,
       "pct_to_ath": 18.3
+    },
+    {
+      "sym": "MHK",
+      "name": "Mohawk Industries, Inc.",
+      "mcap": 6,
+      "price": 99.93,
+      "basis": 104.63,
+      "bxt_today": -2.14,
+      "bxt_yest": 6.33,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 286.85,
+      "pct_to_ath": 187.1
     },
     {
       "sym": "FNB",
@@ -4375,21 +4375,6 @@
       "pct_to_ath": 32.6
     },
     {
-      "sym": "MC",
-      "name": "Moelis & Company",
-      "mcap": 5,
-      "price": 64.76,
-      "basis": 65.51,
-      "bxt_today": -4.92,
-      "bxt_yest": 0.95,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 82.89,
-      "pct_to_ath": 28.0
-    },
-    {
       "sym": "AX",
       "name": "Axos Financial, Inc.",
       "mcap": 5,
@@ -4420,6 +4405,21 @@
       "pct_to_ath": 72.4
     },
     {
+      "sym": "MC",
+      "name": "Moelis & Company",
+      "mcap": 5,
+      "price": 64.76,
+      "basis": 65.51,
+      "bxt_today": -4.92,
+      "bxt_yest": 0.95,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 82.89,
+      "pct_to_ath": 28.0
+    },
+    {
       "sym": "GHC",
       "name": "Graham Holdings Company",
       "mcap": 5,
@@ -4433,21 +4433,6 @@
       "bxt_r": true,
       "ath": 1224.76,
       "pct_to_ath": 8.0
-    },
-    {
-      "sym": "LGND",
-      "name": "Ligand Pharmaceuticals Incorporated",
-      "mcap": 5,
-      "price": 227.44,
-      "basis": 222.71,
-      "bxt_today": -2.21,
-      "bxt_yest": 1.15,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 247.38,
-      "pct_to_ath": 8.8
     },
     {
       "sym": "CSW",
@@ -4465,19 +4450,19 @@
       "pct_to_ath": 52.0
     },
     {
-      "sym": "NOVT",
-      "name": "Novanta Inc.",
+      "sym": "LGND",
+      "name": "Ligand Pharmaceuticals Incorporated",
       "mcap": 5,
-      "price": 127.87,
-      "basis": 127.35,
-      "bxt_today": -0.58,
-      "bxt_yest": 0.42,
+      "price": 227.44,
+      "basis": 222.71,
+      "bxt_today": -2.21,
+      "bxt_yest": 1.15,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
-      "ath": 187.61,
-      "pct_to_ath": 46.7
+      "ath": 247.38,
+      "pct_to_ath": 8.8
     },
     {
       "sym": "HCC",
@@ -4495,6 +4480,21 @@
       "pct_to_ath": 22.2
     },
     {
+      "sym": "NOVT",
+      "name": "Novanta Inc.",
+      "mcap": 5,
+      "price": 127.87,
+      "basis": 127.35,
+      "bxt_today": -0.58,
+      "bxt_yest": 0.42,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 187.61,
+      "pct_to_ath": 46.7
+    },
+    {
       "sym": "LAZ",
       "name": "Lazard, Inc.",
       "mcap": 4,
@@ -4508,21 +4508,6 @@
       "bxt_r": true,
       "ath": 61.14,
       "pct_to_ath": 35.5
-    },
-    {
-      "sym": "IBOC",
-      "name": "International Bancshares Corporation",
-      "mcap": 4,
-      "price": 71.66,
-      "basis": 71.28,
-      "bxt_today": -0.93,
-      "bxt_yest": 0.5,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 76.91,
-      "pct_to_ath": 7.3
     },
     {
       "sym": "SHC",
@@ -4553,6 +4538,21 @@
       "bxt_r": true,
       "ath": 66.5,
       "pct_to_ath": 26.3
+    },
+    {
+      "sym": "IBOC",
+      "name": "International Bancshares Corporation",
+      "mcap": 4,
+      "price": 71.66,
+      "basis": 71.28,
+      "bxt_today": -0.93,
+      "bxt_yest": 0.5,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 76.91,
+      "pct_to_ath": 7.3
     },
     {
       "sym": "CNR",
@@ -4660,21 +4660,6 @@
       "pct_to_ath": 7.2
     },
     {
-      "sym": "MRX",
-      "name": "Marex Group plc Ordinary Shares",
-      "mcap": 4,
-      "price": 52.49,
-      "basis": 51.16,
-      "bxt_today": -2.94,
-      "bxt_yest": 1.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "ath": 54.6,
-      "pct_to_ath": 4.0
-    },
-    {
       "sym": "RNST",
       "name": "Renasant Corporation",
       "mcap": 4,
@@ -4705,6 +4690,21 @@
       "pct_to_ath": 145.7
     },
     {
+      "sym": "MRX",
+      "name": "Marex Group plc Ordinary Shares",
+      "mcap": 4,
+      "price": 52.49,
+      "basis": 51.16,
+      "bxt_today": -2.94,
+      "bxt_yest": 1.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "ath": 54.6,
+      "pct_to_ath": 4.0
+    },
+    {
       "sym": "ELF",
       "name": "e.l.f. Beauty, Inc.",
       "mcap": 4,
@@ -4721,7 +4721,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-04T09:01:57.092391+00:00",
+    "compared_to": "2026-05-04T09:07:13.923720+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
