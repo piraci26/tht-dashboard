@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-04T23:30:16.379394+00:00",
+  "updated_at": "2026-05-04T23:35:59.957349+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.63,
-  "scanned_count": 1508,
+  "scan_seconds": 7.35,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -71,23 +71,6 @@
       "bxt_streak": null,
       "ath": 264.79,
       "pct_to_ath": 17.6
-    },
-    {
-      "sym": "VG",
-      "name": "Venture Global, Inc. common stock",
-      "mcap": 34,
-      "price": 13.77,
-      "basis": 12.8,
-      "bxt_today": 2.96,
-      "bxt_yest": -1.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": 22,
-      "ath": 24.0,
-      "pct_to_ath": 74.3
     },
     {
       "sym": "RDDT",
@@ -207,23 +190,6 @@
       "bxt_streak": null,
       "ath": 80.13,
       "pct_to_ath": 106.8
-    },
-    {
-      "sym": "FIG",
-      "name": "Figma, Inc.",
-      "mcap": 11,
-      "price": 19.96,
-      "basis": 18.76,
-      "bxt_today": 16.3,
-      "bxt_yest": 9.41,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 36,
-      "bxt_streak": null,
-      "ath": 142.92,
-      "pct_to_ath": 616.0
     },
     {
       "sym": "PCOR",
@@ -891,23 +857,6 @@
       "pct_to_ath": 664.9
     },
     {
-      "sym": "BC",
-      "name": "Brunswick Corporation",
-      "mcap": 5,
-      "price": 74.46,
-      "basis": 76.93,
-      "bxt_today": -5.94,
-      "bxt_yest": -6.37,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.62,
-      "pct_to_ath": 58.0
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -923,6 +872,23 @@
       "bxt_streak": 18,
       "ath": 36.0,
       "pct_to_ath": 21.8
+    },
+    {
+      "sym": "BC",
+      "name": "Brunswick Corporation",
+      "mcap": 5,
+      "price": 74.46,
+      "basis": 76.93,
+      "bxt_today": -5.94,
+      "bxt_yest": -6.37,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.62,
+      "pct_to_ath": 58.0
     },
     {
       "sym": "ONDS",
@@ -976,23 +942,6 @@
       "pct_to_ath": 69.7
     },
     {
-      "sym": "NVST",
-      "name": "Envista Holdings Corporation",
-      "mcap": 4,
-      "price": 25.81,
-      "basis": 25.81,
-      "bxt_today": -5.86,
-      "bxt_yest": -2.98,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 21,
-      "bxt_streak": null,
-      "ath": 52.03,
-      "pct_to_ath": 101.6
-    },
-    {
       "sym": "MDA",
       "name": "MDA Space Ltd. Common Shares",
       "mcap": 4,
@@ -1010,21 +959,21 @@
       "pct_to_ath": 21.3
     },
     {
-      "sym": "PVH",
-      "name": "PVH Corp.",
+      "sym": "NVST",
+      "name": "Envista Holdings Corporation",
       "mcap": 4,
-      "price": 88.36,
-      "basis": 89.33,
-      "bxt_today": -2.53,
-      "bxt_yest": -3.8,
+      "price": 25.81,
+      "basis": 25.81,
+      "bxt_today": -5.86,
+      "bxt_yest": -2.98,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 21,
       "bxt_streak": null,
-      "ath": 169.22,
-      "pct_to_ath": 91.5
+      "ath": 52.03,
+      "pct_to_ath": 101.6
     },
     {
       "sym": "ALHC",
@@ -1042,6 +991,23 @@
       "bxt_streak": null,
       "ath": 28.59,
       "pct_to_ath": 48.5
+    },
+    {
+      "sym": "PVH",
+      "name": "PVH Corp.",
+      "mcap": 4,
+      "price": 88.36,
+      "basis": 89.33,
+      "bxt_today": -2.53,
+      "bxt_yest": -3.8,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 169.22,
+      "pct_to_ath": 91.5
     },
     {
       "sym": "DOO",
@@ -1250,23 +1216,6 @@
       "pct_to_ath": 29.6
     },
     {
-      "sym": "VG",
-      "name": "Venture Global, Inc. common stock",
-      "mcap": 34,
-      "price": 13.77,
-      "basis": 12.8,
-      "bxt_today": 2.96,
-      "bxt_yest": -1.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": 22,
-      "ath": 24.0,
-      "pct_to_ath": 74.3
-    },
-    {
       "sym": "RDDT",
       "name": "Reddit, Inc.",
       "mcap": 33,
@@ -1386,23 +1335,6 @@
       "pct_to_ath": 280.6
     },
     {
-      "sym": "BMNR",
-      "name": "BitMine Immersion Technologies, Inc.",
-      "mcap": 12,
-      "price": 22.79,
-      "basis": 21.81,
-      "bxt_today": 3.86,
-      "bxt_yest": -1.23,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 161.0,
-      "pct_to_ath": 606.5
-    },
-    {
       "sym": "OKLO",
       "name": "Oklo Inc. common stock",
       "mcap": 12,
@@ -1418,6 +1350,23 @@
       "bxt_streak": 25,
       "ath": 193.84,
       "pct_to_ath": 182.6
+    },
+    {
+      "sym": "BMNR",
+      "name": "BitMine Immersion Technologies, Inc.",
+      "mcap": 12,
+      "price": 22.79,
+      "basis": 21.81,
+      "bxt_today": 3.86,
+      "bxt_yest": -1.23,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 161.0,
+      "pct_to_ath": 606.5
     },
     {
       "sym": "BSY",
@@ -1830,23 +1779,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
-      "mcap": 11,
-      "price": 229.12,
-      "basis": 217.45,
-      "bxt_today": -1.0,
-      "bxt_yest": 1.25,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1879,6 +1811,23 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 27.0
+    },
+    {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 11,
+      "price": 229.12,
+      "basis": 217.45,
+      "bxt_today": -1.0,
+      "bxt_yest": 1.25,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
     },
     {
       "sym": "EXEL",
@@ -2000,21 +1949,21 @@
       "pct_to_ath": 11.0
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
+      "sym": "DOO",
+      "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
+      "price": 53.52,
+      "basis": 55.49,
       "bxt_today": -0.45,
-      "bxt_yest": 0.15,
+      "bxt_yest": 3.4,
       "fvb_g": false,
-      "fvb_r": false,
+      "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
+      "fvb_streak": 10,
+      "bxt_streak": 10,
+      "ath": 102.96,
+      "pct_to_ath": 92.4
     },
     {
       "sym": "TNL",
@@ -2034,31 +1983,63 @@
       "pct_to_ath": 30.3
     },
     {
-      "sym": "DOO",
-      "name": "BRP Inc. Common Subordinate Voting Shares",
+      "sym": "SKT",
+      "name": "Tanger Inc.",
       "mcap": 4,
-      "price": 53.52,
-      "basis": 55.49,
+      "price": 36.3,
+      "basis": 33.8,
       "bxt_today": -0.45,
-      "bxt_yest": 3.4,
+      "bxt_yest": 0.15,
       "fvb_g": false,
-      "fvb_r": true,
+      "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
-      "fvb_streak": 10,
-      "bxt_streak": 10,
-      "ath": 102.96,
-      "pct_to_ath": 92.4
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-04T23:24:51.059487+00:00",
+    "compared_to": "2026-05-04T23:30:16.379394+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "VG",
+        "name": "Venture Global, Inc. common stock",
+        "mcap": 34,
+        "price": 13.77,
+        "basis": 12.8,
+        "bxt_today": 2.96,
+        "ath": 24.0,
+        "pct_to_ath": 74.3
+      },
+      {
+        "sym": "FIG",
+        "name": "Figma, Inc.",
+        "mcap": 11,
+        "price": 19.96,
+        "basis": 18.76,
+        "bxt_today": 16.3,
+        "ath": 142.92,
+        "pct_to_ath": 616.0
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "VG",
+        "name": "Venture Global, Inc. common stock",
+        "mcap": 34,
+        "price": 13.77,
+        "basis": 12.8,
+        "bxt_today": 2.96,
+        "ath": 24.0,
+        "pct_to_ath": 74.3
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
