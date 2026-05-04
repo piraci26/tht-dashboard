@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-04T22:19:17.479158+00:00",
+  "updated_at": "2026-05-04T22:24:43.448868+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.62,
-  "scanned_count": 1511,
+  "scan_seconds": 7.04,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -377,8 +377,8 @@
       "bxt_r": false,
       "fvb_streak": 59,
       "bxt_streak": null,
-      "ath": 293.06,
-      "pct_to_ath": 31.0
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "UPS",
@@ -602,23 +602,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "CNA",
-      "name": "CNA Financial Corporation",
-      "mcap": 12,
-      "price": 44.22,
-      "basis": 44.95,
-      "bxt_today": -1.68,
-      "bxt_yest": 2.77,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 11,
-      "bxt_streak": 9,
-      "ath": 55.62,
-      "pct_to_ath": 25.8
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -634,6 +617,23 @@
       "bxt_streak": null,
       "ath": 737.45,
       "pct_to_ath": 329.0
+    },
+    {
+      "sym": "CNA",
+      "name": "CNA Financial Corporation",
+      "mcap": 12,
+      "price": 44.22,
+      "basis": 44.95,
+      "bxt_today": -1.68,
+      "bxt_yest": 2.77,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 11,
+      "bxt_streak": 9,
+      "ath": 55.62,
+      "pct_to_ath": 25.8
     },
     {
       "sym": "OKLO",
@@ -976,23 +976,6 @@
       "pct_to_ath": 69.7
     },
     {
-      "sym": "NVST",
-      "name": "Envista Holdings Corporation",
-      "mcap": 4,
-      "price": 25.81,
-      "basis": 25.81,
-      "bxt_today": -5.86,
-      "bxt_yest": -2.98,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 21,
-      "bxt_streak": null,
-      "ath": 52.03,
-      "pct_to_ath": 101.6
-    },
-    {
       "sym": "MDA",
       "name": "MDA Space Ltd. Common Shares",
       "mcap": 4,
@@ -1010,21 +993,21 @@
       "pct_to_ath": 21.3
     },
     {
-      "sym": "PVH",
-      "name": "PVH Corp.",
+      "sym": "NVST",
+      "name": "Envista Holdings Corporation",
       "mcap": 4,
-      "price": 88.36,
-      "basis": 89.33,
-      "bxt_today": -2.53,
-      "bxt_yest": -3.8,
+      "price": 25.81,
+      "basis": 25.81,
+      "bxt_today": -5.86,
+      "bxt_yest": -2.98,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 21,
       "bxt_streak": null,
-      "ath": 169.22,
-      "pct_to_ath": 91.5
+      "ath": 52.03,
+      "pct_to_ath": 101.6
     },
     {
       "sym": "ALHC",
@@ -1044,6 +1027,23 @@
       "pct_to_ath": 48.5
     },
     {
+      "sym": "PVH",
+      "name": "PVH Corp.",
+      "mcap": 4,
+      "price": 88.36,
+      "basis": 89.33,
+      "bxt_today": -2.53,
+      "bxt_yest": -3.8,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 169.22,
+      "pct_to_ath": 91.5
+    },
+    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -1059,23 +1059,6 @@
       "bxt_streak": 10,
       "ath": 102.96,
       "pct_to_ath": 92.4
-    },
-    {
-      "sym": "CBT",
-      "name": "Cabot Corporation",
-      "mcap": 4,
-      "price": 75.85,
-      "basis": 76.58,
-      "bxt_today": -7.49,
-      "bxt_yest": -6.91,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.46,
-      "pct_to_ath": 54.9
     },
     {
       "sym": "LBTYK",
@@ -1095,23 +1078,6 @@
       "pct_to_ath": 101.4
     },
     {
-      "sym": "EE",
-      "name": "Excelerate Energy, Inc.",
-      "mcap": 4,
-      "price": 34.38,
-      "basis": 34.77,
-      "bxt_today": -8.45,
-      "bxt_yest": -8.22,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 43.17,
-      "pct_to_ath": 25.6
-    },
-    {
       "sym": "CVCO",
       "name": "Cavco Industries, Inc. When Issued",
       "mcap": 4,
@@ -1127,6 +1093,40 @@
       "bxt_streak": null,
       "ath": 713.01,
       "pct_to_ath": 48.7
+    },
+    {
+      "sym": "CBT",
+      "name": "Cabot Corporation",
+      "mcap": 4,
+      "price": 75.85,
+      "basis": 76.58,
+      "bxt_today": -7.49,
+      "bxt_yest": -6.91,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.46,
+      "pct_to_ath": 54.9
+    },
+    {
+      "sym": "EE",
+      "name": "Excelerate Energy, Inc.",
+      "mcap": 4,
+      "price": 34.38,
+      "basis": 34.77,
+      "bxt_today": -8.45,
+      "bxt_yest": -8.22,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 43.17,
+      "pct_to_ath": 25.6
     }
   ],
   "bxt_green": [
@@ -1728,23 +1728,6 @@
       "pct_to_ath": 186.8
     },
     {
-      "sym": "NTRA",
-      "name": "Natera, Inc.",
-      "mcap": 30,
-      "price": 211.56,
-      "basis": 183.57,
-      "bxt_today": -0.77,
-      "bxt_yest": 0.74,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 256.36,
-      "pct_to_ath": 21.2
-    },
-    {
       "sym": "Q",
       "name": "Qnity Electronics, Inc.",
       "mcap": 30,
@@ -1760,6 +1743,23 @@
       "bxt_streak": 20,
       "ath": 146.67,
       "pct_to_ath": 4.0
+    },
+    {
+      "sym": "NTRA",
+      "name": "Natera, Inc.",
+      "mcap": 30,
+      "price": 211.56,
+      "basis": 183.57,
+      "bxt_today": -0.77,
+      "bxt_yest": 0.74,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 256.36,
+      "pct_to_ath": 21.2
     },
     {
       "sym": "TW",
@@ -1830,23 +1830,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 58.01,
-      "basis": 54.91,
-      "bxt_today": -1.62,
-      "bxt_yest": 3.93,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1879,6 +1862,23 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 30.9
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 58.01,
+      "basis": 54.91,
+      "bxt_today": -1.62,
+      "bxt_yest": 3.93,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "EXEL",
@@ -1949,23 +1949,6 @@
       "pct_to_ath": 8.5
     },
     {
-      "sym": "MRP",
-      "name": "Millrose Properties, Inc.",
-      "mcap": 5,
-      "price": 29.55,
-      "basis": 30.34,
-      "bxt_today": -6.51,
-      "bxt_yest": 1.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 18,
-      "bxt_streak": 18,
-      "ath": 36.0,
-      "pct_to_ath": 21.8
-    },
-    {
       "sym": "AX",
       "name": "Axos Financial, Inc.",
       "mcap": 5,
@@ -1981,6 +1964,23 @@
       "bxt_streak": 12,
       "ath": 101.92,
       "pct_to_ath": 16.8
+    },
+    {
+      "sym": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "mcap": 5,
+      "price": 29.55,
+      "basis": 30.34,
+      "bxt_today": -6.51,
+      "bxt_yest": 1.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 18,
+      "bxt_streak": 18,
+      "ath": 36.0,
+      "pct_to_ath": 21.8
     },
     {
       "sym": "TBBB",
@@ -2052,7 +2052,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-04T22:13:52.138253+00:00",
+    "compared_to": "2026-05-04T22:19:17.479158+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
