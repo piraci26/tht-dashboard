@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-04T22:57:27.500020+00:00",
+  "updated_at": "2026-05-04T23:03:02.297034+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.91,
+  "scan_seconds": 7.12,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -1010,23 +1010,6 @@
       "pct_to_ath": 101.6
     },
     {
-      "sym": "ALHC",
-      "name": "Alignment Healthcare, Inc.",
-      "mcap": 4,
-      "price": 19.26,
-      "basis": 20.05,
-      "bxt_today": -3.02,
-      "bxt_yest": -0.23,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 4,
-      "bxt_streak": null,
-      "ath": 28.59,
-      "pct_to_ath": 48.5
-    },
-    {
       "sym": "PVH",
       "name": "PVH Corp.",
       "mcap": 4,
@@ -1042,6 +1025,23 @@
       "bxt_streak": null,
       "ath": 169.22,
       "pct_to_ath": 91.5
+    },
+    {
+      "sym": "ALHC",
+      "name": "Alignment Healthcare, Inc.",
+      "mcap": 4,
+      "price": 19.26,
+      "basis": 20.05,
+      "bxt_today": -3.02,
+      "bxt_yest": -0.23,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 28.59,
+      "pct_to_ath": 48.5
     },
     {
       "sym": "DOO",
@@ -1061,23 +1061,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "LBTYK",
-      "name": "Liberty Global Ltd. Class C Common Shares",
-      "mcap": 4,
-      "price": 11.51,
-      "basis": 11.62,
-      "bxt_today": 2.67,
-      "bxt_yest": 3.75,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 23.19,
-      "pct_to_ath": 101.4
-    },
-    {
       "sym": "CVCO",
       "name": "Cavco Industries, Inc. When Issued",
       "mcap": 4,
@@ -1093,6 +1076,23 @@
       "bxt_streak": null,
       "ath": 713.01,
       "pct_to_ath": 48.7
+    },
+    {
+      "sym": "LBTYK",
+      "name": "Liberty Global Ltd. Class C Common Shares",
+      "mcap": 4,
+      "price": 11.51,
+      "basis": 11.62,
+      "bxt_today": 2.67,
+      "bxt_yest": 3.75,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 23.19,
+      "pct_to_ath": 101.4
     },
     {
       "sym": "CBT",
@@ -1830,23 +1830,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
-      "mcap": 11,
-      "price": 229.12,
-      "basis": 217.45,
-      "bxt_today": -1.0,
-      "bxt_yest": 1.25,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1862,6 +1845,23 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 30.9
+    },
+    {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 11,
+      "price": 229.12,
+      "basis": 217.45,
+      "bxt_today": -1.0,
+      "bxt_yest": 1.25,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
     },
     {
       "sym": "GIL",
@@ -2052,7 +2052,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-04T22:52:01.228054+00:00",
+    "compared_to": "2026-05-04T22:57:27.500020+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
