@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T02:35:01.177784+00:00",
+  "updated_at": "2026-05-05T02:40:25.124068+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.23,
-  "scanned_count": 1511,
+  "scan_seconds": 7.16,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -908,23 +908,6 @@
       "pct_to_ath": 41.5
     },
     {
-      "sym": "L",
-      "name": "Loews Corporation",
-      "mcap": 22,
-      "price": 105.15,
-      "basis": 107.43,
-      "bxt_today": -9.3,
-      "bxt_yest": -0.34,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 114.9,
-      "pct_to_ath": 9.3
-    },
-    {
       "sym": "CHD",
       "name": "Church & Dwight Company, Inc.",
       "mcap": 22,
@@ -940,6 +923,23 @@
       "bxt_streak": 19,
       "ath": 116.46,
       "pct_to_ath": 25.4
+    },
+    {
+      "sym": "L",
+      "name": "Loews Corporation",
+      "mcap": 22,
+      "price": 105.15,
+      "basis": 107.43,
+      "bxt_today": -9.3,
+      "bxt_yest": -0.34,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 114.9,
+      "pct_to_ath": 9.3
     },
     {
       "sym": "RL",
@@ -959,23 +959,6 @@
       "pct_to_ath": 11.0
     },
     {
-      "sym": "DGX",
-      "name": "Quest Diagnostics Incorporated",
-      "mcap": 21,
-      "price": 191.5,
-      "basis": 192.41,
-      "bxt_today": -8.55,
-      "bxt_yest": -6.48,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 14,
-      "bxt_streak": null,
-      "ath": 213.5,
-      "pct_to_ath": 11.5
-    },
-    {
       "sym": "WWD",
       "name": "Woodward, Inc.",
       "mcap": 21,
@@ -991,6 +974,23 @@
       "bxt_streak": null,
       "ath": 407.0,
       "pct_to_ath": 14.0
+    },
+    {
+      "sym": "DGX",
+      "name": "Quest Diagnostics Incorporated",
+      "mcap": 21,
+      "price": 191.5,
+      "basis": 192.41,
+      "bxt_today": -8.55,
+      "bxt_yest": -6.48,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 14,
+      "bxt_streak": null,
+      "ath": 213.5,
+      "pct_to_ath": 11.5
     },
     {
       "sym": "CHRW",
@@ -1686,8 +1686,8 @@
       "bxt_r": false,
       "fvb_streak": 4,
       "bxt_streak": null,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 28.59,
+      "pct_to_ath": 48.5
     },
     {
       "sym": "EE",
@@ -2066,23 +2066,6 @@
       "pct_to_ath": 55.4
     },
     {
-      "sym": "OKTA",
-      "name": "Okta, Inc.",
-      "mcap": 14,
-      "price": 77.24,
-      "basis": 80.3,
-      "bxt_today": 0.62,
-      "bxt_yest": -2.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 294.0,
-      "pct_to_ath": 280.6
-    },
-    {
       "sym": "RGA",
       "name": "Reinsurance Group of America, Incorporated",
       "mcap": 14,
@@ -2098,6 +2081,23 @@
       "bxt_streak": 7,
       "ath": 233.81,
       "pct_to_ath": 10.7
+    },
+    {
+      "sym": "OKTA",
+      "name": "Okta, Inc.",
+      "mcap": 14,
+      "price": 77.24,
+      "basis": 80.3,
+      "bxt_today": 0.62,
+      "bxt_yest": -2.92,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 294.0,
+      "pct_to_ath": 280.6
     },
     {
       "sym": "OKLO",
@@ -2202,23 +2202,6 @@
       "pct_to_ath": 379.8
     },
     {
-      "sym": "APLD",
-      "name": "Applied Digital Corporation",
-      "mcap": 10,
-      "price": 35.63,
-      "basis": 30.69,
-      "bxt_today": 2.96,
-      "bxt_yest": -0.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 42.27,
-      "pct_to_ath": 18.6
-    },
-    {
       "sym": "STN",
       "name": "Stantec Inc",
       "mcap": 10,
@@ -2234,6 +2217,23 @@
       "bxt_streak": 36,
       "ath": 114.52,
       "pct_to_ath": 25.9
+    },
+    {
+      "sym": "APLD",
+      "name": "Applied Digital Corporation",
+      "mcap": 10,
+      "price": 35.63,
+      "basis": 30.69,
+      "bxt_today": 2.96,
+      "bxt_yest": -0.12,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 42.27,
+      "pct_to_ath": 18.6
     },
     {
       "sym": "WAL",
@@ -2389,23 +2389,6 @@
       "pct_to_ath": 73.4
     },
     {
-      "sym": "PBF",
-      "name": "PBF Energy Inc.",
-      "mcap": 5,
-      "price": 45.53,
-      "basis": 38.18,
-      "bxt_today": 1.87,
-      "bxt_yest": -0.31,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 62.88,
-      "pct_to_ath": 38.1
-    },
-    {
       "sym": "CRSP",
       "name": "CRISPR Therapeutics AG Common Shares",
       "mcap": 5,
@@ -2421,6 +2404,23 @@
       "bxt_streak": 2,
       "ath": 220.2,
       "pct_to_ath": 311.0
+    },
+    {
+      "sym": "PBF",
+      "name": "PBF Energy Inc.",
+      "mcap": 5,
+      "price": 45.53,
+      "basis": 38.18,
+      "bxt_today": 1.87,
+      "bxt_yest": -0.31,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 62.88,
+      "pct_to_ath": 38.1
     },
     {
       "sym": "EXLS",
@@ -3037,23 +3037,6 @@
       "pct_to_ath": 2.9
     },
     {
-      "sym": "CSL",
-      "name": "Carlisle Companies Incorporated",
-      "mcap": 14,
-      "price": 346.17,
-      "basis": 356.93,
-      "bxt_today": -0.02,
-      "bxt_yest": 1.47,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 3,
-      "bxt_streak": 2,
-      "ath": 481.26,
-      "pct_to_ath": 39.0
-    },
-    {
       "sym": "DECK",
       "name": "Deckers Outdoor Corporation",
       "mcap": 14,
@@ -3069,6 +3052,23 @@
       "bxt_streak": 4,
       "ath": 223.98,
       "pct_to_ath": 129.4
+    },
+    {
+      "sym": "CSL",
+      "name": "Carlisle Companies Incorporated",
+      "mcap": 14,
+      "price": 346.17,
+      "basis": 356.93,
+      "bxt_today": -0.02,
+      "bxt_yest": 1.47,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 3,
+      "bxt_streak": 2,
+      "ath": 481.26,
+      "pct_to_ath": 39.0
     },
     {
       "sym": "TKC",
@@ -3292,23 +3292,6 @@
       "pct_to_ath": 333.8
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 68.58,
-      "basis": 69.61,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 86.76,
-      "pct_to_ath": 26.5
-    },
-    {
       "sym": "INGR",
       "name": "Ingredion Incorporated",
       "mcap": 7,
@@ -3324,6 +3307,23 @@
       "bxt_streak": 17,
       "ath": 155.44,
       "pct_to_ath": 45.4
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 68.58,
+      "basis": 69.61,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.12,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 86.76,
+      "pct_to_ath": 26.5
     },
     {
       "sym": "PTGX",
@@ -3548,25 +3548,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T02:29:37.366619+00:00",
+    "compared_to": "2026-05-05T02:35:01.177784+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "WFG",
-        "name": "West Fraser Timber Co. Ltd Common stock",
-        "mcap": 5,
-        "price": 59.45,
-        "basis": 65.92,
-        "bxt_today": -4.6,
-        "ath": 102.96,
-        "pct_to_ath": 73.2
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
