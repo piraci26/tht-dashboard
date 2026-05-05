@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T08:49:36.091095+00:00",
+  "updated_at": "2026-05-05T08:55:09.118701+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.87,
-  "scanned_count": 1510,
+  "scan_seconds": 7.16,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -995,23 +995,6 @@
       "pct_to_ath": 280.6
     },
     {
-      "sym": "BMNR",
-      "name": "BitMine Immersion Technologies, Inc.",
-      "mcap": 12,
-      "price": 22.79,
-      "basis": 21.81,
-      "bxt_today": 3.86,
-      "bxt_yest": -1.23,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 161.0,
-      "pct_to_ath": 606.5
-    },
-    {
       "sym": "OKLO",
       "name": "Oklo Inc. common stock",
       "mcap": 12,
@@ -1027,6 +1010,23 @@
       "bxt_streak": 25,
       "ath": 193.84,
       "pct_to_ath": 182.6
+    },
+    {
+      "sym": "BMNR",
+      "name": "BitMine Immersion Technologies, Inc.",
+      "mcap": 12,
+      "price": 22.79,
+      "basis": 21.81,
+      "bxt_today": 3.86,
+      "bxt_yest": -1.23,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 161.0,
+      "pct_to_ath": 606.5
     },
     {
       "sym": "BSY",
@@ -1694,23 +1694,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
-      "bxt_today": -0.5,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
-    },
-    {
       "sym": "TNL",
       "name": "Travel   Leisure Co. Common  Stock",
       "mcap": 4,
@@ -1726,10 +1709,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 30.3
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.3,
+      "basis": 33.8,
+      "bxt_today": -0.5,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T08:44:04.911096+00:00",
+    "compared_to": "2026-05-05T08:49:36.091095+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
