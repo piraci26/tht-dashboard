@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T07:56:35.442741+00:00",
+  "updated_at": "2026-05-05T08:02:36.038855+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.23,
-  "scanned_count": 1508,
+  "scan_seconds": 13.27,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -139,6 +139,23 @@
       "bxt_streak": null,
       "ath": 84.44,
       "pct_to_ath": 4.2
+    },
+    {
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
+      "mcap": 12,
+      "price": 171.88,
+      "basis": 171.58,
+      "bxt_today": 12.09,
+      "bxt_yest": 11.51,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 737.45,
+      "pct_to_ath": 329.0
     },
     {
       "sym": "PINS",
@@ -517,6 +534,23 @@
       "pct_to_ath": 154.6
     },
     {
+      "sym": "HSIC",
+      "name": "Henry Schein, Inc.",
+      "mcap": 8,
+      "price": 72.02,
+      "basis": 72.1,
+      "bxt_today": 2.37,
+      "bxt_yest": 4.48,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": null,
+      "ath": 92.68,
+      "pct_to_ath": 28.7
+    },
+    {
       "sym": "ADT",
       "name": "ADT Inc.",
       "mcap": 6,
@@ -532,6 +566,23 @@
       "bxt_streak": null,
       "ath": 17.21,
       "pct_to_ath": 143.8
+    },
+    {
+      "sym": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "mcap": 5,
+      "price": 11.46,
+      "basis": 11.46,
+      "bxt_today": 2.55,
+      "bxt_yest": 0.16,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 21.62,
+      "pct_to_ath": 88.7
     },
     {
       "sym": "OPEN",
@@ -566,23 +617,6 @@
       "bxt_streak": 18,
       "ath": 36.0,
       "pct_to_ath": 21.8
-    },
-    {
-      "sym": "OTF",
-      "name": "Blue Owl Technology Finance Corp.",
-      "mcap": 5,
-      "price": 11.46,
-      "basis": 11.46,
-      "bxt_today": 2.55,
-      "bxt_yest": 0.16,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 21.62,
-      "pct_to_ath": 88.7
     },
     {
       "sym": "ONDS",
@@ -1473,23 +1507,6 @@
       "pct_to_ath": 30.9
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 58.01,
-      "basis": 54.73,
-      "bxt_today": -3.11,
-      "bxt_yest": 0.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1505,6 +1522,23 @@
       "bxt_streak": 7,
       "ath": 246.31,
       "pct_to_ath": 7.5
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 58.01,
+      "basis": 54.73,
+      "bxt_today": -3.11,
+      "bxt_yest": 0.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "EXEL",
@@ -1592,23 +1626,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "MRP",
-      "name": "Millrose Properties, Inc.",
-      "mcap": 5,
-      "price": 29.55,
-      "basis": 30.34,
-      "bxt_today": -6.51,
-      "bxt_yest": 1.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 18,
-      "bxt_streak": 18,
-      "ath": 36.0,
-      "pct_to_ath": 21.8
-    },
-    {
       "sym": "AX",
       "name": "Axos Financial, Inc.",
       "mcap": 5,
@@ -1624,6 +1641,23 @@
       "bxt_streak": 12,
       "ath": 101.92,
       "pct_to_ath": 16.8
+    },
+    {
+      "sym": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "mcap": 5,
+      "price": 29.55,
+      "basis": 30.34,
+      "bxt_today": -6.51,
+      "bxt_yest": 1.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 18,
+      "bxt_streak": 18,
+      "ath": 36.0,
+      "pct_to_ath": 21.8
     },
     {
       "sym": "TBBB",
@@ -1695,9 +1729,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T07:50:59.073878+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-05T07:56:35.442741+00:00",
+    "fvb_green_added": [
       {
         "sym": "ALGN",
         "name": "Align Technology, Inc.",
@@ -1709,8 +1742,8 @@
         "pct_to_ath": 329.0
       }
     ],
-    "fvb_red_added": [],
-    "fvb_red_removed": [
+    "fvb_green_removed": [],
+    "fvb_red_added": [
       {
         "sym": "HSIC",
         "name": "Henry Schein, Inc.",
@@ -1722,6 +1755,7 @@
         "pct_to_ath": 28.7
       }
     ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
