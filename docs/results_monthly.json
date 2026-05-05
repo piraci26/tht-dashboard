@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T08:38:15.915326+00:00",
+  "updated_at": "2026-05-05T08:44:04.911096+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.44,
+  "scan_seconds": 6.88,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -1490,23 +1490,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
-      "mcap": 11,
-      "price": 229.12,
-      "basis": 217.33,
-      "bxt_today": -1.37,
-      "bxt_yest": 0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -1522,6 +1505,23 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 27.0
+    },
+    {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 11,
+      "price": 229.12,
+      "basis": 217.33,
+      "bxt_today": -1.37,
+      "bxt_yest": 0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
     },
     {
       "sym": "WMS",
@@ -1626,23 +1626,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "MRP",
-      "name": "Millrose Properties, Inc.",
-      "mcap": 5,
-      "price": 29.55,
-      "basis": 30.34,
-      "bxt_today": -6.51,
-      "bxt_yest": 1.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 18,
-      "bxt_streak": 18,
-      "ath": 36.0,
-      "pct_to_ath": 21.8
-    },
-    {
       "sym": "AX",
       "name": "Axos Financial, Inc.",
       "mcap": 5,
@@ -1658,6 +1641,23 @@
       "bxt_streak": 12,
       "ath": 101.92,
       "pct_to_ath": 16.8
+    },
+    {
+      "sym": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "mcap": 5,
+      "price": 29.55,
+      "basis": 30.34,
+      "bxt_today": -6.51,
+      "bxt_yest": 1.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 18,
+      "bxt_streak": 18,
+      "ath": 36.0,
+      "pct_to_ath": 21.8
     },
     {
       "sym": "TBBB",
@@ -1729,7 +1729,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T08:32:19.618485+00:00",
+    "compared_to": "2026-05-05T08:38:15.915326+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
