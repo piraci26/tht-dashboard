@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T10:22:04.590902+00:00",
+  "updated_at": "2026-05-05T10:27:40.413922+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.42,
-  "scanned_count": 1510,
+  "scan_seconds": 12.77,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -175,23 +175,6 @@
       "pct_to_ath": 331.2
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
-      "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
-    },
-    {
       "sym": "DT",
       "name": "Dynatrace, Inc.",
       "mcap": 12,
@@ -207,6 +190,23 @@
       "bxt_streak": null,
       "ath": 80.13,
       "pct_to_ath": 106.8
+    },
+    {
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
+      "mcap": 12,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "FIG",
@@ -311,23 +311,6 @@
       "pct_to_ath": 92.3
     },
     {
-      "sym": "FROG",
-      "name": "JFrog Ltd. Ordinary Shares",
-      "mcap": 6,
-      "price": 52.58,
-      "basis": 49.32,
-      "bxt_today": 2.14,
-      "bxt_yest": -3.37,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 14,
-      "bxt_streak": 16,
-      "ath": 95.2,
-      "pct_to_ath": 81.1
-    },
-    {
       "sym": "BLSH",
       "name": "Bullish Ordinary Shares",
       "mcap": 6,
@@ -343,6 +326,23 @@
       "bxt_streak": null,
       "ath": 118.0,
       "pct_to_ath": 189.9
+    },
+    {
+      "sym": "FROG",
+      "name": "JFrog Ltd. Ordinary Shares",
+      "mcap": 6,
+      "price": 52.58,
+      "basis": 49.32,
+      "bxt_today": 2.14,
+      "bxt_yest": -3.37,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 14,
+      "bxt_streak": 16,
+      "ath": 95.2,
+      "pct_to_ath": 81.1
     },
     {
       "sym": "PI",
@@ -568,6 +568,23 @@
       "pct_to_ath": 143.8
     },
     {
+      "sym": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "mcap": 5,
+      "price": 11.46,
+      "basis": 11.46,
+      "bxt_today": 2.55,
+      "bxt_yest": 0.16,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 21.62,
+      "pct_to_ath": 88.7
+    },
+    {
       "sym": "OPEN",
       "name": "Opendoor Technologies Inc",
       "mcap": 5,
@@ -636,23 +653,6 @@
       "pct_to_ath": 15.6
     },
     {
-      "sym": "MDA",
-      "name": "MDA Space Ltd. Common Shares",
-      "mcap": 4,
-      "price": 30.88,
-      "basis": 30.9,
-      "bxt_today": 7.13,
-      "bxt_yest": 10.28,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 37.45,
-      "pct_to_ath": 21.3
-    },
-    {
       "sym": "NVST",
       "name": "Envista Holdings Corporation",
       "mcap": 4,
@@ -668,6 +668,23 @@
       "bxt_streak": null,
       "ath": 52.03,
       "pct_to_ath": 101.6
+    },
+    {
+      "sym": "MDA",
+      "name": "MDA Space Ltd. Common Shares",
+      "mcap": 4,
+      "price": 30.88,
+      "basis": 30.9,
+      "bxt_today": 7.13,
+      "bxt_yest": 10.28,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 37.45,
+      "pct_to_ath": 21.3
     },
     {
       "sym": "ALHC",
@@ -1097,21 +1114,21 @@
       "pct_to_ath": 4.2
     },
     {
-      "sym": "STEP",
-      "name": "StepStone Group Inc.",
+      "sym": "DBX",
+      "name": "Dropbox, Inc.",
       "mcap": 6,
-      "price": 54.0,
-      "basis": 56.34,
-      "bxt_today": 1.35,
-      "bxt_yest": -1.77,
+      "price": 25.08,
+      "basis": 25.18,
+      "bxt_today": 2.39,
+      "bxt_yest": -1.88,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 77.79,
-      "pct_to_ath": 44.1
+      "bxt_streak": 22,
+      "ath": 43.5,
+      "pct_to_ath": 73.4
     },
     {
       "sym": "FROG",
@@ -1131,21 +1148,21 @@
       "pct_to_ath": 81.1
     },
     {
-      "sym": "DBX",
-      "name": "Dropbox, Inc.",
+      "sym": "STEP",
+      "name": "StepStone Group Inc.",
       "mcap": 6,
-      "price": 25.08,
-      "basis": 25.18,
-      "bxt_today": 2.39,
-      "bxt_yest": -1.88,
+      "price": 54.0,
+      "basis": 56.34,
+      "bxt_today": 1.35,
+      "bxt_yest": -1.77,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 22,
-      "ath": 43.5,
-      "pct_to_ath": 73.4
+      "bxt_streak": 12,
+      "ath": 77.79,
+      "pct_to_ath": 44.1
     },
     {
       "sym": "WEX",
@@ -1337,23 +1354,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "NTRA",
-      "name": "Natera, Inc.",
-      "mcap": 30,
-      "price": 211.56,
-      "basis": 183.79,
-      "bxt_today": -0.35,
-      "bxt_yest": 1.57,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 256.36,
-      "pct_to_ath": 21.2
-    },
-    {
       "sym": "Q",
       "name": "Qnity Electronics, Inc.",
       "mcap": 30,
@@ -1369,6 +1369,23 @@
       "bxt_streak": 20,
       "ath": 146.67,
       "pct_to_ath": 4.0
+    },
+    {
+      "sym": "NTRA",
+      "name": "Natera, Inc.",
+      "mcap": 30,
+      "price": 211.56,
+      "basis": 183.79,
+      "bxt_today": -0.35,
+      "bxt_yest": 1.57,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 256.36,
+      "pct_to_ath": 21.2
     },
     {
       "sym": "TW",
@@ -1677,23 +1694,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
-      "bxt_today": -0.5,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
-    },
-    {
       "sym": "TNL",
       "name": "Travel   Leisure Co. Common  Stock",
       "mcap": 4,
@@ -1709,14 +1709,30 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 30.3
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.3,
+      "basis": 33.8,
+      "bxt_today": -0.5,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T10:16:21.176887+00:00",
+    "compared_to": "2026-05-05T10:22:04.590902+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
-    "fvb_red_removed": [
+    "fvb_red_added": [
       {
         "sym": "OTF",
         "name": "Blue Owl Technology Finance Corp.",
@@ -1728,6 +1744,7 @@
         "pct_to_ath": 88.7
       }
     ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
