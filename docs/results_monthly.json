@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T06:59:27.204932+00:00",
+  "updated_at": "2026-05-05T07:05:19.305952+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.62,
+  "scan_seconds": 24.03,
   "scanned_count": 1508,
   "fvb_green": [
     {
@@ -995,23 +995,6 @@
       "pct_to_ath": 280.6
     },
     {
-      "sym": "BMNR",
-      "name": "BitMine Immersion Technologies, Inc.",
-      "mcap": 12,
-      "price": 22.79,
-      "basis": 21.81,
-      "bxt_today": 3.86,
-      "bxt_yest": -1.23,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 161.0,
-      "pct_to_ath": 606.5
-    },
-    {
       "sym": "OKLO",
       "name": "Oklo Inc. common stock",
       "mcap": 12,
@@ -1027,6 +1010,23 @@
       "bxt_streak": 25,
       "ath": 193.84,
       "pct_to_ath": 182.6
+    },
+    {
+      "sym": "BMNR",
+      "name": "BitMine Immersion Technologies, Inc.",
+      "mcap": 12,
+      "price": 22.79,
+      "basis": 21.81,
+      "bxt_today": 3.86,
+      "bxt_yest": -1.23,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 161.0,
+      "pct_to_ath": 606.5
     },
     {
       "sym": "BSY",
@@ -1490,21 +1490,21 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
-      "price": 140.75,
-      "basis": 132.8,
-      "bxt_today": -1.21,
-      "bxt_yest": 0.78,
+      "price": 58.01,
+      "basis": 54.73,
+      "bxt_today": -3.11,
+      "bxt_yest": 0.61,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 30.9
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "AIZ",
@@ -1524,21 +1524,21 @@
       "pct_to_ath": 7.5
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
-      "price": 58.01,
-      "basis": 54.73,
-      "bxt_today": -3.11,
-      "bxt_yest": 0.61,
+      "price": 140.75,
+      "basis": 132.8,
+      "bxt_today": -1.21,
+      "bxt_yest": 0.78,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 30.9
     },
     {
       "sym": "EXEL",
@@ -1626,23 +1626,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.28,
-      "basis": 80.67,
-      "bxt_today": -1.45,
-      "bxt_yest": 1.63,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 16.8
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -1658,6 +1641,23 @@
       "bxt_streak": 18,
       "ath": 36.0,
       "pct_to_ath": 21.8
+    },
+    {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.28,
+      "basis": 80.67,
+      "bxt_today": -1.45,
+      "bxt_yest": 1.63,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 16.8
     },
     {
       "sym": "TBBB",
@@ -1729,7 +1729,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T06:53:57.652557+00:00",
+    "compared_to": "2026-05-05T06:59:27.204932+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
