@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T05:40:38.450194+00:00",
+  "updated_at": "2026-05-05T05:46:18.059347+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.8,
-  "scanned_count": 1509,
+  "scan_seconds": 14.2,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -653,23 +653,6 @@
       "pct_to_ath": 15.6
     },
     {
-      "sym": "MDA",
-      "name": "MDA Space Ltd. Common Shares",
-      "mcap": 4,
-      "price": 30.88,
-      "basis": 30.9,
-      "bxt_today": 7.13,
-      "bxt_yest": 10.28,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 37.45,
-      "pct_to_ath": 21.3
-    },
-    {
       "sym": "NVST",
       "name": "Envista Holdings Corporation",
       "mcap": 4,
@@ -685,6 +668,23 @@
       "bxt_streak": null,
       "ath": 52.03,
       "pct_to_ath": 101.6
+    },
+    {
+      "sym": "MDA",
+      "name": "MDA Space Ltd. Common Shares",
+      "mcap": 4,
+      "price": 30.88,
+      "basis": 30.9,
+      "bxt_today": 7.13,
+      "bxt_yest": 10.28,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 37.45,
+      "pct_to_ath": 21.3
     },
     {
       "sym": "ALHC",
@@ -1490,6 +1490,23 @@
       "pct_to_ath": 29.9
     },
     {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 11,
+      "price": 229.12,
+      "basis": 217.33,
+      "bxt_today": -1.37,
+      "bxt_yest": 0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
+    },
+    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1522,23 +1539,6 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 27.0
-    },
-    {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
-      "mcap": 11,
-      "price": 229.12,
-      "basis": 217.33,
-      "bxt_today": -1.37,
-      "bxt_yest": 0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
     },
     {
       "sym": "EXEL",
@@ -1729,25 +1729,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T05:34:43.565263+00:00",
+    "compared_to": "2026-05-05T05:40:38.450194+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "OMAB",
-        "name": "Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADS",
-        "mcap": 40,
-        "price": 103.95,
-        "basis": 97.71,
-        "bxt_today": -3.12,
-        "ath": 134.99,
-        "pct_to_ath": 29.9
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
