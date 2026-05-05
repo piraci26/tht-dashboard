@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T12:25:50.676190+00:00",
+  "updated_at": "2026-05-05T12:31:19.125096+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.09,
-  "scanned_count": 1509,
+  "scan_seconds": 8.99,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -226,23 +226,6 @@
       "pct_to_ath": 331.2
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
-      "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
-    },
-    {
       "sym": "NTNX",
       "name": "Nutanix, Inc.",
       "mcap": 12,
@@ -258,6 +241,23 @@
       "bxt_streak": null,
       "ath": 83.36,
       "pct_to_ath": 90.6
+    },
+    {
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
+      "mcap": 12,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "DT",
@@ -959,23 +959,6 @@
       "pct_to_ath": 11.0
     },
     {
-      "sym": "WWD",
-      "name": "Woodward, Inc.",
-      "mcap": 21,
-      "price": 357.02,
-      "basis": 357.3,
-      "bxt_today": -11.39,
-      "bxt_yest": -7.7,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 32,
-      "bxt_streak": null,
-      "ath": 407.0,
-      "pct_to_ath": 14.0
-    },
-    {
       "sym": "DGX",
       "name": "Quest Diagnostics Incorporated",
       "mcap": 21,
@@ -991,6 +974,23 @@
       "bxt_streak": null,
       "ath": 213.5,
       "pct_to_ath": 11.5
+    },
+    {
+      "sym": "WWD",
+      "name": "Woodward, Inc.",
+      "mcap": 21,
+      "price": 357.02,
+      "basis": 357.3,
+      "bxt_today": -11.39,
+      "bxt_yest": -7.7,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 32,
+      "bxt_streak": null,
+      "ath": 407.0,
+      "pct_to_ath": 14.0
     },
     {
       "sym": "CHRW",
@@ -1231,23 +1231,6 @@
       "pct_to_ath": 182.6
     },
     {
-      "sym": "AGNC",
-      "name": "AGNC Investment Corp.",
-      "mcap": 12,
-      "price": 10.65,
-      "basis": 10.91,
-      "bxt_today": -3.29,
-      "bxt_yest": -2.21,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 36.77,
-      "pct_to_ath": 245.3
-    },
-    {
       "sym": "SWK",
       "name": "Stanley Black & Decker, Inc.",
       "mcap": 12,
@@ -1265,21 +1248,21 @@
       "pct_to_ath": 200.5
     },
     {
-      "sym": "UHAL",
-      "name": "U-Haul Holding Company",
-      "mcap": 10,
-      "price": 50.39,
-      "basis": 51.02,
-      "bxt_today": 10.39,
-      "bxt_yest": 11.27,
+      "sym": "AGNC",
+      "name": "AGNC Investment Corp.",
+      "mcap": 12,
+      "price": 10.65,
+      "basis": 10.91,
+      "bxt_today": -3.29,
+      "bxt_yest": -2.21,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 4,
+      "fvb_streak": 3,
       "bxt_streak": null,
-      "ath": 79.04,
-      "pct_to_ath": 56.9
+      "ath": 36.77,
+      "pct_to_ath": 245.3
     },
     {
       "sym": "XP",
@@ -1297,6 +1280,23 @@
       "bxt_streak": null,
       "ath": 53.08,
       "pct_to_ath": 186.9
+    },
+    {
+      "sym": "UHAL",
+      "name": "U-Haul Holding Company",
+      "mcap": 10,
+      "price": 50.39,
+      "basis": 51.02,
+      "bxt_today": 10.39,
+      "bxt_yest": 11.27,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 79.04,
+      "pct_to_ath": 56.9
     },
     {
       "sym": "OC",
@@ -1350,23 +1350,6 @@
       "pct_to_ath": 154.6
     },
     {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
-      "mcap": 7,
-      "price": 18.39,
-      "basis": 18.76,
-      "bxt_today": -1.32,
-      "bxt_yest": 1.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 3,
-      "bxt_streak": 2,
-      "ath": 100.25,
-      "pct_to_ath": 445.1
-    },
-    {
       "sym": "STAG",
       "name": "Stag Industrial, Inc.",
       "mcap": 7,
@@ -1382,6 +1365,23 @@
       "bxt_streak": 3,
       "ath": 48.27,
       "pct_to_ath": 27.8
+    },
+    {
+      "sym": "VFC",
+      "name": "V.F. Corporation",
+      "mcap": 7,
+      "price": 18.39,
+      "basis": 18.76,
+      "bxt_today": -1.32,
+      "bxt_yest": 1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 3,
+      "bxt_streak": 2,
+      "ath": 100.25,
+      "pct_to_ath": 445.1
     },
     {
       "sym": "AN",
@@ -1401,21 +1401,21 @@
       "pct_to_ath": 13.0
     },
     {
-      "sym": "EXP",
-      "name": "Eagle Materials Inc",
-      "mcap": 6,
-      "price": 204.78,
-      "basis": 209.66,
-      "bxt_today": 3.07,
-      "bxt_yest": 2.41,
+      "sym": "TEX",
+      "name": "Terex Corporation",
+      "mcap": 7,
+      "price": 59.02,
+      "basis": 60.85,
+      "bxt_today": -6.3,
+      "bxt_yest": -3.21,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 5,
       "bxt_streak": null,
-      "ath": 321.93,
-      "pct_to_ath": 57.2
+      "ath": 96.94,
+      "pct_to_ath": 64.2
     },
     {
       "sym": "CHDN",
@@ -1433,6 +1433,23 @@
       "bxt_streak": null,
       "ath": 150.45,
       "pct_to_ath": 64.1
+    },
+    {
+      "sym": "EXP",
+      "name": "Eagle Materials Inc",
+      "mcap": 6,
+      "price": 204.78,
+      "basis": 209.66,
+      "bxt_today": 3.07,
+      "bxt_yest": 2.41,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 321.93,
+      "pct_to_ath": 57.2
     },
     {
       "sym": "BYD",
@@ -1486,23 +1503,6 @@
       "pct_to_ath": 12.2
     },
     {
-      "sym": "HWC",
-      "name": "Hancock Whitney Corporation",
-      "mcap": 5,
-      "price": 66.39,
-      "basis": 66.68,
-      "bxt_today": -3.05,
-      "bxt_yest": -2.12,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 4,
-      "bxt_streak": null,
-      "ath": 75.43,
-      "pct_to_ath": 13.6
-    },
-    {
       "sym": "FCN",
       "name": "FTI Consulting, Inc.",
       "mcap": 5,
@@ -1520,21 +1520,21 @@
       "pct_to_ath": 45.0
     },
     {
-      "sym": "OPEN",
-      "name": "Opendoor Technologies Inc",
+      "sym": "HWC",
+      "name": "Hancock Whitney Corporation",
       "mcap": 5,
-      "price": 5.13,
-      "basis": 5.35,
-      "bxt_today": -5.64,
-      "bxt_yest": -5.51,
+      "price": 66.39,
+      "basis": 66.68,
+      "bxt_today": -3.05,
+      "bxt_yest": -2.12,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 2,
+      "fvb_streak": 4,
       "bxt_streak": null,
-      "ath": 39.24,
-      "pct_to_ath": 664.9
+      "ath": 75.43,
+      "pct_to_ath": 13.6
     },
     {
       "sym": "AUB",
@@ -1552,6 +1552,23 @@
       "bxt_streak": null,
       "ath": 44.54,
       "pct_to_ath": 19.7
+    },
+    {
+      "sym": "OPEN",
+      "name": "Opendoor Technologies Inc",
+      "mcap": 5,
+      "price": 5.13,
+      "basis": 5.35,
+      "bxt_today": -5.64,
+      "bxt_yest": -5.51,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 39.24,
+      "pct_to_ath": 664.9
     },
     {
       "sym": "BC",
@@ -1622,23 +1639,6 @@
       "pct_to_ath": 15.6
     },
     {
-      "sym": "GPI",
-      "name": "Group 1 Automotive, Inc.",
-      "mcap": 4,
-      "price": 330.0,
-      "basis": 349.85,
-      "bxt_today": 6.06,
-      "bxt_yest": 8.13,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 490.09,
-      "pct_to_ath": 48.5
-    },
-    {
       "sym": "NVST",
       "name": "Envista Holdings Corporation",
       "mcap": 4,
@@ -1654,6 +1654,23 @@
       "bxt_streak": null,
       "ath": 52.03,
       "pct_to_ath": 101.6
+    },
+    {
+      "sym": "GPI",
+      "name": "Group 1 Automotive, Inc.",
+      "mcap": 4,
+      "price": 330.0,
+      "basis": 349.85,
+      "bxt_today": 6.06,
+      "bxt_yest": 8.13,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 490.09,
+      "pct_to_ath": 48.5
     },
     {
       "sym": "ALHC",
@@ -2049,23 +2066,6 @@
       "pct_to_ath": 55.4
     },
     {
-      "sym": "RGA",
-      "name": "Reinsurance Group of America, Incorporated",
-      "mcap": 14,
-      "price": 211.16,
-      "basis": 207.18,
-      "bxt_today": 1.28,
-      "bxt_yest": -0.01,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 233.81,
-      "pct_to_ath": 10.7
-    },
-    {
       "sym": "OKTA",
       "name": "Okta, Inc.",
       "mcap": 14,
@@ -2081,6 +2081,23 @@
       "bxt_streak": 11,
       "ath": 294.0,
       "pct_to_ath": 280.6
+    },
+    {
+      "sym": "RGA",
+      "name": "Reinsurance Group of America, Incorporated",
+      "mcap": 14,
+      "price": 211.16,
+      "basis": 207.18,
+      "bxt_today": 1.28,
+      "bxt_yest": -0.01,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 233.81,
+      "pct_to_ath": 10.7
     },
     {
       "sym": "OKLO",
@@ -2731,23 +2748,6 @@
       "pct_to_ath": 13.0
     },
     {
-      "sym": "CNP",
-      "name": "CenterPoint Energy, Inc (Holding Co)",
-      "mcap": 28,
-      "price": 43.32,
-      "basis": 41.67,
-      "bxt_today": -0.75,
-      "bxt_yest": 0.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 44.47,
-      "pct_to_ath": 2.7
-    },
-    {
       "sym": "PPL",
       "name": "PPL Corporation",
       "mcap": 28,
@@ -2763,6 +2763,23 @@
       "bxt_streak": 12,
       "ath": 51.44,
       "pct_to_ath": 36.1
+    },
+    {
+      "sym": "CNP",
+      "name": "CenterPoint Energy, Inc (Holding Co)",
+      "mcap": 28,
+      "price": 43.32,
+      "basis": 41.67,
+      "bxt_today": -0.75,
+      "bxt_yest": 0.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 44.47,
+      "pct_to_ath": 2.7
     },
     {
       "sym": "CFG",
@@ -3224,6 +3241,23 @@
       "pct_to_ath": 5.1
     },
     {
+      "sym": "STAG",
+      "name": "Stag Industrial, Inc.",
+      "mcap": 7,
+      "price": 37.76,
+      "basis": 37.94,
+      "bxt_today": -0.99,
+      "bxt_yest": 2.23,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 4,
+      "bxt_streak": 3,
+      "ath": 48.27,
+      "pct_to_ath": 27.8
+    },
+    {
       "sym": "VFC",
       "name": "V.F. Corporation",
       "mcap": 7,
@@ -3241,21 +3275,21 @@
       "pct_to_ath": 445.1
     },
     {
-      "sym": "STAG",
-      "name": "Stag Industrial, Inc.",
+      "sym": "INGR",
+      "name": "Ingredion Incorporated",
       "mcap": 7,
-      "price": 37.76,
-      "basis": 37.94,
-      "bxt_today": -0.99,
-      "bxt_yest": 2.23,
+      "price": 106.88,
+      "basis": 113.94,
+      "bxt_today": -2.96,
+      "bxt_yest": 3.14,
       "fvb_g": false,
-      "fvb_r": true,
+      "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
-      "fvb_streak": 4,
-      "bxt_streak": 3,
-      "ath": 48.27,
-      "pct_to_ath": 27.8
+      "fvb_streak": null,
+      "bxt_streak": 17,
+      "ath": 155.44,
+      "pct_to_ath": 45.4
     },
     {
       "sym": "NOV",
@@ -3290,23 +3324,6 @@
       "bxt_streak": 1,
       "ath": 86.76,
       "pct_to_ath": 26.5
-    },
-    {
-      "sym": "INGR",
-      "name": "Ingredion Incorporated",
-      "mcap": 7,
-      "price": 106.88,
-      "basis": 113.94,
-      "bxt_today": -2.96,
-      "bxt_yest": 3.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 155.44,
-      "pct_to_ath": 45.4
     },
     {
       "sym": "PTGX",
@@ -3531,11 +3548,10 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T12:20:23.838657+00:00",
+    "compared_to": "2026-05-05T12:25:50.676190+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
-    "fvb_red_removed": [
+    "fvb_red_added": [
       {
         "sym": "TEX",
         "name": "Terex Corporation",
@@ -3547,6 +3563,7 @@
         "pct_to_ath": 64.2
       }
     ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
