@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T06:31:37.900279+00:00",
+  "updated_at": "2026-05-05T06:37:08.438574+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.5,
-  "scanned_count": 1508,
+  "scan_seconds": 9.07,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -158,6 +158,23 @@
       "pct_to_ath": 329.0
     },
     {
+      "sym": "PINS",
+      "name": "Pinterest, Inc.",
+      "mcap": 12,
+      "price": 20.85,
+      "basis": 20.76,
+      "bxt_today": 12.08,
+      "bxt_yest": 9.15,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 32,
+      "bxt_streak": null,
+      "ath": 89.9,
+      "pct_to_ath": 331.2
+    },
+    {
       "sym": "RBRK",
       "name": "Rubrik, Inc.",
       "mcap": 12,
@@ -190,23 +207,6 @@
       "bxt_streak": null,
       "ath": 80.13,
       "pct_to_ath": 106.8
-    },
-    {
-      "sym": "PINS",
-      "name": "Pinterest, Inc.",
-      "mcap": 12,
-      "price": 20.85,
-      "basis": 20.76,
-      "bxt_today": 12.08,
-      "bxt_yest": 9.15,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 32,
-      "bxt_streak": null,
-      "ath": 89.9,
-      "pct_to_ath": 331.2
     },
     {
       "sym": "FIG",
@@ -1456,6 +1456,23 @@
       "pct_to_ath": 28.8
     },
     {
+      "sym": "JLL",
+      "name": "Jones Lang LaSalle Incorporated",
+      "mcap": 15,
+      "price": 314.85,
+      "basis": 290.47,
+      "bxt_today": -1.43,
+      "bxt_yest": 0.56,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 363.06,
+      "pct_to_ath": 15.3
+    },
+    {
       "sym": "BLD",
       "name": "TopBuild Corp.",
       "mcap": 12,
@@ -1473,21 +1490,21 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
-      "price": 229.12,
-      "basis": 217.33,
-      "bxt_today": -1.37,
-      "bxt_yest": 0.51,
+      "price": 58.01,
+      "basis": 54.73,
+      "bxt_today": -3.11,
+      "bxt_yest": 0.61,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "WMS",
@@ -1507,21 +1524,21 @@
       "pct_to_ath": 30.9
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
       "mcap": 11,
-      "price": 58.01,
-      "basis": 54.73,
-      "bxt_today": -3.11,
-      "bxt_yest": 0.61,
+      "price": 229.12,
+      "basis": 217.33,
+      "bxt_today": -1.37,
+      "bxt_yest": 0.51,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
     },
     {
       "sym": "EXEL",
@@ -1609,23 +1626,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.28,
-      "basis": 80.67,
-      "bxt_today": -1.45,
-      "bxt_yest": 1.63,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 16.8
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -1641,6 +1641,23 @@
       "bxt_streak": 18,
       "ath": 36.0,
       "pct_to_ath": 21.8
+    },
+    {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.28,
+      "basis": 80.67,
+      "bxt_today": -1.45,
+      "bxt_yest": 1.63,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 16.8
     },
     {
       "sym": "TBBB",
@@ -1712,15 +1729,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T06:26:00.265087+00:00",
+    "compared_to": "2026-05-05T06:31:37.900279+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "JLL",
         "name": "Jones Lang LaSalle Incorporated",
@@ -1731,6 +1747,7 @@
         "ath": 363.06,
         "pct_to_ath": 15.3
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }

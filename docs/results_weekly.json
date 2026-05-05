@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T06:31:31.376819+00:00",
+  "updated_at": "2026-05-05T06:36:59.357995+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 19.54,
+  "scan_seconds": 9.77,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -209,23 +209,6 @@
       "pct_to_ath": 19.5
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
-      "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
-    },
-    {
       "sym": "PINS",
       "name": "Pinterest, Inc.",
       "mcap": 12,
@@ -241,6 +224,23 @@
       "bxt_streak": null,
       "ath": 89.9,
       "pct_to_ath": 331.2
+    },
+    {
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
+      "mcap": 12,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "NTNX",
@@ -959,23 +959,6 @@
       "pct_to_ath": 11.0
     },
     {
-      "sym": "DGX",
-      "name": "Quest Diagnostics Incorporated",
-      "mcap": 21,
-      "price": 191.5,
-      "basis": 192.41,
-      "bxt_today": -8.55,
-      "bxt_yest": -6.48,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 14,
-      "bxt_streak": null,
-      "ath": 213.5,
-      "pct_to_ath": 11.5
-    },
-    {
       "sym": "WWD",
       "name": "Woodward, Inc.",
       "mcap": 21,
@@ -993,21 +976,21 @@
       "pct_to_ath": 14.0
     },
     {
-      "sym": "BURL",
-      "name": "Burlington Stores, Inc.",
-      "mcap": 19,
-      "price": 309.27,
-      "basis": 311.23,
-      "bxt_today": -2.39,
-      "bxt_yest": 4.74,
+      "sym": "DGX",
+      "name": "Quest Diagnostics Incorporated",
+      "mcap": 21,
+      "price": 191.5,
+      "basis": 192.41,
+      "bxt_today": -8.55,
+      "bxt_yest": -6.48,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 20,
-      "bxt_streak": 7,
-      "ath": 357.34,
-      "pct_to_ath": 15.5
+      "bxt_r": false,
+      "fvb_streak": 14,
+      "bxt_streak": null,
+      "ath": 213.5,
+      "pct_to_ath": 11.5
     },
     {
       "sym": "CHRW",
@@ -1025,6 +1008,23 @@
       "bxt_streak": null,
       "ath": 203.34,
       "pct_to_ath": 26.1
+    },
+    {
+      "sym": "BURL",
+      "name": "Burlington Stores, Inc.",
+      "mcap": 19,
+      "price": 309.27,
+      "basis": 311.23,
+      "bxt_today": -2.39,
+      "bxt_yest": 4.74,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 20,
+      "bxt_streak": 7,
+      "ath": 357.34,
+      "pct_to_ath": 15.5
     },
     {
       "sym": "DD",
@@ -1163,23 +1163,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "CNA",
-      "name": "CNA Financial Corporation",
-      "mcap": 12,
-      "price": 44.22,
-      "basis": 47.25,
-      "bxt_today": -5.65,
-      "bxt_yest": 3.92,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 4,
-      "bxt_streak": 3,
-      "ath": 55.62,
-      "pct_to_ath": 25.8
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -1195,6 +1178,23 @@
       "bxt_streak": null,
       "ath": 737.45,
       "pct_to_ath": 329.0
+    },
+    {
+      "sym": "CNA",
+      "name": "CNA Financial Corporation",
+      "mcap": 12,
+      "price": 44.22,
+      "basis": 47.25,
+      "bxt_today": -5.65,
+      "bxt_yest": 3.92,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 4,
+      "bxt_streak": 3,
+      "ath": 55.62,
+      "pct_to_ath": 25.8
     },
     {
       "sym": "BLD",
@@ -1350,23 +1350,6 @@
       "pct_to_ath": 154.6
     },
     {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
-      "mcap": 7,
-      "price": 18.39,
-      "basis": 18.76,
-      "bxt_today": -1.32,
-      "bxt_yest": 1.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 3,
-      "bxt_streak": 2,
-      "ath": 100.25,
-      "pct_to_ath": 445.1
-    },
-    {
       "sym": "STAG",
       "name": "Stag Industrial, Inc.",
       "mcap": 7,
@@ -1382,6 +1365,23 @@
       "bxt_streak": 3,
       "ath": 48.27,
       "pct_to_ath": 27.8
+    },
+    {
+      "sym": "VFC",
+      "name": "V.F. Corporation",
+      "mcap": 7,
+      "price": 18.39,
+      "basis": 18.76,
+      "bxt_today": -1.32,
+      "bxt_yest": 1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 3,
+      "bxt_streak": 2,
+      "ath": 100.25,
+      "pct_to_ath": 445.1
     },
     {
       "sym": "AN",
@@ -1520,23 +1520,6 @@
       "pct_to_ath": 45.0
     },
     {
-      "sym": "HWC",
-      "name": "Hancock Whitney Corporation",
-      "mcap": 5,
-      "price": 66.39,
-      "basis": 66.68,
-      "bxt_today": -3.05,
-      "bxt_yest": -2.12,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 4,
-      "bxt_streak": null,
-      "ath": 75.43,
-      "pct_to_ath": 13.6
-    },
-    {
       "sym": "AUB",
       "name": "Atlantic Union Bankshares Corporation",
       "mcap": 5,
@@ -1552,6 +1535,23 @@
       "bxt_streak": null,
       "ath": 44.54,
       "pct_to_ath": 19.7
+    },
+    {
+      "sym": "HWC",
+      "name": "Hancock Whitney Corporation",
+      "mcap": 5,
+      "price": 66.39,
+      "basis": 66.68,
+      "bxt_today": -3.05,
+      "bxt_yest": -2.12,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 75.43,
+      "pct_to_ath": 13.6
     },
     {
       "sym": "OPEN",
@@ -2782,23 +2782,6 @@
       "pct_to_ath": 2.7
     },
     {
-      "sym": "CFG",
-      "name": "Citizens Financial Group, Inc.",
-      "mcap": 27,
-      "price": 63.56,
-      "basis": 61.74,
-      "bxt_today": -1.09,
-      "bxt_yest": 0.07,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 68.79,
-      "pct_to_ath": 8.2
-    },
-    {
       "sym": "TW",
       "name": "Tradeweb Markets Inc.",
       "mcap": 27,
@@ -2814,6 +2797,23 @@
       "bxt_streak": 16,
       "ath": 152.65,
       "pct_to_ath": 35.6
+    },
+    {
+      "sym": "CFG",
+      "name": "Citizens Financial Group, Inc.",
+      "mcap": 27,
+      "price": 63.56,
+      "basis": 61.74,
+      "bxt_today": -1.09,
+      "bxt_yest": 0.07,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 68.79,
+      "pct_to_ath": 8.2
     },
     {
       "sym": "CW",
@@ -3241,23 +3241,6 @@
       "pct_to_ath": 5.1
     },
     {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
-      "mcap": 7,
-      "price": 18.39,
-      "basis": 18.76,
-      "bxt_today": -1.32,
-      "bxt_yest": 1.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 3,
-      "bxt_streak": 2,
-      "ath": 100.25,
-      "pct_to_ath": 445.1
-    },
-    {
       "sym": "STAG",
       "name": "Stag Industrial, Inc.",
       "mcap": 7,
@@ -3273,6 +3256,23 @@
       "bxt_streak": 3,
       "ath": 48.27,
       "pct_to_ath": 27.8
+    },
+    {
+      "sym": "VFC",
+      "name": "V.F. Corporation",
+      "mcap": 7,
+      "price": 18.39,
+      "basis": 18.76,
+      "bxt_today": -1.32,
+      "bxt_yest": 1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 3,
+      "bxt_streak": 2,
+      "ath": 100.25,
+      "pct_to_ath": 445.1
     },
     {
       "sym": "NOV",
@@ -3292,23 +3292,6 @@
       "pct_to_ath": 333.8
     },
     {
-      "sym": "INGR",
-      "name": "Ingredion Incorporated",
-      "mcap": 7,
-      "price": 106.88,
-      "basis": 113.94,
-      "bxt_today": -2.96,
-      "bxt_yest": 3.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 155.44,
-      "pct_to_ath": 45.4
-    },
-    {
       "sym": "PB",
       "name": "Prosperity Bancshares, Inc.",
       "mcap": 7,
@@ -3324,6 +3307,23 @@
       "bxt_streak": 1,
       "ath": 86.76,
       "pct_to_ath": 26.5
+    },
+    {
+      "sym": "INGR",
+      "name": "Ingredion Incorporated",
+      "mcap": 7,
+      "price": 106.88,
+      "basis": 113.94,
+      "bxt_today": -2.96,
+      "bxt_yest": 3.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 17,
+      "ath": 155.44,
+      "pct_to_ath": 45.4
     },
     {
       "sym": "PTGX",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T06:25:48.093252+00:00",
+    "compared_to": "2026-05-05T06:31:31.376819+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
