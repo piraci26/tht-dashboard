@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T02:40:31.094333+00:00",
+  "updated_at": "2026-05-05T02:45:54.513850+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 5.96,
+  "scan_seconds": 6.07,
   "scanned_count": 1508,
   "fvb_green": [
     {
@@ -995,23 +995,6 @@
       "pct_to_ath": 280.6
     },
     {
-      "sym": "OKLO",
-      "name": "Oklo Inc. common stock",
-      "mcap": 12,
-      "price": 68.6,
-      "basis": 69.09,
-      "bxt_today": 1.13,
-      "bxt_yest": -0.71,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 25,
-      "ath": 193.84,
-      "pct_to_ath": 182.6
-    },
-    {
       "sym": "BMNR",
       "name": "BitMine Immersion Technologies, Inc.",
       "mcap": 12,
@@ -1027,6 +1010,23 @@
       "bxt_streak": 3,
       "ath": 161.0,
       "pct_to_ath": 606.5
+    },
+    {
+      "sym": "OKLO",
+      "name": "Oklo Inc. common stock",
+      "mcap": 12,
+      "price": 68.6,
+      "basis": 69.09,
+      "bxt_today": 1.13,
+      "bxt_yest": -0.71,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 25,
+      "ath": 193.84,
+      "pct_to_ath": 182.6
     },
     {
       "sym": "BSY",
@@ -1354,23 +1354,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 30,
-      "price": 141.06,
-      "basis": 136.03,
-      "bxt_today": -0.97,
-      "bxt_yest": 2.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 146.67,
-      "pct_to_ath": 4.0
-    },
-    {
       "sym": "NTRA",
       "name": "Natera, Inc.",
       "mcap": 30,
@@ -1386,6 +1369,23 @@
       "bxt_streak": 31,
       "ath": 256.36,
       "pct_to_ath": 21.2
+    },
+    {
+      "sym": "Q",
+      "name": "Qnity Electronics, Inc.",
+      "mcap": 30,
+      "price": 141.06,
+      "basis": 136.03,
+      "bxt_today": -0.97,
+      "bxt_yest": 2.47,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 146.67,
+      "pct_to_ath": 4.0
     },
     {
       "sym": "TW",
@@ -1490,23 +1490,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 58.01,
-      "basis": 54.73,
-      "bxt_today": -3.11,
-      "bxt_yest": 0.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1522,6 +1505,23 @@
       "bxt_streak": 7,
       "ath": 246.31,
       "pct_to_ath": 7.5
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 58.01,
+      "basis": 54.73,
+      "bxt_today": -3.11,
+      "bxt_yest": 0.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "WMS",
@@ -1729,511 +1729,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T02:35:07.485105+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "ACGL",
-        "name": "Arch Capital Group Ltd.",
-        "mcap": 33,
-        "price": 93.65,
-        "basis": 93.52,
-        "bxt_today": -12.3,
-        "ath": 116.47,
-        "pct_to_ath": 24.4
-      },
-      {
-        "sym": "GLPI",
-        "name": "Gaming and Leisure Properties, Inc.",
-        "mcap": 14,
-        "price": 47.32,
-        "basis": 47.23,
-        "bxt_today": 1.96,
-        "ath": 55.13,
-        "pct_to_ath": 16.5
-      },
-      {
-        "sym": "ALGN",
-        "name": "Align Technology, Inc.",
-        "mcap": 12,
-        "price": 171.88,
-        "basis": 171.58,
-        "bxt_today": 12.09,
-        "ath": 737.45,
-        "pct_to_ath": 329.0
-      },
-      {
-        "sym": "EDU",
-        "name": "New Oriental Education & Technology Group, Inc. Sponsored ADR representing 10 Ordinary Share (Cayman Islands)",
-        "mcap": 8,
-        "price": 53.14,
-        "basis": 53.04,
-        "bxt_today": 0.94,
-        "ath": 199.74,
-        "pct_to_ath": 275.9
-      },
-      {
-        "sym": "PI",
-        "name": "Impinj, Inc.",
-        "mcap": 4,
-        "price": 143.18,
-        "basis": 141.73,
-        "bxt_today": -6.35,
-        "ath": 247.06,
-        "pct_to_ath": 72.6
-      }
-    ],
-    "fvb_green_removed": [
-      {
-        "sym": "ADSK",
-        "name": "Autodesk, Inc.",
-        "mcap": 52,
-        "price": 247.54,
-        "basis": 243.03,
-        "bxt_today": -9.06,
-        "ath": 344.39,
-        "pct_to_ath": 39.1
-      },
-      {
-        "sym": "TTWO",
-        "name": "Take-Two Interactive Software, Inc.",
-        "mcap": 42,
-        "price": 225.18,
-        "basis": 221.84,
-        "bxt_today": -11.75,
-        "ath": 264.79,
-        "pct_to_ath": 17.6
-      },
-      {
-        "sym": "TSN",
-        "name": "Tyson Foods, Inc.",
-        "mcap": 24,
-        "price": 68.75,
-        "basis": 64.15,
-        "bxt_today": 0.49,
-        "ath": 100.72,
-        "pct_to_ath": 46.5
-      },
-      {
-        "sym": "CRL",
-        "name": "Charles River Laboratories International, Inc.",
-        "mcap": 9,
-        "price": 172.32,
-        "basis": 169.19,
-        "bxt_today": 4.03,
-        "ath": 460.21,
-        "pct_to_ath": 167.1
-      }
-    ],
+    "compared_to": "2026-05-05T02:40:31.094333+00:00",
+    "fvb_green_added": [],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [
-      {
-        "sym": "LOW",
-        "name": "Lowe's Companies, Inc.",
-        "mcap": 125,
-        "price": 223.72,
-        "basis": 229.16,
-        "bxt_today": -12.03,
-        "ath": 293.06,
-        "pct_to_ath": 31.0
-      },
-      {
-        "sym": "UPS",
-        "name": "United Parcel Service, Inc.",
-        "mcap": 82,
-        "price": 96.31,
-        "basis": 104.03,
-        "bxt_today": 10.93,
-        "ath": 233.72,
-        "pct_to_ath": 142.7
-      },
-      {
-        "sym": "PSA",
-        "name": "Public Storage",
-        "mcap": 52,
-        "price": 295.36,
-        "basis": 298.92,
-        "bxt_today": -6.4,
-        "ath": 421.76,
-        "pct_to_ath": 42.8
-      },
-      {
-        "sym": "MET",
-        "name": "MetLife, Inc.",
-        "mcap": 51,
-        "price": 78.95,
-        "basis": 79.67,
-        "bxt_today": -6.92,
-        "ath": 89.05,
-        "pct_to_ath": 12.8
-      },
-      {
-        "sym": "DHI",
-        "name": "D.R. Horton, Inc.",
-        "mcap": 41,
-        "price": 143.53,
-        "basis": 145.27,
-        "bxt_today": -7.25,
-        "ath": 199.85,
-        "pct_to_ath": 39.2
-      },
-      {
-        "sym": "UAL",
-        "name": "United Airlines Holdings, Inc.",
-        "mcap": 29,
-        "price": 90.07,
-        "basis": 93.07,
-        "bxt_today": -8.3,
-        "ath": 119.21,
-        "pct_to_ath": 32.4
-      },
-      {
-        "sym": "CHD",
-        "name": "Church & Dwight Company, Inc.",
-        "mcap": 22,
-        "price": 92.89,
-        "basis": 95.66,
-        "bxt_today": -15.11,
-        "ath": 116.46,
-        "pct_to_ath": 25.4
-      },
-      {
-        "sym": "TKC",
-        "name": "Turkcell Iletisim Hizmetleri AS",
-        "mcap": 14,
-        "price": 6.2,
-        "basis": 6.22,
-        "bxt_today": -3.5,
-        "ath": 36.18,
-        "pct_to_ath": 483.6
-      },
-      {
-        "sym": "ALGN",
-        "name": "Align Technology, Inc.",
-        "mcap": 12,
-        "price": 171.88,
-        "basis": 171.93,
-        "bxt_today": 12.43,
-        "ath": 737.45,
-        "pct_to_ath": 329.0
-      },
-      {
-        "sym": "CNA",
-        "name": "CNA Financial Corporation",
-        "mcap": 12,
-        "price": 44.22,
-        "basis": 44.95,
-        "bxt_today": -1.68,
-        "ath": 55.62,
-        "pct_to_ath": 25.8
-      },
-      {
-        "sym": "GME",
-        "name": "GameStop Corporation",
-        "mcap": 11,
-        "price": 23.84,
-        "basis": 25.0,
-        "bxt_today": 1.28,
-        "ath": 120.75,
-        "pct_to_ath": 406.5
-      },
-      {
-        "sym": "WYNN",
-        "name": "Wynn Resorts, Limited Common stock",
-        "mcap": 11,
-        "price": 103.44,
-        "basis": 103.53,
-        "bxt_today": -4.31,
-        "ath": 249.31,
-        "pct_to_ath": 141.0
-      },
-      {
-        "sym": "W",
-        "name": "Wayfair Inc.",
-        "mcap": 8,
-        "price": 64.85,
-        "basis": 66.33,
-        "bxt_today": 0.03,
-        "ath": 369.0,
-        "pct_to_ath": 469.0
-      },
-      {
-        "sym": "PRI",
-        "name": "Primerica, Inc.",
-        "mcap": 8,
-        "price": 270.61,
-        "basis": 271.47,
-        "bxt_today": -10.38,
-        "ath": 307.91,
-        "pct_to_ath": 13.8
-      },
-      {
-        "sym": "AWI",
-        "name": "Armstrong World Industries Inc",
-        "mcap": 7,
-        "price": 163.63,
-        "basis": 169.28,
-        "bxt_today": -15.59,
-        "ath": 206.08,
-        "pct_to_ath": 25.9
-      },
-      {
-        "sym": "OMF",
-        "name": "OneMain Holdings, Inc.",
-        "mcap": 6,
-        "price": 55.19,
-        "basis": 56.65,
-        "bxt_today": -8.44,
-        "ath": 71.93,
-        "pct_to_ath": 30.3
-      },
-      {
-        "sym": "CZR",
-        "name": "Caesars Entertainment, Inc.",
-        "mcap": 6,
-        "price": 27.41,
-        "basis": 27.58,
-        "bxt_today": 13.94,
-        "ath": 119.81,
-        "pct_to_ath": 337.1
-      },
-      {
-        "sym": "BC",
-        "name": "Brunswick Corporation",
-        "mcap": 5,
-        "price": 74.46,
-        "basis": 76.93,
-        "bxt_today": -5.94,
-        "ath": 117.62,
-        "pct_to_ath": 58.0
-      },
-      {
-        "sym": "FCN",
-        "name": "FTI Consulting, Inc.",
-        "mcap": 5,
-        "price": 168.05,
-        "basis": 172.16,
-        "bxt_today": -2.26,
-        "ath": 243.6,
-        "pct_to_ath": 45.0
-      },
-      {
-        "sym": "LBTYK",
-        "name": "Liberty Global Ltd. Class C Common Shares",
-        "mcap": 4,
-        "price": 11.51,
-        "basis": 11.62,
-        "bxt_today": 2.67,
-        "ath": 23.19,
-        "pct_to_ath": 101.4
-      },
-      {
-        "sym": "DOO",
-        "name": "BRP Inc. Common Subordinate Voting Shares",
-        "mcap": 4,
-        "price": 53.52,
-        "basis": 55.49,
-        "bxt_today": -0.45,
-        "ath": 102.96,
-        "pct_to_ath": 92.4
-      },
-      {
-        "sym": "CVCO",
-        "name": "Cavco Industries, Inc. When Issued",
-        "mcap": 4,
-        "price": 479.45,
-        "basis": 507.86,
-        "bxt_today": -11.31,
-        "ath": 713.01,
-        "pct_to_ath": 48.7
-      },
-      {
-        "sym": "MTH",
-        "name": "Meritage Homes Corporation",
-        "mcap": 4,
-        "price": 63.05,
-        "basis": 65.57,
-        "bxt_today": -11.27,
-        "ath": 106.99,
-        "pct_to_ath": 69.7
-      },
-      {
-        "sym": "PVH",
-        "name": "PVH Corp.",
-        "mcap": 4,
-        "price": 88.36,
-        "basis": 89.33,
-        "bxt_today": -2.53,
-        "ath": 169.22,
-        "pct_to_ath": 91.5
-      }
-    ],
-    "bxt_green_added": [
-      {
-        "sym": "URI",
-        "name": "United Rentals, Inc.",
-        "mcap": 58,
-        "price": 925.21,
-        "basis": 807.06,
-        "bxt_today": 0.26,
-        "ath": 1021.47,
-        "pct_to_ath": 10.4
-      },
-      {
-        "sym": "STZ",
-        "name": "Constellation Brands, Inc.",
-        "mcap": 26,
-        "price": 148.14,
-        "basis": 165.85,
-        "bxt_today": 0.96,
-        "ath": 274.87,
-        "pct_to_ath": 85.5
-      }
-    ],
-    "bxt_green_removed": [
-      {
-        "sym": "COP",
-        "name": "ConocoPhillips",
-        "mcap": 152,
-        "price": 124.91,
-        "basis": 106.62,
-        "bxt_today": 2.9,
-        "ath": 138.49,
-        "pct_to_ath": 10.9
-      },
-      {
-        "sym": "KDP",
-        "name": "Keurig Dr Pepper Inc.",
-        "mcap": 39,
-        "price": 28.87,
-        "basis": 30.38,
-        "bxt_today": 0.21,
-        "ath": 126.65,
-        "pct_to_ath": 338.7
-      }
-    ],
-    "bxt_red_added": [
-      {
-        "sym": "CHT",
-        "name": "Chunghwa Telecom Co., Ltd.",
-        "mcap": 332,
-        "price": 42.83,
-        "basis": 41.84,
-        "bxt_today": -0.22,
-        "ath": 47.03,
-        "pct_to_ath": 9.8
-      },
-      {
-        "sym": "GRMN",
-        "name": "Garmin Ltd. (Switzerland)",
-        "mcap": 46,
-        "price": 238.6,
-        "basis": 220.65,
-        "bxt_today": -0.14,
-        "ath": 273.32,
-        "pct_to_ath": 14.6
-      },
-      {
-        "sym": "YUM",
-        "name": "Yum! Brands, Inc.",
-        "mcap": 43,
-        "price": 154.4,
-        "basis": 149.66,
-        "bxt_today": -0.48,
-        "ath": 169.39,
-        "pct_to_ath": 9.7
-      },
-      {
-        "sym": "AER",
-        "name": "AerCap Holdings N.V. Ordinary Shares",
-        "mcap": 22,
-        "price": 137.73,
-        "basis": 122.12,
-        "bxt_today": -0.13,
-        "ath": 154.94,
-        "pct_to_ath": 12.5
-      },
-      {
-        "sym": "J",
-        "name": "Jacobs Solutions Inc.",
-        "mcap": 15,
-        "price": 130.74,
-        "basis": 119.21,
-        "bxt_today": -2.97,
-        "ath": 168.44,
-        "pct_to_ath": 28.8
-      },
-      {
-        "sym": "BLD",
-        "name": "TopBuild Corp.",
-        "mcap": 12,
-        "price": 430.56,
-        "basis": 380.2,
-        "bxt_today": -0.24,
-        "ath": 559.47,
-        "pct_to_ath": 29.9
-      },
-      {
-        "sym": "W",
-        "name": "Wayfair Inc.",
-        "mcap": 8,
-        "price": 64.85,
-        "basis": 66.3,
-        "bxt_today": -0.03,
-        "ath": 369.0,
-        "pct_to_ath": 469.0
-      },
-      {
-        "sym": "THG",
-        "name": "Hanover Insurance Group Inc",
-        "mcap": 6,
-        "price": 183.28,
-        "basis": 173.88,
-        "bxt_today": -0.53,
-        "ath": 191.66,
-        "pct_to_ath": 4.6
-      }
-    ],
-    "bxt_red_removed": [
-      {
-        "sym": "CUK",
-        "name": "Carnival Plc ADS ADS",
-        "mcap": 36,
-        "price": 25.65,
-        "basis": 25.07,
-        "bxt_today": -2.42,
-        "ath": 72.29,
-        "pct_to_ath": 181.8
-      },
-      {
-        "sym": "LVS",
-        "name": "Las Vegas Sands Corp.",
-        "mcap": 34,
-        "price": 51.86,
-        "basis": 51.75,
-        "bxt_today": -1.47,
-        "ath": 148.76,
-        "pct_to_ath": 186.8
-      },
-      {
-        "sym": "CNA",
-        "name": "CNA Financial Corporation",
-        "mcap": 12,
-        "price": 44.22,
-        "basis": 44.95,
-        "bxt_today": -1.68,
-        "ath": 55.62,
-        "pct_to_ath": 25.8
-      },
-      {
-        "sym": "BYD",
-        "name": "Boyd Gaming Corporation",
-        "mcap": 6,
-        "price": 82.89,
-        "basis": 79.77,
-        "bxt_today": -2.48,
-        "ath": 89.96,
-        "pct_to_ath": 8.5
-      }
-    ]
+    "fvb_red_removed": [],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
+    "bxt_red_removed": []
   }
 }
