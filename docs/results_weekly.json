@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T06:20:16.904671+00:00",
+  "updated_at": "2026-05-05T06:25:48.093252+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.73,
-  "scanned_count": 1511,
+  "scan_seconds": 7.55,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -209,23 +209,6 @@
       "pct_to_ath": 19.5
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
-      "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
-    },
-    {
       "sym": "PINS",
       "name": "Pinterest, Inc.",
       "mcap": 12,
@@ -241,6 +224,23 @@
       "bxt_streak": null,
       "ath": 89.9,
       "pct_to_ath": 331.2
+    },
+    {
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
+      "mcap": 12,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "NTNX",
@@ -328,23 +328,6 @@
       "pct_to_ath": 66.9
     },
     {
-      "sym": "AMG",
-      "name": "Affiliated Managers Group, Inc.",
-      "mcap": 8,
-      "price": 297.53,
-      "basis": 295.4,
-      "bxt_today": -9.04,
-      "bxt_yest": -12.05,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 334.78,
-      "pct_to_ath": 12.5
-    },
-    {
       "sym": "NUVL",
       "name": "Nuvalent, Inc.",
       "mcap": 8,
@@ -360,6 +343,23 @@
       "bxt_streak": null,
       "ath": 113.51,
       "pct_to_ath": 10.6
+    },
+    {
+      "sym": "AMG",
+      "name": "Affiliated Managers Group, Inc.",
+      "mcap": 8,
+      "price": 297.53,
+      "basis": 295.4,
+      "bxt_today": -9.04,
+      "bxt_yest": -12.05,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 334.78,
+      "pct_to_ath": 12.5
     },
     {
       "sym": "QBTS",
@@ -857,23 +857,6 @@
       "pct_to_ath": 15.9
     },
     {
-      "sym": "ES",
-      "name": "Eversource Energy (D/B/A)",
-      "mcap": 26,
-      "price": 69.44,
-      "basis": 70.1,
-      "bxt_today": -7.21,
-      "bxt_yest": -6.51,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 99.42,
-      "pct_to_ath": 43.2
-    },
-    {
       "sym": "STZ",
       "name": "Constellation Brands, Inc.",
       "mcap": 26,
@@ -889,6 +872,23 @@
       "bxt_streak": null,
       "ath": 274.87,
       "pct_to_ath": 85.5
+    },
+    {
+      "sym": "ES",
+      "name": "Eversource Energy (D/B/A)",
+      "mcap": 26,
+      "price": 69.44,
+      "basis": 70.1,
+      "bxt_today": -7.21,
+      "bxt_yest": -6.51,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 99.42,
+      "pct_to_ath": 43.2
     },
     {
       "sym": "RF",
@@ -942,23 +942,6 @@
       "pct_to_ath": 25.4
     },
     {
-      "sym": "WWD",
-      "name": "Woodward, Inc.",
-      "mcap": 21,
-      "price": 357.02,
-      "basis": 357.3,
-      "bxt_today": -11.39,
-      "bxt_yest": -7.7,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 32,
-      "bxt_streak": null,
-      "ath": 407.0,
-      "pct_to_ath": 14.0
-    },
-    {
       "sym": "RL",
       "name": "Ralph Lauren Corporation",
       "mcap": 21,
@@ -993,21 +976,21 @@
       "pct_to_ath": 11.5
     },
     {
-      "sym": "CHRW",
-      "name": "C.H. Robinson Worldwide, Inc.",
-      "mcap": 19,
-      "price": 161.24,
-      "basis": 175.65,
-      "bxt_today": -14.77,
-      "bxt_yest": -9.45,
+      "sym": "WWD",
+      "name": "Woodward, Inc.",
+      "mcap": 21,
+      "price": 357.02,
+      "basis": 357.3,
+      "bxt_today": -11.39,
+      "bxt_yest": -7.7,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 3,
+      "fvb_streak": 32,
       "bxt_streak": null,
-      "ath": 203.34,
-      "pct_to_ath": 26.1
+      "ath": 407.0,
+      "pct_to_ath": 14.0
     },
     {
       "sym": "BURL",
@@ -1025,6 +1008,23 @@
       "bxt_streak": 7,
       "ath": 357.34,
       "pct_to_ath": 15.5
+    },
+    {
+      "sym": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "mcap": 19,
+      "price": 161.24,
+      "basis": 175.65,
+      "bxt_today": -14.77,
+      "bxt_yest": -9.45,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 203.34,
+      "pct_to_ath": 26.1
     },
     {
       "sym": "DD",
@@ -2338,23 +2338,6 @@
       "pct_to_ath": 44.1
     },
     {
-      "sym": "APPF",
-      "name": "AppFolio, Inc.",
-      "mcap": 6,
-      "price": 173.63,
-      "basis": 184.4,
-      "bxt_today": 2.7,
-      "bxt_yest": -1.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 326.04,
-      "pct_to_ath": 87.8
-    },
-    {
       "sym": "FROG",
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 6,
@@ -2370,6 +2353,23 @@
       "bxt_streak": 16,
       "ath": 95.2,
       "pct_to_ath": 81.1
+    },
+    {
+      "sym": "APPF",
+      "name": "AppFolio, Inc.",
+      "mcap": 6,
+      "price": 173.63,
+      "basis": 184.4,
+      "bxt_today": 2.7,
+      "bxt_yest": -1.92,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 326.04,
+      "pct_to_ath": 87.8
     },
     {
       "sym": "DBX",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T06:14:37.531216+00:00",
+    "compared_to": "2026-05-05T06:20:16.904671+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
