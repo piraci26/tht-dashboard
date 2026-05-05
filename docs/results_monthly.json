@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T13:15:07.940682+00:00",
+  "updated_at": "2026-05-05T13:20:38.568543+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.38,
-  "scanned_count": 1510,
+  "scan_seconds": 9.42,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -158,6 +158,23 @@
       "pct_to_ath": 329.0
     },
     {
+      "sym": "PINS",
+      "name": "Pinterest, Inc.",
+      "mcap": 12,
+      "price": 20.85,
+      "basis": 20.76,
+      "bxt_today": 12.08,
+      "bxt_yest": 9.15,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 32,
+      "bxt_streak": null,
+      "ath": 89.9,
+      "pct_to_ath": 331.2
+    },
+    {
       "sym": "RBRK",
       "name": "Rubrik, Inc.",
       "mcap": 12,
@@ -190,23 +207,6 @@
       "bxt_streak": null,
       "ath": 80.13,
       "pct_to_ath": 106.8
-    },
-    {
-      "sym": "PINS",
-      "name": "Pinterest, Inc.",
-      "mcap": 12,
-      "price": 20.85,
-      "basis": 20.76,
-      "bxt_today": 12.08,
-      "bxt_yest": 9.15,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 32,
-      "bxt_streak": null,
-      "ath": 89.9,
-      "pct_to_ath": 331.2
     },
     {
       "sym": "FIG",
@@ -653,23 +653,6 @@
       "pct_to_ath": 15.6
     },
     {
-      "sym": "NVST",
-      "name": "Envista Holdings Corporation",
-      "mcap": 4,
-      "price": 25.81,
-      "basis": 25.81,
-      "bxt_today": -5.86,
-      "bxt_yest": -2.98,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 21,
-      "bxt_streak": null,
-      "ath": 52.03,
-      "pct_to_ath": 101.6
-    },
-    {
       "sym": "MDA",
       "name": "MDA Space Ltd. Common Shares",
       "mcap": 4,
@@ -685,6 +668,23 @@
       "bxt_streak": null,
       "ath": 37.45,
       "pct_to_ath": 21.3
+    },
+    {
+      "sym": "NVST",
+      "name": "Envista Holdings Corporation",
+      "mcap": 4,
+      "price": 25.81,
+      "basis": 25.81,
+      "bxt_today": -5.86,
+      "bxt_yest": -2.98,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 21,
+      "bxt_streak": null,
+      "ath": 52.03,
+      "pct_to_ath": 101.6
     },
     {
       "sym": "ALHC",
@@ -1354,23 +1354,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "NTRA",
-      "name": "Natera, Inc.",
-      "mcap": 30,
-      "price": 211.56,
-      "basis": 183.79,
-      "bxt_today": -0.35,
-      "bxt_yest": 1.57,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 256.36,
-      "pct_to_ath": 21.2
-    },
-    {
       "sym": "Q",
       "name": "Qnity Electronics, Inc.",
       "mcap": 30,
@@ -1386,6 +1369,23 @@
       "bxt_streak": 20,
       "ath": 146.67,
       "pct_to_ath": 4.0
+    },
+    {
+      "sym": "NTRA",
+      "name": "Natera, Inc.",
+      "mcap": 30,
+      "price": 211.56,
+      "basis": 183.79,
+      "bxt_today": -0.35,
+      "bxt_yest": 1.57,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 256.36,
+      "pct_to_ath": 21.2
     },
     {
       "sym": "TW",
@@ -1490,23 +1490,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 140.75,
-      "basis": 132.8,
-      "bxt_today": -1.21,
-      "bxt_yest": 0.78,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 30.9
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1524,6 +1507,23 @@
       "pct_to_ath": 7.5
     },
     {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 140.75,
+      "basis": 132.8,
+      "bxt_today": -1.21,
+      "bxt_yest": 0.78,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 30.9
+    },
+    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -1539,6 +1539,23 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 27.0
+    },
+    {
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
+      "mcap": 11,
+      "price": 44.17,
+      "basis": 40.38,
+      "bxt_today": -1.23,
+      "bxt_yest": 0.89,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 14.3
     },
     {
       "sym": "CCK",
@@ -1575,23 +1592,6 @@
       "pct_to_ath": 19.8
     },
     {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
-      "mcap": 11,
-      "price": 44.17,
-      "basis": 40.38,
-      "bxt_today": -1.23,
-      "bxt_yest": 0.89,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 14.3
-    },
-    {
       "sym": "W",
       "name": "Wayfair Inc.",
       "mcap": 8,
@@ -1626,23 +1626,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.28,
-      "basis": 80.67,
-      "bxt_today": -1.45,
-      "bxt_yest": 1.63,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 16.8
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -1660,6 +1643,23 @@
       "pct_to_ath": 21.8
     },
     {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.28,
+      "basis": 80.67,
+      "bxt_today": -1.45,
+      "bxt_yest": 1.63,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 16.8
+    },
+    {
       "sym": "TBBB",
       "name": "BBB Foods Inc. Common Shares",
       "mcap": 4,
@@ -1675,23 +1675,6 @@
       "bxt_streak": 4,
       "ath": 40.09,
       "pct_to_ath": 11.0
-    },
-    {
-      "sym": "TNL",
-      "name": "Travel   Leisure Co. Common  Stock",
-      "mcap": 4,
-      "price": 62.16,
-      "basis": 59.61,
-      "bxt_today": -1.61,
-      "bxt_yest": 3.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 29,
-      "ath": 81.0,
-      "pct_to_ath": 30.3
     },
     {
       "sym": "DOO",
@@ -1726,10 +1709,27 @@
       "bxt_streak": 1,
       "ath": 42.2,
       "pct_to_ath": 16.3
+    },
+    {
+      "sym": "TNL",
+      "name": "Travel   Leisure Co. Common  Stock",
+      "mcap": 4,
+      "price": 62.16,
+      "basis": 59.61,
+      "bxt_today": -1.61,
+      "bxt_yest": 3.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 29,
+      "ath": 81.0,
+      "pct_to_ath": 30.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T13:09:39.180729+00:00",
+    "compared_to": "2026-05-05T13:15:07.940682+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
