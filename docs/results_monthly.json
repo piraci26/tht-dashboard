@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T04:39:45.543542+00:00",
+  "updated_at": "2026-05-05T04:45:12.028182+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.12,
+  "scan_seconds": 6.71,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -1694,23 +1694,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "TNL",
-      "name": "Travel   Leisure Co. Common  Stock",
-      "mcap": 4,
-      "price": 62.16,
-      "basis": 59.61,
-      "bxt_today": -1.61,
-      "bxt_yest": 3.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 29,
-      "ath": 81.0,
-      "pct_to_ath": 30.3
-    },
-    {
       "sym": "SKT",
       "name": "Tanger Inc.",
       "mcap": 4,
@@ -1726,10 +1709,27 @@
       "bxt_streak": 1,
       "ath": 42.2,
       "pct_to_ath": 16.3
+    },
+    {
+      "sym": "TNL",
+      "name": "Travel   Leisure Co. Common  Stock",
+      "mcap": 4,
+      "price": 62.16,
+      "basis": 59.61,
+      "bxt_today": -1.61,
+      "bxt_yest": 3.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 29,
+      "ath": 81.0,
+      "pct_to_ath": 30.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T04:34:16.168358+00:00",
+    "compared_to": "2026-05-05T04:39:45.543542+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
