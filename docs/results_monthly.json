@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T05:34:43.565263+00:00",
+  "updated_at": "2026-05-05T05:40:38.450194+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.36,
-  "scanned_count": 1510,
+  "scan_seconds": 9.8,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -704,23 +704,6 @@
       "pct_to_ath": 48.5
     },
     {
-      "sym": "EE",
-      "name": "Excelerate Energy, Inc.",
-      "mcap": 4,
-      "price": 34.38,
-      "basis": 34.77,
-      "bxt_today": -8.45,
-      "bxt_yest": -8.22,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 43.17,
-      "pct_to_ath": 25.6
-    },
-    {
       "sym": "CBT",
       "name": "Cabot Corporation",
       "mcap": 4,
@@ -736,6 +719,23 @@
       "bxt_streak": null,
       "ath": 117.46,
       "pct_to_ath": 54.9
+    },
+    {
+      "sym": "EE",
+      "name": "Excelerate Energy, Inc.",
+      "mcap": 4,
+      "price": 34.38,
+      "basis": 34.77,
+      "bxt_today": -8.45,
+      "bxt_yest": -8.22,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 43.17,
+      "pct_to_ath": 25.6
     }
   ],
   "bxt_green": [
@@ -1337,6 +1337,23 @@
       "pct_to_ath": 9.7
     },
     {
+      "sym": "OMAB",
+      "name": "Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADS",
+      "mcap": 40,
+      "price": 103.95,
+      "basis": 97.71,
+      "bxt_today": -3.12,
+      "bxt_yest": 0.77,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 134.99,
+      "pct_to_ath": 29.9
+    },
+    {
       "sym": "Q",
       "name": "Qnity Electronics, Inc.",
       "mcap": 30,
@@ -1712,15 +1729,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T05:29:15.366315+00:00",
+    "compared_to": "2026-05-05T05:34:43.565263+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "OMAB",
         "name": "Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADS",
@@ -1731,6 +1747,7 @@
         "ath": 134.99,
         "pct_to_ath": 29.9
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
