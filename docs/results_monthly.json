@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T12:58:43.579077+00:00",
+  "updated_at": "2026-05-05T13:04:11.288807+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.96,
-  "scanned_count": 1510,
+  "scan_seconds": 7.23,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -995,23 +995,6 @@
       "pct_to_ath": 280.6
     },
     {
-      "sym": "OKLO",
-      "name": "Oklo Inc. common stock",
-      "mcap": 12,
-      "price": 68.6,
-      "basis": 69.09,
-      "bxt_today": 1.13,
-      "bxt_yest": -0.71,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 25,
-      "ath": 193.84,
-      "pct_to_ath": 182.6
-    },
-    {
       "sym": "BMNR",
       "name": "BitMine Immersion Technologies, Inc.",
       "mcap": 12,
@@ -1027,6 +1010,23 @@
       "bxt_streak": 3,
       "ath": 161.0,
       "pct_to_ath": 606.5
+    },
+    {
+      "sym": "OKLO",
+      "name": "Oklo Inc. common stock",
+      "mcap": 12,
+      "price": 68.6,
+      "basis": 69.09,
+      "bxt_today": 1.13,
+      "bxt_yest": -0.71,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 25,
+      "ath": 193.84,
+      "pct_to_ath": 182.6
     },
     {
       "sym": "BSY",
@@ -1490,23 +1490,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 140.75,
-      "basis": 132.8,
-      "bxt_today": -1.21,
-      "bxt_yest": 0.78,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 30.9
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1522,6 +1505,23 @@
       "bxt_streak": 7,
       "ath": 246.31,
       "pct_to_ath": 7.5
+    },
+    {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 140.75,
+      "basis": 132.8,
+      "bxt_today": -1.21,
+      "bxt_yest": 0.78,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 30.9
     },
     {
       "sym": "GIL",
@@ -1729,7 +1729,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T12:53:16.721443+00:00",
+    "compared_to": "2026-05-05T12:58:43.579077+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
