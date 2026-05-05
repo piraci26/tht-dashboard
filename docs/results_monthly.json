@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T08:55:09.118701+00:00",
+  "updated_at": "2026-05-05T09:01:06.885952+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.16,
-  "scanned_count": 1509,
+  "scan_seconds": 7.63,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -56,23 +56,6 @@
       "pct_to_ath": 74.3
     },
     {
-      "sym": "ACGL",
-      "name": "Arch Capital Group Ltd.",
-      "mcap": 33,
-      "price": 93.65,
-      "basis": 93.52,
-      "bxt_today": -12.3,
-      "bxt_yest": -11.12,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 116.47,
-      "pct_to_ath": 24.4
-    },
-    {
       "sym": "RDDT",
       "name": "Reddit, Inc.",
       "mcap": 33,
@@ -88,6 +71,23 @@
       "bxt_streak": 15,
       "ath": 282.95,
       "pct_to_ath": 67.4
+    },
+    {
+      "sym": "ACGL",
+      "name": "Arch Capital Group Ltd.",
+      "mcap": 33,
+      "price": 93.65,
+      "basis": 93.52,
+      "bxt_today": -12.3,
+      "bxt_yest": -11.12,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 116.47,
+      "pct_to_ath": 24.4
     },
     {
       "sym": "MRNA",
@@ -294,23 +294,6 @@
       "pct_to_ath": 123.5
     },
     {
-      "sym": "COGT",
-      "name": "Cogent Biosciences, Inc.",
-      "mcap": 6,
-      "price": 36.73,
-      "basis": 36.49,
-      "bxt_today": -16.09,
-      "bxt_yest": -15.54,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 70.64,
-      "pct_to_ath": 92.3
-    },
-    {
       "sym": "FROG",
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 6,
@@ -326,6 +309,23 @@
       "bxt_streak": 16,
       "ath": 95.2,
       "pct_to_ath": 81.1
+    },
+    {
+      "sym": "COGT",
+      "name": "Cogent Biosciences, Inc.",
+      "mcap": 6,
+      "price": 36.73,
+      "basis": 36.49,
+      "bxt_today": -16.09,
+      "bxt_yest": -15.54,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 70.64,
+      "pct_to_ath": 92.3
     },
     {
       "sym": "BLSH",
@@ -704,23 +704,6 @@
       "pct_to_ath": 48.5
     },
     {
-      "sym": "CBT",
-      "name": "Cabot Corporation",
-      "mcap": 4,
-      "price": 75.85,
-      "basis": 76.51,
-      "bxt_today": -7.76,
-      "bxt_yest": -7.39,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.46,
-      "pct_to_ath": 54.9
-    },
-    {
       "sym": "EE",
       "name": "Excelerate Energy, Inc.",
       "mcap": 4,
@@ -736,6 +719,23 @@
       "bxt_streak": null,
       "ath": 43.17,
       "pct_to_ath": 25.6
+    },
+    {
+      "sym": "CBT",
+      "name": "Cabot Corporation",
+      "mcap": 4,
+      "price": 75.85,
+      "basis": 76.51,
+      "bxt_today": -7.76,
+      "bxt_yest": -7.39,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.46,
+      "pct_to_ath": 54.9
     }
   ],
   "bxt_green": [
@@ -1729,7 +1729,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T08:49:36.091095+00:00",
+    "compared_to": "2026-05-05T08:55:09.118701+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
