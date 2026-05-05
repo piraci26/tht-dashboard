@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T02:29:43.554600+00:00",
+  "updated_at": "2026-05-05T02:35:07.485105+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.18,
-  "scanned_count": 1509,
+  "scan_seconds": 6.3,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -139,6 +139,23 @@
       "bxt_streak": null,
       "ath": 497.49,
       "pct_to_ath": 951.8
+    },
+    {
+      "sym": "SOLS",
+      "name": "Solstice Advanced Materials Inc.",
+      "mcap": 13,
+      "price": 81.07,
+      "basis": 80.77,
+      "bxt_today": -7.98,
+      "bxt_yest": -9.08,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 84.44,
+      "pct_to_ath": 4.2
     },
     {
       "sym": "PINS",
@@ -721,23 +738,6 @@
       "pct_to_ath": 13.8
     },
     {
-      "sym": "W",
-      "name": "Wayfair Inc.",
-      "mcap": 8,
-      "price": 64.85,
-      "basis": 66.33,
-      "bxt_today": 0.03,
-      "bxt_yest": 2.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 369.0,
-      "pct_to_ath": 469.0
-    },
-    {
       "sym": "HSIC",
       "name": "Henry Schein, Inc.",
       "mcap": 8,
@@ -753,6 +753,23 @@
       "bxt_streak": null,
       "ath": 92.68,
       "pct_to_ath": 28.7
+    },
+    {
+      "sym": "W",
+      "name": "Wayfair Inc.",
+      "mcap": 8,
+      "price": 64.85,
+      "basis": 66.33,
+      "bxt_today": 0.03,
+      "bxt_yest": 2.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 369.0,
+      "pct_to_ath": 469.0
     },
     {
       "sym": "AWI",
@@ -874,23 +891,6 @@
       "pct_to_ath": 664.9
     },
     {
-      "sym": "MRP",
-      "name": "Millrose Properties, Inc.",
-      "mcap": 5,
-      "price": 29.55,
-      "basis": 30.34,
-      "bxt_today": -6.51,
-      "bxt_yest": 1.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 18,
-      "bxt_streak": 18,
-      "ath": 36.0,
-      "pct_to_ath": 21.8
-    },
-    {
       "sym": "BC",
       "name": "Brunswick Corporation",
       "mcap": 5,
@@ -906,6 +906,23 @@
       "bxt_streak": null,
       "ath": 117.62,
       "pct_to_ath": 58.0
+    },
+    {
+      "sym": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "mcap": 5,
+      "price": 29.55,
+      "basis": 30.34,
+      "bxt_today": -6.51,
+      "bxt_yest": 1.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 18,
+      "bxt_streak": 18,
+      "ath": 36.0,
+      "pct_to_ath": 21.8
     },
     {
       "sym": "ONDS",
@@ -993,23 +1010,6 @@
       "pct_to_ath": 101.6
     },
     {
-      "sym": "PVH",
-      "name": "PVH Corp.",
-      "mcap": 4,
-      "price": 88.36,
-      "basis": 89.33,
-      "bxt_today": -2.53,
-      "bxt_yest": -3.8,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 169.22,
-      "pct_to_ath": 91.5
-    },
-    {
       "sym": "ALHC",
       "name": "Alignment Healthcare, Inc.",
       "mcap": 4,
@@ -1027,6 +1027,23 @@
       "pct_to_ath": 48.5
     },
     {
+      "sym": "PVH",
+      "name": "PVH Corp.",
+      "mcap": 4,
+      "price": 88.36,
+      "basis": 89.33,
+      "bxt_today": -2.53,
+      "bxt_yest": -3.8,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 169.22,
+      "pct_to_ath": 91.5
+    },
+    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -1042,6 +1059,23 @@
       "bxt_streak": 10,
       "ath": 102.96,
       "pct_to_ath": 92.4
+    },
+    {
+      "sym": "CBT",
+      "name": "Cabot Corporation",
+      "mcap": 4,
+      "price": 75.85,
+      "basis": 76.58,
+      "bxt_today": -7.49,
+      "bxt_yest": -6.91,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.46,
+      "pct_to_ath": 54.9
     },
     {
       "sym": "CVCO",
@@ -1076,23 +1110,6 @@
       "bxt_streak": null,
       "ath": 23.19,
       "pct_to_ath": 101.4
-    },
-    {
-      "sym": "CBT",
-      "name": "Cabot Corporation",
-      "mcap": 4,
-      "price": 75.85,
-      "basis": 76.58,
-      "bxt_today": -7.49,
-      "bxt_yest": -6.91,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.46,
-      "pct_to_ath": 54.9
     },
     {
       "sym": "EE",
@@ -1711,23 +1728,6 @@
       "pct_to_ath": 186.8
     },
     {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 30,
-      "price": 141.06,
-      "basis": 136.03,
-      "bxt_today": -0.97,
-      "bxt_yest": 2.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 146.67,
-      "pct_to_ath": 4.0
-    },
-    {
       "sym": "NTRA",
       "name": "Natera, Inc.",
       "mcap": 30,
@@ -1743,6 +1743,23 @@
       "bxt_streak": 31,
       "ath": 256.36,
       "pct_to_ath": 21.2
+    },
+    {
+      "sym": "Q",
+      "name": "Qnity Electronics, Inc.",
+      "mcap": 30,
+      "price": 141.06,
+      "basis": 136.03,
+      "bxt_today": -0.97,
+      "bxt_yest": 2.47,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 146.67,
+      "pct_to_ath": 4.0
     },
     {
       "sym": "TW",
@@ -1813,6 +1830,23 @@
       "pct_to_ath": 25.8
     },
     {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 140.75,
+      "basis": 133.13,
+      "bxt_today": -0.38,
+      "bxt_yest": 2.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 30.9
+    },
+    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1847,21 +1881,21 @@
       "pct_to_ath": 27.0
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
       "mcap": 11,
-      "price": 140.75,
-      "basis": 133.13,
-      "bxt_today": -0.38,
-      "bxt_yest": 2.46,
+      "price": 44.17,
+      "basis": 40.35,
+      "bxt_today": -1.63,
+      "bxt_yest": 0.09,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 30.9
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 14.3
     },
     {
       "sym": "CCK",
@@ -1879,23 +1913,6 @@
       "bxt_streak": 2,
       "ath": 130.42,
       "pct_to_ath": 31.7
-    },
-    {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
-      "mcap": 11,
-      "price": 44.17,
-      "basis": 40.35,
-      "bxt_today": -1.63,
-      "bxt_yest": 0.09,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 14.3
     },
     {
       "sym": "ENSG",
@@ -1932,23 +1949,6 @@
       "pct_to_ath": 8.5
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.28,
-      "basis": 80.68,
-      "bxt_today": -1.41,
-      "bxt_yest": 1.7,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 16.8
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -1966,6 +1966,23 @@
       "pct_to_ath": 21.8
     },
     {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.28,
+      "basis": 80.68,
+      "bxt_today": -1.41,
+      "bxt_yest": 1.7,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 16.8
+    },
+    {
       "sym": "TBBB",
       "name": "BBB Foods Inc. Common Shares",
       "mcap": 4,
@@ -1981,6 +1998,23 @@
       "bxt_streak": 4,
       "ath": 40.09,
       "pct_to_ath": 11.0
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.3,
+      "basis": 33.8,
+      "bxt_today": -0.45,
+      "bxt_yest": 0.15,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     },
     {
       "sym": "DOO",
@@ -2015,29 +2049,11 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 30.3
-    },
-    {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
-      "bxt_today": -0.45,
-      "bxt_yest": 0.15,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T02:24:19.904637+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-05T02:29:43.554600+00:00",
+    "fvb_green_added": [
       {
         "sym": "SOLS",
         "name": "Solstice Advanced Materials Inc.",
@@ -2049,6 +2065,7 @@
         "pct_to_ath": 4.2
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
