@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T07:05:19.305952+00:00",
+  "updated_at": "2026-05-05T07:10:56.779923+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 24.03,
-  "scanned_count": 1508,
+  "scan_seconds": 12.27,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -479,8 +479,8 @@
       "bxt_r": false,
       "fvb_streak": 22,
       "bxt_streak": null,
-      "ath": 83.6,
-      "pct_to_ath": 205.6
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "OKLO",
@@ -1507,23 +1507,6 @@
       "pct_to_ath": 27.0
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
-      "mcap": 11,
-      "price": 229.12,
-      "basis": 217.33,
-      "bxt_today": -1.37,
-      "bxt_yest": 0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1539,6 +1522,23 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 30.9
+    },
+    {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 11,
+      "price": 229.12,
+      "basis": 217.33,
+      "bxt_today": -1.37,
+      "bxt_yest": 0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
     },
     {
       "sym": "EXEL",
@@ -1729,7 +1729,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T06:59:27.204932+00:00",
+    "compared_to": "2026-05-05T07:05:19.305952+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
