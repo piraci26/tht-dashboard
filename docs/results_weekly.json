@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T01:40:43.639498+00:00",
+  "updated_at": "2026-05-05T01:46:08.337954+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.23,
-  "scanned_count": 1509,
+  "scan_seconds": 7.24,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -942,6 +942,23 @@
       "pct_to_ath": 25.4
     },
     {
+      "sym": "RL",
+      "name": "Ralph Lauren Corporation",
+      "mcap": 21,
+      "price": 354.29,
+      "basis": 358.16,
+      "bxt_today": -5.38,
+      "bxt_yest": -2.21,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 393.41,
+      "pct_to_ath": 11.0
+    },
+    {
       "sym": "DGX",
       "name": "Quest Diagnostics Incorporated",
       "mcap": 21,
@@ -976,21 +993,21 @@
       "pct_to_ath": 14.0
     },
     {
-      "sym": "RL",
-      "name": "Ralph Lauren Corporation",
-      "mcap": 21,
-      "price": 354.29,
-      "basis": 358.16,
-      "bxt_today": -5.38,
-      "bxt_yest": -2.21,
+      "sym": "CHRW",
+      "name": "C.H. Robinson Worldwide, Inc.",
+      "mcap": 19,
+      "price": 161.24,
+      "basis": 175.65,
+      "bxt_today": -14.77,
+      "bxt_yest": -9.45,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 4,
+      "fvb_streak": 3,
       "bxt_streak": null,
-      "ath": 393.41,
-      "pct_to_ath": 11.0
+      "ath": 203.34,
+      "pct_to_ath": 26.1
     },
     {
       "sym": "BURL",
@@ -1008,23 +1025,6 @@
       "bxt_streak": 7,
       "ath": 357.34,
       "pct_to_ath": 15.5
-    },
-    {
-      "sym": "CHRW",
-      "name": "C.H. Robinson Worldwide, Inc.",
-      "mcap": 19,
-      "price": 161.24,
-      "basis": 175.65,
-      "bxt_today": -14.77,
-      "bxt_yest": -9.45,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 203.34,
-      "pct_to_ath": 26.1
     },
     {
       "sym": "DD",
@@ -1163,23 +1163,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "CNA",
-      "name": "CNA Financial Corporation",
-      "mcap": 12,
-      "price": 44.22,
-      "basis": 47.25,
-      "bxt_today": -5.65,
-      "bxt_yest": 3.92,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 4,
-      "bxt_streak": 3,
-      "ath": 55.62,
-      "pct_to_ath": 25.8
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -1195,6 +1178,23 @@
       "bxt_streak": null,
       "ath": 737.45,
       "pct_to_ath": 329.0
+    },
+    {
+      "sym": "CNA",
+      "name": "CNA Financial Corporation",
+      "mcap": 12,
+      "price": 44.22,
+      "basis": 47.25,
+      "bxt_today": -5.65,
+      "bxt_yest": 3.92,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 4,
+      "bxt_streak": 3,
+      "ath": 55.62,
+      "pct_to_ath": 25.8
     },
     {
       "sym": "BLD",
@@ -1231,23 +1231,6 @@
       "pct_to_ath": 182.6
     },
     {
-      "sym": "SWK",
-      "name": "Stanley Black & Decker, Inc.",
-      "mcap": 12,
-      "price": 74.87,
-      "basis": 78.17,
-      "bxt_today": -2.47,
-      "bxt_yest": -2.53,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 225.0,
-      "pct_to_ath": 200.5
-    },
-    {
       "sym": "AGNC",
       "name": "AGNC Investment Corp.",
       "mcap": 12,
@@ -1263,6 +1246,23 @@
       "bxt_streak": null,
       "ath": 36.77,
       "pct_to_ath": 245.3
+    },
+    {
+      "sym": "SWK",
+      "name": "Stanley Black & Decker, Inc.",
+      "mcap": 12,
+      "price": 74.87,
+      "basis": 78.17,
+      "bxt_today": -2.47,
+      "bxt_yest": -2.53,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 225.0,
+      "pct_to_ath": 200.5
     },
     {
       "sym": "UHAL",
@@ -1588,23 +1588,6 @@
       "pct_to_ath": 58.0
     },
     {
-      "sym": "ONDS",
-      "name": "Ondas Inc.",
-      "mcap": 5,
-      "price": 9.73,
-      "basis": 10.26,
-      "bxt_today": -11.75,
-      "bxt_yest": -10.08,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 16.0,
-      "pct_to_ath": 64.4
-    },
-    {
       "sym": "SIGI",
       "name": "Selective Insurance Group, Inc.",
       "mcap": 5,
@@ -1620,6 +1603,23 @@
       "bxt_streak": null,
       "ath": 109.58,
       "pct_to_ath": 35.5
+    },
+    {
+      "sym": "ONDS",
+      "name": "Ondas Inc.",
+      "mcap": 5,
+      "price": 9.73,
+      "basis": 10.26,
+      "bxt_today": -11.75,
+      "bxt_yest": -10.08,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 16.0,
+      "pct_to_ath": 64.4
     },
     {
       "sym": "EBC",
@@ -2389,23 +2389,6 @@
       "pct_to_ath": 73.4
     },
     {
-      "sym": "PBF",
-      "name": "PBF Energy Inc.",
-      "mcap": 5,
-      "price": 45.53,
-      "basis": 38.18,
-      "bxt_today": 1.87,
-      "bxt_yest": -0.31,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 62.88,
-      "pct_to_ath": 38.1
-    },
-    {
       "sym": "CRSP",
       "name": "CRISPR Therapeutics AG Common Shares",
       "mcap": 5,
@@ -2421,6 +2404,23 @@
       "bxt_streak": 2,
       "ath": 220.2,
       "pct_to_ath": 311.0
+    },
+    {
+      "sym": "PBF",
+      "name": "PBF Energy Inc.",
+      "mcap": 5,
+      "price": 45.53,
+      "basis": 38.18,
+      "bxt_today": 1.87,
+      "bxt_yest": -0.31,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 62.88,
+      "pct_to_ath": 38.1
     },
     {
       "sym": "EXLS",
@@ -3275,23 +3275,6 @@
       "pct_to_ath": 445.1
     },
     {
-      "sym": "NOV",
-      "name": "NOV Inc.",
-      "mcap": 7,
-      "price": 19.95,
-      "basis": 18.82,
-      "bxt_today": -0.26,
-      "bxt_yest": 0.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 86.55,
-      "pct_to_ath": 333.8
-    },
-    {
       "sym": "PB",
       "name": "Prosperity Bancshares, Inc.",
       "mcap": 7,
@@ -3307,6 +3290,23 @@
       "bxt_streak": 1,
       "ath": 86.76,
       "pct_to_ath": 26.5
+    },
+    {
+      "sym": "NOV",
+      "name": "NOV Inc.",
+      "mcap": 7,
+      "price": 19.95,
+      "basis": 18.82,
+      "bxt_today": -0.26,
+      "bxt_yest": 0.92,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 86.55,
+      "pct_to_ath": 333.8
     },
     {
       "sym": "INGR",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T01:35:19.108073+00:00",
+    "compared_to": "2026-05-05T01:40:43.639498+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
