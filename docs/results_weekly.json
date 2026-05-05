@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T10:44:49.951942+00:00",
+  "updated_at": "2026-05-05T10:50:32.053883+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.88,
-  "scanned_count": 1511,
+  "scan_seconds": 9.8,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -226,21 +226,21 @@
       "pct_to_ath": 331.2
     },
     {
-      "sym": "NTNX",
-      "name": "Nutanix, Inc.",
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
       "mcap": 12,
-      "price": 43.73,
-      "basis": 42.18,
-      "bxt_today": 13.85,
-      "bxt_yest": 10.48,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 30,
+      "fvb_streak": 20,
       "bxt_streak": null,
-      "ath": 83.36,
-      "pct_to_ath": 90.6
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "DT",
@@ -260,21 +260,21 @@
       "pct_to_ath": 106.8
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
+      "sym": "NTNX",
+      "name": "Nutanix, Inc.",
       "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
+      "price": 43.73,
+      "basis": 42.18,
+      "bxt_today": 13.85,
+      "bxt_yest": 10.48,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 20,
+      "fvb_streak": 30,
       "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
+      "ath": 83.36,
+      "pct_to_ath": 90.6
     },
     {
       "sym": "TEM",
@@ -328,23 +328,6 @@
       "pct_to_ath": 66.9
     },
     {
-      "sym": "NUVL",
-      "name": "Nuvalent, Inc.",
-      "mcap": 8,
-      "price": 102.62,
-      "basis": 102.06,
-      "bxt_today": -7.25,
-      "bxt_yest": -7.16,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 113.51,
-      "pct_to_ath": 10.6
-    },
-    {
       "sym": "AMG",
       "name": "Affiliated Managers Group, Inc.",
       "mcap": 8,
@@ -360,6 +343,23 @@
       "bxt_streak": null,
       "ath": 334.78,
       "pct_to_ath": 12.5
+    },
+    {
+      "sym": "NUVL",
+      "name": "Nuvalent, Inc.",
+      "mcap": 8,
+      "price": 102.62,
+      "basis": 102.06,
+      "bxt_today": -7.25,
+      "bxt_yest": -7.16,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 113.51,
+      "pct_to_ath": 10.6
     },
     {
       "sym": "QBTS",
@@ -806,23 +806,6 @@
       "pct_to_ath": 64.2
     },
     {
-      "sym": "VICI",
-      "name": "VICI Properties Inc.",
-      "mcap": 30,
-      "price": 28.09,
-      "basis": 28.47,
-      "bxt_today": 5.17,
-      "bxt_yest": 6.04,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 35.69,
-      "pct_to_ath": 27.1
-    },
-    {
       "sym": "EXPE",
       "name": "Expedia Group, Inc.",
       "mcap": 30,
@@ -838,6 +821,23 @@
       "bxt_streak": null,
       "ath": 303.8,
       "pct_to_ath": 23.2
+    },
+    {
+      "sym": "VICI",
+      "name": "VICI Properties Inc.",
+      "mcap": 30,
+      "price": 28.09,
+      "basis": 28.47,
+      "bxt_today": 5.17,
+      "bxt_yest": 6.04,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 35.69,
+      "pct_to_ath": 27.1
     },
     {
       "sym": "TPR",
@@ -1197,23 +1197,6 @@
       "pct_to_ath": 329.0
     },
     {
-      "sym": "BLD",
-      "name": "TopBuild Corp.",
-      "mcap": 12,
-      "price": 430.56,
-      "basis": 436.91,
-      "bxt_today": -0.89,
-      "bxt_yest": -1.92,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 559.47,
-      "pct_to_ath": 29.9
-    },
-    {
       "sym": "OKLO",
       "name": "Oklo Inc. common stock",
       "mcap": 12,
@@ -1229,6 +1212,23 @@
       "bxt_streak": 25,
       "ath": 193.84,
       "pct_to_ath": 182.6
+    },
+    {
+      "sym": "BLD",
+      "name": "TopBuild Corp.",
+      "mcap": 12,
+      "price": 430.56,
+      "basis": 436.91,
+      "bxt_today": -0.89,
+      "bxt_yest": -1.92,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 559.47,
+      "pct_to_ath": 29.9
     },
     {
       "sym": "SWK",
@@ -1588,23 +1588,6 @@
       "pct_to_ath": 58.0
     },
     {
-      "sym": "ONDS",
-      "name": "Ondas Inc.",
-      "mcap": 5,
-      "price": 9.73,
-      "basis": 10.26,
-      "bxt_today": -11.75,
-      "bxt_yest": -10.08,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 16.0,
-      "pct_to_ath": 64.4
-    },
-    {
       "sym": "SIGI",
       "name": "Selective Insurance Group, Inc.",
       "mcap": 5,
@@ -1620,6 +1603,23 @@
       "bxt_streak": null,
       "ath": 109.58,
       "pct_to_ath": 35.5
+    },
+    {
+      "sym": "ONDS",
+      "name": "Ondas Inc.",
+      "mcap": 5,
+      "price": 9.73,
+      "basis": 10.26,
+      "bxt_today": -11.75,
+      "bxt_yest": -10.08,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 16.0,
+      "pct_to_ath": 64.4
     },
     {
       "sym": "EBC",
@@ -2066,23 +2066,6 @@
       "pct_to_ath": 55.4
     },
     {
-      "sym": "RGA",
-      "name": "Reinsurance Group of America, Incorporated",
-      "mcap": 14,
-      "price": 211.16,
-      "basis": 207.18,
-      "bxt_today": 1.28,
-      "bxt_yest": -0.01,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 233.81,
-      "pct_to_ath": 10.7
-    },
-    {
       "sym": "OKTA",
       "name": "Okta, Inc.",
       "mcap": 14,
@@ -2098,6 +2081,23 @@
       "bxt_streak": 11,
       "ath": 294.0,
       "pct_to_ath": 280.6
+    },
+    {
+      "sym": "RGA",
+      "name": "Reinsurance Group of America, Incorporated",
+      "mcap": 14,
+      "price": 211.16,
+      "basis": 207.18,
+      "bxt_today": 1.28,
+      "bxt_yest": -0.01,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 233.81,
+      "pct_to_ath": 10.7
     },
     {
       "sym": "OKLO",
@@ -2183,23 +2183,6 @@
       "bxt_streak": 28,
       "ath": 112.54,
       "pct_to_ath": 143.2
-    },
-    {
-      "sym": "ZG",
-      "name": "Zillow Group, Inc.",
-      "mcap": 10,
-      "price": 44.27,
-      "basis": 51.13,
-      "bxt_today": 1.27,
-      "bxt_yest": -0.74,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 212.4,
-      "pct_to_ath": 379.8
     },
     {
       "sym": "STN",
@@ -2389,23 +2372,6 @@
       "pct_to_ath": 73.4
     },
     {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
-      "mcap": 5,
-      "price": 53.58,
-      "basis": 52.35,
-      "bxt_today": 0.32,
-      "bxt_yest": -2.0,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 2,
-      "ath": 220.2,
-      "pct_to_ath": 311.0
-    },
-    {
       "sym": "PBF",
       "name": "PBF Energy Inc.",
       "mcap": 5,
@@ -2421,6 +2387,23 @@
       "bxt_streak": 2,
       "ath": 62.88,
       "pct_to_ath": 38.1
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 53.58,
+      "basis": 52.35,
+      "bxt_today": 0.32,
+      "bxt_yest": -2.0,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 2,
+      "ath": 220.2,
+      "pct_to_ath": 311.0
     },
     {
       "sym": "EXLS",
@@ -3088,23 +3071,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "RNR",
-      "name": "RenaissanceRe Holdings Ltd.",
-      "mcap": 13,
-      "price": 302.28,
-      "basis": 293.01,
-      "bxt_today": -1.04,
-      "bxt_yest": 2.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 318.2,
-      "pct_to_ath": 5.3
-    },
-    {
       "sym": "FIVE",
       "name": "Five Below, Inc.",
       "mcap": 13,
@@ -3120,6 +3086,23 @@
       "bxt_streak": 23,
       "ath": 251.63,
       "pct_to_ath": 8.9
+    },
+    {
+      "sym": "RNR",
+      "name": "RenaissanceRe Holdings Ltd.",
+      "mcap": 13,
+      "price": 302.28,
+      "basis": 293.01,
+      "bxt_today": -1.04,
+      "bxt_yest": 2.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 318.2,
+      "pct_to_ath": 5.3
     },
     {
       "sym": "EVR",
@@ -3292,23 +3275,6 @@
       "pct_to_ath": 333.8
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 68.58,
-      "basis": 69.61,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 86.76,
-      "pct_to_ath": 26.5
-    },
-    {
       "sym": "INGR",
       "name": "Ingredion Incorporated",
       "mcap": 7,
@@ -3324,6 +3290,23 @@
       "bxt_streak": 17,
       "ath": 155.44,
       "pct_to_ath": 45.4
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 68.58,
+      "basis": 69.61,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.12,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 86.76,
+      "pct_to_ath": 26.5
     },
     {
       "sym": "PTGX",
@@ -3548,13 +3531,24 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T10:38:51.833719+00:00",
+    "compared_to": "2026-05-05T10:44:49.951942+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "ZG",
+        "name": "Zillow Group, Inc.",
+        "mcap": 10,
+        "price": 44.27,
+        "basis": 51.13,
+        "bxt_today": 1.27,
+        "ath": 212.4,
+        "pct_to_ath": 379.8
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
