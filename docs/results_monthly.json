@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T02:13:31.692164+00:00",
+  "updated_at": "2026-05-05T02:18:55.552784+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.11,
+  "scan_seconds": 6.28,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -891,23 +891,6 @@
       "pct_to_ath": 664.9
     },
     {
-      "sym": "BC",
-      "name": "Brunswick Corporation",
-      "mcap": 5,
-      "price": 74.46,
-      "basis": 76.93,
-      "bxt_today": -5.94,
-      "bxt_yest": -6.37,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.62,
-      "pct_to_ath": 58.0
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -923,6 +906,23 @@
       "bxt_streak": 18,
       "ath": 36.0,
       "pct_to_ath": 21.8
+    },
+    {
+      "sym": "BC",
+      "name": "Brunswick Corporation",
+      "mcap": 5,
+      "price": 74.46,
+      "basis": 76.93,
+      "bxt_today": -5.94,
+      "bxt_yest": -6.37,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.62,
+      "pct_to_ath": 58.0
     },
     {
       "sym": "ONDS",
@@ -1010,23 +1010,6 @@
       "pct_to_ath": 101.6
     },
     {
-      "sym": "PVH",
-      "name": "PVH Corp.",
-      "mcap": 4,
-      "price": 88.36,
-      "basis": 89.33,
-      "bxt_today": -2.53,
-      "bxt_yest": -3.8,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 169.22,
-      "pct_to_ath": 91.5
-    },
-    {
       "sym": "ALHC",
       "name": "Alignment Healthcare, Inc.",
       "mcap": 4,
@@ -1042,6 +1025,23 @@
       "bxt_streak": null,
       "ath": 28.59,
       "pct_to_ath": 48.5
+    },
+    {
+      "sym": "PVH",
+      "name": "PVH Corp.",
+      "mcap": 4,
+      "price": 88.36,
+      "basis": 89.33,
+      "bxt_today": -2.53,
+      "bxt_yest": -3.8,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 169.22,
+      "pct_to_ath": 91.5
     },
     {
       "sym": "DOO",
@@ -1078,23 +1078,6 @@
       "pct_to_ath": 101.4
     },
     {
-      "sym": "CBT",
-      "name": "Cabot Corporation",
-      "mcap": 4,
-      "price": 75.85,
-      "basis": 76.58,
-      "bxt_today": -7.49,
-      "bxt_yest": -6.91,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.46,
-      "pct_to_ath": 54.9
-    },
-    {
       "sym": "CVCO",
       "name": "Cavco Industries, Inc. When Issued",
       "mcap": 4,
@@ -1127,6 +1110,23 @@
       "bxt_streak": null,
       "ath": 43.17,
       "pct_to_ath": 25.6
+    },
+    {
+      "sym": "CBT",
+      "name": "Cabot Corporation",
+      "mcap": 4,
+      "price": 75.85,
+      "basis": 76.58,
+      "bxt_today": -7.49,
+      "bxt_yest": -6.91,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.46,
+      "pct_to_ath": 54.9
     }
   ],
   "bxt_green": [
@@ -1386,23 +1386,6 @@
       "pct_to_ath": 280.6
     },
     {
-      "sym": "OKLO",
-      "name": "Oklo Inc. common stock",
-      "mcap": 12,
-      "price": 68.6,
-      "basis": 69.09,
-      "bxt_today": 1.13,
-      "bxt_yest": -0.71,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 25,
-      "ath": 193.84,
-      "pct_to_ath": 182.6
-    },
-    {
       "sym": "BMNR",
       "name": "BitMine Immersion Technologies, Inc.",
       "mcap": 12,
@@ -1418,6 +1401,23 @@
       "bxt_streak": 3,
       "ath": 161.0,
       "pct_to_ath": 606.5
+    },
+    {
+      "sym": "OKLO",
+      "name": "Oklo Inc. common stock",
+      "mcap": 12,
+      "price": 68.6,
+      "basis": 69.09,
+      "bxt_today": 1.13,
+      "bxt_yest": -0.71,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 25,
+      "ath": 193.84,
+      "pct_to_ath": 182.6
     },
     {
       "sym": "BSY",
@@ -2052,7 +2052,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T02:08:05.868694+00:00",
+    "compared_to": "2026-05-05T02:13:31.692164+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
