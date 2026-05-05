@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T05:29:15.366315+00:00",
+  "updated_at": "2026-05-05T05:34:43.565263+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.98,
-  "scanned_count": 1511,
+  "scan_seconds": 6.36,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -704,23 +704,6 @@
       "pct_to_ath": 48.5
     },
     {
-      "sym": "CBT",
-      "name": "Cabot Corporation",
-      "mcap": 4,
-      "price": 75.85,
-      "basis": 76.51,
-      "bxt_today": -7.76,
-      "bxt_yest": -7.39,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.46,
-      "pct_to_ath": 54.9
-    },
-    {
       "sym": "EE",
       "name": "Excelerate Energy, Inc.",
       "mcap": 4,
@@ -736,6 +719,23 @@
       "bxt_streak": null,
       "ath": 43.17,
       "pct_to_ath": 25.6
+    },
+    {
+      "sym": "CBT",
+      "name": "Cabot Corporation",
+      "mcap": 4,
+      "price": 75.85,
+      "basis": 76.51,
+      "bxt_today": -7.76,
+      "bxt_yest": -7.39,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.46,
+      "pct_to_ath": 54.9
     }
   ],
   "bxt_green": [
@@ -1316,8 +1316,8 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 2,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 273.32,
+      "pct_to_ath": 14.6
     },
     {
       "sym": "YUM",
@@ -1337,21 +1337,21 @@
       "pct_to_ath": 9.7
     },
     {
-      "sym": "OMAB",
-      "name": "Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADS",
-      "mcap": 40,
-      "price": 103.95,
-      "basis": 97.71,
-      "bxt_today": -3.12,
-      "bxt_yest": 0.77,
+      "sym": "Q",
+      "name": "Qnity Electronics, Inc.",
+      "mcap": 30,
+      "price": 141.06,
+      "basis": 136.03,
+      "bxt_today": -0.97,
+      "bxt_yest": 2.47,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 134.99,
-      "pct_to_ath": 29.9
+      "bxt_streak": 20,
+      "ath": 146.67,
+      "pct_to_ath": 4.0
     },
     {
       "sym": "NTRA",
@@ -1369,23 +1369,6 @@
       "bxt_streak": 31,
       "ath": 256.36,
       "pct_to_ath": 21.2
-    },
-    {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 30,
-      "price": 141.06,
-      "basis": 136.03,
-      "bxt_today": -0.97,
-      "bxt_yest": 2.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 146.67,
-      "pct_to_ath": 4.0
     },
     {
       "sym": "TW",
@@ -1507,23 +1490,6 @@
       "pct_to_ath": 30.9
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
-      "mcap": 11,
-      "price": 229.12,
-      "basis": 217.33,
-      "bxt_today": -1.37,
-      "bxt_yest": 0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -1541,21 +1507,21 @@
       "pct_to_ath": 27.0
     },
     {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
       "mcap": 11,
-      "price": 99.05,
-      "basis": 94.37,
-      "bxt_today": -0.84,
-      "bxt_yest": 1.46,
+      "price": 229.12,
+      "basis": 217.33,
+      "bxt_today": -1.37,
+      "bxt_yest": 0.51,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 31.7
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
     },
     {
       "sym": "EXEL",
@@ -1573,6 +1539,23 @@
       "bxt_streak": 37,
       "ath": 50.5,
       "pct_to_ath": 14.3
+    },
+    {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 99.05,
+      "basis": 94.37,
+      "bxt_today": -0.84,
+      "bxt_yest": 1.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 31.7
     },
     {
       "sym": "ENSG",
@@ -1626,23 +1609,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.28,
-      "basis": 80.67,
-      "bxt_today": -1.45,
-      "bxt_yest": 1.63,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 16.8
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -1660,6 +1626,23 @@
       "pct_to_ath": 21.8
     },
     {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.28,
+      "basis": 80.67,
+      "bxt_today": -1.45,
+      "bxt_yest": 1.63,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 16.8
+    },
+    {
       "sym": "TBBB",
       "name": "BBB Foods Inc. Common Shares",
       "mcap": 4,
@@ -1675,23 +1658,6 @@
       "bxt_streak": 4,
       "ath": 40.09,
       "pct_to_ath": 11.0
-    },
-    {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
-      "bxt_today": -0.5,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
     },
     {
       "sym": "DOO",
@@ -1726,10 +1692,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 30.3
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.3,
+      "basis": 33.8,
+      "bxt_today": -0.5,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T05:23:36.236869+00:00",
+    "compared_to": "2026-05-05T05:29:15.366315+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -1737,6 +1720,17 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "OMAB",
+        "name": "Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADS",
+        "mcap": 40,
+        "price": 103.95,
+        "basis": 97.71,
+        "bxt_today": -3.12,
+        "ath": 134.99,
+        "pct_to_ath": 29.9
+      }
+    ]
   }
 }
