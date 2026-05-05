@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T10:04:40.042817+00:00",
+  "updated_at": "2026-05-05T10:10:07.585918+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 26.75,
-  "scanned_count": 1507,
+  "scan_seconds": 7.44,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -56,23 +56,6 @@
       "pct_to_ath": 74.3
     },
     {
-      "sym": "ACGL",
-      "name": "Arch Capital Group Ltd.",
-      "mcap": 33,
-      "price": 93.65,
-      "basis": 93.52,
-      "bxt_today": -12.3,
-      "bxt_yest": -11.12,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 116.47,
-      "pct_to_ath": 24.4
-    },
-    {
       "sym": "RDDT",
       "name": "Reddit, Inc.",
       "mcap": 33,
@@ -88,6 +71,23 @@
       "bxt_streak": 15,
       "ath": 282.95,
       "pct_to_ath": 67.4
+    },
+    {
+      "sym": "ACGL",
+      "name": "Arch Capital Group Ltd.",
+      "mcap": 33,
+      "price": 93.65,
+      "basis": 93.52,
+      "bxt_today": -12.3,
+      "bxt_yest": -11.12,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 116.47,
+      "pct_to_ath": 24.4
     },
     {
       "sym": "MRNA",
@@ -175,6 +175,23 @@
       "pct_to_ath": 331.2
     },
     {
+      "sym": "DT",
+      "name": "Dynatrace, Inc.",
+      "mcap": 12,
+      "price": 38.75,
+      "basis": 37.94,
+      "bxt_today": 9.46,
+      "bxt_yest": 4.28,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 40,
+      "bxt_streak": null,
+      "ath": 80.13,
+      "pct_to_ath": 106.8
+    },
+    {
       "sym": "RBRK",
       "name": "Rubrik, Inc.",
       "mcap": 12,
@@ -192,21 +209,21 @@
       "pct_to_ath": 77.8
     },
     {
-      "sym": "DT",
-      "name": "Dynatrace, Inc.",
-      "mcap": 12,
-      "price": 38.75,
-      "basis": 37.94,
-      "bxt_today": 9.46,
-      "bxt_yest": 4.28,
+      "sym": "FIG",
+      "name": "Figma, Inc.",
+      "mcap": 11,
+      "price": 19.96,
+      "basis": 18.76,
+      "bxt_today": 16.3,
+      "bxt_yest": 9.41,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 40,
+      "fvb_streak": 36,
       "bxt_streak": null,
-      "ath": 80.13,
-      "pct_to_ath": 106.8
+      "ath": 142.92,
+      "pct_to_ath": 616.0
     },
     {
       "sym": "PCOR",
@@ -1422,6 +1439,23 @@
       "pct_to_ath": 12.5
     },
     {
+      "sym": "J",
+      "name": "Jacobs Solutions Inc.",
+      "mcap": 15,
+      "price": 130.74,
+      "basis": 119.21,
+      "bxt_today": -2.97,
+      "bxt_yest": 0.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 168.44,
+      "pct_to_ath": 28.8
+    },
+    {
       "sym": "JLL",
       "name": "Jones Lang LaSalle Incorporated",
       "mcap": 15,
@@ -1456,21 +1490,21 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
-      "price": 229.12,
-      "basis": 217.33,
-      "bxt_today": -1.37,
-      "bxt_yest": 0.51,
+      "price": 140.75,
+      "basis": 132.8,
+      "bxt_today": -1.21,
+      "bxt_yest": 0.78,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
+      "ath": 184.27,
+      "pct_to_ath": 30.9
     },
     {
       "sym": "GIL",
@@ -1490,38 +1524,21 @@
       "pct_to_ath": 27.0
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
       "mcap": 11,
-      "price": 140.75,
-      "basis": 132.8,
-      "bxt_today": -1.21,
-      "bxt_yest": 0.78,
+      "price": 229.12,
+      "basis": 217.33,
+      "bxt_today": -1.37,
+      "bxt_yest": 0.51,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 30.9
-    },
-    {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
-      "mcap": 11,
-      "price": 44.17,
-      "basis": 40.38,
-      "bxt_today": -1.23,
-      "bxt_yest": 0.89,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 14.3
+      "ath": 246.31,
+      "pct_to_ath": 7.5
     },
     {
       "sym": "CCK",
@@ -1539,6 +1556,23 @@
       "bxt_streak": 2,
       "ath": 130.42,
       "pct_to_ath": 31.7
+    },
+    {
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
+      "mcap": 11,
+      "price": 44.17,
+      "basis": 40.38,
+      "bxt_today": -1.23,
+      "bxt_yest": 0.89,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 14.3
     },
     {
       "sym": "ENSG",
@@ -1643,23 +1677,6 @@
       "pct_to_ath": 11.0
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
-      "bxt_today": -0.5,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
-    },
-    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -1675,6 +1692,23 @@
       "bxt_streak": 10,
       "ath": 102.96,
       "pct_to_ath": 92.4
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.3,
+      "basis": 33.8,
+      "bxt_today": -0.5,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     },
     {
       "sym": "TNL",
@@ -1695,9 +1729,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T09:58:39.983505+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-05T10:04:40.042817+00:00",
+    "fvb_green_added": [
       {
         "sym": "FIG",
         "name": "Figma, Inc.",
@@ -1709,12 +1742,12 @@
         "pct_to_ath": 616.0
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "J",
         "name": "Jacobs Solutions Inc.",
@@ -1725,6 +1758,7 @@
         "ath": 168.44,
         "pct_to_ath": 28.8
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
