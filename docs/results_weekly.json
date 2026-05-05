@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T10:50:32.053883+00:00",
+  "updated_at": "2026-05-05T10:56:03.453669+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.8,
-  "scanned_count": 1510,
+  "scan_seconds": 12.23,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -243,23 +243,6 @@
       "pct_to_ath": 77.8
     },
     {
-      "sym": "DT",
-      "name": "Dynatrace, Inc.",
-      "mcap": 12,
-      "price": 38.75,
-      "basis": 37.94,
-      "bxt_today": 9.46,
-      "bxt_yest": 4.28,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 40,
-      "bxt_streak": null,
-      "ath": 80.13,
-      "pct_to_ath": 106.8
-    },
-    {
       "sym": "NTNX",
       "name": "Nutanix, Inc.",
       "mcap": 12,
@@ -275,6 +258,23 @@
       "bxt_streak": null,
       "ath": 83.36,
       "pct_to_ath": 90.6
+    },
+    {
+      "sym": "DT",
+      "name": "Dynatrace, Inc.",
+      "mcap": 12,
+      "price": 38.75,
+      "basis": 37.94,
+      "bxt_today": 9.46,
+      "bxt_yest": 4.28,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 40,
+      "bxt_streak": null,
+      "ath": 80.13,
+      "pct_to_ath": 106.8
     },
     {
       "sym": "TEM",
@@ -772,23 +772,6 @@
       "pct_to_ath": 54.2
     },
     {
-      "sym": "MTB",
-      "name": "M&T Bank Corporation",
-      "mcap": 31,
-      "price": 214.08,
-      "basis": 214.35,
-      "bxt_today": -2.67,
-      "bxt_yest": -1.63,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 239.0,
-      "pct_to_ath": 11.6
-    },
-    {
       "sym": "EXR",
       "name": "Extra Space Storage Inc",
       "mcap": 31,
@@ -806,21 +789,21 @@
       "pct_to_ath": 64.2
     },
     {
-      "sym": "EXPE",
-      "name": "Expedia Group, Inc.",
-      "mcap": 30,
-      "price": 246.5,
-      "basis": 248.23,
-      "bxt_today": -1.75,
-      "bxt_yest": -1.2,
+      "sym": "MTB",
+      "name": "M&T Bank Corporation",
+      "mcap": 31,
+      "price": 214.08,
+      "basis": 214.35,
+      "bxt_today": -2.67,
+      "bxt_yest": -1.63,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 5,
       "bxt_streak": null,
-      "ath": 303.8,
-      "pct_to_ath": 23.2
+      "ath": 239.0,
+      "pct_to_ath": 11.6
     },
     {
       "sym": "VICI",
@@ -840,6 +823,23 @@
       "pct_to_ath": 27.1
     },
     {
+      "sym": "EXPE",
+      "name": "Expedia Group, Inc.",
+      "mcap": 30,
+      "price": 246.5,
+      "basis": 248.23,
+      "bxt_today": -1.75,
+      "bxt_yest": -1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 303.8,
+      "pct_to_ath": 23.2
+    },
+    {
       "sym": "TPR",
       "name": "Tapestry, Inc.",
       "mcap": 28,
@@ -855,23 +855,6 @@
       "bxt_streak": null,
       "ath": 161.97,
       "pct_to_ath": 15.9
-    },
-    {
-      "sym": "STZ",
-      "name": "Constellation Brands, Inc.",
-      "mcap": 26,
-      "price": 148.14,
-      "basis": 153.09,
-      "bxt_today": 3.9,
-      "bxt_yest": 9.36,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 18,
-      "bxt_streak": null,
-      "ath": 274.87,
-      "pct_to_ath": 85.5
     },
     {
       "sym": "ES",
@@ -891,6 +874,23 @@
       "pct_to_ath": 43.2
     },
     {
+      "sym": "STZ",
+      "name": "Constellation Brands, Inc.",
+      "mcap": 26,
+      "price": 148.14,
+      "basis": 153.09,
+      "bxt_today": 3.9,
+      "bxt_yest": 9.36,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 18,
+      "bxt_streak": null,
+      "ath": 274.87,
+      "pct_to_ath": 85.5
+    },
+    {
       "sym": "RF",
       "name": "Regions Financial Corporation",
       "mcap": 24,
@@ -908,23 +908,6 @@
       "pct_to_ath": 41.5
     },
     {
-      "sym": "L",
-      "name": "Loews Corporation",
-      "mcap": 22,
-      "price": 105.15,
-      "basis": 107.43,
-      "bxt_today": -9.3,
-      "bxt_yest": -0.34,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 114.9,
-      "pct_to_ath": 9.3
-    },
-    {
       "sym": "CHD",
       "name": "Church & Dwight Company, Inc.",
       "mcap": 22,
@@ -940,6 +923,23 @@
       "bxt_streak": 19,
       "ath": 116.46,
       "pct_to_ath": 25.4
+    },
+    {
+      "sym": "L",
+      "name": "Loews Corporation",
+      "mcap": 22,
+      "price": 105.15,
+      "basis": 107.43,
+      "bxt_today": -9.3,
+      "bxt_yest": -0.34,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 114.9,
+      "pct_to_ath": 9.3
     },
     {
       "sym": "RL",
@@ -1078,23 +1078,6 @@
       "pct_to_ath": 11.7
     },
     {
-      "sym": "LECO",
-      "name": "Lincoln Electric Holdings, Inc. Common Shares",
-      "mcap": 14,
-      "price": 262.06,
-      "basis": 263.2,
-      "bxt_today": -7.21,
-      "bxt_yest": -7.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 310.0,
-      "pct_to_ath": 18.3
-    },
-    {
       "sym": "RGC",
       "name": "Regencell Bioscience Holdings Limited Ordinary Shares",
       "mcap": 14,
@@ -1110,6 +1093,23 @@
       "bxt_streak": null,
       "ath": 83.6,
       "pct_to_ath": 205.6
+    },
+    {
+      "sym": "LECO",
+      "name": "Lincoln Electric Holdings, Inc. Common Shares",
+      "mcap": 14,
+      "price": 262.06,
+      "basis": 263.2,
+      "bxt_today": -7.21,
+      "bxt_yest": -7.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 310.0,
+      "pct_to_ath": 18.3
     },
     {
       "sym": "CSL",
@@ -1197,23 +1197,6 @@
       "pct_to_ath": 329.0
     },
     {
-      "sym": "OKLO",
-      "name": "Oklo Inc. common stock",
-      "mcap": 12,
-      "price": 68.6,
-      "basis": 69.09,
-      "bxt_today": 1.13,
-      "bxt_yest": -0.71,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 25,
-      "ath": 193.84,
-      "pct_to_ath": 182.6
-    },
-    {
       "sym": "BLD",
       "name": "TopBuild Corp.",
       "mcap": 12,
@@ -1229,6 +1212,23 @@
       "bxt_streak": null,
       "ath": 559.47,
       "pct_to_ath": 29.9
+    },
+    {
+      "sym": "OKLO",
+      "name": "Oklo Inc. common stock",
+      "mcap": 12,
+      "price": 68.6,
+      "basis": 69.09,
+      "bxt_today": 1.13,
+      "bxt_yest": -0.71,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 25,
+      "ath": 193.84,
+      "pct_to_ath": 182.6
     },
     {
       "sym": "SWK",
@@ -1503,23 +1503,6 @@
       "pct_to_ath": 12.2
     },
     {
-      "sym": "FCN",
-      "name": "FTI Consulting, Inc.",
-      "mcap": 5,
-      "price": 168.05,
-      "basis": 173.3,
-      "bxt_today": 0.52,
-      "bxt_yest": 7.83,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 243.6,
-      "pct_to_ath": 45.0
-    },
-    {
       "sym": "HWC",
       "name": "Hancock Whitney Corporation",
       "mcap": 5,
@@ -1535,6 +1518,23 @@
       "bxt_streak": null,
       "ath": 75.43,
       "pct_to_ath": 13.6
+    },
+    {
+      "sym": "FCN",
+      "name": "FTI Consulting, Inc.",
+      "mcap": 5,
+      "price": 168.05,
+      "basis": 173.3,
+      "bxt_today": 0.52,
+      "bxt_yest": 7.83,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 243.6,
+      "pct_to_ath": 45.0
     },
     {
       "sym": "AUB",
@@ -1588,23 +1588,6 @@
       "pct_to_ath": 58.0
     },
     {
-      "sym": "SIGI",
-      "name": "Selective Insurance Group, Inc.",
-      "mcap": 5,
-      "price": 80.88,
-      "basis": 81.7,
-      "bxt_today": 3.81,
-      "bxt_yest": 4.18,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 109.58,
-      "pct_to_ath": 35.5
-    },
-    {
       "sym": "ONDS",
       "name": "Ondas Inc.",
       "mcap": 5,
@@ -1620,6 +1603,23 @@
       "bxt_streak": null,
       "ath": 16.0,
       "pct_to_ath": 64.4
+    },
+    {
+      "sym": "SIGI",
+      "name": "Selective Insurance Group, Inc.",
+      "mcap": 5,
+      "price": 80.88,
+      "basis": 81.7,
+      "bxt_today": 3.81,
+      "bxt_yest": 4.18,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 109.58,
+      "pct_to_ath": 35.5
     },
     {
       "sym": "EBC",
@@ -2183,6 +2183,23 @@
       "bxt_streak": 28,
       "ath": 112.54,
       "pct_to_ath": 143.2
+    },
+    {
+      "sym": "ZG",
+      "name": "Zillow Group, Inc.",
+      "mcap": 10,
+      "price": 44.27,
+      "basis": 51.13,
+      "bxt_today": 1.27,
+      "bxt_yest": -0.74,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 212.4,
+      "pct_to_ath": 379.8
     },
     {
       "sym": "STN",
@@ -3139,23 +3156,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "BWA",
-      "name": "BorgWarner Inc.",
-      "mcap": 12,
-      "price": 56.26,
-      "basis": 52.74,
-      "bxt_today": -1.16,
-      "bxt_yest": 0.06,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 70.08,
-      "pct_to_ath": 24.6
-    },
-    {
       "sym": "WBS",
       "name": "Webster Financial Corporation",
       "mcap": 12,
@@ -3171,6 +3171,23 @@
       "bxt_streak": 4,
       "ath": 74.0,
       "pct_to_ath": 3.9
+    },
+    {
+      "sym": "BWA",
+      "name": "BorgWarner Inc.",
+      "mcap": 12,
+      "price": 56.26,
+      "basis": 52.74,
+      "bxt_today": -1.16,
+      "bxt_yest": 0.06,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 70.08,
+      "pct_to_ath": 24.6
     },
     {
       "sym": "SCI",
@@ -3531,13 +3548,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T10:44:49.951942+00:00",
+    "compared_to": "2026-05-05T10:50:32.053883+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "bxt_green_added": [
       {
         "sym": "ZG",
         "name": "Zillow Group, Inc.",
@@ -3549,6 +3565,7 @@
         "pct_to_ath": 379.8
       }
     ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
