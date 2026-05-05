@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T04:07:09.475008+00:00",
+  "updated_at": "2026-05-05T04:12:38.479312+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.28,
-  "scanned_count": 1511,
+  "scan_seconds": 6.03,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -381,23 +381,6 @@
   ],
   "fvb_red": [
     {
-      "sym": "ORLY",
-      "name": "O'Reilly Automotive, Inc.",
-      "mcap": 79,
-      "price": 93.98,
-      "basis": 94.0,
-      "bxt_today": -15.28,
-      "bxt_yest": -13.46,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 74,
-      "bxt_streak": null,
-      "ath": 108.72,
-      "pct_to_ath": 15.7
-    },
-    {
       "sym": "SYM",
       "name": "Symbotic Inc.",
       "mcap": 34,
@@ -653,23 +636,6 @@
       "pct_to_ath": 15.6
     },
     {
-      "sym": "NVST",
-      "name": "Envista Holdings Corporation",
-      "mcap": 4,
-      "price": 25.81,
-      "basis": 25.81,
-      "bxt_today": -5.86,
-      "bxt_yest": -2.98,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 21,
-      "bxt_streak": null,
-      "ath": 52.03,
-      "pct_to_ath": 101.6
-    },
-    {
       "sym": "MDA",
       "name": "MDA Space Ltd. Common Shares",
       "mcap": 4,
@@ -685,6 +651,23 @@
       "bxt_streak": null,
       "ath": 37.45,
       "pct_to_ath": 21.3
+    },
+    {
+      "sym": "NVST",
+      "name": "Envista Holdings Corporation",
+      "mcap": 4,
+      "price": 25.81,
+      "basis": 25.81,
+      "bxt_today": -5.86,
+      "bxt_yest": -2.98,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 21,
+      "bxt_streak": null,
+      "ath": 52.03,
+      "pct_to_ath": 101.6
     },
     {
       "sym": "ALHC",
@@ -1490,21 +1473,21 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
-      "price": 140.75,
-      "basis": 132.8,
-      "bxt_today": -1.21,
-      "bxt_yest": 0.78,
+      "price": 58.01,
+      "basis": 54.73,
+      "bxt_today": -3.11,
+      "bxt_yest": 0.61,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 30.9
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "AIZ",
@@ -1524,21 +1507,21 @@
       "pct_to_ath": 7.5
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
-      "price": 58.01,
-      "basis": 54.73,
-      "bxt_today": -3.11,
-      "bxt_yest": 0.61,
+      "price": 140.75,
+      "basis": 132.8,
+      "bxt_today": -1.21,
+      "bxt_yest": 0.78,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 30.9
     },
     {
       "sym": "EXEL",
@@ -1729,25 +1712,25 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T04:01:42.693481+00:00",
+    "compared_to": "2026-05-05T04:07:09.475008+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [],
-    "bxt_red_added": [
+    "fvb_red_removed": [
       {
-        "sym": "LMT",
-        "name": "Lockheed Martin Corporation",
-        "mcap": 119,
-        "price": 518.15,
-        "basis": 471.04,
-        "bxt_today": -0.46,
-        "ath": 692.0,
-        "pct_to_ath": 33.6
+        "sym": "ORLY",
+        "name": "O'Reilly Automotive, Inc.",
+        "mcap": 79,
+        "price": 93.98,
+        "basis": 94.0,
+        "bxt_today": -15.28,
+        "ath": 108.72,
+        "pct_to_ath": 15.7
       }
     ],
+    "bxt_green_added": [],
+    "bxt_green_removed": [],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
