@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T01:51:44.484291+00:00",
+  "updated_at": "2026-05-05T01:57:08.600021+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.07,
-  "scanned_count": 1511,
+  "scan_seconds": 6.3,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -602,23 +602,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 171.88,
-      "basis": 171.93,
-      "bxt_today": 12.43,
-      "bxt_yest": 12.16,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 737.45,
-      "pct_to_ath": 329.0
-    },
-    {
       "sym": "CNA",
       "name": "CNA Financial Corporation",
       "mcap": 12,
@@ -634,6 +617,23 @@
       "bxt_streak": 9,
       "ath": 55.62,
       "pct_to_ath": 25.8
+    },
+    {
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
+      "mcap": 12,
+      "price": 171.88,
+      "basis": 171.93,
+      "bxt_today": 12.43,
+      "bxt_yest": 12.16,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 737.45,
+      "pct_to_ath": 329.0
     },
     {
       "sym": "OKLO",
@@ -976,23 +976,6 @@
       "pct_to_ath": 69.7
     },
     {
-      "sym": "MDA",
-      "name": "MDA Space Ltd. Common Shares",
-      "mcap": 4,
-      "price": 30.88,
-      "basis": 30.9,
-      "bxt_today": 7.13,
-      "bxt_yest": 10.28,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 37.45,
-      "pct_to_ath": 21.3
-    },
-    {
       "sym": "NVST",
       "name": "Envista Holdings Corporation",
       "mcap": 4,
@@ -1010,21 +993,21 @@
       "pct_to_ath": 101.6
     },
     {
-      "sym": "ALHC",
-      "name": "Alignment Healthcare, Inc.",
+      "sym": "MDA",
+      "name": "MDA Space Ltd. Common Shares",
       "mcap": 4,
-      "price": 19.26,
-      "basis": 20.05,
-      "bxt_today": -3.02,
-      "bxt_yest": -0.23,
+      "price": 30.88,
+      "basis": 30.9,
+      "bxt_today": 7.13,
+      "bxt_yest": 10.28,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 4,
+      "fvb_streak": 20,
       "bxt_streak": null,
-      "ath": 28.59,
-      "pct_to_ath": 48.5
+      "ath": 37.45,
+      "pct_to_ath": 21.3
     },
     {
       "sym": "PVH",
@@ -1042,6 +1025,23 @@
       "bxt_streak": null,
       "ath": 169.22,
       "pct_to_ath": 91.5
+    },
+    {
+      "sym": "ALHC",
+      "name": "Alignment Healthcare, Inc.",
+      "mcap": 4,
+      "price": 19.26,
+      "basis": 20.05,
+      "bxt_today": -3.02,
+      "bxt_yest": -0.23,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 28.59,
+      "pct_to_ath": 48.5
     },
     {
       "sym": "DOO",
@@ -1078,23 +1078,6 @@
       "pct_to_ath": 48.7
     },
     {
-      "sym": "LBTYK",
-      "name": "Liberty Global Ltd. Class C Common Shares",
-      "mcap": 4,
-      "price": 11.51,
-      "basis": 11.62,
-      "bxt_today": 2.67,
-      "bxt_yest": 3.75,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 23.19,
-      "pct_to_ath": 101.4
-    },
-    {
       "sym": "CBT",
       "name": "Cabot Corporation",
       "mcap": 4,
@@ -1110,6 +1093,23 @@
       "bxt_streak": null,
       "ath": 117.46,
       "pct_to_ath": 54.9
+    },
+    {
+      "sym": "LBTYK",
+      "name": "Liberty Global Ltd. Class C Common Shares",
+      "mcap": 4,
+      "price": 11.51,
+      "basis": 11.62,
+      "bxt_today": 2.67,
+      "bxt_yest": 3.75,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 23.19,
+      "pct_to_ath": 101.4
     },
     {
       "sym": "EE",
@@ -1728,23 +1728,6 @@
       "pct_to_ath": 186.8
     },
     {
-      "sym": "NTRA",
-      "name": "Natera, Inc.",
-      "mcap": 30,
-      "price": 211.56,
-      "basis": 183.57,
-      "bxt_today": -0.77,
-      "bxt_yest": 0.74,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 256.36,
-      "pct_to_ath": 21.2
-    },
-    {
       "sym": "Q",
       "name": "Qnity Electronics, Inc.",
       "mcap": 30,
@@ -1760,6 +1743,23 @@
       "bxt_streak": 20,
       "ath": 146.67,
       "pct_to_ath": 4.0
+    },
+    {
+      "sym": "NTRA",
+      "name": "Natera, Inc.",
+      "mcap": 30,
+      "price": 211.56,
+      "basis": 183.57,
+      "bxt_today": -0.77,
+      "bxt_yest": 0.74,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 256.36,
+      "pct_to_ath": 21.2
     },
     {
       "sym": "TW",
@@ -1830,23 +1830,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 58.01,
-      "basis": 54.91,
-      "bxt_today": -1.62,
-      "bxt_yest": 3.93,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1862,6 +1845,23 @@
       "bxt_streak": 7,
       "ath": 246.31,
       "pct_to_ath": 7.5
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 58.01,
+      "basis": 54.91,
+      "bxt_today": -1.62,
+      "bxt_yest": 3.93,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "WMS",
@@ -2052,7 +2052,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T01:46:20.832039+00:00",
+    "compared_to": "2026-05-05T01:51:44.484291+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
