@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T05:23:36.236869+00:00",
+  "updated_at": "2026-05-05T05:29:15.366315+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.88,
-  "scanned_count": 1509,
+  "scan_seconds": 10.98,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -158,23 +158,6 @@
       "pct_to_ath": 329.0
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
-      "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
-    },
-    {
       "sym": "PINS",
       "name": "Pinterest, Inc.",
       "mcap": 12,
@@ -190,6 +173,23 @@
       "bxt_streak": null,
       "ath": 89.9,
       "pct_to_ath": 331.2
+    },
+    {
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
+      "mcap": 12,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "DT",
@@ -1316,8 +1316,8 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 2,
-      "ath": 273.32,
-      "pct_to_ath": 14.6
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "YUM",
@@ -1490,23 +1490,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
-      "mcap": 11,
-      "price": 229.12,
-      "basis": 217.33,
-      "bxt_today": -1.37,
-      "bxt_yest": 0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1522,6 +1505,23 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 30.9
+    },
+    {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 11,
+      "price": 229.12,
+      "basis": 217.33,
+      "bxt_today": -1.37,
+      "bxt_yest": 0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
     },
     {
       "sym": "GIL",
@@ -1541,23 +1541,6 @@
       "pct_to_ath": 27.0
     },
     {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
-      "mcap": 11,
-      "price": 44.17,
-      "basis": 40.38,
-      "bxt_today": -1.23,
-      "bxt_yest": 0.89,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 14.3
-    },
-    {
       "sym": "CCK",
       "name": "Crown Holdings, Inc.",
       "mcap": 11,
@@ -1573,6 +1556,23 @@
       "bxt_streak": 2,
       "ath": 130.42,
       "pct_to_ath": 31.7
+    },
+    {
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
+      "mcap": 11,
+      "price": 44.17,
+      "basis": 40.38,
+      "bxt_today": -1.23,
+      "bxt_yest": 0.89,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 14.3
     },
     {
       "sym": "ENSG",
@@ -1626,23 +1626,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "MRP",
-      "name": "Millrose Properties, Inc.",
-      "mcap": 5,
-      "price": 29.55,
-      "basis": 30.34,
-      "bxt_today": -6.51,
-      "bxt_yest": 1.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 18,
-      "bxt_streak": 18,
-      "ath": 36.0,
-      "pct_to_ath": 21.8
-    },
-    {
       "sym": "AX",
       "name": "Axos Financial, Inc.",
       "mcap": 5,
@@ -1658,6 +1641,23 @@
       "bxt_streak": 12,
       "ath": 101.92,
       "pct_to_ath": 16.8
+    },
+    {
+      "sym": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "mcap": 5,
+      "price": 29.55,
+      "basis": 30.34,
+      "bxt_today": -6.51,
+      "bxt_yest": 1.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 18,
+      "bxt_streak": 18,
+      "ath": 36.0,
+      "pct_to_ath": 21.8
     },
     {
       "sym": "TBBB",
@@ -1694,23 +1694,6 @@
       "pct_to_ath": 16.3
     },
     {
-      "sym": "TNL",
-      "name": "Travel   Leisure Co. Common  Stock",
-      "mcap": 4,
-      "price": 62.16,
-      "basis": 59.61,
-      "bxt_today": -1.61,
-      "bxt_yest": 3.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 29,
-      "ath": 81.0,
-      "pct_to_ath": 30.3
-    },
-    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -1726,10 +1709,27 @@
       "bxt_streak": 10,
       "ath": 102.96,
       "pct_to_ath": 92.4
+    },
+    {
+      "sym": "TNL",
+      "name": "Travel   Leisure Co. Common  Stock",
+      "mcap": 4,
+      "price": 62.16,
+      "basis": 59.61,
+      "bxt_today": -1.61,
+      "bxt_yest": 3.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 29,
+      "ath": 81.0,
+      "pct_to_ath": 30.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T05:17:58.328548+00:00",
+    "compared_to": "2026-05-05T05:23:36.236869+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
