@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T04:12:38.479312+00:00",
+  "updated_at": "2026-05-05T04:18:02.377663+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.03,
-  "scanned_count": 1508,
+  "scan_seconds": 6.08,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -294,23 +294,6 @@
       "pct_to_ath": 123.5
     },
     {
-      "sym": "COGT",
-      "name": "Cogent Biosciences, Inc.",
-      "mcap": 6,
-      "price": 36.73,
-      "basis": 36.49,
-      "bxt_today": -16.09,
-      "bxt_yest": -15.54,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 70.64,
-      "pct_to_ath": 92.3
-    },
-    {
       "sym": "FROG",
       "name": "JFrog Ltd. Ordinary Shares",
       "mcap": 6,
@@ -326,6 +309,23 @@
       "bxt_streak": 16,
       "ath": 95.2,
       "pct_to_ath": 81.1
+    },
+    {
+      "sym": "COGT",
+      "name": "Cogent Biosciences, Inc.",
+      "mcap": 6,
+      "price": 36.73,
+      "basis": 36.49,
+      "bxt_today": -16.09,
+      "bxt_yest": -15.54,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 70.64,
+      "pct_to_ath": 92.3
     },
     {
       "sym": "BLSH",
@@ -380,6 +380,23 @@
     }
   ],
   "fvb_red": [
+    {
+      "sym": "ORLY",
+      "name": "O'Reilly Automotive, Inc.",
+      "mcap": 79,
+      "price": 93.98,
+      "basis": 94.0,
+      "bxt_today": -15.28,
+      "bxt_yest": -13.46,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 74,
+      "bxt_streak": null,
+      "ath": 108.72,
+      "pct_to_ath": 15.7
+    },
     {
       "sym": "SYM",
       "name": "Symbotic Inc.",
@@ -1490,23 +1507,6 @@
       "pct_to_ath": 27.0
     },
     {
-      "sym": "AIZ",
-      "name": "Assurant, Inc.",
-      "mcap": 11,
-      "price": 229.12,
-      "basis": 217.33,
-      "bxt_today": -1.37,
-      "bxt_yest": 0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 246.31,
-      "pct_to_ath": 7.5
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1522,6 +1522,23 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 30.9
+    },
+    {
+      "sym": "AIZ",
+      "name": "Assurant, Inc.",
+      "mcap": 11,
+      "price": 229.12,
+      "basis": 217.33,
+      "bxt_today": -1.37,
+      "bxt_yest": 0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 246.31,
+      "pct_to_ath": 7.5
     },
     {
       "sym": "EXEL",
@@ -1677,23 +1694,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "TNL",
-      "name": "Travel   Leisure Co. Common  Stock",
-      "mcap": 4,
-      "price": 62.16,
-      "basis": 59.61,
-      "bxt_today": -1.61,
-      "bxt_yest": 3.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 29,
-      "ath": 81.0,
-      "pct_to_ath": 30.3
-    },
-    {
       "sym": "SKT",
       "name": "Tanger Inc.",
       "mcap": 4,
@@ -1709,14 +1709,30 @@
       "bxt_streak": 1,
       "ath": 42.2,
       "pct_to_ath": 16.3
+    },
+    {
+      "sym": "TNL",
+      "name": "Travel   Leisure Co. Common  Stock",
+      "mcap": 4,
+      "price": 62.16,
+      "basis": 59.61,
+      "bxt_today": -1.61,
+      "bxt_yest": 3.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 29,
+      "ath": 81.0,
+      "pct_to_ath": 30.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T04:07:09.475008+00:00",
+    "compared_to": "2026-05-05T04:12:38.479312+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
-    "fvb_red_removed": [
+    "fvb_red_added": [
       {
         "sym": "ORLY",
         "name": "O'Reilly Automotive, Inc.",
@@ -1728,6 +1744,7 @@
         "pct_to_ath": 15.7
       }
     ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
