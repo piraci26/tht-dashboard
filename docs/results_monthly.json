@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T11:47:47.365738+00:00",
+  "updated_at": "2026-05-05T11:53:16.041111+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.84,
+  "scan_seconds": 6.79,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1354,23 +1354,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 30,
-      "price": 141.06,
-      "basis": 136.03,
-      "bxt_today": -0.97,
-      "bxt_yest": 2.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 146.67,
-      "pct_to_ath": 4.0
-    },
-    {
       "sym": "NTRA",
       "name": "Natera, Inc.",
       "mcap": 30,
@@ -1386,6 +1369,23 @@
       "bxt_streak": 31,
       "ath": 256.36,
       "pct_to_ath": 21.2
+    },
+    {
+      "sym": "Q",
+      "name": "Qnity Electronics, Inc.",
+      "mcap": 30,
+      "price": 141.06,
+      "basis": 136.03,
+      "bxt_today": -0.97,
+      "bxt_yest": 2.47,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 146.67,
+      "pct_to_ath": 4.0
     },
     {
       "sym": "TW",
@@ -1626,23 +1626,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "MRP",
-      "name": "Millrose Properties, Inc.",
-      "mcap": 5,
-      "price": 29.55,
-      "basis": 30.34,
-      "bxt_today": -6.51,
-      "bxt_yest": 1.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 18,
-      "bxt_streak": 18,
-      "ath": 36.0,
-      "pct_to_ath": 21.8
-    },
-    {
       "sym": "AX",
       "name": "Axos Financial, Inc.",
       "mcap": 5,
@@ -1658,6 +1641,23 @@
       "bxt_streak": 12,
       "ath": 101.92,
       "pct_to_ath": 16.8
+    },
+    {
+      "sym": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "mcap": 5,
+      "price": 29.55,
+      "basis": 30.34,
+      "bxt_today": -6.51,
+      "bxt_yest": 1.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 18,
+      "bxt_streak": 18,
+      "ath": 36.0,
+      "pct_to_ath": 21.8
     },
     {
       "sym": "TBBB",
@@ -1694,23 +1694,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "TNL",
-      "name": "Travel   Leisure Co. Common  Stock",
-      "mcap": 4,
-      "price": 62.16,
-      "basis": 59.61,
-      "bxt_today": -1.61,
-      "bxt_yest": 3.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 29,
-      "ath": 81.0,
-      "pct_to_ath": 30.3
-    },
-    {
       "sym": "SKT",
       "name": "Tanger Inc.",
       "mcap": 4,
@@ -1726,10 +1709,27 @@
       "bxt_streak": 1,
       "ath": 42.2,
       "pct_to_ath": 16.3
+    },
+    {
+      "sym": "TNL",
+      "name": "Travel   Leisure Co. Common  Stock",
+      "mcap": 4,
+      "price": 62.16,
+      "basis": 59.61,
+      "bxt_today": -1.61,
+      "bxt_yest": 3.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 29,
+      "ath": 81.0,
+      "pct_to_ath": 30.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T11:42:21.313780+00:00",
+    "compared_to": "2026-05-05T11:47:47.365738+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
