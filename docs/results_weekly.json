@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T05:57:20.567891+00:00",
+  "updated_at": "2026-05-05T06:02:52.131098+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.54,
-  "scanned_count": 1508,
+  "scan_seconds": 10.11,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -513,8 +513,8 @@
       "bxt_r": false,
       "fvb_streak": 4,
       "bxt_streak": null,
-      "ath": 22.34,
-      "pct_to_ath": 93.4
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "BA",
@@ -806,23 +806,6 @@
       "pct_to_ath": 64.2
     },
     {
-      "sym": "EXPE",
-      "name": "Expedia Group, Inc.",
-      "mcap": 30,
-      "price": 246.5,
-      "basis": 248.23,
-      "bxt_today": -1.75,
-      "bxt_yest": -1.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 303.8,
-      "pct_to_ath": 23.2
-    },
-    {
       "sym": "VICI",
       "name": "VICI Properties Inc.",
       "mcap": 30,
@@ -838,6 +821,23 @@
       "bxt_streak": null,
       "ath": 35.69,
       "pct_to_ath": 27.1
+    },
+    {
+      "sym": "EXPE",
+      "name": "Expedia Group, Inc.",
+      "mcap": 30,
+      "price": 246.5,
+      "basis": 248.23,
+      "bxt_today": -1.75,
+      "bxt_yest": -1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 303.8,
+      "pct_to_ath": 23.2
     },
     {
       "sym": "TPR",
@@ -908,23 +908,6 @@
       "pct_to_ath": 41.5
     },
     {
-      "sym": "CHD",
-      "name": "Church & Dwight Company, Inc.",
-      "mcap": 22,
-      "price": 92.89,
-      "basis": 95.0,
-      "bxt_today": -2.86,
-      "bxt_yest": 0.66,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 16,
-      "bxt_streak": 19,
-      "ath": 116.46,
-      "pct_to_ath": 25.4
-    },
-    {
       "sym": "L",
       "name": "Loews Corporation",
       "mcap": 22,
@@ -940,6 +923,23 @@
       "bxt_streak": null,
       "ath": 114.9,
       "pct_to_ath": 9.3
+    },
+    {
+      "sym": "CHD",
+      "name": "Church & Dwight Company, Inc.",
+      "mcap": 22,
+      "price": 92.89,
+      "basis": 95.0,
+      "bxt_today": -2.86,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 16,
+      "bxt_streak": 19,
+      "ath": 116.46,
+      "pct_to_ath": 25.4
     },
     {
       "sym": "RL",
@@ -993,23 +993,6 @@
       "pct_to_ath": 11.5
     },
     {
-      "sym": "BURL",
-      "name": "Burlington Stores, Inc.",
-      "mcap": 19,
-      "price": 309.27,
-      "basis": 311.23,
-      "bxt_today": -2.39,
-      "bxt_yest": 4.74,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 20,
-      "bxt_streak": 7,
-      "ath": 357.34,
-      "pct_to_ath": 15.5
-    },
-    {
       "sym": "CHRW",
       "name": "C.H. Robinson Worldwide, Inc.",
       "mcap": 19,
@@ -1025,6 +1008,23 @@
       "bxt_streak": null,
       "ath": 203.34,
       "pct_to_ath": 26.1
+    },
+    {
+      "sym": "BURL",
+      "name": "Burlington Stores, Inc.",
+      "mcap": 19,
+      "price": 309.27,
+      "basis": 311.23,
+      "bxt_today": -2.39,
+      "bxt_yest": 4.74,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 20,
+      "bxt_streak": 7,
+      "ath": 357.34,
+      "pct_to_ath": 15.5
     },
     {
       "sym": "DD",
@@ -1163,23 +1163,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 171.88,
-      "basis": 174.85,
-      "bxt_today": 2.08,
-      "bxt_yest": 6.96,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 737.45,
-      "pct_to_ath": 329.0
-    },
-    {
       "sym": "CNA",
       "name": "CNA Financial Corporation",
       "mcap": 12,
@@ -1195,6 +1178,23 @@
       "bxt_streak": 3,
       "ath": 55.62,
       "pct_to_ath": 25.8
+    },
+    {
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
+      "mcap": 12,
+      "price": 171.88,
+      "basis": 174.85,
+      "bxt_today": 2.08,
+      "bxt_yest": 6.96,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 737.45,
+      "pct_to_ath": 329.0
     },
     {
       "sym": "BLD",
@@ -1246,6 +1246,23 @@
       "bxt_streak": null,
       "ath": 225.0,
       "pct_to_ath": 200.5
+    },
+    {
+      "sym": "AGNC",
+      "name": "AGNC Investment Corp.",
+      "mcap": 12,
+      "price": 10.65,
+      "basis": 10.91,
+      "bxt_today": -3.29,
+      "bxt_yest": -2.21,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 36.77,
+      "pct_to_ath": 245.3
     },
     {
       "sym": "UHAL",
@@ -1333,23 +1350,6 @@
       "pct_to_ath": 154.6
     },
     {
-      "sym": "STAG",
-      "name": "Stag Industrial, Inc.",
-      "mcap": 7,
-      "price": 37.76,
-      "basis": 37.94,
-      "bxt_today": -0.99,
-      "bxt_yest": 2.23,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 4,
-      "bxt_streak": 3,
-      "ath": 48.27,
-      "pct_to_ath": 27.8
-    },
-    {
       "sym": "VFC",
       "name": "V.F. Corporation",
       "mcap": 7,
@@ -1365,6 +1365,23 @@
       "bxt_streak": 2,
       "ath": 100.25,
       "pct_to_ath": 445.1
+    },
+    {
+      "sym": "STAG",
+      "name": "Stag Industrial, Inc.",
+      "mcap": 7,
+      "price": 37.76,
+      "basis": 37.94,
+      "bxt_today": -0.99,
+      "bxt_yest": 2.23,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 4,
+      "bxt_streak": 3,
+      "ath": 48.27,
+      "pct_to_ath": 27.8
     },
     {
       "sym": "AN",
@@ -1486,23 +1503,6 @@
       "pct_to_ath": 12.2
     },
     {
-      "sym": "HWC",
-      "name": "Hancock Whitney Corporation",
-      "mcap": 5,
-      "price": 66.39,
-      "basis": 66.68,
-      "bxt_today": -3.05,
-      "bxt_yest": -2.12,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 4,
-      "bxt_streak": null,
-      "ath": 75.43,
-      "pct_to_ath": 13.6
-    },
-    {
       "sym": "FCN",
       "name": "FTI Consulting, Inc.",
       "mcap": 5,
@@ -1518,6 +1518,23 @@
       "bxt_streak": null,
       "ath": 243.6,
       "pct_to_ath": 45.0
+    },
+    {
+      "sym": "HWC",
+      "name": "Hancock Whitney Corporation",
+      "mcap": 5,
+      "price": 66.39,
+      "basis": 66.68,
+      "bxt_today": -3.05,
+      "bxt_yest": -2.12,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 75.43,
+      "pct_to_ath": 13.6
     },
     {
       "sym": "AUB",
@@ -2321,23 +2338,6 @@
       "pct_to_ath": 44.1
     },
     {
-      "sym": "FROG",
-      "name": "JFrog Ltd. Ordinary Shares",
-      "mcap": 6,
-      "price": 52.58,
-      "basis": 49.32,
-      "bxt_today": 2.14,
-      "bxt_yest": -3.37,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 14,
-      "bxt_streak": 16,
-      "ath": 95.2,
-      "pct_to_ath": 81.1
-    },
-    {
       "sym": "APPF",
       "name": "AppFolio, Inc.",
       "mcap": 6,
@@ -2353,6 +2353,23 @@
       "bxt_streak": 31,
       "ath": 326.04,
       "pct_to_ath": 87.8
+    },
+    {
+      "sym": "FROG",
+      "name": "JFrog Ltd. Ordinary Shares",
+      "mcap": 6,
+      "price": 52.58,
+      "basis": 49.32,
+      "bxt_today": 2.14,
+      "bxt_yest": -3.37,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 14,
+      "bxt_streak": 16,
+      "ath": 95.2,
+      "pct_to_ath": 81.1
     },
     {
       "sym": "DBX",
@@ -2372,23 +2389,6 @@
       "pct_to_ath": 73.4
     },
     {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
-      "mcap": 5,
-      "price": 53.58,
-      "basis": 52.35,
-      "bxt_today": 0.32,
-      "bxt_yest": -2.0,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 2,
-      "ath": 220.2,
-      "pct_to_ath": 311.0
-    },
-    {
       "sym": "PBF",
       "name": "PBF Energy Inc.",
       "mcap": 5,
@@ -2404,6 +2404,23 @@
       "bxt_streak": 2,
       "ath": 62.88,
       "pct_to_ath": 38.1
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 53.58,
+      "basis": 52.35,
+      "bxt_today": 0.32,
+      "bxt_yest": -2.0,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 2,
+      "ath": 220.2,
+      "pct_to_ath": 311.0
     },
     {
       "sym": "EXLS",
@@ -2901,6 +2918,23 @@
       "pct_to_ath": 12.2
     },
     {
+      "sym": "STLA",
+      "name": "Stellantis N.V. Common Shares",
+      "mcap": 20,
+      "price": 7.08,
+      "basis": 8.33,
+      "bxt_today": -0.6,
+      "bxt_yest": 0.78,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 29.51,
+      "pct_to_ath": 316.8
+    },
+    {
       "sym": "BWXT",
       "name": "BWX Technologies, Inc.",
       "mcap": 20,
@@ -3207,23 +3241,6 @@
       "pct_to_ath": 5.1
     },
     {
-      "sym": "STAG",
-      "name": "Stag Industrial, Inc.",
-      "mcap": 7,
-      "price": 37.76,
-      "basis": 37.94,
-      "bxt_today": -0.99,
-      "bxt_yest": 2.23,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 4,
-      "bxt_streak": 3,
-      "ath": 48.27,
-      "pct_to_ath": 27.8
-    },
-    {
       "sym": "VFC",
       "name": "V.F. Corporation",
       "mcap": 7,
@@ -3239,6 +3256,23 @@
       "bxt_streak": 2,
       "ath": 100.25,
       "pct_to_ath": 445.1
+    },
+    {
+      "sym": "STAG",
+      "name": "Stag Industrial, Inc.",
+      "mcap": 7,
+      "price": 37.76,
+      "basis": 37.94,
+      "bxt_today": -0.99,
+      "bxt_yest": 2.23,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 4,
+      "bxt_streak": 3,
+      "ath": 48.27,
+      "pct_to_ath": 27.8
     },
     {
       "sym": "NOV",
@@ -3514,11 +3548,10 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T05:51:41.667947+00:00",
+    "compared_to": "2026-05-05T05:57:20.567891+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
-    "fvb_red_removed": [
+    "fvb_red_added": [
       {
         "sym": "AGNC",
         "name": "AGNC Investment Corp.",
@@ -3530,10 +3563,10 @@
         "pct_to_ath": 245.3
       }
     ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "STLA",
         "name": "Stellantis N.V. Common Shares",
@@ -3544,6 +3577,7 @@
         "ath": 29.51,
         "pct_to_ath": 316.8
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
