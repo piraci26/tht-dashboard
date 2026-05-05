@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T11:25:13.685837+00:00",
+  "updated_at": "2026-05-05T11:30:46.592667+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 21.13,
+  "scan_seconds": 10.27,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -209,23 +209,6 @@
       "pct_to_ath": 19.5
     },
     {
-      "sym": "PINS",
-      "name": "Pinterest, Inc.",
-      "mcap": 12,
-      "price": 20.85,
-      "basis": 20.76,
-      "bxt_today": 12.08,
-      "bxt_yest": 9.15,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 32,
-      "bxt_streak": null,
-      "ath": 89.9,
-      "pct_to_ath": 331.2
-    },
-    {
       "sym": "RBRK",
       "name": "Rubrik, Inc.",
       "mcap": 12,
@@ -241,6 +224,23 @@
       "bxt_streak": null,
       "ath": 103.0,
       "pct_to_ath": 77.8
+    },
+    {
+      "sym": "PINS",
+      "name": "Pinterest, Inc.",
+      "mcap": 12,
+      "price": 20.85,
+      "basis": 20.76,
+      "bxt_today": 12.08,
+      "bxt_yest": 9.15,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 32,
+      "bxt_streak": null,
+      "ath": 89.9,
+      "pct_to_ath": 331.2
     },
     {
       "sym": "NTNX",
@@ -806,23 +806,6 @@
       "pct_to_ath": 64.2
     },
     {
-      "sym": "EXPE",
-      "name": "Expedia Group, Inc.",
-      "mcap": 30,
-      "price": 246.5,
-      "basis": 248.23,
-      "bxt_today": -1.75,
-      "bxt_yest": -1.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 303.8,
-      "pct_to_ath": 23.2
-    },
-    {
       "sym": "VICI",
       "name": "VICI Properties Inc.",
       "mcap": 30,
@@ -838,6 +821,23 @@
       "bxt_streak": null,
       "ath": 35.69,
       "pct_to_ath": 27.1
+    },
+    {
+      "sym": "EXPE",
+      "name": "Expedia Group, Inc.",
+      "mcap": 30,
+      "price": 246.5,
+      "basis": 248.23,
+      "bxt_today": -1.75,
+      "bxt_yest": -1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 303.8,
+      "pct_to_ath": 23.2
     },
     {
       "sym": "TPR",
@@ -1163,23 +1163,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "CNA",
-      "name": "CNA Financial Corporation",
-      "mcap": 12,
-      "price": 44.22,
-      "basis": 47.25,
-      "bxt_today": -5.65,
-      "bxt_yest": 3.92,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 4,
-      "bxt_streak": 3,
-      "ath": 55.62,
-      "pct_to_ath": 25.8
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -1195,6 +1178,23 @@
       "bxt_streak": null,
       "ath": 737.45,
       "pct_to_ath": 329.0
+    },
+    {
+      "sym": "CNA",
+      "name": "CNA Financial Corporation",
+      "mcap": 12,
+      "price": 44.22,
+      "basis": 47.25,
+      "bxt_today": -5.65,
+      "bxt_yest": 3.92,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 4,
+      "bxt_streak": 3,
+      "ath": 55.62,
+      "pct_to_ath": 25.8
     },
     {
       "sym": "BLD",
@@ -1350,6 +1350,23 @@
       "pct_to_ath": 154.6
     },
     {
+      "sym": "VFC",
+      "name": "V.F. Corporation",
+      "mcap": 7,
+      "price": 18.39,
+      "basis": 18.76,
+      "bxt_today": -1.32,
+      "bxt_yest": 1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 3,
+      "bxt_streak": 2,
+      "ath": 100.25,
+      "pct_to_ath": 445.1
+    },
+    {
       "sym": "STAG",
       "name": "Stag Industrial, Inc.",
       "mcap": 7,
@@ -1382,23 +1399,6 @@
       "bxt_streak": null,
       "ath": 228.92,
       "pct_to_ath": 13.0
-    },
-    {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
-      "mcap": 7,
-      "price": 18.39,
-      "basis": 18.76,
-      "bxt_today": -1.32,
-      "bxt_yest": 1.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 3,
-      "bxt_streak": 2,
-      "ath": 100.25,
-      "pct_to_ath": 445.1
     },
     {
       "sym": "TEX",
@@ -1571,23 +1571,6 @@
       "pct_to_ath": 664.9
     },
     {
-      "sym": "SIGI",
-      "name": "Selective Insurance Group, Inc.",
-      "mcap": 5,
-      "price": 80.88,
-      "basis": 81.7,
-      "bxt_today": 3.81,
-      "bxt_yest": 4.18,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 109.58,
-      "pct_to_ath": 35.5
-    },
-    {
       "sym": "BC",
       "name": "Brunswick Corporation",
       "mcap": 5,
@@ -1603,6 +1586,23 @@
       "bxt_streak": null,
       "ath": 117.62,
       "pct_to_ath": 58.0
+    },
+    {
+      "sym": "SIGI",
+      "name": "Selective Insurance Group, Inc.",
+      "mcap": 5,
+      "price": 80.88,
+      "basis": 81.7,
+      "bxt_today": 3.81,
+      "bxt_yest": 4.18,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 109.58,
+      "pct_to_ath": 35.5
     },
     {
       "sym": "ONDS",
@@ -2066,23 +2066,6 @@
       "pct_to_ath": 55.4
     },
     {
-      "sym": "RGA",
-      "name": "Reinsurance Group of America, Incorporated",
-      "mcap": 14,
-      "price": 211.16,
-      "basis": 207.18,
-      "bxt_today": 1.28,
-      "bxt_yest": -0.01,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 233.81,
-      "pct_to_ath": 10.7
-    },
-    {
       "sym": "OKTA",
       "name": "Okta, Inc.",
       "mcap": 14,
@@ -2098,6 +2081,23 @@
       "bxt_streak": 11,
       "ath": 294.0,
       "pct_to_ath": 280.6
+    },
+    {
+      "sym": "RGA",
+      "name": "Reinsurance Group of America, Incorporated",
+      "mcap": 14,
+      "price": 211.16,
+      "basis": 207.18,
+      "bxt_today": 1.28,
+      "bxt_yest": -0.01,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 233.81,
+      "pct_to_ath": 10.7
     },
     {
       "sym": "OKLO",
@@ -3088,23 +3088,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "RNR",
-      "name": "RenaissanceRe Holdings Ltd.",
-      "mcap": 13,
-      "price": 302.28,
-      "basis": 293.01,
-      "bxt_today": -1.04,
-      "bxt_yest": 2.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 318.2,
-      "pct_to_ath": 5.3
-    },
-    {
       "sym": "FIVE",
       "name": "Five Below, Inc.",
       "mcap": 13,
@@ -3120,6 +3103,23 @@
       "bxt_streak": 23,
       "ath": 251.63,
       "pct_to_ath": 8.9
+    },
+    {
+      "sym": "RNR",
+      "name": "RenaissanceRe Holdings Ltd.",
+      "mcap": 13,
+      "price": 302.28,
+      "basis": 293.01,
+      "bxt_today": -1.04,
+      "bxt_yest": 2.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 318.2,
+      "pct_to_ath": 5.3
     },
     {
       "sym": "EVR",
@@ -3241,23 +3241,6 @@
       "pct_to_ath": 5.1
     },
     {
-      "sym": "STAG",
-      "name": "Stag Industrial, Inc.",
-      "mcap": 7,
-      "price": 37.76,
-      "basis": 37.94,
-      "bxt_today": -0.99,
-      "bxt_yest": 2.23,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 4,
-      "bxt_streak": 3,
-      "ath": 48.27,
-      "pct_to_ath": 27.8
-    },
-    {
       "sym": "VFC",
       "name": "V.F. Corporation",
       "mcap": 7,
@@ -3273,6 +3256,23 @@
       "bxt_streak": 2,
       "ath": 100.25,
       "pct_to_ath": 445.1
+    },
+    {
+      "sym": "STAG",
+      "name": "Stag Industrial, Inc.",
+      "mcap": 7,
+      "price": 37.76,
+      "basis": 37.94,
+      "bxt_today": -0.99,
+      "bxt_yest": 2.23,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 4,
+      "bxt_streak": 3,
+      "ath": 48.27,
+      "pct_to_ath": 27.8
     },
     {
       "sym": "NOV",
@@ -3292,23 +3292,6 @@
       "pct_to_ath": 333.8
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 68.58,
-      "basis": 69.61,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 86.76,
-      "pct_to_ath": 26.5
-    },
-    {
       "sym": "INGR",
       "name": "Ingredion Incorporated",
       "mcap": 7,
@@ -3324,6 +3307,23 @@
       "bxt_streak": 17,
       "ath": 155.44,
       "pct_to_ath": 45.4
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 68.58,
+      "basis": 69.61,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.12,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 86.76,
+      "pct_to_ath": 26.5
     },
     {
       "sym": "PTGX",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T11:19:29.211143+00:00",
+    "compared_to": "2026-05-05T11:25:13.685837+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
