@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T22:55:42.428431+00:00",
+  "updated_at": "2026-05-05T23:07:04.427896+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 116.22,
+  "scan_seconds": 115.7,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -260,6 +260,23 @@
       "pct_to_ath": 463.6
     },
     {
+      "sym": "MEDP",
+      "name": "Medpace Holdings, Inc.",
+      "mcap": 12,
+      "price": 430.32,
+      "basis": 425.37,
+      "bxt_today": -10.0,
+      "bxt_yest": -8.22,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 628.92,
+      "pct_to_ath": 46.2
+    },
+    {
       "sym": "EQH",
       "name": "Equitable Holdings, Inc.",
       "mcap": 12,
@@ -294,23 +311,6 @@
       "pct_to_ath": 668.1
     },
     {
-      "sym": "MEDP",
-      "name": "Medpace Holdings, Inc.",
-      "mcap": 12,
-      "price": 430.32,
-      "basis": 425.37,
-      "bxt_today": -10.0,
-      "bxt_yest": -8.22,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 628.92,
-      "pct_to_ath": 46.2
-    },
-    {
       "sym": "EDU",
       "name": "New Oriental Education & Technology Group, Inc. Sponsored ADR representing 10 Ordinary Share (Cayman Islands)",
       "mcap": 9,
@@ -326,23 +326,6 @@
       "bxt_streak": null,
       "ath": 199.74,
       "pct_to_ath": 271.5
-    },
-    {
-      "sym": "LINE",
-      "name": "Lineage, Inc.",
-      "mcap": 9,
-      "price": 36.5,
-      "basis": 36.09,
-      "bxt_today": 3.4,
-      "bxt_yest": 2.67,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 89.85,
-      "pct_to_ath": 146.2
     },
     {
       "sym": "WAL",
@@ -379,6 +362,23 @@
       "pct_to_ath": 11.0
     },
     {
+      "sym": "LINE",
+      "name": "Lineage, Inc.",
+      "mcap": 9,
+      "price": 36.5,
+      "basis": 36.09,
+      "bxt_today": 3.4,
+      "bxt_yest": 2.67,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 89.85,
+      "pct_to_ath": 146.2
+    },
+    {
       "sym": "AAON",
       "name": "AAON, Inc.",
       "mcap": 8,
@@ -413,23 +413,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
-      "mcap": 7,
-      "price": 8.77,
-      "basis": 8.77,
-      "bxt_today": 16.81,
-      "bxt_yest": 14.99,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 48.11,
-      "pct_to_ath": 448.6
-    },
-    {
       "sym": "BBUC",
       "name": "Brookfield Business Corporation Subordinate Voting Shares",
       "mcap": 7,
@@ -445,6 +428,23 @@
       "bxt_streak": null,
       "ath": 38.25,
       "pct_to_ath": 11.2
+    },
+    {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 7,
+      "price": 8.77,
+      "basis": 8.77,
+      "bxt_today": 16.81,
+      "bxt_yest": 14.99,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 48.11,
+      "pct_to_ath": 448.6
     },
     {
       "sym": "JBTM",
@@ -498,23 +498,6 @@
       "pct_to_ath": 71.2
     },
     {
-      "sym": "CZR",
-      "name": "Caesars Entertainment, Inc.",
-      "mcap": 6,
-      "price": 28.1,
-      "basis": 27.56,
-      "bxt_today": 14.08,
-      "bxt_yest": 12.0,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 29,
-      "bxt_streak": null,
-      "ath": 119.81,
-      "pct_to_ath": 326.4
-    },
-    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -530,6 +513,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "CZR",
+      "name": "Caesars Entertainment, Inc.",
+      "mcap": 6,
+      "price": 28.1,
+      "basis": 27.56,
+      "bxt_today": 14.08,
+      "bxt_yest": 12.0,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 29,
+      "bxt_streak": null,
+      "ath": 119.81,
+      "pct_to_ath": 326.4
     },
     {
       "sym": "OTF",
@@ -566,23 +566,6 @@
       "pct_to_ath": 50.0
     },
     {
-      "sym": "EBC",
-      "name": "Eastern Bankshares, Inc.",
-      "mcap": 5,
-      "price": 20.26,
-      "basis": 20.0,
-      "bxt_today": -4.59,
-      "bxt_yest": -4.61,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 23.03,
-      "pct_to_ath": 13.7
-    },
-    {
       "sym": "NOVT",
       "name": "Novanta Inc.",
       "mcap": 5,
@@ -598,6 +581,23 @@
       "bxt_streak": null,
       "ath": 187.61,
       "pct_to_ath": 41.8
+    },
+    {
+      "sym": "EBC",
+      "name": "Eastern Bankshares, Inc.",
+      "mcap": 5,
+      "price": 20.26,
+      "basis": 20.0,
+      "bxt_today": -4.59,
+      "bxt_yest": -4.61,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 23.03,
+      "pct_to_ath": 13.7
     },
     {
       "sym": "PI",
@@ -634,21 +634,21 @@
       "pct_to_ath": 98.7
     },
     {
-      "sym": "AMRX",
-      "name": "Amneal Pharmaceuticals, Inc.",
+      "sym": "LBTYK",
+      "name": "Liberty Global Ltd. Class C Common Shares",
       "mcap": 4,
-      "price": 13.41,
-      "basis": 13.17,
-      "bxt_today": -8.86,
-      "bxt_yest": -11.89,
+      "price": 11.75,
+      "basis": 11.62,
+      "bxt_today": 3.23,
+      "bxt_yest": 2.56,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 3,
+      "fvb_streak": 2,
       "bxt_streak": null,
-      "ath": 24.48,
-      "pct_to_ath": 82.6
+      "ath": 23.19,
+      "pct_to_ath": 97.3
     },
     {
       "sym": "EE",
@@ -668,21 +668,21 @@
       "pct_to_ath": 21.4
     },
     {
-      "sym": "LBTYK",
-      "name": "Liberty Global Ltd. Class C Common Shares",
+      "sym": "AMRX",
+      "name": "Amneal Pharmaceuticals, Inc.",
       "mcap": 4,
-      "price": 11.75,
-      "basis": 11.62,
-      "bxt_today": 3.23,
-      "bxt_yest": 2.56,
+      "price": 13.41,
+      "basis": 13.17,
+      "bxt_today": -8.86,
+      "bxt_yest": -11.89,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 2,
+      "fvb_streak": 3,
       "bxt_streak": null,
-      "ath": 23.19,
-      "pct_to_ath": 97.3
+      "ath": 24.48,
+      "pct_to_ath": 82.6
     }
   ],
   "fvb_red": [
@@ -772,23 +772,6 @@
       "pct_to_ath": 98.8
     },
     {
-      "sym": "NUVL",
-      "name": "Nuvalent, Inc.",
-      "mcap": 8,
-      "price": 101.47,
-      "basis": 101.93,
-      "bxt_today": -8.4,
-      "bxt_yest": -7.25,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 113.51,
-      "pct_to_ath": 11.9
-    },
-    {
       "sym": "CHYM",
       "name": "Chime Financial, Inc.",
       "mcap": 8,
@@ -823,21 +806,21 @@
       "pct_to_ath": 14.0
     },
     {
-      "sym": "OSIS",
-      "name": "OSI Systems, Inc. (DE)",
-      "mcap": 4,
-      "price": 234.74,
-      "basis": 235.03,
-      "bxt_today": -4.72,
-      "bxt_yest": 10.94,
+      "sym": "NUVL",
+      "name": "Nuvalent, Inc.",
+      "mcap": 8,
+      "price": 101.47,
+      "basis": 101.93,
+      "bxt_today": -8.4,
+      "bxt_yest": -7.25,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 41,
-      "bxt_streak": 41,
-      "ath": 311.72,
-      "pct_to_ath": 32.8
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 113.51,
+      "pct_to_ath": 11.9
     },
     {
       "sym": "ZETA",
@@ -855,6 +838,23 @@
       "bxt_streak": null,
       "ath": 38.2,
       "pct_to_ath": 114.0
+    },
+    {
+      "sym": "OSIS",
+      "name": "OSI Systems, Inc. (DE)",
+      "mcap": 4,
+      "price": 234.74,
+      "basis": 235.03,
+      "bxt_today": -4.72,
+      "bxt_yest": 10.94,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 41,
+      "bxt_streak": 41,
+      "ath": 311.72,
+      "pct_to_ath": 32.8
     },
     {
       "sym": "NHI",
@@ -1148,23 +1148,6 @@
       "pct_to_ath": 37.4
     },
     {
-      "sym": "BLSH",
-      "name": "Bullish Ordinary Shares",
-      "mcap": 7,
-      "price": 45.34,
-      "basis": 40.31,
-      "bxt_today": 3.84,
-      "bxt_yest": -7.07,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 118.0,
-      "pct_to_ath": 160.3
-    },
-    {
       "sym": "LTH",
       "name": "Life Time Group Holdings, Inc.",
       "mcap": 7,
@@ -1180,6 +1163,23 @@
       "bxt_streak": 2,
       "ath": 34.99,
       "pct_to_ath": 19.1
+    },
+    {
+      "sym": "BLSH",
+      "name": "Bullish Ordinary Shares",
+      "mcap": 7,
+      "price": 45.34,
+      "basis": 40.31,
+      "bxt_today": 3.84,
+      "bxt_yest": -7.07,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 118.0,
+      "pct_to_ath": 160.3
     },
     {
       "sym": "MIRM",
@@ -1250,21 +1250,21 @@
       "pct_to_ath": 218.5
     },
     {
-      "sym": "TBBB",
-      "name": "BBB Foods Inc. Common Shares",
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
       "mcap": 4,
-      "price": 38.2,
-      "basis": 35.65,
-      "bxt_today": 0.73,
-      "bxt_yest": -1.77,
+      "price": 22.84,
+      "basis": 25.52,
+      "bxt_today": 0.24,
+      "bxt_yest": -4.21,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 40.09,
-      "pct_to_ath": 4.9
+      "bxt_streak": 37,
+      "ath": 53.46,
+      "pct_to_ath": 134.1
     },
     {
       "sym": "CUZ",
@@ -1284,21 +1284,21 @@
       "pct_to_ath": 341.6
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
+      "sym": "TBBB",
+      "name": "BBB Foods Inc. Common Shares",
       "mcap": 4,
-      "price": 22.84,
-      "basis": 25.52,
-      "bxt_today": 0.24,
-      "bxt_yest": -4.21,
+      "price": 38.2,
+      "basis": 35.65,
+      "bxt_today": 0.73,
+      "bxt_yest": -1.77,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 53.46,
-      "pct_to_ath": 134.1
+      "bxt_streak": 1,
+      "ath": 40.09,
+      "pct_to_ath": 4.9
     }
   ],
   "bxt_red": [
@@ -1694,23 +1694,6 @@
       "pct_to_ath": 9.9
     },
     {
-      "sym": "LLYVA",
-      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
-      "mcap": 8,
-      "price": 90.97,
-      "basis": 89.07,
-      "bxt_today": -1.95,
-      "bxt_yest": 0.32,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 99.82,
-      "pct_to_ath": 9.7
-    },
-    {
       "sym": "W",
       "name": "Wayfair Inc.",
       "mcap": 8,
@@ -1760,6 +1743,23 @@
       "bxt_streak": 1,
       "ath": 123.61,
       "pct_to_ath": 14.0
+    },
+    {
+      "sym": "LLYVA",
+      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "mcap": 8,
+      "price": 90.97,
+      "basis": 89.07,
+      "bxt_today": -1.95,
+      "bxt_yest": 0.32,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 99.82,
+      "pct_to_ath": 9.7
     },
     {
       "sym": "ACT",
@@ -1864,23 +1864,6 @@
       "pct_to_ath": 32.8
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.2,
-      "basis": 33.8,
-      "bxt_today": -0.71,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.6
-    },
-    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -1913,10 +1896,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 28.6
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.2,
+      "basis": 33.8,
+      "bxt_today": -0.71,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.6
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T22:44:22.316506+00:00",
+    "compared_to": "2026-05-05T22:55:42.428431+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
