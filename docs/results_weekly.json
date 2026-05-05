@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T06:53:51.200088+00:00",
+  "updated_at": "2026-05-05T06:59:20.570377+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.04,
+  "scan_seconds": 7.95,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -226,23 +226,6 @@
       "pct_to_ath": 331.2
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
-      "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
-    },
-    {
       "sym": "DT",
       "name": "Dynatrace, Inc.",
       "mcap": 12,
@@ -275,6 +258,23 @@
       "bxt_streak": null,
       "ath": 83.36,
       "pct_to_ath": 90.6
+    },
+    {
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
+      "mcap": 12,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "TEM",
@@ -772,23 +772,6 @@
       "pct_to_ath": 54.2
     },
     {
-      "sym": "MTB",
-      "name": "M&T Bank Corporation",
-      "mcap": 31,
-      "price": 214.08,
-      "basis": 214.35,
-      "bxt_today": -2.67,
-      "bxt_yest": -1.63,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 239.0,
-      "pct_to_ath": 11.6
-    },
-    {
       "sym": "EXR",
       "name": "Extra Space Storage Inc",
       "mcap": 31,
@@ -804,6 +787,23 @@
       "bxt_streak": null,
       "ath": 228.84,
       "pct_to_ath": 64.2
+    },
+    {
+      "sym": "MTB",
+      "name": "M&T Bank Corporation",
+      "mcap": 31,
+      "price": 214.08,
+      "basis": 214.35,
+      "bxt_today": -2.67,
+      "bxt_yest": -1.63,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 239.0,
+      "pct_to_ath": 11.6
     },
     {
       "sym": "VICI",
@@ -857,23 +857,6 @@
       "pct_to_ath": 15.9
     },
     {
-      "sym": "ES",
-      "name": "Eversource Energy (D/B/A)",
-      "mcap": 26,
-      "price": 69.44,
-      "basis": 70.1,
-      "bxt_today": -7.21,
-      "bxt_yest": -6.51,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 99.42,
-      "pct_to_ath": 43.2
-    },
-    {
       "sym": "STZ",
       "name": "Constellation Brands, Inc.",
       "mcap": 26,
@@ -889,6 +872,23 @@
       "bxt_streak": null,
       "ath": 274.87,
       "pct_to_ath": 85.5
+    },
+    {
+      "sym": "ES",
+      "name": "Eversource Energy (D/B/A)",
+      "mcap": 26,
+      "price": 69.44,
+      "basis": 70.1,
+      "bxt_today": -7.21,
+      "bxt_yest": -6.51,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 99.42,
+      "pct_to_ath": 43.2
     },
     {
       "sym": "RF",
@@ -908,23 +908,6 @@
       "pct_to_ath": 41.5
     },
     {
-      "sym": "L",
-      "name": "Loews Corporation",
-      "mcap": 22,
-      "price": 105.15,
-      "basis": 107.43,
-      "bxt_today": -9.3,
-      "bxt_yest": -0.34,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 114.9,
-      "pct_to_ath": 9.3
-    },
-    {
       "sym": "CHD",
       "name": "Church & Dwight Company, Inc.",
       "mcap": 22,
@@ -940,6 +923,23 @@
       "bxt_streak": 19,
       "ath": 116.46,
       "pct_to_ath": 25.4
+    },
+    {
+      "sym": "L",
+      "name": "Loews Corporation",
+      "mcap": 22,
+      "price": 105.15,
+      "basis": 107.43,
+      "bxt_today": -9.3,
+      "bxt_yest": -0.34,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 114.9,
+      "pct_to_ath": 9.3
     },
     {
       "sym": "RL",
@@ -1163,23 +1163,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 171.88,
-      "basis": 174.85,
-      "bxt_today": 2.08,
-      "bxt_yest": 6.96,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 737.45,
-      "pct_to_ath": 329.0
-    },
-    {
       "sym": "CNA",
       "name": "CNA Financial Corporation",
       "mcap": 12,
@@ -1197,21 +1180,21 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "OKLO",
-      "name": "Oklo Inc. common stock",
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
       "mcap": 12,
-      "price": 68.6,
-      "basis": 69.09,
-      "bxt_today": 1.13,
-      "bxt_yest": -0.71,
+      "price": 171.88,
+      "basis": 174.85,
+      "bxt_today": 2.08,
+      "bxt_yest": 6.96,
       "fvb_g": false,
       "fvb_r": true,
-      "bxt_g": true,
+      "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 25,
-      "ath": 193.84,
-      "pct_to_ath": 182.6
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 737.45,
+      "pct_to_ath": 329.0
     },
     {
       "sym": "BLD",
@@ -1231,21 +1214,21 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "SWK",
-      "name": "Stanley Black & Decker, Inc.",
+      "sym": "OKLO",
+      "name": "Oklo Inc. common stock",
       "mcap": 12,
-      "price": 74.87,
-      "basis": 78.17,
-      "bxt_today": -2.47,
-      "bxt_yest": -2.53,
+      "price": 68.6,
+      "basis": 69.09,
+      "bxt_today": 1.13,
+      "bxt_yest": -0.71,
       "fvb_g": false,
       "fvb_r": true,
-      "bxt_g": false,
+      "bxt_g": true,
       "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 225.0,
-      "pct_to_ath": 200.5
+      "fvb_streak": 2,
+      "bxt_streak": 25,
+      "ath": 193.84,
+      "pct_to_ath": 182.6
     },
     {
       "sym": "AGNC",
@@ -1263,6 +1246,23 @@
       "bxt_streak": null,
       "ath": 36.77,
       "pct_to_ath": 245.3
+    },
+    {
+      "sym": "SWK",
+      "name": "Stanley Black & Decker, Inc.",
+      "mcap": 12,
+      "price": 74.87,
+      "basis": 78.17,
+      "bxt_today": -2.47,
+      "bxt_yest": -2.53,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 225.0,
+      "pct_to_ath": 200.5
     },
     {
       "sym": "UHAL",
@@ -2782,23 +2782,6 @@
       "pct_to_ath": 2.7
     },
     {
-      "sym": "TW",
-      "name": "Tradeweb Markets Inc.",
-      "mcap": 27,
-      "price": 112.56,
-      "basis": 114.47,
-      "bxt_today": -1.54,
-      "bxt_yest": 0.82,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 152.65,
-      "pct_to_ath": 35.6
-    },
-    {
       "sym": "CFG",
       "name": "Citizens Financial Group, Inc.",
       "mcap": 27,
@@ -2814,6 +2797,23 @@
       "bxt_streak": 1,
       "ath": 68.79,
       "pct_to_ath": 8.2
+    },
+    {
+      "sym": "TW",
+      "name": "Tradeweb Markets Inc.",
+      "mcap": 27,
+      "price": 112.56,
+      "basis": 114.47,
+      "bxt_today": -1.54,
+      "bxt_yest": 0.82,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 152.65,
+      "pct_to_ath": 35.6
     },
     {
       "sym": "CW",
@@ -2901,23 +2901,6 @@
       "pct_to_ath": 9.3
     },
     {
-      "sym": "USFD",
-      "name": "US Foods Holding Corp.",
-      "mcap": 20,
-      "price": 91.06,
-      "basis": 88.91,
-      "bxt_today": -3.36,
-      "bxt_yest": 0.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 102.13,
-      "pct_to_ath": 12.2
-    },
-    {
       "sym": "STLA",
       "name": "Stellantis N.V. Common Shares",
       "mcap": 20,
@@ -2933,6 +2916,23 @@
       "bxt_streak": 3,
       "ath": 29.51,
       "pct_to_ath": 316.8
+    },
+    {
+      "sym": "USFD",
+      "name": "US Foods Holding Corp.",
+      "mcap": 20,
+      "price": 91.06,
+      "basis": 88.91,
+      "bxt_today": -3.36,
+      "bxt_yest": 0.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 102.13,
+      "pct_to_ath": 12.2
     },
     {
       "sym": "BWXT",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T06:48:18.983835+00:00",
+    "compared_to": "2026-05-05T06:53:51.200088+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
