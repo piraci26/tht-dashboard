@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T00:02:58.904734+00:00",
+  "updated_at": "2026-05-05T00:08:24.313119+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.84,
-  "scanned_count": 1510,
+  "scan_seconds": 7.71,
+  "scanned_count": 1507,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -243,23 +243,6 @@
       "pct_to_ath": 77.8
     },
     {
-      "sym": "NTNX",
-      "name": "Nutanix, Inc.",
-      "mcap": 12,
-      "price": 43.73,
-      "basis": 42.18,
-      "bxt_today": 13.85,
-      "bxt_yest": 10.48,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 30,
-      "bxt_streak": null,
-      "ath": 83.36,
-      "pct_to_ath": 90.6
-    },
-    {
       "sym": "DT",
       "name": "Dynatrace, Inc.",
       "mcap": 12,
@@ -275,6 +258,23 @@
       "bxt_streak": null,
       "ath": 80.13,
       "pct_to_ath": 106.8
+    },
+    {
+      "sym": "NTNX",
+      "name": "Nutanix, Inc.",
+      "mcap": 12,
+      "price": 43.73,
+      "basis": 42.18,
+      "bxt_today": 13.85,
+      "bxt_yest": 10.48,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 30,
+      "bxt_streak": null,
+      "ath": 83.36,
+      "pct_to_ath": 90.6
     },
     {
       "sym": "TEM",
@@ -2389,23 +2389,6 @@
       "pct_to_ath": 73.4
     },
     {
-      "sym": "PBF",
-      "name": "PBF Energy Inc.",
-      "mcap": 5,
-      "price": 45.53,
-      "basis": 38.18,
-      "bxt_today": 1.87,
-      "bxt_yest": -0.31,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 62.88,
-      "pct_to_ath": 38.1
-    },
-    {
       "sym": "CRSP",
       "name": "CRISPR Therapeutics AG Common Shares",
       "mcap": 5,
@@ -2421,6 +2404,23 @@
       "bxt_streak": 2,
       "ath": 220.2,
       "pct_to_ath": 311.0
+    },
+    {
+      "sym": "PBF",
+      "name": "PBF Energy Inc.",
+      "mcap": 5,
+      "price": 45.53,
+      "basis": 38.18,
+      "bxt_today": 1.87,
+      "bxt_yest": -0.31,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 62.88,
+      "pct_to_ath": 38.1
     },
     {
       "sym": "EXLS",
@@ -3088,23 +3088,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "RNR",
-      "name": "RenaissanceRe Holdings Ltd.",
-      "mcap": 13,
-      "price": 302.28,
-      "basis": 293.01,
-      "bxt_today": -1.04,
-      "bxt_yest": 2.1,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 318.2,
-      "pct_to_ath": 5.3
-    },
-    {
       "sym": "FIVE",
       "name": "Five Below, Inc.",
       "mcap": 13,
@@ -3120,6 +3103,23 @@
       "bxt_streak": 23,
       "ath": 251.63,
       "pct_to_ath": 8.9
+    },
+    {
+      "sym": "RNR",
+      "name": "RenaissanceRe Holdings Ltd.",
+      "mcap": 13,
+      "price": 302.28,
+      "basis": 293.01,
+      "bxt_today": -1.04,
+      "bxt_yest": 2.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 318.2,
+      "pct_to_ath": 5.3
     },
     {
       "sym": "EVR",
@@ -3275,21 +3275,21 @@
       "pct_to_ath": 27.8
     },
     {
-      "sym": "NOV",
-      "name": "NOV Inc.",
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
       "mcap": 7,
-      "price": 19.95,
-      "basis": 18.82,
-      "bxt_today": -0.26,
-      "bxt_yest": 0.92,
+      "price": 68.58,
+      "basis": 69.61,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.12,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 86.55,
-      "pct_to_ath": 333.8
+      "bxt_streak": 1,
+      "ath": 86.76,
+      "pct_to_ath": 26.5
     },
     {
       "sym": "INGR",
@@ -3309,21 +3309,21 @@
       "pct_to_ath": 45.4
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
+      "sym": "NOV",
+      "name": "NOV Inc.",
       "mcap": 7,
-      "price": 68.58,
-      "basis": 69.61,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.12,
+      "price": 19.95,
+      "basis": 18.82,
+      "bxt_today": -0.26,
+      "bxt_yest": 0.92,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 86.76,
-      "pct_to_ath": 26.5
+      "bxt_streak": 2,
+      "ath": 86.55,
+      "pct_to_ath": 333.8
     },
     {
       "sym": "PTGX",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-04T23:57:29.760661+00:00",
+    "compared_to": "2026-05-05T00:02:58.904734+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
