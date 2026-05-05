@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T10:39:18.656796+00:00",
+  "updated_at": "2026-05-05T10:45:01.287554+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 26.81,
-  "scanned_count": 1509,
+  "scan_seconds": 11.33,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -175,23 +175,6 @@
       "pct_to_ath": 331.2
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
-      "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
-    },
-    {
       "sym": "DT",
       "name": "Dynatrace, Inc.",
       "mcap": 12,
@@ -207,6 +190,23 @@
       "bxt_streak": null,
       "ath": 80.13,
       "pct_to_ath": 106.8
+    },
+    {
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
+      "mcap": 12,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "FIG",
@@ -428,8 +428,8 @@
       "bxt_r": false,
       "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 35.69,
-      "pct_to_ath": 27.1
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "SNN",
@@ -1354,23 +1354,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 30,
-      "price": 141.06,
-      "basis": 136.03,
-      "bxt_today": -0.97,
-      "bxt_yest": 2.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 146.67,
-      "pct_to_ath": 4.0
-    },
-    {
       "sym": "NTRA",
       "name": "Natera, Inc.",
       "mcap": 30,
@@ -1386,6 +1369,23 @@
       "bxt_streak": 31,
       "ath": 256.36,
       "pct_to_ath": 21.2
+    },
+    {
+      "sym": "Q",
+      "name": "Qnity Electronics, Inc.",
+      "mcap": 30,
+      "price": 141.06,
+      "basis": 136.03,
+      "bxt_today": -0.97,
+      "bxt_yest": 2.47,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 146.67,
+      "pct_to_ath": 4.0
     },
     {
       "sym": "TW",
@@ -1541,21 +1541,21 @@
       "pct_to_ath": 27.0
     },
     {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
       "mcap": 11,
-      "price": 44.17,
-      "basis": 40.38,
-      "bxt_today": -1.23,
-      "bxt_yest": 0.89,
+      "price": 99.05,
+      "basis": 94.37,
+      "bxt_today": -0.84,
+      "bxt_yest": 1.46,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 14.3
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 31.7
     },
     {
       "sym": "ENSG",
@@ -1575,21 +1575,21 @@
       "pct_to_ath": 19.8
     },
     {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
       "mcap": 11,
-      "price": 99.05,
-      "basis": 94.37,
-      "bxt_today": -0.84,
-      "bxt_yest": 1.46,
+      "price": 44.17,
+      "basis": 40.38,
+      "bxt_today": -1.23,
+      "bxt_yest": 0.89,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 31.7
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 14.3
     },
     {
       "sym": "W",
@@ -1677,6 +1677,23 @@
       "pct_to_ath": 11.0
     },
     {
+      "sym": "DOO",
+      "name": "BRP Inc. Common Subordinate Voting Shares",
+      "mcap": 4,
+      "price": 53.52,
+      "basis": 55.39,
+      "bxt_today": -0.86,
+      "bxt_yest": 2.52,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 102.96,
+      "pct_to_ath": 92.4
+    },
+    {
       "sym": "TNL",
       "name": "Travel   Leisure Co. Common  Stock",
       "mcap": 4,
@@ -1709,27 +1726,10 @@
       "bxt_streak": 1,
       "ath": 42.2,
       "pct_to_ath": 16.3
-    },
-    {
-      "sym": "DOO",
-      "name": "BRP Inc. Common Subordinate Voting Shares",
-      "mcap": 4,
-      "price": 53.52,
-      "basis": 55.39,
-      "bxt_today": -0.86,
-      "bxt_yest": 2.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 102.96,
-      "pct_to_ath": 92.4
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T10:33:32.746897+00:00",
+    "compared_to": "2026-05-05T10:39:18.656796+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
