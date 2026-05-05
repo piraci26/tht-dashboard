@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T21:47:35.960080+00:00",
+  "updated_at": "2026-05-05T21:58:56.687542+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 123.62,
-  "scanned_count": 1510,
+  "scan_seconds": 117.73,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -209,23 +209,6 @@
       "pct_to_ath": 395.3
     },
     {
-      "sym": "GLPI",
-      "name": "Gaming and Leisure Properties, Inc.",
-      "mcap": 14,
-      "price": 47.75,
-      "basis": 47.25,
-      "bxt_today": 2.7,
-      "bxt_yest": 1.04,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 55.13,
-      "pct_to_ath": 15.5
-    },
-    {
       "sym": "CRBG",
       "name": "Corebridge Financial Inc.",
       "mcap": 14,
@@ -241,6 +224,23 @@
       "bxt_streak": null,
       "ath": 36.57,
       "pct_to_ath": 28.5
+    },
+    {
+      "sym": "GLPI",
+      "name": "Gaming and Leisure Properties, Inc.",
+      "mcap": 14,
+      "price": 47.75,
+      "basis": 47.25,
+      "bxt_today": 2.7,
+      "bxt_yest": 1.04,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 55.13,
+      "pct_to_ath": 15.5
     },
     {
       "sym": "TKC",
@@ -345,23 +345,6 @@
       "pct_to_ath": 52.6
     },
     {
-      "sym": "PRI",
-      "name": "Primerica, Inc.",
-      "mcap": 9,
-      "price": 277.47,
-      "basis": 271.49,
-      "bxt_today": -9.31,
-      "bxt_yest": -12.17,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 307.91,
-      "pct_to_ath": 11.0
-    },
-    {
       "sym": "LINE",
       "name": "Lineage, Inc.",
       "mcap": 9,
@@ -377,6 +360,23 @@
       "bxt_streak": null,
       "ath": 89.85,
       "pct_to_ath": 146.2
+    },
+    {
+      "sym": "PRI",
+      "name": "Primerica, Inc.",
+      "mcap": 9,
+      "price": 277.47,
+      "basis": 271.49,
+      "bxt_today": -9.31,
+      "bxt_yest": -12.17,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 307.91,
+      "pct_to_ath": 11.0
     },
     {
       "sym": "AAON",
@@ -413,23 +413,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "BBUC",
-      "name": "Brookfield Business Corporation Subordinate Voting Shares",
-      "mcap": 7,
-      "price": 34.4,
-      "basis": 34.14,
-      "bxt_today": -2.11,
-      "bxt_yest": -3.61,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 38.25,
-      "pct_to_ath": 11.2
-    },
-    {
       "sym": "MBLY",
       "name": "Mobileye Global Inc.",
       "mcap": 7,
@@ -447,21 +430,21 @@
       "pct_to_ath": 448.6
     },
     {
-      "sym": "LTH",
-      "name": "Life Time Group Holdings, Inc.",
+      "sym": "BBUC",
+      "name": "Brookfield Business Corporation Subordinate Voting Shares",
       "mcap": 7,
-      "price": 29.38,
-      "basis": 27.63,
-      "bxt_today": 4.85,
-      "bxt_yest": -3.21,
+      "price": 34.4,
+      "basis": 34.14,
+      "bxt_today": -2.11,
+      "bxt_yest": -3.61,
       "fvb_g": true,
       "fvb_r": false,
-      "bxt_g": true,
+      "bxt_g": false,
       "bxt_r": false,
       "fvb_streak": 3,
-      "bxt_streak": 2,
-      "ath": 34.99,
-      "pct_to_ath": 19.1
+      "bxt_streak": null,
+      "ath": 38.25,
+      "pct_to_ath": 11.2
     },
     {
       "sym": "JBTM",
@@ -481,38 +464,21 @@
       "pct_to_ath": 35.2
     },
     {
-      "sym": "DBX",
-      "name": "Dropbox, Inc.",
-      "mcap": 6,
-      "price": 25.41,
-      "basis": 25.05,
-      "bxt_today": 5.99,
-      "bxt_yest": 2.39,
+      "sym": "LTH",
+      "name": "Life Time Group Holdings, Inc.",
+      "mcap": 7,
+      "price": 29.38,
+      "basis": 27.63,
+      "bxt_today": 4.85,
+      "bxt_yest": -3.21,
       "fvb_g": true,
       "fvb_r": false,
-      "bxt_g": false,
+      "bxt_g": true,
       "bxt_r": false,
-      "fvb_streak": 22,
-      "bxt_streak": null,
-      "ath": 43.5,
-      "pct_to_ath": 71.2
-    },
-    {
-      "sym": "CZR",
-      "name": "Caesars Entertainment, Inc.",
-      "mcap": 6,
-      "price": 28.1,
-      "basis": 27.56,
-      "bxt_today": 14.08,
-      "bxt_yest": 12.0,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 29,
-      "bxt_streak": null,
-      "ath": 119.81,
-      "pct_to_ath": 326.4
+      "fvb_streak": 3,
+      "bxt_streak": 2,
+      "ath": 34.99,
+      "pct_to_ath": 19.1
     },
     {
       "sym": "RGTI",
@@ -532,21 +498,38 @@
       "pct_to_ath": 218.3
     },
     {
-      "sym": "OTF",
-      "name": "Blue Owl Technology Finance Corp.",
-      "mcap": 5,
-      "price": 11.63,
-      "basis": 11.49,
-      "bxt_today": 5.56,
-      "bxt_yest": 2.55,
+      "sym": "CZR",
+      "name": "Caesars Entertainment, Inc.",
+      "mcap": 6,
+      "price": 28.1,
+      "basis": 27.56,
+      "bxt_today": 14.08,
+      "bxt_yest": 12.0,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 29,
       "bxt_streak": null,
-      "ath": 21.62,
-      "pct_to_ath": 85.9
+      "ath": 119.81,
+      "pct_to_ath": 326.4
+    },
+    {
+      "sym": "DBX",
+      "name": "Dropbox, Inc.",
+      "mcap": 6,
+      "price": 25.41,
+      "basis": 25.05,
+      "bxt_today": 5.99,
+      "bxt_yest": 2.39,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 22,
+      "bxt_streak": null,
+      "ath": 43.5,
+      "pct_to_ath": 71.2
     },
     {
       "sym": "BC",
@@ -617,6 +600,23 @@
       "pct_to_ath": 13.7
     },
     {
+      "sym": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "mcap": 5,
+      "price": 11.63,
+      "basis": 11.49,
+      "bxt_today": 5.56,
+      "bxt_yest": 2.55,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 21.62,
+      "pct_to_ath": 85.9
+    },
+    {
       "sym": "NVST",
       "name": "Envista Holdings Corporation",
       "mcap": 4,
@@ -651,23 +651,6 @@
       "pct_to_ath": 82.6
     },
     {
-      "sym": "EE",
-      "name": "Excelerate Energy, Inc.",
-      "mcap": 4,
-      "price": 35.55,
-      "basis": 35.15,
-      "bxt_today": -6.42,
-      "bxt_yest": -8.45,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 43.17,
-      "pct_to_ath": 21.4
-    },
-    {
       "sym": "LBTYK",
       "name": "Liberty Global Ltd. Class C Common Shares",
       "mcap": 4,
@@ -683,6 +666,23 @@
       "bxt_streak": null,
       "ath": 23.19,
       "pct_to_ath": 97.3
+    },
+    {
+      "sym": "EE",
+      "name": "Excelerate Energy, Inc.",
+      "mcap": 4,
+      "price": 35.55,
+      "basis": 35.15,
+      "bxt_today": -6.42,
+      "bxt_yest": -8.45,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 43.17,
+      "pct_to_ath": 21.4
     }
   ],
   "fvb_red": [
@@ -823,23 +823,6 @@
       "pct_to_ath": 14.0
     },
     {
-      "sym": "OSIS",
-      "name": "OSI Systems, Inc. (DE)",
-      "mcap": 4,
-      "price": 234.74,
-      "basis": 235.03,
-      "bxt_today": -4.72,
-      "bxt_yest": 10.94,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 41,
-      "bxt_streak": 41,
-      "ath": 311.72,
-      "pct_to_ath": 32.8
-    },
-    {
       "sym": "ZETA",
       "name": "Zeta Global Holdings Corp.",
       "mcap": 4,
@@ -855,6 +838,23 @@
       "bxt_streak": null,
       "ath": 38.2,
       "pct_to_ath": 114.0
+    },
+    {
+      "sym": "OSIS",
+      "name": "OSI Systems, Inc. (DE)",
+      "mcap": 4,
+      "price": 234.74,
+      "basis": 235.03,
+      "bxt_today": -4.72,
+      "bxt_yest": 10.94,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 41,
+      "bxt_streak": 41,
+      "ath": 311.72,
+      "pct_to_ath": 32.8
     },
     {
       "sym": "NHI",
@@ -1609,21 +1609,21 @@
       "pct_to_ath": 23.4
     },
     {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
-      "price": 98.66,
-      "basis": 94.35,
-      "bxt_today": -1.0,
-      "bxt_yest": 1.46,
+      "price": 142.65,
+      "basis": 132.9,
+      "bxt_today": -0.73,
+      "bxt_yest": 0.78,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 29.2
     },
     {
       "sym": "EXEL",
@@ -1643,21 +1643,21 @@
       "pct_to_ath": 13.7
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
       "mcap": 11,
-      "price": 142.65,
-      "basis": 132.9,
-      "bxt_today": -0.73,
-      "bxt_yest": 0.78,
+      "price": 98.66,
+      "basis": 94.35,
+      "bxt_today": -1.0,
+      "bxt_yest": 1.46,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 29.2
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
     },
     {
       "sym": "ENSG",
@@ -1694,23 +1694,6 @@
       "pct_to_ath": 9.9
     },
     {
-      "sym": "LLYVA",
-      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
-      "mcap": 8,
-      "price": 90.97,
-      "basis": 89.07,
-      "bxt_today": -1.95,
-      "bxt_yest": 0.32,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 99.82,
-      "pct_to_ath": 9.7
-    },
-    {
       "sym": "W",
       "name": "Wayfair Inc.",
       "mcap": 8,
@@ -1726,6 +1709,23 @@
       "bxt_streak": 35,
       "ath": 369.0,
       "pct_to_ath": 483.9
+    },
+    {
+      "sym": "LLYVA",
+      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "mcap": 8,
+      "price": 90.97,
+      "basis": 89.07,
+      "bxt_today": -1.95,
+      "bxt_yest": 0.32,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 99.82,
+      "pct_to_ath": 9.7
     },
     {
       "sym": "PCVX",
@@ -1762,23 +1762,6 @@
       "pct_to_ath": 14.0
     },
     {
-      "sym": "ACT",
-      "name": "Enact Holdings, Inc.",
-      "mcap": 6,
-      "price": 42.31,
-      "basis": 41.35,
-      "bxt_today": -0.01,
-      "bxt_yest": 2.28,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 44.8,
-      "pct_to_ath": 5.9
-    },
-    {
       "sym": "CGON",
       "name": "CG Oncology, Inc. Common stock",
       "mcap": 6,
@@ -1796,21 +1779,21 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "CNX",
-      "name": "CNX Resources Corporation",
-      "mcap": 5,
-      "price": 38.02,
-      "basis": 34.78,
-      "bxt_today": -0.07,
-      "bxt_yest": 2.97,
+      "sym": "ACT",
+      "name": "Enact Holdings, Inc.",
+      "mcap": 6,
+      "price": 42.31,
+      "basis": 41.35,
+      "bxt_today": -0.01,
+      "bxt_yest": 2.28,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 99.25,
-      "pct_to_ath": 161.0
+      "bxt_streak": 4,
+      "ath": 44.8,
+      "pct_to_ath": 5.9
     },
     {
       "sym": "PTCT",
@@ -1828,6 +1811,23 @@
       "bxt_streak": 25,
       "ath": 87.5,
       "pct_to_ath": 34.5
+    },
+    {
+      "sym": "CNX",
+      "name": "CNX Resources Corporation",
+      "mcap": 5,
+      "price": 38.02,
+      "basis": 34.78,
+      "bxt_today": -0.07,
+      "bxt_yest": 2.97,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 99.25,
+      "pct_to_ath": 161.0
     },
     {
       "sym": "AX",
@@ -1864,23 +1864,6 @@
       "pct_to_ath": 32.8
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.2,
-      "basis": 33.8,
-      "bxt_today": -0.71,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.6
-    },
-    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -1913,10 +1896,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 28.6
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.2,
+      "basis": 33.8,
+      "bxt_today": -0.71,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.6
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T21:36:10.891876+00:00",
+    "compared_to": "2026-05-05T21:47:35.960080+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
