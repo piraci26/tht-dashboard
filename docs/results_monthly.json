@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T04:01:42.693481+00:00",
+  "updated_at": "2026-05-05T04:07:09.475008+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.02,
-  "scanned_count": 1507,
+  "scan_seconds": 6.28,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -653,23 +653,6 @@
       "pct_to_ath": 15.6
     },
     {
-      "sym": "MDA",
-      "name": "MDA Space Ltd. Common Shares",
-      "mcap": 4,
-      "price": 30.88,
-      "basis": 30.9,
-      "bxt_today": 7.13,
-      "bxt_yest": 10.28,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 37.45,
-      "pct_to_ath": 21.3
-    },
-    {
       "sym": "NVST",
       "name": "Envista Holdings Corporation",
       "mcap": 4,
@@ -685,6 +668,23 @@
       "bxt_streak": null,
       "ath": 52.03,
       "pct_to_ath": 101.6
+    },
+    {
+      "sym": "MDA",
+      "name": "MDA Space Ltd. Common Shares",
+      "mcap": 4,
+      "price": 30.88,
+      "basis": 30.9,
+      "bxt_today": 7.13,
+      "bxt_yest": 10.28,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 37.45,
+      "pct_to_ath": 21.3
     },
     {
       "sym": "ALHC",
@@ -1286,6 +1286,23 @@
       "pct_to_ath": 22.0
     },
     {
+      "sym": "LMT",
+      "name": "Lockheed Martin Corporation",
+      "mcap": 119,
+      "price": 518.15,
+      "basis": 471.04,
+      "bxt_today": -0.46,
+      "bxt_yest": 2.1,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 692.0,
+      "pct_to_ath": 33.6
+    },
+    {
       "sym": "GRMN",
       "name": "Garmin Ltd. (Switzerland)",
       "mcap": 46,
@@ -1490,23 +1507,6 @@
       "pct_to_ath": 30.9
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 58.01,
-      "basis": 54.73,
-      "bxt_today": -3.11,
-      "bxt_yest": 0.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1522,6 +1522,23 @@
       "bxt_streak": 7,
       "ath": 246.31,
       "pct_to_ath": 7.5
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 58.01,
+      "basis": 54.73,
+      "bxt_today": -3.11,
+      "bxt_yest": 0.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "EXEL",
@@ -1609,23 +1626,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.28,
-      "basis": 80.67,
-      "bxt_today": -1.45,
-      "bxt_yest": 1.63,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 16.8
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -1641,6 +1641,23 @@
       "bxt_streak": 18,
       "ath": 36.0,
       "pct_to_ath": 21.8
+    },
+    {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.28,
+      "basis": 80.67,
+      "bxt_today": -1.45,
+      "bxt_yest": 1.63,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 16.8
     },
     {
       "sym": "TBBB",
@@ -1677,23 +1694,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
-      "bxt_today": -0.5,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
-    },
-    {
       "sym": "TNL",
       "name": "Travel   Leisure Co. Common  Stock",
       "mcap": 4,
@@ -1709,18 +1709,34 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 30.3
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.3,
+      "basis": 33.8,
+      "bxt_today": -0.5,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T03:56:18.830533+00:00",
+    "compared_to": "2026-05-05T04:01:42.693481+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "LMT",
         "name": "Lockheed Martin Corporation",
@@ -1731,6 +1747,7 @@
         "ath": 692.0,
         "pct_to_ath": 33.6
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
