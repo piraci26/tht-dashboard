@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T09:58:39.983505+00:00",
+  "updated_at": "2026-05-05T10:04:40.042817+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.29,
-  "scanned_count": 1511,
+  "scan_seconds": 26.75,
+  "scanned_count": 1507,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -207,23 +207,6 @@
       "bxt_streak": null,
       "ath": 80.13,
       "pct_to_ath": 106.8
-    },
-    {
-      "sym": "FIG",
-      "name": "Figma, Inc.",
-      "mcap": 11,
-      "price": 19.96,
-      "basis": 18.76,
-      "bxt_today": 16.3,
-      "bxt_yest": 9.41,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 36,
-      "bxt_streak": null,
-      "ath": 142.92,
-      "pct_to_ath": 616.0
     },
     {
       "sym": "PCOR",
@@ -653,23 +636,6 @@
       "pct_to_ath": 15.6
     },
     {
-      "sym": "MDA",
-      "name": "MDA Space Ltd. Common Shares",
-      "mcap": 4,
-      "price": 30.88,
-      "basis": 30.9,
-      "bxt_today": 7.13,
-      "bxt_yest": 10.28,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 37.45,
-      "pct_to_ath": 21.3
-    },
-    {
       "sym": "NVST",
       "name": "Envista Holdings Corporation",
       "mcap": 4,
@@ -685,6 +651,23 @@
       "bxt_streak": null,
       "ath": 52.03,
       "pct_to_ath": 101.6
+    },
+    {
+      "sym": "MDA",
+      "name": "MDA Space Ltd. Common Shares",
+      "mcap": 4,
+      "price": 30.88,
+      "basis": 30.9,
+      "bxt_today": 7.13,
+      "bxt_yest": 10.28,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 37.45,
+      "pct_to_ath": 21.3
     },
     {
       "sym": "ALHC",
@@ -704,23 +687,6 @@
       "pct_to_ath": 48.5
     },
     {
-      "sym": "EE",
-      "name": "Excelerate Energy, Inc.",
-      "mcap": 4,
-      "price": 34.38,
-      "basis": 34.77,
-      "bxt_today": -8.45,
-      "bxt_yest": -8.22,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 43.17,
-      "pct_to_ath": 25.6
-    },
-    {
       "sym": "CBT",
       "name": "Cabot Corporation",
       "mcap": 4,
@@ -736,6 +702,23 @@
       "bxt_streak": null,
       "ath": 117.46,
       "pct_to_ath": 54.9
+    },
+    {
+      "sym": "EE",
+      "name": "Excelerate Energy, Inc.",
+      "mcap": 4,
+      "price": 34.38,
+      "basis": 34.77,
+      "bxt_today": -8.45,
+      "bxt_yest": -8.22,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 43.17,
+      "pct_to_ath": 25.6
     }
   ],
   "bxt_green": [
@@ -1439,23 +1422,6 @@
       "pct_to_ath": 12.5
     },
     {
-      "sym": "J",
-      "name": "Jacobs Solutions Inc.",
-      "mcap": 15,
-      "price": 130.74,
-      "basis": 119.21,
-      "bxt_today": -2.97,
-      "bxt_yest": 0.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 168.44,
-      "pct_to_ath": 28.8
-    },
-    {
       "sym": "JLL",
       "name": "Jones Lang LaSalle Incorporated",
       "mcap": 15,
@@ -1490,23 +1456,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 140.75,
-      "basis": 132.8,
-      "bxt_today": -1.21,
-      "bxt_yest": 0.78,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 30.9
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1539,6 +1488,23 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 27.0
+    },
+    {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 140.75,
+      "basis": 132.8,
+      "bxt_today": -1.21,
+      "bxt_yest": 0.78,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 30.9
     },
     {
       "sym": "EXEL",
@@ -1626,23 +1592,6 @@
       "pct_to_ath": 4.6
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.28,
-      "basis": 80.67,
-      "bxt_today": -1.45,
-      "bxt_yest": 1.63,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 16.8
-    },
-    {
       "sym": "MRP",
       "name": "Millrose Properties, Inc.",
       "mcap": 5,
@@ -1658,6 +1607,23 @@
       "bxt_streak": 18,
       "ath": 36.0,
       "pct_to_ath": 21.8
+    },
+    {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.28,
+      "basis": 80.67,
+      "bxt_today": -1.45,
+      "bxt_yest": 1.63,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 16.8
     },
     {
       "sym": "TBBB",
@@ -1729,14 +1695,36 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T09:52:58.525775+00:00",
+    "compared_to": "2026-05-05T09:58:39.983505+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "FIG",
+        "name": "Figma, Inc.",
+        "mcap": 11,
+        "price": 19.96,
+        "basis": 18.76,
+        "bxt_today": 16.3,
+        "ath": 142.92,
+        "pct_to_ath": 616.0
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "J",
+        "name": "Jacobs Solutions Inc.",
+        "mcap": 15,
+        "price": 130.74,
+        "basis": 119.21,
+        "bxt_today": -2.97,
+        "ath": 168.44,
+        "pct_to_ath": 28.8
+      }
+    ]
   }
 }
