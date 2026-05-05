@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T07:22:02.361100+00:00",
+  "updated_at": "2026-05-05T07:27:43.163462+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.71,
+  "scan_seconds": 12.57,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -328,23 +328,6 @@
       "pct_to_ath": 66.9
     },
     {
-      "sym": "NUVL",
-      "name": "Nuvalent, Inc.",
-      "mcap": 8,
-      "price": 102.62,
-      "basis": 102.06,
-      "bxt_today": -7.25,
-      "bxt_yest": -7.16,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 113.51,
-      "pct_to_ath": 10.6
-    },
-    {
       "sym": "AMG",
       "name": "Affiliated Managers Group, Inc.",
       "mcap": 8,
@@ -360,6 +343,23 @@
       "bxt_streak": null,
       "ath": 334.78,
       "pct_to_ath": 12.5
+    },
+    {
+      "sym": "NUVL",
+      "name": "Nuvalent, Inc.",
+      "mcap": 8,
+      "price": 102.62,
+      "basis": 102.06,
+      "bxt_today": -7.25,
+      "bxt_yest": -7.16,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 113.51,
+      "pct_to_ath": 10.6
     },
     {
       "sym": "QBTS",
@@ -908,23 +908,6 @@
       "pct_to_ath": 41.5
     },
     {
-      "sym": "L",
-      "name": "Loews Corporation",
-      "mcap": 22,
-      "price": 105.15,
-      "basis": 107.43,
-      "bxt_today": -9.3,
-      "bxt_yest": -0.34,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 114.9,
-      "pct_to_ath": 9.3
-    },
-    {
       "sym": "CHD",
       "name": "Church & Dwight Company, Inc.",
       "mcap": 22,
@@ -940,6 +923,23 @@
       "bxt_streak": 19,
       "ath": 116.46,
       "pct_to_ath": 25.4
+    },
+    {
+      "sym": "L",
+      "name": "Loews Corporation",
+      "mcap": 22,
+      "price": 105.15,
+      "basis": 107.43,
+      "bxt_today": -9.3,
+      "bxt_yest": -0.34,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 114.9,
+      "pct_to_ath": 9.3
     },
     {
       "sym": "RL",
@@ -2389,23 +2389,6 @@
       "pct_to_ath": 73.4
     },
     {
-      "sym": "PBF",
-      "name": "PBF Energy Inc.",
-      "mcap": 5,
-      "price": 45.53,
-      "basis": 38.18,
-      "bxt_today": 1.87,
-      "bxt_yest": -0.31,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 62.88,
-      "pct_to_ath": 38.1
-    },
-    {
       "sym": "CRSP",
       "name": "CRISPR Therapeutics AG Common Shares",
       "mcap": 5,
@@ -2421,6 +2404,23 @@
       "bxt_streak": 2,
       "ath": 220.2,
       "pct_to_ath": 311.0
+    },
+    {
+      "sym": "PBF",
+      "name": "PBF Energy Inc.",
+      "mcap": 5,
+      "price": 45.53,
+      "basis": 38.18,
+      "bxt_today": 1.87,
+      "bxt_yest": -0.31,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 62.88,
+      "pct_to_ath": 38.1
     },
     {
       "sym": "EXLS",
@@ -2782,23 +2782,6 @@
       "pct_to_ath": 2.7
     },
     {
-      "sym": "CFG",
-      "name": "Citizens Financial Group, Inc.",
-      "mcap": 27,
-      "price": 63.56,
-      "basis": 61.74,
-      "bxt_today": -1.09,
-      "bxt_yest": 0.07,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 68.79,
-      "pct_to_ath": 8.2
-    },
-    {
       "sym": "TW",
       "name": "Tradeweb Markets Inc.",
       "mcap": 27,
@@ -2814,6 +2797,23 @@
       "bxt_streak": 16,
       "ath": 152.65,
       "pct_to_ath": 35.6
+    },
+    {
+      "sym": "CFG",
+      "name": "Citizens Financial Group, Inc.",
+      "mcap": 27,
+      "price": 63.56,
+      "basis": 61.74,
+      "bxt_today": -1.09,
+      "bxt_yest": 0.07,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 68.79,
+      "pct_to_ath": 8.2
     },
     {
       "sym": "CW",
@@ -3207,23 +3207,6 @@
       "pct_to_ath": 13.6
     },
     {
-      "sym": "BOKF",
-      "name": "BOK Financial Corporation",
-      "mcap": 8,
-      "price": 133.0,
-      "basis": 129.23,
-      "bxt_today": -0.75,
-      "bxt_yest": 0.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 139.73,
-      "pct_to_ath": 5.1
-    },
-    {
       "sym": "COLB",
       "name": "Columbia Banking System, Inc.",
       "mcap": 8,
@@ -3239,6 +3222,23 @@
       "bxt_streak": 1,
       "ath": 50.68,
       "pct_to_ath": 74.3
+    },
+    {
+      "sym": "BOKF",
+      "name": "BOK Financial Corporation",
+      "mcap": 8,
+      "price": 133.0,
+      "basis": 129.23,
+      "bxt_today": -0.75,
+      "bxt_yest": 0.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 139.73,
+      "pct_to_ath": 5.1
     },
     {
       "sym": "STAG",
@@ -3292,23 +3292,6 @@
       "pct_to_ath": 333.8
     },
     {
-      "sym": "INGR",
-      "name": "Ingredion Incorporated",
-      "mcap": 7,
-      "price": 106.88,
-      "basis": 113.94,
-      "bxt_today": -2.96,
-      "bxt_yest": 3.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 17,
-      "ath": 155.44,
-      "pct_to_ath": 45.4
-    },
-    {
       "sym": "PB",
       "name": "Prosperity Bancshares, Inc.",
       "mcap": 7,
@@ -3324,6 +3307,23 @@
       "bxt_streak": 1,
       "ath": 86.76,
       "pct_to_ath": 26.5
+    },
+    {
+      "sym": "INGR",
+      "name": "Ingredion Incorporated",
+      "mcap": 7,
+      "price": 106.88,
+      "basis": 113.94,
+      "bxt_today": -2.96,
+      "bxt_yest": 3.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 17,
+      "ath": 155.44,
+      "pct_to_ath": 45.4
     },
     {
       "sym": "PTGX",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T07:16:23.040681+00:00",
+    "compared_to": "2026-05-05T07:22:02.361100+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
