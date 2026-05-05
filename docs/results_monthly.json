@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T01:19:13.331386+00:00",
+  "updated_at": "2026-05-05T01:24:37.638808+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.12,
+  "scan_seconds": 6.1,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -158,23 +158,6 @@
       "pct_to_ath": 4.2
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
-      "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
-    },
-    {
       "sym": "PINS",
       "name": "Pinterest, Inc.",
       "mcap": 12,
@@ -190,6 +173,23 @@
       "bxt_streak": null,
       "ath": 89.9,
       "pct_to_ath": 331.2
+    },
+    {
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
+      "mcap": 12,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "DT",
@@ -1010,23 +1010,6 @@
       "pct_to_ath": 101.6
     },
     {
-      "sym": "PVH",
-      "name": "PVH Corp.",
-      "mcap": 4,
-      "price": 88.36,
-      "basis": 89.33,
-      "bxt_today": -2.53,
-      "bxt_yest": -3.8,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 169.22,
-      "pct_to_ath": 91.5
-    },
-    {
       "sym": "ALHC",
       "name": "Alignment Healthcare, Inc.",
       "mcap": 4,
@@ -1042,6 +1025,23 @@
       "bxt_streak": null,
       "ath": 28.59,
       "pct_to_ath": 48.5
+    },
+    {
+      "sym": "PVH",
+      "name": "PVH Corp.",
+      "mcap": 4,
+      "price": 88.36,
+      "basis": 89.33,
+      "bxt_today": -2.53,
+      "bxt_yest": -3.8,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 169.22,
+      "pct_to_ath": 91.5
     },
     {
       "sym": "DOO",
@@ -1061,23 +1061,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "CBT",
-      "name": "Cabot Corporation",
-      "mcap": 4,
-      "price": 75.85,
-      "basis": 76.58,
-      "bxt_today": -7.49,
-      "bxt_yest": -6.91,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.46,
-      "pct_to_ath": 54.9
-    },
-    {
       "sym": "LBTYK",
       "name": "Liberty Global Ltd. Class C Common Shares",
       "mcap": 4,
@@ -1093,6 +1076,23 @@
       "bxt_streak": null,
       "ath": 23.19,
       "pct_to_ath": 101.4
+    },
+    {
+      "sym": "CBT",
+      "name": "Cabot Corporation",
+      "mcap": 4,
+      "price": 75.85,
+      "basis": 76.58,
+      "bxt_today": -7.49,
+      "bxt_yest": -6.91,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.46,
+      "pct_to_ath": 54.9
     },
     {
       "sym": "CVCO",
@@ -2000,21 +2000,21 @@
       "pct_to_ath": 11.0
     },
     {
-      "sym": "DOO",
-      "name": "BRP Inc. Common Subordinate Voting Shares",
+      "sym": "TNL",
+      "name": "Travel   Leisure Co. Common  Stock",
       "mcap": 4,
-      "price": 53.52,
-      "basis": 55.49,
-      "bxt_today": -0.45,
-      "bxt_yest": 3.4,
+      "price": 62.16,
+      "basis": 59.72,
+      "bxt_today": -0.79,
+      "bxt_yest": 4.87,
       "fvb_g": false,
-      "fvb_r": true,
+      "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
-      "fvb_streak": 10,
-      "bxt_streak": 10,
-      "ath": 102.96,
-      "pct_to_ath": 92.4
+      "fvb_streak": null,
+      "bxt_streak": 29,
+      "ath": 81.0,
+      "pct_to_ath": 30.3
     },
     {
       "sym": "SKT",
@@ -2034,25 +2034,25 @@
       "pct_to_ath": 16.3
     },
     {
-      "sym": "TNL",
-      "name": "Travel   Leisure Co. Common  Stock",
+      "sym": "DOO",
+      "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
-      "price": 62.16,
-      "basis": 59.72,
-      "bxt_today": -0.79,
-      "bxt_yest": 4.87,
+      "price": 53.52,
+      "basis": 55.49,
+      "bxt_today": -0.45,
+      "bxt_yest": 3.4,
       "fvb_g": false,
-      "fvb_r": false,
+      "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 29,
-      "ath": 81.0,
-      "pct_to_ath": 30.3
+      "fvb_streak": 10,
+      "bxt_streak": 10,
+      "ath": 102.96,
+      "pct_to_ath": 92.4
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T01:13:49.612852+00:00",
+    "compared_to": "2026-05-05T01:19:13.331386+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
