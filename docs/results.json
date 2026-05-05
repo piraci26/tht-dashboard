@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T12:36:38.043388+00:00",
+  "updated_at": "2026-05-05T12:42:06.920050+00:00",
   "timeframe": "daily",
-  "scan_seconds": 9.01,
-  "scanned_count": 1510,
+  "scan_seconds": 10.42,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CTVA",
@@ -209,6 +209,23 @@
       "pct_to_ath": 10.7
     },
     {
+      "sym": "FIVE",
+      "name": "Five Below, Inc.",
+      "mcap": 13,
+      "price": 231.1,
+      "basis": 230.62,
+      "bxt_today": -7.85,
+      "bxt_yest": -6.75,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 251.63,
+      "pct_to_ath": 8.9
+    },
+    {
       "sym": "SOLS",
       "name": "Solstice Advanced Materials Inc.",
       "mcap": 13,
@@ -328,23 +345,6 @@
       "pct_to_ath": 171.1
     },
     {
-      "sym": "CYTK",
-      "name": "Cytokinetics, Incorporated",
-      "mcap": 8,
-      "price": 66.05,
-      "basis": 64.78,
-      "bxt_today": -2.23,
-      "bxt_yest": -11.0,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 6,
-      "bxt_streak": null,
-      "ath": 110.25,
-      "pct_to_ath": 66.9
-    },
-    {
       "sym": "NNN",
       "name": "NNN REIT, Inc.",
       "mcap": 8,
@@ -360,6 +360,23 @@
       "bxt_streak": null,
       "ath": 59.26,
       "pct_to_ath": 34.5
+    },
+    {
+      "sym": "CYTK",
+      "name": "Cytokinetics, Incorporated",
+      "mcap": 8,
+      "price": 66.05,
+      "basis": 64.78,
+      "bxt_today": -2.23,
+      "bxt_yest": -11.0,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 6,
+      "bxt_streak": null,
+      "ath": 110.25,
+      "pct_to_ath": 66.9
     },
     {
       "sym": "KRYS",
@@ -1163,23 +1180,6 @@
       "pct_to_ath": 10.2
     },
     {
-      "sym": "CRH",
-      "name": "CRH PLC Ordinary Shares",
-      "mcap": 74,
-      "price": 110.8,
-      "basis": 115.59,
-      "bxt_today": -6.2,
-      "bxt_yest": 1.36,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 2,
-      "bxt_streak": 28,
-      "ath": 131.55,
-      "pct_to_ath": 18.7
-    },
-    {
       "sym": "MNST",
       "name": "Monster Beverage Corporation",
       "mcap": 74,
@@ -1195,6 +1195,23 @@
       "bxt_streak": null,
       "ath": 87.38,
       "pct_to_ath": 16.2
+    },
+    {
+      "sym": "CRH",
+      "name": "CRH PLC Ordinary Shares",
+      "mcap": 74,
+      "price": 110.8,
+      "basis": 115.59,
+      "bxt_today": -6.2,
+      "bxt_yest": 1.36,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 2,
+      "bxt_streak": 28,
+      "ath": 131.55,
+      "pct_to_ath": 18.7
     },
     {
       "sym": "AEP",
@@ -1367,23 +1384,6 @@
       "pct_to_ath": 11.5
     },
     {
-      "sym": "FITB",
-      "name": "Fifth Third Bancorp",
-      "mcap": 45,
-      "price": 49.4,
-      "basis": 50.01,
-      "bxt_today": -3.15,
-      "bxt_yest": 2.65,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 23,
-      "bxt_streak": 27,
-      "ath": 69.7,
-      "pct_to_ath": 41.1
-    },
-    {
       "sym": "ROK",
       "name": "Rockwell Automation, Inc.",
       "mcap": 45,
@@ -1399,6 +1399,23 @@
       "bxt_streak": 23,
       "ath": 438.72,
       "pct_to_ath": 9.6
+    },
+    {
+      "sym": "FITB",
+      "name": "Fifth Third Bancorp",
+      "mcap": 45,
+      "price": 49.4,
+      "basis": 50.01,
+      "bxt_today": -3.15,
+      "bxt_yest": 2.65,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 23,
+      "bxt_streak": 27,
+      "ath": 69.7,
+      "pct_to_ath": 41.1
     },
     {
       "sym": "WAB",
@@ -1775,23 +1792,6 @@
       "pct_to_ath": 7.5
     },
     {
-      "sym": "CHD",
-      "name": "Church & Dwight Company, Inc.",
-      "mcap": 22,
-      "price": 92.89,
-      "basis": 95.09,
-      "bxt_today": 1.16,
-      "bxt_yest": 12.39,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 7,
-      "bxt_streak": null,
-      "ath": 116.46,
-      "pct_to_ath": 25.4
-    },
-    {
       "sym": "L",
       "name": "Loews Corporation",
       "mcap": 22,
@@ -1807,6 +1807,23 @@
       "bxt_streak": 20,
       "ath": 114.9,
       "pct_to_ath": 9.3
+    },
+    {
+      "sym": "CHD",
+      "name": "Church & Dwight Company, Inc.",
+      "mcap": 22,
+      "price": 92.89,
+      "basis": 95.09,
+      "bxt_today": 1.16,
+      "bxt_yest": 12.39,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": null,
+      "ath": 116.46,
+      "pct_to_ath": 25.4
     },
     {
       "sym": "OMC",
@@ -1911,6 +1928,23 @@
       "pct_to_ath": 26.1
     },
     {
+      "sym": "DKS",
+      "name": "Dick's Sporting Goods Inc",
+      "mcap": 19,
+      "price": 217.27,
+      "basis": 219.93,
+      "bxt_today": -6.98,
+      "bxt_yest": 0.87,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 20,
+      "bxt_streak": 24,
+      "ath": 254.6,
+      "pct_to_ath": 17.2
+    },
+    {
       "sym": "SNA",
       "name": "Snap-On Incorporated",
       "mcap": 19,
@@ -1960,23 +1994,6 @@
       "bxt_streak": null,
       "ath": 85.27,
       "pct_to_ath": 3.9
-    },
-    {
-      "sym": "DKS",
-      "name": "Dick's Sporting Goods Inc",
-      "mcap": 19,
-      "price": 217.27,
-      "basis": 219.93,
-      "bxt_today": -6.98,
-      "bxt_yest": 0.87,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 20,
-      "bxt_streak": 24,
-      "ath": 254.6,
-      "pct_to_ath": 17.2
     },
     {
       "sym": "YUMC",
@@ -2285,23 +2302,6 @@
       "pct_to_ath": 166.7
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 58.01,
-      "basis": 58.56,
-      "bxt_today": 8.25,
-      "bxt_yest": 14.13,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "GME",
       "name": "GameStop Corporation",
       "mcap": 11,
@@ -2319,21 +2319,21 @@
       "pct_to_ath": 406.5
     },
     {
-      "sym": "JKHY",
-      "name": "Jack Henry & Associates, Inc.",
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
-      "price": 152.52,
-      "basis": 153.31,
-      "bxt_today": 9.49,
-      "bxt_yest": 10.46,
+      "price": 58.01,
+      "basis": 58.56,
+      "bxt_today": 8.25,
+      "bxt_yest": 14.13,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 2,
       "bxt_streak": null,
-      "ath": 212.62,
-      "pct_to_ath": 39.4
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "ZBRA",
@@ -2353,6 +2353,23 @@
       "pct_to_ath": 174.9
     },
     {
+      "sym": "ALSN",
+      "name": "Allison Transmission Holdings, Inc.",
+      "mcap": 11,
+      "price": 129.04,
+      "basis": 129.46,
+      "bxt_today": -6.66,
+      "bxt_yest": -1.81,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 23,
+      "bxt_streak": null,
+      "ath": 137.62,
+      "pct_to_ath": 6.6
+    },
+    {
       "sym": "WYNN",
       "name": "Wynn Resorts, Limited Common stock",
       "mcap": 11,
@@ -2370,21 +2387,21 @@
       "pct_to_ath": 141.0
     },
     {
-      "sym": "ALSN",
-      "name": "Allison Transmission Holdings, Inc.",
+      "sym": "JKHY",
+      "name": "Jack Henry & Associates, Inc.",
       "mcap": 11,
-      "price": 129.04,
-      "basis": 129.46,
-      "bxt_today": -6.66,
-      "bxt_yest": -1.81,
+      "price": 152.52,
+      "basis": 153.31,
+      "bxt_today": 9.49,
+      "bxt_yest": 10.46,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 23,
+      "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 137.62,
-      "pct_to_ath": 6.6
+      "ath": 212.62,
+      "pct_to_ath": 39.4
     },
     {
       "sym": "CAVA",
@@ -2540,23 +2557,6 @@
       "pct_to_ath": 46.8
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 285.61,
-      "basis": 286.03,
-      "bxt_today": 2.99,
-      "bxt_yest": 6.11,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 18,
-      "bxt_streak": null,
-      "ath": 380.17,
-      "pct_to_ath": 33.1
-    },
-    {
       "sym": "LINE",
       "name": "Lineage, Inc.",
       "mcap": 9,
@@ -2574,6 +2574,23 @@
       "pct_to_ath": 154.6
     },
     {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 285.61,
+      "basis": 286.03,
+      "bxt_today": 2.99,
+      "bxt_yest": 6.11,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 18,
+      "bxt_streak": null,
+      "ath": 380.17,
+      "pct_to_ath": 33.1
+    },
+    {
       "sym": "SKM",
       "name": "SK Telecom Co., Ltd.",
       "mcap": 8,
@@ -2589,6 +2606,23 @@
       "bxt_streak": null,
       "ath": 86.7,
       "pct_to_ath": 137.7
+    },
+    {
+      "sym": "PRI",
+      "name": "Primerica, Inc.",
+      "mcap": 8,
+      "price": 270.61,
+      "basis": 273.33,
+      "bxt_today": -6.81,
+      "bxt_yest": 3.3,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 22,
+      "bxt_streak": 23,
+      "ath": 307.91,
+      "pct_to_ath": 13.8
     },
     {
       "sym": "LEVI",
@@ -2623,23 +2657,6 @@
       "bxt_streak": 28,
       "ath": 50.68,
       "pct_to_ath": 74.3
-    },
-    {
-      "sym": "PRI",
-      "name": "Primerica, Inc.",
-      "mcap": 8,
-      "price": 270.61,
-      "basis": 273.33,
-      "bxt_today": -6.81,
-      "bxt_yest": 3.3,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 22,
-      "bxt_streak": 23,
-      "ath": 307.91,
-      "pct_to_ath": 13.8
     },
     {
       "sym": "REXR",
@@ -2846,21 +2863,21 @@
       "pct_to_ath": 175.9
     },
     {
-      "sym": "ADT",
-      "name": "ADT Inc.",
+      "sym": "UBSI",
+      "name": "United Bankshares, Inc.",
       "mcap": 6,
-      "price": 7.06,
-      "basis": 7.11,
-      "bxt_today": 8.21,
-      "bxt_yest": 21.52,
+      "price": 43.1,
+      "basis": 43.69,
+      "bxt_today": -9.24,
+      "bxt_yest": -4.85,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 21,
+      "fvb_streak": 2,
       "bxt_streak": null,
-      "ath": 17.21,
-      "pct_to_ath": 143.8
+      "ath": 49.35,
+      "pct_to_ath": 14.5
     },
     {
       "sym": "PJT",
@@ -2880,21 +2897,21 @@
       "pct_to_ath": 28.9
     },
     {
-      "sym": "UBSI",
-      "name": "United Bankshares, Inc.",
+      "sym": "ADT",
+      "name": "ADT Inc.",
       "mcap": 6,
-      "price": 43.1,
-      "basis": 43.69,
-      "bxt_today": -9.24,
-      "bxt_yest": -4.85,
+      "price": 7.06,
+      "basis": 7.11,
+      "bxt_today": 8.21,
+      "bxt_yest": 21.52,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 2,
+      "fvb_streak": 21,
       "bxt_streak": null,
-      "ath": 49.35,
-      "pct_to_ath": 14.5
+      "ath": 17.21,
+      "pct_to_ath": 143.8
     },
     {
       "sym": "LUNR",
@@ -3033,6 +3050,23 @@
       "pct_to_ath": 416.5
     },
     {
+      "sym": "TDS",
+      "name": "Telephone and Data Systems, Inc. Common Shares",
+      "mcap": 5,
+      "price": 44.97,
+      "basis": 45.14,
+      "bxt_today": -1.8,
+      "bxt_yest": -1.33,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 67.77,
+      "pct_to_ath": 50.7
+    },
+    {
       "sym": "CROX",
       "name": "Crocs, Inc.",
       "mcap": 5,
@@ -3067,21 +3101,21 @@
       "pct_to_ath": 285.0
     },
     {
-      "sym": "TDS",
-      "name": "Telephone and Data Systems, Inc. Common Shares",
+      "sym": "BC",
+      "name": "Brunswick Corporation",
       "mcap": 5,
-      "price": 44.97,
-      "basis": 45.14,
-      "bxt_today": -1.8,
-      "bxt_yest": -1.33,
+      "price": 74.46,
+      "basis": 78.85,
+      "bxt_today": -8.48,
+      "bxt_yest": 0.9,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 67.77,
-      "pct_to_ath": 50.7
+      "bxt_r": true,
+      "fvb_streak": 23,
+      "bxt_streak": 29,
+      "ath": 117.62,
+      "pct_to_ath": 58.0
     },
     {
       "sym": "MATX",
@@ -3118,21 +3152,38 @@
       "pct_to_ath": 21.8
     },
     {
-      "sym": "BC",
-      "name": "Brunswick Corporation",
+      "sym": "AQN",
+      "name": "Algonquin Power & Utilities Corp. Common Shares",
       "mcap": 5,
-      "price": 74.46,
-      "basis": 78.85,
-      "bxt_today": -8.48,
-      "bxt_yest": 0.9,
+      "price": 6.27,
+      "basis": 6.29,
+      "bxt_today": 3.63,
+      "bxt_yest": 3.56,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 17.86,
+      "pct_to_ath": 184.8
+    },
+    {
+      "sym": "ONDS",
+      "name": "Ondas Inc.",
+      "mcap": 5,
+      "price": 9.73,
+      "basis": 10.06,
+      "bxt_today": -3.7,
+      "bxt_yest": 0.12,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
-      "fvb_streak": 23,
-      "bxt_streak": 29,
-      "ath": 117.62,
-      "pct_to_ath": 58.0
+      "fvb_streak": 2,
+      "bxt_streak": 1,
+      "ath": 16.0,
+      "pct_to_ath": 64.4
     },
     {
       "sym": "PSMT",
@@ -3152,40 +3203,6 @@
       "pct_to_ath": 8.1
     },
     {
-      "sym": "SIGI",
-      "name": "Selective Insurance Group, Inc.",
-      "mcap": 5,
-      "price": 80.88,
-      "basis": 81.92,
-      "bxt_today": 0.21,
-      "bxt_yest": 7.09,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 7,
-      "bxt_streak": null,
-      "ath": 109.58,
-      "pct_to_ath": 35.5
-    },
-    {
-      "sym": "AQN",
-      "name": "Algonquin Power & Utilities Corp. Common Shares",
-      "mcap": 5,
-      "price": 6.27,
-      "basis": 6.29,
-      "bxt_today": 3.63,
-      "bxt_yest": 3.56,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 17.86,
-      "pct_to_ath": 184.8
-    },
-    {
       "sym": "GHC",
       "name": "Graham Holdings Company",
       "mcap": 5,
@@ -3203,21 +3220,21 @@
       "pct_to_ath": 9.4
     },
     {
-      "sym": "ONDS",
-      "name": "Ondas Inc.",
+      "sym": "SIGI",
+      "name": "Selective Insurance Group, Inc.",
       "mcap": 5,
-      "price": 9.73,
-      "basis": 10.06,
-      "bxt_today": -3.7,
-      "bxt_yest": 0.12,
+      "price": 80.88,
+      "basis": 81.92,
+      "bxt_today": 0.21,
+      "bxt_yest": 7.09,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 2,
-      "bxt_streak": 1,
-      "ath": 16.0,
-      "pct_to_ath": 64.4
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": null,
+      "ath": 109.58,
+      "pct_to_ath": 35.5
     },
     {
       "sym": "PFSI",
@@ -3322,23 +3339,6 @@
       "pct_to_ath": 29.4
     },
     {
-      "sym": "VSCO",
-      "name": "Victorias Secret & Co.",
-      "mcap": 4,
-      "price": 50.28,
-      "basis": 51.69,
-      "bxt_today": -0.67,
-      "bxt_yest": 3.4,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 2,
-      "bxt_streak": 23,
-      "ath": 76.0,
-      "pct_to_ath": 51.2
-    },
-    {
       "sym": "SLM",
       "name": "SLM Corporation",
       "mcap": 4,
@@ -3356,21 +3356,21 @@
       "pct_to_ath": 55.4
     },
     {
-      "sym": "GPI",
-      "name": "Group 1 Automotive, Inc.",
+      "sym": "VSCO",
+      "name": "Victorias Secret & Co.",
       "mcap": 4,
-      "price": 330.0,
-      "basis": 340.99,
-      "bxt_today": -0.73,
-      "bxt_yest": 15.56,
+      "price": 50.28,
+      "basis": 51.69,
+      "bxt_today": -0.67,
+      "bxt_yest": 3.4,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": true,
-      "fvb_streak": 30,
-      "bxt_streak": 31,
-      "ath": 490.09,
-      "pct_to_ath": 48.5
+      "fvb_streak": 2,
+      "bxt_streak": 23,
+      "ath": 76.0,
+      "pct_to_ath": 51.2
     },
     {
       "sym": "EPR",
@@ -3388,6 +3388,23 @@
       "bxt_streak": null,
       "ath": 84.67,
       "pct_to_ath": 53.2
+    },
+    {
+      "sym": "GPI",
+      "name": "Group 1 Automotive, Inc.",
+      "mcap": 4,
+      "price": 330.0,
+      "basis": 340.99,
+      "bxt_today": -0.73,
+      "bxt_yest": 15.56,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 30,
+      "bxt_streak": 31,
+      "ath": 490.09,
+      "pct_to_ath": 48.5
     },
     {
       "sym": "PVH",
@@ -3441,23 +3458,6 @@
       "pct_to_ath": 24.2
     },
     {
-      "sym": "BBWI",
-      "name": "Bath & Body Works, Inc.",
-      "mcap": 4,
-      "price": 18.56,
-      "basis": 19.05,
-      "bxt_today": 0.21,
-      "bxt_yest": 3.78,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 82.0,
-      "pct_to_ath": 341.8
-    },
-    {
       "sym": "FULT",
       "name": "Fulton Financial Corporation",
       "mcap": 4,
@@ -3473,6 +3473,23 @@
       "bxt_streak": null,
       "ath": 22.99,
       "pct_to_ath": 8.4
+    },
+    {
+      "sym": "BBWI",
+      "name": "Bath & Body Works, Inc.",
+      "mcap": 4,
+      "price": 18.56,
+      "basis": 19.05,
+      "bxt_today": 0.21,
+      "bxt_yest": 3.78,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 82.0,
+      "pct_to_ath": 341.8
     },
     {
       "sym": "RNST",
@@ -3851,23 +3868,6 @@
       "pct_to_ath": 0.9
     },
     {
-      "sym": "THC",
-      "name": "Tenet Healthcare Corporation",
-      "mcap": 16,
-      "price": 185.35,
-      "basis": 189.44,
-      "bxt_today": 1.57,
-      "bxt_yest": -4.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 247.21,
-      "pct_to_ath": 33.4
-    },
-    {
       "sym": "IREN",
       "name": "IREN Limited Ordinary Shares",
       "mcap": 16,
@@ -3883,6 +3883,23 @@
       "bxt_streak": 3,
       "ath": 76.87,
       "pct_to_ath": 55.4
+    },
+    {
+      "sym": "THC",
+      "name": "Tenet Healthcare Corporation",
+      "mcap": 16,
+      "price": 185.35,
+      "basis": 189.44,
+      "bxt_today": 1.57,
+      "bxt_yest": -4.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 6,
+      "ath": 247.21,
+      "pct_to_ath": 33.4
     },
     {
       "sym": "ONTO",
@@ -4397,23 +4414,6 @@
       "pct_to_ath": 12.9
     },
     {
-      "sym": "CVNA",
-      "name": "Carvana Co.",
-      "mcap": 83,
-      "price": 376.55,
-      "basis": 378.65,
-      "bxt_today": -4.45,
-      "bxt_yest": 1.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 23,
-      "bxt_streak": 29,
-      "ath": 486.89,
-      "pct_to_ath": 29.3
-    },
-    {
       "sym": "ABNB",
       "name": "Airbnb, Inc.",
       "mcap": 83,
@@ -4429,6 +4429,23 @@
       "bxt_streak": 18,
       "ath": 219.94,
       "pct_to_ath": 58.4
+    },
+    {
+      "sym": "CVNA",
+      "name": "Carvana Co.",
+      "mcap": 83,
+      "price": 376.55,
+      "basis": 378.65,
+      "bxt_today": -4.45,
+      "bxt_yest": 1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 23,
+      "bxt_streak": 29,
+      "ath": 486.89,
+      "pct_to_ath": 29.3
     },
     {
       "sym": "UPS",
@@ -4550,23 +4567,6 @@
       "pct_to_ath": 29.7
     },
     {
-      "sym": "FITB",
-      "name": "Fifth Third Bancorp",
-      "mcap": 45,
-      "price": 49.4,
-      "basis": 50.01,
-      "bxt_today": -3.15,
-      "bxt_yest": 2.65,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 23,
-      "bxt_streak": 27,
-      "ath": 69.7,
-      "pct_to_ath": 41.1
-    },
-    {
       "sym": "ROK",
       "name": "Rockwell Automation, Inc.",
       "mcap": 45,
@@ -4582,6 +4582,23 @@
       "bxt_streak": 23,
       "ath": 438.72,
       "pct_to_ath": 9.6
+    },
+    {
+      "sym": "FITB",
+      "name": "Fifth Third Bancorp",
+      "mcap": 45,
+      "price": 49.4,
+      "basis": 50.01,
+      "bxt_today": -3.15,
+      "bxt_yest": 2.65,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 23,
+      "bxt_streak": 27,
+      "ath": 69.7,
+      "pct_to_ath": 41.1
     },
     {
       "sym": "STT",
@@ -4669,23 +4686,6 @@
       "pct_to_ath": 64.2
     },
     {
-      "sym": "FTI",
-      "name": "TechnipFMC plc Ordinary Share",
-      "mcap": 30,
-      "price": 74.6,
-      "basis": 73.51,
-      "bxt_today": -2.3,
-      "bxt_yest": 2.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 77.78,
-      "pct_to_ath": 4.3
-    },
-    {
       "sym": "Q",
       "name": "Qnity Electronics, Inc.",
       "mcap": 30,
@@ -4701,6 +4701,23 @@
       "bxt_streak": 20,
       "ath": 146.67,
       "pct_to_ath": 4.0
+    },
+    {
+      "sym": "FTI",
+      "name": "TechnipFMC plc Ordinary Share",
+      "mcap": 30,
+      "price": 74.6,
+      "basis": 73.51,
+      "bxt_today": -2.3,
+      "bxt_yest": 2.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 77.78,
+      "pct_to_ath": 4.3
     },
     {
       "sym": "RF",
@@ -4788,23 +4805,6 @@
       "pct_to_ath": 7.5
     },
     {
-      "sym": "DRI",
-      "name": "Darden Restaurants, Inc.",
-      "mcap": 22,
-      "price": 192.09,
-      "basis": 197.16,
-      "bxt_today": -5.08,
-      "bxt_yest": 0.54,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 228.27,
-      "pct_to_ath": 18.8
-    },
-    {
       "sym": "L",
       "name": "Loews Corporation",
       "mcap": 22,
@@ -4820,6 +4820,23 @@
       "bxt_streak": 20,
       "ath": 114.9,
       "pct_to_ath": 9.3
+    },
+    {
+      "sym": "DRI",
+      "name": "Darden Restaurants, Inc.",
+      "mcap": 22,
+      "price": 192.09,
+      "basis": 197.16,
+      "bxt_today": -5.08,
+      "bxt_yest": 0.54,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 228.27,
+      "pct_to_ath": 18.8
     },
     {
       "sym": "OMC",
@@ -4890,6 +4907,23 @@
       "pct_to_ath": 26.1
     },
     {
+      "sym": "DKS",
+      "name": "Dick's Sporting Goods Inc",
+      "mcap": 19,
+      "price": 217.27,
+      "basis": 219.93,
+      "bxt_today": -6.98,
+      "bxt_yest": 0.87,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 20,
+      "bxt_streak": 24,
+      "ath": 254.6,
+      "pct_to_ath": 17.2
+    },
+    {
       "sym": "SNA",
       "name": "Snap-On Incorporated",
       "mcap": 19,
@@ -4922,23 +4956,6 @@
       "bxt_streak": 32,
       "ath": 167.19,
       "pct_to_ath": 19.7
-    },
-    {
-      "sym": "DKS",
-      "name": "Dick's Sporting Goods Inc",
-      "mcap": 19,
-      "price": 217.27,
-      "basis": 219.93,
-      "bxt_today": -6.98,
-      "bxt_yest": 0.87,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 20,
-      "bxt_streak": 24,
-      "ath": 254.6,
-      "pct_to_ath": 17.2
     },
     {
       "sym": "AMKR",
@@ -5366,23 +5383,6 @@
       "pct_to_ath": 42.6
     },
     {
-      "sym": "COLB",
-      "name": "Columbia Banking System, Inc.",
-      "mcap": 8,
-      "price": 29.07,
-      "basis": 29.22,
-      "bxt_today": -0.45,
-      "bxt_yest": 4.89,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 23,
-      "bxt_streak": 28,
-      "ath": 50.68,
-      "pct_to_ath": 74.3
-    },
-    {
       "sym": "PRI",
       "name": "Primerica, Inc.",
       "mcap": 8,
@@ -5398,6 +5398,23 @@
       "bxt_streak": 23,
       "ath": 307.91,
       "pct_to_ath": 13.8
+    },
+    {
+      "sym": "COLB",
+      "name": "Columbia Banking System, Inc.",
+      "mcap": 8,
+      "price": 29.07,
+      "basis": 29.22,
+      "bxt_today": -0.45,
+      "bxt_yest": 4.89,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 23,
+      "bxt_streak": 28,
+      "ath": 50.68,
+      "pct_to_ath": 74.3
     },
     {
       "sym": "REXR",
@@ -5655,23 +5672,6 @@
       "pct_to_ath": 285.0
     },
     {
-      "sym": "MRP",
-      "name": "Millrose Properties, Inc.",
-      "mcap": 5,
-      "price": 29.55,
-      "basis": 30.34,
-      "bxt_today": -6.51,
-      "bxt_yest": 1.35,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 18,
-      "bxt_streak": 18,
-      "ath": 36.0,
-      "pct_to_ath": 21.8
-    },
-    {
       "sym": "BC",
       "name": "Brunswick Corporation",
       "mcap": 5,
@@ -5687,6 +5687,23 @@
       "bxt_streak": 29,
       "ath": 117.62,
       "pct_to_ath": 58.0
+    },
+    {
+      "sym": "MRP",
+      "name": "Millrose Properties, Inc.",
+      "mcap": 5,
+      "price": 29.55,
+      "basis": 30.34,
+      "bxt_today": -6.51,
+      "bxt_yest": 1.35,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 18,
+      "bxt_streak": 18,
+      "ath": 36.0,
+      "pct_to_ath": 21.8
     },
     {
       "sym": "ONDS",
@@ -5740,23 +5757,6 @@
       "pct_to_ath": 49900.0
     },
     {
-      "sym": "CSTM",
-      "name": "Constellium SE Ordinary Shares (France)",
-      "mcap": 4,
-      "price": 30.84,
-      "basis": 30.31,
-      "bxt_today": -2.18,
-      "bxt_yest": 4.42,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 22,
-      "ath": 33.69,
-      "pct_to_ath": 9.2
-    },
-    {
       "sym": "BCO",
       "name": "Brinks Company (The)",
       "mcap": 4,
@@ -5774,21 +5774,21 @@
       "pct_to_ath": 30.6
     },
     {
-      "sym": "VSCO",
-      "name": "Victorias Secret & Co.",
+      "sym": "CSTM",
+      "name": "Constellium SE Ordinary Shares (France)",
       "mcap": 4,
-      "price": 50.28,
-      "basis": 51.69,
-      "bxt_today": -0.67,
-      "bxt_yest": 3.4,
+      "price": 30.84,
+      "basis": 30.31,
+      "bxt_today": -2.18,
+      "bxt_yest": 4.42,
       "fvb_g": false,
-      "fvb_r": true,
+      "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
-      "fvb_streak": 2,
-      "bxt_streak": 23,
-      "ath": 76.0,
-      "pct_to_ath": 51.2
+      "fvb_streak": null,
+      "bxt_streak": 22,
+      "ath": 33.69,
+      "pct_to_ath": 9.2
     },
     {
       "sym": "SLM",
@@ -5806,6 +5806,23 @@
       "bxt_streak": 37,
       "ath": 34.97,
       "pct_to_ath": 55.4
+    },
+    {
+      "sym": "VSCO",
+      "name": "Victorias Secret & Co.",
+      "mcap": 4,
+      "price": 50.28,
+      "basis": 51.69,
+      "bxt_today": -0.67,
+      "bxt_yest": 3.4,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 2,
+      "bxt_streak": 23,
+      "ath": 76.0,
+      "pct_to_ath": 51.2
     },
     {
       "sym": "GPI",
@@ -5877,9 +5894,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T12:31:10.049255+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-05T12:36:38.043388+00:00",
+    "fvb_green_added": [
       {
         "sym": "FIVE",
         "name": "Five Below, Inc.",
@@ -5891,6 +5907,7 @@
         "pct_to_ath": 8.9
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
