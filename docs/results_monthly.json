@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T01:30:01.305621+00:00",
+  "updated_at": "2026-05-05T01:35:25.462529+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.22,
-  "scanned_count": 1510,
+  "scan_seconds": 6.35,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -619,23 +619,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 171.88,
-      "basis": 171.93,
-      "bxt_today": 12.43,
-      "bxt_yest": 12.16,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 737.45,
-      "pct_to_ath": 329.0
-    },
-    {
       "sym": "OKLO",
       "name": "Oklo Inc. common stock",
       "mcap": 12,
@@ -651,6 +634,23 @@
       "bxt_streak": 25,
       "ath": 193.84,
       "pct_to_ath": 182.6
+    },
+    {
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
+      "mcap": 12,
+      "price": 171.88,
+      "basis": 171.93,
+      "bxt_today": 12.43,
+      "bxt_yest": 12.16,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 737.45,
+      "pct_to_ath": 329.0
     },
     {
       "sym": "GME",
@@ -976,23 +976,6 @@
       "pct_to_ath": 69.7
     },
     {
-      "sym": "MDA",
-      "name": "MDA Space Ltd. Common Shares",
-      "mcap": 4,
-      "price": 30.88,
-      "basis": 30.9,
-      "bxt_today": 7.13,
-      "bxt_yest": 10.28,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 37.45,
-      "pct_to_ath": 21.3
-    },
-    {
       "sym": "NVST",
       "name": "Envista Holdings Corporation",
       "mcap": 4,
@@ -1008,6 +991,23 @@
       "bxt_streak": null,
       "ath": 52.03,
       "pct_to_ath": 101.6
+    },
+    {
+      "sym": "MDA",
+      "name": "MDA Space Ltd. Common Shares",
+      "mcap": 4,
+      "price": 30.88,
+      "basis": 30.9,
+      "bxt_today": 7.13,
+      "bxt_yest": 10.28,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 37.45,
+      "pct_to_ath": 21.3
     },
     {
       "sym": "PVH",
@@ -1078,23 +1078,6 @@
       "pct_to_ath": 101.4
     },
     {
-      "sym": "CBT",
-      "name": "Cabot Corporation",
-      "mcap": 4,
-      "price": 75.85,
-      "basis": 76.58,
-      "bxt_today": -7.49,
-      "bxt_yest": -6.91,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.46,
-      "pct_to_ath": 54.9
-    },
-    {
       "sym": "CVCO",
       "name": "Cavco Industries, Inc. When Issued",
       "mcap": 4,
@@ -1110,6 +1093,23 @@
       "bxt_streak": null,
       "ath": 713.01,
       "pct_to_ath": 48.7
+    },
+    {
+      "sym": "CBT",
+      "name": "Cabot Corporation",
+      "mcap": 4,
+      "price": 75.85,
+      "basis": 76.58,
+      "bxt_today": -7.49,
+      "bxt_yest": -6.91,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.46,
+      "pct_to_ath": 54.9
     },
     {
       "sym": "EE",
@@ -1983,6 +1983,23 @@
       "pct_to_ath": 16.8
     },
     {
+      "sym": "TBBB",
+      "name": "BBB Foods Inc. Common Shares",
+      "mcap": 4,
+      "price": 36.11,
+      "basis": 35.46,
+      "bxt_today": -1.77,
+      "bxt_yest": 1.32,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 40.09,
+      "pct_to_ath": 11.0
+    },
+    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -2035,15 +2052,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T01:24:37.638808+00:00",
+    "compared_to": "2026-05-05T01:30:01.305621+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "TBBB",
         "name": "BBB Foods Inc. Common Shares",
@@ -2054,6 +2070,7 @@
         "ath": 40.09,
         "pct_to_ath": 11.0
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
