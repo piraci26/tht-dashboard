@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T06:02:52.131098+00:00",
+  "updated_at": "2026-05-05T06:08:38.147716+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 10.11,
-  "scanned_count": 1511,
+  "scan_seconds": 13.07,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -513,8 +513,8 @@
       "bxt_r": false,
       "fvb_streak": 4,
       "bxt_streak": null,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 22.34,
+      "pct_to_ath": 93.4
     },
     {
       "sym": "BA",
@@ -857,23 +857,6 @@
       "pct_to_ath": 15.9
     },
     {
-      "sym": "STZ",
-      "name": "Constellation Brands, Inc.",
-      "mcap": 26,
-      "price": 148.14,
-      "basis": 153.09,
-      "bxt_today": 3.9,
-      "bxt_yest": 9.36,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 18,
-      "bxt_streak": null,
-      "ath": 274.87,
-      "pct_to_ath": 85.5
-    },
-    {
       "sym": "ES",
       "name": "Eversource Energy (D/B/A)",
       "mcap": 26,
@@ -889,6 +872,23 @@
       "bxt_streak": null,
       "ath": 99.42,
       "pct_to_ath": 43.2
+    },
+    {
+      "sym": "STZ",
+      "name": "Constellation Brands, Inc.",
+      "mcap": 26,
+      "price": 148.14,
+      "basis": 153.09,
+      "bxt_today": 3.9,
+      "bxt_yest": 9.36,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 18,
+      "bxt_streak": null,
+      "ath": 274.87,
+      "pct_to_ath": 85.5
     },
     {
       "sym": "RF",
@@ -908,6 +908,23 @@
       "pct_to_ath": 41.5
     },
     {
+      "sym": "CHD",
+      "name": "Church & Dwight Company, Inc.",
+      "mcap": 22,
+      "price": 92.89,
+      "basis": 95.0,
+      "bxt_today": -2.86,
+      "bxt_yest": 0.66,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 16,
+      "bxt_streak": 19,
+      "ath": 116.46,
+      "pct_to_ath": 25.4
+    },
+    {
       "sym": "L",
       "name": "Loews Corporation",
       "mcap": 22,
@@ -925,21 +942,21 @@
       "pct_to_ath": 9.3
     },
     {
-      "sym": "CHD",
-      "name": "Church & Dwight Company, Inc.",
-      "mcap": 22,
-      "price": 92.89,
-      "basis": 95.0,
-      "bxt_today": -2.86,
-      "bxt_yest": 0.66,
+      "sym": "DGX",
+      "name": "Quest Diagnostics Incorporated",
+      "mcap": 21,
+      "price": 191.5,
+      "basis": 192.41,
+      "bxt_today": -8.55,
+      "bxt_yest": -6.48,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 16,
-      "bxt_streak": 19,
-      "ath": 116.46,
-      "pct_to_ath": 25.4
+      "bxt_r": false,
+      "fvb_streak": 14,
+      "bxt_streak": null,
+      "ath": 213.5,
+      "pct_to_ath": 11.5
     },
     {
       "sym": "RL",
@@ -974,23 +991,6 @@
       "bxt_streak": null,
       "ath": 407.0,
       "pct_to_ath": 14.0
-    },
-    {
-      "sym": "DGX",
-      "name": "Quest Diagnostics Incorporated",
-      "mcap": 21,
-      "price": 191.5,
-      "basis": 192.41,
-      "bxt_today": -8.55,
-      "bxt_yest": -6.48,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 14,
-      "bxt_streak": null,
-      "ath": 213.5,
-      "pct_to_ath": 11.5
     },
     {
       "sym": "CHRW",
@@ -1163,23 +1163,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "CNA",
-      "name": "CNA Financial Corporation",
-      "mcap": 12,
-      "price": 44.22,
-      "basis": 47.25,
-      "bxt_today": -5.65,
-      "bxt_yest": 3.92,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 4,
-      "bxt_streak": 3,
-      "ath": 55.62,
-      "pct_to_ath": 25.8
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -1195,6 +1178,23 @@
       "bxt_streak": null,
       "ath": 737.45,
       "pct_to_ath": 329.0
+    },
+    {
+      "sym": "CNA",
+      "name": "CNA Financial Corporation",
+      "mcap": 12,
+      "price": 44.22,
+      "basis": 47.25,
+      "bxt_today": -5.65,
+      "bxt_yest": 3.92,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 4,
+      "bxt_streak": 3,
+      "ath": 55.62,
+      "pct_to_ath": 25.8
     },
     {
       "sym": "BLD",
@@ -1350,23 +1350,6 @@
       "pct_to_ath": 154.6
     },
     {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
-      "mcap": 7,
-      "price": 18.39,
-      "basis": 18.76,
-      "bxt_today": -1.32,
-      "bxt_yest": 1.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 3,
-      "bxt_streak": 2,
-      "ath": 100.25,
-      "pct_to_ath": 445.1
-    },
-    {
       "sym": "STAG",
       "name": "Stag Industrial, Inc.",
       "mcap": 7,
@@ -1382,6 +1365,23 @@
       "bxt_streak": 3,
       "ath": 48.27,
       "pct_to_ath": 27.8
+    },
+    {
+      "sym": "VFC",
+      "name": "V.F. Corporation",
+      "mcap": 7,
+      "price": 18.39,
+      "basis": 18.76,
+      "bxt_today": -1.32,
+      "bxt_yest": 1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 3,
+      "bxt_streak": 2,
+      "ath": 100.25,
+      "pct_to_ath": 445.1
     },
     {
       "sym": "AN",
@@ -1503,23 +1503,6 @@
       "pct_to_ath": 12.2
     },
     {
-      "sym": "FCN",
-      "name": "FTI Consulting, Inc.",
-      "mcap": 5,
-      "price": 168.05,
-      "basis": 173.3,
-      "bxt_today": 0.52,
-      "bxt_yest": 7.83,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 243.6,
-      "pct_to_ath": 45.0
-    },
-    {
       "sym": "HWC",
       "name": "Hancock Whitney Corporation",
       "mcap": 5,
@@ -1537,21 +1520,21 @@
       "pct_to_ath": 13.6
     },
     {
-      "sym": "AUB",
-      "name": "Atlantic Union Bankshares Corporation",
+      "sym": "FCN",
+      "name": "FTI Consulting, Inc.",
       "mcap": 5,
-      "price": 37.21,
-      "basis": 37.47,
-      "bxt_today": -1.58,
-      "bxt_yest": -0.34,
+      "price": 168.05,
+      "basis": 173.3,
+      "bxt_today": 0.52,
+      "bxt_yest": 7.83,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 4,
+      "fvb_streak": 5,
       "bxt_streak": null,
-      "ath": 44.54,
-      "pct_to_ath": 19.7
+      "ath": 243.6,
+      "pct_to_ath": 45.0
     },
     {
       "sym": "OPEN",
@@ -1569,6 +1552,23 @@
       "bxt_streak": null,
       "ath": 39.24,
       "pct_to_ath": 664.9
+    },
+    {
+      "sym": "AUB",
+      "name": "Atlantic Union Bankshares Corporation",
+      "mcap": 5,
+      "price": 37.21,
+      "basis": 37.47,
+      "bxt_today": -1.58,
+      "bxt_yest": -0.34,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 44.54,
+      "pct_to_ath": 19.7
     },
     {
       "sym": "BC",
@@ -3003,23 +3003,6 @@
       "pct_to_ath": 270.1
     },
     {
-      "sym": "MGA",
-      "name": "Magna International, Inc.",
-      "mcap": 16,
-      "price": 59.54,
-      "basis": 57.61,
-      "bxt_today": -1.04,
-      "bxt_yest": 0.98,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 104.28,
-      "pct_to_ath": 75.1
-    },
-    {
       "sym": "EMA",
       "name": "Emera Incorporated Common Shares",
       "mcap": 16,
@@ -3035,6 +3018,23 @@
       "bxt_streak": 12,
       "ath": 54.06,
       "pct_to_ath": 2.9
+    },
+    {
+      "sym": "MGA",
+      "name": "Magna International, Inc.",
+      "mcap": 16,
+      "price": 59.54,
+      "basis": 57.61,
+      "bxt_today": -1.04,
+      "bxt_yest": 0.98,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 104.28,
+      "pct_to_ath": 75.1
     },
     {
       "sym": "DECK",
@@ -3241,23 +3241,6 @@
       "pct_to_ath": 5.1
     },
     {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
-      "mcap": 7,
-      "price": 18.39,
-      "basis": 18.76,
-      "bxt_today": -1.32,
-      "bxt_yest": 1.2,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 3,
-      "bxt_streak": 2,
-      "ath": 100.25,
-      "pct_to_ath": 445.1
-    },
-    {
       "sym": "STAG",
       "name": "Stag Industrial, Inc.",
       "mcap": 7,
@@ -3273,6 +3256,23 @@
       "bxt_streak": 3,
       "ath": 48.27,
       "pct_to_ath": 27.8
+    },
+    {
+      "sym": "VFC",
+      "name": "V.F. Corporation",
+      "mcap": 7,
+      "price": 18.39,
+      "basis": 18.76,
+      "bxt_today": -1.32,
+      "bxt_yest": 1.2,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 3,
+      "bxt_streak": 2,
+      "ath": 100.25,
+      "pct_to_ath": 445.1
     },
     {
       "sym": "NOV",
@@ -3394,23 +3394,6 @@
       "pct_to_ath": 201.7
     },
     {
-      "sym": "CWEN",
-      "name": "Clearway Energy, Inc. Class C",
-      "mcap": 5,
-      "price": 38.57,
-      "basis": 37.79,
-      "bxt_today": -3.07,
-      "bxt_yest": 1.99,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 41.79,
-      "pct_to_ath": 8.3
-    },
-    {
       "sym": "RITM",
       "name": "Rithm Capital Corp.",
       "mcap": 5,
@@ -3477,6 +3460,23 @@
       "bxt_streak": 4,
       "ath": 165.46,
       "pct_to_ath": 8.1
+    },
+    {
+      "sym": "CWEN",
+      "name": "Clearway Energy, Inc. Class C",
+      "mcap": 5,
+      "price": 38.57,
+      "basis": 37.79,
+      "bxt_today": -3.07,
+      "bxt_yest": 1.99,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 41.79,
+      "pct_to_ath": 8.3
     },
     {
       "sym": "TCBI",
@@ -3548,36 +3548,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T05:57:20.567891+00:00",
+    "compared_to": "2026-05-05T06:02:52.131098+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "AGNC",
-        "name": "AGNC Investment Corp.",
-        "mcap": 12,
-        "price": 10.65,
-        "basis": 10.91,
-        "bxt_today": -3.29,
-        "ath": 36.77,
-        "pct_to_ath": 245.3
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "STLA",
-        "name": "Stellantis N.V. Common Shares",
-        "mcap": 20,
-        "price": 7.08,
-        "basis": 8.33,
-        "bxt_today": -0.6,
-        "ath": 29.51,
-        "pct_to_ath": 316.8
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
