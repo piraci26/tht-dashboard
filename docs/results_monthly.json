@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T09:06:49.143842+00:00",
+  "updated_at": "2026-05-05T09:12:42.521307+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.89,
-  "scanned_count": 1508,
+  "scan_seconds": 6.81,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -86,8 +86,8 @@
       "bxt_r": false,
       "fvb_streak": 15,
       "bxt_streak": 15,
-      "ath": 282.95,
-      "pct_to_ath": 67.4
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "MRNA",
@@ -158,23 +158,6 @@
       "pct_to_ath": 329.0
     },
     {
-      "sym": "RBRK",
-      "name": "Rubrik, Inc.",
-      "mcap": 12,
-      "price": 57.93,
-      "basis": 56.98,
-      "bxt_today": 6.64,
-      "bxt_yest": 1.73,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 103.0,
-      "pct_to_ath": 77.8
-    },
-    {
       "sym": "PINS",
       "name": "Pinterest, Inc.",
       "mcap": 12,
@@ -190,6 +173,23 @@
       "bxt_streak": null,
       "ath": 89.9,
       "pct_to_ath": 331.2
+    },
+    {
+      "sym": "RBRK",
+      "name": "Rubrik, Inc.",
+      "mcap": 12,
+      "price": 57.93,
+      "basis": 56.98,
+      "bxt_today": 6.64,
+      "bxt_yest": 1.73,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 103.0,
+      "pct_to_ath": 77.8
     },
     {
       "sym": "DT",
@@ -670,23 +670,6 @@
       "pct_to_ath": 101.6
     },
     {
-      "sym": "MDA",
-      "name": "MDA Space Ltd. Common Shares",
-      "mcap": 4,
-      "price": 30.88,
-      "basis": 30.9,
-      "bxt_today": 7.13,
-      "bxt_yest": 10.28,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 20,
-      "bxt_streak": null,
-      "ath": 37.45,
-      "pct_to_ath": 21.3
-    },
-    {
       "sym": "ALHC",
       "name": "Alignment Healthcare, Inc.",
       "mcap": 4,
@@ -702,6 +685,23 @@
       "bxt_streak": null,
       "ath": 28.59,
       "pct_to_ath": 48.5
+    },
+    {
+      "sym": "MDA",
+      "name": "MDA Space Ltd. Common Shares",
+      "mcap": 4,
+      "price": 30.88,
+      "basis": 30.9,
+      "bxt_today": 7.13,
+      "bxt_yest": 10.28,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 20,
+      "bxt_streak": null,
+      "ath": 37.45,
+      "pct_to_ath": 21.3
     },
     {
       "sym": "CBT",
@@ -872,8 +872,8 @@
       "bxt_r": false,
       "fvb_streak": 15,
       "bxt_streak": 15,
-      "ath": 282.95,
-      "pct_to_ath": 67.4
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "CRCL",
@@ -995,23 +995,6 @@
       "pct_to_ath": 280.6
     },
     {
-      "sym": "BMNR",
-      "name": "BitMine Immersion Technologies, Inc.",
-      "mcap": 12,
-      "price": 22.79,
-      "basis": 21.81,
-      "bxt_today": 3.86,
-      "bxt_yest": -1.23,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 161.0,
-      "pct_to_ath": 606.5
-    },
-    {
       "sym": "OKLO",
       "name": "Oklo Inc. common stock",
       "mcap": 12,
@@ -1027,6 +1010,23 @@
       "bxt_streak": 25,
       "ath": 193.84,
       "pct_to_ath": 182.6
+    },
+    {
+      "sym": "BMNR",
+      "name": "BitMine Immersion Technologies, Inc.",
+      "mcap": 12,
+      "price": 22.79,
+      "basis": 21.81,
+      "bxt_today": 3.86,
+      "bxt_yest": -1.23,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 161.0,
+      "pct_to_ath": 606.5
     },
     {
       "sym": "BSY",
@@ -1354,23 +1354,6 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "NTRA",
-      "name": "Natera, Inc.",
-      "mcap": 30,
-      "price": 211.56,
-      "basis": 183.79,
-      "bxt_today": -0.35,
-      "bxt_yest": 1.57,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 256.36,
-      "pct_to_ath": 21.2
-    },
-    {
       "sym": "Q",
       "name": "Qnity Electronics, Inc.",
       "mcap": 30,
@@ -1386,6 +1369,23 @@
       "bxt_streak": 20,
       "ath": 146.67,
       "pct_to_ath": 4.0
+    },
+    {
+      "sym": "NTRA",
+      "name": "Natera, Inc.",
+      "mcap": 30,
+      "price": 211.56,
+      "basis": 183.79,
+      "bxt_today": -0.35,
+      "bxt_yest": 1.57,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 256.36,
+      "pct_to_ath": 21.2
     },
     {
       "sym": "TW",
@@ -1507,23 +1507,6 @@
       "pct_to_ath": 30.9
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 58.01,
-      "basis": 54.73,
-      "bxt_today": -3.11,
-      "bxt_yest": 0.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1539,6 +1522,23 @@
       "bxt_streak": 7,
       "ath": 246.31,
       "pct_to_ath": 7.5
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 58.01,
+      "basis": 54.73,
+      "bxt_today": -3.11,
+      "bxt_yest": 0.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "EXEL",
@@ -1677,23 +1677,6 @@
       "pct_to_ath": 11.0
     },
     {
-      "sym": "DOO",
-      "name": "BRP Inc. Common Subordinate Voting Shares",
-      "mcap": 4,
-      "price": 53.52,
-      "basis": 55.39,
-      "bxt_today": -0.86,
-      "bxt_yest": 2.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 102.96,
-      "pct_to_ath": 92.4
-    },
-    {
       "sym": "SKT",
       "name": "Tanger Inc.",
       "mcap": 4,
@@ -1726,10 +1709,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 30.3
+    },
+    {
+      "sym": "DOO",
+      "name": "BRP Inc. Common Subordinate Voting Shares",
+      "mcap": 4,
+      "price": 53.52,
+      "basis": 55.39,
+      "bxt_today": -0.86,
+      "bxt_yest": 2.52,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 102.96,
+      "pct_to_ath": 92.4
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T09:01:06.885952+00:00",
+    "compared_to": "2026-05-05T09:06:49.143842+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
