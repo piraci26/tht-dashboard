@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T04:34:09.345746+00:00",
+  "updated_at": "2026-05-05T04:39:39.403909+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.65,
-  "scanned_count": 1511,
+  "scan_seconds": 10.63,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -1163,23 +1163,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 171.88,
-      "basis": 174.85,
-      "bxt_today": 2.08,
-      "bxt_yest": 6.96,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 737.45,
-      "pct_to_ath": 329.0
-    },
-    {
       "sym": "CNA",
       "name": "CNA Financial Corporation",
       "mcap": 12,
@@ -1197,21 +1180,21 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "BLD",
-      "name": "TopBuild Corp.",
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
       "mcap": 12,
-      "price": 430.56,
-      "basis": 436.91,
-      "bxt_today": -0.89,
-      "bxt_yest": -1.92,
+      "price": 171.88,
+      "basis": 174.85,
+      "bxt_today": 2.08,
+      "bxt_yest": 6.96,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 2,
+      "fvb_streak": 5,
       "bxt_streak": null,
-      "ath": 559.47,
-      "pct_to_ath": 29.9
+      "ath": 737.45,
+      "pct_to_ath": 329.0
     },
     {
       "sym": "OKLO",
@@ -1229,6 +1212,23 @@
       "bxt_streak": 25,
       "ath": 193.84,
       "pct_to_ath": 182.6
+    },
+    {
+      "sym": "BLD",
+      "name": "TopBuild Corp.",
+      "mcap": 12,
+      "price": 430.56,
+      "basis": 436.91,
+      "bxt_today": -0.89,
+      "bxt_yest": -1.92,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 559.47,
+      "pct_to_ath": 29.9
     },
     {
       "sym": "AGNC",
@@ -1588,23 +1588,6 @@
       "pct_to_ath": 58.0
     },
     {
-      "sym": "SIGI",
-      "name": "Selective Insurance Group, Inc.",
-      "mcap": 5,
-      "price": 80.88,
-      "basis": 81.7,
-      "bxt_today": 3.81,
-      "bxt_yest": 4.18,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 109.58,
-      "pct_to_ath": 35.5
-    },
-    {
       "sym": "ONDS",
       "name": "Ondas Inc.",
       "mcap": 5,
@@ -1620,6 +1603,23 @@
       "bxt_streak": null,
       "ath": 16.0,
       "pct_to_ath": 64.4
+    },
+    {
+      "sym": "SIGI",
+      "name": "Selective Insurance Group, Inc.",
+      "mcap": 5,
+      "price": 80.88,
+      "basis": 81.7,
+      "bxt_today": 3.81,
+      "bxt_yest": 4.18,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 109.58,
+      "pct_to_ath": 35.5
     },
     {
       "sym": "EBC",
@@ -2066,23 +2066,6 @@
       "pct_to_ath": 55.4
     },
     {
-      "sym": "OKTA",
-      "name": "Okta, Inc.",
-      "mcap": 14,
-      "price": 77.24,
-      "basis": 80.3,
-      "bxt_today": 0.62,
-      "bxt_yest": -2.92,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 294.0,
-      "pct_to_ath": 280.6
-    },
-    {
       "sym": "RGA",
       "name": "Reinsurance Group of America, Incorporated",
       "mcap": 14,
@@ -2098,6 +2081,23 @@
       "bxt_streak": 7,
       "ath": 233.81,
       "pct_to_ath": 10.7
+    },
+    {
+      "sym": "OKTA",
+      "name": "Okta, Inc.",
+      "mcap": 14,
+      "price": 77.24,
+      "basis": 80.3,
+      "bxt_today": 0.62,
+      "bxt_yest": -2.92,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 294.0,
+      "pct_to_ath": 280.6
     },
     {
       "sym": "OKLO",
@@ -3088,23 +3088,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "FIVE",
-      "name": "Five Below, Inc.",
-      "mcap": 13,
-      "price": 231.1,
-      "basis": 213.46,
-      "bxt_today": -2.79,
-      "bxt_yest": 0.16,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 23,
-      "ath": 251.63,
-      "pct_to_ath": 8.9
-    },
-    {
       "sym": "RNR",
       "name": "RenaissanceRe Holdings Ltd.",
       "mcap": 13,
@@ -3120,6 +3103,23 @@
       "bxt_streak": 37,
       "ath": 318.2,
       "pct_to_ath": 5.3
+    },
+    {
+      "sym": "FIVE",
+      "name": "Five Below, Inc.",
+      "mcap": 13,
+      "price": 231.1,
+      "basis": 213.46,
+      "bxt_today": -2.79,
+      "bxt_yest": 0.16,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 23,
+      "ath": 251.63,
+      "pct_to_ath": 8.9
     },
     {
       "sym": "EVR",
@@ -3156,23 +3156,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "WBS",
-      "name": "Webster Financial Corporation",
-      "mcap": 12,
-      "price": 71.24,
-      "basis": 68.93,
-      "bxt_today": -0.67,
-      "bxt_yest": 2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 74.0,
-      "pct_to_ath": 3.9
-    },
-    {
       "sym": "BWA",
       "name": "BorgWarner Inc.",
       "mcap": 12,
@@ -3188,6 +3171,23 @@
       "bxt_streak": 1,
       "ath": 70.08,
       "pct_to_ath": 24.6
+    },
+    {
+      "sym": "WBS",
+      "name": "Webster Financial Corporation",
+      "mcap": 12,
+      "price": 71.24,
+      "basis": 68.93,
+      "bxt_today": -0.67,
+      "bxt_yest": 2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 74.0,
+      "pct_to_ath": 3.9
     },
     {
       "sym": "SCI",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T04:28:44.369621+00:00",
+    "compared_to": "2026-05-05T04:34:09.345746+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

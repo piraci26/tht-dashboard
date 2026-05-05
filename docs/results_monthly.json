@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T04:34:16.168358+00:00",
+  "updated_at": "2026-05-05T04:39:45.543542+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.8,
+  "scan_seconds": 6.12,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -1694,23 +1694,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
-      "bxt_today": -0.5,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
-    },
-    {
       "sym": "TNL",
       "name": "Travel   Leisure Co. Common  Stock",
       "mcap": 4,
@@ -1726,28 +1709,34 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 30.3
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.3,
+      "basis": 33.8,
+      "bxt_today": -0.5,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T04:28:50.476000+00:00",
+    "compared_to": "2026-05-05T04:34:16.168358+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "LMT",
-        "name": "Lockheed Martin Corporation",
-        "mcap": 119,
-        "price": 518.15,
-        "basis": 471.04,
-        "bxt_today": -0.46,
-        "ath": 692.0,
-        "pct_to_ath": 33.6
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
