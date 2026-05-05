@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T03:50:55.176479+00:00",
+  "updated_at": "2026-05-05T03:56:18.830533+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.07,
-  "scanned_count": 1509,
+  "scan_seconds": 5.97,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -1269,6 +1269,23 @@
       "pct_to_ath": 9.8
     },
     {
+      "sym": "PAC",
+      "name": "Grupo Aeroportuario Del Pacifico, S.A. B. de C.V. Grupo Aeroportuario Del Pacifico, S.A. de C.V. (each representing 10 Series B shares)",
+      "mcap": 124,
+      "price": 246.27,
+      "basis": 226.66,
+      "bxt_today": -0.87,
+      "bxt_yest": 2.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 17,
+      "ath": 300.41,
+      "pct_to_ath": 22.0
+    },
+    {
       "sym": "LMT",
       "name": "Lockheed Martin Corporation",
       "mcap": 119,
@@ -1490,23 +1507,6 @@
       "pct_to_ath": 30.9
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 58.01,
-      "basis": 54.73,
-      "bxt_today": -3.11,
-      "bxt_yest": 0.61,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1522,6 +1522,23 @@
       "bxt_streak": 7,
       "ath": 246.31,
       "pct_to_ath": 7.5
+    },
+    {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 58.01,
+      "basis": 54.73,
+      "bxt_today": -3.11,
+      "bxt_yest": 0.61,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "EXEL",
@@ -1677,23 +1694,6 @@
       "pct_to_ath": 92.4
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.3,
-      "basis": 33.8,
-      "bxt_today": -0.5,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.3
-    },
-    {
       "sym": "TNL",
       "name": "Travel   Leisure Co. Common  Stock",
       "mcap": 4,
@@ -1709,18 +1709,34 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 30.3
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.3,
+      "basis": 33.8,
+      "bxt_today": -0.5,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T03:45:31.493095+00:00",
+    "compared_to": "2026-05-05T03:50:55.176479+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "PAC",
         "name": "Grupo Aeroportuario Del Pacifico, S.A. B. de C.V. Grupo Aeroportuario Del Pacifico, S.A. de C.V. (each representing 10 Series B shares)",
@@ -1731,6 +1747,7 @@
         "ath": 300.41,
         "pct_to_ath": 22.0
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
