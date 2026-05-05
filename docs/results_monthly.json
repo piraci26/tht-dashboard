@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-05T02:24:19.904637+00:00",
+  "updated_at": "2026-05-05T02:29:43.554600+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.16,
-  "scanned_count": 1510,
+  "scan_seconds": 6.18,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "CEG",
@@ -139,23 +139,6 @@
       "bxt_streak": null,
       "ath": 497.49,
       "pct_to_ath": 951.8
-    },
-    {
-      "sym": "SOLS",
-      "name": "Solstice Advanced Materials Inc.",
-      "mcap": 13,
-      "price": 81.07,
-      "basis": 80.77,
-      "bxt_today": -7.98,
-      "bxt_yest": -9.08,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 84.44,
-      "pct_to_ath": 4.2
     },
     {
       "sym": "PINS",
@@ -602,23 +585,6 @@
       "pct_to_ath": 483.6
     },
     {
-      "sym": "CNA",
-      "name": "CNA Financial Corporation",
-      "mcap": 12,
-      "price": 44.22,
-      "basis": 44.95,
-      "bxt_today": -1.68,
-      "bxt_yest": 2.77,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 11,
-      "bxt_streak": 9,
-      "ath": 55.62,
-      "pct_to_ath": 25.8
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -634,6 +600,23 @@
       "bxt_streak": null,
       "ath": 737.45,
       "pct_to_ath": 329.0
+    },
+    {
+      "sym": "CNA",
+      "name": "CNA Financial Corporation",
+      "mcap": 12,
+      "price": 44.22,
+      "basis": 44.95,
+      "bxt_today": -1.68,
+      "bxt_yest": 2.77,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 11,
+      "bxt_streak": 9,
+      "ath": 55.62,
+      "pct_to_ath": 25.8
     },
     {
       "sym": "OKLO",
@@ -1078,23 +1061,6 @@
       "pct_to_ath": 48.7
     },
     {
-      "sym": "CBT",
-      "name": "Cabot Corporation",
-      "mcap": 4,
-      "price": 75.85,
-      "basis": 76.58,
-      "bxt_today": -7.49,
-      "bxt_yest": -6.91,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.46,
-      "pct_to_ath": 54.9
-    },
-    {
       "sym": "LBTYK",
       "name": "Liberty Global Ltd. Class C Common Shares",
       "mcap": 4,
@@ -1110,6 +1076,23 @@
       "bxt_streak": null,
       "ath": 23.19,
       "pct_to_ath": 101.4
+    },
+    {
+      "sym": "CBT",
+      "name": "Cabot Corporation",
+      "mcap": 4,
+      "price": 75.85,
+      "basis": 76.58,
+      "bxt_today": -7.49,
+      "bxt_yest": -6.91,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.46,
+      "pct_to_ath": 54.9
     },
     {
       "sym": "EE",
@@ -1830,23 +1813,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 140.75,
-      "basis": 133.13,
-      "bxt_today": -0.38,
-      "bxt_yest": 2.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 30.9
-    },
-    {
       "sym": "AIZ",
       "name": "Assurant, Inc.",
       "mcap": 11,
@@ -1881,21 +1847,21 @@
       "pct_to_ath": 27.0
     },
     {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
-      "price": 44.17,
-      "basis": 40.35,
-      "bxt_today": -1.63,
-      "bxt_yest": 0.09,
+      "price": 140.75,
+      "basis": 133.13,
+      "bxt_today": -0.38,
+      "bxt_yest": 2.46,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 14.3
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 30.9
     },
     {
       "sym": "CCK",
@@ -1913,6 +1879,23 @@
       "bxt_streak": 2,
       "ath": 130.42,
       "pct_to_ath": 31.7
+    },
+    {
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
+      "mcap": 11,
+      "price": 44.17,
+      "basis": 40.35,
+      "bxt_today": -1.63,
+      "bxt_yest": 0.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 14.3
     },
     {
       "sym": "ENSG",
@@ -2052,9 +2035,20 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T02:18:55.552784+00:00",
+    "compared_to": "2026-05-05T02:24:19.904637+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "SOLS",
+        "name": "Solstice Advanced Materials Inc.",
+        "mcap": 13,
+        "price": 81.07,
+        "basis": 80.77,
+        "bxt_today": -7.98,
+        "ath": 84.44,
+        "pct_to_ath": 4.2
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
