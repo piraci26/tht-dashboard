@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-05T07:16:23.040681+00:00",
+  "updated_at": "2026-05-05T07:22:02.361100+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 14.91,
+  "scan_seconds": 13.71,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -1197,23 +1197,6 @@
       "pct_to_ath": 329.0
     },
     {
-      "sym": "OKLO",
-      "name": "Oklo Inc. common stock",
-      "mcap": 12,
-      "price": 68.6,
-      "basis": 69.09,
-      "bxt_today": 1.13,
-      "bxt_yest": -0.71,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 25,
-      "ath": 193.84,
-      "pct_to_ath": 182.6
-    },
-    {
       "sym": "BLD",
       "name": "TopBuild Corp.",
       "mcap": 12,
@@ -1231,21 +1214,21 @@
       "pct_to_ath": 29.9
     },
     {
-      "sym": "AGNC",
-      "name": "AGNC Investment Corp.",
+      "sym": "OKLO",
+      "name": "Oklo Inc. common stock",
       "mcap": 12,
-      "price": 10.65,
-      "basis": 10.91,
-      "bxt_today": -3.29,
-      "bxt_yest": -2.21,
+      "price": 68.6,
+      "basis": 69.09,
+      "bxt_today": 1.13,
+      "bxt_yest": -0.71,
       "fvb_g": false,
       "fvb_r": true,
-      "bxt_g": false,
+      "bxt_g": true,
       "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 36.77,
-      "pct_to_ath": 245.3
+      "fvb_streak": 2,
+      "bxt_streak": 25,
+      "ath": 193.84,
+      "pct_to_ath": 182.6
     },
     {
       "sym": "SWK",
@@ -1263,6 +1246,23 @@
       "bxt_streak": null,
       "ath": 225.0,
       "pct_to_ath": 200.5
+    },
+    {
+      "sym": "AGNC",
+      "name": "AGNC Investment Corp.",
+      "mcap": 12,
+      "price": 10.65,
+      "basis": 10.91,
+      "bxt_today": -3.29,
+      "bxt_yest": -2.21,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 36.77,
+      "pct_to_ath": 245.3
     },
     {
       "sym": "UHAL",
@@ -1588,23 +1588,6 @@
       "pct_to_ath": 58.0
     },
     {
-      "sym": "ONDS",
-      "name": "Ondas Inc.",
-      "mcap": 5,
-      "price": 9.73,
-      "basis": 10.26,
-      "bxt_today": -11.75,
-      "bxt_yest": -10.08,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 16.0,
-      "pct_to_ath": 64.4
-    },
-    {
       "sym": "SIGI",
       "name": "Selective Insurance Group, Inc.",
       "mcap": 5,
@@ -1620,6 +1603,23 @@
       "bxt_streak": null,
       "ath": 109.58,
       "pct_to_ath": 35.5
+    },
+    {
+      "sym": "ONDS",
+      "name": "Ondas Inc.",
+      "mcap": 5,
+      "price": 9.73,
+      "basis": 10.26,
+      "bxt_today": -11.75,
+      "bxt_yest": -10.08,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 16.0,
+      "pct_to_ath": 64.4
     },
     {
       "sym": "EBC",
@@ -2389,23 +2389,6 @@
       "pct_to_ath": 73.4
     },
     {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
-      "mcap": 5,
-      "price": 53.58,
-      "basis": 52.35,
-      "bxt_today": 0.32,
-      "bxt_yest": -2.0,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 2,
-      "ath": 220.2,
-      "pct_to_ath": 311.0
-    },
-    {
       "sym": "PBF",
       "name": "PBF Energy Inc.",
       "mcap": 5,
@@ -2421,6 +2404,23 @@
       "bxt_streak": 2,
       "ath": 62.88,
       "pct_to_ath": 38.1
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 53.58,
+      "basis": 52.35,
+      "bxt_today": 0.32,
+      "bxt_yest": -2.0,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 2,
+      "ath": 220.2,
+      "pct_to_ath": 311.0
     },
     {
       "sym": "EXLS",
@@ -3156,23 +3156,6 @@
       "pct_to_ath": 25.8
     },
     {
-      "sym": "WBS",
-      "name": "Webster Financial Corporation",
-      "mcap": 12,
-      "price": 71.24,
-      "basis": 68.93,
-      "bxt_today": -0.67,
-      "bxt_yest": 2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 74.0,
-      "pct_to_ath": 3.9
-    },
-    {
       "sym": "BWA",
       "name": "BorgWarner Inc.",
       "mcap": 12,
@@ -3188,6 +3171,23 @@
       "bxt_streak": 1,
       "ath": 70.08,
       "pct_to_ath": 24.6
+    },
+    {
+      "sym": "WBS",
+      "name": "Webster Financial Corporation",
+      "mcap": 12,
+      "price": 71.24,
+      "basis": 68.93,
+      "bxt_today": -0.67,
+      "bxt_yest": 2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 74.0,
+      "pct_to_ath": 3.9
     },
     {
       "sym": "SCI",
@@ -3207,23 +3207,6 @@
       "pct_to_ath": 13.6
     },
     {
-      "sym": "COLB",
-      "name": "Columbia Banking System, Inc.",
-      "mcap": 8,
-      "price": 29.07,
-      "basis": 28.87,
-      "bxt_today": -0.36,
-      "bxt_yest": 0.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 50.68,
-      "pct_to_ath": 74.3
-    },
-    {
       "sym": "BOKF",
       "name": "BOK Financial Corporation",
       "mcap": 8,
@@ -3239,6 +3222,23 @@
       "bxt_streak": 3,
       "ath": 139.73,
       "pct_to_ath": 5.1
+    },
+    {
+      "sym": "COLB",
+      "name": "Columbia Banking System, Inc.",
+      "mcap": 8,
+      "price": 29.07,
+      "basis": 28.87,
+      "bxt_today": -0.36,
+      "bxt_yest": 0.12,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 50.68,
+      "pct_to_ath": 74.3
     },
     {
       "sym": "STAG",
@@ -3275,23 +3275,6 @@
       "pct_to_ath": 445.1
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 68.58,
-      "basis": 69.61,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 86.76,
-      "pct_to_ath": 26.5
-    },
-    {
       "sym": "NOV",
       "name": "NOV Inc.",
       "mcap": 7,
@@ -3324,6 +3307,23 @@
       "bxt_streak": 17,
       "ath": 155.44,
       "pct_to_ath": 45.4
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 68.58,
+      "basis": 69.61,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.12,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 86.76,
+      "pct_to_ath": 26.5
     },
     {
       "sym": "PTGX",
@@ -3548,7 +3548,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-05T07:10:44.495823+00:00",
+    "compared_to": "2026-05-05T07:16:23.040681+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
