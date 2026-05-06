@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T11:45:24.800419+00:00",
+  "updated_at": "2026-05-06T11:50:55.876604+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.35,
-  "scanned_count": 1510,
+  "scan_seconds": 6.95,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -364,23 +364,6 @@
       "pct_to_ath": 12.6
     },
     {
-      "sym": "ADC",
-      "name": "Agree Realty Corporation",
-      "mcap": 9,
-      "price": 75.95,
-      "basis": 76.12,
-      "bxt_today": -5.18,
-      "bxt_yest": -3.42,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 6,
-      "bxt_streak": null,
-      "ath": 82.08,
-      "pct_to_ath": 8.1
-    },
-    {
       "sym": "LINE",
       "name": "Lineage, Inc.",
       "mcap": 9,
@@ -396,6 +379,23 @@
       "bxt_streak": null,
       "ath": 89.85,
       "pct_to_ath": 146.2
+    },
+    {
+      "sym": "ADC",
+      "name": "Agree Realty Corporation",
+      "mcap": 9,
+      "price": 75.95,
+      "basis": 76.12,
+      "bxt_today": -5.18,
+      "bxt_yest": -3.42,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 6,
+      "bxt_streak": null,
+      "ath": 82.08,
+      "pct_to_ath": 8.1
     },
     {
       "sym": "KT",
@@ -876,23 +876,6 @@
       "pct_to_ath": 278.5
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.36,
-      "basis": 57.68,
-      "bxt_today": 2.93,
-      "bxt_yest": -0.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.1
-    },
-    {
       "sym": "CRSP",
       "name": "CRISPR Therapeutics AG Common Shares",
       "mcap": 5,
@@ -908,6 +891,23 @@
       "bxt_streak": 3,
       "ath": 220.2,
       "pct_to_ath": 320.4
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.36,
+      "basis": 57.68,
+      "bxt_today": 2.93,
+      "bxt_yest": -0.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.1
     },
     {
       "sym": "ACHR",
@@ -1150,23 +1150,6 @@
       "pct_to_ath": 337.1
     },
     {
-      "sym": "AR",
-      "name": "Antero Resources Corporation",
-      "mcap": 12,
-      "price": 39.13,
-      "basis": 37.41,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 68.43,
-      "pct_to_ath": 74.9
-    },
-    {
       "sym": "JHX",
       "name": "James Hardie Industries plc. Ordinary Shares",
       "mcap": 12,
@@ -1182,6 +1165,23 @@
       "bxt_streak": 3,
       "ath": 43.57,
       "pct_to_ath": 116.2
+    },
+    {
+      "sym": "AR",
+      "name": "Antero Resources Corporation",
+      "mcap": 12,
+      "price": 39.13,
+      "basis": 37.41,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 68.43,
+      "pct_to_ath": 74.9
     },
     {
       "sym": "WBS",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T11:39:47.920689+00:00",
+    "compared_to": "2026-05-06T11:45:24.800419+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

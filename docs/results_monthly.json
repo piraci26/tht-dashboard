@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T11:45:31.786974+00:00",
+  "updated_at": "2026-05-06T11:51:02.640840+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.98,
-  "scanned_count": 1509,
+  "scan_seconds": 6.76,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "APP",
@@ -861,23 +861,6 @@
       "pct_to_ath": 30.5
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 59.72,
-      "basis": 54.91,
-      "bxt_today": -0.9,
-      "bxt_yest": 2.18,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 23.4
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -895,21 +878,21 @@
       "pct_to_ath": 29.2
     },
     {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
-      "price": 98.66,
-      "basis": 94.33,
-      "bxt_today": -1.08,
-      "bxt_yest": 1.29,
+      "price": 59.72,
+      "basis": 54.91,
+      "bxt_today": -0.9,
+      "bxt_yest": 2.18,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 23.4
     },
     {
       "sym": "EXEL",
@@ -927,6 +910,23 @@
       "bxt_streak": 37,
       "ath": 50.5,
       "pct_to_ath": 13.7
+    },
+    {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 98.66,
+      "basis": 94.33,
+      "bxt_today": -1.08,
+      "bxt_yest": 1.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
     },
     {
       "sym": "ENSG",
@@ -1031,23 +1031,6 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "PTCT",
-      "name": "PTC Therapeutics, Inc.",
-      "mcap": 5,
-      "price": 65.04,
-      "basis": 59.42,
-      "bxt_today": -0.23,
-      "bxt_yest": 2.67,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 87.5,
-      "pct_to_ath": 34.5
-    },
-    {
       "sym": "CNX",
       "name": "CNX Resources Corporation",
       "mcap": 5,
@@ -1063,6 +1046,23 @@
       "bxt_streak": 7,
       "ath": 99.25,
       "pct_to_ath": 161.0
+    },
+    {
+      "sym": "PTCT",
+      "name": "PTC Therapeutics, Inc.",
+      "mcap": 5,
+      "price": 65.04,
+      "basis": 59.42,
+      "bxt_today": -0.23,
+      "bxt_yest": 2.67,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 87.5,
+      "pct_to_ath": 34.5
     },
     {
       "sym": "AX",
@@ -1117,7 +1117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T11:39:54.590191+00:00",
+    "compared_to": "2026-05-06T11:45:31.786974+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
