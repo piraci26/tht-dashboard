@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T22:16:43.777203+00:00",
+  "updated_at": "2026-05-06T22:22:09.919224+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.29,
-  "scanned_count": 1508,
+  "scan_seconds": 8.04,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -702,23 +702,6 @@
       "pct_to_ath": 65.5
     },
     {
-      "sym": "PFGC",
-      "name": "Performance Food Group Company",
-      "mcap": 15,
-      "price": 92.88,
-      "basis": 90.92,
-      "bxt_today": 1.26,
-      "bxt_yest": -4.11,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 10,
-      "ath": 109.05,
-      "pct_to_ath": 17.4
-    },
-    {
       "sym": "JLL",
       "name": "Jones Lang LaSalle Incorporated",
       "mcap": 15,
@@ -734,6 +717,23 @@
       "bxt_streak": null,
       "ath": 363.06,
       "pct_to_ath": 11.5
+    },
+    {
+      "sym": "PFGC",
+      "name": "Performance Food Group Company",
+      "mcap": 15,
+      "price": 92.88,
+      "basis": 90.92,
+      "bxt_today": 1.26,
+      "bxt_yest": -4.11,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 10,
+      "ath": 109.05,
+      "pct_to_ath": 17.4
     },
     {
       "sym": "CSL",
@@ -906,23 +906,6 @@
       "pct_to_ath": 59.8
     },
     {
-      "sym": "BXP",
-      "name": "BXP, Inc.",
-      "mcap": 11,
-      "price": 59.84,
-      "basis": 59.27,
-      "bxt_today": 9.65,
-      "bxt_yest": 6.58,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 21,
-      "bxt_streak": null,
-      "ath": 147.83,
-      "pct_to_ath": 147.0
-    },
-    {
       "sym": "RVTY",
       "name": "Revvity, Inc.",
       "mcap": 11,
@@ -940,6 +923,23 @@
       "pct_to_ath": 105.0
     },
     {
+      "sym": "BXP",
+      "name": "BXP, Inc.",
+      "mcap": 11,
+      "price": 59.84,
+      "basis": 59.27,
+      "bxt_today": 9.65,
+      "bxt_yest": 6.58,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 21,
+      "bxt_streak": null,
+      "ath": 147.83,
+      "pct_to_ath": 147.0
+    },
+    {
       "sym": "XP",
       "name": "XP Inc.",
       "mcap": 10,
@@ -953,8 +953,8 @@
       "bxt_r": false,
       "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 53.08,
-      "pct_to_ath": 171.2
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "SSB",
@@ -1059,23 +1059,6 @@
       "pct_to_ath": 7.6
     },
     {
-      "sym": "IBP",
-      "name": "Installed Building Products, Inc.",
-      "mcap": 8,
-      "price": 299.47,
-      "basis": 296.2,
-      "bxt_today": -6.93,
-      "bxt_yest": -9.52,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 349.0,
-      "pct_to_ath": 16.5
-    },
-    {
       "sym": "NUVL",
       "name": "Nuvalent, Inc.",
       "mcap": 8,
@@ -1091,6 +1074,23 @@
       "bxt_streak": null,
       "ath": 113.51,
       "pct_to_ath": 8.9
+    },
+    {
+      "sym": "IBP",
+      "name": "Installed Building Products, Inc.",
+      "mcap": 8,
+      "price": 299.47,
+      "basis": 296.2,
+      "bxt_today": -6.93,
+      "bxt_yest": -9.52,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 349.0,
+      "pct_to_ath": 16.5
     },
     {
       "sym": "CMC",
@@ -1195,23 +1195,6 @@
       "pct_to_ath": 11.8
     },
     {
-      "sym": "HQY",
-      "name": "HealthEquity, Inc.",
-      "mcap": 7,
-      "price": 83.25,
-      "basis": 82.41,
-      "bxt_today": 6.92,
-      "bxt_yest": 5.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 116.65,
-      "pct_to_ath": 40.1
-    },
-    {
       "sym": "PB",
       "name": "Prosperity Bancshares, Inc.",
       "mcap": 7,
@@ -1227,6 +1210,23 @@
       "bxt_streak": null,
       "ath": 86.76,
       "pct_to_ath": 23.8
+    },
+    {
+      "sym": "HQY",
+      "name": "HealthEquity, Inc.",
+      "mcap": 7,
+      "price": 83.25,
+      "basis": 82.41,
+      "bxt_today": 6.92,
+      "bxt_yest": 5.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 116.65,
+      "pct_to_ath": 40.1
     },
     {
       "sym": "TEX",
@@ -2164,6 +2164,23 @@
       "bxt_streak": null,
       "ath": 223.04,
       "pct_to_ath": 35.6
+    },
+    {
+      "sym": "EE",
+      "name": "Excelerate Energy, Inc.",
+      "mcap": 4,
+      "price": 34.34,
+      "basis": 35.15,
+      "bxt_today": -7.38,
+      "bxt_yest": -6.29,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 43.17,
+      "pct_to_ath": 25.7
     }
   ],
   "bxt_green": [
@@ -2321,23 +2338,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "MT",
-      "name": "Arcelor Mittal NY Registry Shares NEW",
-      "mcap": 48,
-      "price": 63.09,
-      "basis": 56.07,
-      "bxt_today": 0.05,
-      "bxt_yest": -3.65,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 227.08,
-      "pct_to_ath": 259.9
-    },
-    {
       "sym": "BIDU",
       "name": "Baidu, Inc. ADS",
       "mcap": 48,
@@ -2353,6 +2353,23 @@
       "bxt_streak": 12,
       "ath": 354.82,
       "pct_to_ath": 152.4
+    },
+    {
+      "sym": "MT",
+      "name": "Arcelor Mittal NY Registry Shares NEW",
+      "mcap": 48,
+      "price": 63.09,
+      "basis": 56.07,
+      "bxt_today": 0.05,
+      "bxt_yest": -3.65,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 227.08,
+      "pct_to_ath": 259.9
     },
     {
       "sym": "DHI",
@@ -2593,23 +2610,6 @@
       "pct_to_ath": 89.8
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 226.82,
-      "basis": 220.55,
-      "bxt_today": 1.81,
-      "bxt_yest": -2.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 10.6
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -2625,6 +2625,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 114.5
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 226.82,
+      "basis": 220.55,
+      "bxt_today": 1.81,
+      "bxt_yest": -2.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 10.6
     },
     {
       "sym": "TPG",
@@ -2661,23 +2678,6 @@
       "pct_to_ath": 66.3
     },
     {
-      "sym": "PFGC",
-      "name": "Performance Food Group Company",
-      "mcap": 15,
-      "price": 92.88,
-      "basis": 90.92,
-      "bxt_today": 1.26,
-      "bxt_yest": -4.11,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 10,
-      "ath": 109.05,
-      "pct_to_ath": 17.4
-    },
-    {
       "sym": "DECK",
       "name": "Deckers Outdoor Corporation",
       "mcap": 15,
@@ -2693,6 +2693,23 @@
       "bxt_streak": 1,
       "ath": 223.98,
       "pct_to_ath": 115.5
+    },
+    {
+      "sym": "PFGC",
+      "name": "Performance Food Group Company",
+      "mcap": 15,
+      "price": 92.88,
+      "basis": 90.92,
+      "bxt_today": 1.26,
+      "bxt_yest": -4.11,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 10,
+      "ath": 109.05,
+      "pct_to_ath": 17.4
     },
     {
       "sym": "NBIX",
@@ -2865,23 +2882,6 @@
       "pct_to_ath": 5.2
     },
     {
-      "sym": "LLYVA",
-      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
-      "mcap": 9,
-      "price": 95.26,
-      "basis": 89.23,
-      "bxt_today": 1.67,
-      "bxt_yest": -0.67,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 99.82,
-      "pct_to_ath": 4.8
-    },
-    {
       "sym": "AYI",
       "name": "Acuity Inc.",
       "mcap": 9,
@@ -2897,6 +2897,23 @@
       "bxt_streak": 18,
       "ath": 380.17,
       "pct_to_ath": 28.5
+    },
+    {
+      "sym": "LLYVA",
+      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "mcap": 9,
+      "price": 95.26,
+      "basis": 89.23,
+      "bxt_today": 1.67,
+      "bxt_yest": -0.67,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 99.82,
+      "pct_to_ath": 4.8
     },
     {
       "sym": "GDS",
@@ -3854,22 +3871,10 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T22:11:17.213261+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "UEC",
-        "name": "Uranium Energy Corp.",
-        "mcap": 8,
-        "price": 15.77,
-        "basis": 14.88,
-        "bxt_today": -2.5,
-        "ath": 20.34,
-        "pct_to_ath": 29.0
-      }
-    ],
+    "compared_to": "2026-05-06T22:16:43.777203+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
-    "fvb_red_removed": [
+    "fvb_red_added": [
       {
         "sym": "EE",
         "name": "Excelerate Energy, Inc.",
@@ -3881,6 +3886,7 @@
         "pct_to_ath": 25.7
       }
     ],
+    "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
