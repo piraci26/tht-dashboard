@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T22:43:54.754417+00:00",
+  "updated_at": "2026-05-06T22:49:30.168861+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.78,
+  "scan_seconds": 12.44,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -294,23 +294,6 @@
       "pct_to_ath": 31.5
     },
     {
-      "sym": "GM",
-      "name": "General Motors Company",
-      "mcap": 71,
-      "price": 78.7,
-      "basis": 78.31,
-      "bxt_today": -11.04,
-      "bxt_yest": -13.67,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 87.62,
-      "pct_to_ath": 11.3
-    },
-    {
       "sym": "CL",
       "name": "Colgate-Palmolive Company",
       "mcap": 71,
@@ -326,6 +309,23 @@
       "bxt_streak": null,
       "ath": 109.3,
       "pct_to_ath": 24.0
+    },
+    {
+      "sym": "GM",
+      "name": "General Motors Company",
+      "mcap": 71,
+      "price": 78.7,
+      "basis": 78.31,
+      "bxt_today": -11.04,
+      "bxt_yest": -13.67,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 87.62,
+      "pct_to_ath": 11.3
     },
     {
       "sym": "EMBJ",
@@ -1059,23 +1059,6 @@
       "pct_to_ath": 7.6
     },
     {
-      "sym": "IBP",
-      "name": "Installed Building Products, Inc.",
-      "mcap": 8,
-      "price": 299.47,
-      "basis": 296.2,
-      "bxt_today": -6.93,
-      "bxt_yest": -9.52,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 349.0,
-      "pct_to_ath": 16.5
-    },
-    {
       "sym": "NUVL",
       "name": "Nuvalent, Inc.",
       "mcap": 8,
@@ -1093,6 +1076,23 @@
       "pct_to_ath": 8.9
     },
     {
+      "sym": "IBP",
+      "name": "Installed Building Products, Inc.",
+      "mcap": 8,
+      "price": 299.47,
+      "basis": 296.2,
+      "bxt_today": -6.93,
+      "bxt_yest": -9.52,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 349.0,
+      "pct_to_ath": 16.5
+    },
+    {
       "sym": "CMC",
       "name": "Commercial Metals Company",
       "mcap": 8,
@@ -1108,23 +1108,6 @@
       "bxt_streak": null,
       "ath": 84.87,
       "pct_to_ath": 17.6
-    },
-    {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
-      "mcap": 8,
-      "price": 19.41,
-      "basis": 18.8,
-      "bxt_today": -0.28,
-      "bxt_yest": -1.5,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 100.25,
-      "pct_to_ath": 416.5
     },
     {
       "sym": "MBLY",
@@ -1159,6 +1142,23 @@
       "bxt_streak": null,
       "ath": 20.34,
       "pct_to_ath": 29.0
+    },
+    {
+      "sym": "VFC",
+      "name": "V.F. Corporation",
+      "mcap": 8,
+      "price": 19.41,
+      "basis": 18.8,
+      "bxt_today": -0.28,
+      "bxt_yest": -1.5,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 100.25,
+      "pct_to_ath": 416.5
     },
     {
       "sym": "BIRK",
@@ -1433,23 +1433,6 @@
       "pct_to_ath": 44.4
     },
     {
-      "sym": "SON",
-      "name": "Sonoco Products Company",
-      "mcap": 5,
-      "price": 52.3,
-      "basis": 51.67,
-      "bxt_today": -6.2,
-      "bxt_yest": -6.96,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 69.83,
-      "pct_to_ath": 33.5
-    },
-    {
       "sym": "GNTX",
       "name": "Gentex Corporation",
       "mcap": 5,
@@ -1465,6 +1448,23 @@
       "bxt_streak": null,
       "ath": 37.9,
       "pct_to_ath": 60.9
+    },
+    {
+      "sym": "SON",
+      "name": "Sonoco Products Company",
+      "mcap": 5,
+      "price": 52.3,
+      "basis": 51.67,
+      "bxt_today": -6.2,
+      "bxt_yest": -6.96,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 69.83,
+      "pct_to_ath": 33.5
     },
     {
       "sym": "QS",
@@ -2610,23 +2610,6 @@
       "pct_to_ath": 89.8
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.82,
-      "basis": 13.14,
-      "bxt_today": 2.3,
-      "bxt_yest": -2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 114.5
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -2642,6 +2625,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 10.6
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.82,
+      "basis": 13.14,
+      "bxt_today": 2.3,
+      "bxt_yest": -2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 114.5
     },
     {
       "sym": "TPG",
@@ -2865,23 +2865,6 @@
       "pct_to_ath": 159.4
     },
     {
-      "sym": "LLYVK",
-      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-      "mcap": 9,
-      "price": 97.51,
-      "basis": 91.4,
-      "bxt_today": 1.5,
-      "bxt_yest": -0.65,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 102.62,
-      "pct_to_ath": 5.2
-    },
-    {
       "sym": "AYI",
       "name": "Acuity Inc.",
       "mcap": 9,
@@ -2899,23 +2882,6 @@
       "pct_to_ath": 28.5
     },
     {
-      "sym": "LLYVA",
-      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
-      "mcap": 9,
-      "price": 95.26,
-      "basis": 89.23,
-      "bxt_today": 1.67,
-      "bxt_yest": -0.67,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 99.82,
-      "pct_to_ath": 4.8
-    },
-    {
       "sym": "GDS",
       "name": "GDS Holdings Limited ADS",
       "mcap": 9,
@@ -2931,6 +2897,40 @@
       "bxt_streak": 9,
       "ath": 116.76,
       "pct_to_ath": 153.8
+    },
+    {
+      "sym": "LLYVK",
+      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
+      "mcap": 9,
+      "price": 97.51,
+      "basis": 91.4,
+      "bxt_today": 1.5,
+      "bxt_yest": -0.65,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 102.62,
+      "pct_to_ath": 5.2
+    },
+    {
+      "sym": "LLYVA",
+      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "mcap": 9,
+      "price": 95.26,
+      "basis": 89.23,
+      "bxt_today": 1.67,
+      "bxt_yest": -0.67,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 99.82,
+      "pct_to_ath": 4.8
     },
     {
       "sym": "CRL",
@@ -3154,23 +3154,6 @@
       "pct_to_ath": 16.0
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 49.11,
-      "basis": 56.7,
-      "bxt_today": 1.59,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 286.6
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -3186,6 +3169,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.2
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 49.11,
+      "basis": 56.7,
+      "bxt_today": 1.59,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 286.6
     },
     {
       "sym": "CRSP",
@@ -3871,7 +3871,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T22:38:28.917880+00:00",
+    "compared_to": "2026-05-06T22:43:54.754417+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
