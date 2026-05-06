@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T23:00:31.556716+00:00",
+  "updated_at": "2026-05-06T23:05:57.427453+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.09,
-  "scanned_count": 1509,
+  "scan_seconds": 6.58,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -1250,23 +1250,6 @@
       "pct_to_ath": 5.2
     },
     {
-      "sym": "LLYVA",
-      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
-      "mcap": 9,
-      "price": 95.26,
-      "basis": 89.23,
-      "bxt_today": 1.67,
-      "bxt_yest": -0.67,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 99.82,
-      "pct_to_ath": 4.8
-    },
-    {
       "sym": "ALV",
       "name": "Autoliv, Inc.",
       "mcap": 9,
@@ -1282,6 +1265,23 @@
       "bxt_streak": 3,
       "ath": 130.14,
       "pct_to_ath": 7.3
+    },
+    {
+      "sym": "LLYVA",
+      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "mcap": 9,
+      "price": 95.26,
+      "basis": 89.23,
+      "bxt_today": 1.67,
+      "bxt_yest": -0.67,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 99.82,
+      "pct_to_ath": 4.8
     },
     {
       "sym": "REXR",
@@ -1420,23 +1420,6 @@
       "pct_to_ath": 190.2
     },
     {
-      "sym": "CUZ",
-      "name": "Cousins Properties Incorporated",
-      "mcap": 4,
-      "price": 26.79,
-      "basis": 27.42,
-      "bxt_today": 1.36,
-      "bxt_yest": -0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 115.03,
-      "pct_to_ath": 329.4
-    },
-    {
       "sym": "WSC",
       "name": "WillScot Holdings Corporation",
       "mcap": 4,
@@ -1452,6 +1435,23 @@
       "bxt_streak": 37,
       "ath": 53.46,
       "pct_to_ath": 128.5
+    },
+    {
+      "sym": "CUZ",
+      "name": "Cousins Properties Incorporated",
+      "mcap": 4,
+      "price": 26.79,
+      "basis": 27.42,
+      "bxt_today": 1.36,
+      "bxt_yest": -0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 115.03,
+      "pct_to_ath": 329.4
     },
     {
       "sym": "SKT",
@@ -1916,7 +1916,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T22:55:03.332902+00:00",
+    "compared_to": "2026-05-06T23:00:31.556716+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
