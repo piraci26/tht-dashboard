@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T05:28:58.352340+00:00",
+  "updated_at": "2026-05-06T05:39:58.529127+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 109.17,
-  "scanned_count": 1511,
+  "scan_seconds": 109.69,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "APP",
@@ -553,23 +553,6 @@
       "pct_to_ath": 218.5
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
-      "mcap": 4,
-      "price": 22.84,
-      "basis": 25.57,
-      "bxt_today": 0.8,
-      "bxt_yest": -3.0,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 53.46,
-      "pct_to_ath": 134.1
-    },
-    {
       "sym": "CUZ",
       "name": "Cousins Properties Incorporated",
       "mcap": 4,
@@ -585,6 +568,23 @@
       "bxt_streak": 2,
       "ath": 115.03,
       "pct_to_ath": 341.6
+    },
+    {
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
+      "mcap": 4,
+      "price": 22.84,
+      "basis": 25.57,
+      "bxt_today": 0.8,
+      "bxt_yest": -3.0,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 53.46,
+      "pct_to_ath": 134.1
     }
   ],
   "bxt_red": [
@@ -878,23 +878,6 @@
       "pct_to_ath": 23.4
     },
     {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 98.66,
-      "basis": 94.33,
-      "bxt_today": -1.08,
-      "bxt_yest": 1.29,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -910,6 +893,23 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 29.2
+    },
+    {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 98.66,
+      "basis": 94.33,
+      "bxt_today": -1.08,
+      "bxt_yest": 1.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
     },
     {
       "sym": "EXEL",
@@ -980,23 +980,6 @@
       "pct_to_ath": 13.5
     },
     {
-      "sym": "BYD",
-      "name": "Boyd Gaming Corporation",
-      "mcap": 6,
-      "price": 84.07,
-      "basis": 79.81,
-      "bxt_today": -1.71,
-      "bxt_yest": 0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 89.96,
-      "pct_to_ath": 7.0
-    },
-    {
       "sym": "ACT",
       "name": "Enact Holdings, Inc.",
       "mcap": 6,
@@ -1029,6 +1012,23 @@
       "bxt_streak": 18,
       "ath": 73.56,
       "pct_to_ath": 9.5
+    },
+    {
+      "sym": "BYD",
+      "name": "Boyd Gaming Corporation",
+      "mcap": 6,
+      "price": 84.07,
+      "basis": 79.81,
+      "bxt_today": -1.71,
+      "bxt_yest": 0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 89.96,
+      "pct_to_ath": 7.0
     },
     {
       "sym": "CNX",
@@ -1117,7 +1117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T05:17:58.551594+00:00",
+    "compared_to": "2026-05-06T05:28:58.352340+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
