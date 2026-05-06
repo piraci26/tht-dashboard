@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T07:08:54.022350+00:00",
+  "updated_at": "2026-05-06T07:20:05.354824+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 111.11,
-  "scanned_count": 1510,
+  "scan_seconds": 111.18,
+  "scanned_count": 1507,
   "fvb_green": [
     {
       "sym": "APP",
@@ -107,23 +107,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "CZR",
-      "name": "Caesars Entertainment, Inc.",
-      "mcap": 6,
-      "price": 28.1,
-      "basis": 27.6,
-      "bxt_today": 14.31,
-      "bxt_yest": 12.48,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 29,
-      "bxt_streak": null,
-      "ath": 119.81,
-      "pct_to_ath": 326.4
-    },
-    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -139,6 +122,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "CZR",
+      "name": "Caesars Entertainment, Inc.",
+      "mcap": 6,
+      "price": 28.1,
+      "basis": 27.6,
+      "bxt_today": 14.31,
+      "bxt_yest": 12.48,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 29,
+      "bxt_streak": null,
+      "ath": 119.81,
+      "pct_to_ath": 326.4
     },
     {
       "sym": "OTF",
@@ -485,23 +485,6 @@
       "pct_to_ath": 160.3
     },
     {
-      "sym": "MIRM",
-      "name": "Mirum Pharmaceuticals, Inc.",
-      "mcap": 6,
-      "price": 105.81,
-      "basis": 94.75,
-      "bxt_today": 2.85,
-      "bxt_yest": -0.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 110.49,
-      "pct_to_ath": 4.4
-    },
-    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -517,6 +500,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
+      "mcap": 6,
+      "price": 105.81,
+      "basis": 94.75,
+      "bxt_today": 2.85,
+      "bxt_yest": -0.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 110.49,
+      "pct_to_ath": 4.4
     },
     {
       "sym": "ESTC",
@@ -861,40 +861,6 @@
       "pct_to_ath": 30.5
     },
     {
-      "sym": "GIL",
-      "name": "Gildan Activewear, Inc. Sub. Vot.",
-      "mcap": 11,
-      "price": 59.72,
-      "basis": 54.91,
-      "bxt_today": -0.9,
-      "bxt_yest": 2.18,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 31,
-      "ath": 73.7,
-      "pct_to_ath": 23.4
-    },
-    {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 98.66,
-      "basis": 94.33,
-      "bxt_today": -1.08,
-      "bxt_yest": 1.29,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -912,6 +878,23 @@
       "pct_to_ath": 29.2
     },
     {
+      "sym": "GIL",
+      "name": "Gildan Activewear, Inc. Sub. Vot.",
+      "mcap": 11,
+      "price": 59.72,
+      "basis": 54.91,
+      "bxt_today": -0.9,
+      "bxt_yest": 2.18,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 31,
+      "ath": 73.7,
+      "pct_to_ath": 23.4
+    },
+    {
       "sym": "EXEL",
       "name": "Exelixis, Inc.",
       "mcap": 11,
@@ -927,6 +910,23 @@
       "bxt_streak": 37,
       "ath": 50.5,
       "pct_to_ath": 13.7
+    },
+    {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 98.66,
+      "basis": 94.33,
+      "bxt_today": -1.08,
+      "bxt_yest": 1.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
     },
     {
       "sym": "ENSG",
@@ -1048,23 +1048,6 @@
       "pct_to_ath": 34.5
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.14,
-      "basis": 80.66,
-      "bxt_today": -1.56,
-      "bxt_yest": 1.56,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 17.0
-    },
-    {
       "sym": "CNX",
       "name": "CNX Resources Corporation",
       "mcap": 5,
@@ -1080,6 +1063,23 @@
       "bxt_streak": 7,
       "ath": 99.25,
       "pct_to_ath": 161.0
+    },
+    {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.14,
+      "basis": 80.66,
+      "bxt_today": -1.56,
+      "bxt_yest": 1.56,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 17.0
     },
     {
       "sym": "DOO",
@@ -1117,25 +1117,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T06:57:47.254745+00:00",
+    "compared_to": "2026-05-06T07:08:54.022350+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "TM",
-        "name": "Toyota Motor Corporation",
-        "mcap": 2476,
-        "price": 189.99,
-        "basis": 183.38,
-        "bxt_today": -1.13,
-        "ath": 255.23,
-        "pct_to_ath": 34.3
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }

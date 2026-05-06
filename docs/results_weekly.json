@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T07:07:02.899985+00:00",
+  "updated_at": "2026-05-06T07:18:14.163869+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 118.36,
-  "scanned_count": 1510,
+  "scan_seconds": 114.21,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "APP",
@@ -808,23 +808,6 @@
       "pct_to_ath": 135.3
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "MIRM",
       "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
@@ -840,6 +823,23 @@
       "bxt_streak": 10,
       "ath": 110.49,
       "pct_to_ath": 4.4
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "RITM",
@@ -1133,40 +1133,6 @@
       "pct_to_ath": 5.8
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 168.71,
-      "basis": 175.21,
-      "bxt_today": -2.49,
-      "bxt_yest": 0.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 28,
-      "ath": 737.45,
-      "pct_to_ath": 337.1
-    },
-    {
-      "sym": "AR",
-      "name": "Antero Resources Corporation",
-      "mcap": 12,
-      "price": 39.13,
-      "basis": 37.41,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 68.43,
-      "pct_to_ath": 74.9
-    },
-    {
       "sym": "JHX",
       "name": "James Hardie Industries plc. Ordinary Shares",
       "mcap": 12,
@@ -1184,6 +1150,23 @@
       "pct_to_ath": 116.2
     },
     {
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
+      "mcap": 12,
+      "price": 168.71,
+      "basis": 175.21,
+      "bxt_today": -2.49,
+      "bxt_yest": 0.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 28,
+      "ath": 737.45,
+      "pct_to_ath": 337.1
+    },
+    {
       "sym": "WBS",
       "name": "Webster Financial Corporation",
       "mcap": 12,
@@ -1199,6 +1182,23 @@
       "bxt_streak": 5,
       "ath": 74.0,
       "pct_to_ath": 2.5
+    },
+    {
+      "sym": "AR",
+      "name": "Antero Resources Corporation",
+      "mcap": 12,
+      "price": 39.13,
+      "basis": 37.41,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 68.43,
+      "pct_to_ath": 74.9
     },
     {
       "sym": "STAG",
@@ -1303,6 +1303,23 @@
       "pct_to_ath": 318.7
     },
     {
+      "sym": "SEB",
+      "name": "Seaboard Corporation",
+      "mcap": 5,
+      "price": 5687.09,
+      "basis": 5244.86,
+      "bxt_today": -1.24,
+      "bxt_yest": 0.78,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 5989.37,
+      "pct_to_ath": 5.3
+    },
+    {
       "sym": "OGS",
       "name": "ONE Gas, Inc.",
       "mcap": 5,
@@ -1335,23 +1352,6 @@
       "bxt_streak": 5,
       "ath": 165.46,
       "pct_to_ath": 5.7
-    },
-    {
-      "sym": "SEB",
-      "name": "Seaboard Corporation",
-      "mcap": 5,
-      "price": 5687.09,
-      "basis": 5244.86,
-      "bxt_today": -1.24,
-      "bxt_yest": 0.78,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 5989.37,
-      "pct_to_ath": 5.3
     },
     {
       "sym": "UNF",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T06:55:57.122169+00:00",
+    "compared_to": "2026-05-06T07:07:02.899985+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
