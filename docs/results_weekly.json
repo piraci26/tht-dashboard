@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T06:00:21.898942+00:00",
+  "updated_at": "2026-05-06T06:11:30.188149+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 112.74,
-  "scanned_count": 1511,
+  "scan_seconds": 113.81,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "APP",
@@ -141,23 +141,6 @@
       "pct_to_ath": 668.1
     },
     {
-      "sym": "EXP",
-      "name": "Eagle Materials Inc",
-      "mcap": 7,
-      "price": 209.73,
-      "basis": 209.65,
-      "bxt_today": 5.48,
-      "bxt_yest": 4.28,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 321.93,
-      "pct_to_ath": 53.5
-    },
-    {
       "sym": "HQY",
       "name": "HealthEquity, Inc.",
       "mcap": 7,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 116.65,
       "pct_to_ath": 41.2
+    },
+    {
+      "sym": "EXP",
+      "name": "Eagle Materials Inc",
+      "mcap": 7,
+      "price": 209.73,
+      "basis": 209.65,
+      "bxt_today": 5.48,
+      "bxt_yest": 4.28,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 321.93,
+      "pct_to_ath": 53.5
     },
     {
       "sym": "PAYC",
@@ -449,23 +449,6 @@
       "bxt_streak": 10,
       "ath": 31.43,
       "pct_to_ath": 144.2
-    },
-    {
-      "sym": "INTU",
-      "name": "Intuit Inc.",
-      "mcap": 110,
-      "price": 398.32,
-      "basis": 453.44,
-      "bxt_today": 0.07,
-      "bxt_yest": -2.43,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 39,
-      "ath": 813.7,
-      "pct_to_ath": 104.3
     },
     {
       "sym": "MCO",
@@ -791,23 +774,6 @@
       "pct_to_ath": 1045.1
     },
     {
-      "sym": "MIRM",
-      "name": "Mirum Pharmaceuticals, Inc.",
-      "mcap": 6,
-      "price": 105.81,
-      "basis": 94.75,
-      "bxt_today": 2.85,
-      "bxt_yest": -0.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 110.49,
-      "pct_to_ath": 4.4
-    },
-    {
       "sym": "OTEX",
       "name": "Open Text Corporation Common Shares",
       "mcap": 6,
@@ -842,38 +808,21 @@
       "pct_to_ath": 218.3
     },
     {
-      "sym": "RITM",
-      "name": "Rithm Capital Corp.",
-      "mcap": 5,
-      "price": 9.7,
-      "basis": 10.24,
-      "bxt_today": 0.07,
-      "bxt_yest": -0.21,
+      "sym": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
+      "mcap": 6,
+      "price": 105.81,
+      "basis": 94.75,
+      "bxt_today": 2.85,
+      "bxt_yest": -0.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 18.75,
-      "pct_to_ath": 93.3
-    },
-    {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
-      "mcap": 5,
-      "price": 52.38,
-      "basis": 52.16,
-      "bxt_today": 0.15,
-      "bxt_yest": -0.73,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 220.2,
-      "pct_to_ath": 320.4
+      "bxt_streak": 10,
+      "ath": 110.49,
+      "pct_to_ath": 4.4
     },
     {
       "sym": "MAIN",
@@ -908,6 +857,40 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 278.5
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 52.38,
+      "basis": 52.16,
+      "bxt_today": 0.15,
+      "bxt_yest": -0.73,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 220.2,
+      "pct_to_ath": 320.4
+    },
+    {
+      "sym": "RITM",
+      "name": "Rithm Capital Corp.",
+      "mcap": 5,
+      "price": 9.7,
+      "basis": 10.24,
+      "bxt_today": 0.07,
+      "bxt_yest": -0.21,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 18.75,
+      "pct_to_ath": 93.3
     },
     {
       "sym": "ACHR",
@@ -1133,23 +1116,6 @@
       "pct_to_ath": 5.8
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 168.71,
-      "basis": 175.21,
-      "bxt_today": -2.49,
-      "bxt_yest": 0.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 28,
-      "ath": 737.45,
-      "pct_to_ath": 337.1
-    },
-    {
       "sym": "JHX",
       "name": "James Hardie Industries plc. Ordinary Shares",
       "mcap": 12,
@@ -1167,23 +1133,6 @@
       "pct_to_ath": 116.2
     },
     {
-      "sym": "WBS",
-      "name": "Webster Financial Corporation",
-      "mcap": 12,
-      "price": 72.16,
-      "basis": 69.37,
-      "bxt_today": -0.67,
-      "bxt_yest": 0.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 74.0,
-      "pct_to_ath": 2.5
-    },
-    {
       "sym": "AR",
       "name": "Antero Resources Corporation",
       "mcap": 12,
@@ -1199,6 +1148,40 @@
       "bxt_streak": 15,
       "ath": 68.43,
       "pct_to_ath": 74.9
+    },
+    {
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
+      "mcap": 12,
+      "price": 168.71,
+      "basis": 175.21,
+      "bxt_today": -2.49,
+      "bxt_yest": 0.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 28,
+      "ath": 737.45,
+      "pct_to_ath": 337.1
+    },
+    {
+      "sym": "WBS",
+      "name": "Webster Financial Corporation",
+      "mcap": 12,
+      "price": 72.16,
+      "basis": 69.37,
+      "bxt_today": -0.67,
+      "bxt_yest": 0.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 74.0,
+      "pct_to_ath": 2.5
     },
     {
       "sym": "STAG",
@@ -1286,23 +1269,6 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "OGS",
-      "name": "ONE Gas, Inc.",
-      "mcap": 5,
-      "price": 86.69,
-      "basis": 84.65,
-      "bxt_today": -1.82,
-      "bxt_yest": 1.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 96.97,
-      "pct_to_ath": 11.9
-    },
-    {
       "sym": "KMX",
       "name": "CarMax Inc",
       "mcap": 5,
@@ -1318,6 +1284,23 @@
       "bxt_streak": 21,
       "ath": 155.98,
       "pct_to_ath": 318.7
+    },
+    {
+      "sym": "OGS",
+      "name": "ONE Gas, Inc.",
+      "mcap": 5,
+      "price": 86.69,
+      "basis": 84.65,
+      "bxt_today": -1.82,
+      "bxt_yest": 1.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 96.97,
+      "pct_to_ath": 11.9
     },
     {
       "sym": "SEB",
@@ -1371,23 +1354,6 @@
       "pct_to_ath": 12.5
     },
     {
-      "sym": "DAN",
-      "name": "Dana Incorporated",
-      "mcap": 4,
-      "price": 34.63,
-      "basis": 32.58,
-      "bxt_today": -3.78,
-      "bxt_yest": 0.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 27,
-      "ath": 39.56,
-      "pct_to_ath": 14.2
-    },
-    {
       "sym": "LBTYK",
       "name": "Liberty Global Ltd. Class C Common Shares",
       "mcap": 4,
@@ -1403,16 +1369,44 @@
       "bxt_streak": 14,
       "ath": 23.19,
       "pct_to_ath": 97.3
+    },
+    {
+      "sym": "DAN",
+      "name": "Dana Incorporated",
+      "mcap": 4,
+      "price": 34.63,
+      "basis": 32.58,
+      "bxt_today": -3.78,
+      "bxt_yest": 0.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 27,
+      "ath": 39.56,
+      "pct_to_ath": 14.2
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T05:49:18.061417+00:00",
+    "compared_to": "2026-05-06T06:00:21.898942+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "INTU",
+        "name": "Intuit Inc.",
+        "mcap": 110,
+        "price": 398.32,
+        "basis": 453.44,
+        "bxt_today": 0.07,
+        "ath": 813.7,
+        "pct_to_ath": 104.3
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
