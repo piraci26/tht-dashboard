@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T11:39:54.590191+00:00",
+  "updated_at": "2026-05-06T11:45:31.786974+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.66,
+  "scan_seconds": 6.98,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -861,23 +861,6 @@
       "pct_to_ath": 30.5
     },
     {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 142.65,
-      "basis": 132.99,
-      "bxt_today": -0.49,
-      "bxt_yest": 1.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 29.2
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -893,6 +876,23 @@
       "bxt_streak": 31,
       "ath": 73.7,
       "pct_to_ath": 23.4
+    },
+    {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 142.65,
+      "basis": 132.99,
+      "bxt_today": -0.49,
+      "bxt_yest": 1.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 29.2
     },
     {
       "sym": "CCK",
@@ -1031,23 +1031,6 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "CNX",
-      "name": "CNX Resources Corporation",
-      "mcap": 5,
-      "price": 38.02,
-      "basis": 34.77,
-      "bxt_today": -0.27,
-      "bxt_yest": 2.56,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 99.25,
-      "pct_to_ath": 161.0
-    },
-    {
       "sym": "PTCT",
       "name": "PTC Therapeutics, Inc.",
       "mcap": 5,
@@ -1063,6 +1046,23 @@
       "bxt_streak": 25,
       "ath": 87.5,
       "pct_to_ath": 34.5
+    },
+    {
+      "sym": "CNX",
+      "name": "CNX Resources Corporation",
+      "mcap": 5,
+      "price": 38.02,
+      "basis": 34.77,
+      "bxt_today": -0.27,
+      "bxt_yest": 2.56,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 99.25,
+      "pct_to_ath": 161.0
     },
     {
       "sym": "AX",
@@ -1117,7 +1117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T11:34:29.390673+00:00",
+    "compared_to": "2026-05-06T11:39:54.590191+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

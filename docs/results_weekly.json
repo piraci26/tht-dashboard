@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T11:39:47.920689+00:00",
+  "updated_at": "2026-05-06T11:45:24.800419+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.48,
+  "scan_seconds": 7.35,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -621,23 +621,6 @@
       "pct_to_ath": 37.8
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.59,
-      "basis": 13.13,
-      "bxt_today": 0.38,
-      "bxt_yest": -2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 118.4
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -653,6 +636,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 12.6
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.59,
+      "basis": 13.13,
+      "bxt_today": 0.38,
+      "bxt_yest": -2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 118.4
     },
     {
       "sym": "TPG",
@@ -753,8 +753,8 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 13,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 460.21,
+      "pct_to_ath": 148.2
     },
     {
       "sym": "LNC",
@@ -859,23 +859,6 @@
       "pct_to_ath": 93.3
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.36,
-      "basis": 57.68,
-      "bxt_today": 2.93,
-      "bxt_yest": -0.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.1
-    },
-    {
       "sym": "ESTC",
       "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
@@ -891,6 +874,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 278.5
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.36,
+      "basis": 57.68,
+      "bxt_today": 2.93,
+      "bxt_yest": -0.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.1
     },
     {
       "sym": "CRSP",
@@ -1082,23 +1082,6 @@
       "pct_to_ath": 2.2
     },
     {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 27,
-      "price": 507.81,
-      "basis": 500.06,
-      "bxt_today": -1.93,
-      "bxt_yest": 0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 565.5,
-      "pct_to_ath": 11.4
-    },
-    {
       "sym": "CFG",
       "name": "Citizens Financial Group, Inc.",
       "mcap": 27,
@@ -1114,6 +1097,23 @@
       "bxt_streak": 2,
       "ath": 68.79,
       "pct_to_ath": 6.9
+    },
+    {
+      "sym": "HUBB",
+      "name": "Hubbell Inc",
+      "mcap": 27,
+      "price": 507.81,
+      "basis": 500.06,
+      "bxt_today": -1.93,
+      "bxt_yest": 0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 565.5,
+      "pct_to_ath": 11.4
     },
     {
       "sym": "SNA",
@@ -1150,23 +1150,6 @@
       "pct_to_ath": 337.1
     },
     {
-      "sym": "JHX",
-      "name": "James Hardie Industries plc. Ordinary Shares",
-      "mcap": 12,
-      "price": 20.15,
-      "basis": 21.79,
-      "bxt_today": -0.09,
-      "bxt_yest": 0.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 43.57,
-      "pct_to_ath": 116.2
-    },
-    {
       "sym": "AR",
       "name": "Antero Resources Corporation",
       "mcap": 12,
@@ -1182,6 +1165,23 @@
       "bxt_streak": 15,
       "ath": 68.43,
       "pct_to_ath": 74.9
+    },
+    {
+      "sym": "JHX",
+      "name": "James Hardie Industries plc. Ordinary Shares",
+      "mcap": 12,
+      "price": 20.15,
+      "basis": 21.79,
+      "bxt_today": -0.09,
+      "bxt_yest": 0.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 43.57,
+      "pct_to_ath": 116.2
     },
     {
       "sym": "WBS",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T11:34:22.360320+00:00",
+    "compared_to": "2026-05-06T11:39:47.920689+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
