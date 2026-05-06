@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T10:04:28.918154+00:00",
+  "updated_at": "2026-05-06T10:15:29.899402+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 111.53,
-  "scanned_count": 1505,
+  "scan_seconds": 111.12,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "APP",
@@ -1082,23 +1082,6 @@
       "pct_to_ath": 2.2
     },
     {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 27,
-      "price": 507.81,
-      "basis": 500.06,
-      "bxt_today": -1.93,
-      "bxt_yest": 0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 565.5,
-      "pct_to_ath": 11.4
-    },
-    {
       "sym": "CFG",
       "name": "Citizens Financial Group, Inc.",
       "mcap": 27,
@@ -1114,6 +1097,23 @@
       "bxt_streak": 2,
       "ath": 68.79,
       "pct_to_ath": 6.9
+    },
+    {
+      "sym": "HUBB",
+      "name": "Hubbell Inc",
+      "mcap": 27,
+      "price": 507.81,
+      "basis": 500.06,
+      "bxt_today": -1.93,
+      "bxt_yest": 0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 565.5,
+      "pct_to_ath": 11.4
     },
     {
       "sym": "SNA",
@@ -1167,23 +1167,6 @@
       "pct_to_ath": 116.2
     },
     {
-      "sym": "AR",
-      "name": "Antero Resources Corporation",
-      "mcap": 12,
-      "price": 39.13,
-      "basis": 37.41,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 68.43,
-      "pct_to_ath": 74.9
-    },
-    {
       "sym": "WBS",
       "name": "Webster Financial Corporation",
       "mcap": 12,
@@ -1199,6 +1182,23 @@
       "bxt_streak": 5,
       "ath": 74.0,
       "pct_to_ath": 2.5
+    },
+    {
+      "sym": "AR",
+      "name": "Antero Resources Corporation",
+      "mcap": 12,
+      "price": 39.13,
+      "basis": 37.41,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 68.43,
+      "pct_to_ath": 74.9
     },
     {
       "sym": "NOV",
@@ -1286,23 +1286,6 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "OGS",
-      "name": "ONE Gas, Inc.",
-      "mcap": 5,
-      "price": 86.69,
-      "basis": 84.65,
-      "bxt_today": -1.82,
-      "bxt_yest": 1.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 96.97,
-      "pct_to_ath": 11.9
-    },
-    {
       "sym": "KMX",
       "name": "CarMax Inc",
       "mcap": 5,
@@ -1354,6 +1337,23 @@
       "pct_to_ath": 5.7
     },
     {
+      "sym": "OGS",
+      "name": "ONE Gas, Inc.",
+      "mcap": 5,
+      "price": 86.69,
+      "basis": 84.65,
+      "bxt_today": -1.82,
+      "bxt_yest": 1.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 96.97,
+      "pct_to_ath": 11.9
+    },
+    {
       "sym": "UNF",
       "name": "Unifirst Corporation",
       "mcap": 5,
@@ -1371,23 +1371,6 @@
       "pct_to_ath": 12.5
     },
     {
-      "sym": "DAN",
-      "name": "Dana Incorporated",
-      "mcap": 4,
-      "price": 34.63,
-      "basis": 32.58,
-      "bxt_today": -3.78,
-      "bxt_yest": 0.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 27,
-      "ath": 39.56,
-      "pct_to_ath": 14.2
-    },
-    {
       "sym": "LBTYK",
       "name": "Liberty Global Ltd. Class C Common Shares",
       "mcap": 4,
@@ -1403,10 +1386,27 @@
       "bxt_streak": 14,
       "ath": 23.19,
       "pct_to_ath": 97.3
+    },
+    {
+      "sym": "DAN",
+      "name": "Dana Incorporated",
+      "mcap": 4,
+      "price": 34.63,
+      "basis": 32.58,
+      "bxt_today": -3.78,
+      "bxt_yest": 0.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 27,
+      "ath": 39.56,
+      "pct_to_ath": 14.2
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T09:53:18.140803+00:00",
+    "compared_to": "2026-05-06T10:04:28.918154+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
