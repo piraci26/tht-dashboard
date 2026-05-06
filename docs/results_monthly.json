@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T12:52:31.065660+00:00",
+  "updated_at": "2026-05-06T12:57:58.317099+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.06,
-  "scanned_count": 1509,
+  "scan_seconds": 6.88,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -1082,23 +1082,6 @@
       "pct_to_ath": 17.0
     },
     {
-      "sym": "DOO",
-      "name": "BRP Inc. Common Subordinate Voting Shares",
-      "mcap": 4,
-      "price": 53.97,
-      "basis": 55.43,
-      "bxt_today": -0.6,
-      "bxt_yest": 2.71,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 102.96,
-      "pct_to_ath": 90.8
-    },
-    {
       "sym": "TNL",
       "name": "Travel   Leisure Co. Common  Stock",
       "mcap": 4,
@@ -1114,10 +1097,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 28.6
+    },
+    {
+      "sym": "DOO",
+      "name": "BRP Inc. Common Subordinate Voting Shares",
+      "mcap": 4,
+      "price": 53.97,
+      "basis": 55.43,
+      "bxt_today": -0.6,
+      "bxt_yest": 2.71,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 102.96,
+      "pct_to_ath": 90.8
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T12:47:02.992926+00:00",
+    "compared_to": "2026-05-06T12:52:31.065660+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

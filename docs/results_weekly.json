@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T12:52:23.994936+00:00",
+  "updated_at": "2026-05-06T12:57:51.431213+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.33,
+  "scan_seconds": 7.6,
   "scanned_count": 1508,
   "fvb_green": [
     {
@@ -808,23 +808,6 @@
       "pct_to_ath": 135.3
     },
     {
-      "sym": "CLF",
-      "name": "Cleveland-Cliffs Inc.",
-      "mcap": 6,
-      "price": 10.65,
-      "basis": 10.94,
-      "bxt_today": 1.31,
-      "bxt_yest": -0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 121.95,
-      "pct_to_ath": 1045.1
-    },
-    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -840,6 +823,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "mcap": 6,
+      "price": 10.65,
+      "basis": 10.94,
+      "bxt_today": 1.31,
+      "bxt_yest": -0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 121.95,
+      "pct_to_ath": 1045.1
     },
     {
       "sym": "RITM",
@@ -859,23 +859,6 @@
       "pct_to_ath": 93.3
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.36,
-      "basis": 57.68,
-      "bxt_today": 2.93,
-      "bxt_yest": -0.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.1
-    },
-    {
       "sym": "ESTC",
       "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
@@ -891,6 +874,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 278.5
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.36,
+      "basis": 57.68,
+      "bxt_today": 2.93,
+      "bxt_yest": -0.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.1
     },
     {
       "sym": "CRSP",
@@ -1082,23 +1082,6 @@
       "pct_to_ath": 2.2
     },
     {
-      "sym": "CFG",
-      "name": "Citizens Financial Group, Inc.",
-      "mcap": 27,
-      "price": 64.36,
-      "basis": 62.0,
-      "bxt_today": -0.49,
-      "bxt_yest": 0.09,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 68.79,
-      "pct_to_ath": 6.9
-    },
-    {
       "sym": "HUBB",
       "name": "Hubbell Inc",
       "mcap": 27,
@@ -1114,6 +1097,23 @@
       "bxt_streak": 5,
       "ath": 565.5,
       "pct_to_ath": 11.4
+    },
+    {
+      "sym": "CFG",
+      "name": "Citizens Financial Group, Inc.",
+      "mcap": 27,
+      "price": 64.36,
+      "basis": 62.0,
+      "bxt_today": -0.49,
+      "bxt_yest": 0.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 68.79,
+      "pct_to_ath": 6.9
     },
     {
       "sym": "SNA",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T12:46:53.150643+00:00",
+    "compared_to": "2026-05-06T12:52:23.994936+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
