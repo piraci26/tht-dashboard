@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T08:04:33.689522+00:00",
+  "updated_at": "2026-05-06T08:15:36.873764+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 110.33,
-  "scanned_count": 1504,
+  "scan_seconds": 112.38,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "APP",
@@ -107,23 +107,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "CZR",
-      "name": "Caesars Entertainment, Inc.",
-      "mcap": 6,
-      "price": 28.1,
-      "basis": 27.6,
-      "bxt_today": 14.31,
-      "bxt_yest": 12.48,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 29,
-      "bxt_streak": null,
-      "ath": 119.81,
-      "pct_to_ath": 326.4
-    },
-    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -139,6 +122,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "CZR",
+      "name": "Caesars Entertainment, Inc.",
+      "mcap": 6,
+      "price": 28.1,
+      "basis": 27.6,
+      "bxt_today": 14.31,
+      "bxt_yest": 12.48,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 29,
+      "bxt_streak": null,
+      "ath": 119.81,
+      "pct_to_ath": 326.4
     },
     {
       "sym": "OTF",
@@ -963,23 +963,6 @@
       "pct_to_ath": 483.9
     },
     {
-      "sym": "VAL",
-      "name": "Valaris Limited Common Shares",
-      "mcap": 6,
-      "price": 92.81,
-      "basis": 83.0,
-      "bxt_today": -1.18,
-      "bxt_yest": 2.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 105.35,
-      "pct_to_ath": 13.5
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -995,6 +978,23 @@
       "bxt_streak": 20,
       "ath": 89.96,
       "pct_to_ath": 7.0
+    },
+    {
+      "sym": "VAL",
+      "name": "Valaris Limited Common Shares",
+      "mcap": 6,
+      "price": 92.81,
+      "basis": 83.0,
+      "bxt_today": -1.18,
+      "bxt_yest": 2.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 105.35,
+      "pct_to_ath": 13.5
     },
     {
       "sym": "ACT",
@@ -1117,7 +1117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T07:53:19.592767+00:00",
+    "compared_to": "2026-05-06T08:04:33.689522+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
