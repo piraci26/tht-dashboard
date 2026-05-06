@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T22:05:51.218831+00:00",
+  "updated_at": "2026-05-06T22:11:17.213261+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.9,
-  "scanned_count": 1510,
+  "scan_seconds": 7.98,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -562,8 +562,8 @@
       "bxt_r": false,
       "fvb_streak": 4,
       "bxt_streak": null,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 36.35,
+      "pct_to_ath": 15.2
     },
     {
       "sym": "FWONK",
@@ -600,23 +600,6 @@
       "pct_to_ath": 15.0
     },
     {
-      "sym": "IFF",
-      "name": "International Flavors & Fragrances, Inc.",
-      "mcap": 21,
-      "price": 82.93,
-      "basis": 73.54,
-      "bxt_today": 7.72,
-      "bxt_yest": -2.89,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 2,
-      "ath": 157.4,
-      "pct_to_ath": 89.8
-    },
-    {
       "sym": "SMCI",
       "name": "Super Micro Computer, Inc.",
       "mcap": 21,
@@ -632,6 +615,23 @@
       "bxt_streak": null,
       "ath": 122.9,
       "pct_to_ath": 254.6
+    },
+    {
+      "sym": "IFF",
+      "name": "International Flavors & Fragrances, Inc.",
+      "mcap": 21,
+      "price": 82.93,
+      "basis": 73.54,
+      "bxt_today": 7.72,
+      "bxt_yest": -2.89,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 2,
+      "ath": 157.4,
+      "pct_to_ath": 89.8
     },
     {
       "sym": "FWONA",
@@ -906,23 +906,6 @@
       "pct_to_ath": 59.8
     },
     {
-      "sym": "RVTY",
-      "name": "Revvity, Inc.",
-      "mcap": 11,
-      "price": 99.09,
-      "basis": 96.06,
-      "bxt_today": 2.46,
-      "bxt_yest": -4.51,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 11,
-      "bxt_streak": 11,
-      "ath": 203.16,
-      "pct_to_ath": 105.0
-    },
-    {
       "sym": "BXP",
       "name": "BXP, Inc.",
       "mcap": 11,
@@ -938,6 +921,23 @@
       "bxt_streak": null,
       "ath": 147.83,
       "pct_to_ath": 147.0
+    },
+    {
+      "sym": "RVTY",
+      "name": "Revvity, Inc.",
+      "mcap": 11,
+      "price": 99.09,
+      "basis": 96.06,
+      "bxt_today": 2.46,
+      "bxt_yest": -4.51,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 11,
+      "bxt_streak": 11,
+      "ath": 203.16,
+      "pct_to_ath": 105.0
     },
     {
       "sym": "XP",
@@ -1059,23 +1059,6 @@
       "pct_to_ath": 7.6
     },
     {
-      "sym": "NUVL",
-      "name": "Nuvalent, Inc.",
-      "mcap": 8,
-      "price": 104.26,
-      "basis": 102.01,
-      "bxt_today": -6.12,
-      "bxt_yest": -8.13,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 113.51,
-      "pct_to_ath": 8.9
-    },
-    {
       "sym": "IBP",
       "name": "Installed Building Products, Inc.",
       "mcap": 8,
@@ -1091,6 +1074,23 @@
       "bxt_streak": null,
       "ath": 349.0,
       "pct_to_ath": 16.5
+    },
+    {
+      "sym": "NUVL",
+      "name": "Nuvalent, Inc.",
+      "mcap": 8,
+      "price": 104.26,
+      "basis": 102.01,
+      "bxt_today": -6.12,
+      "bxt_yest": -8.13,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 113.51,
+      "pct_to_ath": 8.9
     },
     {
       "sym": "CMC",
@@ -1144,23 +1144,6 @@
       "pct_to_ath": 416.5
     },
     {
-      "sym": "UEC",
-      "name": "Uranium Energy Corp.",
-      "mcap": 8,
-      "price": 15.77,
-      "basis": 14.88,
-      "bxt_today": -2.5,
-      "bxt_yest": -6.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 20.34,
-      "pct_to_ath": 29.0
-    },
-    {
       "sym": "BIRK",
       "name": "Birkenstock Holding plc Ordinary Shares",
       "mcap": 7,
@@ -1195,23 +1178,6 @@
       "pct_to_ath": 11.8
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 70.1,
-      "basis": 69.65,
-      "bxt_today": 3.28,
-      "bxt_yest": 1.54,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 86.76,
-      "pct_to_ath": 23.8
-    },
-    {
       "sym": "HQY",
       "name": "HealthEquity, Inc.",
       "mcap": 7,
@@ -1244,6 +1210,23 @@
       "bxt_streak": null,
       "ath": 96.94,
       "pct_to_ath": 50.9
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 70.1,
+      "basis": 69.65,
+      "bxt_today": 3.28,
+      "bxt_yest": 1.54,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 86.76,
+      "pct_to_ath": 23.8
     },
     {
       "sym": "EXP",
@@ -1569,23 +1552,6 @@
       "pct_to_ath": 253.2
     },
     {
-      "sym": "ARIS",
-      "name": "Aris Mining Corporation Common Shares",
-      "mcap": 4,
-      "price": 18.93,
-      "basis": 18.71,
-      "bxt_today": -13.42,
-      "bxt_yest": -14.16,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 900.38,
-      "pct_to_ath": 4656.3
-    },
-    {
       "sym": "INDB",
       "name": "Independent Bank Corp.",
       "mcap": 4,
@@ -1601,6 +1567,23 @@
       "bxt_streak": null,
       "ath": 99.85,
       "pct_to_ath": 27.0
+    },
+    {
+      "sym": "ARIS",
+      "name": "Aris Mining Corporation Common Shares",
+      "mcap": 4,
+      "price": 18.93,
+      "basis": 18.71,
+      "bxt_today": -13.42,
+      "bxt_yest": -14.16,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 900.38,
+      "pct_to_ath": 4656.3
     },
     {
       "sym": "SKE",
@@ -2610,23 +2593,6 @@
       "pct_to_ath": 89.8
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 226.82,
-      "basis": 220.55,
-      "bxt_today": 1.81,
-      "bxt_yest": -2.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 10.6
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -2642,6 +2608,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 114.5
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 226.82,
+      "basis": 220.55,
+      "bxt_today": 1.81,
+      "bxt_yest": -2.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 10.6
     },
     {
       "sym": "TPG",
@@ -2865,23 +2848,6 @@
       "pct_to_ath": 159.4
     },
     {
-      "sym": "LLYVK",
-      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-      "mcap": 9,
-      "price": 97.51,
-      "basis": 91.4,
-      "bxt_today": 1.5,
-      "bxt_yest": -0.65,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 102.62,
-      "pct_to_ath": 5.2
-    },
-    {
       "sym": "AYI",
       "name": "Acuity Inc.",
       "mcap": 9,
@@ -2899,21 +2865,21 @@
       "pct_to_ath": 28.5
     },
     {
-      "sym": "LLYVA",
-      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "sym": "LLYVK",
+      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
       "mcap": 9,
-      "price": 95.26,
-      "basis": 89.23,
-      "bxt_today": 1.67,
-      "bxt_yest": -0.67,
+      "price": 97.51,
+      "basis": 91.4,
+      "bxt_today": 1.5,
+      "bxt_yest": -0.65,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 1,
-      "ath": 99.82,
-      "pct_to_ath": 4.8
+      "ath": 102.62,
+      "pct_to_ath": 5.2
     },
     {
       "sym": "GDS",
@@ -2931,6 +2897,23 @@
       "bxt_streak": 9,
       "ath": 116.76,
       "pct_to_ath": 153.8
+    },
+    {
+      "sym": "LLYVA",
+      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "mcap": 9,
+      "price": 95.26,
+      "basis": 89.23,
+      "bxt_today": 1.67,
+      "bxt_yest": -0.67,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 99.82,
+      "pct_to_ath": 4.8
     },
     {
       "sym": "CRL",
@@ -3154,23 +3137,6 @@
       "pct_to_ath": 16.0
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 49.11,
-      "basis": 56.7,
-      "bxt_today": 1.59,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 286.6
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -3186,6 +3152,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.2
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 49.11,
+      "basis": 56.7,
+      "bxt_today": 1.59,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 286.6
     },
     {
       "sym": "CRSP",
@@ -3871,9 +3854,20 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T22:00:24.811197+00:00",
+    "compared_to": "2026-05-06T22:05:51.218831+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "UEC",
+        "name": "Uranium Energy Corp.",
+        "mcap": 8,
+        "price": 15.77,
+        "basis": 14.88,
+        "bxt_today": -2.5,
+        "ath": 20.34,
+        "pct_to_ath": 29.0
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
