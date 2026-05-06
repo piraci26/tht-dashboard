@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T04:20:24.607084+00:00",
+  "updated_at": "2026-05-06T04:31:41.926177+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 111.92,
-  "scanned_count": 1511,
+  "scan_seconds": 128.91,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "APP",
@@ -313,23 +313,6 @@
       "pct_to_ath": 7.2
     },
     {
-      "sym": "MRNA",
-      "name": "Moderna, Inc.",
-      "mcap": 19,
-      "price": 46.71,
-      "basis": 46.79,
-      "bxt_today": -7.97,
-      "bxt_yest": -5.45,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 497.49,
-      "pct_to_ath": 965.1
-    },
-    {
       "sym": "BWXT",
       "name": "BWX Technologies, Inc.",
       "mcap": 19,
@@ -345,6 +328,23 @@
       "bxt_streak": null,
       "ath": 241.82,
       "pct_to_ath": 17.3
+    },
+    {
+      "sym": "MRNA",
+      "name": "Moderna, Inc.",
+      "mcap": 19,
+      "price": 46.71,
+      "basis": 46.79,
+      "bxt_today": -7.97,
+      "bxt_yest": -5.45,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 497.49,
+      "pct_to_ath": 965.1
     },
     {
       "sym": "GMED",
@@ -364,23 +364,6 @@
       "pct_to_ath": 12.6
     },
     {
-      "sym": "LINE",
-      "name": "Lineage, Inc.",
-      "mcap": 9,
-      "price": 36.5,
-      "basis": 36.54,
-      "bxt_today": 12.8,
-      "bxt_yest": 12.57,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 4,
-      "bxt_streak": null,
-      "ath": 89.85,
-      "pct_to_ath": 146.2
-    },
-    {
       "sym": "ADC",
       "name": "Agree Realty Corporation",
       "mcap": 9,
@@ -396,6 +379,23 @@
       "bxt_streak": null,
       "ath": 82.08,
       "pct_to_ath": 8.1
+    },
+    {
+      "sym": "LINE",
+      "name": "Lineage, Inc.",
+      "mcap": 9,
+      "price": 36.5,
+      "basis": 36.54,
+      "bxt_today": 12.8,
+      "bxt_yest": 12.57,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 89.85,
+      "pct_to_ath": 146.2
     },
     {
       "sym": "KT",
@@ -774,23 +774,6 @@
       "pct_to_ath": 130.9
     },
     {
-      "sym": "OTEX",
-      "name": "Open Text Corporation Common Shares",
-      "mcap": 6,
-      "price": 23.48,
-      "basis": 25.02,
-      "bxt_today": 0.68,
-      "bxt_yest": -2.59,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 55.25,
-      "pct_to_ath": 135.3
-    },
-    {
       "sym": "CLF",
       "name": "Cleveland-Cliffs Inc.",
       "mcap": 6,
@@ -808,21 +791,21 @@
       "pct_to_ath": 1045.1
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
+      "sym": "OTEX",
+      "name": "Open Text Corporation Common Shares",
       "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
+      "price": 23.48,
+      "basis": 25.02,
+      "bxt_today": 0.68,
+      "bxt_yest": -2.59,
+      "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 55.25,
+      "pct_to_ath": 135.3
     },
     {
       "sym": "MIRM",
@@ -842,6 +825,23 @@
       "pct_to_ath": 4.4
     },
     {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
+    },
+    {
       "sym": "RITM",
       "name": "Rithm Capital Corp.",
       "mcap": 5,
@@ -857,23 +857,6 @@
       "bxt_streak": 1,
       "ath": 18.75,
       "pct_to_ath": 93.3
-    },
-    {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 50.15,
-      "basis": 56.75,
-      "bxt_today": 2.43,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 278.5
     },
     {
       "sym": "MAIN",
@@ -908,6 +891,23 @@
       "bxt_streak": 3,
       "ath": 220.2,
       "pct_to_ath": 320.4
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 50.15,
+      "basis": 56.75,
+      "bxt_today": 2.43,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 278.5
     },
     {
       "sym": "ACHR",
@@ -1150,21 +1150,21 @@
       "pct_to_ath": 337.1
     },
     {
-      "sym": "AR",
-      "name": "Antero Resources Corporation",
+      "sym": "JHX",
+      "name": "James Hardie Industries plc. Ordinary Shares",
       "mcap": 12,
-      "price": 39.13,
-      "basis": 37.41,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.24,
+      "price": 20.15,
+      "basis": 21.79,
+      "bxt_today": -0.09,
+      "bxt_yest": 0.53,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 68.43,
-      "pct_to_ath": 74.9
+      "bxt_streak": 3,
+      "ath": 43.57,
+      "pct_to_ath": 116.2
     },
     {
       "sym": "WBS",
@@ -1184,21 +1184,21 @@
       "pct_to_ath": 2.5
     },
     {
-      "sym": "JHX",
-      "name": "James Hardie Industries plc. Ordinary Shares",
+      "sym": "AR",
+      "name": "Antero Resources Corporation",
       "mcap": 12,
-      "price": 20.15,
-      "basis": 21.79,
-      "bxt_today": -0.09,
-      "bxt_yest": 0.53,
+      "price": 39.13,
+      "basis": 37.41,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.24,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 43.57,
-      "pct_to_ath": 116.2
+      "bxt_streak": 15,
+      "ath": 68.43,
+      "pct_to_ath": 74.9
     },
     {
       "sym": "STAG",
@@ -1286,21 +1286,21 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "KMX",
-      "name": "CarMax Inc",
+      "sym": "OGS",
+      "name": "ONE Gas, Inc.",
       "mcap": 5,
-      "price": 37.25,
-      "basis": 42.37,
-      "bxt_today": -0.03,
-      "bxt_yest": 1.08,
+      "price": 86.69,
+      "basis": 84.65,
+      "bxt_today": -1.82,
+      "bxt_yest": 1.94,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 21,
-      "ath": 155.98,
-      "pct_to_ath": 318.7
+      "bxt_streak": 13,
+      "ath": 96.97,
+      "pct_to_ath": 11.9
     },
     {
       "sym": "SEB",
@@ -1318,6 +1318,23 @@
       "bxt_streak": 7,
       "ath": 5989.37,
       "pct_to_ath": 5.3
+    },
+    {
+      "sym": "KMX",
+      "name": "CarMax Inc",
+      "mcap": 5,
+      "price": 37.25,
+      "basis": 42.37,
+      "bxt_today": -0.03,
+      "bxt_yest": 1.08,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 21,
+      "ath": 155.98,
+      "pct_to_ath": 318.7
     },
     {
       "sym": "PSMT",
@@ -1354,21 +1371,21 @@
       "pct_to_ath": 12.5
     },
     {
-      "sym": "OGS",
-      "name": "ONE Gas, Inc.",
-      "mcap": 5,
-      "price": 86.69,
-      "basis": 84.65,
-      "bxt_today": -1.82,
-      "bxt_yest": 1.94,
+      "sym": "DAN",
+      "name": "Dana Incorporated",
+      "mcap": 4,
+      "price": 34.63,
+      "basis": 32.58,
+      "bxt_today": -3.78,
+      "bxt_yest": 0.94,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 96.97,
-      "pct_to_ath": 11.9
+      "bxt_streak": 27,
+      "ath": 39.56,
+      "pct_to_ath": 14.2
     },
     {
       "sym": "LBTYK",
@@ -1386,27 +1403,10 @@
       "bxt_streak": 14,
       "ath": 23.19,
       "pct_to_ath": 97.3
-    },
-    {
-      "sym": "DAN",
-      "name": "Dana Incorporated",
-      "mcap": 4,
-      "price": 34.63,
-      "basis": 32.58,
-      "bxt_today": -3.78,
-      "bxt_yest": 0.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 27,
-      "ath": 39.56,
-      "pct_to_ath": 14.2
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T04:09:22.569237+00:00",
+    "compared_to": "2026-05-06T04:20:24.607084+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
