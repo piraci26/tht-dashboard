@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T08:47:00.547042+00:00",
+  "updated_at": "2026-05-06T08:58:01.726417+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 122.91,
-  "scanned_count": 1509,
+  "scan_seconds": 112.63,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "APP",
@@ -621,23 +621,6 @@
       "pct_to_ath": 37.8
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.59,
-      "basis": 13.13,
-      "bxt_today": 0.38,
-      "bxt_yest": -2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 118.4
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -653,6 +636,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 12.6
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.59,
+      "basis": 13.13,
+      "bxt_today": 0.38,
+      "bxt_yest": -2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 118.4
     },
     {
       "sym": "TPG",
@@ -774,6 +774,23 @@
       "pct_to_ath": 130.9
     },
     {
+      "sym": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "mcap": 6,
+      "price": 10.65,
+      "basis": 10.94,
+      "bxt_today": 1.31,
+      "bxt_yest": -0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 121.95,
+      "pct_to_ath": 1045.1
+    },
+    {
       "sym": "MIRM",
       "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
@@ -825,23 +842,6 @@
       "pct_to_ath": 218.3
     },
     {
-      "sym": "CLF",
-      "name": "Cleveland-Cliffs Inc.",
-      "mcap": 6,
-      "price": 10.65,
-      "basis": 10.94,
-      "bxt_today": 1.31,
-      "bxt_yest": -0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 121.95,
-      "pct_to_ath": 1045.1
-    },
-    {
       "sym": "RITM",
       "name": "Rithm Capital Corp.",
       "mcap": 5,
@@ -859,21 +859,21 @@
       "pct_to_ath": 93.3
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
       "mcap": 5,
-      "price": 50.15,
-      "basis": 56.75,
-      "bxt_today": 2.43,
-      "bxt_yest": -1.53,
+      "price": 57.36,
+      "basis": 57.68,
+      "bxt_today": 2.93,
+      "bxt_yest": -0.46,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 278.5
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.1
     },
     {
       "sym": "CRSP",
@@ -893,21 +893,21 @@
       "pct_to_ath": 320.4
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
-      "price": 57.36,
-      "basis": 57.68,
-      "bxt_today": 2.93,
-      "bxt_yest": -0.46,
+      "price": 50.15,
+      "basis": 56.75,
+      "bxt_today": 2.43,
+      "bxt_yest": -1.53,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.1
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 278.5
     },
     {
       "sym": "ACHR",
@@ -1082,23 +1082,6 @@
       "pct_to_ath": 2.2
     },
     {
-      "sym": "CFG",
-      "name": "Citizens Financial Group, Inc.",
-      "mcap": 27,
-      "price": 64.36,
-      "basis": 62.0,
-      "bxt_today": -0.49,
-      "bxt_yest": 0.09,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 68.79,
-      "pct_to_ath": 6.9
-    },
-    {
       "sym": "HUBB",
       "name": "Hubbell Inc",
       "mcap": 27,
@@ -1114,6 +1097,23 @@
       "bxt_streak": 5,
       "ath": 565.5,
       "pct_to_ath": 11.4
+    },
+    {
+      "sym": "CFG",
+      "name": "Citizens Financial Group, Inc.",
+      "mcap": 27,
+      "price": 64.36,
+      "basis": 62.0,
+      "bxt_today": -0.49,
+      "bxt_yest": 0.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 68.79,
+      "pct_to_ath": 6.9
     },
     {
       "sym": "SNA",
@@ -1167,23 +1167,6 @@
       "pct_to_ath": 116.2
     },
     {
-      "sym": "WBS",
-      "name": "Webster Financial Corporation",
-      "mcap": 12,
-      "price": 72.16,
-      "basis": 69.37,
-      "bxt_today": -0.67,
-      "bxt_yest": 0.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 74.0,
-      "pct_to_ath": 2.5
-    },
-    {
       "sym": "AR",
       "name": "Antero Resources Corporation",
       "mcap": 12,
@@ -1199,6 +1182,23 @@
       "bxt_streak": 15,
       "ath": 68.43,
       "pct_to_ath": 74.9
+    },
+    {
+      "sym": "WBS",
+      "name": "Webster Financial Corporation",
+      "mcap": 12,
+      "price": 72.16,
+      "basis": 69.37,
+      "bxt_today": -0.67,
+      "bxt_yest": 0.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 74.0,
+      "pct_to_ath": 2.5
     },
     {
       "sym": "STAG",
@@ -1286,23 +1286,6 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "OGS",
-      "name": "ONE Gas, Inc.",
-      "mcap": 5,
-      "price": 86.69,
-      "basis": 84.65,
-      "bxt_today": -1.82,
-      "bxt_yest": 1.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 96.97,
-      "pct_to_ath": 11.9
-    },
-    {
       "sym": "KMX",
       "name": "CarMax Inc",
       "mcap": 5,
@@ -1318,6 +1301,23 @@
       "bxt_streak": 21,
       "ath": 155.98,
       "pct_to_ath": 318.7
+    },
+    {
+      "sym": "OGS",
+      "name": "ONE Gas, Inc.",
+      "mcap": 5,
+      "price": 86.69,
+      "basis": 84.65,
+      "bxt_today": -1.82,
+      "bxt_yest": 1.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 96.97,
+      "pct_to_ath": 11.9
     },
     {
       "sym": "SEB",
@@ -1337,23 +1337,6 @@
       "pct_to_ath": 5.3
     },
     {
-      "sym": "UNF",
-      "name": "Unifirst Corporation",
-      "mcap": 5,
-      "price": 252.3,
-      "basis": 238.87,
-      "bxt_today": -1.75,
-      "bxt_yest": 1.42,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 24,
-      "ath": 283.77,
-      "pct_to_ath": 12.5
-    },
-    {
       "sym": "PSMT",
       "name": "PriceSmart, Inc.",
       "mcap": 5,
@@ -1369,6 +1352,23 @@
       "bxt_streak": 5,
       "ath": 165.46,
       "pct_to_ath": 5.7
+    },
+    {
+      "sym": "UNF",
+      "name": "Unifirst Corporation",
+      "mcap": 5,
+      "price": 252.3,
+      "basis": 238.87,
+      "bxt_today": -1.75,
+      "bxt_yest": 1.42,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 24,
+      "ath": 283.77,
+      "pct_to_ath": 12.5
     },
     {
       "sym": "LBTYK",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T08:35:49.573030+00:00",
+    "compared_to": "2026-05-06T08:47:00.547042+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
