@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T09:33:05.344407+00:00",
+  "updated_at": "2026-05-06T09:44:06.264017+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 111.22,
-  "scanned_count": 1510,
+  "scan_seconds": 110.61,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "APP",
@@ -332,23 +332,6 @@
       "pct_to_ath": 337.9
     },
     {
-      "sym": "Q",
-      "name": "Qnity Electronics, Inc.",
-      "mcap": 31,
-      "price": 146.47,
-      "basis": 137.41,
-      "bxt_today": 2.13,
-      "bxt_yest": -0.97,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 147.99,
-      "pct_to_ath": 1.0
-    },
-    {
       "sym": "EIX",
       "name": "Edison International",
       "mcap": 27,
@@ -536,21 +519,21 @@
       "pct_to_ath": 278.5
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
+      "sym": "ACHR",
+      "name": "Archer Aviation Inc.",
       "mcap": 4,
-      "price": 22.84,
-      "basis": 25.57,
-      "bxt_today": 0.8,
-      "bxt_yest": -3.0,
+      "price": 5.84,
+      "basis": 6.65,
+      "bxt_today": 0.28,
+      "bxt_yest": -1.78,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 53.46,
-      "pct_to_ath": 134.1
+      "bxt_streak": 27,
+      "ath": 18.6,
+      "pct_to_ath": 218.5
     },
     {
       "sym": "CUZ",
@@ -570,21 +553,21 @@
       "pct_to_ath": 341.6
     },
     {
-      "sym": "ACHR",
-      "name": "Archer Aviation Inc.",
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
       "mcap": 4,
-      "price": 5.84,
-      "basis": 6.65,
-      "bxt_today": 0.28,
-      "bxt_yest": -1.78,
+      "price": 22.84,
+      "basis": 25.57,
+      "bxt_today": 0.8,
+      "bxt_yest": -3.0,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 27,
-      "ath": 18.6,
-      "pct_to_ath": 218.5
+      "bxt_streak": 37,
+      "ath": 53.46,
+      "pct_to_ath": 134.1
     }
   ],
   "bxt_red": [
@@ -861,40 +844,6 @@
       "pct_to_ath": 30.5
     },
     {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 98.66,
-      "basis": 94.33,
-      "bxt_today": -1.08,
-      "bxt_yest": 1.29,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
-    },
-    {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
-      "mcap": 11,
-      "price": 44.42,
-      "basis": 40.4,
-      "bxt_today": -0.6,
-      "bxt_yest": 1.31,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 13.7
-    },
-    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -927,6 +876,40 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 29.2
+    },
+    {
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
+      "mcap": 11,
+      "price": 44.42,
+      "basis": 40.4,
+      "bxt_today": -0.6,
+      "bxt_yest": 1.31,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 13.7
+    },
+    {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 98.66,
+      "basis": 94.33,
+      "bxt_today": -1.08,
+      "bxt_yest": 1.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
     },
     {
       "sym": "ENSG",
@@ -997,23 +980,6 @@
       "pct_to_ath": 7.0
     },
     {
-      "sym": "ACT",
-      "name": "Enact Holdings, Inc.",
-      "mcap": 6,
-      "price": 42.31,
-      "basis": 41.34,
-      "bxt_today": -0.16,
-      "bxt_yest": 1.99,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 44.8,
-      "pct_to_ath": 5.9
-    },
-    {
       "sym": "CGON",
       "name": "CG Oncology, Inc. Common stock",
       "mcap": 6,
@@ -1031,21 +997,38 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "PTCT",
-      "name": "PTC Therapeutics, Inc.",
-      "mcap": 5,
-      "price": 65.04,
-      "basis": 59.42,
-      "bxt_today": -0.23,
-      "bxt_yest": 2.67,
+      "sym": "ACT",
+      "name": "Enact Holdings, Inc.",
+      "mcap": 6,
+      "price": 42.31,
+      "basis": 41.34,
+      "bxt_today": -0.16,
+      "bxt_yest": 1.99,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 87.5,
-      "pct_to_ath": 34.5
+      "bxt_streak": 4,
+      "ath": 44.8,
+      "pct_to_ath": 5.9
+    },
+    {
+      "sym": "CNX",
+      "name": "CNX Resources Corporation",
+      "mcap": 5,
+      "price": 38.02,
+      "basis": 34.77,
+      "bxt_today": -0.27,
+      "bxt_yest": 2.56,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 99.25,
+      "pct_to_ath": 161.0
     },
     {
       "sym": "AX",
@@ -1065,21 +1048,21 @@
       "pct_to_ath": 17.0
     },
     {
-      "sym": "CNX",
-      "name": "CNX Resources Corporation",
+      "sym": "PTCT",
+      "name": "PTC Therapeutics, Inc.",
       "mcap": 5,
-      "price": 38.02,
-      "basis": 34.77,
-      "bxt_today": -0.27,
-      "bxt_yest": 2.56,
+      "price": 65.04,
+      "basis": 59.42,
+      "bxt_today": -0.23,
+      "bxt_yest": 2.67,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 99.25,
-      "pct_to_ath": 161.0
+      "bxt_streak": 25,
+      "ath": 87.5,
+      "pct_to_ath": 34.5
     },
     {
       "sym": "DOO",
@@ -1117,13 +1100,24 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T09:21:56.352620+00:00",
+    "compared_to": "2026-05-06T09:33:05.344407+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "Q",
+        "name": "Qnity Electronics, Inc.",
+        "mcap": 31,
+        "price": 146.47,
+        "basis": 137.41,
+        "bxt_today": 2.13,
+        "ath": 147.99,
+        "pct_to_ath": 1.0
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
