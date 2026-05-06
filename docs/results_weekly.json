@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T08:24:47.398032+00:00",
+  "updated_at": "2026-05-06T08:35:49.573030+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 113.11,
-  "scanned_count": 1501,
+  "scan_seconds": 112.02,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -175,23 +175,6 @@
       "pct_to_ath": 41.2
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "PAYC",
       "name": "Paycom Software, Inc.",
       "mcap": 6,
@@ -207,6 +190,23 @@
       "bxt_streak": null,
       "ath": 558.97,
       "pct_to_ath": 324.5
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "PAY",
@@ -621,23 +621,6 @@
       "pct_to_ath": 37.8
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.59,
-      "basis": 13.13,
-      "bxt_today": 0.38,
-      "bxt_yest": -2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 118.4
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -653,6 +636,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 12.6
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.59,
+      "basis": 13.13,
+      "bxt_today": 0.38,
+      "bxt_yest": -2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 118.4
     },
     {
       "sym": "TPG",
@@ -774,40 +774,6 @@
       "pct_to_ath": 130.9
     },
     {
-      "sym": "MIRM",
-      "name": "Mirum Pharmaceuticals, Inc.",
-      "mcap": 6,
-      "price": 105.81,
-      "basis": 94.75,
-      "bxt_today": 2.85,
-      "bxt_yest": -0.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 110.49,
-      "pct_to_ath": 4.4
-    },
-    {
-      "sym": "OTEX",
-      "name": "Open Text Corporation Common Shares",
-      "mcap": 6,
-      "price": 23.48,
-      "basis": 25.02,
-      "bxt_today": 0.68,
-      "bxt_yest": -2.59,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 55.25,
-      "pct_to_ath": 135.3
-    },
-    {
       "sym": "CLF",
       "name": "Cleveland-Cliffs Inc.",
       "mcap": 6,
@@ -825,6 +791,23 @@
       "pct_to_ath": 1045.1
     },
     {
+      "sym": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
+      "mcap": 6,
+      "price": 105.81,
+      "basis": 94.75,
+      "bxt_today": 2.85,
+      "bxt_yest": -0.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 110.49,
+      "pct_to_ath": 4.4
+    },
+    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -840,6 +823,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "OTEX",
+      "name": "Open Text Corporation Common Shares",
+      "mcap": 6,
+      "price": 23.48,
+      "basis": 25.02,
+      "bxt_today": 0.68,
+      "bxt_yest": -2.59,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 55.25,
+      "pct_to_ath": 135.3
     },
     {
       "sym": "RITM",
@@ -1150,6 +1150,23 @@
       "pct_to_ath": 337.1
     },
     {
+      "sym": "JHX",
+      "name": "James Hardie Industries plc. Ordinary Shares",
+      "mcap": 12,
+      "price": 20.15,
+      "basis": 21.79,
+      "bxt_today": -0.09,
+      "bxt_yest": 0.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 43.57,
+      "pct_to_ath": 116.2
+    },
+    {
       "sym": "AR",
       "name": "Antero Resources Corporation",
       "mcap": 12,
@@ -1184,40 +1201,6 @@
       "pct_to_ath": 2.5
     },
     {
-      "sym": "JHX",
-      "name": "James Hardie Industries plc. Ordinary Shares",
-      "mcap": 12,
-      "price": 20.15,
-      "basis": 21.79,
-      "bxt_today": -0.09,
-      "bxt_yest": 0.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 43.57,
-      "pct_to_ath": 116.2
-    },
-    {
-      "sym": "STAG",
-      "name": "Stag Industrial, Inc.",
-      "mcap": 7,
-      "price": 38.05,
-      "basis": 37.99,
-      "bxt_today": -1.49,
-      "bxt_yest": 0.01,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 48.27,
-      "pct_to_ath": 26.9
-    },
-    {
       "sym": "NOV",
       "name": "NOV Inc.",
       "mcap": 7,
@@ -1235,21 +1218,21 @@
       "pct_to_ath": 330.2
     },
     {
-      "sym": "VAL",
-      "name": "Valaris Limited Common Shares",
-      "mcap": 6,
-      "price": 92.81,
-      "basis": 83.0,
-      "bxt_today": -1.18,
-      "bxt_yest": 2.4,
+      "sym": "STAG",
+      "name": "Stag Industrial, Inc.",
+      "mcap": 7,
+      "price": 38.05,
+      "basis": 37.99,
+      "bxt_today": -1.49,
+      "bxt_yest": 0.01,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 105.35,
-      "pct_to_ath": 13.5
+      "bxt_streak": 4,
+      "ath": 48.27,
+      "pct_to_ath": 26.9
     },
     {
       "sym": "ACT",
@@ -1286,6 +1269,23 @@
       "pct_to_ath": 9.5
     },
     {
+      "sym": "VAL",
+      "name": "Valaris Limited Common Shares",
+      "mcap": 6,
+      "price": 92.81,
+      "basis": 83.0,
+      "bxt_today": -1.18,
+      "bxt_yest": 2.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 105.35,
+      "pct_to_ath": 13.5
+    },
+    {
       "sym": "OGS",
       "name": "ONE Gas, Inc.",
       "mcap": 5,
@@ -1303,23 +1303,6 @@
       "pct_to_ath": 11.9
     },
     {
-      "sym": "SEB",
-      "name": "Seaboard Corporation",
-      "mcap": 5,
-      "price": 5687.09,
-      "basis": 5244.86,
-      "bxt_today": -1.24,
-      "bxt_yest": 0.78,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 5989.37,
-      "pct_to_ath": 5.3
-    },
-    {
       "sym": "KMX",
       "name": "CarMax Inc",
       "mcap": 5,
@@ -1335,6 +1318,23 @@
       "bxt_streak": 21,
       "ath": 155.98,
       "pct_to_ath": 318.7
+    },
+    {
+      "sym": "SEB",
+      "name": "Seaboard Corporation",
+      "mcap": 5,
+      "price": 5687.09,
+      "basis": 5244.86,
+      "bxt_today": -1.24,
+      "bxt_yest": 0.78,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 5989.37,
+      "pct_to_ath": 5.3
     },
     {
       "sym": "PSMT",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T08:13:44.482654+00:00",
+    "compared_to": "2026-05-06T08:24:47.398032+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
