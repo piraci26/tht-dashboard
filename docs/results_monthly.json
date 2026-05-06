@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T04:33:31.514216+00:00",
+  "updated_at": "2026-05-06T04:44:31.774788+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 109.57,
+  "scan_seconds": 110.26,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -107,23 +107,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "CZR",
       "name": "Caesars Entertainment, Inc.",
       "mcap": 6,
@@ -139,6 +122,23 @@
       "bxt_streak": null,
       "ath": 119.81,
       "pct_to_ath": 326.4
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "OTF",
@@ -878,6 +878,23 @@
       "pct_to_ath": 23.4
     },
     {
+      "sym": "WMS",
+      "name": "Advanced Drainage Systems, Inc.",
+      "mcap": 11,
+      "price": 142.65,
+      "basis": 132.99,
+      "bxt_today": -0.49,
+      "bxt_yest": 1.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 184.27,
+      "pct_to_ath": 29.2
+    },
+    {
       "sym": "CCK",
       "name": "Crown Holdings, Inc.",
       "mcap": 11,
@@ -910,23 +927,6 @@
       "bxt_streak": 37,
       "ath": 50.5,
       "pct_to_ath": 13.7
-    },
-    {
-      "sym": "WMS",
-      "name": "Advanced Drainage Systems, Inc.",
-      "mcap": 11,
-      "price": 142.65,
-      "basis": 132.99,
-      "bxt_today": -0.49,
-      "bxt_yest": 1.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 184.27,
-      "pct_to_ath": 29.2
     },
     {
       "sym": "ENSG",
@@ -1082,23 +1082,6 @@
       "pct_to_ath": 17.0
     },
     {
-      "sym": "TNL",
-      "name": "Travel   Leisure Co. Common  Stock",
-      "mcap": 4,
-      "price": 63.0,
-      "basis": 59.69,
-      "bxt_today": -0.69,
-      "bxt_yest": 3.7,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 29,
-      "ath": 81.0,
-      "pct_to_ath": 28.6
-    },
-    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -1114,10 +1097,27 @@
       "bxt_streak": 10,
       "ath": 102.96,
       "pct_to_ath": 90.8
+    },
+    {
+      "sym": "TNL",
+      "name": "Travel   Leisure Co. Common  Stock",
+      "mcap": 4,
+      "price": 63.0,
+      "basis": 59.69,
+      "bxt_today": -0.69,
+      "bxt_yest": 3.7,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 29,
+      "ath": 81.0,
+      "pct_to_ath": 28.6
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T04:22:15.290883+00:00",
+    "compared_to": "2026-05-06T04:33:31.514216+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
