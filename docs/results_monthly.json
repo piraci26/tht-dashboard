@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T11:56:30.265593+00:00",
+  "updated_at": "2026-05-06T12:02:42.757453+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.75,
-  "scanned_count": 1510,
+  "scan_seconds": 12.85,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -107,23 +107,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "CZR",
-      "name": "Caesars Entertainment, Inc.",
-      "mcap": 6,
-      "price": 28.1,
-      "basis": 27.6,
-      "bxt_today": 14.31,
-      "bxt_yest": 12.48,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 29,
-      "bxt_streak": null,
-      "ath": 119.81,
-      "pct_to_ath": 326.4
-    },
-    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -139,6 +122,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "CZR",
+      "name": "Caesars Entertainment, Inc.",
+      "mcap": 6,
+      "price": 28.1,
+      "basis": 27.6,
+      "bxt_today": 14.31,
+      "bxt_yest": 12.48,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 29,
+      "bxt_streak": null,
+      "ath": 119.81,
+      "pct_to_ath": 326.4
     },
     {
       "sym": "OTF",
@@ -553,23 +553,6 @@
       "pct_to_ath": 218.5
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
-      "mcap": 4,
-      "price": 22.84,
-      "basis": 25.57,
-      "bxt_today": 0.8,
-      "bxt_yest": -3.0,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 53.46,
-      "pct_to_ath": 134.1
-    },
-    {
       "sym": "CUZ",
       "name": "Cousins Properties Incorporated",
       "mcap": 4,
@@ -585,6 +568,23 @@
       "bxt_streak": 2,
       "ath": 115.03,
       "pct_to_ath": 341.6
+    },
+    {
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
+      "mcap": 4,
+      "price": 22.84,
+      "basis": 25.57,
+      "bxt_today": 0.8,
+      "bxt_yest": -3.0,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 53.46,
+      "pct_to_ath": 134.1
     }
   ],
   "bxt_red": [
@@ -963,23 +963,6 @@
       "pct_to_ath": 483.9
     },
     {
-      "sym": "VAL",
-      "name": "Valaris Limited Common Shares",
-      "mcap": 6,
-      "price": 92.81,
-      "basis": 83.0,
-      "bxt_today": -1.18,
-      "bxt_yest": 2.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 105.35,
-      "pct_to_ath": 13.5
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -1029,6 +1012,23 @@
       "bxt_streak": 18,
       "ath": 73.56,
       "pct_to_ath": 9.5
+    },
+    {
+      "sym": "VAL",
+      "name": "Valaris Limited Common Shares",
+      "mcap": 6,
+      "price": 92.81,
+      "basis": 83.0,
+      "bxt_today": -1.18,
+      "bxt_yest": 2.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 105.35,
+      "pct_to_ath": 13.5
     },
     {
       "sym": "CNX",
@@ -1117,7 +1117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T11:51:02.640840+00:00",
+    "compared_to": "2026-05-06T11:56:30.265593+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
