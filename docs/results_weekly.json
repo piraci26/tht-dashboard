@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T07:51:28.014519+00:00",
+  "updated_at": "2026-05-06T08:02:43.354787+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 112.98,
-  "scanned_count": 1506,
+  "scan_seconds": 115.87,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "APP",
@@ -621,23 +621,6 @@
       "pct_to_ath": 37.8
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 222.71,
-      "basis": 220.34,
-      "bxt_today": 0.2,
-      "bxt_yest": -2.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 12.6
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -653,6 +636,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 118.4
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 222.71,
+      "basis": 220.34,
+      "bxt_today": 0.2,
+      "bxt_yest": -2.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 12.6
     },
     {
       "sym": "TPG",
@@ -774,23 +774,6 @@
       "pct_to_ath": 130.9
     },
     {
-      "sym": "CLF",
-      "name": "Cleveland-Cliffs Inc.",
-      "mcap": 6,
-      "price": 10.65,
-      "basis": 10.94,
-      "bxt_today": 1.31,
-      "bxt_yest": -0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 121.95,
-      "pct_to_ath": 1045.1
-    },
-    {
       "sym": "MIRM",
       "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
@@ -806,6 +789,23 @@
       "bxt_streak": 10,
       "ath": 110.49,
       "pct_to_ath": 4.4
+    },
+    {
+      "sym": "OTEX",
+      "name": "Open Text Corporation Common Shares",
+      "mcap": 6,
+      "price": 23.48,
+      "basis": 25.02,
+      "bxt_today": 0.68,
+      "bxt_yest": -2.59,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 55.25,
+      "pct_to_ath": 135.3
     },
     {
       "sym": "RGTI",
@@ -825,21 +825,21 @@
       "pct_to_ath": 218.3
     },
     {
-      "sym": "OTEX",
-      "name": "Open Text Corporation Common Shares",
+      "sym": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
       "mcap": 6,
-      "price": 23.48,
-      "basis": 25.02,
-      "bxt_today": 0.68,
-      "bxt_yest": -2.59,
+      "price": 10.65,
+      "basis": 10.94,
+      "bxt_today": 1.31,
+      "bxt_yest": -0.9,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 55.25,
-      "pct_to_ath": 135.3
+      "bxt_streak": 13,
+      "ath": 121.95,
+      "pct_to_ath": 1045.1
     },
     {
       "sym": "RITM",
@@ -876,23 +876,6 @@
       "pct_to_ath": 18.1
     },
     {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
-      "mcap": 5,
-      "price": 52.38,
-      "basis": 52.16,
-      "bxt_today": 0.15,
-      "bxt_yest": -0.73,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 220.2,
-      "pct_to_ath": 320.4
-    },
-    {
       "sym": "ESTC",
       "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
@@ -908,6 +891,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 278.5
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 52.38,
+      "basis": 52.16,
+      "bxt_today": 0.15,
+      "bxt_yest": -0.73,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 220.2,
+      "pct_to_ath": 320.4
     },
     {
       "sym": "ACHR",
@@ -1167,23 +1167,6 @@
       "pct_to_ath": 74.9
     },
     {
-      "sym": "JHX",
-      "name": "James Hardie Industries plc. Ordinary Shares",
-      "mcap": 12,
-      "price": 20.15,
-      "basis": 21.79,
-      "bxt_today": -0.09,
-      "bxt_yest": 0.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 43.57,
-      "pct_to_ath": 116.2
-    },
-    {
       "sym": "WBS",
       "name": "Webster Financial Corporation",
       "mcap": 12,
@@ -1199,6 +1182,23 @@
       "bxt_streak": 5,
       "ath": 74.0,
       "pct_to_ath": 2.5
+    },
+    {
+      "sym": "JHX",
+      "name": "James Hardie Industries plc. Ordinary Shares",
+      "mcap": 12,
+      "price": 20.15,
+      "basis": 21.79,
+      "bxt_today": -0.09,
+      "bxt_yest": 0.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 43.57,
+      "pct_to_ath": 116.2
     },
     {
       "sym": "NOV",
@@ -1303,23 +1303,6 @@
       "pct_to_ath": 11.9
     },
     {
-      "sym": "KMX",
-      "name": "CarMax Inc",
-      "mcap": 5,
-      "price": 37.25,
-      "basis": 42.37,
-      "bxt_today": -0.03,
-      "bxt_yest": 1.08,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 21,
-      "ath": 155.98,
-      "pct_to_ath": 318.7
-    },
-    {
       "sym": "SEB",
       "name": "Seaboard Corporation",
       "mcap": 5,
@@ -1371,6 +1354,23 @@
       "pct_to_ath": 12.5
     },
     {
+      "sym": "KMX",
+      "name": "CarMax Inc",
+      "mcap": 5,
+      "price": 37.25,
+      "basis": 42.37,
+      "bxt_today": -0.03,
+      "bxt_yest": 1.08,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 21,
+      "ath": 155.98,
+      "pct_to_ath": 318.7
+    },
+    {
       "sym": "LBTYK",
       "name": "Liberty Global Ltd. Class C Common Shares",
       "mcap": 4,
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T07:40:26.546353+00:00",
+    "compared_to": "2026-05-06T07:51:28.014519+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
