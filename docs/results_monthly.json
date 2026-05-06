@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T07:31:14.973102+00:00",
+  "updated_at": "2026-05-06T07:42:17.163156+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 118.06,
-  "scanned_count": 1510,
+  "scan_seconds": 110.61,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -878,23 +878,6 @@
       "pct_to_ath": 23.4
     },
     {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
-      "mcap": 11,
-      "price": 44.42,
-      "basis": 40.4,
-      "bxt_today": -0.6,
-      "bxt_yest": 1.31,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 13.7
-    },
-    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -927,6 +910,23 @@
       "bxt_streak": 2,
       "ath": 130.42,
       "pct_to_ath": 32.2
+    },
+    {
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
+      "mcap": 11,
+      "price": 44.42,
+      "basis": 40.4,
+      "bxt_today": -0.6,
+      "bxt_yest": 1.31,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 13.7
     },
     {
       "sym": "ENSG",
@@ -980,23 +980,6 @@
       "pct_to_ath": 13.5
     },
     {
-      "sym": "BYD",
-      "name": "Boyd Gaming Corporation",
-      "mcap": 6,
-      "price": 84.07,
-      "basis": 79.81,
-      "bxt_today": -1.71,
-      "bxt_yest": 0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 89.96,
-      "pct_to_ath": 7.0
-    },
-    {
       "sym": "ACT",
       "name": "Enact Holdings, Inc.",
       "mcap": 6,
@@ -1014,6 +997,23 @@
       "pct_to_ath": 5.9
     },
     {
+      "sym": "BYD",
+      "name": "Boyd Gaming Corporation",
+      "mcap": 6,
+      "price": 84.07,
+      "basis": 79.81,
+      "bxt_today": -1.71,
+      "bxt_yest": 0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 89.96,
+      "pct_to_ath": 7.0
+    },
+    {
       "sym": "CGON",
       "name": "CG Oncology, Inc. Common stock",
       "mcap": 6,
@@ -1029,23 +1029,6 @@
       "bxt_streak": 18,
       "ath": 73.56,
       "pct_to_ath": 9.5
-    },
-    {
-      "sym": "PTCT",
-      "name": "PTC Therapeutics, Inc.",
-      "mcap": 5,
-      "price": 65.04,
-      "basis": 59.42,
-      "bxt_today": -0.23,
-      "bxt_yest": 2.67,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 87.5,
-      "pct_to_ath": 34.5
     },
     {
       "sym": "CNX",
@@ -1082,21 +1065,21 @@
       "pct_to_ath": 17.0
     },
     {
-      "sym": "DOO",
-      "name": "BRP Inc. Common Subordinate Voting Shares",
-      "mcap": 4,
-      "price": 53.97,
-      "basis": 55.43,
-      "bxt_today": -0.6,
-      "bxt_yest": 2.71,
+      "sym": "PTCT",
+      "name": "PTC Therapeutics, Inc.",
+      "mcap": 5,
+      "price": 65.04,
+      "basis": 59.42,
+      "bxt_today": -0.23,
+      "bxt_yest": 2.67,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 102.96,
-      "pct_to_ath": 90.8
+      "bxt_streak": 25,
+      "ath": 87.5,
+      "pct_to_ath": 34.5
     },
     {
       "sym": "TNL",
@@ -1114,10 +1097,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 28.6
+    },
+    {
+      "sym": "DOO",
+      "name": "BRP Inc. Common Subordinate Voting Shares",
+      "mcap": 4,
+      "price": 53.97,
+      "basis": 55.43,
+      "bxt_today": -0.6,
+      "bxt_yest": 2.71,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 102.96,
+      "pct_to_ath": 90.8
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T07:20:05.354824+00:00",
+    "compared_to": "2026-05-06T07:31:14.973102+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
