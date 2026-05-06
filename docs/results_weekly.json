@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T07:18:14.163869+00:00",
+  "updated_at": "2026-05-06T07:29:16.906489+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 114.21,
+  "scan_seconds": 110.89,
   "scanned_count": 1508,
   "fvb_green": [
     {
@@ -553,23 +553,6 @@
       "pct_to_ath": 100.9
     },
     {
-      "sym": "FIS",
-      "name": "Fidelity National Information Services, Inc.",
-      "mcap": 24,
-      "price": 46.61,
-      "basis": 51.6,
-      "bxt_today": 2.73,
-      "bxt_yest": -0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 158.21,
-      "pct_to_ath": 239.4
-    },
-    {
       "sym": "FSLR",
       "name": "First Solar, Inc.",
       "mcap": 24,
@@ -585,6 +568,23 @@
       "bxt_streak": 18,
       "ath": 317.0,
       "pct_to_ath": 44.5
+    },
+    {
+      "sym": "FIS",
+      "name": "Fidelity National Information Services, Inc.",
+      "mcap": 24,
+      "price": 46.61,
+      "basis": 51.6,
+      "bxt_today": 2.73,
+      "bxt_yest": -0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 158.21,
+      "pct_to_ath": 239.4
     },
     {
       "sym": "ZS",
@@ -791,23 +791,6 @@
       "pct_to_ath": 1045.1
     },
     {
-      "sym": "OTEX",
-      "name": "Open Text Corporation Common Shares",
-      "mcap": 6,
-      "price": 23.48,
-      "basis": 25.02,
-      "bxt_today": 0.68,
-      "bxt_yest": -2.59,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 55.25,
-      "pct_to_ath": 135.3
-    },
-    {
       "sym": "MIRM",
       "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
@@ -823,6 +806,23 @@
       "bxt_streak": 10,
       "ath": 110.49,
       "pct_to_ath": 4.4
+    },
+    {
+      "sym": "OTEX",
+      "name": "Open Text Corporation Common Shares",
+      "mcap": 6,
+      "price": 23.48,
+      "basis": 25.02,
+      "bxt_today": 0.68,
+      "bxt_yest": -2.59,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 55.25,
+      "pct_to_ath": 135.3
     },
     {
       "sym": "RGTI",
@@ -1286,21 +1286,21 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "KMX",
-      "name": "CarMax Inc",
+      "sym": "OGS",
+      "name": "ONE Gas, Inc.",
       "mcap": 5,
-      "price": 37.25,
-      "basis": 42.37,
-      "bxt_today": -0.03,
-      "bxt_yest": 1.08,
+      "price": 86.69,
+      "basis": 84.65,
+      "bxt_today": -1.82,
+      "bxt_yest": 1.94,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 21,
-      "ath": 155.98,
-      "pct_to_ath": 318.7
+      "bxt_streak": 13,
+      "ath": 96.97,
+      "pct_to_ath": 11.9
     },
     {
       "sym": "SEB",
@@ -1320,21 +1320,21 @@
       "pct_to_ath": 5.3
     },
     {
-      "sym": "OGS",
-      "name": "ONE Gas, Inc.",
+      "sym": "KMX",
+      "name": "CarMax Inc",
       "mcap": 5,
-      "price": 86.69,
-      "basis": 84.65,
-      "bxt_today": -1.82,
-      "bxt_yest": 1.94,
+      "price": 37.25,
+      "basis": 42.37,
+      "bxt_today": -0.03,
+      "bxt_yest": 1.08,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 96.97,
-      "pct_to_ath": 11.9
+      "bxt_streak": 21,
+      "ath": 155.98,
+      "pct_to_ath": 318.7
     },
     {
       "sym": "PSMT",
@@ -1371,23 +1371,6 @@
       "pct_to_ath": 12.5
     },
     {
-      "sym": "LBTYK",
-      "name": "Liberty Global Ltd. Class C Common Shares",
-      "mcap": 4,
-      "price": 11.75,
-      "basis": 11.51,
-      "bxt_today": -0.01,
-      "bxt_yest": 0.79,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 23.19,
-      "pct_to_ath": 97.3
-    },
-    {
       "sym": "DAN",
       "name": "Dana Incorporated",
       "mcap": 4,
@@ -1403,10 +1386,27 @@
       "bxt_streak": 27,
       "ath": 39.56,
       "pct_to_ath": 14.2
+    },
+    {
+      "sym": "LBTYK",
+      "name": "Liberty Global Ltd. Class C Common Shares",
+      "mcap": 4,
+      "price": 11.75,
+      "basis": 11.51,
+      "bxt_today": -0.01,
+      "bxt_yest": 0.79,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 23.19,
+      "pct_to_ath": 97.3
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T07:07:02.899985+00:00",
+    "compared_to": "2026-05-06T07:18:14.163869+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
