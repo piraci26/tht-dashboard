@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T08:15:36.873764+00:00",
+  "updated_at": "2026-05-06T08:26:38.543671+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 112.38,
-  "scanned_count": 1508,
+  "scan_seconds": 111.14,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "APP",
@@ -107,23 +107,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "CZR",
       "name": "Caesars Entertainment, Inc.",
       "mcap": 6,
@@ -139,6 +122,23 @@
       "bxt_streak": null,
       "ath": 119.81,
       "pct_to_ath": 326.4
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "OTF",
@@ -536,21 +536,21 @@
       "pct_to_ath": 278.5
     },
     {
-      "sym": "ACHR",
-      "name": "Archer Aviation Inc.",
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
       "mcap": 4,
-      "price": 5.84,
-      "basis": 6.65,
-      "bxt_today": 0.28,
-      "bxt_yest": -1.78,
+      "price": 22.84,
+      "basis": 25.57,
+      "bxt_today": 0.8,
+      "bxt_yest": -3.0,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 27,
-      "ath": 18.6,
-      "pct_to_ath": 218.5
+      "bxt_streak": 37,
+      "ath": 53.46,
+      "pct_to_ath": 134.1
     },
     {
       "sym": "CUZ",
@@ -570,21 +570,21 @@
       "pct_to_ath": 341.6
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
+      "sym": "ACHR",
+      "name": "Archer Aviation Inc.",
       "mcap": 4,
-      "price": 22.84,
-      "basis": 25.57,
-      "bxt_today": 0.8,
-      "bxt_yest": -3.0,
+      "price": 5.84,
+      "basis": 6.65,
+      "bxt_today": 0.28,
+      "bxt_yest": -1.78,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 53.46,
-      "pct_to_ath": 134.1
+      "bxt_streak": 27,
+      "ath": 18.6,
+      "pct_to_ath": 218.5
     }
   ],
   "bxt_red": [
@@ -895,23 +895,6 @@
       "pct_to_ath": 29.2
     },
     {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 98.66,
-      "basis": 94.33,
-      "bxt_today": -1.08,
-      "bxt_yest": 1.29,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
-    },
-    {
       "sym": "EXEL",
       "name": "Exelixis, Inc.",
       "mcap": 11,
@@ -927,6 +910,23 @@
       "bxt_streak": 37,
       "ath": 50.5,
       "pct_to_ath": 13.7
+    },
+    {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 98.66,
+      "basis": 94.33,
+      "bxt_today": -1.08,
+      "bxt_yest": 1.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
     },
     {
       "sym": "ENSG",
@@ -963,23 +963,6 @@
       "pct_to_ath": 483.9
     },
     {
-      "sym": "BYD",
-      "name": "Boyd Gaming Corporation",
-      "mcap": 6,
-      "price": 84.07,
-      "basis": 79.81,
-      "bxt_today": -1.71,
-      "bxt_yest": 0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 89.96,
-      "pct_to_ath": 7.0
-    },
-    {
       "sym": "VAL",
       "name": "Valaris Limited Common Shares",
       "mcap": 6,
@@ -995,6 +978,23 @@
       "bxt_streak": 15,
       "ath": 105.35,
       "pct_to_ath": 13.5
+    },
+    {
+      "sym": "BYD",
+      "name": "Boyd Gaming Corporation",
+      "mcap": 6,
+      "price": 84.07,
+      "basis": 79.81,
+      "bxt_today": -1.71,
+      "bxt_yest": 0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 89.96,
+      "pct_to_ath": 7.0
     },
     {
       "sym": "ACT",
@@ -1117,7 +1117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T08:04:33.689522+00:00",
+    "compared_to": "2026-05-06T08:15:36.873764+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
