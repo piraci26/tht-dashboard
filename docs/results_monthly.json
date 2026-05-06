@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T07:42:17.163156+00:00",
+  "updated_at": "2026-05-06T07:53:19.592767+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 110.61,
-  "scanned_count": 1511,
+  "scan_seconds": 111.57,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "APP",
@@ -107,23 +107,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "CZR",
       "name": "Caesars Entertainment, Inc.",
       "mcap": 6,
@@ -139,6 +122,23 @@
       "bxt_streak": null,
       "ath": 119.81,
       "pct_to_ath": 326.4
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "OTF",
@@ -553,23 +553,6 @@
       "pct_to_ath": 218.5
     },
     {
-      "sym": "CUZ",
-      "name": "Cousins Properties Incorporated",
-      "mcap": 4,
-      "price": 26.05,
-      "basis": 27.39,
-      "bxt_today": 0.63,
-      "bxt_yest": -0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 115.03,
-      "pct_to_ath": 341.6
-    },
-    {
       "sym": "WSC",
       "name": "WillScot Holdings Corporation",
       "mcap": 4,
@@ -585,6 +568,23 @@
       "bxt_streak": 37,
       "ath": 53.46,
       "pct_to_ath": 134.1
+    },
+    {
+      "sym": "CUZ",
+      "name": "Cousins Properties Incorporated",
+      "mcap": 4,
+      "price": 26.05,
+      "basis": 27.39,
+      "bxt_today": 0.63,
+      "bxt_yest": -0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 115.03,
+      "pct_to_ath": 341.6
     }
   ],
   "bxt_red": [
@@ -861,6 +861,23 @@
       "pct_to_ath": 30.5
     },
     {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 98.66,
+      "basis": 94.33,
+      "bxt_today": -1.08,
+      "bxt_yest": 1.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
+    },
+    {
       "sym": "GIL",
       "name": "Gildan Activewear, Inc. Sub. Vot.",
       "mcap": 11,
@@ -893,23 +910,6 @@
       "bxt_streak": 7,
       "ath": 184.27,
       "pct_to_ath": 29.2
-    },
-    {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 98.66,
-      "basis": 94.33,
-      "bxt_today": -1.08,
-      "bxt_yest": 1.29,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
     },
     {
       "sym": "EXEL",
@@ -980,23 +980,6 @@
       "pct_to_ath": 13.5
     },
     {
-      "sym": "ACT",
-      "name": "Enact Holdings, Inc.",
-      "mcap": 6,
-      "price": 42.31,
-      "basis": 41.34,
-      "bxt_today": -0.16,
-      "bxt_yest": 1.99,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 44.8,
-      "pct_to_ath": 5.9
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -1012,6 +995,23 @@
       "bxt_streak": 20,
       "ath": 89.96,
       "pct_to_ath": 7.0
+    },
+    {
+      "sym": "ACT",
+      "name": "Enact Holdings, Inc.",
+      "mcap": 6,
+      "price": 42.31,
+      "basis": 41.34,
+      "bxt_today": -0.16,
+      "bxt_yest": 1.99,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 44.8,
+      "pct_to_ath": 5.9
     },
     {
       "sym": "CGON",
@@ -1048,23 +1048,6 @@
       "pct_to_ath": 161.0
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.14,
-      "basis": 80.66,
-      "bxt_today": -1.56,
-      "bxt_yest": 1.56,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 17.0
-    },
-    {
       "sym": "PTCT",
       "name": "PTC Therapeutics, Inc.",
       "mcap": 5,
@@ -1082,21 +1065,21 @@
       "pct_to_ath": 34.5
     },
     {
-      "sym": "TNL",
-      "name": "Travel   Leisure Co. Common  Stock",
-      "mcap": 4,
-      "price": 63.0,
-      "basis": 59.69,
-      "bxt_today": -0.69,
-      "bxt_yest": 3.7,
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.14,
+      "basis": 80.66,
+      "bxt_today": -1.56,
+      "bxt_yest": 1.56,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 29,
-      "ath": 81.0,
-      "pct_to_ath": 28.6
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 17.0
     },
     {
       "sym": "DOO",
@@ -1114,10 +1097,27 @@
       "bxt_streak": 10,
       "ath": 102.96,
       "pct_to_ath": 90.8
+    },
+    {
+      "sym": "TNL",
+      "name": "Travel   Leisure Co. Common  Stock",
+      "mcap": 4,
+      "price": 63.0,
+      "basis": 59.69,
+      "bxt_today": -0.69,
+      "bxt_yest": 3.7,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 29,
+      "ath": 81.0,
+      "pct_to_ath": 28.6
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T07:31:14.973102+00:00",
+    "compared_to": "2026-05-06T07:42:17.163156+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

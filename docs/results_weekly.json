@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T07:40:26.546353+00:00",
+  "updated_at": "2026-05-06T07:51:28.014519+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 113.7,
-  "scanned_count": 1505,
+  "scan_seconds": 112.98,
+  "scanned_count": 1506,
   "fvb_green": [
     {
       "sym": "APP",
@@ -553,23 +553,6 @@
       "pct_to_ath": 100.9
     },
     {
-      "sym": "FSLR",
-      "name": "First Solar, Inc.",
-      "mcap": 24,
-      "price": 219.38,
-      "basis": 215.49,
-      "bxt_today": 0.18,
-      "bxt_yest": -3.67,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 317.0,
-      "pct_to_ath": 44.5
-    },
-    {
       "sym": "FIS",
       "name": "Fidelity National Information Services, Inc.",
       "mcap": 24,
@@ -585,6 +568,23 @@
       "bxt_streak": 16,
       "ath": 158.21,
       "pct_to_ath": 239.4
+    },
+    {
+      "sym": "FSLR",
+      "name": "First Solar, Inc.",
+      "mcap": 24,
+      "price": 219.38,
+      "basis": 215.49,
+      "bxt_today": 0.18,
+      "bxt_yest": -3.67,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 317.0,
+      "pct_to_ath": 44.5
     },
     {
       "sym": "ZS",
@@ -791,21 +791,21 @@
       "pct_to_ath": 1045.1
     },
     {
-      "sym": "OTEX",
-      "name": "Open Text Corporation Common Shares",
+      "sym": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
-      "price": 23.48,
-      "basis": 25.02,
-      "bxt_today": 0.68,
-      "bxt_yest": -2.59,
+      "price": 105.81,
+      "basis": 94.75,
+      "bxt_today": 2.85,
+      "bxt_yest": -0.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 55.25,
-      "pct_to_ath": 135.3
+      "bxt_streak": 10,
+      "ath": 110.49,
+      "pct_to_ath": 4.4
     },
     {
       "sym": "RGTI",
@@ -825,21 +825,21 @@
       "pct_to_ath": 218.3
     },
     {
-      "sym": "MIRM",
-      "name": "Mirum Pharmaceuticals, Inc.",
+      "sym": "OTEX",
+      "name": "Open Text Corporation Common Shares",
       "mcap": 6,
-      "price": 105.81,
-      "basis": 94.75,
-      "bxt_today": 2.85,
-      "bxt_yest": -0.14,
+      "price": 23.48,
+      "basis": 25.02,
+      "bxt_today": 0.68,
+      "bxt_yest": -2.59,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 110.49,
-      "pct_to_ath": 4.4
+      "bxt_streak": 26,
+      "ath": 55.25,
+      "pct_to_ath": 135.3
     },
     {
       "sym": "RITM",
@@ -1133,23 +1133,6 @@
       "pct_to_ath": 5.8
     },
     {
-      "sym": "JHX",
-      "name": "James Hardie Industries plc. Ordinary Shares",
-      "mcap": 12,
-      "price": 20.15,
-      "basis": 21.79,
-      "bxt_today": -0.09,
-      "bxt_yest": 0.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 43.57,
-      "pct_to_ath": 116.2
-    },
-    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -1165,23 +1148,6 @@
       "bxt_streak": 28,
       "ath": 737.45,
       "pct_to_ath": 337.1
-    },
-    {
-      "sym": "WBS",
-      "name": "Webster Financial Corporation",
-      "mcap": 12,
-      "price": 72.16,
-      "basis": 69.37,
-      "bxt_today": -0.67,
-      "bxt_yest": 0.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 74.0,
-      "pct_to_ath": 2.5
     },
     {
       "sym": "AR",
@@ -1201,21 +1167,38 @@
       "pct_to_ath": 74.9
     },
     {
-      "sym": "STAG",
-      "name": "Stag Industrial, Inc.",
-      "mcap": 7,
-      "price": 38.05,
-      "basis": 37.99,
-      "bxt_today": -1.49,
-      "bxt_yest": 0.01,
+      "sym": "JHX",
+      "name": "James Hardie Industries plc. Ordinary Shares",
+      "mcap": 12,
+      "price": 20.15,
+      "basis": 21.79,
+      "bxt_today": -0.09,
+      "bxt_yest": 0.53,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 48.27,
-      "pct_to_ath": 26.9
+      "bxt_streak": 3,
+      "ath": 43.57,
+      "pct_to_ath": 116.2
+    },
+    {
+      "sym": "WBS",
+      "name": "Webster Financial Corporation",
+      "mcap": 12,
+      "price": 72.16,
+      "basis": 69.37,
+      "bxt_today": -0.67,
+      "bxt_yest": 0.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 74.0,
+      "pct_to_ath": 2.5
     },
     {
       "sym": "NOV",
@@ -1233,6 +1216,23 @@
       "bxt_streak": 3,
       "ath": 86.55,
       "pct_to_ath": 330.2
+    },
+    {
+      "sym": "STAG",
+      "name": "Stag Industrial, Inc.",
+      "mcap": 7,
+      "price": 38.05,
+      "basis": 37.99,
+      "bxt_today": -1.49,
+      "bxt_yest": 0.01,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 48.27,
+      "pct_to_ath": 26.9
     },
     {
       "sym": "VAL",
@@ -1371,23 +1371,6 @@
       "pct_to_ath": 12.5
     },
     {
-      "sym": "DAN",
-      "name": "Dana Incorporated",
-      "mcap": 4,
-      "price": 34.63,
-      "basis": 32.58,
-      "bxt_today": -3.78,
-      "bxt_yest": 0.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 27,
-      "ath": 39.56,
-      "pct_to_ath": 14.2
-    },
-    {
       "sym": "LBTYK",
       "name": "Liberty Global Ltd. Class C Common Shares",
       "mcap": 4,
@@ -1403,10 +1386,27 @@
       "bxt_streak": 14,
       "ath": 23.19,
       "pct_to_ath": 97.3
+    },
+    {
+      "sym": "DAN",
+      "name": "Dana Incorporated",
+      "mcap": 4,
+      "price": 34.63,
+      "basis": 32.58,
+      "bxt_today": -3.78,
+      "bxt_yest": 0.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 27,
+      "ath": 39.56,
+      "pct_to_ath": 14.2
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T07:29:16.906489+00:00",
+    "compared_to": "2026-05-06T07:40:26.546353+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
