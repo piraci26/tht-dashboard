@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T21:44:03.883012+00:00",
+  "updated_at": "2026-05-06T21:49:29.789382+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.2,
-  "scanned_count": 1510,
+  "scan_seconds": 7.87,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -562,8 +562,8 @@
       "bxt_r": false,
       "fvb_streak": 4,
       "bxt_streak": null,
-      "ath": 36.35,
-      "pct_to_ath": 15.2
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "FWONK",
@@ -719,23 +719,6 @@
       "pct_to_ath": 11.5
     },
     {
-      "sym": "PFGC",
-      "name": "Performance Food Group Company",
-      "mcap": 15,
-      "price": 92.88,
-      "basis": 90.92,
-      "bxt_today": 1.26,
-      "bxt_yest": -4.11,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 10,
-      "ath": 109.05,
-      "pct_to_ath": 17.4
-    },
-    {
       "sym": "CSL",
       "name": "Carlisle Companies Incorporated",
       "mcap": 15,
@@ -751,6 +734,23 @@
       "bxt_streak": null,
       "ath": 481.26,
       "pct_to_ath": 28.7
+    },
+    {
+      "sym": "PFGC",
+      "name": "Performance Food Group Company",
+      "mcap": 15,
+      "price": 92.88,
+      "basis": 90.92,
+      "bxt_today": 1.26,
+      "bxt_yest": -4.11,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 10,
+      "ath": 109.05,
+      "pct_to_ath": 17.4
     },
     {
       "sym": "FNF",
@@ -1059,23 +1059,6 @@
       "pct_to_ath": 7.6
     },
     {
-      "sym": "IBP",
-      "name": "Installed Building Products, Inc.",
-      "mcap": 8,
-      "price": 299.47,
-      "basis": 296.2,
-      "bxt_today": -6.93,
-      "bxt_yest": -9.52,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 349.0,
-      "pct_to_ath": 16.5
-    },
-    {
       "sym": "NUVL",
       "name": "Nuvalent, Inc.",
       "mcap": 8,
@@ -1091,6 +1074,23 @@
       "bxt_streak": null,
       "ath": 113.51,
       "pct_to_ath": 8.9
+    },
+    {
+      "sym": "IBP",
+      "name": "Installed Building Products, Inc.",
+      "mcap": 8,
+      "price": 299.47,
+      "basis": 296.2,
+      "bxt_today": -6.93,
+      "bxt_yest": -9.52,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 349.0,
+      "pct_to_ath": 16.5
     },
     {
       "sym": "CMC",
@@ -1212,23 +1212,6 @@
       "pct_to_ath": 23.8
     },
     {
-      "sym": "TEX",
-      "name": "Terex Corporation",
-      "mcap": 7,
-      "price": 64.24,
-      "basis": 61.39,
-      "bxt_today": -1.86,
-      "bxt_yest": -4.55,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 96.94,
-      "pct_to_ath": 50.9
-    },
-    {
       "sym": "HQY",
       "name": "HealthEquity, Inc.",
       "mcap": 7,
@@ -1244,6 +1227,23 @@
       "bxt_streak": null,
       "ath": 116.65,
       "pct_to_ath": 40.1
+    },
+    {
+      "sym": "TEX",
+      "name": "Terex Corporation",
+      "mcap": 7,
+      "price": 64.24,
+      "basis": 61.39,
+      "bxt_today": -1.86,
+      "bxt_yest": -4.55,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 96.94,
+      "pct_to_ath": 50.9
     },
     {
       "sym": "EXP",
@@ -1312,6 +1312,23 @@
       "bxt_streak": null,
       "ath": 89.96,
       "pct_to_ath": 5.6
+    },
+    {
+      "sym": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "mcap": 6,
+      "price": 11.15,
+      "basis": 10.96,
+      "bxt_today": 2.66,
+      "bxt_yest": -0.9,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 13,
+      "bxt_streak": 13,
+      "ath": 121.95,
+      "pct_to_ath": 993.7
     },
     {
       "sym": "ESNT",
@@ -1433,23 +1450,6 @@
       "pct_to_ath": 60.9
     },
     {
-      "sym": "QS",
-      "name": "QuantumScape Corporation",
-      "mcap": 5,
-      "price": 7.95,
-      "basis": 7.86,
-      "bxt_today": 0.9,
-      "bxt_yest": -3.2,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 22,
-      "bxt_streak": 25,
-      "ath": 132.73,
-      "pct_to_ath": 1569.6
-    },
-    {
       "sym": "SON",
       "name": "Sonoco Products Company",
       "mcap": 5,
@@ -1465,6 +1465,23 @@
       "bxt_streak": null,
       "ath": 69.83,
       "pct_to_ath": 33.5
+    },
+    {
+      "sym": "QS",
+      "name": "QuantumScape Corporation",
+      "mcap": 5,
+      "price": 7.95,
+      "basis": 7.86,
+      "bxt_today": 0.9,
+      "bxt_yest": -3.2,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 22,
+      "bxt_streak": 25,
+      "ath": 132.73,
+      "pct_to_ath": 1569.6
     },
     {
       "sym": "HRI",
@@ -2321,23 +2338,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "MT",
-      "name": "Arcelor Mittal NY Registry Shares NEW",
-      "mcap": 48,
-      "price": 63.09,
-      "basis": 56.07,
-      "bxt_today": 0.05,
-      "bxt_yest": -3.65,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 227.08,
-      "pct_to_ath": 259.9
-    },
-    {
       "sym": "BIDU",
       "name": "Baidu, Inc. ADS",
       "mcap": 48,
@@ -2353,6 +2353,23 @@
       "bxt_streak": 12,
       "ath": 354.82,
       "pct_to_ath": 152.4
+    },
+    {
+      "sym": "MT",
+      "name": "Arcelor Mittal NY Registry Shares NEW",
+      "mcap": 48,
+      "price": 63.09,
+      "basis": 56.07,
+      "bxt_today": 0.05,
+      "bxt_yest": -3.65,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 227.08,
+      "pct_to_ath": 259.9
     },
     {
       "sym": "DHI",
@@ -2593,23 +2610,6 @@
       "pct_to_ath": 89.8
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 226.82,
-      "basis": 220.55,
-      "bxt_today": 1.81,
-      "bxt_yest": -2.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 10.6
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -2625,6 +2625,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 114.5
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 226.82,
+      "basis": 220.55,
+      "bxt_today": 1.81,
+      "bxt_yest": -2.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 10.6
     },
     {
       "sym": "TPG",
@@ -2865,23 +2882,6 @@
       "pct_to_ath": 5.2
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 295.75,
-      "basis": 298.3,
-      "bxt_today": 0.76,
-      "bxt_yest": -2.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 28.5
-    },
-    {
       "sym": "LLYVA",
       "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
       "mcap": 9,
@@ -2897,6 +2897,23 @@
       "bxt_streak": 1,
       "ath": 99.82,
       "pct_to_ath": 4.8
+    },
+    {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 295.75,
+      "basis": 298.3,
+      "bxt_today": 0.76,
+      "bxt_yest": -2.47,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 28.5
     },
     {
       "sym": "GDS",
@@ -3018,6 +3035,23 @@
       "pct_to_ath": 189.4
     },
     {
+      "sym": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "mcap": 6,
+      "price": 11.15,
+      "basis": 10.96,
+      "bxt_today": 2.66,
+      "bxt_yest": -0.9,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 13,
+      "bxt_streak": 13,
+      "ath": 121.95,
+      "pct_to_ath": 993.7
+    },
+    {
       "sym": "ESNT",
       "name": "Essent Group Ltd. Common Shares",
       "mcap": 6,
@@ -3120,23 +3154,6 @@
       "pct_to_ath": 16.0
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 49.11,
-      "basis": 56.7,
-      "bxt_today": 1.59,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 286.6
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -3152,6 +3169,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.2
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 49.11,
+      "basis": 56.7,
+      "bxt_today": 1.59,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 286.6
     },
     {
       "sym": "CRSP",
@@ -3837,9 +3871,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T21:38:37.479804+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-06T21:44:03.883012+00:00",
+    "fvb_green_added": [
       {
         "sym": "CLF",
         "name": "Cleveland-Cliffs Inc.",
@@ -3851,10 +3884,10 @@
         "pct_to_ath": 993.7
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "bxt_green_added": [
       {
         "sym": "CLF",
         "name": "Cleveland-Cliffs Inc.",
@@ -3866,6 +3899,7 @@
         "pct_to_ath": 993.7
       }
     ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
