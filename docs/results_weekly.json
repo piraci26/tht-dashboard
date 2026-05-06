@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T03:14:00.726541+00:00",
+  "updated_at": "2026-05-06T03:25:09.949105+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 110.92,
-  "scanned_count": 1506,
+  "scan_seconds": 113.02,
+  "scanned_count": 1507,
   "fvb_green": [
     {
       "sym": "APP",
@@ -175,23 +175,6 @@
       "pct_to_ath": 53.5
     },
     {
-      "sym": "PAYC",
-      "name": "Paycom Software, Inc.",
-      "mcap": 6,
-      "price": 131.68,
-      "basis": 131.53,
-      "bxt_today": 16.75,
-      "bxt_yest": 14.7,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 41,
-      "bxt_streak": null,
-      "ath": 558.97,
-      "pct_to_ath": 324.5
-    },
-    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -207,6 +190,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "PAYC",
+      "name": "Paycom Software, Inc.",
+      "mcap": 6,
+      "price": 131.68,
+      "basis": 131.53,
+      "bxt_today": 16.75,
+      "bxt_yest": 14.7,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 41,
+      "bxt_streak": null,
+      "ath": 558.97,
+      "pct_to_ath": 324.5
     },
     {
       "sym": "PAY",
@@ -519,23 +519,6 @@
       "pct_to_ath": 24.9
     },
     {
-      "sym": "WDAY",
-      "name": "Workday, Inc.",
-      "mcap": 33,
-      "price": 128.88,
-      "basis": 148.05,
-      "bxt_today": 2.45,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 311.28,
-      "pct_to_ath": 141.5
-    },
-    {
       "sym": "VEEV",
       "name": "Veeva Systems Inc.",
       "mcap": 28,
@@ -791,6 +774,23 @@
       "pct_to_ath": 4.4
     },
     {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
+    },
+    {
       "sym": "OTEX",
       "name": "Open Text Corporation Common Shares",
       "mcap": 6,
@@ -823,23 +823,6 @@
       "bxt_streak": 13,
       "ath": 121.95,
       "pct_to_ath": 1045.1
-    },
-    {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
     },
     {
       "sym": "RITM",
@@ -876,23 +859,6 @@
       "pct_to_ath": 278.5
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.36,
-      "basis": 57.68,
-      "bxt_today": 2.93,
-      "bxt_yest": -0.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.1
-    },
-    {
       "sym": "CRSP",
       "name": "CRISPR Therapeutics AG Common Shares",
       "mcap": 5,
@@ -908,6 +874,23 @@
       "bxt_streak": 3,
       "ath": 220.2,
       "pct_to_ath": 320.4
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.36,
+      "basis": 57.68,
+      "bxt_today": 2.93,
+      "bxt_yest": -0.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.1
     },
     {
       "sym": "ACHR",
@@ -1082,23 +1065,6 @@
       "pct_to_ath": 2.2
     },
     {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 27,
-      "price": 507.81,
-      "basis": 500.06,
-      "bxt_today": -1.93,
-      "bxt_yest": 0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 565.5,
-      "pct_to_ath": 11.4
-    },
-    {
       "sym": "CFG",
       "name": "Citizens Financial Group, Inc.",
       "mcap": 27,
@@ -1114,6 +1080,23 @@
       "bxt_streak": 2,
       "ath": 68.79,
       "pct_to_ath": 6.9
+    },
+    {
+      "sym": "HUBB",
+      "name": "Hubbell Inc",
+      "mcap": 27,
+      "price": 507.81,
+      "basis": 500.06,
+      "bxt_today": -1.93,
+      "bxt_yest": 0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 565.5,
+      "pct_to_ath": 11.4
     },
     {
       "sym": "SNA",
@@ -1133,21 +1116,21 @@
       "pct_to_ath": 5.8
     },
     {
-      "sym": "AR",
-      "name": "Antero Resources Corporation",
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
       "mcap": 12,
-      "price": 39.13,
-      "basis": 37.41,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.24,
+      "price": 168.71,
+      "basis": 175.21,
+      "bxt_today": -2.49,
+      "bxt_yest": 0.94,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 68.43,
-      "pct_to_ath": 74.9
+      "bxt_streak": 28,
+      "ath": 737.45,
+      "pct_to_ath": 337.1
     },
     {
       "sym": "JHX",
@@ -1167,6 +1150,23 @@
       "pct_to_ath": 116.2
     },
     {
+      "sym": "AR",
+      "name": "Antero Resources Corporation",
+      "mcap": 12,
+      "price": 39.13,
+      "basis": 37.41,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 68.43,
+      "pct_to_ath": 74.9
+    },
+    {
       "sym": "WBS",
       "name": "Webster Financial Corporation",
       "mcap": 12,
@@ -1182,23 +1182,6 @@
       "bxt_streak": 5,
       "ath": 74.0,
       "pct_to_ath": 2.5
-    },
-    {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 168.71,
-      "basis": 175.21,
-      "bxt_today": -2.49,
-      "bxt_yest": 0.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 28,
-      "ath": 737.45,
-      "pct_to_ath": 337.1
     },
     {
       "sym": "STAG",
@@ -1303,23 +1286,6 @@
       "pct_to_ath": 11.9
     },
     {
-      "sym": "KMX",
-      "name": "CarMax Inc",
-      "mcap": 5,
-      "price": 37.25,
-      "basis": 42.37,
-      "bxt_today": -0.03,
-      "bxt_yest": 1.08,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 21,
-      "ath": 155.98,
-      "pct_to_ath": 318.7
-    },
-    {
       "sym": "SEB",
       "name": "Seaboard Corporation",
       "mcap": 5,
@@ -1335,6 +1301,23 @@
       "bxt_streak": 7,
       "ath": 5989.37,
       "pct_to_ath": 5.3
+    },
+    {
+      "sym": "KMX",
+      "name": "CarMax Inc",
+      "mcap": 5,
+      "price": 37.25,
+      "basis": 42.37,
+      "bxt_today": -0.03,
+      "bxt_yest": 1.08,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 21,
+      "ath": 155.98,
+      "pct_to_ath": 318.7
     },
     {
       "sym": "PSMT",
@@ -1406,24 +1389,24 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T03:02:58.568639+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "SYF",
-        "name": "Synchrony Financial",
-        "mcap": 25,
-        "price": 73.78,
-        "basis": 73.54,
-        "bxt_today": 1.53,
-        "ath": 88.77,
-        "pct_to_ath": 20.3
-      }
-    ],
+    "compared_to": "2026-05-06T03:14:00.726541+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_removed": [
+      {
+        "sym": "WDAY",
+        "name": "Workday, Inc.",
+        "mcap": 33,
+        "price": 128.88,
+        "basis": 148.05,
+        "bxt_today": 2.45,
+        "ath": 311.28,
+        "pct_to_ath": 141.5
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
