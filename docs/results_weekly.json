@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T22:54:56.590116+00:00",
+  "updated_at": "2026-05-06T23:00:23.445198+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.34,
-  "scanned_count": 1508,
+  "scan_seconds": 8.01,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -294,23 +294,6 @@
       "pct_to_ath": 31.5
     },
     {
-      "sym": "GM",
-      "name": "General Motors Company",
-      "mcap": 71,
-      "price": 78.7,
-      "basis": 78.31,
-      "bxt_today": -11.04,
-      "bxt_yest": -13.67,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 87.62,
-      "pct_to_ath": 11.3
-    },
-    {
       "sym": "CL",
       "name": "Colgate-Palmolive Company",
       "mcap": 71,
@@ -326,6 +309,23 @@
       "bxt_streak": null,
       "ath": 109.3,
       "pct_to_ath": 24.0
+    },
+    {
+      "sym": "GM",
+      "name": "General Motors Company",
+      "mcap": 71,
+      "price": 78.7,
+      "basis": 78.31,
+      "bxt_today": -11.04,
+      "bxt_yest": -13.67,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 87.62,
+      "pct_to_ath": 11.3
     },
     {
       "sym": "EMBJ",
@@ -668,23 +668,6 @@
       "pct_to_ath": 53.4
     },
     {
-      "sym": "TXT",
-      "name": "Textron Inc.",
-      "mcap": 16,
-      "price": 93.09,
-      "basis": 92.59,
-      "bxt_today": -5.13,
-      "bxt_yest": -6.63,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 101.57,
-      "pct_to_ath": 9.1
-    },
-    {
       "sym": "WMG",
       "name": "Warner Music Group Corp.",
       "mcap": 16,
@@ -700,6 +683,23 @@
       "bxt_streak": null,
       "ath": 50.23,
       "pct_to_ath": 65.5
+    },
+    {
+      "sym": "TXT",
+      "name": "Textron Inc.",
+      "mcap": 16,
+      "price": 93.09,
+      "basis": 92.59,
+      "bxt_today": -5.13,
+      "bxt_yest": -6.63,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 101.57,
+      "pct_to_ath": 9.1
     },
     {
       "sym": "JLL",
@@ -957,23 +957,6 @@
       "pct_to_ath": 171.2
     },
     {
-      "sym": "SSB",
-      "name": "SouthState Bank Corporation",
-      "mcap": 10,
-      "price": 98.65,
-      "basis": 97.66,
-      "bxt_today": 1.68,
-      "bxt_yest": 0.06,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 114.27,
-      "pct_to_ath": 15.8
-    },
-    {
       "sym": "HBM",
       "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
       "mcap": 10,
@@ -989,6 +972,23 @@
       "bxt_streak": null,
       "ath": 28.74,
       "pct_to_ath": 19.7
+    },
+    {
+      "sym": "SSB",
+      "name": "SouthState Bank Corporation",
+      "mcap": 10,
+      "price": 98.65,
+      "basis": 97.66,
+      "bxt_today": 1.68,
+      "bxt_yest": 0.06,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 114.27,
+      "pct_to_ath": 15.8
     },
     {
       "sym": "JOBY",
@@ -1110,23 +1110,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "UEC",
-      "name": "Uranium Energy Corp.",
-      "mcap": 8,
-      "price": 15.77,
-      "basis": 14.88,
-      "bxt_today": -2.5,
-      "bxt_yest": -6.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 20.34,
-      "pct_to_ath": 29.0
-    },
-    {
       "sym": "VFC",
       "name": "V.F. Corporation",
       "mcap": 8,
@@ -1159,6 +1142,23 @@
       "bxt_streak": null,
       "ath": 48.11,
       "pct_to_ath": 430.4
+    },
+    {
+      "sym": "UEC",
+      "name": "Uranium Energy Corp.",
+      "mcap": 8,
+      "price": 15.77,
+      "basis": 14.88,
+      "bxt_today": -2.5,
+      "bxt_yest": -6.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 20.34,
+      "pct_to_ath": 29.0
     },
     {
       "sym": "BIRK",
@@ -1195,23 +1195,6 @@
       "pct_to_ath": 11.8
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 70.1,
-      "basis": 69.65,
-      "bxt_today": 3.28,
-      "bxt_yest": 1.54,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 86.76,
-      "pct_to_ath": 23.8
-    },
-    {
       "sym": "HQY",
       "name": "HealthEquity, Inc.",
       "mcap": 7,
@@ -1227,6 +1210,23 @@
       "bxt_streak": null,
       "ath": 116.65,
       "pct_to_ath": 40.1
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 70.1,
+      "basis": 69.65,
+      "bxt_today": 3.28,
+      "bxt_yest": 1.54,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 86.76,
+      "pct_to_ath": 23.8
     },
     {
       "sym": "TEX",
@@ -1365,23 +1365,6 @@
       "pct_to_ath": 124.3
     },
     {
-      "sym": "MRCY",
-      "name": "Mercury Systems Inc",
-      "mcap": 6,
-      "price": 91.66,
-      "basis": 84.45,
-      "bxt_today": -1.24,
-      "bxt_yest": -8.74,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 103.84,
-      "pct_to_ath": 13.3
-    },
-    {
       "sym": "VSEC",
       "name": "VSE Corporation",
       "mcap": 6,
@@ -1397,6 +1380,23 @@
       "bxt_streak": null,
       "ath": 232.61,
       "pct_to_ath": 12.1
+    },
+    {
+      "sym": "MRCY",
+      "name": "Mercury Systems Inc",
+      "mcap": 6,
+      "price": 91.66,
+      "basis": 84.45,
+      "bxt_today": -1.24,
+      "bxt_yest": -8.74,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 103.84,
+      "pct_to_ath": 13.3
     },
     {
       "sym": "OPEN",
@@ -2338,23 +2338,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "BIDU",
-      "name": "Baidu, Inc. ADS",
-      "mcap": 48,
-      "price": 140.59,
-      "basis": 131.68,
-      "bxt_today": 0.9,
-      "bxt_yest": -5.24,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 11,
-      "bxt_streak": 12,
-      "ath": 354.82,
-      "pct_to_ath": 152.4
-    },
-    {
       "sym": "MT",
       "name": "Arcelor Mittal NY Registry Shares NEW",
       "mcap": 48,
@@ -2370,6 +2353,23 @@
       "bxt_streak": 2,
       "ath": 227.08,
       "pct_to_ath": 259.9
+    },
+    {
+      "sym": "BIDU",
+      "name": "Baidu, Inc. ADS",
+      "mcap": 48,
+      "price": 140.59,
+      "basis": 131.68,
+      "bxt_today": 0.9,
+      "bxt_yest": -5.24,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 11,
+      "bxt_streak": 12,
+      "ath": 354.82,
+      "pct_to_ath": 152.4
     },
     {
       "sym": "DHI",
@@ -2610,23 +2610,6 @@
       "pct_to_ath": 89.8
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.82,
-      "basis": 13.14,
-      "bxt_today": 2.3,
-      "bxt_yest": -2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 114.5
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -2642,6 +2625,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 10.6
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.82,
+      "basis": 13.14,
+      "bxt_today": 2.3,
+      "bxt_yest": -2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 114.5
     },
     {
       "sym": "TPG",
@@ -3154,23 +3154,6 @@
       "pct_to_ath": 16.0
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 49.11,
-      "basis": 56.7,
-      "bxt_today": 1.59,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 286.6
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -3186,6 +3169,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.2
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 49.11,
+      "basis": 56.7,
+      "bxt_today": 1.59,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 286.6
     },
     {
       "sym": "CRSP",
@@ -3871,7 +3871,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T22:49:30.168861+00:00",
+    "compared_to": "2026-05-06T22:54:56.590116+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

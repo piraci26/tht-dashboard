@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T22:55:03.332902+00:00",
+  "updated_at": "2026-05-06T23:00:31.556716+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.73,
-  "scanned_count": 1510,
+  "scan_seconds": 8.09,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -1420,23 +1420,6 @@
       "pct_to_ath": 190.2
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
-      "mcap": 4,
-      "price": 23.4,
-      "basis": 25.59,
-      "bxt_today": 1.43,
-      "bxt_yest": -3.0,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 53.46,
-      "pct_to_ath": 128.5
-    },
-    {
       "sym": "CUZ",
       "name": "Cousins Properties Incorporated",
       "mcap": 4,
@@ -1452,6 +1435,23 @@
       "bxt_streak": 2,
       "ath": 115.03,
       "pct_to_ath": 329.4
+    },
+    {
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
+      "mcap": 4,
+      "price": 23.4,
+      "basis": 25.59,
+      "bxt_today": 1.43,
+      "bxt_yest": -3.0,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 53.46,
+      "pct_to_ath": 128.5
     },
     {
       "sym": "SKT",
@@ -1916,7 +1916,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T22:49:36.569084+00:00",
+    "compared_to": "2026-05-06T22:55:03.332902+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
