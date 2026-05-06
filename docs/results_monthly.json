@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T11:34:29.390673+00:00",
+  "updated_at": "2026-05-06T11:39:54.590191+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.02,
+  "scan_seconds": 6.66,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -107,23 +107,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "CZR",
-      "name": "Caesars Entertainment, Inc.",
-      "mcap": 6,
-      "price": 28.1,
-      "basis": 27.6,
-      "bxt_today": 14.31,
-      "bxt_yest": 12.48,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 29,
-      "bxt_streak": null,
-      "ath": 119.81,
-      "pct_to_ath": 326.4
-    },
-    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -139,6 +122,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "CZR",
+      "name": "Caesars Entertainment, Inc.",
+      "mcap": 6,
+      "price": 28.1,
+      "basis": 27.6,
+      "bxt_today": 14.31,
+      "bxt_yest": 12.48,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 29,
+      "bxt_streak": null,
+      "ath": 119.81,
+      "pct_to_ath": 326.4
     },
     {
       "sym": "OTF",
@@ -553,23 +553,6 @@
       "pct_to_ath": 218.5
     },
     {
-      "sym": "CUZ",
-      "name": "Cousins Properties Incorporated",
-      "mcap": 4,
-      "price": 26.05,
-      "basis": 27.39,
-      "bxt_today": 0.63,
-      "bxt_yest": -0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 115.03,
-      "pct_to_ath": 341.6
-    },
-    {
       "sym": "WSC",
       "name": "WillScot Holdings Corporation",
       "mcap": 4,
@@ -585,6 +568,23 @@
       "bxt_streak": 37,
       "ath": 53.46,
       "pct_to_ath": 134.1
+    },
+    {
+      "sym": "CUZ",
+      "name": "Cousins Properties Incorporated",
+      "mcap": 4,
+      "price": 26.05,
+      "basis": 27.39,
+      "bxt_today": 0.63,
+      "bxt_yest": -0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 115.03,
+      "pct_to_ath": 341.6
     }
   ],
   "bxt_red": [
@@ -895,23 +895,6 @@
       "pct_to_ath": 23.4
     },
     {
-      "sym": "EXEL",
-      "name": "Exelixis, Inc.",
-      "mcap": 11,
-      "price": 44.42,
-      "basis": 40.4,
-      "bxt_today": -0.6,
-      "bxt_yest": 1.31,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 50.5,
-      "pct_to_ath": 13.7
-    },
-    {
       "sym": "CCK",
       "name": "Crown Holdings, Inc.",
       "mcap": 11,
@@ -927,6 +910,23 @@
       "bxt_streak": 2,
       "ath": 130.42,
       "pct_to_ath": 32.2
+    },
+    {
+      "sym": "EXEL",
+      "name": "Exelixis, Inc.",
+      "mcap": 11,
+      "price": 44.42,
+      "basis": 40.4,
+      "bxt_today": -0.6,
+      "bxt_yest": 1.31,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 50.5,
+      "pct_to_ath": 13.7
     },
     {
       "sym": "ENSG",
@@ -1117,7 +1117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T11:29:00.286373+00:00",
+    "compared_to": "2026-05-06T11:34:29.390673+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
