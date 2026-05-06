@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T11:23:34.634664+00:00",
+  "updated_at": "2026-05-06T11:29:00.286373+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.72,
-  "scanned_count": 1509,
+  "scan_seconds": 7.48,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "APP",
@@ -1031,23 +1031,6 @@
       "pct_to_ath": 9.5
     },
     {
-      "sym": "CNX",
-      "name": "CNX Resources Corporation",
-      "mcap": 5,
-      "price": 38.02,
-      "basis": 34.77,
-      "bxt_today": -0.27,
-      "bxt_yest": 2.56,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 99.25,
-      "pct_to_ath": 161.0
-    },
-    {
       "sym": "PTCT",
       "name": "PTC Therapeutics, Inc.",
       "mcap": 5,
@@ -1063,6 +1046,23 @@
       "bxt_streak": 25,
       "ath": 87.5,
       "pct_to_ath": 34.5
+    },
+    {
+      "sym": "CNX",
+      "name": "CNX Resources Corporation",
+      "mcap": 5,
+      "price": 38.02,
+      "basis": 34.77,
+      "bxt_today": -0.27,
+      "bxt_yest": 2.56,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 99.25,
+      "pct_to_ath": 161.0
     },
     {
       "sym": "AX",
@@ -1117,7 +1117,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T11:17:56.898302+00:00",
+    "compared_to": "2026-05-06T11:23:34.634664+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
