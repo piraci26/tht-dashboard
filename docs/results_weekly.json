@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T22:00:24.811197+00:00",
+  "updated_at": "2026-05-06T22:05:51.218831+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.29,
+  "scan_seconds": 7.9,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -562,8 +562,8 @@
       "bxt_r": false,
       "fvb_streak": 4,
       "bxt_streak": null,
-      "ath": 36.35,
-      "pct_to_ath": 15.2
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "FWONK",
@@ -974,23 +974,6 @@
       "pct_to_ath": 15.8
     },
     {
-      "sym": "JOBY",
-      "name": "Joby Aviation, Inc.",
-      "mcap": 10,
-      "price": 10.52,
-      "basis": 10.48,
-      "bxt_today": -0.6,
-      "bxt_yest": -9.32,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 16,
-      "bxt_streak": null,
-      "ath": 20.95,
-      "pct_to_ath": 99.1
-    },
-    {
       "sym": "HBM",
       "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
       "mcap": 10,
@@ -1006,6 +989,23 @@
       "bxt_streak": null,
       "ath": 28.74,
       "pct_to_ath": 19.7
+    },
+    {
+      "sym": "JOBY",
+      "name": "Joby Aviation, Inc.",
+      "mcap": 10,
+      "price": 10.52,
+      "basis": 10.48,
+      "bxt_today": -0.6,
+      "bxt_yest": -9.32,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 16,
+      "bxt_streak": null,
+      "ath": 20.95,
+      "pct_to_ath": 99.1
     },
     {
       "sym": "AGCO",
@@ -1110,6 +1110,23 @@
       "pct_to_ath": 17.6
     },
     {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 8,
+      "price": 9.07,
+      "basis": 8.79,
+      "bxt_today": 17.87,
+      "bxt_yest": 15.36,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 48.11,
+      "pct_to_ath": 430.4
+    },
+    {
       "sym": "VFC",
       "name": "V.F. Corporation",
       "mcap": 8,
@@ -1142,23 +1159,6 @@
       "bxt_streak": null,
       "ath": 20.34,
       "pct_to_ath": 29.0
-    },
-    {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
-      "mcap": 8,
-      "price": 9.07,
-      "basis": 8.79,
-      "bxt_today": 17.87,
-      "bxt_yest": 15.36,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 48.11,
-      "pct_to_ath": 430.4
     },
     {
       "sym": "BIRK",
@@ -1195,23 +1195,6 @@
       "pct_to_ath": 11.8
     },
     {
-      "sym": "HQY",
-      "name": "HealthEquity, Inc.",
-      "mcap": 7,
-      "price": 83.25,
-      "basis": 82.41,
-      "bxt_today": 6.92,
-      "bxt_yest": 5.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 116.65,
-      "pct_to_ath": 40.1
-    },
-    {
       "sym": "PB",
       "name": "Prosperity Bancshares, Inc.",
       "mcap": 7,
@@ -1227,6 +1210,23 @@
       "bxt_streak": null,
       "ath": 86.76,
       "pct_to_ath": 23.8
+    },
+    {
+      "sym": "HQY",
+      "name": "HealthEquity, Inc.",
+      "mcap": 7,
+      "price": 83.25,
+      "basis": 82.41,
+      "bxt_today": 6.92,
+      "bxt_yest": 5.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 116.65,
+      "pct_to_ath": 40.1
     },
     {
       "sym": "TEX",
@@ -1433,23 +1433,6 @@
       "pct_to_ath": 44.4
     },
     {
-      "sym": "GNTX",
-      "name": "Gentex Corporation",
-      "mcap": 5,
-      "price": 23.55,
-      "basis": 22.99,
-      "bxt_today": 9.04,
-      "bxt_yest": 6.38,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 37.9,
-      "pct_to_ath": 60.9
-    },
-    {
       "sym": "SON",
       "name": "Sonoco Products Company",
       "mcap": 5,
@@ -1465,6 +1448,23 @@
       "bxt_streak": null,
       "ath": 69.83,
       "pct_to_ath": 33.5
+    },
+    {
+      "sym": "GNTX",
+      "name": "Gentex Corporation",
+      "mcap": 5,
+      "price": 23.55,
+      "basis": 22.99,
+      "bxt_today": 9.04,
+      "bxt_yest": 6.38,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 37.9,
+      "pct_to_ath": 60.9
     },
     {
       "sym": "QS",
@@ -1569,23 +1569,6 @@
       "pct_to_ath": 253.2
     },
     {
-      "sym": "INDB",
-      "name": "Independent Bank Corp.",
-      "mcap": 4,
-      "price": 78.62,
-      "basis": 78.1,
-      "bxt_today": -6.96,
-      "bxt_yest": -8.07,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 99.85,
-      "pct_to_ath": 27.0
-    },
-    {
       "sym": "ARIS",
       "name": "Aris Mining Corporation Common Shares",
       "mcap": 4,
@@ -1601,6 +1584,23 @@
       "bxt_streak": null,
       "ath": 900.38,
       "pct_to_ath": 4656.3
+    },
+    {
+      "sym": "INDB",
+      "name": "Independent Bank Corp.",
+      "mcap": 4,
+      "price": 78.62,
+      "basis": 78.1,
+      "bxt_today": -6.96,
+      "bxt_yest": -8.07,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 99.85,
+      "pct_to_ath": 27.0
     },
     {
       "sym": "SKE",
@@ -2508,23 +2508,6 @@
       "pct_to_ath": 0.8
     },
     {
-      "sym": "RF",
-      "name": "Regions Financial Corporation",
-      "mcap": 24,
-      "price": 28.21,
-      "basis": 27.76,
-      "bxt_today": 0.1,
-      "bxt_yest": -0.72,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 39.15,
-      "pct_to_ath": 38.8
-    },
-    {
       "sym": "FIS",
       "name": "Fidelity National Information Services, Inc.",
       "mcap": 24,
@@ -2540,6 +2523,23 @@
       "bxt_streak": 16,
       "ath": 158.21,
       "pct_to_ath": 244.2
+    },
+    {
+      "sym": "RF",
+      "name": "Regions Financial Corporation",
+      "mcap": 24,
+      "price": 28.21,
+      "basis": 27.76,
+      "bxt_today": 0.1,
+      "bxt_yest": -0.72,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 39.15,
+      "pct_to_ath": 38.8
     },
     {
       "sym": "ATI",
@@ -2610,23 +2610,6 @@
       "pct_to_ath": 89.8
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.82,
-      "basis": 13.14,
-      "bxt_today": 2.3,
-      "bxt_yest": -2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 114.5
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -2642,6 +2625,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 10.6
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.82,
+      "basis": 13.14,
+      "bxt_today": 2.3,
+      "bxt_yest": -2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 114.5
     },
     {
       "sym": "TPG",
@@ -2865,23 +2865,6 @@
       "pct_to_ath": 159.4
     },
     {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 295.75,
-      "basis": 298.3,
-      "bxt_today": 0.76,
-      "bxt_yest": -2.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 28.5
-    },
-    {
       "sym": "LLYVK",
       "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
       "mcap": 9,
@@ -2899,6 +2882,23 @@
       "pct_to_ath": 5.2
     },
     {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 295.75,
+      "basis": 298.3,
+      "bxt_today": 0.76,
+      "bxt_yest": -2.47,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 28.5
+    },
+    {
       "sym": "LLYVA",
       "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
       "mcap": 9,
@@ -2914,6 +2914,23 @@
       "bxt_streak": 1,
       "ath": 99.82,
       "pct_to_ath": 4.8
+    },
+    {
+      "sym": "GDS",
+      "name": "GDS Holdings Limited ADS",
+      "mcap": 9,
+      "price": 46.01,
+      "basis": 42.84,
+      "bxt_today": 0.94,
+      "bxt_yest": -1.32,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 9,
+      "ath": 116.76,
+      "pct_to_ath": 153.8
     },
     {
       "sym": "CRL",
@@ -2948,23 +2965,6 @@
       "bxt_streak": 13,
       "ath": 63.27,
       "pct_to_ath": 388.9
-    },
-    {
-      "sym": "GDS",
-      "name": "GDS Holdings Limited ADS",
-      "mcap": 9,
-      "price": 46.01,
-      "basis": 42.84,
-      "bxt_today": 0.94,
-      "bxt_yest": -1.32,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 9,
-      "ath": 116.76,
-      "pct_to_ath": 153.8
     },
     {
       "sym": "REXR",
@@ -3871,7 +3871,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T21:54:56.553100+00:00",
+    "compared_to": "2026-05-06T22:00:24.811197+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
