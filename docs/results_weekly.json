@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T04:42:41.498904+00:00",
+  "updated_at": "2026-05-06T04:53:44.878051+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 112.85,
-  "scanned_count": 1507,
+  "scan_seconds": 115.06,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "APP",
@@ -553,23 +553,6 @@
       "pct_to_ath": 100.9
     },
     {
-      "sym": "FSLR",
-      "name": "First Solar, Inc.",
-      "mcap": 24,
-      "price": 219.38,
-      "basis": 215.49,
-      "bxt_today": 0.18,
-      "bxt_yest": -3.67,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 317.0,
-      "pct_to_ath": 44.5
-    },
-    {
       "sym": "FIS",
       "name": "Fidelity National Information Services, Inc.",
       "mcap": 24,
@@ -585,6 +568,23 @@
       "bxt_streak": 16,
       "ath": 158.21,
       "pct_to_ath": 239.4
+    },
+    {
+      "sym": "FSLR",
+      "name": "First Solar, Inc.",
+      "mcap": 24,
+      "price": 219.38,
+      "basis": 215.49,
+      "bxt_today": 0.18,
+      "bxt_yest": -3.67,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 317.0,
+      "pct_to_ath": 44.5
     },
     {
       "sym": "ZS",
@@ -774,40 +774,6 @@
       "pct_to_ath": 130.9
     },
     {
-      "sym": "CLF",
-      "name": "Cleveland-Cliffs Inc.",
-      "mcap": 6,
-      "price": 10.65,
-      "basis": 10.94,
-      "bxt_today": 1.31,
-      "bxt_yest": -0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 121.95,
-      "pct_to_ath": 1045.1
-    },
-    {
-      "sym": "MIRM",
-      "name": "Mirum Pharmaceuticals, Inc.",
-      "mcap": 6,
-      "price": 105.81,
-      "basis": 94.75,
-      "bxt_today": 2.85,
-      "bxt_yest": -0.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 110.49,
-      "pct_to_ath": 4.4
-    },
-    {
       "sym": "OTEX",
       "name": "Open Text Corporation Common Shares",
       "mcap": 6,
@@ -823,6 +789,23 @@
       "bxt_streak": 26,
       "ath": 55.25,
       "pct_to_ath": 135.3
+    },
+    {
+      "sym": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "mcap": 6,
+      "price": 10.65,
+      "basis": 10.94,
+      "bxt_today": 1.31,
+      "bxt_yest": -0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 121.95,
+      "pct_to_ath": 1045.1
     },
     {
       "sym": "RGTI",
@@ -842,6 +825,23 @@
       "pct_to_ath": 218.3
     },
     {
+      "sym": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
+      "mcap": 6,
+      "price": 105.81,
+      "basis": 94.75,
+      "bxt_today": 2.85,
+      "bxt_yest": -0.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 110.49,
+      "pct_to_ath": 4.4
+    },
+    {
       "sym": "RITM",
       "name": "Rithm Capital Corp.",
       "mcap": 5,
@@ -859,23 +859,6 @@
       "pct_to_ath": 93.3
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.36,
-      "basis": 57.68,
-      "bxt_today": 2.93,
-      "bxt_yest": -0.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.1
-    },
-    {
       "sym": "ESTC",
       "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
@@ -891,6 +874,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 278.5
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.36,
+      "basis": 57.68,
+      "bxt_today": 2.93,
+      "bxt_yest": -0.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.1
     },
     {
       "sym": "CRSP",
@@ -1116,6 +1116,23 @@
       "pct_to_ath": 11.4
     },
     {
+      "sym": "SNA",
+      "name": "Snap-On Incorporated",
+      "mcap": 20,
+      "price": 378.8,
+      "basis": 371.62,
+      "bxt_today": -0.91,
+      "bxt_yest": 0.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 400.88,
+      "pct_to_ath": 5.8
+    },
+    {
       "sym": "ALGN",
       "name": "Align Technology, Inc.",
       "mcap": 12,
@@ -1131,23 +1148,6 @@
       "bxt_streak": 28,
       "ath": 737.45,
       "pct_to_ath": 337.1
-    },
-    {
-      "sym": "AR",
-      "name": "Antero Resources Corporation",
-      "mcap": 12,
-      "price": 39.13,
-      "basis": 37.41,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 68.43,
-      "pct_to_ath": 74.9
     },
     {
       "sym": "JHX",
@@ -1184,21 +1184,21 @@
       "pct_to_ath": 2.5
     },
     {
-      "sym": "STAG",
-      "name": "Stag Industrial, Inc.",
-      "mcap": 7,
-      "price": 38.05,
-      "basis": 37.99,
-      "bxt_today": -1.49,
-      "bxt_yest": 0.01,
+      "sym": "AR",
+      "name": "Antero Resources Corporation",
+      "mcap": 12,
+      "price": 39.13,
+      "basis": 37.41,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.24,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 4,
-      "ath": 48.27,
-      "pct_to_ath": 26.9
+      "bxt_streak": 15,
+      "ath": 68.43,
+      "pct_to_ath": 74.9
     },
     {
       "sym": "NOV",
@@ -1218,6 +1218,23 @@
       "pct_to_ath": 330.2
     },
     {
+      "sym": "STAG",
+      "name": "Stag Industrial, Inc.",
+      "mcap": 7,
+      "price": 38.05,
+      "basis": 37.99,
+      "bxt_today": -1.49,
+      "bxt_yest": 0.01,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 4,
+      "ath": 48.27,
+      "pct_to_ath": 26.9
+    },
+    {
       "sym": "VAL",
       "name": "Valaris Limited Common Shares",
       "mcap": 6,
@@ -1233,23 +1250,6 @@
       "bxt_streak": 15,
       "ath": 105.35,
       "pct_to_ath": 13.5
-    },
-    {
-      "sym": "CGON",
-      "name": "CG Oncology, Inc. Common stock",
-      "mcap": 6,
-      "price": 67.18,
-      "basis": 60.43,
-      "bxt_today": -0.92,
-      "bxt_yest": 2.93,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 73.56,
-      "pct_to_ath": 9.5
     },
     {
       "sym": "ACT",
@@ -1269,21 +1269,38 @@
       "pct_to_ath": 5.9
     },
     {
-      "sym": "OGS",
-      "name": "ONE Gas, Inc.",
-      "mcap": 5,
-      "price": 86.69,
-      "basis": 84.65,
-      "bxt_today": -1.82,
-      "bxt_yest": 1.94,
+      "sym": "CGON",
+      "name": "CG Oncology, Inc. Common stock",
+      "mcap": 6,
+      "price": 67.18,
+      "basis": 60.43,
+      "bxt_today": -0.92,
+      "bxt_yest": 2.93,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 96.97,
-      "pct_to_ath": 11.9
+      "bxt_streak": 18,
+      "ath": 73.56,
+      "pct_to_ath": 9.5
+    },
+    {
+      "sym": "KMX",
+      "name": "CarMax Inc",
+      "mcap": 5,
+      "price": 37.25,
+      "basis": 42.37,
+      "bxt_today": -0.03,
+      "bxt_yest": 1.08,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 21,
+      "ath": 155.98,
+      "pct_to_ath": 318.7
     },
     {
       "sym": "SEB",
@@ -1301,6 +1318,23 @@
       "bxt_streak": 7,
       "ath": 5989.37,
       "pct_to_ath": 5.3
+    },
+    {
+      "sym": "OGS",
+      "name": "ONE Gas, Inc.",
+      "mcap": 5,
+      "price": 86.69,
+      "basis": 84.65,
+      "bxt_today": -1.82,
+      "bxt_yest": 1.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 96.97,
+      "pct_to_ath": 11.9
     },
     {
       "sym": "PSMT",
@@ -1335,23 +1369,6 @@
       "bxt_streak": 24,
       "ath": 283.77,
       "pct_to_ath": 12.5
-    },
-    {
-      "sym": "KMX",
-      "name": "CarMax Inc",
-      "mcap": 5,
-      "price": 37.25,
-      "basis": 42.37,
-      "bxt_today": -0.03,
-      "bxt_yest": 1.08,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 21,
-      "ath": 155.98,
-      "pct_to_ath": 318.7
     },
     {
       "sym": "LBTYK",
@@ -1389,15 +1406,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T04:31:41.926177+00:00",
+    "compared_to": "2026-05-06T04:42:41.498904+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "SNA",
         "name": "Snap-On Incorporated",
@@ -1408,6 +1424,7 @@
         "ath": 400.88,
         "pct_to_ath": 5.8
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
