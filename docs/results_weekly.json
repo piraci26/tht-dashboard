@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T05:16:05.565521+00:00",
+  "updated_at": "2026-05-06T05:27:09.168952+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 118.85,
-  "scanned_count": 1508,
+  "scan_seconds": 113.91,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -313,23 +313,6 @@
       "pct_to_ath": 7.2
     },
     {
-      "sym": "BWXT",
-      "name": "BWX Technologies, Inc.",
-      "mcap": 19,
-      "price": 206.15,
-      "basis": 207.41,
-      "bxt_today": -7.56,
-      "bxt_yest": -3.73,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 19,
-      "bxt_streak": null,
-      "ath": 241.82,
-      "pct_to_ath": 17.3
-    },
-    {
       "sym": "MRNA",
       "name": "Moderna, Inc.",
       "mcap": 19,
@@ -345,6 +328,23 @@
       "bxt_streak": null,
       "ath": 497.49,
       "pct_to_ath": 965.1
+    },
+    {
+      "sym": "BWXT",
+      "name": "BWX Technologies, Inc.",
+      "mcap": 19,
+      "price": 206.15,
+      "basis": 207.41,
+      "bxt_today": -7.56,
+      "bxt_yest": -3.73,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 19,
+      "bxt_streak": null,
+      "ath": 241.82,
+      "pct_to_ath": 17.3
     },
     {
       "sym": "GMED",
@@ -791,23 +791,6 @@
       "pct_to_ath": 1045.1
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "OTEX",
       "name": "Open Text Corporation Common Shares",
       "mcap": 6,
@@ -823,6 +806,23 @@
       "bxt_streak": 26,
       "ath": 55.25,
       "pct_to_ath": 135.3
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "MIRM",
@@ -842,23 +842,6 @@
       "pct_to_ath": 4.4
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.36,
-      "basis": 57.68,
-      "bxt_today": 2.93,
-      "bxt_yest": -0.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.1
-    },
-    {
       "sym": "RITM",
       "name": "Rithm Capital Corp.",
       "mcap": 5,
@@ -876,21 +859,21 @@
       "pct_to_ath": 93.3
     },
     {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
       "mcap": 5,
-      "price": 52.38,
-      "basis": 52.16,
-      "bxt_today": 0.15,
-      "bxt_yest": -0.73,
+      "price": 57.36,
+      "basis": 57.68,
+      "bxt_today": 2.93,
+      "bxt_yest": -0.46,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 220.2,
-      "pct_to_ath": 320.4
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.1
     },
     {
       "sym": "ESTC",
@@ -908,6 +891,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 278.5
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 52.38,
+      "basis": 52.16,
+      "bxt_today": 0.15,
+      "bxt_yest": -0.73,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 220.2,
+      "pct_to_ath": 320.4
     },
     {
       "sym": "ACHR",
@@ -1082,23 +1082,6 @@
       "pct_to_ath": 2.2
     },
     {
-      "sym": "CFG",
-      "name": "Citizens Financial Group, Inc.",
-      "mcap": 27,
-      "price": 64.36,
-      "basis": 62.0,
-      "bxt_today": -0.49,
-      "bxt_yest": 0.09,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 68.79,
-      "pct_to_ath": 6.9
-    },
-    {
       "sym": "HUBB",
       "name": "Hubbell Inc",
       "mcap": 27,
@@ -1114,6 +1097,23 @@
       "bxt_streak": 5,
       "ath": 565.5,
       "pct_to_ath": 11.4
+    },
+    {
+      "sym": "CFG",
+      "name": "Citizens Financial Group, Inc.",
+      "mcap": 27,
+      "price": 64.36,
+      "basis": 62.0,
+      "bxt_today": -0.49,
+      "bxt_yest": 0.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 68.79,
+      "pct_to_ath": 6.9
     },
     {
       "sym": "SNA",
@@ -1167,23 +1167,6 @@
       "pct_to_ath": 116.2
     },
     {
-      "sym": "AR",
-      "name": "Antero Resources Corporation",
-      "mcap": 12,
-      "price": 39.13,
-      "basis": 37.41,
-      "bxt_today": -0.02,
-      "bxt_yest": 0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 68.43,
-      "pct_to_ath": 74.9
-    },
-    {
       "sym": "WBS",
       "name": "Webster Financial Corporation",
       "mcap": 12,
@@ -1199,6 +1182,23 @@
       "bxt_streak": 5,
       "ath": 74.0,
       "pct_to_ath": 2.5
+    },
+    {
+      "sym": "AR",
+      "name": "Antero Resources Corporation",
+      "mcap": 12,
+      "price": 39.13,
+      "basis": 37.41,
+      "bxt_today": -0.02,
+      "bxt_yest": 0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 68.43,
+      "pct_to_ath": 74.9
     },
     {
       "sym": "STAG",
@@ -1286,6 +1286,23 @@
       "pct_to_ath": 9.5
     },
     {
+      "sym": "OGS",
+      "name": "ONE Gas, Inc.",
+      "mcap": 5,
+      "price": 86.69,
+      "basis": 84.65,
+      "bxt_today": -1.82,
+      "bxt_yest": 1.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 96.97,
+      "pct_to_ath": 11.9
+    },
+    {
       "sym": "KMX",
       "name": "CarMax Inc",
       "mcap": 5,
@@ -1318,23 +1335,6 @@
       "bxt_streak": 7,
       "ath": 5989.37,
       "pct_to_ath": 5.3
-    },
-    {
-      "sym": "OGS",
-      "name": "ONE Gas, Inc.",
-      "mcap": 5,
-      "price": 86.69,
-      "basis": 84.65,
-      "bxt_today": -1.82,
-      "bxt_yest": 1.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 96.97,
-      "pct_to_ath": 11.9
     },
     {
       "sym": "PSMT",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T05:04:55.204697+00:00",
+    "compared_to": "2026-05-06T05:16:05.565521+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
