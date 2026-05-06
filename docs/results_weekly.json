@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T23:44:05.460489+00:00",
+  "updated_at": "2026-05-06T23:49:37.388645+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.6,
-  "scanned_count": 1511,
+  "scan_seconds": 13.09,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -719,23 +719,6 @@
       "pct_to_ath": 11.5
     },
     {
-      "sym": "PFGC",
-      "name": "Performance Food Group Company",
-      "mcap": 15,
-      "price": 92.88,
-      "basis": 90.92,
-      "bxt_today": 1.26,
-      "bxt_yest": -4.11,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 10,
-      "ath": 109.05,
-      "pct_to_ath": 17.4
-    },
-    {
       "sym": "CSL",
       "name": "Carlisle Companies Incorporated",
       "mcap": 15,
@@ -751,6 +734,23 @@
       "bxt_streak": null,
       "ath": 481.26,
       "pct_to_ath": 28.7
+    },
+    {
+      "sym": "PFGC",
+      "name": "Performance Food Group Company",
+      "mcap": 15,
+      "price": 92.88,
+      "basis": 90.92,
+      "bxt_today": 1.26,
+      "bxt_yest": -4.11,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 10,
+      "ath": 109.05,
+      "pct_to_ath": 17.4
     },
     {
       "sym": "FNF",
@@ -957,23 +957,6 @@
       "pct_to_ath": 171.2
     },
     {
-      "sym": "HBM",
-      "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
-      "mcap": 10,
-      "price": 24.0,
-      "basis": 23.14,
-      "bxt_today": -7.37,
-      "bxt_yest": -8.45,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 28.74,
-      "pct_to_ath": 19.7
-    },
-    {
       "sym": "SSB",
       "name": "SouthState Bank Corporation",
       "mcap": 10,
@@ -989,6 +972,23 @@
       "bxt_streak": null,
       "ath": 114.27,
       "pct_to_ath": 15.8
+    },
+    {
+      "sym": "HBM",
+      "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
+      "mcap": 10,
+      "price": 24.0,
+      "basis": 23.14,
+      "bxt_today": -7.37,
+      "bxt_yest": -8.45,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 28.74,
+      "pct_to_ath": 19.7
     },
     {
       "sym": "JOBY",
@@ -1110,23 +1110,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
-      "mcap": 8,
-      "price": 19.41,
-      "basis": 18.8,
-      "bxt_today": -0.28,
-      "bxt_yest": -1.5,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 100.25,
-      "pct_to_ath": 416.5
-    },
-    {
       "sym": "MBLY",
       "name": "Mobileye Global Inc.",
       "mcap": 8,
@@ -1159,6 +1142,23 @@
       "bxt_streak": null,
       "ath": 20.34,
       "pct_to_ath": 29.0
+    },
+    {
+      "sym": "VFC",
+      "name": "V.F. Corporation",
+      "mcap": 8,
+      "price": 19.41,
+      "basis": 18.8,
+      "bxt_today": -0.28,
+      "bxt_yest": -1.5,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 100.25,
+      "pct_to_ath": 416.5
     },
     {
       "sym": "BIRK",
@@ -1195,6 +1195,23 @@
       "pct_to_ath": 11.8
     },
     {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 70.1,
+      "basis": 69.65,
+      "bxt_today": 3.28,
+      "bxt_yest": 1.54,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 86.76,
+      "pct_to_ath": 23.8
+    },
+    {
       "sym": "HQY",
       "name": "HealthEquity, Inc.",
       "mcap": 7,
@@ -1227,23 +1244,6 @@
       "bxt_streak": null,
       "ath": 96.94,
       "pct_to_ath": 50.9
-    },
-    {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 70.1,
-      "basis": 69.65,
-      "bxt_today": 3.28,
-      "bxt_yest": 1.54,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 86.76,
-      "pct_to_ath": 23.8
     },
     {
       "sym": "EXP",
@@ -1365,23 +1365,6 @@
       "pct_to_ath": 124.3
     },
     {
-      "sym": "MRCY",
-      "name": "Mercury Systems Inc",
-      "mcap": 6,
-      "price": 91.66,
-      "basis": 84.45,
-      "bxt_today": -1.24,
-      "bxt_yest": -8.74,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 103.84,
-      "pct_to_ath": 13.3
-    },
-    {
       "sym": "VSEC",
       "name": "VSE Corporation",
       "mcap": 6,
@@ -1397,6 +1380,23 @@
       "bxt_streak": null,
       "ath": 232.61,
       "pct_to_ath": 12.1
+    },
+    {
+      "sym": "MRCY",
+      "name": "Mercury Systems Inc",
+      "mcap": 6,
+      "price": 91.66,
+      "basis": 84.45,
+      "bxt_today": -1.24,
+      "bxt_yest": -8.74,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 103.84,
+      "pct_to_ath": 13.3
     },
     {
       "sym": "OPEN",
@@ -2508,23 +2508,6 @@
       "pct_to_ath": 0.8
     },
     {
-      "sym": "FIS",
-      "name": "Fidelity National Information Services, Inc.",
-      "mcap": 24,
-      "price": 45.97,
-      "basis": 51.56,
-      "bxt_today": 1.9,
-      "bxt_yest": -0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 158.21,
-      "pct_to_ath": 244.2
-    },
-    {
       "sym": "RF",
       "name": "Regions Financial Corporation",
       "mcap": 24,
@@ -2540,6 +2523,23 @@
       "bxt_streak": 10,
       "ath": 39.15,
       "pct_to_ath": 38.8
+    },
+    {
+      "sym": "FIS",
+      "name": "Fidelity National Information Services, Inc.",
+      "mcap": 24,
+      "price": 45.97,
+      "basis": 51.56,
+      "bxt_today": 1.9,
+      "bxt_yest": -0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 158.21,
+      "pct_to_ath": 244.2
     },
     {
       "sym": "ATI",
@@ -3154,23 +3154,6 @@
       "pct_to_ath": 16.0
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 49.11,
-      "basis": 56.7,
-      "bxt_today": 1.59,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 286.6
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -3186,6 +3169,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.2
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 49.11,
+      "basis": 56.7,
+      "bxt_today": 1.59,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 286.6
     },
     {
       "sym": "CRSP",
@@ -3871,7 +3871,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T23:38:37.133013+00:00",
+    "compared_to": "2026-05-06T23:44:05.460489+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
