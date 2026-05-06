@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T13:20:00.911326+00:00",
+  "updated_at": "2026-05-06T13:25:36.624892+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.91,
+  "scan_seconds": 12.71,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -859,6 +859,23 @@
       "pct_to_ath": 93.3
     },
     {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 50.15,
+      "basis": 56.75,
+      "bxt_today": 2.43,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 278.5
+    },
+    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -891,23 +908,6 @@
       "bxt_streak": 3,
       "ath": 220.2,
       "pct_to_ath": 320.4
-    },
-    {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 50.15,
-      "basis": 56.75,
-      "bxt_today": 2.43,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 278.5
     },
     {
       "sym": "ACHR",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T13:14:17.507862+00:00",
+    "compared_to": "2026-05-06T13:20:00.911326+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
