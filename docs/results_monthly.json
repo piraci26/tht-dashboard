@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T03:49:10.803947+00:00",
+  "updated_at": "2026-05-06T04:00:11.573490+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 110.07,
+  "scan_seconds": 111.52,
   "scanned_count": 1509,
   "fvb_green": [
     {
@@ -485,23 +485,6 @@
       "pct_to_ath": 160.3
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "MIRM",
       "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
@@ -517,6 +500,23 @@
       "bxt_streak": 10,
       "ath": 110.49,
       "pct_to_ath": 4.4
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "ESTC",
@@ -1082,23 +1082,6 @@
       "pct_to_ath": 17.0
     },
     {
-      "sym": "TNL",
-      "name": "Travel   Leisure Co. Common  Stock",
-      "mcap": 4,
-      "price": 63.0,
-      "basis": 59.69,
-      "bxt_today": -0.69,
-      "bxt_yest": 3.7,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 29,
-      "ath": 81.0,
-      "pct_to_ath": 28.6
-    },
-    {
       "sym": "DOO",
       "name": "BRP Inc. Common Subordinate Voting Shares",
       "mcap": 4,
@@ -1114,10 +1097,27 @@
       "bxt_streak": 10,
       "ath": 102.96,
       "pct_to_ath": 90.8
+    },
+    {
+      "sym": "TNL",
+      "name": "Travel   Leisure Co. Common  Stock",
+      "mcap": 4,
+      "price": 63.0,
+      "basis": 59.69,
+      "bxt_today": -0.69,
+      "bxt_yest": 3.7,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 29,
+      "ath": 81.0,
+      "pct_to_ath": 28.6
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T03:37:59.730577+00:00",
+    "compared_to": "2026-05-06T03:49:10.803947+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
