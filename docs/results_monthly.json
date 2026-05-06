@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T00:15:15.991261+00:00",
+  "updated_at": "2026-05-06T00:26:34.120726+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 114.94,
+  "scan_seconds": 116.29,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -328,6 +328,23 @@
       "pct_to_ath": 271.5
     },
     {
+      "sym": "WAL",
+      "name": "Western Alliance Bancorporation (DE)",
+      "mcap": 9,
+      "price": 81.86,
+      "basis": 81.46,
+      "bxt_today": -4.19,
+      "bxt_yest": -5.13,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 124.93,
+      "pct_to_ath": 52.6
+    },
+    {
       "sym": "PRI",
       "name": "Primerica, Inc.",
       "mcap": 9,
@@ -362,23 +379,6 @@
       "pct_to_ath": 146.2
     },
     {
-      "sym": "WAL",
-      "name": "Western Alliance Bancorporation (DE)",
-      "mcap": 9,
-      "price": 81.86,
-      "basis": 81.46,
-      "bxt_today": -4.19,
-      "bxt_yest": -5.13,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 4,
-      "bxt_streak": null,
-      "ath": 124.93,
-      "pct_to_ath": 52.6
-    },
-    {
       "sym": "AAON",
       "name": "AAON, Inc.",
       "mcap": 8,
@@ -394,6 +394,40 @@
       "bxt_streak": null,
       "ath": 144.07,
       "pct_to_ath": 53.8
+    },
+    {
+      "sym": "JAN",
+      "name": "Janus Living, Inc.-1",
+      "mcap": 7,
+      "price": 26.25,
+      "basis": 26.23,
+      "bxt_today": -13.45,
+      "bxt_yest": -12.76,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 26.74,
+      "pct_to_ath": 1.9
+    },
+    {
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
+      "mcap": 7,
+      "price": 8.77,
+      "basis": 8.77,
+      "bxt_today": 16.81,
+      "bxt_yest": 14.99,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 48.11,
+      "pct_to_ath": 448.6
     },
     {
       "sym": "BBUC",
@@ -447,55 +481,21 @@
       "pct_to_ath": 19.1
     },
     {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
-      "mcap": 7,
-      "price": 8.77,
-      "basis": 8.77,
-      "bxt_today": 16.81,
-      "bxt_yest": 14.99,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 48.11,
-      "pct_to_ath": 448.6
-    },
-    {
-      "sym": "JAN",
-      "name": "Janus Living, Inc.-1",
-      "mcap": 7,
-      "price": 26.25,
-      "basis": 26.23,
-      "bxt_today": -13.45,
-      "bxt_yest": -12.76,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 26.74,
-      "pct_to_ath": 1.9
-    },
-    {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
+      "sym": "DBX",
+      "name": "Dropbox, Inc.",
       "mcap": 6,
-      "price": 18.27,
-      "basis": 18.14,
-      "bxt_today": 0.52,
-      "bxt_yest": -1.64,
+      "price": 25.41,
+      "basis": 25.05,
+      "bxt_today": 5.99,
+      "bxt_yest": 2.39,
       "fvb_g": true,
       "fvb_r": false,
-      "bxt_g": true,
+      "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
+      "fvb_streak": 22,
+      "bxt_streak": null,
+      "ath": 43.5,
+      "pct_to_ath": 71.2
     },
     {
       "sym": "CZR",
@@ -515,21 +515,21 @@
       "pct_to_ath": 326.4
     },
     {
-      "sym": "DBX",
-      "name": "Dropbox, Inc.",
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
       "mcap": 6,
-      "price": 25.41,
-      "basis": 25.05,
-      "bxt_today": 5.99,
-      "bxt_yest": 2.39,
+      "price": 18.27,
+      "basis": 18.14,
+      "bxt_today": 0.52,
+      "bxt_yest": -1.64,
       "fvb_g": true,
       "fvb_r": false,
-      "bxt_g": false,
+      "bxt_g": true,
       "bxt_r": false,
-      "fvb_streak": 22,
-      "bxt_streak": null,
-      "ath": 43.5,
-      "pct_to_ath": 71.2
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "OTF",
@@ -566,6 +566,23 @@
       "pct_to_ath": 50.0
     },
     {
+      "sym": "EBC",
+      "name": "Eastern Bankshares, Inc.",
+      "mcap": 5,
+      "price": 20.26,
+      "basis": 20.0,
+      "bxt_today": -4.59,
+      "bxt_yest": -4.61,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 23.03,
+      "pct_to_ath": 13.7
+    },
+    {
       "sym": "NOVT",
       "name": "Novanta Inc.",
       "mcap": 5,
@@ -600,21 +617,21 @@
       "pct_to_ath": 64.8
     },
     {
-      "sym": "EBC",
-      "name": "Eastern Bankshares, Inc.",
-      "mcap": 5,
-      "price": 20.26,
-      "basis": 20.0,
-      "bxt_today": -4.59,
-      "bxt_yest": -4.61,
+      "sym": "NVST",
+      "name": "Envista Holdings Corporation",
+      "mcap": 4,
+      "price": 26.19,
+      "basis": 26.02,
+      "bxt_today": -6.95,
+      "bxt_yest": -5.86,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
       "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 23.03,
-      "pct_to_ath": 13.7
+      "ath": 52.03,
+      "pct_to_ath": 98.7
     },
     {
       "sym": "AMRX",
@@ -634,23 +651,6 @@
       "pct_to_ath": 82.6
     },
     {
-      "sym": "LBTYK",
-      "name": "Liberty Global Ltd. Class C Common Shares",
-      "mcap": 4,
-      "price": 11.75,
-      "basis": 11.62,
-      "bxt_today": 3.23,
-      "bxt_yest": 2.56,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 23.19,
-      "pct_to_ath": 97.3
-    },
-    {
       "sym": "EE",
       "name": "Excelerate Energy, Inc.",
       "mcap": 4,
@@ -668,21 +668,21 @@
       "pct_to_ath": 21.4
     },
     {
-      "sym": "NVST",
-      "name": "Envista Holdings Corporation",
+      "sym": "LBTYK",
+      "name": "Liberty Global Ltd. Class C Common Shares",
       "mcap": 4,
-      "price": 26.19,
-      "basis": 26.02,
-      "bxt_today": -6.95,
-      "bxt_yest": -5.86,
+      "price": 11.75,
+      "basis": 11.62,
+      "bxt_today": 3.23,
+      "bxt_yest": 2.56,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 2,
       "bxt_streak": null,
-      "ath": 52.03,
-      "pct_to_ath": 98.7
+      "ath": 23.19,
+      "pct_to_ath": 97.3
     }
   ],
   "fvb_red": [
@@ -823,23 +823,6 @@
       "pct_to_ath": 11.9
     },
     {
-      "sym": "ZETA",
-      "name": "Zeta Global Holdings Corp.",
-      "mcap": 4,
-      "price": 17.85,
-      "basis": 17.98,
-      "bxt_today": 3.33,
-      "bxt_yest": 3.24,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 38.2,
-      "pct_to_ath": 114.0
-    },
-    {
       "sym": "OSIS",
       "name": "OSI Systems, Inc. (DE)",
       "mcap": 4,
@@ -855,6 +838,23 @@
       "bxt_streak": 41,
       "ath": 311.72,
       "pct_to_ath": 32.8
+    },
+    {
+      "sym": "ZETA",
+      "name": "Zeta Global Holdings Corp.",
+      "mcap": 4,
+      "price": 17.85,
+      "basis": 17.98,
+      "bxt_today": 3.33,
+      "bxt_yest": 3.24,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 38.2,
+      "pct_to_ath": 114.0
     },
     {
       "sym": "NHI",
@@ -1609,6 +1609,23 @@
       "pct_to_ath": 23.4
     },
     {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 98.66,
+      "basis": 94.35,
+      "bxt_today": -1.0,
+      "bxt_yest": 1.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
+    },
+    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -1641,23 +1658,6 @@
       "bxt_streak": 37,
       "ath": 50.5,
       "pct_to_ath": 13.7
-    },
-    {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 98.66,
-      "basis": 94.35,
-      "bxt_today": -1.0,
-      "bxt_yest": 1.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
     },
     {
       "sym": "ENSG",
@@ -1711,23 +1711,6 @@
       "pct_to_ath": 9.7
     },
     {
-      "sym": "W",
-      "name": "Wayfair Inc.",
-      "mcap": 8,
-      "price": 63.2,
-      "basis": 66.22,
-      "bxt_today": -0.38,
-      "bxt_yest": 2.06,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 35,
-      "ath": 369.0,
-      "pct_to_ath": 483.9
-    },
-    {
       "sym": "PCVX",
       "name": "Vaxcyte, Inc.",
       "mcap": 8,
@@ -1760,6 +1743,23 @@
       "bxt_streak": 1,
       "ath": 123.61,
       "pct_to_ath": 14.0
+    },
+    {
+      "sym": "W",
+      "name": "Wayfair Inc.",
+      "mcap": 8,
+      "price": 63.2,
+      "basis": 66.22,
+      "bxt_today": -0.38,
+      "bxt_yest": 2.06,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 35,
+      "ath": 369.0,
+      "pct_to_ath": 483.9
     },
     {
       "sym": "ACT",
@@ -1796,6 +1796,23 @@
       "pct_to_ath": 9.5
     },
     {
+      "sym": "CNX",
+      "name": "CNX Resources Corporation",
+      "mcap": 5,
+      "price": 38.02,
+      "basis": 34.78,
+      "bxt_today": -0.07,
+      "bxt_yest": 2.97,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 99.25,
+      "pct_to_ath": 161.0
+    },
+    {
       "sym": "PTCT",
       "name": "PTC Therapeutics, Inc.",
       "mcap": 5,
@@ -1828,23 +1845,6 @@
       "bxt_streak": 12,
       "ath": 101.92,
       "pct_to_ath": 17.0
-    },
-    {
-      "sym": "CNX",
-      "name": "CNX Resources Corporation",
-      "mcap": 5,
-      "price": 38.02,
-      "basis": 34.78,
-      "bxt_today": -0.07,
-      "bxt_yest": 2.97,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 99.25,
-      "pct_to_ath": 161.0
     },
     {
       "sym": "OSIS",
@@ -1881,23 +1881,6 @@
       "pct_to_ath": 16.6
     },
     {
-      "sym": "DOO",
-      "name": "BRP Inc. Common Subordinate Voting Shares",
-      "mcap": 4,
-      "price": 53.97,
-      "basis": 55.41,
-      "bxt_today": -0.69,
-      "bxt_yest": 2.52,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 102.96,
-      "pct_to_ath": 90.8
-    },
-    {
       "sym": "TNL",
       "name": "Travel   Leisure Co. Common  Stock",
       "mcap": 4,
@@ -1913,10 +1896,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 28.6
+    },
+    {
+      "sym": "DOO",
+      "name": "BRP Inc. Common Subordinate Voting Shares",
+      "mcap": 4,
+      "price": 53.97,
+      "basis": 55.41,
+      "bxt_today": -0.69,
+      "bxt_yest": 2.52,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 102.96,
+      "pct_to_ath": 90.8
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T00:03:53.376325+00:00",
+    "compared_to": "2026-05-06T00:15:15.991261+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
