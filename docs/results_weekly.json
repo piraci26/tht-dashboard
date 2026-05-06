@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T04:53:44.878051+00:00",
+  "updated_at": "2026-05-06T05:04:55.204697+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 115.06,
-  "scanned_count": 1509,
+  "scan_seconds": 112.24,
+  "scanned_count": 1503,
   "fvb_green": [
     {
       "sym": "APP",
@@ -141,23 +141,6 @@
       "pct_to_ath": 668.1
     },
     {
-      "sym": "HQY",
-      "name": "HealthEquity, Inc.",
-      "mcap": 7,
-      "price": 82.63,
-      "basis": 82.38,
-      "bxt_today": 6.41,
-      "bxt_yest": 5.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 116.65,
-      "pct_to_ath": 41.2
-    },
-    {
       "sym": "EXP",
       "name": "Eagle Materials Inc",
       "mcap": 7,
@@ -175,21 +158,21 @@
       "pct_to_ath": 53.5
     },
     {
-      "sym": "PAYC",
-      "name": "Paycom Software, Inc.",
-      "mcap": 6,
-      "price": 131.68,
-      "basis": 131.53,
-      "bxt_today": 16.75,
-      "bxt_yest": 14.7,
+      "sym": "HQY",
+      "name": "HealthEquity, Inc.",
+      "mcap": 7,
+      "price": 82.63,
+      "basis": 82.38,
+      "bxt_today": 6.41,
+      "bxt_yest": 5.77,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 41,
+      "fvb_streak": 3,
       "bxt_streak": null,
-      "ath": 558.97,
-      "pct_to_ath": 324.5
+      "ath": 116.65,
+      "pct_to_ath": 41.2
     },
     {
       "sym": "RGTI",
@@ -207,6 +190,23 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
+    },
+    {
+      "sym": "PAYC",
+      "name": "Paycom Software, Inc.",
+      "mcap": 6,
+      "price": 131.68,
+      "basis": 131.53,
+      "bxt_today": 16.75,
+      "bxt_yest": 14.7,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 41,
+      "bxt_streak": null,
+      "ath": 558.97,
+      "pct_to_ath": 324.5
     },
     {
       "sym": "PAY",
@@ -621,23 +621,6 @@
       "pct_to_ath": 37.8
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.59,
-      "basis": 13.13,
-      "bxt_today": 0.38,
-      "bxt_yest": -2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 118.4
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -653,6 +636,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 12.6
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.59,
+      "basis": 13.13,
+      "bxt_today": 0.38,
+      "bxt_yest": -2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 118.4
     },
     {
       "sym": "TPG",
@@ -774,23 +774,6 @@
       "pct_to_ath": 130.9
     },
     {
-      "sym": "OTEX",
-      "name": "Open Text Corporation Common Shares",
-      "mcap": 6,
-      "price": 23.48,
-      "basis": 25.02,
-      "bxt_today": 0.68,
-      "bxt_yest": -2.59,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 55.25,
-      "pct_to_ath": 135.3
-    },
-    {
       "sym": "CLF",
       "name": "Cleveland-Cliffs Inc.",
       "mcap": 6,
@@ -806,6 +789,23 @@
       "bxt_streak": 13,
       "ath": 121.95,
       "pct_to_ath": 1045.1
+    },
+    {
+      "sym": "OTEX",
+      "name": "Open Text Corporation Common Shares",
+      "mcap": 6,
+      "price": 23.48,
+      "basis": 25.02,
+      "bxt_today": 0.68,
+      "bxt_yest": -2.59,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 55.25,
+      "pct_to_ath": 135.3
     },
     {
       "sym": "RGTI",
@@ -876,23 +876,6 @@
       "pct_to_ath": 278.5
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.36,
-      "basis": 57.68,
-      "bxt_today": 2.93,
-      "bxt_yest": -0.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.1
-    },
-    {
       "sym": "CRSP",
       "name": "CRISPR Therapeutics AG Common Shares",
       "mcap": 5,
@@ -908,6 +891,23 @@
       "bxt_streak": 3,
       "ath": 220.2,
       "pct_to_ath": 320.4
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.36,
+      "basis": 57.68,
+      "bxt_today": 2.93,
+      "bxt_yest": -0.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.1
     },
     {
       "sym": "ACHR",
@@ -1133,23 +1133,6 @@
       "pct_to_ath": 5.8
     },
     {
-      "sym": "ALGN",
-      "name": "Align Technology, Inc.",
-      "mcap": 12,
-      "price": 168.71,
-      "basis": 175.21,
-      "bxt_today": -2.49,
-      "bxt_yest": 0.94,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 28,
-      "ath": 737.45,
-      "pct_to_ath": 337.1
-    },
-    {
       "sym": "JHX",
       "name": "James Hardie Industries plc. Ordinary Shares",
       "mcap": 12,
@@ -1165,23 +1148,6 @@
       "bxt_streak": 3,
       "ath": 43.57,
       "pct_to_ath": 116.2
-    },
-    {
-      "sym": "WBS",
-      "name": "Webster Financial Corporation",
-      "mcap": 12,
-      "price": 72.16,
-      "basis": 69.37,
-      "bxt_today": -0.67,
-      "bxt_yest": 0.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 74.0,
-      "pct_to_ath": 2.5
     },
     {
       "sym": "AR",
@@ -1201,21 +1167,38 @@
       "pct_to_ath": 74.9
     },
     {
-      "sym": "NOV",
-      "name": "NOV Inc.",
-      "mcap": 7,
-      "price": 20.12,
-      "basis": 19.05,
-      "bxt_today": -0.47,
-      "bxt_yest": 0.6,
+      "sym": "ALGN",
+      "name": "Align Technology, Inc.",
+      "mcap": 12,
+      "price": 168.71,
+      "basis": 175.21,
+      "bxt_today": -2.49,
+      "bxt_yest": 0.94,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 86.55,
-      "pct_to_ath": 330.2
+      "bxt_streak": 28,
+      "ath": 737.45,
+      "pct_to_ath": 337.1
+    },
+    {
+      "sym": "WBS",
+      "name": "Webster Financial Corporation",
+      "mcap": 12,
+      "price": 72.16,
+      "basis": 69.37,
+      "bxt_today": -0.67,
+      "bxt_yest": 0.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 74.0,
+      "pct_to_ath": 2.5
     },
     {
       "sym": "STAG",
@@ -1233,6 +1216,23 @@
       "bxt_streak": 4,
       "ath": 48.27,
       "pct_to_ath": 26.9
+    },
+    {
+      "sym": "NOV",
+      "name": "NOV Inc.",
+      "mcap": 7,
+      "price": 20.12,
+      "basis": 19.05,
+      "bxt_today": -0.47,
+      "bxt_yest": 0.6,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 86.55,
+      "pct_to_ath": 330.2
     },
     {
       "sym": "VAL",
@@ -1286,6 +1286,23 @@
       "pct_to_ath": 9.5
     },
     {
+      "sym": "OGS",
+      "name": "ONE Gas, Inc.",
+      "mcap": 5,
+      "price": 86.69,
+      "basis": 84.65,
+      "bxt_today": -1.82,
+      "bxt_yest": 1.94,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 96.97,
+      "pct_to_ath": 11.9
+    },
+    {
       "sym": "KMX",
       "name": "CarMax Inc",
       "mcap": 5,
@@ -1320,21 +1337,21 @@
       "pct_to_ath": 5.3
     },
     {
-      "sym": "OGS",
-      "name": "ONE Gas, Inc.",
+      "sym": "UNF",
+      "name": "Unifirst Corporation",
       "mcap": 5,
-      "price": 86.69,
-      "basis": 84.65,
-      "bxt_today": -1.82,
-      "bxt_yest": 1.94,
+      "price": 252.3,
+      "basis": 238.87,
+      "bxt_today": -1.75,
+      "bxt_yest": 1.42,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 96.97,
-      "pct_to_ath": 11.9
+      "bxt_streak": 24,
+      "ath": 283.77,
+      "pct_to_ath": 12.5
     },
     {
       "sym": "PSMT",
@@ -1352,23 +1369,6 @@
       "bxt_streak": 5,
       "ath": 165.46,
       "pct_to_ath": 5.7
-    },
-    {
-      "sym": "UNF",
-      "name": "Unifirst Corporation",
-      "mcap": 5,
-      "price": 252.3,
-      "basis": 238.87,
-      "bxt_today": -1.75,
-      "bxt_yest": 1.42,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 24,
-      "ath": 283.77,
-      "pct_to_ath": 12.5
     },
     {
       "sym": "LBTYK",
@@ -1406,25 +1406,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T04:42:41.498904+00:00",
+    "compared_to": "2026-05-06T04:53:44.878051+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "SNA",
-        "name": "Snap-On Incorporated",
-        "mcap": 20,
-        "price": 378.8,
-        "basis": 371.62,
-        "bxt_today": -0.91,
-        "ath": 400.88,
-        "pct_to_ath": 5.8
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
