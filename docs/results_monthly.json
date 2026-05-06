@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T06:46:47.332028+00:00",
+  "updated_at": "2026-05-06T06:57:47.254745+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 123.76,
-  "scanned_count": 1511,
+  "scan_seconds": 110.12,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "APP",
@@ -606,23 +606,6 @@
       "pct_to_ath": 10.3
     },
     {
-      "sym": "TM",
-      "name": "Toyota Motor Corporation",
-      "mcap": 2476,
-      "price": 189.99,
-      "basis": 183.38,
-      "bxt_today": -1.13,
-      "bxt_yest": 2.78,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 255.23,
-      "pct_to_ath": 34.3
-    },
-    {
       "sym": "TLK",
       "name": "PT Telekomunikasi Indonesia, Tbk",
       "mcap": 1660,
@@ -997,23 +980,6 @@
       "pct_to_ath": 5.9
     },
     {
-      "sym": "BYD",
-      "name": "Boyd Gaming Corporation",
-      "mcap": 6,
-      "price": 84.07,
-      "basis": 79.81,
-      "bxt_today": -1.71,
-      "bxt_yest": 0.24,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 89.96,
-      "pct_to_ath": 7.0
-    },
-    {
       "sym": "CGON",
       "name": "CG Oncology, Inc. Common stock",
       "mcap": 6,
@@ -1029,6 +995,23 @@
       "bxt_streak": 18,
       "ath": 73.56,
       "pct_to_ath": 9.5
+    },
+    {
+      "sym": "BYD",
+      "name": "Boyd Gaming Corporation",
+      "mcap": 6,
+      "price": 84.07,
+      "basis": 79.81,
+      "bxt_today": -1.71,
+      "bxt_yest": 0.24,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 89.96,
+      "pct_to_ath": 7.0
     },
     {
       "sym": "CNX",
@@ -1117,7 +1100,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T06:35:31.759570+00:00",
+    "compared_to": "2026-05-06T06:46:47.332028+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -1125,6 +1108,17 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "TM",
+        "name": "Toyota Motor Corporation",
+        "mcap": 2476,
+        "price": 189.99,
+        "basis": 183.38,
+        "bxt_today": -1.13,
+        "ath": 255.23,
+        "pct_to_ath": 34.3
+      }
+    ]
   }
 }
