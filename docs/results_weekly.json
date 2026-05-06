@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T11:28:52.803661+00:00",
+  "updated_at": "2026-05-06T11:34:22.360320+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.06,
-  "scanned_count": 1510,
+  "scan_seconds": 7.31,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -774,23 +774,6 @@
       "pct_to_ath": 130.9
     },
     {
-      "sym": "MIRM",
-      "name": "Mirum Pharmaceuticals, Inc.",
-      "mcap": 6,
-      "price": 105.81,
-      "basis": 94.75,
-      "bxt_today": 2.85,
-      "bxt_yest": -0.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 110.49,
-      "pct_to_ath": 4.4
-    },
-    {
       "sym": "CLF",
       "name": "Cleveland-Cliffs Inc.",
       "mcap": 6,
@@ -808,21 +791,21 @@
       "pct_to_ath": 1045.1
     },
     {
-      "sym": "OTEX",
-      "name": "Open Text Corporation Common Shares",
+      "sym": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
-      "price": 23.48,
-      "basis": 25.02,
-      "bxt_today": 0.68,
-      "bxt_yest": -2.59,
+      "price": 105.81,
+      "basis": 94.75,
+      "bxt_today": 2.85,
+      "bxt_yest": -0.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 55.25,
-      "pct_to_ath": 135.3
+      "bxt_streak": 10,
+      "ath": 110.49,
+      "pct_to_ath": 4.4
     },
     {
       "sym": "RGTI",
@@ -842,6 +825,23 @@
       "pct_to_ath": 218.3
     },
     {
+      "sym": "OTEX",
+      "name": "Open Text Corporation Common Shares",
+      "mcap": 6,
+      "price": 23.48,
+      "basis": 25.02,
+      "bxt_today": 0.68,
+      "bxt_yest": -2.59,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 55.25,
+      "pct_to_ath": 135.3
+    },
+    {
       "sym": "RITM",
       "name": "Rithm Capital Corp.",
       "mcap": 5,
@@ -857,23 +857,6 @@
       "bxt_streak": 1,
       "ath": 18.75,
       "pct_to_ath": 93.3
-    },
-    {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 50.15,
-      "basis": 56.75,
-      "bxt_today": 2.43,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 278.5
     },
     {
       "sym": "MAIN",
@@ -908,6 +891,23 @@
       "bxt_streak": 3,
       "ath": 220.2,
       "pct_to_ath": 320.4
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 50.15,
+      "basis": 56.75,
+      "bxt_today": 2.43,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 278.5
     },
     {
       "sym": "ACHR",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T11:23:22.908005+00:00",
+    "compared_to": "2026-05-06T11:28:52.803661+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
