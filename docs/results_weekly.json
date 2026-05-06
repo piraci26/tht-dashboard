@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T12:57:51.431213+00:00",
+  "updated_at": "2026-05-06T13:03:23.205946+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.6,
-  "scanned_count": 1508,
+  "scan_seconds": 11.89,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "APP",
@@ -621,23 +621,6 @@
       "pct_to_ath": 37.8
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 222.71,
-      "basis": 220.34,
-      "bxt_today": 0.2,
-      "bxt_yest": -2.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 12.6
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -653,6 +636,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 118.4
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 222.71,
+      "basis": 220.34,
+      "bxt_today": 0.2,
+      "bxt_yest": -2.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 12.6
     },
     {
       "sym": "TPG",
@@ -774,23 +774,6 @@
       "pct_to_ath": 130.9
     },
     {
-      "sym": "MIRM",
-      "name": "Mirum Pharmaceuticals, Inc.",
-      "mcap": 6,
-      "price": 105.81,
-      "basis": 94.75,
-      "bxt_today": 2.85,
-      "bxt_yest": -0.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 110.49,
-      "pct_to_ath": 4.4
-    },
-    {
       "sym": "OTEX",
       "name": "Open Text Corporation Common Shares",
       "mcap": 6,
@@ -808,21 +791,21 @@
       "pct_to_ath": 135.3
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
+      "sym": "MIRM",
+      "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
+      "price": 105.81,
+      "basis": 94.75,
+      "bxt_today": 2.85,
+      "bxt_yest": -0.14,
+      "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 110.49,
+      "pct_to_ath": 4.4
     },
     {
       "sym": "CLF",
@@ -842,6 +825,23 @@
       "pct_to_ath": 1045.1
     },
     {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
+    },
+    {
       "sym": "RITM",
       "name": "Rithm Capital Corp.",
       "mcap": 5,
@@ -859,23 +859,6 @@
       "pct_to_ath": 93.3
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 50.15,
-      "basis": 56.75,
-      "bxt_today": 2.43,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 278.5
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -891,6 +874,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.1
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 50.15,
+      "basis": 56.75,
+      "bxt_today": 2.43,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 278.5
     },
     {
       "sym": "CRSP",
@@ -1082,23 +1082,6 @@
       "pct_to_ath": 2.2
     },
     {
-      "sym": "HUBB",
-      "name": "Hubbell Inc",
-      "mcap": 27,
-      "price": 507.81,
-      "basis": 500.06,
-      "bxt_today": -1.93,
-      "bxt_yest": 0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 565.5,
-      "pct_to_ath": 11.4
-    },
-    {
       "sym": "CFG",
       "name": "Citizens Financial Group, Inc.",
       "mcap": 27,
@@ -1114,6 +1097,23 @@
       "bxt_streak": 2,
       "ath": 68.79,
       "pct_to_ath": 6.9
+    },
+    {
+      "sym": "HUBB",
+      "name": "Hubbell Inc",
+      "mcap": 27,
+      "price": 507.81,
+      "basis": 500.06,
+      "bxt_today": -1.93,
+      "bxt_yest": 0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 565.5,
+      "pct_to_ath": 11.4
     },
     {
       "sym": "SNA",
@@ -1337,23 +1337,6 @@
       "pct_to_ath": 5.3
     },
     {
-      "sym": "PSMT",
-      "name": "PriceSmart, Inc.",
-      "mcap": 5,
-      "price": 156.56,
-      "basis": 149.41,
-      "bxt_today": -2.57,
-      "bxt_yest": 0.49,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 5,
-      "ath": 165.46,
-      "pct_to_ath": 5.7
-    },
-    {
       "sym": "UNF",
       "name": "Unifirst Corporation",
       "mcap": 5,
@@ -1369,6 +1352,23 @@
       "bxt_streak": 24,
       "ath": 283.77,
       "pct_to_ath": 12.5
+    },
+    {
+      "sym": "PSMT",
+      "name": "PriceSmart, Inc.",
+      "mcap": 5,
+      "price": 156.56,
+      "basis": 149.41,
+      "bxt_today": -2.57,
+      "bxt_yest": 0.49,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 165.46,
+      "pct_to_ath": 5.7
     },
     {
       "sym": "LBTYK",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T12:52:23.994936+00:00",
+    "compared_to": "2026-05-06T12:57:51.431213+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
