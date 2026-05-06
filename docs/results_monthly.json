@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T09:44:06.264017+00:00",
+  "updated_at": "2026-05-06T09:55:09.390154+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 110.61,
-  "scanned_count": 1508,
+  "scan_seconds": 111.24,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -107,23 +107,6 @@
       "pct_to_ath": 1.9
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "CZR",
       "name": "Caesars Entertainment, Inc.",
       "mcap": 6,
@@ -139,6 +122,23 @@
       "bxt_streak": null,
       "ath": 119.81,
       "pct_to_ath": 326.4
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "OTF",
@@ -330,6 +330,23 @@
       "bxt_streak": 10,
       "ath": 126.65,
       "pct_to_ath": 337.9
+    },
+    {
+      "sym": "Q",
+      "name": "Qnity Electronics, Inc.",
+      "mcap": 31,
+      "price": 146.47,
+      "basis": 137.41,
+      "bxt_today": 2.13,
+      "bxt_yest": -0.97,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 147.99,
+      "pct_to_ath": 1.0
     },
     {
       "sym": "EIX",
@@ -536,23 +553,6 @@
       "pct_to_ath": 218.5
     },
     {
-      "sym": "CUZ",
-      "name": "Cousins Properties Incorporated",
-      "mcap": 4,
-      "price": 26.05,
-      "basis": 27.39,
-      "bxt_today": 0.63,
-      "bxt_yest": -0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 115.03,
-      "pct_to_ath": 341.6
-    },
-    {
       "sym": "WSC",
       "name": "WillScot Holdings Corporation",
       "mcap": 4,
@@ -568,6 +568,23 @@
       "bxt_streak": 37,
       "ath": 53.46,
       "pct_to_ath": 134.1
+    },
+    {
+      "sym": "CUZ",
+      "name": "Cousins Properties Incorporated",
+      "mcap": 4,
+      "price": 26.05,
+      "basis": 27.39,
+      "bxt_today": 0.63,
+      "bxt_yest": -0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 115.03,
+      "pct_to_ath": 341.6
     }
   ],
   "bxt_red": [
@@ -861,6 +878,23 @@
       "pct_to_ath": 23.4
     },
     {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 98.66,
+      "basis": 94.33,
+      "bxt_today": -1.08,
+      "bxt_yest": 1.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
+    },
+    {
       "sym": "WMS",
       "name": "Advanced Drainage Systems, Inc.",
       "mcap": 11,
@@ -893,23 +927,6 @@
       "bxt_streak": 37,
       "ath": 50.5,
       "pct_to_ath": 13.7
-    },
-    {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 98.66,
-      "basis": 94.33,
-      "bxt_today": -1.08,
-      "bxt_yest": 1.29,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
     },
     {
       "sym": "ENSG",
@@ -946,23 +963,6 @@
       "pct_to_ath": 483.9
     },
     {
-      "sym": "VAL",
-      "name": "Valaris Limited Common Shares",
-      "mcap": 6,
-      "price": 92.81,
-      "basis": 83.0,
-      "bxt_today": -1.18,
-      "bxt_yest": 2.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 105.35,
-      "pct_to_ath": 13.5
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -978,23 +978,6 @@
       "bxt_streak": 20,
       "ath": 89.96,
       "pct_to_ath": 7.0
-    },
-    {
-      "sym": "CGON",
-      "name": "CG Oncology, Inc. Common stock",
-      "mcap": 6,
-      "price": 67.18,
-      "basis": 60.43,
-      "bxt_today": -0.92,
-      "bxt_yest": 2.93,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 73.56,
-      "pct_to_ath": 9.5
     },
     {
       "sym": "ACT",
@@ -1014,6 +997,40 @@
       "pct_to_ath": 5.9
     },
     {
+      "sym": "CGON",
+      "name": "CG Oncology, Inc. Common stock",
+      "mcap": 6,
+      "price": 67.18,
+      "basis": 60.43,
+      "bxt_today": -0.92,
+      "bxt_yest": 2.93,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 73.56,
+      "pct_to_ath": 9.5
+    },
+    {
+      "sym": "VAL",
+      "name": "Valaris Limited Common Shares",
+      "mcap": 6,
+      "price": 92.81,
+      "basis": 83.0,
+      "bxt_today": -1.18,
+      "bxt_yest": 2.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 105.35,
+      "pct_to_ath": 13.5
+    },
+    {
       "sym": "CNX",
       "name": "CNX Resources Corporation",
       "mcap": 5,
@@ -1031,23 +1048,6 @@
       "pct_to_ath": 161.0
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 87.14,
-      "basis": 80.66,
-      "bxt_today": -1.56,
-      "bxt_yest": 1.56,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 17.0
-    },
-    {
       "sym": "PTCT",
       "name": "PTC Therapeutics, Inc.",
       "mcap": 5,
@@ -1063,6 +1063,23 @@
       "bxt_streak": 25,
       "ath": 87.5,
       "pct_to_ath": 34.5
+    },
+    {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 87.14,
+      "basis": 80.66,
+      "bxt_today": -1.56,
+      "bxt_yest": 1.56,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 17.0
     },
     {
       "sym": "DOO",
@@ -1100,13 +1117,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T09:33:05.344407+00:00",
+    "compared_to": "2026-05-06T09:44:06.264017+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "bxt_green_added": [
       {
         "sym": "Q",
         "name": "Qnity Electronics, Inc.",
@@ -1118,6 +1134,7 @@
         "pct_to_ath": 1.0
       }
     ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
