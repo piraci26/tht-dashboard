@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T22:49:36.569084+00:00",
+  "updated_at": "2026-05-06T22:55:03.332902+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.39,
+  "scan_seconds": 6.73,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -52,8 +52,8 @@
       "bxt_r": false,
       "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 293.06,
+      "pct_to_ath": 25.6
     },
     {
       "sym": "PAM",
@@ -1916,7 +1916,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T22:44:06.041721+00:00",
+    "compared_to": "2026-05-06T22:49:36.569084+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
