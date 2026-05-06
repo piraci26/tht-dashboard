@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T22:22:09.919224+00:00",
+  "updated_at": "2026-05-06T22:27:36.356356+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.04,
-  "scanned_count": 1510,
+  "scan_seconds": 7.79,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -294,23 +294,6 @@
       "pct_to_ath": 31.5
     },
     {
-      "sym": "GM",
-      "name": "General Motors Company",
-      "mcap": 71,
-      "price": 78.7,
-      "basis": 78.31,
-      "bxt_today": -11.04,
-      "bxt_yest": -13.67,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 87.62,
-      "pct_to_ath": 11.3
-    },
-    {
       "sym": "CL",
       "name": "Colgate-Palmolive Company",
       "mcap": 71,
@@ -326,6 +309,23 @@
       "bxt_streak": null,
       "ath": 109.3,
       "pct_to_ath": 24.0
+    },
+    {
+      "sym": "GM",
+      "name": "General Motors Company",
+      "mcap": 71,
+      "price": 78.7,
+      "basis": 78.31,
+      "bxt_today": -11.04,
+      "bxt_yest": -13.67,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 87.62,
+      "pct_to_ath": 11.3
     },
     {
       "sym": "EMBJ",
@@ -953,8 +953,8 @@
       "bxt_r": false,
       "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 53.08,
+      "pct_to_ath": 171.2
     },
     {
       "sym": "SSB",
@@ -974,23 +974,6 @@
       "pct_to_ath": 15.8
     },
     {
-      "sym": "HBM",
-      "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
-      "mcap": 10,
-      "price": 24.0,
-      "basis": 23.14,
-      "bxt_today": -7.37,
-      "bxt_yest": -8.45,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 28.74,
-      "pct_to_ath": 19.7
-    },
-    {
       "sym": "JOBY",
       "name": "Joby Aviation, Inc.",
       "mcap": 10,
@@ -1006,6 +989,23 @@
       "bxt_streak": null,
       "ath": 20.95,
       "pct_to_ath": 99.1
+    },
+    {
+      "sym": "HBM",
+      "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
+      "mcap": 10,
+      "price": 24.0,
+      "basis": 23.14,
+      "bxt_today": -7.37,
+      "bxt_yest": -8.45,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 28.74,
+      "pct_to_ath": 19.7
     },
     {
       "sym": "AGCO",
@@ -1110,6 +1110,23 @@
       "pct_to_ath": 17.6
     },
     {
+      "sym": "UEC",
+      "name": "Uranium Energy Corp.",
+      "mcap": 8,
+      "price": 15.77,
+      "basis": 14.88,
+      "bxt_today": -2.5,
+      "bxt_yest": -6.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 20.34,
+      "pct_to_ath": 29.0
+    },
+    {
       "sym": "VFC",
       "name": "V.F. Corporation",
       "mcap": 8,
@@ -1142,23 +1159,6 @@
       "bxt_streak": null,
       "ath": 48.11,
       "pct_to_ath": 430.4
-    },
-    {
-      "sym": "UEC",
-      "name": "Uranium Energy Corp.",
-      "mcap": 8,
-      "price": 15.77,
-      "basis": 14.88,
-      "bxt_today": -2.5,
-      "bxt_yest": -6.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 20.34,
-      "pct_to_ath": 29.0
     },
     {
       "sym": "BIRK",
@@ -1195,23 +1195,6 @@
       "pct_to_ath": 11.8
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 70.1,
-      "basis": 69.65,
-      "bxt_today": 3.28,
-      "bxt_yest": 1.54,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 86.76,
-      "pct_to_ath": 23.8
-    },
-    {
       "sym": "HQY",
       "name": "HealthEquity, Inc.",
       "mcap": 7,
@@ -1227,6 +1210,23 @@
       "bxt_streak": null,
       "ath": 116.65,
       "pct_to_ath": 40.1
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 70.1,
+      "basis": 69.65,
+      "bxt_today": 3.28,
+      "bxt_yest": 1.54,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 86.76,
+      "pct_to_ath": 23.8
     },
     {
       "sym": "TEX",
@@ -1331,23 +1331,6 @@
       "pct_to_ath": 993.7
     },
     {
-      "sym": "ESNT",
-      "name": "Essent Group Ltd. Common Shares",
-      "mcap": 6,
-      "price": 61.41,
-      "basis": 61.02,
-      "bxt_today": 0.63,
-      "bxt_yest": -0.91,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 1,
-      "ath": 67.09,
-      "pct_to_ath": 9.2
-    },
-    {
       "sym": "BRKR",
       "name": "Bruker Corporation",
       "mcap": 6,
@@ -1365,21 +1348,21 @@
       "pct_to_ath": 124.3
     },
     {
-      "sym": "VSEC",
-      "name": "VSE Corporation",
+      "sym": "ESNT",
+      "name": "Essent Group Ltd. Common Shares",
       "mcap": 6,
-      "price": 207.45,
-      "basis": 199.78,
-      "bxt_today": -7.61,
-      "bxt_yest": -13.81,
+      "price": 61.41,
+      "basis": 61.02,
+      "bxt_today": 0.63,
+      "bxt_yest": -0.91,
       "fvb_g": true,
       "fvb_r": false,
-      "bxt_g": false,
+      "bxt_g": true,
       "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 232.61,
-      "pct_to_ath": 12.1
+      "fvb_streak": 2,
+      "bxt_streak": 1,
+      "ath": 67.09,
+      "pct_to_ath": 9.2
     },
     {
       "sym": "MRCY",
@@ -1397,6 +1380,23 @@
       "bxt_streak": null,
       "ath": 103.84,
       "pct_to_ath": 13.3
+    },
+    {
+      "sym": "VSEC",
+      "name": "VSE Corporation",
+      "mcap": 6,
+      "price": 207.45,
+      "basis": 199.78,
+      "bxt_today": -7.61,
+      "bxt_yest": -13.81,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 232.61,
+      "pct_to_ath": 12.1
     },
     {
       "sym": "OPEN",
@@ -1433,23 +1433,6 @@
       "pct_to_ath": 44.4
     },
     {
-      "sym": "GNTX",
-      "name": "Gentex Corporation",
-      "mcap": 5,
-      "price": 23.55,
-      "basis": 22.99,
-      "bxt_today": 9.04,
-      "bxt_yest": 6.38,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 37.9,
-      "pct_to_ath": 60.9
-    },
-    {
       "sym": "SON",
       "name": "Sonoco Products Company",
       "mcap": 5,
@@ -1465,6 +1448,23 @@
       "bxt_streak": null,
       "ath": 69.83,
       "pct_to_ath": 33.5
+    },
+    {
+      "sym": "GNTX",
+      "name": "Gentex Corporation",
+      "mcap": 5,
+      "price": 23.55,
+      "basis": 22.99,
+      "bxt_today": 9.04,
+      "bxt_yest": 6.38,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 37.9,
+      "pct_to_ath": 60.9
     },
     {
       "sym": "QS",
@@ -1569,23 +1569,6 @@
       "pct_to_ath": 253.2
     },
     {
-      "sym": "ARIS",
-      "name": "Aris Mining Corporation Common Shares",
-      "mcap": 4,
-      "price": 18.93,
-      "basis": 18.71,
-      "bxt_today": -13.42,
-      "bxt_yest": -14.16,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 900.38,
-      "pct_to_ath": 4656.3
-    },
-    {
       "sym": "INDB",
       "name": "Independent Bank Corp.",
       "mcap": 4,
@@ -1601,6 +1584,23 @@
       "bxt_streak": null,
       "ath": 99.85,
       "pct_to_ath": 27.0
+    },
+    {
+      "sym": "ARIS",
+      "name": "Aris Mining Corporation Common Shares",
+      "mcap": 4,
+      "price": 18.93,
+      "basis": 18.71,
+      "bxt_today": -13.42,
+      "bxt_yest": -14.16,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 900.38,
+      "pct_to_ath": 4656.3
     },
     {
       "sym": "SKE",
@@ -2508,23 +2508,6 @@
       "pct_to_ath": 0.8
     },
     {
-      "sym": "FIS",
-      "name": "Fidelity National Information Services, Inc.",
-      "mcap": 24,
-      "price": 45.97,
-      "basis": 51.56,
-      "bxt_today": 1.9,
-      "bxt_yest": -0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 158.21,
-      "pct_to_ath": 244.2
-    },
-    {
       "sym": "RF",
       "name": "Regions Financial Corporation",
       "mcap": 24,
@@ -2540,6 +2523,23 @@
       "bxt_streak": 10,
       "ath": 39.15,
       "pct_to_ath": 38.8
+    },
+    {
+      "sym": "FIS",
+      "name": "Fidelity National Information Services, Inc.",
+      "mcap": 24,
+      "price": 45.97,
+      "basis": 51.56,
+      "bxt_today": 1.9,
+      "bxt_yest": -0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 158.21,
+      "pct_to_ath": 244.2
     },
     {
       "sym": "ATI",
@@ -2610,23 +2610,6 @@
       "pct_to_ath": 89.8
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.82,
-      "basis": 13.14,
-      "bxt_today": 2.3,
-      "bxt_yest": -2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 114.5
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -2642,6 +2625,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 10.6
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.82,
+      "basis": 13.14,
+      "bxt_today": 2.3,
+      "bxt_yest": -2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 114.5
     },
     {
       "sym": "TPG",
@@ -3052,23 +3052,6 @@
       "pct_to_ath": 993.7
     },
     {
-      "sym": "ESNT",
-      "name": "Essent Group Ltd. Common Shares",
-      "mcap": 6,
-      "price": 61.41,
-      "basis": 61.02,
-      "bxt_today": 0.63,
-      "bxt_yest": -0.91,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 1,
-      "ath": 67.09,
-      "pct_to_ath": 9.2
-    },
-    {
       "sym": "BRKR",
       "name": "Bruker Corporation",
       "mcap": 6,
@@ -3084,6 +3067,23 @@
       "bxt_streak": 13,
       "ath": 94.86,
       "pct_to_ath": 124.3
+    },
+    {
+      "sym": "ESNT",
+      "name": "Essent Group Ltd. Common Shares",
+      "mcap": 6,
+      "price": 61.41,
+      "basis": 61.02,
+      "bxt_today": 0.63,
+      "bxt_yest": -0.91,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 1,
+      "ath": 67.09,
+      "pct_to_ath": 9.2
     },
     {
       "sym": "HWC",
@@ -3154,23 +3154,6 @@
       "pct_to_ath": 16.0
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 49.11,
-      "basis": 56.7,
-      "bxt_today": 1.59,
-      "bxt_yest": -1.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 286.6
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -3186,6 +3169,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.2
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 49.11,
+      "basis": 56.7,
+      "bxt_today": 1.59,
+      "bxt_yest": -1.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 286.6
     },
     {
       "sym": "CRSP",
@@ -3871,21 +3871,10 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T22:16:43.777203+00:00",
+    "compared_to": "2026-05-06T22:22:09.919224+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "EE",
-        "name": "Excelerate Energy, Inc.",
-        "mcap": 4,
-        "price": 34.34,
-        "basis": 35.15,
-        "bxt_today": -7.38,
-        "ath": 43.17,
-        "pct_to_ath": 25.7
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
