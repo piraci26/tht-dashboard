@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T21:49:29.789382+00:00",
+  "updated_at": "2026-05-06T21:54:56.553100+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.87,
+  "scan_seconds": 8.01,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -562,8 +562,8 @@
       "bxt_r": false,
       "fvb_streak": 4,
       "bxt_streak": null,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 36.35,
+      "pct_to_ath": 15.2
     },
     {
       "sym": "FWONK",
@@ -1110,23 +1110,6 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
-      "mcap": 8,
-      "price": 19.41,
-      "basis": 18.8,
-      "bxt_today": -0.28,
-      "bxt_yest": -1.5,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 100.25,
-      "pct_to_ath": 416.5
-    },
-    {
       "sym": "MBLY",
       "name": "Mobileye Global Inc.",
       "mcap": 8,
@@ -1142,6 +1125,23 @@
       "bxt_streak": null,
       "ath": 48.11,
       "pct_to_ath": 430.4
+    },
+    {
+      "sym": "VFC",
+      "name": "V.F. Corporation",
+      "mcap": 8,
+      "price": 19.41,
+      "basis": 18.8,
+      "bxt_today": -0.28,
+      "bxt_yest": -1.5,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 100.25,
+      "pct_to_ath": 416.5
     },
     {
       "sym": "UEC",
@@ -1195,23 +1195,6 @@
       "pct_to_ath": 11.8
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
-      "mcap": 7,
-      "price": 70.1,
-      "basis": 69.65,
-      "bxt_today": 3.28,
-      "bxt_yest": 1.54,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 86.76,
-      "pct_to_ath": 23.8
-    },
-    {
       "sym": "HQY",
       "name": "HealthEquity, Inc.",
       "mcap": 7,
@@ -1227,6 +1210,23 @@
       "bxt_streak": null,
       "ath": 116.65,
       "pct_to_ath": 40.1
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 70.1,
+      "basis": 69.65,
+      "bxt_today": 3.28,
+      "bxt_yest": 1.54,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 86.76,
+      "pct_to_ath": 23.8
     },
     {
       "sym": "TEX",
@@ -1365,23 +1365,6 @@
       "pct_to_ath": 124.3
     },
     {
-      "sym": "VSEC",
-      "name": "VSE Corporation",
-      "mcap": 6,
-      "price": 207.45,
-      "basis": 199.78,
-      "bxt_today": -7.61,
-      "bxt_yest": -13.81,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 232.61,
-      "pct_to_ath": 12.1
-    },
-    {
       "sym": "MRCY",
       "name": "Mercury Systems Inc",
       "mcap": 6,
@@ -1397,6 +1380,23 @@
       "bxt_streak": null,
       "ath": 103.84,
       "pct_to_ath": 13.3
+    },
+    {
+      "sym": "VSEC",
+      "name": "VSE Corporation",
+      "mcap": 6,
+      "price": 207.45,
+      "basis": 199.78,
+      "bxt_today": -7.61,
+      "bxt_yest": -13.81,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 232.61,
+      "pct_to_ath": 12.1
     },
     {
       "sym": "OPEN",
@@ -1433,23 +1433,6 @@
       "pct_to_ath": 44.4
     },
     {
-      "sym": "GNTX",
-      "name": "Gentex Corporation",
-      "mcap": 5,
-      "price": 23.55,
-      "basis": 22.99,
-      "bxt_today": 9.04,
-      "bxt_yest": 6.38,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 37.9,
-      "pct_to_ath": 60.9
-    },
-    {
       "sym": "SON",
       "name": "Sonoco Products Company",
       "mcap": 5,
@@ -1465,6 +1448,23 @@
       "bxt_streak": null,
       "ath": 69.83,
       "pct_to_ath": 33.5
+    },
+    {
+      "sym": "GNTX",
+      "name": "Gentex Corporation",
+      "mcap": 5,
+      "price": 23.55,
+      "basis": 22.99,
+      "bxt_today": 9.04,
+      "bxt_yest": 6.38,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 37.9,
+      "pct_to_ath": 60.9
     },
     {
       "sym": "QS",
@@ -2865,6 +2865,23 @@
       "pct_to_ath": 159.4
     },
     {
+      "sym": "AYI",
+      "name": "Acuity Inc.",
+      "mcap": 9,
+      "price": 295.75,
+      "basis": 298.3,
+      "bxt_today": 0.76,
+      "bxt_yest": -2.47,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 380.17,
+      "pct_to_ath": 28.5
+    },
+    {
       "sym": "LLYVK",
       "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
       "mcap": 9,
@@ -2897,23 +2914,6 @@
       "bxt_streak": 1,
       "ath": 99.82,
       "pct_to_ath": 4.8
-    },
-    {
-      "sym": "AYI",
-      "name": "Acuity Inc.",
-      "mcap": 9,
-      "price": 295.75,
-      "basis": 298.3,
-      "bxt_today": 0.76,
-      "bxt_yest": -2.47,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 380.17,
-      "pct_to_ath": 28.5
     },
     {
       "sym": "GDS",
@@ -3154,23 +3154,6 @@
       "pct_to_ath": 16.0
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.33,
-      "basis": 57.68,
-      "bxt_today": 2.89,
-      "bxt_yest": -0.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.2
-    },
-    {
       "sym": "ESTC",
       "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
@@ -3186,6 +3169,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 286.6
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.33,
+      "basis": 57.68,
+      "bxt_today": 2.89,
+      "bxt_yest": -0.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.2
     },
     {
       "sym": "CRSP",
@@ -3871,34 +3871,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T21:44:03.883012+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "mcap": 6,
-        "price": 11.15,
-        "basis": 10.96,
-        "bxt_today": 2.66,
-        "ath": 121.95,
-        "pct_to_ath": 993.7
-      }
-    ],
+    "compared_to": "2026-05-06T21:49:29.789382+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "CLF",
-        "name": "Cleveland-Cliffs Inc.",
-        "mcap": 6,
-        "price": 11.15,
-        "basis": 10.96,
-        "bxt_today": 2.66,
-        "ath": 121.95,
-        "pct_to_ath": 993.7
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
