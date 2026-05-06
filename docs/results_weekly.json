@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T03:02:58.568639+00:00",
+  "updated_at": "2026-05-06T03:14:00.726541+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 114.03,
-  "scanned_count": 1509,
+  "scan_seconds": 110.92,
+  "scanned_count": 1506,
   "fvb_green": [
     {
       "sym": "APP",
@@ -73,6 +73,23 @@
       "pct_to_ath": 22.6
     },
     {
+      "sym": "SYF",
+      "name": "Synchrony Financial",
+      "mcap": 25,
+      "price": 73.78,
+      "basis": 73.54,
+      "bxt_today": 1.53,
+      "bxt_yest": 2.2,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 88.77,
+      "pct_to_ath": 20.3
+    },
+    {
       "sym": "TEAM",
       "name": "Atlassian Corporation",
       "mcap": 24,
@@ -124,23 +141,6 @@
       "pct_to_ath": 668.1
     },
     {
-      "sym": "EXP",
-      "name": "Eagle Materials Inc",
-      "mcap": 7,
-      "price": 209.73,
-      "basis": 209.65,
-      "bxt_today": 5.48,
-      "bxt_yest": 4.28,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 321.93,
-      "pct_to_ath": 53.5
-    },
-    {
       "sym": "HQY",
       "name": "HealthEquity, Inc.",
       "mcap": 7,
@@ -156,6 +156,23 @@
       "bxt_streak": null,
       "ath": 116.65,
       "pct_to_ath": 41.2
+    },
+    {
+      "sym": "EXP",
+      "name": "Eagle Materials Inc",
+      "mcap": 7,
+      "price": 209.73,
+      "basis": 209.65,
+      "bxt_today": 5.48,
+      "bxt_yest": 4.28,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 321.93,
+      "pct_to_ath": 53.5
     },
     {
       "sym": "PAYC",
@@ -347,23 +364,6 @@
       "pct_to_ath": 12.6
     },
     {
-      "sym": "LINE",
-      "name": "Lineage, Inc.",
-      "mcap": 9,
-      "price": 36.5,
-      "basis": 36.54,
-      "bxt_today": 12.8,
-      "bxt_yest": 12.57,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 4,
-      "bxt_streak": null,
-      "ath": 89.85,
-      "pct_to_ath": 146.2
-    },
-    {
       "sym": "ADC",
       "name": "Agree Realty Corporation",
       "mcap": 9,
@@ -379,6 +379,23 @@
       "bxt_streak": null,
       "ath": 82.08,
       "pct_to_ath": 8.1
+    },
+    {
+      "sym": "LINE",
+      "name": "Lineage, Inc.",
+      "mcap": 9,
+      "price": 36.5,
+      "basis": 36.54,
+      "bxt_today": 12.8,
+      "bxt_yest": 12.57,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 4,
+      "bxt_streak": null,
+      "ath": 89.85,
+      "pct_to_ath": 146.2
     },
     {
       "sym": "KT",
@@ -604,23 +621,6 @@
       "pct_to_ath": 37.8
     },
     {
-      "sym": "TU",
-      "name": "Telus Corporation Ordinary Shares",
-      "mcap": 20,
-      "price": 12.59,
-      "basis": 13.13,
-      "bxt_today": 0.38,
-      "bxt_yest": -2.26,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 27.5,
-      "pct_to_ath": 118.4
-    },
-    {
       "sym": "PKG",
       "name": "Packaging Corporation of America",
       "mcap": 20,
@@ -636,6 +636,23 @@
       "bxt_streak": 8,
       "ath": 250.82,
       "pct_to_ath": 12.6
+    },
+    {
+      "sym": "TU",
+      "name": "Telus Corporation Ordinary Shares",
+      "mcap": 20,
+      "price": 12.59,
+      "basis": 13.13,
+      "bxt_today": 0.38,
+      "bxt_yest": -2.26,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 7,
+      "ath": 27.5,
+      "pct_to_ath": 118.4
     },
     {
       "sym": "TPG",
@@ -757,23 +774,6 @@
       "pct_to_ath": 130.9
     },
     {
-      "sym": "CLF",
-      "name": "Cleveland-Cliffs Inc.",
-      "mcap": 6,
-      "price": 10.65,
-      "basis": 10.94,
-      "bxt_today": 1.31,
-      "bxt_yest": -0.9,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 121.95,
-      "pct_to_ath": 1045.1
-    },
-    {
       "sym": "MIRM",
       "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
@@ -791,23 +791,6 @@
       "pct_to_ath": 4.4
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.17,
-      "bxt_today": 0.87,
-      "bxt_yest": -0.94,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "OTEX",
       "name": "Open Text Corporation Common Shares",
       "mcap": 6,
@@ -823,6 +806,40 @@
       "bxt_streak": 26,
       "ath": 55.25,
       "pct_to_ath": 135.3
+    },
+    {
+      "sym": "CLF",
+      "name": "Cleveland-Cliffs Inc.",
+      "mcap": 6,
+      "price": 10.65,
+      "basis": 10.94,
+      "bxt_today": 1.31,
+      "bxt_yest": -0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 121.95,
+      "pct_to_ath": 1045.1
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.17,
+      "bxt_today": 0.87,
+      "bxt_yest": -0.94,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "RITM",
@@ -859,23 +876,6 @@
       "pct_to_ath": 278.5
     },
     {
-      "sym": "CRSP",
-      "name": "CRISPR Therapeutics AG Common Shares",
-      "mcap": 5,
-      "price": 52.38,
-      "basis": 52.16,
-      "bxt_today": 0.15,
-      "bxt_yest": -0.73,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 220.2,
-      "pct_to_ath": 320.4
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -891,6 +891,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.1
+    },
+    {
+      "sym": "CRSP",
+      "name": "CRISPR Therapeutics AG Common Shares",
+      "mcap": 5,
+      "price": 52.38,
+      "basis": 52.16,
+      "bxt_today": 0.15,
+      "bxt_yest": -0.73,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 220.2,
+      "pct_to_ath": 320.4
     },
     {
       "sym": "ACHR",
@@ -1065,23 +1082,6 @@
       "pct_to_ath": 2.2
     },
     {
-      "sym": "CFG",
-      "name": "Citizens Financial Group, Inc.",
-      "mcap": 27,
-      "price": 64.36,
-      "basis": 62.0,
-      "bxt_today": -0.49,
-      "bxt_yest": 0.09,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 68.79,
-      "pct_to_ath": 6.9
-    },
-    {
       "sym": "HUBB",
       "name": "Hubbell Inc",
       "mcap": 27,
@@ -1097,6 +1097,23 @@
       "bxt_streak": 5,
       "ath": 565.5,
       "pct_to_ath": 11.4
+    },
+    {
+      "sym": "CFG",
+      "name": "Citizens Financial Group, Inc.",
+      "mcap": 27,
+      "price": 64.36,
+      "basis": 62.0,
+      "bxt_today": -0.49,
+      "bxt_yest": 0.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 68.79,
+      "pct_to_ath": 6.9
     },
     {
       "sym": "SNA",
@@ -1116,23 +1133,6 @@
       "pct_to_ath": 5.8
     },
     {
-      "sym": "JHX",
-      "name": "James Hardie Industries plc. Ordinary Shares",
-      "mcap": 12,
-      "price": 20.15,
-      "basis": 21.79,
-      "bxt_today": -0.09,
-      "bxt_yest": 0.53,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 43.57,
-      "pct_to_ath": 116.2
-    },
-    {
       "sym": "AR",
       "name": "Antero Resources Corporation",
       "mcap": 12,
@@ -1148,6 +1148,23 @@
       "bxt_streak": 15,
       "ath": 68.43,
       "pct_to_ath": 74.9
+    },
+    {
+      "sym": "JHX",
+      "name": "James Hardie Industries plc. Ordinary Shares",
+      "mcap": 12,
+      "price": 20.15,
+      "basis": 21.79,
+      "bxt_today": -0.09,
+      "bxt_yest": 0.53,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 43.57,
+      "pct_to_ath": 116.2
     },
     {
       "sym": "WBS",
@@ -1286,23 +1303,6 @@
       "pct_to_ath": 11.9
     },
     {
-      "sym": "SEB",
-      "name": "Seaboard Corporation",
-      "mcap": 5,
-      "price": 5687.09,
-      "basis": 5244.86,
-      "bxt_today": -1.24,
-      "bxt_yest": 0.78,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 7,
-      "ath": 5989.37,
-      "pct_to_ath": 5.3
-    },
-    {
       "sym": "KMX",
       "name": "CarMax Inc",
       "mcap": 5,
@@ -1320,21 +1320,21 @@
       "pct_to_ath": 318.7
     },
     {
-      "sym": "UNF",
-      "name": "Unifirst Corporation",
+      "sym": "SEB",
+      "name": "Seaboard Corporation",
       "mcap": 5,
-      "price": 252.3,
-      "basis": 238.87,
-      "bxt_today": -1.75,
-      "bxt_yest": 1.42,
+      "price": 5687.09,
+      "basis": 5244.86,
+      "bxt_today": -1.24,
+      "bxt_yest": 0.78,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": true,
       "fvb_streak": null,
-      "bxt_streak": 24,
-      "ath": 283.77,
-      "pct_to_ath": 12.5
+      "bxt_streak": 7,
+      "ath": 5989.37,
+      "pct_to_ath": 5.3
     },
     {
       "sym": "PSMT",
@@ -1352,6 +1352,23 @@
       "bxt_streak": 5,
       "ath": 165.46,
       "pct_to_ath": 5.7
+    },
+    {
+      "sym": "UNF",
+      "name": "Unifirst Corporation",
+      "mcap": 5,
+      "price": 252.3,
+      "basis": 238.87,
+      "bxt_today": -1.75,
+      "bxt_yest": 1.42,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 24,
+      "ath": 283.77,
+      "pct_to_ath": 12.5
     },
     {
       "sym": "LBTYK",
@@ -1389,9 +1406,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T02:51:43.892457+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-06T03:02:58.568639+00:00",
+    "fvb_green_added": [
       {
         "sym": "SYF",
         "name": "Synchrony Financial",
@@ -1403,6 +1419,7 @@
         "pct_to_ath": 20.3
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
