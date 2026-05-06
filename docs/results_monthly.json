@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-06T01:11:53.180967+00:00",
+  "updated_at": "2026-05-06T01:23:11.794849+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 113.85,
+  "scan_seconds": 117.76,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -209,23 +209,6 @@
       "pct_to_ath": 395.3
     },
     {
-      "sym": "CRBG",
-      "name": "Corebridge Financial Inc.",
-      "mcap": 14,
-      "price": 28.46,
-      "basis": 27.47,
-      "bxt_today": 9.43,
-      "bxt_yest": 5.49,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 12,
-      "bxt_streak": null,
-      "ath": 36.57,
-      "pct_to_ath": 28.5
-    },
-    {
       "sym": "GLPI",
       "name": "Gaming and Leisure Properties, Inc.",
       "mcap": 14,
@@ -243,6 +226,23 @@
       "pct_to_ath": 15.5
     },
     {
+      "sym": "CRBG",
+      "name": "Corebridge Financial Inc.",
+      "mcap": 14,
+      "price": 28.46,
+      "basis": 27.47,
+      "bxt_today": 9.43,
+      "bxt_yest": 5.49,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 12,
+      "bxt_streak": null,
+      "ath": 36.57,
+      "pct_to_ath": 28.5
+    },
+    {
       "sym": "TKC",
       "name": "Turkcell Iletisim Hizmetleri AS",
       "mcap": 14,
@@ -258,6 +258,23 @@
       "bxt_streak": null,
       "ath": 36.18,
       "pct_to_ath": 463.6
+    },
+    {
+      "sym": "MEDP",
+      "name": "Medpace Holdings, Inc.",
+      "mcap": 12,
+      "price": 430.32,
+      "basis": 425.37,
+      "bxt_today": -10.0,
+      "bxt_yest": -8.22,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 628.92,
+      "pct_to_ath": 46.2
     },
     {
       "sym": "EQH",
@@ -294,23 +311,6 @@
       "pct_to_ath": 668.1
     },
     {
-      "sym": "MEDP",
-      "name": "Medpace Holdings, Inc.",
-      "mcap": 12,
-      "price": 430.32,
-      "basis": 425.37,
-      "bxt_today": -10.0,
-      "bxt_yest": -8.22,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 628.92,
-      "pct_to_ath": 46.2
-    },
-    {
       "sym": "EDU",
       "name": "New Oriental Education & Technology Group, Inc. Sponsored ADR representing 10 Ordinary Share (Cayman Islands)",
       "mcap": 9,
@@ -328,21 +328,21 @@
       "pct_to_ath": 271.5
     },
     {
-      "sym": "WAL",
-      "name": "Western Alliance Bancorporation (DE)",
+      "sym": "PRI",
+      "name": "Primerica, Inc.",
       "mcap": 9,
-      "price": 81.86,
-      "basis": 81.46,
-      "bxt_today": -4.19,
-      "bxt_yest": -5.13,
+      "price": 277.47,
+      "basis": 271.49,
+      "bxt_today": -9.31,
+      "bxt_yest": -12.17,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 4,
+      "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 124.93,
-      "pct_to_ath": 52.6
+      "ath": 307.91,
+      "pct_to_ath": 11.0
     },
     {
       "sym": "LINE",
@@ -362,21 +362,21 @@
       "pct_to_ath": 146.2
     },
     {
-      "sym": "PRI",
-      "name": "Primerica, Inc.",
+      "sym": "WAL",
+      "name": "Western Alliance Bancorporation (DE)",
       "mcap": 9,
-      "price": 277.47,
-      "basis": 271.49,
-      "bxt_today": -9.31,
-      "bxt_yest": -12.17,
+      "price": 81.86,
+      "basis": 81.46,
+      "bxt_today": -4.19,
+      "bxt_yest": -5.13,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 4,
       "bxt_streak": null,
-      "ath": 307.91,
-      "pct_to_ath": 11.0
+      "ath": 124.93,
+      "pct_to_ath": 52.6
     },
     {
       "sym": "AAON",
@@ -498,23 +498,6 @@
       "pct_to_ath": 71.2
     },
     {
-      "sym": "CZR",
-      "name": "Caesars Entertainment, Inc.",
-      "mcap": 6,
-      "price": 28.1,
-      "basis": 27.56,
-      "bxt_today": 14.08,
-      "bxt_yest": 12.0,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 29,
-      "bxt_streak": null,
-      "ath": 119.81,
-      "pct_to_ath": 326.4
-    },
-    {
       "sym": "RGTI",
       "name": "Rigetti Computing, Inc.",
       "mcap": 6,
@@ -532,21 +515,21 @@
       "pct_to_ath": 218.3
     },
     {
-      "sym": "OTF",
-      "name": "Blue Owl Technology Finance Corp.",
-      "mcap": 5,
-      "price": 11.63,
-      "basis": 11.49,
-      "bxt_today": 5.56,
-      "bxt_yest": 2.55,
+      "sym": "CZR",
+      "name": "Caesars Entertainment, Inc.",
+      "mcap": 6,
+      "price": 28.1,
+      "basis": 27.56,
+      "bxt_today": 14.08,
+      "bxt_yest": 12.0,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 29,
       "bxt_streak": null,
-      "ath": 21.62,
-      "pct_to_ath": 85.9
+      "ath": 119.81,
+      "pct_to_ath": 326.4
     },
     {
       "sym": "BC",
@@ -564,6 +547,23 @@
       "bxt_streak": null,
       "ath": 117.62,
       "pct_to_ath": 50.0
+    },
+    {
+      "sym": "OTF",
+      "name": "Blue Owl Technology Finance Corp.",
+      "mcap": 5,
+      "price": 11.63,
+      "basis": 11.49,
+      "bxt_today": 5.56,
+      "bxt_yest": 2.55,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 21.62,
+      "pct_to_ath": 85.9
     },
     {
       "sym": "EBC",
@@ -634,6 +634,23 @@
       "pct_to_ath": 98.7
     },
     {
+      "sym": "LBTYK",
+      "name": "Liberty Global Ltd. Class C Common Shares",
+      "mcap": 4,
+      "price": 11.75,
+      "basis": 11.62,
+      "bxt_today": 3.23,
+      "bxt_yest": 2.56,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 23.19,
+      "pct_to_ath": 97.3
+    },
+    {
       "sym": "AMRX",
       "name": "Amneal Pharmaceuticals, Inc.",
       "mcap": 4,
@@ -666,23 +683,6 @@
       "bxt_streak": null,
       "ath": 43.17,
       "pct_to_ath": 21.4
-    },
-    {
-      "sym": "LBTYK",
-      "name": "Liberty Global Ltd. Class C Common Shares",
-      "mcap": 4,
-      "price": 11.75,
-      "basis": 11.62,
-      "bxt_today": 3.23,
-      "bxt_yest": 2.56,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 23.19,
-      "pct_to_ath": 97.3
     }
   ],
   "fvb_red": [
@@ -1182,23 +1182,6 @@
       "pct_to_ath": 160.3
     },
     {
-      "sym": "RGTI",
-      "name": "Rigetti Computing, Inc.",
-      "mcap": 6,
-      "price": 18.27,
-      "basis": 18.14,
-      "bxt_today": 0.52,
-      "bxt_yest": -1.64,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 25,
-      "ath": 58.15,
-      "pct_to_ath": 218.3
-    },
-    {
       "sym": "MIRM",
       "name": "Mirum Pharmaceuticals, Inc.",
       "mcap": 6,
@@ -1214,6 +1197,23 @@
       "bxt_streak": 10,
       "ath": 110.49,
       "pct_to_ath": 4.4
+    },
+    {
+      "sym": "RGTI",
+      "name": "Rigetti Computing, Inc.",
+      "mcap": 6,
+      "price": 18.27,
+      "basis": 18.14,
+      "bxt_today": 0.52,
+      "bxt_yest": -1.64,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 25,
+      "ath": 58.15,
+      "pct_to_ath": 218.3
     },
     {
       "sym": "ESTC",
@@ -1250,23 +1250,6 @@
       "pct_to_ath": 218.5
     },
     {
-      "sym": "TBBB",
-      "name": "BBB Foods Inc. Common Shares",
-      "mcap": 4,
-      "price": 38.2,
-      "basis": 35.65,
-      "bxt_today": 0.73,
-      "bxt_yest": -1.77,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 40.09,
-      "pct_to_ath": 4.9
-    },
-    {
       "sym": "CUZ",
       "name": "Cousins Properties Incorporated",
       "mcap": 4,
@@ -1299,6 +1282,23 @@
       "bxt_streak": 37,
       "ath": 53.46,
       "pct_to_ath": 134.1
+    },
+    {
+      "sym": "TBBB",
+      "name": "BBB Foods Inc. Common Shares",
+      "mcap": 4,
+      "price": 38.2,
+      "basis": 35.65,
+      "bxt_today": 0.73,
+      "bxt_yest": -1.77,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 40.09,
+      "pct_to_ath": 4.9
     }
   ],
   "bxt_red": [
@@ -1609,23 +1609,6 @@
       "pct_to_ath": 23.4
     },
     {
-      "sym": "CCK",
-      "name": "Crown Holdings, Inc.",
-      "mcap": 11,
-      "price": 98.66,
-      "basis": 94.35,
-      "bxt_today": -1.0,
-      "bxt_yest": 1.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 130.42,
-      "pct_to_ath": 32.2
-    },
-    {
       "sym": "EXEL",
       "name": "Exelixis, Inc.",
       "mcap": 11,
@@ -1641,6 +1624,23 @@
       "bxt_streak": 37,
       "ath": 50.5,
       "pct_to_ath": 13.7
+    },
+    {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 98.66,
+      "basis": 94.35,
+      "bxt_today": -1.0,
+      "bxt_yest": 1.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 32.2
     },
     {
       "sym": "WMS",
@@ -1796,6 +1796,23 @@
       "pct_to_ath": 9.5
     },
     {
+      "sym": "PTCT",
+      "name": "PTC Therapeutics, Inc.",
+      "mcap": 5,
+      "price": 65.04,
+      "basis": 59.44,
+      "bxt_today": -0.11,
+      "bxt_yest": 2.91,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 87.5,
+      "pct_to_ath": 34.5
+    },
+    {
       "sym": "CNX",
       "name": "CNX Resources Corporation",
       "mcap": 5,
@@ -1830,23 +1847,6 @@
       "pct_to_ath": 17.0
     },
     {
-      "sym": "PTCT",
-      "name": "PTC Therapeutics, Inc.",
-      "mcap": 5,
-      "price": 65.04,
-      "basis": 59.44,
-      "bxt_today": -0.11,
-      "bxt_yest": 2.91,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 87.5,
-      "pct_to_ath": 34.5
-    },
-    {
       "sym": "OSIS",
       "name": "OSI Systems, Inc. (DE)",
       "mcap": 4,
@@ -1862,23 +1862,6 @@
       "bxt_streak": 41,
       "ath": 311.72,
       "pct_to_ath": 32.8
-    },
-    {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.2,
-      "basis": 33.8,
-      "bxt_today": -0.71,
-      "bxt_yest": 0.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 42.2,
-      "pct_to_ath": 16.6
     },
     {
       "sym": "DOO",
@@ -1913,10 +1896,27 @@
       "bxt_streak": 29,
       "ath": 81.0,
       "pct_to_ath": 28.6
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.2,
+      "basis": 33.8,
+      "bxt_today": -0.71,
+      "bxt_yest": 0.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 42.2,
+      "pct_to_ath": 16.6
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T01:00:36.203617+00:00",
+    "compared_to": "2026-05-06T01:11:53.180967+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
