@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-06T11:17:44.123898+00:00",
+  "updated_at": "2026-05-06T11:23:22.908005+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 22.24,
-  "scanned_count": 1510,
+  "scan_seconds": 7.42,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "APP",
@@ -621,23 +621,6 @@
       "pct_to_ath": 37.8
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 222.71,
-      "basis": 220.34,
-      "bxt_today": 0.2,
-      "bxt_yest": -2.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 12.6
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -653,6 +636,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 118.4
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 222.71,
+      "basis": 220.34,
+      "bxt_today": 0.2,
+      "bxt_yest": -2.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 12.6
     },
     {
       "sym": "TPG",
@@ -791,6 +791,23 @@
       "pct_to_ath": 4.4
     },
     {
+      "sym": "OTEX",
+      "name": "Open Text Corporation Common Shares",
+      "mcap": 6,
+      "price": 23.48,
+      "basis": 25.02,
+      "bxt_today": 0.68,
+      "bxt_yest": -2.59,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 26,
+      "ath": 55.25,
+      "pct_to_ath": 135.3
+    },
+    {
       "sym": "CLF",
       "name": "Cleveland-Cliffs Inc.",
       "mcap": 6,
@@ -823,23 +840,6 @@
       "bxt_streak": 25,
       "ath": 58.15,
       "pct_to_ath": 218.3
-    },
-    {
-      "sym": "OTEX",
-      "name": "Open Text Corporation Common Shares",
-      "mcap": 6,
-      "price": 23.48,
-      "basis": 25.02,
-      "bxt_today": 0.68,
-      "bxt_yest": -2.59,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 26,
-      "ath": 55.25,
-      "pct_to_ath": 135.3
     },
     {
       "sym": "RITM",
@@ -1406,7 +1406,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-06T11:11:41.719472+00:00",
+    "compared_to": "2026-05-06T11:17:44.123898+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
