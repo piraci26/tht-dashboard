@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T00:11:36.686682+00:00",
+  "updated_at": "2026-05-07T00:17:07.220640+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.36,
-  "scanned_count": 1511,
+  "scan_seconds": 7.71,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -1916,25 +1916,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T00:06:09.131820+00:00",
+    "compared_to": "2026-05-07T00:11:36.686682+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "WM",
-        "name": "Waste Management, Inc.",
-        "mcap": 89,
-        "price": 220.52,
-        "basis": 195.01,
-        "bxt_today": -2.21,
-        "ath": 248.13,
-        "pct_to_ath": 12.5
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
