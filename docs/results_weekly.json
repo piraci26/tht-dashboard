@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T05:16:03.426505+00:00",
+  "updated_at": "2026-05-07T05:21:44.380175+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 6.92,
-  "scanned_count": 1511,
+  "scan_seconds": 13.68,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -502,23 +502,6 @@
       "pct_to_ath": 2.6
     },
     {
-      "sym": "FIS",
-      "name": "Fidelity National Information Services, Inc.",
-      "mcap": 24,
-      "price": 45.97,
-      "basis": 51.53,
-      "bxt_today": 1.48,
-      "bxt_yest": -0.88,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 158.21,
-      "pct_to_ath": 244.2
-    },
-    {
       "sym": "RF",
       "name": "Regions Financial Corporation",
       "mcap": 24,
@@ -534,6 +517,23 @@
       "bxt_streak": 10,
       "ath": 39.15,
       "pct_to_ath": 38.8
+    },
+    {
+      "sym": "FIS",
+      "name": "Fidelity National Information Services, Inc.",
+      "mcap": 24,
+      "price": 45.97,
+      "basis": 51.53,
+      "bxt_today": 1.48,
+      "bxt_yest": -0.88,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 158.21,
+      "pct_to_ath": 244.2
     },
     {
       "sym": "ZS",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T05:10:33.953903+00:00",
+    "compared_to": "2026-05-07T05:16:03.426505+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
