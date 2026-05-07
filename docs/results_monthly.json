@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T00:51:16.090834+00:00",
+  "updated_at": "2026-05-07T00:56:49.108721+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.54,
-  "scanned_count": 1511,
+  "scan_seconds": 6.59,
+  "scanned_count": 1506,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -396,23 +396,6 @@
       "pct_to_ath": 31.3
     },
     {
-      "sym": "NUVL",
-      "name": "Nuvalent, Inc.",
-      "mcap": 8,
-      "price": 104.26,
-      "basis": 102.01,
-      "bxt_today": -6.12,
-      "bxt_yest": -8.13,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 113.51,
-      "pct_to_ath": 8.9
-    },
-    {
       "sym": "JXN",
       "name": "Jackson Financial Inc.",
       "mcap": 8,
@@ -428,6 +411,23 @@
       "bxt_streak": null,
       "ath": 123.61,
       "pct_to_ath": 7.6
+    },
+    {
+      "sym": "NUVL",
+      "name": "Nuvalent, Inc.",
+      "mcap": 8,
+      "price": 104.26,
+      "basis": 102.01,
+      "bxt_today": -6.12,
+      "bxt_yest": -8.13,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 113.51,
+      "pct_to_ath": 8.9
     },
     {
       "sym": "AAON",
@@ -1916,25 +1916,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T00:45:37.777783+00:00",
+    "compared_to": "2026-05-07T00:51:16.090834+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "CCK",
-        "name": "Crown Holdings, Inc.",
-        "mcap": 11,
-        "price": 101.09,
-        "basis": 94.46,
-        "bxt_today": -0.07,
-        "ath": 130.42,
-        "pct_to_ath": 29.0
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
