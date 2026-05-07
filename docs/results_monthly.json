@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T11:58:32.632912+00:00",
+  "updated_at": "2026-05-07T12:23:11.576479+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.76,
+  "scan_seconds": 10.32,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1167,23 +1167,6 @@
       "pct_to_ath": 14.3
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 88.03,
-      "basis": 80.75,
-      "bxt_today": -0.86,
-      "bxt_yest": 2.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 15.8
-    },
-    {
       "sym": "CNX",
       "name": "CNX Resources Corporation",
       "mcap": 5,
@@ -1199,6 +1182,23 @@
       "bxt_streak": 7,
       "ath": 99.25,
       "pct_to_ath": 171.5
+    },
+    {
+      "sym": "AX",
+      "name": "Axos Financial, Inc.",
+      "mcap": 5,
+      "price": 88.03,
+      "basis": 80.75,
+      "bxt_today": -0.86,
+      "bxt_yest": 2.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 12,
+      "ath": 101.92,
+      "pct_to_ath": 15.8
     },
     {
       "sym": "ACAD",
@@ -1236,7 +1236,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T11:52:58.009023+00:00",
+    "compared_to": "2026-05-07T11:58:32.632912+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
