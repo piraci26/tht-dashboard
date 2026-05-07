@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T01:02:45.146426+00:00",
+  "updated_at": "2026-05-07T01:08:19.420493+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 24.69,
-  "scanned_count": 1508,
+  "scan_seconds": 10.39,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -685,6 +685,23 @@
       "pct_to_ath": 9.1
     },
     {
+      "sym": "WMG",
+      "name": "Warner Music Group Corp.",
+      "mcap": 16,
+      "price": 30.35,
+      "basis": 28.64,
+      "bxt_today": 9.31,
+      "bxt_yest": 4.96,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 50.23,
+      "pct_to_ath": 65.5
+    },
+    {
       "sym": "JLL",
       "name": "Jones Lang LaSalle Incorporated",
       "mcap": 15,
@@ -702,23 +719,6 @@
       "pct_to_ath": 11.5
     },
     {
-      "sym": "CSL",
-      "name": "Carlisle Companies Incorporated",
-      "mcap": 15,
-      "price": 373.96,
-      "basis": 359.57,
-      "bxt_today": 4.81,
-      "bxt_yest": 1.6,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 481.26,
-      "pct_to_ath": 28.7
-    },
-    {
       "sym": "PFGC",
       "name": "Performance Food Group Company",
       "mcap": 15,
@@ -734,6 +734,23 @@
       "bxt_streak": 10,
       "ath": 109.05,
       "pct_to_ath": 17.4
+    },
+    {
+      "sym": "CSL",
+      "name": "Carlisle Companies Incorporated",
+      "mcap": 15,
+      "price": 373.96,
+      "basis": 359.57,
+      "bxt_today": 4.81,
+      "bxt_yest": 1.6,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 481.26,
+      "pct_to_ath": 28.7
     },
     {
       "sym": "FNF",
@@ -957,23 +974,6 @@
       "pct_to_ath": 15.8
     },
     {
-      "sym": "HBM",
-      "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
-      "mcap": 10,
-      "price": 24.0,
-      "basis": 23.14,
-      "bxt_today": -7.37,
-      "bxt_yest": -8.45,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 28.74,
-      "pct_to_ath": 19.7
-    },
-    {
       "sym": "JOBY",
       "name": "Joby Aviation, Inc.",
       "mcap": 10,
@@ -989,6 +989,23 @@
       "bxt_streak": null,
       "ath": 20.95,
       "pct_to_ath": 99.1
+    },
+    {
+      "sym": "HBM",
+      "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
+      "mcap": 10,
+      "price": 24.0,
+      "basis": 23.14,
+      "bxt_today": -7.37,
+      "bxt_yest": -8.45,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 28.74,
+      "pct_to_ath": 19.7
     },
     {
       "sym": "AGCO",
@@ -1025,21 +1042,21 @@
       "pct_to_ath": 388.9
     },
     {
-      "sym": "IBP",
-      "name": "Installed Building Products, Inc.",
+      "sym": "JXN",
+      "name": "Jackson Financial Inc.",
       "mcap": 8,
-      "price": 299.47,
-      "basis": 296.2,
-      "bxt_today": -6.93,
-      "bxt_yest": -9.52,
+      "price": 114.9,
+      "basis": 110.68,
+      "bxt_today": -0.04,
+      "bxt_yest": -3.5,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 2,
+      "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 349.0,
-      "pct_to_ath": 16.5
+      "ath": 123.61,
+      "pct_to_ath": 7.6
     },
     {
       "sym": "NUVL",
@@ -1057,6 +1074,23 @@
       "bxt_streak": null,
       "ath": 113.51,
       "pct_to_ath": 8.9
+    },
+    {
+      "sym": "IBP",
+      "name": "Installed Building Products, Inc.",
+      "mcap": 8,
+      "price": 299.47,
+      "basis": 296.2,
+      "bxt_today": -6.93,
+      "bxt_yest": -9.52,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 349.0,
+      "pct_to_ath": 16.5
     },
     {
       "sym": "CMC",
@@ -1093,23 +1127,6 @@
       "pct_to_ath": 430.4
     },
     {
-      "sym": "UEC",
-      "name": "Uranium Energy Corp.",
-      "mcap": 8,
-      "price": 15.77,
-      "basis": 14.88,
-      "bxt_today": -2.5,
-      "bxt_yest": -6.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 20.34,
-      "pct_to_ath": 29.0
-    },
-    {
       "sym": "VFC",
       "name": "V.F. Corporation",
       "mcap": 8,
@@ -1125,6 +1142,23 @@
       "bxt_streak": null,
       "ath": 100.25,
       "pct_to_ath": 416.5
+    },
+    {
+      "sym": "UEC",
+      "name": "Uranium Energy Corp.",
+      "mcap": 8,
+      "price": 15.77,
+      "basis": 14.88,
+      "bxt_today": -2.5,
+      "bxt_yest": -6.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 20.34,
+      "pct_to_ath": 29.0
     },
     {
       "sym": "BIRK",
@@ -1208,8 +1242,8 @@
       "bxt_r": false,
       "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 96.94,
+      "pct_to_ath": 50.9
     },
     {
       "sym": "EXP",
@@ -2474,23 +2508,6 @@
       "pct_to_ath": 0.8
     },
     {
-      "sym": "RF",
-      "name": "Regions Financial Corporation",
-      "mcap": 24,
-      "price": 28.21,
-      "basis": 27.76,
-      "bxt_today": 0.1,
-      "bxt_yest": -0.72,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 39.15,
-      "pct_to_ath": 38.8
-    },
-    {
       "sym": "FIS",
       "name": "Fidelity National Information Services, Inc.",
       "mcap": 24,
@@ -2506,6 +2523,23 @@
       "bxt_streak": 16,
       "ath": 158.21,
       "pct_to_ath": 244.2
+    },
+    {
+      "sym": "RF",
+      "name": "Regions Financial Corporation",
+      "mcap": 24,
+      "price": 28.21,
+      "basis": 27.76,
+      "bxt_today": 0.1,
+      "bxt_yest": -0.72,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 39.15,
+      "pct_to_ath": 38.8
     },
     {
       "sym": "ATI",
@@ -2576,23 +2610,6 @@
       "pct_to_ath": 89.8
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 226.82,
-      "basis": 220.55,
-      "bxt_today": 1.81,
-      "bxt_yest": -2.13,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 10.6
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -2608,6 +2625,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 114.5
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 226.82,
+      "basis": 220.55,
+      "bxt_today": 1.81,
+      "bxt_yest": -2.13,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 10.6
     },
     {
       "sym": "TPG",
@@ -2831,23 +2865,6 @@
       "pct_to_ath": 159.4
     },
     {
-      "sym": "LLYVK",
-      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-      "mcap": 9,
-      "price": 97.51,
-      "basis": 91.4,
-      "bxt_today": 1.5,
-      "bxt_yest": -0.65,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 102.62,
-      "pct_to_ath": 5.2
-    },
-    {
       "sym": "AYI",
       "name": "Acuity Inc.",
       "mcap": 9,
@@ -2865,21 +2882,21 @@
       "pct_to_ath": 28.5
     },
     {
-      "sym": "LLYVA",
-      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "sym": "LLYVK",
+      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
       "mcap": 9,
-      "price": 95.26,
-      "basis": 89.23,
-      "bxt_today": 1.67,
-      "bxt_yest": -0.67,
+      "price": 97.51,
+      "basis": 91.4,
+      "bxt_today": 1.5,
+      "bxt_yest": -0.65,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 1,
-      "ath": 99.82,
-      "pct_to_ath": 4.8
+      "ath": 102.62,
+      "pct_to_ath": 5.2
     },
     {
       "sym": "GDS",
@@ -2897,6 +2914,23 @@
       "bxt_streak": 9,
       "ath": 116.76,
       "pct_to_ath": 153.8
+    },
+    {
+      "sym": "LLYVA",
+      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "mcap": 9,
+      "price": 95.26,
+      "basis": 89.23,
+      "bxt_today": 1.67,
+      "bxt_yest": -0.67,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 99.82,
+      "pct_to_ath": 4.8
     },
     {
       "sym": "CRL",
@@ -3837,9 +3871,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T00:56:42.511600+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-07T01:02:45.146426+00:00",
+    "fvb_green_added": [
       {
         "sym": "WMG",
         "name": "Warner Music Group Corp.",
@@ -3861,6 +3894,7 @@
         "pct_to_ath": 7.6
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
