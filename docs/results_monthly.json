@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T03:02:06.937535+00:00",
+  "updated_at": "2026-05-07T03:07:55.272257+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 19.28,
+  "scan_seconds": 10.8,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -1048,23 +1048,6 @@
       "pct_to_ath": 112.0
     },
     {
-      "sym": "VAL",
-      "name": "Valaris Limited Common Shares",
-      "mcap": 6,
-      "price": 92.8,
-      "basis": 83.0,
-      "bxt_today": -1.19,
-      "bxt_yest": 2.4,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 15,
-      "ath": 105.35,
-      "pct_to_ath": 13.5
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -1097,6 +1080,23 @@
       "bxt_streak": 11,
       "ath": 254.3,
       "pct_to_ath": 28.9
+    },
+    {
+      "sym": "VAL",
+      "name": "Valaris Limited Common Shares",
+      "mcap": 6,
+      "price": 92.8,
+      "basis": 83.0,
+      "bxt_today": -1.19,
+      "bxt_yest": 2.4,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 105.35,
+      "pct_to_ath": 13.5
     },
     {
       "sym": "PRIM",
@@ -1236,7 +1236,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T02:56:23.994434+00:00",
+    "compared_to": "2026-05-07T03:02:06.937535+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
