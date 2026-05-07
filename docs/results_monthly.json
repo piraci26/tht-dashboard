@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T03:41:00.116842+00:00",
+  "updated_at": "2026-05-07T03:46:34.512688+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.72,
+  "scan_seconds": 5.86,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -20,6 +20,23 @@
       "bxt_streak": null,
       "ath": 203.02,
       "pct_to_ath": 87.9
+    },
+    {
+      "sym": "APP",
+      "name": "Applovin Corporation",
+      "mcap": 158,
+      "price": 468.83,
+      "basis": 468.42,
+      "bxt_today": -0.71,
+      "bxt_yest": -2.44,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 17,
+      "bxt_streak": null,
+      "ath": 745.61,
+      "pct_to_ath": 59.0
     },
     {
       "sym": "ADSK",
@@ -1219,9 +1236,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T03:35:23.936773+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-07T03:41:00.116842+00:00",
+    "fvb_green_added": [
       {
         "sym": "APP",
         "name": "Applovin Corporation",
@@ -1233,6 +1249,7 @@
         "pct_to_ath": 59.0
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],

@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T03:40:48.378757+00:00",
+  "updated_at": "2026-05-07T03:46:28.650818+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 13.61,
-  "scanned_count": 1509,
+  "scan_seconds": 9.66,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -502,23 +502,6 @@
       "pct_to_ath": 2.6
     },
     {
-      "sym": "RF",
-      "name": "Regions Financial Corporation",
-      "mcap": 24,
-      "price": 28.21,
-      "basis": 27.77,
-      "bxt_today": 0.36,
-      "bxt_yest": -0.21,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 39.15,
-      "pct_to_ath": 38.8
-    },
-    {
       "sym": "FIS",
       "name": "Fidelity National Information Services, Inc.",
       "mcap": 24,
@@ -534,6 +517,23 @@
       "bxt_streak": 16,
       "ath": 158.21,
       "pct_to_ath": 244.2
+    },
+    {
+      "sym": "RF",
+      "name": "Regions Financial Corporation",
+      "mcap": 24,
+      "price": 28.21,
+      "basis": 27.77,
+      "bxt_today": 0.36,
+      "bxt_yest": -0.21,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 39.15,
+      "pct_to_ath": 38.8
     },
     {
       "sym": "ZS",
@@ -740,23 +740,6 @@
       "pct_to_ath": 28.5
     },
     {
-      "sym": "AAL",
-      "name": "American Airlines Group Inc.",
-      "mcap": 9,
-      "price": 12.94,
-      "basis": 12.88,
-      "bxt_today": 2.53,
-      "bxt_yest": -0.28,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 13,
-      "bxt_streak": 13,
-      "ath": 63.27,
-      "pct_to_ath": 388.9
-    },
-    {
       "sym": "KRYS",
       "name": "Krystal Biotech, Inc.",
       "mcap": 9,
@@ -772,6 +755,23 @@
       "bxt_streak": 10,
       "ath": 303.0,
       "pct_to_ath": 4.8
+    },
+    {
+      "sym": "AAL",
+      "name": "American Airlines Group Inc.",
+      "mcap": 9,
+      "price": 12.94,
+      "basis": 12.88,
+      "bxt_today": 2.53,
+      "bxt_yest": -0.28,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 13,
+      "bxt_streak": 13,
+      "ath": 63.27,
+      "pct_to_ath": 388.9
     },
     {
       "sym": "IBRX",
@@ -859,23 +859,6 @@
       "pct_to_ath": 13.3
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 49.11,
-      "basis": 56.65,
-      "bxt_today": 1.16,
-      "bxt_yest": -2.45,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 286.6
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -891,6 +874,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.2
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 49.11,
+      "basis": 56.65,
+      "bxt_today": 1.16,
+      "bxt_yest": -2.45,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 286.6
     },
     {
       "sym": "QS",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T03:35:09.477186+00:00",
+    "compared_to": "2026-05-07T03:40:48.378757+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
