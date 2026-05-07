@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T01:31:47.928639+00:00",
+  "updated_at": "2026-05-07T01:37:15.415168+00:00",
   "timeframe": "daily",
-  "scan_seconds": 20.45,
-  "scanned_count": 1510,
+  "scan_seconds": 10.48,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "NVDA",
@@ -273,8 +273,8 @@
       "bxt_r": false,
       "fvb_streak": 3,
       "bxt_streak": null,
-      "ath": 195.81,
-      "pct_to_ath": 7.8
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "BX",
@@ -906,23 +906,6 @@
       "pct_to_ath": 4.4
     },
     {
-      "sym": "VMC",
-      "name": "Vulcan Materials Company (Holding Company)",
-      "mcap": 38,
-      "price": 295.72,
-      "basis": 293.22,
-      "bxt_today": 1.07,
-      "bxt_yest": -0.36,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 1,
-      "ath": 331.09,
-      "pct_to_ath": 12.0
-    },
-    {
       "sym": "CUK",
       "name": "Carnival Plc ADS ADS",
       "mcap": 38,
@@ -938,6 +921,23 @@
       "bxt_streak": null,
       "ath": 72.29,
       "pct_to_ath": 163.2
+    },
+    {
+      "sym": "VMC",
+      "name": "Vulcan Materials Company (Holding Company)",
+      "mcap": 38,
+      "price": 295.72,
+      "basis": 293.22,
+      "bxt_today": 1.07,
+      "bxt_yest": -0.36,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 1,
+      "ath": 331.09,
+      "pct_to_ath": 12.0
     },
     {
       "sym": "CCL",
@@ -1875,23 +1875,6 @@
       "pct_to_ath": 77.6
     },
     {
-      "sym": "JHX",
-      "name": "James Hardie Industries plc. Ordinary Shares",
-      "mcap": 12,
-      "price": 21.42,
-      "basis": 21.18,
-      "bxt_today": -2.45,
-      "bxt_yest": -7.84,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 43.57,
-      "pct_to_ath": 103.4
-    },
-    {
       "sym": "SAIA",
       "name": "Saia, Inc.",
       "mcap": 12,
@@ -1907,6 +1890,23 @@
       "bxt_streak": null,
       "ath": 628.34,
       "pct_to_ath": 39.8
+    },
+    {
+      "sym": "JHX",
+      "name": "James Hardie Industries plc. Ordinary Shares",
+      "mcap": 12,
+      "price": 21.42,
+      "basis": 21.18,
+      "bxt_today": -2.45,
+      "bxt_yest": -7.84,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 43.57,
+      "pct_to_ath": 103.4
     },
     {
       "sym": "MDGL",
@@ -1943,23 +1943,6 @@
       "pct_to_ath": 3.7
     },
     {
-      "sym": "RDY",
-      "name": "Dr. Reddy's Laboratories Ltd",
-      "mcap": 11,
-      "price": 13.46,
-      "basis": 13.37,
-      "bxt_today": 3.56,
-      "bxt_yest": 3.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 16.89,
-      "pct_to_ath": 25.5
-    },
-    {
       "sym": "GME",
       "name": "GameStop Corporation",
       "mcap": 11,
@@ -1975,6 +1958,23 @@
       "bxt_streak": null,
       "ath": 120.75,
       "pct_to_ath": 379.7
+    },
+    {
+      "sym": "RDY",
+      "name": "Dr. Reddy's Laboratories Ltd",
+      "mcap": 11,
+      "price": 13.46,
+      "basis": 13.37,
+      "bxt_today": 3.56,
+      "bxt_yest": 3.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 16.89,
+      "pct_to_ath": 25.5
     },
     {
       "sym": "Z",
@@ -2147,23 +2147,6 @@
       "pct_to_ath": 15.8
     },
     {
-      "sym": "JOBY",
-      "name": "Joby Aviation, Inc.",
-      "mcap": 10,
-      "price": 10.52,
-      "basis": 8.95,
-      "bxt_today": 19.48,
-      "bxt_yest": 7.58,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 20.95,
-      "pct_to_ath": 99.1
-    },
-    {
       "sym": "HBM",
       "name": "Hudbay Minerals Inc. Ordinary Shares (Canada)",
       "mcap": 10,
@@ -2179,6 +2162,23 @@
       "bxt_streak": null,
       "ath": 28.74,
       "pct_to_ath": 19.7
+    },
+    {
+      "sym": "JOBY",
+      "name": "Joby Aviation, Inc.",
+      "mcap": 10,
+      "price": 10.52,
+      "basis": 8.95,
+      "bxt_today": 19.48,
+      "bxt_yest": 7.58,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 20.95,
+      "pct_to_ath": 99.1
     },
     {
       "sym": "EDU",
@@ -2198,23 +2198,6 @@
       "pct_to_ath": 254.8
     },
     {
-      "sym": "BRX",
-      "name": "Brixmor Property Group Inc.",
-      "mcap": 9,
-      "price": 30.29,
-      "basis": 30.2,
-      "bxt_today": -7.24,
-      "bxt_yest": -10.28,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 31.49,
-      "pct_to_ath": 4.0
-    },
-    {
       "sym": "CUBE",
       "name": "CubeSmart Common Shares",
       "mcap": 9,
@@ -2230,6 +2213,23 @@
       "bxt_streak": 1,
       "ath": 57.34,
       "pct_to_ath": 42.4
+    },
+    {
+      "sym": "BRX",
+      "name": "Brixmor Property Group Inc.",
+      "mcap": 9,
+      "price": 30.29,
+      "basis": 30.2,
+      "bxt_today": -7.24,
+      "bxt_yest": -10.28,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 31.49,
+      "pct_to_ath": 4.0
     },
     {
       "sym": "TTC",
@@ -2266,21 +2266,21 @@
       "pct_to_ath": 5.2
     },
     {
-      "sym": "LLYVA",
-      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
+      "sym": "AGCO",
+      "name": "AGCO Corporation",
       "mcap": 9,
-      "price": 95.26,
-      "basis": 92.96,
-      "bxt_today": 2.85,
-      "bxt_yest": -5.08,
+      "price": 120.23,
+      "basis": 118.64,
+      "bxt_today": 4.51,
+      "bxt_yest": 1.16,
       "fvb_g": true,
       "fvb_r": false,
-      "bxt_g": true,
+      "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 12,
-      "bxt_streak": 14,
-      "ath": 99.82,
-      "pct_to_ath": 4.8
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 158.62,
+      "pct_to_ath": 31.9
     },
     {
       "sym": "LEVI",
@@ -2300,21 +2300,21 @@
       "pct_to_ath": 33.9
     },
     {
-      "sym": "AGCO",
-      "name": "AGCO Corporation",
+      "sym": "LLYVA",
+      "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
       "mcap": 9,
-      "price": 120.23,
-      "basis": 118.64,
-      "bxt_today": 4.51,
-      "bxt_yest": 1.16,
+      "price": 95.26,
+      "basis": 92.96,
+      "bxt_today": 2.85,
+      "bxt_yest": -5.08,
       "fvb_g": true,
       "fvb_r": false,
-      "bxt_g": false,
+      "bxt_g": true,
       "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 158.62,
-      "pct_to_ath": 31.9
+      "fvb_streak": 12,
+      "bxt_streak": 14,
+      "ath": 99.82,
+      "pct_to_ath": 4.8
     },
     {
       "sym": "SARO",
@@ -2402,23 +2402,6 @@
       "pct_to_ath": 133.7
     },
     {
-      "sym": "IBP",
-      "name": "Installed Building Products, Inc.",
-      "mcap": 8,
-      "price": 299.47,
-      "basis": 293.51,
-      "bxt_today": -2.0,
-      "bxt_yest": -8.72,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 349.0,
-      "pct_to_ath": 16.5
-    },
-    {
       "sym": "NUVL",
       "name": "Nuvalent, Inc.",
       "mcap": 8,
@@ -2434,6 +2417,23 @@
       "bxt_streak": null,
       "ath": 113.51,
       "pct_to_ath": 8.9
+    },
+    {
+      "sym": "IBP",
+      "name": "Installed Building Products, Inc.",
+      "mcap": 8,
+      "price": 299.47,
+      "basis": 293.51,
+      "bxt_today": -2.0,
+      "bxt_yest": -8.72,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 349.0,
+      "pct_to_ath": 16.5
     },
     {
       "sym": "UEC",
@@ -2504,23 +2504,6 @@
       "pct_to_ath": 11.8
     },
     {
-      "sym": "TEX",
-      "name": "Terex Corporation",
-      "mcap": 7,
-      "price": 64.24,
-      "basis": 61.75,
-      "bxt_today": 4.58,
-      "bxt_yest": -3.44,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 2,
-      "ath": 96.94,
-      "pct_to_ath": 50.9
-    },
-    {
       "sym": "TRNO",
       "name": "Terreno Realty Corporation",
       "mcap": 7,
@@ -2536,6 +2519,23 @@
       "bxt_streak": null,
       "ath": 86.0,
       "pct_to_ath": 30.1
+    },
+    {
+      "sym": "TEX",
+      "name": "Terex Corporation",
+      "mcap": 7,
+      "price": 64.24,
+      "basis": 61.75,
+      "bxt_today": 4.58,
+      "bxt_yest": -3.44,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 2,
+      "ath": 96.94,
+      "pct_to_ath": 50.9
     },
     {
       "sym": "KYMR",
@@ -2589,23 +2589,6 @@
       "pct_to_ath": 41.3
     },
     {
-      "sym": "MSA",
-      "name": "MSA Safety Incorporated",
-      "mcap": 7,
-      "price": 173.97,
-      "basis": 169.61,
-      "bxt_today": 10.14,
-      "bxt_yest": 2.46,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 6,
-      "bxt_streak": null,
-      "ath": 208.92,
-      "pct_to_ath": 20.1
-    },
-    {
       "sym": "PTGX",
       "name": "Protagonist Therapeutics, Inc.",
       "mcap": 7,
@@ -2621,6 +2604,23 @@
       "bxt_streak": null,
       "ath": 107.84,
       "pct_to_ath": 3.7
+    },
+    {
+      "sym": "MSA",
+      "name": "MSA Safety Incorporated",
+      "mcap": 7,
+      "price": 173.97,
+      "basis": 169.61,
+      "bxt_today": 10.14,
+      "bxt_yest": 2.46,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 6,
+      "bxt_streak": null,
+      "ath": 208.92,
+      "pct_to_ath": 20.1
     },
     {
       "sym": "GTES",
@@ -2776,23 +2776,6 @@
       "pct_to_ath": 642.1
     },
     {
-      "sym": "MAC",
-      "name": "Macerich Company (The)",
-      "mcap": 6,
-      "price": 22.23,
-      "basis": 21.61,
-      "bxt_today": -2.62,
-      "bxt_yest": -8.36,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 95.93,
-      "pct_to_ath": 331.5
-    },
-    {
       "sym": "BRKR",
       "name": "Bruker Corporation",
       "mcap": 6,
@@ -2808,6 +2791,23 @@
       "bxt_streak": 8,
       "ath": 94.86,
       "pct_to_ath": 124.3
+    },
+    {
+      "sym": "MAC",
+      "name": "Macerich Company (The)",
+      "mcap": 6,
+      "price": 22.23,
+      "basis": 21.61,
+      "bxt_today": -2.62,
+      "bxt_yest": -8.36,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 95.93,
+      "pct_to_ath": 331.5
     },
     {
       "sym": "LUNR",
@@ -2912,23 +2912,6 @@
       "pct_to_ath": 522.6
     },
     {
-      "sym": "KNF",
-      "name": "Knife Riv Holding Co.",
-      "mcap": 5,
-      "price": 91.51,
-      "basis": 88.39,
-      "bxt_today": 1.87,
-      "bxt_yest": 0.15,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 108.83,
-      "pct_to_ath": 18.9
-    },
-    {
       "sym": "AUB",
       "name": "Atlantic Union Bankshares Corporation",
       "mcap": 5,
@@ -2944,6 +2927,23 @@
       "bxt_streak": 5,
       "ath": 44.54,
       "pct_to_ath": 16.0
+    },
+    {
+      "sym": "KNF",
+      "name": "Knife Riv Holding Co.",
+      "mcap": 5,
+      "price": 91.51,
+      "basis": 88.39,
+      "bxt_today": 1.87,
+      "bxt_yest": 0.15,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 108.83,
+      "pct_to_ath": 18.9
     },
     {
       "sym": "M",
@@ -2963,23 +2963,6 @@
       "pct_to_ath": 271.4
     },
     {
-      "sym": "BC",
-      "name": "Brunswick Corporation",
-      "mcap": 5,
-      "price": 81.46,
-      "basis": 79.31,
-      "bxt_today": -0.6,
-      "bxt_yest": -7.13,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 117.62,
-      "pct_to_ath": 44.4
-    },
-    {
       "sym": "CRSP",
       "name": "CRISPR Therapeutics AG Common Shares",
       "mcap": 5,
@@ -2995,6 +2978,23 @@
       "bxt_streak": 8,
       "ath": 220.2,
       "pct_to_ath": 299.8
+    },
+    {
+      "sym": "BC",
+      "name": "Brunswick Corporation",
+      "mcap": 5,
+      "price": 81.46,
+      "basis": 79.31,
+      "bxt_today": -0.6,
+      "bxt_yest": -7.13,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 117.62,
+      "pct_to_ath": 44.4
     },
     {
       "sym": "PSMT",
@@ -3065,23 +3065,6 @@
       "pct_to_ath": 64.3
     },
     {
-      "sym": "LAUR",
-      "name": "Laureate Education, Inc.",
-      "mcap": 5,
-      "price": 32.52,
-      "basis": 32.38,
-      "bxt_today": 2.49,
-      "bxt_yest": -2.87,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 19,
-      "bxt_streak": 19,
-      "ath": 37.91,
-      "pct_to_ath": 16.6
-    },
-    {
       "sym": "AIR",
       "name": "AAR Corp.",
       "mcap": 5,
@@ -3097,6 +3080,23 @@
       "bxt_streak": null,
       "ath": 127.21,
       "pct_to_ath": 7.2
+    },
+    {
+      "sym": "LAUR",
+      "name": "Laureate Education, Inc.",
+      "mcap": 5,
+      "price": 32.52,
+      "basis": 32.38,
+      "bxt_today": 2.49,
+      "bxt_yest": -2.87,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 19,
+      "bxt_streak": 19,
+      "ath": 37.91,
+      "pct_to_ath": 16.6
     },
     {
       "sym": "TCBI",
@@ -3167,23 +3167,6 @@
       "pct_to_ath": 221.5
     },
     {
-      "sym": "SLGN",
-      "name": "Silgan Holdings Inc.",
-      "mcap": 4,
-      "price": 40.5,
-      "basis": 40.38,
-      "bxt_today": 6.41,
-      "bxt_yest": 2.0,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 58.14,
-      "pct_to_ath": 43.6
-    },
-    {
       "sym": "GPI",
       "name": "Group 1 Automotive, Inc.",
       "mcap": 4,
@@ -3199,6 +3182,23 @@
       "bxt_streak": null,
       "ath": 490.09,
       "pct_to_ath": 42.5
+    },
+    {
+      "sym": "SLGN",
+      "name": "Silgan Holdings Inc.",
+      "mcap": 4,
+      "price": 40.5,
+      "basis": 40.38,
+      "bxt_today": 6.41,
+      "bxt_yest": 2.0,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 58.14,
+      "pct_to_ath": 43.6
     },
     {
       "sym": "VVV",
@@ -3235,21 +3235,21 @@
       "pct_to_ath": 102.8
     },
     {
-      "sym": "KTB",
-      "name": "Kontoor Brands, Inc.",
+      "sym": "SKT",
+      "name": "Tanger Inc.",
       "mcap": 4,
-      "price": 74.94,
-      "basis": 73.46,
-      "bxt_today": -4.85,
-      "bxt_yest": -11.77,
+      "price": 36.85,
+      "basis": 36.64,
+      "bxt_today": -6.53,
+      "bxt_yest": -9.93,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
       "fvb_streak": 3,
       "bxt_streak": null,
-      "ath": 96.8,
-      "pct_to_ath": 29.2
+      "ath": 42.2,
+      "pct_to_ath": 14.5
     },
     {
       "sym": "CAAP",
@@ -3269,38 +3269,21 @@
       "pct_to_ath": 17.2
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
+      "sym": "KTB",
+      "name": "Kontoor Brands, Inc.",
       "mcap": 4,
-      "price": 36.85,
-      "basis": 36.64,
-      "bxt_today": -6.53,
-      "bxt_yest": -9.93,
+      "price": 74.94,
+      "basis": 73.46,
+      "bxt_today": -4.85,
+      "bxt_yest": -11.77,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
       "fvb_streak": 3,
       "bxt_streak": null,
-      "ath": 42.2,
-      "pct_to_ath": 14.5
-    },
-    {
-      "sym": "UCB",
-      "name": "United Community Banks, Inc.",
-      "mcap": 4,
-      "price": 33.94,
-      "basis": 33.65,
-      "bxt_today": -0.13,
-      "bxt_yest": -3.59,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 5,
-      "bxt_streak": null,
-      "ath": 169.62,
-      "pct_to_ath": 399.8
+      "ath": 96.8,
+      "pct_to_ath": 29.2
     },
     {
       "sym": "LASR",
@@ -3352,6 +3335,23 @@
       "bxt_streak": 10,
       "ath": 23.19,
       "pct_to_ath": 93.2
+    },
+    {
+      "sym": "UCB",
+      "name": "United Community Banks, Inc.",
+      "mcap": 4,
+      "price": 33.94,
+      "basis": 33.65,
+      "bxt_today": -0.13,
+      "bxt_yest": -3.59,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 5,
+      "bxt_streak": null,
+      "ath": 169.62,
+      "pct_to_ath": 399.8
     },
     {
       "sym": "FULT",
@@ -3747,23 +3747,6 @@
       "pct_to_ath": 7.8
     },
     {
-      "sym": "EQNR",
-      "name": "Equinor ASA",
-      "mcap": 95,
-      "price": 38.03,
-      "basis": 38.56,
-      "bxt_today": -2.98,
-      "bxt_yest": 5.99,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 5,
-      "bxt_streak": 2,
-      "ath": 43.46,
-      "pct_to_ath": 14.3
-    },
-    {
       "sym": "CNQ",
       "name": "Canadian Natural Resources Limited",
       "mcap": 95,
@@ -3779,6 +3762,23 @@
       "bxt_streak": null,
       "ath": 51.34,
       "pct_to_ath": 12.5
+    },
+    {
+      "sym": "EQNR",
+      "name": "Equinor ASA",
+      "mcap": 95,
+      "price": 38.03,
+      "basis": 38.56,
+      "bxt_today": -2.98,
+      "bxt_yest": 5.99,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 5,
+      "bxt_streak": 2,
+      "ath": 43.46,
+      "pct_to_ath": 14.3
     },
     {
       "sym": "KKR",
@@ -3985,6 +3985,23 @@
       "pct_to_ath": 104.9
     },
     {
+      "sym": "VST",
+      "name": "Vistra Corp.",
+      "mcap": 54,
+      "price": 158.29,
+      "basis": 159.36,
+      "bxt_today": 0.75,
+      "bxt_yest": 1.76,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 219.82,
+      "pct_to_ath": 38.9
+    },
+    {
       "sym": "OKE",
       "name": "ONEOK, Inc.",
       "mcap": 54,
@@ -4017,23 +4034,6 @@
       "bxt_streak": 6,
       "ath": 90.89,
       "pct_to_ath": 47.5
-    },
-    {
-      "sym": "VST",
-      "name": "Vistra Corp.",
-      "mcap": 54,
-      "price": 158.29,
-      "basis": 159.36,
-      "bxt_today": 0.75,
-      "bxt_yest": 1.76,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 219.82,
-      "pct_to_ath": 38.9
     },
     {
       "sym": "ETR",
@@ -4495,23 +4495,6 @@
       "pct_to_ath": 31.0
     },
     {
-      "sym": "AR",
-      "name": "Antero Resources Corporation",
-      "mcap": 11,
-      "price": 36.84,
-      "basis": 37.88,
-      "bxt_today": -1.83,
-      "bxt_yest": 6.9,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": 6,
-      "bxt_streak": 5,
-      "ath": 68.43,
-      "pct_to_ath": 85.7
-    },
-    {
       "sym": "GWRE",
       "name": "Guidewire Software, Inc.",
       "mcap": 11,
@@ -4527,6 +4510,23 @@
       "bxt_streak": null,
       "ath": 272.6,
       "pct_to_ath": 107.9
+    },
+    {
+      "sym": "AR",
+      "name": "Antero Resources Corporation",
+      "mcap": 11,
+      "price": 36.84,
+      "basis": 37.88,
+      "bxt_today": -1.83,
+      "bxt_yest": 6.9,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": 6,
+      "bxt_streak": 5,
+      "ath": 68.43,
+      "pct_to_ath": 85.7
     },
     {
       "sym": "ACM",
@@ -6452,23 +6452,6 @@
       "pct_to_ath": 32.6
     },
     {
-      "sym": "ARW",
-      "name": "Arrow Electronics, Inc.",
-      "mcap": 10,
-      "price": 191.85,
-      "basis": 179.14,
-      "bxt_today": 2.22,
-      "bxt_yest": -0.12,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 194.4,
-      "pct_to_ath": 1.3
-    },
-    {
       "sym": "SSB",
       "name": "SouthState Bank Corporation",
       "mcap": 10,
@@ -6484,6 +6467,23 @@
       "bxt_streak": 3,
       "ath": 114.27,
       "pct_to_ath": 15.8
+    },
+    {
+      "sym": "ARW",
+      "name": "Arrow Electronics, Inc.",
+      "mcap": 10,
+      "price": 191.85,
+      "basis": 179.14,
+      "bxt_today": 2.22,
+      "bxt_yest": -0.12,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 194.4,
+      "pct_to_ath": 1.3
     },
     {
       "sym": "EDU",
@@ -6503,23 +6503,6 @@
       "pct_to_ath": 254.8
     },
     {
-      "sym": "ZION",
-      "name": "Zions Bancorporation N.A.",
-      "mcap": 9,
-      "price": 63.99,
-      "basis": 62.37,
-      "bxt_today": 2.7,
-      "bxt_yest": -0.57,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 88.56,
-      "pct_to_ath": 38.4
-    },
-    {
       "sym": "PRAX",
       "name": "Praxis Precision Medicines, Inc.",
       "mcap": 9,
@@ -6537,21 +6520,21 @@
       "pct_to_ath": 170.4
     },
     {
-      "sym": "CUBE",
-      "name": "CubeSmart Common Shares",
+      "sym": "ZION",
+      "name": "Zions Bancorporation N.A.",
       "mcap": 9,
-      "price": 40.28,
-      "basis": 39.5,
-      "bxt_today": 2.46,
-      "bxt_yest": -1.66,
-      "fvb_g": true,
+      "price": 63.99,
+      "basis": 62.37,
+      "bxt_today": 2.7,
+      "bxt_yest": -0.57,
+      "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 1,
-      "ath": 57.34,
-      "pct_to_ath": 42.4
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 88.56,
+      "pct_to_ath": 38.4
     },
     {
       "sym": "CAMT",
@@ -6569,6 +6552,23 @@
       "bxt_streak": 3,
       "ath": 210.2,
       "pct_to_ath": 3.8
+    },
+    {
+      "sym": "CUBE",
+      "name": "CubeSmart Common Shares",
+      "mcap": 9,
+      "price": 40.28,
+      "basis": 39.5,
+      "bxt_today": 2.46,
+      "bxt_yest": -1.66,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 1,
+      "ath": 57.34,
+      "pct_to_ath": 42.4
     },
     {
       "sym": "TTC",
@@ -6996,23 +6996,6 @@
       "pct_to_ath": 522.6
     },
     {
-      "sym": "OZK",
-      "name": "Bank OZK",
-      "mcap": 5,
-      "price": 49.13,
-      "basis": 48.21,
-      "bxt_today": 4.28,
-      "bxt_yest": -0.23,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 56.86,
-      "pct_to_ath": 15.7
-    },
-    {
       "sym": "AUB",
       "name": "Atlantic Union Bankshares Corporation",
       "mcap": 5,
@@ -7028,6 +7011,23 @@
       "bxt_streak": 5,
       "ath": 44.54,
       "pct_to_ath": 16.0
+    },
+    {
+      "sym": "OZK",
+      "name": "Bank OZK",
+      "mcap": 5,
+      "price": 49.13,
+      "basis": 48.21,
+      "bxt_today": 4.28,
+      "bxt_yest": -0.23,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 56.86,
+      "pct_to_ath": 15.7
     },
     {
       "sym": "HOMB",
@@ -7268,23 +7268,6 @@
       "pct_to_ath": 327.1
     },
     {
-      "sym": "RNST",
-      "name": "Renasant Corporation",
-      "mcap": 4,
-      "price": 40.63,
-      "basis": 39.83,
-      "bxt_today": 0.52,
-      "bxt_yest": -4.05,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 49.78,
-      "pct_to_ath": 22.5
-    },
-    {
       "sym": "TAC",
       "name": "TransAlta Corporation Ordinary Shares",
       "mcap": 4,
@@ -7300,6 +7283,23 @@
       "bxt_streak": 13,
       "ath": 37.84,
       "pct_to_ath": 195.9
+    },
+    {
+      "sym": "RNST",
+      "name": "Renasant Corporation",
+      "mcap": 4,
+      "price": 40.63,
+      "basis": 39.83,
+      "bxt_today": 0.52,
+      "bxt_yest": -4.05,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 49.78,
+      "pct_to_ath": 22.5
     },
     {
       "sym": "BATRA",
@@ -8035,23 +8035,6 @@
       "pct_to_ath": 124.3
     },
     {
-      "sym": "AES",
-      "name": "The AES Corporation",
-      "mcap": 10,
-      "price": 14.34,
-      "basis": 14.43,
-      "bxt_today": -0.25,
-      "bxt_yest": 0.06,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 72.81,
-      "pct_to_ath": 407.8
-    },
-    {
       "sym": "CART",
       "name": "Maplebear Inc.",
       "mcap": 10,
@@ -8067,6 +8050,23 @@
       "bxt_streak": 1,
       "ath": 53.5,
       "pct_to_ath": 33.2
+    },
+    {
+      "sym": "AES",
+      "name": "The AES Corporation",
+      "mcap": 10,
+      "price": 14.34,
+      "basis": 14.43,
+      "bxt_today": -0.25,
+      "bxt_yest": 0.06,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 72.81,
+      "pct_to_ath": 407.8
     },
     {
       "sym": "TECH",
@@ -8512,7 +8512,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T01:25:48.648719+00:00",
+    "compared_to": "2026-05-07T01:31:47.928639+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
