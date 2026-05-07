@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T01:54:21.098698+00:00",
+  "updated_at": "2026-05-07T02:00:11.391153+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.71,
-  "scanned_count": 1510,
+  "scan_seconds": 6.34,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -124,23 +124,6 @@
       "pct_to_ath": 21.2
     },
     {
-      "sym": "ARCC",
-      "name": "Ares Capital Corporation",
-      "mcap": 14,
-      "price": 19.16,
-      "basis": 19.13,
-      "bxt_today": 10.45,
-      "bxt_yest": 8.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 23.84,
-      "pct_to_ath": 24.4
-    },
-    {
       "sym": "FNF",
       "name": "Fidelity National Financial, Inc.",
       "mcap": 14,
@@ -156,6 +139,23 @@
       "bxt_streak": null,
       "ath": 64.34,
       "pct_to_ath": 25.4
+    },
+    {
+      "sym": "ARCC",
+      "name": "Ares Capital Corporation",
+      "mcap": 14,
+      "price": 19.16,
+      "basis": 19.13,
+      "bxt_today": 10.45,
+      "bxt_yest": 8.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 23.84,
+      "pct_to_ath": 24.4
     },
     {
       "sym": "U",
@@ -808,23 +808,6 @@
       "pct_to_ath": 133.7
     },
     {
-      "sym": "BBUC",
-      "name": "Brookfield Business Corporation Subordinate Voting Shares",
-      "mcap": 7,
-      "price": 34.99,
-      "basis": 34.21,
-      "bxt_today": 0.67,
-      "bxt_yest": -1.09,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 38.25,
-      "pct_to_ath": 9.3
-    },
-    {
       "sym": "LNC",
       "name": "Lincoln National Corporation",
       "mcap": 7,
@@ -840,6 +823,23 @@
       "bxt_streak": 17,
       "ath": 86.68,
       "pct_to_ath": 130.4
+    },
+    {
+      "sym": "BBUC",
+      "name": "Brookfield Business Corporation Subordinate Voting Shares",
+      "mcap": 7,
+      "price": 34.99,
+      "basis": 34.21,
+      "bxt_today": 0.67,
+      "bxt_yest": -1.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 38.25,
+      "pct_to_ath": 9.3
     },
     {
       "sym": "MRCY",
@@ -859,23 +859,6 @@
       "pct_to_ath": 13.3
     },
     {
-      "sym": "ESTC",
-      "name": "Elastic N.V. Ordinary Shares",
-      "mcap": 5,
-      "price": 49.11,
-      "basis": 56.65,
-      "bxt_today": 1.16,
-      "bxt_yest": -2.45,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 25,
-      "ath": 189.84,
-      "pct_to_ath": 286.6
-    },
-    {
       "sym": "MAIN",
       "name": "Main Street Capital Corporation",
       "mcap": 5,
@@ -891,6 +874,23 @@
       "bxt_streak": 13,
       "ath": 67.77,
       "pct_to_ath": 18.2
+    },
+    {
+      "sym": "ESTC",
+      "name": "Elastic N.V. Ordinary Shares",
+      "mcap": 5,
+      "price": 49.11,
+      "basis": 56.65,
+      "bxt_today": 1.16,
+      "bxt_yest": -2.45,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 25,
+      "ath": 189.84,
+      "pct_to_ath": 286.6
     },
     {
       "sym": "QS",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T01:48:53.142599+00:00",
+    "compared_to": "2026-05-07T01:54:21.098698+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
