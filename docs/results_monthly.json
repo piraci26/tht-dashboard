@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T08:43:20.991807+00:00",
+  "updated_at": "2026-05-07T08:48:50.396542+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 12.23,
+  "scan_seconds": 9.5,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -141,23 +141,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "BLLN",
-      "name": "BillionToOne, Inc.",
-      "mcap": 4,
-      "price": 81.4,
-      "basis": 80.76,
-      "bxt_today": -3.75,
-      "bxt_yest": -8.35,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 7,
-      "bxt_streak": null,
-      "ath": 138.7,
-      "pct_to_ath": 70.4
-    },
-    {
       "sym": "SMG",
       "name": "Scotts Miracle-Gro Company (The)",
       "mcap": 4,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 254.34,
       "pct_to_ath": 304.7
+    },
+    {
+      "sym": "BLLN",
+      "name": "BillionToOne, Inc.",
+      "mcap": 4,
+      "price": 81.4,
+      "basis": 80.76,
+      "bxt_today": -3.75,
+      "bxt_yest": -8.35,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": null,
+      "ath": 138.7,
+      "pct_to_ath": 70.4
     }
   ],
   "fvb_red": [
@@ -1236,7 +1236,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T08:37:45.455674+00:00",
+    "compared_to": "2026-05-07T08:43:20.991807+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
