@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T01:14:04.427311+00:00",
+  "updated_at": "2026-05-07T01:20:02.168464+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 14.04,
-  "scanned_count": 1511,
+  "scan_seconds": 13.34,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -1365,23 +1365,6 @@
       "pct_to_ath": 124.3
     },
     {
-      "sym": "MRCY",
-      "name": "Mercury Systems Inc",
-      "mcap": 6,
-      "price": 91.66,
-      "basis": 84.45,
-      "bxt_today": -1.24,
-      "bxt_yest": -8.74,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 103.84,
-      "pct_to_ath": 13.3
-    },
-    {
       "sym": "VSEC",
       "name": "VSE Corporation",
       "mcap": 6,
@@ -1397,6 +1380,23 @@
       "bxt_streak": null,
       "ath": 232.61,
       "pct_to_ath": 12.1
+    },
+    {
+      "sym": "MRCY",
+      "name": "Mercury Systems Inc",
+      "mcap": 6,
+      "price": 91.66,
+      "basis": 84.45,
+      "bxt_today": -1.24,
+      "bxt_yest": -8.74,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 103.84,
+      "pct_to_ath": 13.3
     },
     {
       "sym": "OPEN",
@@ -2508,23 +2508,6 @@
       "pct_to_ath": 0.8
     },
     {
-      "sym": "RF",
-      "name": "Regions Financial Corporation",
-      "mcap": 24,
-      "price": 28.21,
-      "basis": 27.76,
-      "bxt_today": 0.1,
-      "bxt_yest": -0.72,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 39.15,
-      "pct_to_ath": 38.8
-    },
-    {
       "sym": "FIS",
       "name": "Fidelity National Information Services, Inc.",
       "mcap": 24,
@@ -2540,6 +2523,23 @@
       "bxt_streak": 16,
       "ath": 158.21,
       "pct_to_ath": 244.2
+    },
+    {
+      "sym": "RF",
+      "name": "Regions Financial Corporation",
+      "mcap": 24,
+      "price": 28.21,
+      "basis": 27.76,
+      "bxt_today": 0.1,
+      "bxt_yest": -0.72,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 39.15,
+      "pct_to_ath": 38.8
     },
     {
       "sym": "ATI",
@@ -2678,23 +2678,6 @@
       "pct_to_ath": 66.3
     },
     {
-      "sym": "PFGC",
-      "name": "Performance Food Group Company",
-      "mcap": 15,
-      "price": 92.88,
-      "basis": 90.92,
-      "bxt_today": 1.26,
-      "bxt_yest": -4.11,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 10,
-      "ath": 109.05,
-      "pct_to_ath": 17.4
-    },
-    {
       "sym": "DECK",
       "name": "Deckers Outdoor Corporation",
       "mcap": 15,
@@ -2710,6 +2693,23 @@
       "bxt_streak": 1,
       "ath": 223.98,
       "pct_to_ath": 115.5
+    },
+    {
+      "sym": "PFGC",
+      "name": "Performance Food Group Company",
+      "mcap": 15,
+      "price": 92.88,
+      "basis": 90.92,
+      "bxt_today": 1.26,
+      "bxt_yest": -4.11,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 10,
+      "ath": 109.05,
+      "pct_to_ath": 17.4
     },
     {
       "sym": "NBIX",
@@ -2865,6 +2865,23 @@
       "pct_to_ath": 159.4
     },
     {
+      "sym": "LLYVK",
+      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
+      "mcap": 9,
+      "price": 97.51,
+      "basis": 91.4,
+      "bxt_today": 1.5,
+      "bxt_yest": -0.65,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 1,
+      "ath": 102.62,
+      "pct_to_ath": 5.2
+    },
+    {
       "sym": "AYI",
       "name": "Acuity Inc.",
       "mcap": 9,
@@ -2914,23 +2931,6 @@
       "bxt_streak": 9,
       "ath": 116.76,
       "pct_to_ath": 153.8
-    },
-    {
-      "sym": "LLYVK",
-      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-      "mcap": 9,
-      "price": 97.51,
-      "basis": 91.4,
-      "bxt_today": 1.5,
-      "bxt_yest": -0.65,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 102.62,
-      "pct_to_ath": 5.2
     },
     {
       "sym": "CRL",
@@ -3154,23 +3154,6 @@
       "pct_to_ath": 16.0
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.33,
-      "basis": 57.68,
-      "bxt_today": 2.89,
-      "bxt_yest": -0.46,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.2
-    },
-    {
       "sym": "ESTC",
       "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
@@ -3186,6 +3169,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 286.6
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.33,
+      "basis": 57.68,
+      "bxt_today": 2.89,
+      "bxt_yest": -0.46,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.2
     },
     {
       "sym": "CRSP",
@@ -3871,7 +3871,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T01:08:19.420493+00:00",
+    "compared_to": "2026-05-07T01:14:04.427311+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
