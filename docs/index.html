@@ -553,8 +553,10 @@ let currentData = null;
 let minMcap = parseFloat(localStorage.getItem('minMcap') || '3.5');
 let timeframe = localStorage.getItem('timeframe') || 'daily';
 const filterRows = rows => (rows || []).filter(r => (r.mcap || 0) >= minMcap);
-const resultsUrl = () => timeframe === 'daily' ? 'results.json' : `results_${timeframe}.json`;
-const barsBaseUrl = () => timeframe === 'daily' ? 'bars' : `bars_${timeframe}`;
+// Data backbone — separate repo, see https://github.com/piraci26/tht-data
+const DATA_BASE = 'https://piraci26.github.io/tht-data';
+const resultsUrl = () => `${DATA_BASE}/${timeframe === 'daily' ? 'results.json' : `results_${timeframe}.json`}`;
+const barsBaseUrl = () => `${DATA_BASE}/${timeframe === 'daily' ? 'bars' : `bars_${timeframe}`}`;
 
 function renderChanges(changes) {
   if (!changes) return '<p class="empty">No prior run to compare to.</p>';
