@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T00:45:37.777783+00:00",
+  "updated_at": "2026-05-07T00:51:16.090834+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 9.16,
-  "scanned_count": 1508,
+  "scan_seconds": 7.54,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -396,23 +396,6 @@
       "pct_to_ath": 31.3
     },
     {
-      "sym": "JXN",
-      "name": "Jackson Financial Inc.",
-      "mcap": 8,
-      "price": 114.9,
-      "basis": 110.68,
-      "bxt_today": -0.04,
-      "bxt_yest": -3.5,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 123.61,
-      "pct_to_ath": 7.6
-    },
-    {
       "sym": "NUVL",
       "name": "Nuvalent, Inc.",
       "mcap": 8,
@@ -428,6 +411,23 @@
       "bxt_streak": null,
       "ath": 113.51,
       "pct_to_ath": 8.9
+    },
+    {
+      "sym": "JXN",
+      "name": "Jackson Financial Inc.",
+      "mcap": 8,
+      "price": 114.9,
+      "basis": 110.68,
+      "bxt_today": -0.04,
+      "bxt_yest": -3.5,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 123.61,
+      "pct_to_ath": 7.6
     },
     {
       "sym": "AAON",
@@ -1250,23 +1250,6 @@
       "pct_to_ath": 5.2
     },
     {
-      "sym": "ALV",
-      "name": "Autoliv, Inc.",
-      "mcap": 9,
-      "price": 121.25,
-      "basis": 109.77,
-      "bxt_today": 1.35,
-      "bxt_yest": -0.73,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 3,
-      "ath": 130.14,
-      "pct_to_ath": 7.3
-    },
-    {
       "sym": "LLYVA",
       "name": "Liberty Live Holdings, Inc. Series A Liberty Live Group",
       "mcap": 9,
@@ -1282,6 +1265,23 @@
       "bxt_streak": 1,
       "ath": 99.82,
       "pct_to_ath": 4.8
+    },
+    {
+      "sym": "ALV",
+      "name": "Autoliv, Inc.",
+      "mcap": 9,
+      "price": 121.25,
+      "basis": 109.77,
+      "bxt_today": 1.35,
+      "bxt_yest": -0.73,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 130.14,
+      "pct_to_ath": 7.3
     },
     {
       "sym": "REXR",
@@ -1420,23 +1420,6 @@
       "pct_to_ath": 190.2
     },
     {
-      "sym": "CUZ",
-      "name": "Cousins Properties Incorporated",
-      "mcap": 4,
-      "price": 26.79,
-      "basis": 27.42,
-      "bxt_today": 1.36,
-      "bxt_yest": -0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 115.03,
-      "pct_to_ath": 329.4
-    },
-    {
       "sym": "WSC",
       "name": "WillScot Holdings Corporation",
       "mcap": 4,
@@ -1452,6 +1435,23 @@
       "bxt_streak": 37,
       "ath": 53.46,
       "pct_to_ath": 128.5
+    },
+    {
+      "sym": "CUZ",
+      "name": "Cousins Properties Incorporated",
+      "mcap": 4,
+      "price": 26.79,
+      "basis": 27.42,
+      "bxt_today": 1.36,
+      "bxt_yest": -0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 115.03,
+      "pct_to_ath": 329.4
     },
     {
       "sym": "SKT",
@@ -1711,6 +1711,23 @@
       "pct_to_ath": 85.7
     },
     {
+      "sym": "CCK",
+      "name": "Crown Holdings, Inc.",
+      "mcap": 11,
+      "price": 101.09,
+      "basis": 94.46,
+      "bxt_today": -0.07,
+      "bxt_yest": 1.29,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 130.42,
+      "pct_to_ath": 29.0
+    },
+    {
       "sym": "ENSG",
       "name": "The Ensign Group, Inc.",
       "mcap": 10,
@@ -1899,15 +1916,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T00:40:00.214967+00:00",
+    "compared_to": "2026-05-07T00:45:37.777783+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "CCK",
         "name": "Crown Holdings, Inc.",
@@ -1918,6 +1934,7 @@
         "ath": 130.42,
         "pct_to_ath": 29.0
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }

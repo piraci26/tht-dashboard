@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T00:45:28.605528+00:00",
+  "updated_at": "2026-05-07T00:51:08.543370+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 16.99,
-  "scanned_count": 1510,
+  "scan_seconds": 8.84,
+  "scanned_count": 1508,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -719,23 +719,6 @@
       "pct_to_ath": 11.5
     },
     {
-      "sym": "PFGC",
-      "name": "Performance Food Group Company",
-      "mcap": 15,
-      "price": 92.88,
-      "basis": 90.92,
-      "bxt_today": 1.26,
-      "bxt_yest": -4.11,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": 10,
-      "ath": 109.05,
-      "pct_to_ath": 17.4
-    },
-    {
       "sym": "CSL",
       "name": "Carlisle Companies Incorporated",
       "mcap": 15,
@@ -751,6 +734,23 @@
       "bxt_streak": null,
       "ath": 481.26,
       "pct_to_ath": 28.7
+    },
+    {
+      "sym": "PFGC",
+      "name": "Performance Food Group Company",
+      "mcap": 15,
+      "price": 92.88,
+      "basis": 90.92,
+      "bxt_today": 1.26,
+      "bxt_yest": -4.11,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": 10,
+      "ath": 109.05,
+      "pct_to_ath": 17.4
     },
     {
       "sym": "FNF",
@@ -1110,21 +1110,21 @@
       "pct_to_ath": 17.6
     },
     {
-      "sym": "VFC",
-      "name": "V.F. Corporation",
+      "sym": "MBLY",
+      "name": "Mobileye Global Inc.",
       "mcap": 8,
-      "price": 19.41,
-      "basis": 18.8,
-      "bxt_today": -0.28,
-      "bxt_yest": -1.5,
+      "price": 9.07,
+      "basis": 8.79,
+      "bxt_today": 17.87,
+      "bxt_yest": 15.36,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 1,
+      "fvb_streak": 2,
       "bxt_streak": null,
-      "ath": 100.25,
-      "pct_to_ath": 416.5
+      "ath": 48.11,
+      "pct_to_ath": 430.4
     },
     {
       "sym": "UEC",
@@ -1144,38 +1144,21 @@
       "pct_to_ath": 29.0
     },
     {
-      "sym": "MBLY",
-      "name": "Mobileye Global Inc.",
+      "sym": "VFC",
+      "name": "V.F. Corporation",
       "mcap": 8,
-      "price": 9.07,
-      "basis": 8.79,
-      "bxt_today": 17.87,
-      "bxt_yest": 15.36,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 48.11,
-      "pct_to_ath": 430.4
-    },
-    {
-      "sym": "AN",
-      "name": "AutoNation, Inc.",
-      "mcap": 7,
-      "price": 204.77,
-      "basis": 202.42,
-      "bxt_today": 3.52,
-      "bxt_yest": 3.14,
+      "price": 19.41,
+      "basis": 18.8,
+      "bxt_today": -0.28,
+      "bxt_yest": -1.5,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
       "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 228.92,
-      "pct_to_ath": 11.8
+      "ath": 100.25,
+      "pct_to_ath": 416.5
     },
     {
       "sym": "BIRK",
@@ -1195,21 +1178,21 @@
       "pct_to_ath": 63.6
     },
     {
-      "sym": "PB",
-      "name": "Prosperity Bancshares, Inc.",
+      "sym": "AN",
+      "name": "AutoNation, Inc.",
       "mcap": 7,
-      "price": 70.1,
-      "basis": 69.65,
-      "bxt_today": 3.28,
-      "bxt_yest": 1.54,
+      "price": 204.77,
+      "basis": 202.42,
+      "bxt_today": 3.52,
+      "bxt_yest": 3.14,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": false,
       "bxt_r": false,
-      "fvb_streak": 3,
+      "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 86.76,
-      "pct_to_ath": 23.8
+      "ath": 228.92,
+      "pct_to_ath": 11.8
     },
     {
       "sym": "HQY",
@@ -1227,6 +1210,23 @@
       "bxt_streak": null,
       "ath": 116.65,
       "pct_to_ath": 40.1
+    },
+    {
+      "sym": "PB",
+      "name": "Prosperity Bancshares, Inc.",
+      "mcap": 7,
+      "price": 70.1,
+      "basis": 69.65,
+      "bxt_today": 3.28,
+      "bxt_yest": 1.54,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 86.76,
+      "pct_to_ath": 23.8
     },
     {
       "sym": "TEX",
@@ -1331,23 +1331,6 @@
       "pct_to_ath": 993.7
     },
     {
-      "sym": "ESNT",
-      "name": "Essent Group Ltd. Common Shares",
-      "mcap": 6,
-      "price": 61.41,
-      "basis": 61.02,
-      "bxt_today": 0.63,
-      "bxt_yest": -0.91,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 1,
-      "ath": 67.09,
-      "pct_to_ath": 9.2
-    },
-    {
       "sym": "BRKR",
       "name": "Bruker Corporation",
       "mcap": 6,
@@ -1363,6 +1346,23 @@
       "bxt_streak": 13,
       "ath": 94.86,
       "pct_to_ath": 124.3
+    },
+    {
+      "sym": "ESNT",
+      "name": "Essent Group Ltd. Common Shares",
+      "mcap": 6,
+      "price": 61.41,
+      "basis": 61.02,
+      "bxt_today": 0.63,
+      "bxt_yest": -0.91,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 1,
+      "ath": 67.09,
+      "pct_to_ath": 9.2
     },
     {
       "sym": "VSEC",
@@ -2508,23 +2508,6 @@
       "pct_to_ath": 0.8
     },
     {
-      "sym": "RF",
-      "name": "Regions Financial Corporation",
-      "mcap": 24,
-      "price": 28.21,
-      "basis": 27.76,
-      "bxt_today": 0.1,
-      "bxt_yest": -0.72,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 39.15,
-      "pct_to_ath": 38.8
-    },
-    {
       "sym": "FIS",
       "name": "Fidelity National Information Services, Inc.",
       "mcap": 24,
@@ -2540,6 +2523,23 @@
       "bxt_streak": 16,
       "ath": 158.21,
       "pct_to_ath": 244.2
+    },
+    {
+      "sym": "RF",
+      "name": "Regions Financial Corporation",
+      "mcap": 24,
+      "price": 28.21,
+      "basis": 27.76,
+      "bxt_today": 0.1,
+      "bxt_yest": -0.72,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 39.15,
+      "pct_to_ath": 38.8
     },
     {
       "sym": "ATI",
@@ -2865,23 +2865,6 @@
       "pct_to_ath": 159.4
     },
     {
-      "sym": "LLYVK",
-      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
-      "mcap": 9,
-      "price": 97.51,
-      "basis": 91.4,
-      "bxt_today": 1.5,
-      "bxt_yest": -0.65,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 1,
-      "ath": 102.62,
-      "pct_to_ath": 5.2
-    },
-    {
       "sym": "AYI",
       "name": "Acuity Inc.",
       "mcap": 9,
@@ -2899,21 +2882,21 @@
       "pct_to_ath": 28.5
     },
     {
-      "sym": "GDS",
-      "name": "GDS Holdings Limited ADS",
+      "sym": "LLYVK",
+      "name": "Liberty Live Holdings, Inc. Series C Liberty Live Group",
       "mcap": 9,
-      "price": 46.01,
-      "basis": 42.84,
-      "bxt_today": 0.94,
-      "bxt_yest": -1.32,
+      "price": 97.51,
+      "basis": 91.4,
+      "bxt_today": 1.5,
+      "bxt_yest": -0.65,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 9,
-      "ath": 116.76,
-      "pct_to_ath": 153.8
+      "bxt_streak": 1,
+      "ath": 102.62,
+      "pct_to_ath": 5.2
     },
     {
       "sym": "LLYVA",
@@ -2931,6 +2914,23 @@
       "bxt_streak": 1,
       "ath": 99.82,
       "pct_to_ath": 4.8
+    },
+    {
+      "sym": "GDS",
+      "name": "GDS Holdings Limited ADS",
+      "mcap": 9,
+      "price": 46.01,
+      "basis": 42.84,
+      "bxt_today": 0.94,
+      "bxt_yest": -1.32,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 9,
+      "ath": 116.76,
+      "pct_to_ath": 153.8
     },
     {
       "sym": "CRL",
@@ -3052,23 +3052,6 @@
       "pct_to_ath": 993.7
     },
     {
-      "sym": "ESNT",
-      "name": "Essent Group Ltd. Common Shares",
-      "mcap": 6,
-      "price": 61.41,
-      "basis": 61.02,
-      "bxt_today": 0.63,
-      "bxt_yest": -0.91,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": 1,
-      "ath": 67.09,
-      "pct_to_ath": 9.2
-    },
-    {
       "sym": "BRKR",
       "name": "Bruker Corporation",
       "mcap": 6,
@@ -3084,6 +3067,23 @@
       "bxt_streak": 13,
       "ath": 94.86,
       "pct_to_ath": 124.3
+    },
+    {
+      "sym": "ESNT",
+      "name": "Essent Group Ltd. Common Shares",
+      "mcap": 6,
+      "price": 61.41,
+      "basis": 61.02,
+      "bxt_today": 0.63,
+      "bxt_yest": -0.91,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": 1,
+      "ath": 67.09,
+      "pct_to_ath": 9.2
     },
     {
       "sym": "HWC",
@@ -3871,7 +3871,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T00:39:40.013911+00:00",
+    "compared_to": "2026-05-07T00:45:28.605528+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
