@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T07:07:55.117775+00:00",
+  "updated_at": "2026-05-07T07:13:21.164168+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 7.71,
+  "scan_seconds": 6.85,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -141,23 +141,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "BLLN",
-      "name": "BillionToOne, Inc.",
-      "mcap": 4,
-      "price": 81.4,
-      "basis": 80.76,
-      "bxt_today": -3.75,
-      "bxt_yest": -8.35,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 7,
-      "bxt_streak": null,
-      "ath": 138.7,
-      "pct_to_ath": 70.4
-    },
-    {
       "sym": "SMG",
       "name": "Scotts Miracle-Gro Company (The)",
       "mcap": 4,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 254.34,
       "pct_to_ath": 304.7
+    },
+    {
+      "sym": "BLLN",
+      "name": "BillionToOne, Inc.",
+      "mcap": 4,
+      "price": 81.4,
+      "basis": 80.76,
+      "bxt_today": -3.75,
+      "bxt_yest": -8.35,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": null,
+      "ath": 138.7,
+      "pct_to_ath": 70.4
     }
   ],
   "fvb_red": [
@@ -1065,23 +1065,6 @@
       "pct_to_ath": 13.5
     },
     {
-      "sym": "BYD",
-      "name": "Boyd Gaming Corporation",
-      "mcap": 6,
-      "price": 85.15,
-      "basis": 79.91,
-      "bxt_today": -0.37,
-      "bxt_yest": 1.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 89.96,
-      "pct_to_ath": 5.6
-    },
-    {
       "sym": "NXST",
       "name": "Nexstar Media Group, Inc.",
       "mcap": 6,
@@ -1097,6 +1080,23 @@
       "bxt_streak": 11,
       "ath": 254.3,
       "pct_to_ath": 28.9
+    },
+    {
+      "sym": "BYD",
+      "name": "Boyd Gaming Corporation",
+      "mcap": 6,
+      "price": 85.15,
+      "basis": 79.91,
+      "bxt_today": -0.37,
+      "bxt_yest": 1.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 89.96,
+      "pct_to_ath": 5.6
     },
     {
       "sym": "PRIM",
@@ -1236,7 +1236,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T07:02:23.922065+00:00",
+    "compared_to": "2026-05-07T07:07:55.117775+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
