@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T07:13:21.164168+00:00",
+  "updated_at": "2026-05-07T07:18:58.630241+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.85,
-  "scanned_count": 1511,
+  "scan_seconds": 6.87,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -141,23 +141,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "SMG",
-      "name": "Scotts Miracle-Gro Company (The)",
-      "mcap": 4,
-      "price": 62.85,
-      "basis": 61.83,
-      "bxt_today": 9.82,
-      "bxt_yest": 9.6,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 254.34,
-      "pct_to_ath": 304.7
-    },
-    {
       "sym": "BLLN",
       "name": "BillionToOne, Inc.",
       "mcap": 4,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 138.7,
       "pct_to_ath": 70.4
+    },
+    {
+      "sym": "SMG",
+      "name": "Scotts Miracle-Gro Company (The)",
+      "mcap": 4,
+      "price": 62.85,
+      "basis": 61.83,
+      "bxt_today": 9.82,
+      "bxt_yest": 9.6,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 254.34,
+      "pct_to_ath": 304.7
     }
   ],
   "fvb_red": [
@@ -1065,23 +1065,6 @@
       "pct_to_ath": 13.5
     },
     {
-      "sym": "NXST",
-      "name": "Nexstar Media Group, Inc.",
-      "mcap": 6,
-      "price": 197.21,
-      "basis": 187.51,
-      "bxt_today": -0.27,
-      "bxt_yest": 2.33,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 254.3,
-      "pct_to_ath": 28.9
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -1097,6 +1080,23 @@
       "bxt_streak": 20,
       "ath": 89.96,
       "pct_to_ath": 5.6
+    },
+    {
+      "sym": "NXST",
+      "name": "Nexstar Media Group, Inc.",
+      "mcap": 6,
+      "price": 197.21,
+      "basis": 187.51,
+      "bxt_today": -0.27,
+      "bxt_yest": 2.33,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 254.3,
+      "pct_to_ath": 28.9
     },
     {
       "sym": "PRIM",
@@ -1236,7 +1236,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T07:07:55.117775+00:00",
+    "compared_to": "2026-05-07T07:13:21.164168+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
