@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T02:05:51.968892+00:00",
+  "updated_at": "2026-05-07T02:11:41.946984+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.22,
-  "scanned_count": 1506,
+  "scan_seconds": 11.87,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -362,23 +362,6 @@
       "pct_to_ath": 83.5
     },
     {
-      "sym": "SMG",
-      "name": "Scotts Miracle-Gro Company (The)",
-      "mcap": 4,
-      "price": 62.85,
-      "basis": 61.69,
-      "bxt_today": 8.87,
-      "bxt_yest": 8.16,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 254.34,
-      "pct_to_ath": 304.7
-    },
-    {
       "sym": "BLLN",
       "name": "BillionToOne, Inc.",
       "mcap": 4,
@@ -394,6 +377,23 @@
       "bxt_streak": null,
       "ath": 138.7,
       "pct_to_ath": 70.4
+    },
+    {
+      "sym": "SMG",
+      "name": "Scotts Miracle-Gro Company (The)",
+      "mcap": 4,
+      "price": 62.85,
+      "basis": 61.69,
+      "bxt_today": 8.87,
+      "bxt_yest": 8.16,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 254.34,
+      "pct_to_ath": 304.7
     }
   ],
   "fvb_red": [
@@ -1012,23 +1012,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "CUZ",
-      "name": "Cousins Properties Incorporated",
-      "mcap": 4,
-      "price": 26.79,
-      "basis": 27.42,
-      "bxt_today": 1.36,
-      "bxt_yest": -0.02,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 2,
-      "ath": 115.03,
-      "pct_to_ath": 329.4
-    },
-    {
       "sym": "WSC",
       "name": "WillScot Holdings Corporation",
       "mcap": 4,
@@ -1044,6 +1027,23 @@
       "bxt_streak": 37,
       "ath": 53.46,
       "pct_to_ath": 128.5
+    },
+    {
+      "sym": "CUZ",
+      "name": "Cousins Properties Incorporated",
+      "mcap": 4,
+      "price": 26.79,
+      "basis": 27.42,
+      "bxt_today": 1.36,
+      "bxt_yest": -0.02,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 2,
+      "ath": 115.03,
+      "pct_to_ath": 329.4
     },
     {
       "sym": "SKT",
@@ -1163,8 +1163,8 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 14,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 134.99,
+      "pct_to_ath": 26.6
     },
     {
       "sym": "PEG",
@@ -1422,23 +1422,6 @@
       "pct_to_ath": 213.4
     },
     {
-      "sym": "CRC",
-      "name": "California Resources Corporation",
-      "mcap": 5,
-      "price": 61.46,
-      "basis": 59.23,
-      "bxt_today": -1.85,
-      "bxt_yest": 3.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 71.98,
-      "pct_to_ath": 17.1
-    },
-    {
       "sym": "MGY",
       "name": "Magnolia Oil & Gas Corporation",
       "mcap": 5,
@@ -1508,7 +1491,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T02:00:25.259778+00:00",
+    "compared_to": "2026-05-07T02:05:51.968892+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -1516,6 +1499,17 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "CRC",
+        "name": "California Resources Corporation",
+        "mcap": 5,
+        "price": 61.46,
+        "basis": 59.23,
+        "bxt_today": -1.85,
+        "ath": 71.98,
+        "pct_to_ath": 17.1
+      }
+    ]
   }
 }
