@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T00:22:51.954908+00:00",
+  "updated_at": "2026-05-07T00:28:41.537509+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.3,
-  "scanned_count": 1510,
+  "scan_seconds": 9.53,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -1437,23 +1437,6 @@
       "pct_to_ath": 128.5
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.85,
-      "basis": 33.82,
-      "bxt_today": 0.55,
-      "bxt_yest": -0.15,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 42.2,
-      "pct_to_ath": 14.5
-    },
-    {
       "sym": "CUZ",
       "name": "Cousins Properties Incorporated",
       "mcap": 4,
@@ -1469,6 +1452,23 @@
       "bxt_streak": 2,
       "ath": 115.03,
       "pct_to_ath": 329.4
+    },
+    {
+      "sym": "SKT",
+      "name": "Tanger Inc.",
+      "mcap": 4,
+      "price": 36.85,
+      "basis": 33.82,
+      "bxt_today": 0.55,
+      "bxt_yest": -0.15,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 14,
+      "ath": 42.2,
+      "pct_to_ath": 14.5
     },
     {
       "sym": "KRC",
@@ -1881,23 +1881,6 @@
       "pct_to_ath": 171.5
     },
     {
-      "sym": "AX",
-      "name": "Axos Financial, Inc.",
-      "mcap": 5,
-      "price": 88.03,
-      "basis": 80.7,
-      "bxt_today": -1.09,
-      "bxt_yest": 1.56,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 12,
-      "ath": 101.92,
-      "pct_to_ath": 15.8
-    },
-    {
       "sym": "NNNN",
       "name": "Anbio Biotechnology Ordinary Shares",
       "mcap": 1,
@@ -1916,7 +1899,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T00:17:07.220640+00:00",
+    "compared_to": "2026-05-07T00:22:51.954908+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
@@ -1924,6 +1907,17 @@
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "AX",
+        "name": "Axos Financial, Inc.",
+        "mcap": 5,
+        "price": 88.03,
+        "basis": 80.7,
+        "bxt_today": -1.09,
+        "ath": 101.92,
+        "pct_to_ath": 15.8
+      }
+    ]
   }
 }
