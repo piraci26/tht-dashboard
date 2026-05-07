@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T04:03:30.040414+00:00",
+  "updated_at": "2026-05-07T04:09:13.723195+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 5.89,
-  "scanned_count": 1509,
+  "scan_seconds": 11.59,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -980,6 +980,23 @@
       "pct_to_ath": 100.0
     },
     {
+      "sym": "ULTA",
+      "name": "Ulta Beauty, Inc.",
+      "mcap": 23,
+      "price": 535.1,
+      "basis": 499.11,
+      "bxt_today": -0.21,
+      "bxt_yest": 2.42,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 714.97,
+      "pct_to_ath": 33.6
+    },
+    {
       "sym": "AR",
       "name": "Antero Resources Corporation",
       "mcap": 11,
@@ -1219,15 +1236,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T03:58:04.760713+00:00",
+    "compared_to": "2026-05-07T04:03:30.040414+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "ULTA",
         "name": "Ulta Beauty, Inc.",
@@ -1238,6 +1254,7 @@
         "ath": 714.97,
         "pct_to_ath": 33.6
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
