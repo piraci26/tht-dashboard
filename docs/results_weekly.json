@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T13:24:26.780866+00:00",
+  "updated_at": "2026-05-07T13:30:06.482868+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.34,
+  "scan_seconds": 10.42,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -175,6 +175,40 @@
       "pct_to_ath": 669.8
     },
     {
+      "sym": "EQX",
+      "name": "Equinox Gold Corp. Common Shares",
+      "mcap": 12,
+      "price": 14.86,
+      "basis": 14.86,
+      "bxt_today": -11.46,
+      "bxt_yest": -12.97,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 18.96,
+      "pct_to_ath": 27.6
+    },
+    {
+      "sym": "CRL",
+      "name": "Charles River Laboratories International, Inc.",
+      "mcap": 9,
+      "price": 189.3,
+      "basis": 182.69,
+      "bxt_today": 1.57,
+      "bxt_yest": -2.96,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 13,
+      "bxt_streak": 13,
+      "ath": 460.21,
+      "pct_to_ath": 143.1
+    },
+    {
       "sym": "AAL",
       "name": "American Airlines Group Inc.",
       "mcap": 9,
@@ -311,23 +345,6 @@
       "bxt_streak": null,
       "ath": 151.88,
       "pct_to_ath": 263.4
-    },
-    {
-      "sym": "TREX",
-      "name": "Trex Company, Inc.",
-      "mcap": 4,
-      "price": 39.91,
-      "basis": 39.98,
-      "bxt_today": 12.16,
-      "bxt_yest": 11.85,
-      "fvb_g": false,
-      "fvb_r": true,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 140.98,
-      "pct_to_ath": 253.2
     },
     {
       "sym": "AAUC",
@@ -587,23 +604,6 @@
       "pct_to_ath": 5.2
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 226.82,
-      "basis": 220.75,
-      "bxt_today": 2.59,
-      "bxt_yest": -0.48,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 10.6
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -619,6 +619,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 114.5
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 226.82,
+      "basis": 220.75,
+      "bxt_today": 2.59,
+      "bxt_yest": -0.48,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 10.6
     },
     {
       "sym": "NXT",
@@ -740,21 +757,21 @@
       "pct_to_ath": 28.5
     },
     {
-      "sym": "AAL",
-      "name": "American Airlines Group Inc.",
+      "sym": "CRL",
+      "name": "Charles River Laboratories International, Inc.",
       "mcap": 9,
-      "price": 12.94,
-      "basis": 12.88,
-      "bxt_today": 2.53,
-      "bxt_yest": -0.28,
+      "price": 189.3,
+      "basis": 182.69,
+      "bxt_today": 1.57,
+      "bxt_yest": -2.96,
       "fvb_g": true,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": 13,
       "bxt_streak": 13,
-      "ath": 63.27,
-      "pct_to_ath": 388.9
+      "ath": 460.21,
+      "pct_to_ath": 143.1
     },
     {
       "sym": "KRYS",
@@ -772,6 +789,23 @@
       "bxt_streak": 10,
       "ath": 303.0,
       "pct_to_ath": 4.8
+    },
+    {
+      "sym": "AAL",
+      "name": "American Airlines Group Inc.",
+      "mcap": 9,
+      "price": 12.94,
+      "basis": 12.88,
+      "bxt_today": 2.53,
+      "bxt_yest": -0.28,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 13,
+      "bxt_streak": 13,
+      "ath": 63.27,
+      "pct_to_ath": 388.9
     },
     {
       "sym": "IBRX",
@@ -913,9 +947,9 @@
       "sym": "LEU",
       "name": "Centrus Energy Corp.",
       "mcap": 5,
-      "price": 231.32,
-      "basis": 228.52,
-      "bxt_today": 0.27,
+      "price": 232.0,
+      "basis": 228.55,
+      "bxt_today": 0.36,
       "bxt_yest": -2.94,
       "fvb_g": false,
       "fvb_r": false,
@@ -924,7 +958,7 @@
       "fvb_streak": null,
       "bxt_streak": 26,
       "ath": 7046.7,
-      "pct_to_ath": 2946.3
+      "pct_to_ath": 2937.4
     },
     {
       "sym": "LAZ",
@@ -1272,9 +1306,9 @@
       "sym": "VAL",
       "name": "Valaris Limited Common Shares",
       "mcap": 6,
-      "price": 92.8,
-      "basis": 83.0,
-      "bxt_today": -1.19,
+      "price": 92.31,
+      "basis": 82.97,
+      "bxt_today": -1.44,
       "bxt_yest": 2.4,
       "fvb_g": false,
       "fvb_r": false,
@@ -1283,7 +1317,7 @@
       "fvb_streak": null,
       "bxt_streak": 15,
       "ath": 105.35,
-      "pct_to_ath": 13.5
+      "pct_to_ath": 14.1
     },
     {
       "sym": "KVYO",
@@ -1389,12 +1423,55 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T13:18:52.147005+00:00",
-    "fvb_green_added": [],
+    "compared_to": "2026-05-07T13:24:26.780866+00:00",
+    "fvb_green_added": [
+      {
+        "sym": "EQX",
+        "name": "Equinox Gold Corp. Common Shares",
+        "mcap": 12,
+        "price": 14.86,
+        "basis": 14.86,
+        "bxt_today": -11.46,
+        "ath": 18.96,
+        "pct_to_ath": 27.6
+      },
+      {
+        "sym": "CRL",
+        "name": "Charles River Laboratories International, Inc.",
+        "mcap": 9,
+        "price": 189.3,
+        "basis": 182.69,
+        "bxt_today": 1.57,
+        "ath": 460.21,
+        "pct_to_ath": 143.1
+      }
+    ],
     "fvb_green_removed": [],
     "fvb_red_added": [],
-    "fvb_red_removed": [],
-    "bxt_green_added": [],
+    "fvb_red_removed": [
+      {
+        "sym": "TREX",
+        "name": "Trex Company, Inc.",
+        "mcap": 4,
+        "price": 39.91,
+        "basis": 39.98,
+        "bxt_today": 12.16,
+        "ath": 140.98,
+        "pct_to_ath": 253.2
+      }
+    ],
+    "bxt_green_added": [
+      {
+        "sym": "CRL",
+        "name": "Charles River Laboratories International, Inc.",
+        "mcap": 9,
+        "price": 189.3,
+        "basis": 182.69,
+        "bxt_today": 1.57,
+        "ath": 460.21,
+        "pct_to_ath": 143.1
+      }
+    ],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
