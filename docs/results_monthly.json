@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T05:05:14.553012+00:00",
+  "updated_at": "2026-05-07T05:10:44.773186+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.47,
-  "scanned_count": 1508,
+  "scan_seconds": 10.81,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -141,23 +141,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "BLLN",
-      "name": "BillionToOne, Inc.",
-      "mcap": 4,
-      "price": 81.4,
-      "basis": 80.76,
-      "bxt_today": -3.75,
-      "bxt_yest": -8.35,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 7,
-      "bxt_streak": null,
-      "ath": 138.7,
-      "pct_to_ath": 70.4
-    },
-    {
       "sym": "SMG",
       "name": "Scotts Miracle-Gro Company (The)",
       "mcap": 4,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 254.34,
       "pct_to_ath": 304.7
+    },
+    {
+      "sym": "BLLN",
+      "name": "BillionToOne, Inc.",
+      "mcap": 4,
+      "price": 81.4,
+      "basis": 80.76,
+      "bxt_today": -3.75,
+      "bxt_yest": -8.35,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": null,
+      "ath": 138.7,
+      "pct_to_ath": 70.4
     }
   ],
   "fvb_red": [
@@ -313,6 +313,23 @@
       "pct_to_ath": 159.4
     },
     {
+      "sym": "W",
+      "name": "Wayfair Inc.",
+      "mcap": 9,
+      "price": 66.0,
+      "basis": 66.42,
+      "bxt_today": 0.33,
+      "bxt_yest": 2.31,
+      "fvb_g": false,
+      "fvb_r": true,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 369.0,
+      "pct_to_ath": 459.1
+    },
+    {
       "sym": "SAIL",
       "name": "SailPoint, Inc.",
       "mcap": 7,
@@ -398,6 +415,23 @@
       "bxt_streak": 49,
       "ath": 223.14,
       "pct_to_ath": 163.7
+    },
+    {
+      "sym": "UNP",
+      "name": "Union Pacific Corporation",
+      "mcap": 159,
+      "price": 268.23,
+      "basis": 232.76,
+      "bxt_today": 0.96,
+      "bxt_yest": -1.75,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 15,
+      "ath": 278.94,
+      "pct_to_ath": 4.0
     },
     {
       "sym": "COP",
@@ -1031,23 +1065,6 @@
       "pct_to_ath": 13.5
     },
     {
-      "sym": "NXST",
-      "name": "Nexstar Media Group, Inc.",
-      "mcap": 6,
-      "price": 197.21,
-      "basis": 187.51,
-      "bxt_today": -0.27,
-      "bxt_yest": 2.33,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 254.3,
-      "pct_to_ath": 28.9
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -1063,6 +1080,23 @@
       "bxt_streak": 20,
       "ath": 89.96,
       "pct_to_ath": 5.6
+    },
+    {
+      "sym": "NXST",
+      "name": "Nexstar Media Group, Inc.",
+      "mcap": 6,
+      "price": 197.21,
+      "basis": 187.51,
+      "bxt_today": -0.27,
+      "bxt_yest": 2.33,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 254.3,
+      "pct_to_ath": 28.9
     },
     {
       "sym": "PRIM",
@@ -1202,11 +1236,10 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T04:59:43.069027+00:00",
+    "compared_to": "2026-05-07T05:05:14.553012+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [],
-    "fvb_red_removed": [
+    "fvb_red_added": [
       {
         "sym": "W",
         "name": "Wayfair Inc.",
@@ -1218,8 +1251,8 @@
         "pct_to_ath": 459.1
       }
     ],
-    "bxt_green_added": [],
-    "bxt_green_removed": [
+    "fvb_red_removed": [],
+    "bxt_green_added": [
       {
         "sym": "UNP",
         "name": "Union Pacific Corporation",
@@ -1231,6 +1264,7 @@
         "pct_to_ath": 4.0
       }
     ],
+    "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
