@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T08:31:17.016497+00:00",
+  "updated_at": "2026-05-07T08:37:45.455674+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 8.77,
+  "scan_seconds": 11.61,
   "scanned_count": 1510,
   "fvb_green": [
     {
@@ -141,23 +141,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "SMG",
-      "name": "Scotts Miracle-Gro Company (The)",
-      "mcap": 4,
-      "price": 62.85,
-      "basis": 61.83,
-      "bxt_today": 9.82,
-      "bxt_yest": 9.6,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 254.34,
-      "pct_to_ath": 304.7
-    },
-    {
       "sym": "BLLN",
       "name": "BillionToOne, Inc.",
       "mcap": 4,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 138.7,
       "pct_to_ath": 70.4
+    },
+    {
+      "sym": "SMG",
+      "name": "Scotts Miracle-Gro Company (The)",
+      "mcap": 4,
+      "price": 62.85,
+      "basis": 61.83,
+      "bxt_today": 9.82,
+      "bxt_yest": 9.6,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 254.34,
+      "pct_to_ath": 304.7
     }
   ],
   "fvb_red": [
@@ -1133,23 +1133,6 @@
       "pct_to_ath": 213.4
     },
     {
-      "sym": "CRC",
-      "name": "California Resources Corporation",
-      "mcap": 5,
-      "price": 61.46,
-      "basis": 59.23,
-      "bxt_today": -1.85,
-      "bxt_yest": 3.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 71.98,
-      "pct_to_ath": 17.1
-    },
-    {
       "sym": "MGY",
       "name": "Magnolia Oil & Gas Corporation",
       "mcap": 5,
@@ -1165,6 +1148,23 @@
       "bxt_streak": 16,
       "ath": 32.76,
       "pct_to_ath": 14.3
+    },
+    {
+      "sym": "CRC",
+      "name": "California Resources Corporation",
+      "mcap": 5,
+      "price": 61.46,
+      "basis": 59.23,
+      "bxt_today": -1.85,
+      "bxt_yest": 3.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 71.98,
+      "pct_to_ath": 17.1
     },
     {
       "sym": "CNX",
@@ -1236,7 +1236,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T08:25:48.308006+00:00",
+    "compared_to": "2026-05-07T08:31:17.016497+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
