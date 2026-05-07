@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T10:37:04.110957+00:00",
+  "updated_at": "2026-05-07T10:42:45.257278+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.71,
-  "scanned_count": 1511,
+  "scan_seconds": 6.85,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -124,23 +124,6 @@
       "pct_to_ath": 21.2
     },
     {
-      "sym": "ARCC",
-      "name": "Ares Capital Corporation",
-      "mcap": 14,
-      "price": 19.16,
-      "basis": 19.13,
-      "bxt_today": 10.45,
-      "bxt_yest": 8.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 23.84,
-      "pct_to_ath": 24.4
-    },
-    {
       "sym": "FNF",
       "name": "Fidelity National Financial, Inc.",
       "mcap": 14,
@@ -156,6 +139,23 @@
       "bxt_streak": null,
       "ath": 64.34,
       "pct_to_ath": 25.4
+    },
+    {
+      "sym": "ARCC",
+      "name": "Ares Capital Corporation",
+      "mcap": 14,
+      "price": 19.16,
+      "basis": 19.13,
+      "bxt_today": 10.45,
+      "bxt_yest": 8.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 23.84,
+      "pct_to_ath": 24.4
     },
     {
       "sym": "U",
@@ -587,23 +587,6 @@
       "pct_to_ath": 5.2
     },
     {
-      "sym": "PKG",
-      "name": "Packaging Corporation of America",
-      "mcap": 20,
-      "price": 226.82,
-      "basis": 220.75,
-      "bxt_today": 2.59,
-      "bxt_yest": -0.48,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 8,
-      "ath": 250.82,
-      "pct_to_ath": 10.6
-    },
-    {
       "sym": "TU",
       "name": "Telus Corporation Ordinary Shares",
       "mcap": 20,
@@ -619,6 +602,23 @@
       "bxt_streak": 7,
       "ath": 27.5,
       "pct_to_ath": 114.5
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 226.82,
+      "basis": 220.75,
+      "bxt_today": 2.59,
+      "bxt_yest": -0.48,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 8,
+      "ath": 250.82,
+      "pct_to_ath": 10.6
     },
     {
       "sym": "NXT",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T10:30:57.790970+00:00",
+    "compared_to": "2026-05-07T10:37:04.110957+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
