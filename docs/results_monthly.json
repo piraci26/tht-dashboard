@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T01:48:59.390097+00:00",
+  "updated_at": "2026-05-07T01:54:46.504226+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.24,
-  "scanned_count": 1510,
+  "scan_seconds": 25.39,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -362,23 +362,6 @@
       "pct_to_ath": 83.5
     },
     {
-      "sym": "BLLN",
-      "name": "BillionToOne, Inc.",
-      "mcap": 4,
-      "price": 81.4,
-      "basis": 80.76,
-      "bxt_today": -3.75,
-      "bxt_yest": -8.35,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 7,
-      "bxt_streak": null,
-      "ath": 138.7,
-      "pct_to_ath": 70.4
-    },
-    {
       "sym": "SMG",
       "name": "Scotts Miracle-Gro Company (The)",
       "mcap": 4,
@@ -394,6 +377,23 @@
       "bxt_streak": null,
       "ath": 254.34,
       "pct_to_ath": 304.7
+    },
+    {
+      "sym": "BLLN",
+      "name": "BillionToOne, Inc.",
+      "mcap": 4,
+      "price": 81.4,
+      "basis": 80.76,
+      "bxt_today": -3.75,
+      "bxt_yest": -8.35,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": null,
+      "ath": 138.7,
+      "pct_to_ath": 70.4
     }
   ],
   "fvb_red": [
@@ -1012,23 +1012,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
-      "mcap": 4,
-      "price": 23.4,
-      "basis": 25.59,
-      "bxt_today": 1.43,
-      "bxt_yest": -3.0,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 53.46,
-      "pct_to_ath": 128.5
-    },
-    {
       "sym": "CUZ",
       "name": "Cousins Properties Incorporated",
       "mcap": 4,
@@ -1044,6 +1027,23 @@
       "bxt_streak": 2,
       "ath": 115.03,
       "pct_to_ath": 329.4
+    },
+    {
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
+      "mcap": 4,
+      "price": 23.4,
+      "basis": 25.59,
+      "bxt_today": 1.43,
+      "bxt_yest": -3.0,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 53.46,
+      "pct_to_ath": 128.5
     },
     {
       "sym": "SKT",
@@ -1371,23 +1371,6 @@
       "pct_to_ath": 13.5
     },
     {
-      "sym": "NXST",
-      "name": "Nexstar Media Group, Inc.",
-      "mcap": 6,
-      "price": 197.21,
-      "basis": 187.61,
-      "bxt_today": -0.05,
-      "bxt_yest": 2.79,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 254.3,
-      "pct_to_ath": 28.9
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -1403,6 +1386,23 @@
       "bxt_streak": 20,
       "ath": 89.96,
       "pct_to_ath": 5.6
+    },
+    {
+      "sym": "NXST",
+      "name": "Nexstar Media Group, Inc.",
+      "mcap": 6,
+      "price": 197.21,
+      "basis": 187.61,
+      "bxt_today": -0.05,
+      "bxt_yest": 2.79,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 254.3,
+      "pct_to_ath": 28.9
     },
     {
       "sym": "KVYO",
@@ -1508,7 +1508,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T01:43:28.613073+00:00",
+    "compared_to": "2026-05-07T01:48:59.390097+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
