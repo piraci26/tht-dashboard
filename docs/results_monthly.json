@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T06:46:07.772459+00:00",
+  "updated_at": "2026-05-07T06:51:32.688854+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.84,
-  "scanned_count": 1510,
+  "scan_seconds": 6.33,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -141,23 +141,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "BLLN",
-      "name": "BillionToOne, Inc.",
-      "mcap": 4,
-      "price": 81.4,
-      "basis": 80.76,
-      "bxt_today": -3.75,
-      "bxt_yest": -8.35,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 7,
-      "bxt_streak": null,
-      "ath": 138.7,
-      "pct_to_ath": 70.4
-    },
-    {
       "sym": "SMG",
       "name": "Scotts Miracle-Gro Company (The)",
       "mcap": 4,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 254.34,
       "pct_to_ath": 304.7
+    },
+    {
+      "sym": "BLLN",
+      "name": "BillionToOne, Inc.",
+      "mcap": 4,
+      "price": 81.4,
+      "basis": 80.76,
+      "bxt_today": -3.75,
+      "bxt_yest": -8.35,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 7,
+      "bxt_streak": null,
+      "ath": 138.7,
+      "pct_to_ath": 70.4
     }
   ],
   "fvb_red": [
@@ -566,8 +566,8 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 6,
-      "ath": 131.72,
-      "pct_to_ath": 4.5
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "TPG",
@@ -859,6 +859,23 @@
       "bxt_streak": 2,
       "ath": 692.0,
       "pct_to_ath": 34.6
+    },
+    {
+      "sym": "CME",
+      "name": "CME Group Inc.",
+      "mcap": 104,
+      "price": 288.34,
+      "basis": 273.55,
+      "bxt_today": -0.55,
+      "bxt_yest": 2.27,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 21,
+      "ath": 329.16,
+      "pct_to_ath": 14.2
     },
     {
       "sym": "WM",
@@ -1219,26 +1236,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T06:40:42.465746+00:00",
-    "fvb_green_added": [
-      {
-        "sym": "SARO",
-        "name": "StandardAero, Inc.",
-        "mcap": 9,
-        "price": 26.26,
-        "basis": 25.68,
-        "bxt_today": 11.15,
-        "ath": 34.48,
-        "pct_to_ath": 31.3
-      }
-    ],
+    "compared_to": "2026-05-07T06:46:07.772459+00:00",
+    "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [],
-    "bxt_red_removed": [
+    "bxt_red_added": [
       {
         "sym": "CME",
         "name": "CME Group Inc.",
@@ -1249,6 +1254,7 @@
         "ath": 329.16,
         "pct_to_ath": 14.2
       }
-    ]
+    ],
+    "bxt_red_removed": []
   }
 }
