@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T05:10:44.773186+00:00",
+  "updated_at": "2026-05-07T05:16:15.020743+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 10.81,
-  "scanned_count": 1510,
+  "scan_seconds": 11.59,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -141,23 +141,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "SMG",
-      "name": "Scotts Miracle-Gro Company (The)",
-      "mcap": 4,
-      "price": 62.85,
-      "basis": 61.83,
-      "bxt_today": 9.82,
-      "bxt_yest": 9.6,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 254.34,
-      "pct_to_ath": 304.7
-    },
-    {
       "sym": "BLLN",
       "name": "BillionToOne, Inc.",
       "mcap": 4,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 138.7,
       "pct_to_ath": 70.4
+    },
+    {
+      "sym": "SMG",
+      "name": "Scotts Miracle-Gro Company (The)",
+      "mcap": 4,
+      "price": 62.85,
+      "basis": 61.83,
+      "bxt_today": 9.82,
+      "bxt_yest": 9.6,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 254.34,
+      "pct_to_ath": 304.7
     }
   ],
   "fvb_red": [
@@ -1236,34 +1236,12 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T05:05:14.553012+00:00",
+    "compared_to": "2026-05-07T05:10:44.773186+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
-    "fvb_red_added": [
-      {
-        "sym": "W",
-        "name": "Wayfair Inc.",
-        "mcap": 9,
-        "price": 66.0,
-        "basis": 66.42,
-        "bxt_today": 0.33,
-        "ath": 369.0,
-        "pct_to_ath": 459.1
-      }
-    ],
+    "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [
-      {
-        "sym": "UNP",
-        "name": "Union Pacific Corporation",
-        "mcap": 159,
-        "price": 268.23,
-        "basis": 232.76,
-        "bxt_today": 0.96,
-        "ath": 278.94,
-        "pct_to_ath": 4.0
-      }
-    ],
+    "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
     "bxt_red_removed": []
