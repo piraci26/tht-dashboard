@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T03:24:21.097783+00:00",
+  "updated_at": "2026-05-07T03:29:43.708075+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 5.79,
+  "scan_seconds": 5.8,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -1065,23 +1065,6 @@
       "pct_to_ath": 13.5
     },
     {
-      "sym": "BYD",
-      "name": "Boyd Gaming Corporation",
-      "mcap": 6,
-      "price": 85.15,
-      "basis": 79.91,
-      "bxt_today": -0.37,
-      "bxt_yest": 1.14,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 20,
-      "ath": 89.96,
-      "pct_to_ath": 5.6
-    },
-    {
       "sym": "NXST",
       "name": "Nexstar Media Group, Inc.",
       "mcap": 6,
@@ -1097,6 +1080,23 @@
       "bxt_streak": 11,
       "ath": 254.3,
       "pct_to_ath": 28.9
+    },
+    {
+      "sym": "BYD",
+      "name": "Boyd Gaming Corporation",
+      "mcap": 6,
+      "price": 85.15,
+      "basis": 79.91,
+      "bxt_today": -0.37,
+      "bxt_yest": 1.14,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 20,
+      "ath": 89.96,
+      "pct_to_ath": 5.6
     },
     {
       "sym": "PRIM",
@@ -1236,7 +1236,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T03:18:50.254318+00:00",
+    "compared_to": "2026-05-07T03:24:21.097783+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
