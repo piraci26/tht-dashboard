@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T02:28:38.351034+00:00",
+  "updated_at": "2026-05-07T02:34:02.373478+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 15.02,
-  "scanned_count": 1510,
+  "scan_seconds": 7.36,
+  "scanned_count": 1509,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -37,23 +37,6 @@
       "bxt_streak": null,
       "ath": 745.61,
       "pct_to_ath": 59.0
-    },
-    {
-      "sym": "LOW",
-      "name": "Lowe's Companies, Inc.",
-      "mcap": 131,
-      "price": 233.37,
-      "basis": 229.24,
-      "bxt_today": -11.25,
-      "bxt_yest": -8.46,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 293.06,
-      "pct_to_ath": 25.6
     },
     {
       "sym": "PAM",
@@ -188,8 +171,8 @@
       "bxt_r": false,
       "fvb_streak": 1,
       "bxt_streak": null,
-      "ath": 109.05,
-      "pct_to_ath": 17.4
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "GGG",
@@ -241,23 +224,6 @@
       "bxt_streak": null,
       "ath": 210.0,
       "pct_to_ath": 669.8
-    },
-    {
-      "sym": "GME",
-      "name": "GameStop Corporation",
-      "mcap": 11,
-      "price": 25.17,
-      "basis": 24.95,
-      "bxt_today": 1.55,
-      "bxt_yest": 0.16,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 120.75,
-      "pct_to_ath": 379.7
     },
     {
       "sym": "SARO",
@@ -402,9 +368,9 @@
       "name": "McKesson Corporation",
       "mcap": 91,
       "price": 743.67,
-      "basis": 749.04,
-      "bxt_today": -9.27,
-      "bxt_yest": -2.24,
+      "basis": 746.17,
+      "bxt_today": -10.61,
+      "bxt_yest": -5.52,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
@@ -487,9 +453,9 @@
       "name": "Labcorp Holdings Inc.",
       "mcap": 21,
       "price": 256.94,
-      "basis": 257.68,
-      "bxt_today": -7.3,
-      "bxt_yest": -5.09,
+      "basis": 257.67,
+      "bxt_today": -7.32,
+      "bxt_yest": -5.14,
       "fvb_g": false,
       "fvb_r": true,
       "bxt_g": false,
@@ -642,9 +608,9 @@
       "name": "Mondelez International, Inc.",
       "mcap": 79,
       "price": 61.87,
-      "basis": 61.88,
-      "bxt_today": 0.32,
-      "bxt_yest": -2.25,
+      "basis": 61.91,
+      "bxt_today": 0.58,
+      "bxt_yest": -1.72,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -653,23 +619,6 @@
       "bxt_streak": 27,
       "ath": 78.59,
       "pct_to_ath": 27.0
-    },
-    {
-      "sym": "URI",
-      "name": "United Rentals, Inc.",
-      "mcap": 60,
-      "price": 964.5,
-      "basis": 809.46,
-      "bxt_today": 2.11,
-      "bxt_yest": -0.25,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 6,
-      "ath": 1021.47,
-      "pct_to_ath": 5.9
     },
     {
       "sym": "LYV",
@@ -744,9 +693,9 @@
       "name": "Tyson Foods, Inc.",
       "mcap": 24,
       "price": 68.09,
-      "basis": 64.35,
-      "bxt_today": 1.25,
-      "bxt_yest": -0.87,
+      "basis": 64.33,
+      "bxt_today": 1.17,
+      "bxt_yest": -1.02,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
@@ -772,6 +721,23 @@
       "bxt_streak": 26,
       "ath": 376.11,
       "pct_to_ath": 170.9
+    },
+    {
+      "sym": "PKG",
+      "name": "Packaging Corporation of America",
+      "mcap": 20,
+      "price": 226.82,
+      "basis": 211.73,
+      "bxt_today": 0.03,
+      "bxt_yest": -0.9,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 3,
+      "ath": 250.82,
+      "pct_to_ath": 10.6
     },
     {
       "sym": "NXT",
@@ -944,6 +910,23 @@
       "pct_to_ath": 9.3
     },
     {
+      "sym": "GBCI",
+      "name": "Glacier Bancorp, Inc.",
+      "mcap": 6,
+      "price": 49.75,
+      "basis": 45.67,
+      "bxt_today": 0.25,
+      "bxt_yest": -1.15,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 5,
+      "ath": 67.35,
+      "pct_to_ath": 35.4
+    },
+    {
       "sym": "BRKR",
       "name": "Bruker Corporation",
       "mcap": 6,
@@ -1046,23 +1029,6 @@
       "pct_to_ath": 329.4
     },
     {
-      "sym": "SKT",
-      "name": "Tanger Inc.",
-      "mcap": 4,
-      "price": 36.85,
-      "basis": 33.82,
-      "bxt_today": 0.55,
-      "bxt_yest": -0.15,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 14,
-      "ath": 42.2,
-      "pct_to_ath": 14.5
-    },
-    {
       "sym": "KRC",
       "name": "Kilroy Realty Corporation",
       "mcap": 4,
@@ -1154,9 +1120,9 @@
       "name": "Grupo Aeroportuario del Centro Norte S.A.B. de C.V. ADS",
       "mcap": 41,
       "price": 106.63,
-      "basis": 97.99,
-      "bxt_today": -1.36,
-      "bxt_yest": 2.07,
+      "basis": 97.98,
+      "bxt_today": -1.38,
+      "bxt_yest": 2.02,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1273,9 +1239,9 @@
       "name": "Antero Resources Corporation",
       "mcap": 11,
       "price": 36.84,
-      "basis": 36.39,
-      "bxt_today": -0.36,
-      "bxt_yest": 3.2,
+      "basis": 36.28,
+      "bxt_today": -1.61,
+      "bxt_yest": 0.62,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1375,9 +1341,9 @@
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
       "price": 85.15,
-      "basis": 79.86,
-      "bxt_today": -0.83,
-      "bxt_yest": 0.24,
+      "basis": 79.91,
+      "bxt_today": -0.37,
+      "bxt_yest": 1.14,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": false,
@@ -1508,13 +1474,76 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T02:23:03.829710+00:00",
+    "compared_to": "2026-05-07T02:28:38.351034+00:00",
     "fvb_green_added": [],
-    "fvb_green_removed": [],
+    "fvb_green_removed": [
+      {
+        "sym": "LOW",
+        "name": "Lowe's Companies, Inc.",
+        "mcap": 131,
+        "price": 233.37,
+        "basis": 229.24,
+        "bxt_today": -11.25,
+        "ath": 293.06,
+        "pct_to_ath": 25.6
+      },
+      {
+        "sym": "GME",
+        "name": "GameStop Corporation",
+        "mcap": 11,
+        "price": 25.17,
+        "basis": 24.95,
+        "bxt_today": 1.55,
+        "ath": 120.75,
+        "pct_to_ath": 379.7
+      }
+    ],
     "fvb_red_added": [],
     "fvb_red_removed": [],
-    "bxt_green_added": [],
-    "bxt_green_removed": [],
+    "bxt_green_added": [
+      {
+        "sym": "PKG",
+        "name": "Packaging Corporation of America",
+        "mcap": 20,
+        "price": 226.82,
+        "basis": 211.73,
+        "bxt_today": 0.03,
+        "ath": 250.82,
+        "pct_to_ath": 10.6
+      },
+      {
+        "sym": "GBCI",
+        "name": "Glacier Bancorp, Inc.",
+        "mcap": 6,
+        "price": 49.75,
+        "basis": 45.67,
+        "bxt_today": 0.25,
+        "ath": 67.35,
+        "pct_to_ath": 35.4
+      }
+    ],
+    "bxt_green_removed": [
+      {
+        "sym": "URI",
+        "name": "United Rentals, Inc.",
+        "mcap": 60,
+        "price": 964.5,
+        "basis": 809.46,
+        "bxt_today": 2.11,
+        "ath": 1021.47,
+        "pct_to_ath": 5.9
+      },
+      {
+        "sym": "SKT",
+        "name": "Tanger Inc.",
+        "mcap": 4,
+        "price": 36.85,
+        "basis": 33.82,
+        "bxt_today": 0.55,
+        "ath": 42.2,
+        "pct_to_ath": 14.5
+      }
+    ],
     "bxt_red_added": [],
     "bxt_red_removed": []
   }
