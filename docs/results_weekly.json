@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T05:38:40.439285+00:00",
+  "updated_at": "2026-05-07T05:44:20.866130+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.51,
+  "scan_seconds": 8.71,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -740,23 +740,6 @@
       "pct_to_ath": 28.5
     },
     {
-      "sym": "AAL",
-      "name": "American Airlines Group Inc.",
-      "mcap": 9,
-      "price": 12.94,
-      "basis": 12.88,
-      "bxt_today": 2.53,
-      "bxt_yest": -0.28,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 13,
-      "bxt_streak": 13,
-      "ath": 63.27,
-      "pct_to_ath": 388.9
-    },
-    {
       "sym": "KRYS",
       "name": "Krystal Biotech, Inc.",
       "mcap": 9,
@@ -772,6 +755,23 @@
       "bxt_streak": 10,
       "ath": 303.0,
       "pct_to_ath": 4.8
+    },
+    {
+      "sym": "AAL",
+      "name": "American Airlines Group Inc.",
+      "mcap": 9,
+      "price": 12.94,
+      "basis": 12.88,
+      "bxt_today": 2.53,
+      "bxt_yest": -0.28,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 13,
+      "bxt_streak": 13,
+      "ath": 63.27,
+      "pct_to_ath": 388.9
     },
     {
       "sym": "IBRX",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T05:32:50.476840+00:00",
+    "compared_to": "2026-05-07T05:38:40.439285+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
