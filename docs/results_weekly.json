@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T06:51:26.351847+00:00",
+  "updated_at": "2026-05-07T06:56:51.224874+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 6.74,
-  "scanned_count": 1511,
+  "scan_seconds": 6.76,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -502,23 +502,6 @@
       "pct_to_ath": 2.6
     },
     {
-      "sym": "RF",
-      "name": "Regions Financial Corporation",
-      "mcap": 24,
-      "price": 28.21,
-      "basis": 27.77,
-      "bxt_today": 0.36,
-      "bxt_yest": -0.21,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 39.15,
-      "pct_to_ath": 38.8
-    },
-    {
       "sym": "FIS",
       "name": "Fidelity National Information Services, Inc.",
       "mcap": 24,
@@ -534,6 +517,23 @@
       "bxt_streak": 16,
       "ath": 158.21,
       "pct_to_ath": 244.2
+    },
+    {
+      "sym": "RF",
+      "name": "Regions Financial Corporation",
+      "mcap": 24,
+      "price": 28.21,
+      "basis": 27.77,
+      "bxt_today": 0.36,
+      "bxt_yest": -0.21,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 39.15,
+      "pct_to_ath": 38.8
     },
     {
       "sym": "ZS",
@@ -740,23 +740,6 @@
       "pct_to_ath": 28.5
     },
     {
-      "sym": "KRYS",
-      "name": "Krystal Biotech, Inc.",
-      "mcap": 9,
-      "price": 288.99,
-      "basis": 267.47,
-      "bxt_today": 0.13,
-      "bxt_yest": -2.6,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 303.0,
-      "pct_to_ath": 4.8
-    },
-    {
       "sym": "AAL",
       "name": "American Airlines Group Inc.",
       "mcap": 9,
@@ -772,6 +755,23 @@
       "bxt_streak": 13,
       "ath": 63.27,
       "pct_to_ath": 388.9
+    },
+    {
+      "sym": "KRYS",
+      "name": "Krystal Biotech, Inc.",
+      "mcap": 9,
+      "price": 288.99,
+      "basis": 267.47,
+      "bxt_today": 0.13,
+      "bxt_yest": -2.6,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 10,
+      "ath": 303.0,
+      "pct_to_ath": 4.8
     },
     {
       "sym": "IBRX",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T06:46:00.923338+00:00",
+    "compared_to": "2026-05-07T06:51:26.351847+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

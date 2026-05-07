@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T06:51:32.688854+00:00",
+  "updated_at": "2026-05-07T06:56:57.680303+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.33,
-  "scanned_count": 1509,
+  "scan_seconds": 6.44,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -141,23 +141,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "SMG",
-      "name": "Scotts Miracle-Gro Company (The)",
-      "mcap": 4,
-      "price": 62.85,
-      "basis": 61.83,
-      "bxt_today": 9.82,
-      "bxt_yest": 9.6,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 3,
-      "bxt_streak": null,
-      "ath": 254.34,
-      "pct_to_ath": 304.7
-    },
-    {
       "sym": "BLLN",
       "name": "BillionToOne, Inc.",
       "mcap": 4,
@@ -173,6 +156,23 @@
       "bxt_streak": null,
       "ath": 138.7,
       "pct_to_ath": 70.4
+    },
+    {
+      "sym": "SMG",
+      "name": "Scotts Miracle-Gro Company (The)",
+      "mcap": 4,
+      "price": 62.85,
+      "basis": 61.83,
+      "bxt_today": 9.82,
+      "bxt_yest": 9.6,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 3,
+      "bxt_streak": null,
+      "ath": 254.34,
+      "pct_to_ath": 304.7
     }
   ],
   "fvb_red": [
@@ -566,8 +566,8 @@
       "bxt_r": false,
       "fvb_streak": null,
       "bxt_streak": 6,
-      "ath": null,
-      "pct_to_ath": null
+      "ath": 131.72,
+      "pct_to_ath": 4.5
     },
     {
       "sym": "TPG",
@@ -1236,25 +1236,14 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T06:46:07.772459+00:00",
+    "compared_to": "2026-05-07T06:51:32.688854+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
-    "bxt_red_added": [
-      {
-        "sym": "CME",
-        "name": "CME Group Inc.",
-        "mcap": 104,
-        "price": 288.34,
-        "basis": 273.55,
-        "bxt_today": -0.55,
-        "ath": 329.16,
-        "pct_to_ath": 14.2
-      }
-    ],
+    "bxt_red_added": [],
     "bxt_red_removed": []
   }
 }
