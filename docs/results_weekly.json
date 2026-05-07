@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T12:56:38.775385+00:00",
+  "updated_at": "2026-05-07T13:02:11.865574+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 9.1,
+  "scan_seconds": 9.27,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -124,23 +124,6 @@
       "pct_to_ath": 21.2
     },
     {
-      "sym": "ARCC",
-      "name": "Ares Capital Corporation",
-      "mcap": 14,
-      "price": 19.16,
-      "basis": 19.13,
-      "bxt_today": 10.45,
-      "bxt_yest": 8.77,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 1,
-      "bxt_streak": null,
-      "ath": 23.84,
-      "pct_to_ath": 24.4
-    },
-    {
       "sym": "FNF",
       "name": "Fidelity National Financial, Inc.",
       "mcap": 14,
@@ -156,6 +139,23 @@
       "bxt_streak": null,
       "ath": 64.34,
       "pct_to_ath": 25.4
+    },
+    {
+      "sym": "ARCC",
+      "name": "Ares Capital Corporation",
+      "mcap": 14,
+      "price": 19.16,
+      "basis": 19.13,
+      "bxt_today": 10.45,
+      "bxt_yest": 8.77,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 1,
+      "bxt_streak": null,
+      "ath": 23.84,
+      "pct_to_ath": 24.4
     },
     {
       "sym": "U",
@@ -502,23 +502,6 @@
       "pct_to_ath": 2.6
     },
     {
-      "sym": "FIS",
-      "name": "Fidelity National Information Services, Inc.",
-      "mcap": 24,
-      "price": 45.97,
-      "basis": 51.53,
-      "bxt_today": 1.48,
-      "bxt_yest": -0.88,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 158.21,
-      "pct_to_ath": 244.2
-    },
-    {
       "sym": "RF",
       "name": "Regions Financial Corporation",
       "mcap": 24,
@@ -534,6 +517,23 @@
       "bxt_streak": 10,
       "ath": 39.15,
       "pct_to_ath": 38.8
+    },
+    {
+      "sym": "FIS",
+      "name": "Fidelity National Information Services, Inc.",
+      "mcap": 24,
+      "price": 45.97,
+      "basis": 51.53,
+      "bxt_today": 1.48,
+      "bxt_yest": -0.88,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 158.21,
+      "pct_to_ath": 244.2
     },
     {
       "sym": "ZS",
@@ -859,23 +859,6 @@
       "pct_to_ath": 13.3
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.33,
-      "basis": 57.67,
-      "bxt_today": 2.86,
-      "bxt_yest": -0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.2
-    },
-    {
       "sym": "ESTC",
       "name": "Elastic N.V. Ordinary Shares",
       "mcap": 5,
@@ -891,6 +874,23 @@
       "bxt_streak": 25,
       "ath": 189.84,
       "pct_to_ath": 286.6
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.33,
+      "basis": 57.67,
+      "bxt_today": 2.86,
+      "bxt_yest": -0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.2
     },
     {
       "sym": "QS",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T12:50:51.385989+00:00",
+    "compared_to": "2026-05-07T12:56:38.775385+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
