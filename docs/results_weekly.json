@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T02:45:10.677903+00:00",
+  "updated_at": "2026-05-07T02:50:41.427187+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 8.1,
+  "scan_seconds": 6.13,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -808,23 +808,6 @@
       "pct_to_ath": 133.7
     },
     {
-      "sym": "BBUC",
-      "name": "Brookfield Business Corporation Subordinate Voting Shares",
-      "mcap": 7,
-      "price": 34.99,
-      "basis": 34.21,
-      "bxt_today": 0.67,
-      "bxt_yest": -1.09,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 18,
-      "ath": 38.25,
-      "pct_to_ath": 9.3
-    },
-    {
       "sym": "LNC",
       "name": "Lincoln National Corporation",
       "mcap": 7,
@@ -840,6 +823,23 @@
       "bxt_streak": 17,
       "ath": 86.68,
       "pct_to_ath": 130.4
+    },
+    {
+      "sym": "BBUC",
+      "name": "Brookfield Business Corporation Subordinate Voting Shares",
+      "mcap": 7,
+      "price": 34.99,
+      "basis": 34.21,
+      "bxt_today": 0.67,
+      "bxt_yest": -1.09,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 18,
+      "ath": 38.25,
+      "pct_to_ath": 9.3
     },
     {
       "sym": "MRCY",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T02:39:33.687622+00:00",
+    "compared_to": "2026-05-07T02:45:10.677903+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
