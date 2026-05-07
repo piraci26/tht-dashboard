@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T02:00:25.259778+00:00",
+  "updated_at": "2026-05-07T02:05:51.968892+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 13.86,
-  "scanned_count": 1511,
+  "scan_seconds": 6.22,
+  "scanned_count": 1506,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -1012,23 +1012,6 @@
       "pct_to_ath": 1569.6
     },
     {
-      "sym": "WSC",
-      "name": "WillScot Holdings Corporation",
-      "mcap": 4,
-      "price": 23.4,
-      "basis": 25.59,
-      "bxt_today": 1.43,
-      "bxt_yest": -3.0,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 37,
-      "ath": 53.46,
-      "pct_to_ath": 128.5
-    },
-    {
       "sym": "CUZ",
       "name": "Cousins Properties Incorporated",
       "mcap": 4,
@@ -1044,6 +1027,23 @@
       "bxt_streak": 2,
       "ath": 115.03,
       "pct_to_ath": 329.4
+    },
+    {
+      "sym": "WSC",
+      "name": "WillScot Holdings Corporation",
+      "mcap": 4,
+      "price": 23.4,
+      "basis": 25.59,
+      "bxt_today": 1.43,
+      "bxt_yest": -3.0,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 37,
+      "ath": 53.46,
+      "pct_to_ath": 128.5
     },
     {
       "sym": "SKT",
@@ -1163,8 +1163,8 @@
       "bxt_r": true,
       "fvb_streak": null,
       "bxt_streak": 14,
-      "ath": 134.99,
-      "pct_to_ath": 26.6
+      "ath": null,
+      "pct_to_ath": null
     },
     {
       "sym": "PEG",
@@ -1371,23 +1371,6 @@
       "pct_to_ath": 13.5
     },
     {
-      "sym": "NXST",
-      "name": "Nexstar Media Group, Inc.",
-      "mcap": 6,
-      "price": 197.21,
-      "basis": 187.61,
-      "bxt_today": -0.05,
-      "bxt_yest": 2.79,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 254.3,
-      "pct_to_ath": 28.9
-    },
-    {
       "sym": "BYD",
       "name": "Boyd Gaming Corporation",
       "mcap": 6,
@@ -1403,6 +1386,23 @@
       "bxt_streak": 20,
       "ath": 89.96,
       "pct_to_ath": 5.6
+    },
+    {
+      "sym": "NXST",
+      "name": "Nexstar Media Group, Inc.",
+      "mcap": 6,
+      "price": 197.21,
+      "basis": 187.61,
+      "bxt_today": -0.05,
+      "bxt_yest": 2.79,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 254.3,
+      "pct_to_ath": 28.9
     },
     {
       "sym": "KVYO",
@@ -1508,7 +1508,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T01:54:46.504226+00:00",
+    "compared_to": "2026-05-07T02:00:25.259778+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
