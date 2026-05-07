@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T06:40:42.465746+00:00",
+  "updated_at": "2026-05-07T06:46:07.772459+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 6.36,
-  "scanned_count": 1509,
+  "scan_seconds": 6.84,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -88,6 +88,23 @@
       "bxt_streak": null,
       "ath": 210.0,
       "pct_to_ath": 669.8
+    },
+    {
+      "sym": "SARO",
+      "name": "StandardAero, Inc.",
+      "mcap": 9,
+      "price": 26.26,
+      "basis": 25.68,
+      "bxt_today": 11.15,
+      "bxt_yest": 2.99,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 11,
+      "bxt_streak": null,
+      "ath": 34.48,
+      "pct_to_ath": 31.3
     },
     {
       "sym": "CZR",
@@ -844,23 +861,6 @@
       "pct_to_ath": 34.6
     },
     {
-      "sym": "CME",
-      "name": "CME Group Inc.",
-      "mcap": 104,
-      "price": 288.34,
-      "basis": 273.55,
-      "bxt_today": -0.55,
-      "bxt_yest": 2.27,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 21,
-      "ath": 329.16,
-      "pct_to_ath": 14.2
-    },
-    {
       "sym": "WM",
       "name": "Waste Management, Inc.",
       "mcap": 89,
@@ -1219,9 +1219,8 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T06:35:16.591068+00:00",
-    "fvb_green_added": [],
-    "fvb_green_removed": [
+    "compared_to": "2026-05-07T06:40:42.465746+00:00",
+    "fvb_green_added": [
       {
         "sym": "SARO",
         "name": "StandardAero, Inc.",
@@ -1233,11 +1232,23 @@
         "pct_to_ath": 31.3
       }
     ],
+    "fvb_green_removed": [],
     "fvb_red_added": [],
     "fvb_red_removed": [],
     "bxt_green_added": [],
     "bxt_green_removed": [],
     "bxt_red_added": [],
-    "bxt_red_removed": []
+    "bxt_red_removed": [
+      {
+        "sym": "CME",
+        "name": "CME Group Inc.",
+        "mcap": 104,
+        "price": 288.34,
+        "basis": 273.55,
+        "bxt_today": -0.55,
+        "ath": 329.16,
+        "pct_to_ath": 14.2
+      }
+    ]
   }
 }
