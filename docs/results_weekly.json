@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T02:33:55.007200+00:00",
+  "updated_at": "2026-05-07T02:39:33.687622+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 6.05,
+  "scan_seconds": 6.07,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -124,23 +124,6 @@
       "pct_to_ath": 21.2
     },
     {
-      "sym": "FNF",
-      "name": "Fidelity National Financial, Inc.",
-      "mcap": 14,
-      "price": 51.29,
-      "basis": 51.26,
-      "bxt_today": 6.73,
-      "bxt_yest": 5.41,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 64.34,
-      "pct_to_ath": 25.4
-    },
-    {
       "sym": "ARCC",
       "name": "Ares Capital Corporation",
       "mcap": 14,
@@ -156,6 +139,23 @@
       "bxt_streak": null,
       "ath": 23.84,
       "pct_to_ath": 24.4
+    },
+    {
+      "sym": "FNF",
+      "name": "Fidelity National Financial, Inc.",
+      "mcap": 14,
+      "price": 51.29,
+      "basis": 51.26,
+      "bxt_today": 6.73,
+      "bxt_yest": 5.41,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 64.34,
+      "pct_to_ath": 25.4
     },
     {
       "sym": "U",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T02:28:23.327249+00:00",
+    "compared_to": "2026-05-07T02:33:55.007200+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
