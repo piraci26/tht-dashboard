@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T08:37:45.455674+00:00",
+  "updated_at": "2026-05-07T08:43:20.991807+00:00",
   "timeframe": "monthly",
-  "scan_seconds": 11.61,
-  "scanned_count": 1510,
+  "scan_seconds": 12.23,
+  "scanned_count": 1511,
   "fvb_green": [
     {
       "sym": "DIS",
@@ -1133,23 +1133,6 @@
       "pct_to_ath": 213.4
     },
     {
-      "sym": "MGY",
-      "name": "Magnolia Oil & Gas Corporation",
-      "mcap": 5,
-      "price": 28.65,
-      "basis": 27.63,
-      "bxt_today": -2.31,
-      "bxt_yest": 0.98,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": true,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 32.76,
-      "pct_to_ath": 14.3
-    },
-    {
       "sym": "CRC",
       "name": "California Resources Corporation",
       "mcap": 5,
@@ -1165,6 +1148,23 @@
       "bxt_streak": 16,
       "ath": 71.98,
       "pct_to_ath": 17.1
+    },
+    {
+      "sym": "MGY",
+      "name": "Magnolia Oil & Gas Corporation",
+      "mcap": 5,
+      "price": 28.65,
+      "basis": 27.63,
+      "bxt_today": -2.31,
+      "bxt_yest": 0.98,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": true,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 32.76,
+      "pct_to_ath": 14.3
     },
     {
       "sym": "CNX",
@@ -1236,7 +1236,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T08:31:17.016497+00:00",
+    "compared_to": "2026-05-07T08:37:45.455674+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],

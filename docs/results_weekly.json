@@ -1,7 +1,7 @@
 {
-  "updated_at": "2026-05-07T08:37:33.842345+00:00",
+  "updated_at": "2026-05-07T08:43:08.740017+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.77,
+  "scan_seconds": 7.02,
   "scanned_count": 1511,
   "fvb_green": [
     {
@@ -485,21 +485,21 @@
       "pct_to_ath": 64.1
     },
     {
-      "sym": "FIS",
-      "name": "Fidelity National Information Services, Inc.",
+      "sym": "AER",
+      "name": "AerCap Holdings N.V. Ordinary Shares",
       "mcap": 24,
-      "price": 45.97,
-      "basis": 51.53,
-      "bxt_today": 1.48,
-      "bxt_yest": -0.88,
+      "price": 151.05,
+      "basis": 142.95,
+      "bxt_today": 1.26,
+      "bxt_yest": -2.18,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 158.21,
-      "pct_to_ath": 244.2
+      "bxt_streak": 10,
+      "ath": 154.94,
+      "pct_to_ath": 2.6
     },
     {
       "sym": "RF",
@@ -519,21 +519,21 @@
       "pct_to_ath": 38.8
     },
     {
-      "sym": "AER",
-      "name": "AerCap Holdings N.V. Ordinary Shares",
+      "sym": "FIS",
+      "name": "Fidelity National Information Services, Inc.",
       "mcap": 24,
-      "price": 151.05,
-      "basis": 142.95,
-      "bxt_today": 1.26,
-      "bxt_yest": -2.18,
+      "price": 45.97,
+      "basis": 51.53,
+      "bxt_today": 1.48,
+      "bxt_yest": -0.88,
       "fvb_g": false,
       "fvb_r": false,
       "bxt_g": true,
       "bxt_r": false,
       "fvb_streak": null,
-      "bxt_streak": 10,
-      "ath": 154.94,
-      "pct_to_ath": 2.6
+      "bxt_streak": 16,
+      "ath": 158.21,
+      "pct_to_ath": 244.2
     },
     {
       "sym": "ZS",
@@ -740,23 +740,6 @@
       "pct_to_ath": 28.5
     },
     {
-      "sym": "AAL",
-      "name": "American Airlines Group Inc.",
-      "mcap": 9,
-      "price": 12.94,
-      "basis": 12.88,
-      "bxt_today": 2.53,
-      "bxt_yest": -0.28,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": 13,
-      "bxt_streak": 13,
-      "ath": 63.27,
-      "pct_to_ath": 388.9
-    },
-    {
       "sym": "KRYS",
       "name": "Krystal Biotech, Inc.",
       "mcap": 9,
@@ -772,6 +755,23 @@
       "bxt_streak": 10,
       "ath": 303.0,
       "pct_to_ath": 4.8
+    },
+    {
+      "sym": "AAL",
+      "name": "American Airlines Group Inc.",
+      "mcap": 9,
+      "price": 12.94,
+      "basis": 12.88,
+      "bxt_today": 2.53,
+      "bxt_yest": -0.28,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": 13,
+      "bxt_streak": 13,
+      "ath": 63.27,
+      "pct_to_ath": 388.9
     },
     {
       "sym": "IBRX",
@@ -876,23 +876,6 @@
       "pct_to_ath": 286.6
     },
     {
-      "sym": "MAIN",
-      "name": "Main Street Capital Corporation",
-      "mcap": 5,
-      "price": 57.33,
-      "basis": 57.67,
-      "bxt_today": 2.86,
-      "bxt_yest": -0.51,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 13,
-      "ath": 67.77,
-      "pct_to_ath": 18.2
-    },
-    {
       "sym": "QS",
       "name": "QuantumScape Corporation",
       "mcap": 5,
@@ -908,6 +891,23 @@
       "bxt_streak": 25,
       "ath": 132.73,
       "pct_to_ath": 1569.6
+    },
+    {
+      "sym": "MAIN",
+      "name": "Main Street Capital Corporation",
+      "mcap": 5,
+      "price": 57.33,
+      "basis": 57.67,
+      "bxt_today": 2.86,
+      "bxt_yest": -0.51,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 13,
+      "ath": 67.77,
+      "pct_to_ath": 18.2
     },
     {
       "sym": "LEU",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T08:31:08.232293+00:00",
+    "compared_to": "2026-05-07T08:37:33.842345+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
