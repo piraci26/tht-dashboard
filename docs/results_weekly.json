@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T09:33:44.899120+00:00",
+  "updated_at": "2026-05-07T09:39:27.224582+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 12.55,
-  "scanned_count": 1510,
+  "scan_seconds": 7.14,
+  "scanned_count": 1507,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -124,23 +124,6 @@
       "pct_to_ath": 21.2
     },
     {
-      "sym": "FNF",
-      "name": "Fidelity National Financial, Inc.",
-      "mcap": 14,
-      "price": 51.29,
-      "basis": 51.26,
-      "bxt_today": 6.73,
-      "bxt_yest": 5.41,
-      "fvb_g": true,
-      "fvb_r": false,
-      "bxt_g": false,
-      "bxt_r": false,
-      "fvb_streak": 2,
-      "bxt_streak": null,
-      "ath": 64.34,
-      "pct_to_ath": 25.4
-    },
-    {
       "sym": "ARCC",
       "name": "Ares Capital Corporation",
       "mcap": 14,
@@ -156,6 +139,23 @@
       "bxt_streak": null,
       "ath": 23.84,
       "pct_to_ath": 24.4
+    },
+    {
+      "sym": "FNF",
+      "name": "Fidelity National Financial, Inc.",
+      "mcap": 14,
+      "price": 51.29,
+      "basis": 51.26,
+      "bxt_today": 6.73,
+      "bxt_yest": 5.41,
+      "fvb_g": true,
+      "fvb_r": false,
+      "bxt_g": false,
+      "bxt_r": false,
+      "fvb_streak": 2,
+      "bxt_streak": null,
+      "ath": 64.34,
+      "pct_to_ath": 25.4
     },
     {
       "sym": "U",
@@ -502,23 +502,6 @@
       "pct_to_ath": 2.6
     },
     {
-      "sym": "FIS",
-      "name": "Fidelity National Information Services, Inc.",
-      "mcap": 24,
-      "price": 45.97,
-      "basis": 51.53,
-      "bxt_today": 1.48,
-      "bxt_yest": -0.88,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 16,
-      "ath": 158.21,
-      "pct_to_ath": 244.2
-    },
-    {
       "sym": "RF",
       "name": "Regions Financial Corporation",
       "mcap": 24,
@@ -534,6 +517,23 @@
       "bxt_streak": 10,
       "ath": 39.15,
       "pct_to_ath": 38.8
+    },
+    {
+      "sym": "FIS",
+      "name": "Fidelity National Information Services, Inc.",
+      "mcap": 24,
+      "price": 45.97,
+      "basis": 51.53,
+      "bxt_today": 1.48,
+      "bxt_yest": -0.88,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 16,
+      "ath": 158.21,
+      "pct_to_ath": 244.2
     },
     {
       "sym": "ZS",
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T09:27:45.302437+00:00",
+    "compared_to": "2026-05-07T09:33:44.899120+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
