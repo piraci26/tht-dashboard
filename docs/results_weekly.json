@@ -1,8 +1,8 @@
 {
-  "updated_at": "2026-05-07T08:48:40.882743+00:00",
+  "updated_at": "2026-05-07T08:54:22.193348+00:00",
   "timeframe": "weekly",
-  "scan_seconds": 7.14,
-  "scanned_count": 1511,
+  "scan_seconds": 9.38,
+  "scanned_count": 1510,
   "fvb_green": [
     {
       "sym": "MSFT",
@@ -927,23 +927,6 @@
       "pct_to_ath": 2946.3
     },
     {
-      "sym": "LAZ",
-      "name": "Lazard, Inc.",
-      "mcap": 4,
-      "price": 46.56,
-      "basis": 47.85,
-      "bxt_today": 0.8,
-      "bxt_yest": -0.33,
-      "fvb_g": false,
-      "fvb_r": false,
-      "bxt_g": true,
-      "bxt_r": false,
-      "fvb_streak": null,
-      "bxt_streak": 11,
-      "ath": 61.14,
-      "pct_to_ath": 31.3
-    },
-    {
       "sym": "VVV",
       "name": "Valvoline Inc.",
       "mcap": 4,
@@ -959,6 +942,23 @@
       "bxt_streak": 3,
       "ath": 48.26,
       "pct_to_ath": 41.2
+    },
+    {
+      "sym": "LAZ",
+      "name": "Lazard, Inc.",
+      "mcap": 4,
+      "price": 46.56,
+      "basis": 47.85,
+      "bxt_today": 0.8,
+      "bxt_yest": -0.33,
+      "fvb_g": false,
+      "fvb_r": false,
+      "bxt_g": true,
+      "bxt_r": false,
+      "fvb_streak": null,
+      "bxt_streak": 11,
+      "ath": 61.14,
+      "pct_to_ath": 31.3
     }
   ],
   "bxt_red": [
@@ -1389,7 +1389,7 @@
     }
   ],
   "changes": {
-    "compared_to": "2026-05-07T08:43:08.740017+00:00",
+    "compared_to": "2026-05-07T08:48:40.882743+00:00",
     "fvb_green_added": [],
     "fvb_green_removed": [],
     "fvb_red_added": [],
