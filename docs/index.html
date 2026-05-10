@@ -119,6 +119,9 @@ const COLS = [
   {key:'streak',      label:'Streak',    cls:'num',  type:'num'},
   {key:'ath',         label:'ATH',       cls:'num',  type:'num'},
   {key:'pct_to_ath',  label:'% to ATH',  cls:'num',  type:'num'},
+  {key:'wk52_high',   label:'52w High',  cls:'num',  type:'num'},
+  {key:'wk52_low',    label:'52w Low',   cls:'num',  type:'num'},
+  {key:'ath_30d',     label:'New ATHs 30d', cls:'num', type:'num'},
 ];
 
 const STREAK_KEY = {
@@ -173,6 +176,9 @@ function renderTable(rows, tableId) {
     <td class="num">${streak != null ? streak + (timeframe === 'weekly' ? 'W' : timeframe === 'monthly' ? 'M' : 'd') : '—'}</td>
     <td class="num">${r.ath != null ? '$' + r.ath.toFixed(2) : '—'}</td>
     <td class="num">${fmtPct(r.pct_to_ath)}</td>
+    <td class="num">${r.wk52_high != null ? '$' + r.wk52_high.toFixed(2) : '—'}</td>
+    <td class="num">${r.wk52_low  != null ? '$' + r.wk52_low.toFixed(2)  : '—'}</td>
+    <td class="num">${r.ath_30d != null ? r.ath_30d : '—'}</td>
   </tr>`;
   }).join('');
   return head + body + '</tbody></table>';
@@ -582,6 +588,9 @@ function renderChanges(changes) {
       <th class="num">BXT</th>
       <th class="num">ATH</th>
       <th class="num">% to ATH</th>
+      <th class="num">52w High</th>
+      <th class="num">52w Low</th>
+      <th class="num">New ATHs 30d</th>
     </tr></thead><tbody>`;
   const cell = (v, prefix='') => v == null ? '—' : `${prefix}${typeof v === 'number' ? v.toFixed(2) : v}`;
   const body = buckets.flatMap(b =>
@@ -596,6 +605,9 @@ function renderChanges(changes) {
       <td class="num">${cell(item.bxt_today)}</td>
       <td class="num">${cell(item.ath, '$')}</td>
       <td class="num">${item.pct_to_ath != null ? '+' + item.pct_to_ath.toFixed(1) + '%' : '—'}</td>
+      <td class="num">${cell(item.wk52_high, '$')}</td>
+      <td class="num">${cell(item.wk52_low, '$')}</td>
+      <td class="num">${item.ath_30d != null ? item.ath_30d : '—'}</td>
     </tr>`)
   ).join('');
   return head + body + '</tbody></table>';
