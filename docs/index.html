@@ -119,7 +119,30 @@ const sortState = {
   'fvb-red-table':   {col:'mcap', dir:'desc'},
   'bxt-green-table': {col:'mcap', dir:'desc'},
   'bxt-red-table':   {col:'mcap', dir:'desc'},
+  'changes-table':   {col:'mcap', dir:'desc'},
+  'ath-table':       {col:'mcap', dir:'desc'},
+  'atl-table':       {col:'mcap', dir:'desc'},
 };
+
+function sortRowsBy(rows, col, dir) {
+  if (!col) return rows;
+  return rows.slice().sort((a, b) => {
+    let av = a[col], bv = b[col];
+    if (av == null) av = (typeof bv === 'number') ? -Infinity : '';
+    if (bv == null) bv = (typeof av === 'number') ? -Infinity : '';
+    if (typeof av === 'string') return dir === 'asc' ? av.localeCompare(bv) : bv.localeCompare(av);
+    return dir === 'asc' ? av - bv : bv - av;
+  });
+}
+function sortArrow(state, key) {
+  if (state.col !== key) return '<span class="sort-arrow">↕</span>';
+  return state.dir === 'asc' ? '<span class="sort-arrow active">↑</span>' : '<span class="sort-arrow active">↓</span>';
+}
+function th(label, col, tableId, extraCls = '') {
+  const state = sortState[tableId];
+  const sortedCls = state && state.col === col ? ' sorted' : '';
+  return `<th class="${extraCls} sortable${sortedCls}" data-col="${col}" data-table="${tableId}">${label} ${state ? sortArrow(state, col) : ''}</th>`;
+}
 const TABLE_KEY = {
   'fvb-green-table': 'fvb_green',
   'fvb-red-table':   'fvb_red',
@@ -592,11 +615,16 @@ document.addEventListener('click', e => {
     const tableId = th.dataset.table;
     if (!col || !tableId || col === 'idx') return;
     const state = sortState[tableId];
+    if (!state) return;
     if (state.col === col) state.dir = state.dir === 'asc' ? 'desc' : 'asc';
-    else { state.col = col; state.dir = (col === 'name' || col === 'sym') ? 'asc' : 'desc'; }
-    if (currentData) {
+    else { state.col = col; state.dir = (col === 'name' || col === 'sym' || col === '_bucket') ? 'asc' : 'desc'; }
+    // Flip tables: re-render in place (preserves any chart-row state in the bigger table list)
+    if (TABLE_KEY[tableId] && currentData) {
       const rows = filterRows(currentData[TABLE_KEY[tableId]]);
       document.getElementById(tableId).innerHTML = renderTable(rows, tableId);
+    } else {
+      // changes-table / ath-table / atl-table: full re-render
+      renderAll();
     }
     return;
   }
@@ -633,37 +661,41 @@ function renderChanges(changes) {
     {label: 'IQ Oscillator 🔴 New',     items: changes.bxt_red_added,     action: 'added',   color: 'red'},
     {label: 'IQ Oscillator 🔴 Dropped', items: changes.bxt_red_removed,   action: 'removed', color: 'red'},
   ];
-  const total = buckets.reduce((s,b) => s + (b.items?.length || 0), 0);
-  if (total === 0) return '<p class="empty">No changes since last refresh.</p>';
+  // Flatten with bucket info embedded as columns for sort/render
+  const flat = buckets.flatMap(b =>
+    (b.items || []).map(item => ({ ...item, _bucket: b.label, _action: b.action, _color: b.color }))
+  );
+  if (flat.length === 0) return '<p class="empty">No changes since last refresh.</p>';
+  const state = sortState['changes-table'];
+  const sorted = sortRowsBy(flat, state.col, state.dir);
   const head = `<table class="t-compact">
     <thead><tr>
-      <th>Flip</th>
-      <th>Company</th><th>Sym</th>
-      <th class="num">Cap</th>
-      <th class="num">Price</th>
-      <th class="num">Osc</th>
-      <th class="num">ATH</th>
-      <th class="num">%ATH</th>
-      <th class="num">52wH</th>
-      <th class="num">52wL</th>
-      <th class="num">ATHs 30d</th>
+      ${th('Flip','_bucket','changes-table')}
+      ${th('Company','name','changes-table')}
+      ${th('Sym','sym','changes-table')}
+      ${th('Cap','mcap','changes-table','num')}
+      ${th('Price','price','changes-table','num')}
+      ${th('Osc','bxt_today','changes-table','num')}
+      ${th('ATH','ath','changes-table','num')}
+      ${th('%ATH','pct_to_ath','changes-table','num')}
+      ${th('52wH','wk52_high','changes-table','num')}
+      ${th('52wL','wk52_low','changes-table','num')}
+      ${th('ATHs 30d','ath_30d','changes-table','num')}
     </tr></thead><tbody>`;
   const cell = (v, prefix='') => v == null ? '—' : `${prefix}${typeof v === 'number' ? v.toFixed(2) : v}`;
-  const body = buckets.flatMap(b =>
-    (b.items || []).map(item => `<tr class="row-clickable" data-sym="${item.sym}">
-      <td><span class="badge badge-${b.color} badge-${b.action}" style="white-space:nowrap;">${b.label}</span></td>
-      <td class="col-name-compact" title="${item.name}">${item.name}</td>
-      <td><strong>${item.sym}</strong></td>
-      <td class="num">${fmtMcap(item.mcap)}</td>
-      <td class="num">${cell(item.price, '$')}</td>
-      <td class="num">${cell(item.bxt_today)}</td>
-      <td class="num">${cell(item.ath, '$')}</td>
-      <td class="num">${item.pct_to_ath != null ? '+' + item.pct_to_ath.toFixed(1) + '%' : '—'}</td>
-      <td class="num">${cell(item.wk52_high, '$')}</td>
-      <td class="num">${cell(item.wk52_low, '$')}</td>
-      <td class="num">${item.ath_30d != null ? item.ath_30d : '—'}</td>
-    </tr>`)
-  ).join('');
+  const body = sorted.map(item => `<tr class="row-clickable" data-sym="${item.sym}">
+    <td><span class="badge badge-${item._color} badge-${item._action}" style="white-space:nowrap;">${item._bucket}</span></td>
+    <td class="col-name-compact" title="${item.name}">${item.name}</td>
+    <td><strong>${item.sym}</strong></td>
+    <td class="num">${fmtMcap(item.mcap)}</td>
+    <td class="num">${cell(item.price, '$')}</td>
+    <td class="num">${cell(item.bxt_today)}</td>
+    <td class="num">${cell(item.ath, '$')}</td>
+    <td class="num">${item.pct_to_ath != null ? '+' + item.pct_to_ath.toFixed(1) + '%' : '—'}</td>
+    <td class="num">${cell(item.wk52_high, '$')}</td>
+    <td class="num">${cell(item.wk52_low, '$')}</td>
+    <td class="num">${item.ath_30d != null ? item.ath_30d : '—'}</td>
+  </tr>`).join('');
   return head + body + '</tbody></table>';
 }
 
@@ -679,18 +711,24 @@ function renderAthAtlTable(rows, mode) {
   if (!rows || rows.length === 0) {
     return '<p class="empty">No stocks currently making ' + (mode === 'ath' ? 'new ATHs' : 'new ATLs') + ' in the last 30 days.</p>';
   }
-  const sorted = rows.slice().sort((a, b) => (b.mcap || 0) - (a.mcap || 0));
+  const tableId = mode === 'ath' ? 'ath-table' : 'atl-table';
+  const state = sortState[tableId];
+  const sorted = sortRowsBy(rows, state.col, state.dir);
+  const extremaKey = mode === 'ath' ? 'ath' : 'atl';
+  const pctKey     = mode === 'ath' ? 'pct_to_ath' : 'pct_to_atl';
+  const cntKey     = mode === 'ath' ? 'ath_30d' : 'atl_30d';
   const head = `<table>
     <thead><tr>
       <th class="num">#</th>
-      <th>Company</th><th>Sym</th>
-      <th class="num">Mkt Cap</th>
-      <th class="num">Price</th>
-      <th class="num">${mode === 'ath' ? 'ATH' : 'ATL'}</th>
-      <th class="num">${mode === 'ath' ? '% to ATH' : '% from ATL'}</th>
-      <th class="num">52w High</th>
-      <th class="num">52w Low</th>
-      <th class="num">${mode === 'ath' ? 'New ATHs 30d' : 'New ATLs 30d'}</th>
+      ${th('Company','name',tableId)}
+      ${th('Sym','sym',tableId)}
+      ${th('Mkt Cap','mcap',tableId,'num')}
+      ${th('Price','price',tableId,'num')}
+      ${th(mode === 'ath' ? 'ATH' : 'ATL', extremaKey, tableId, 'num')}
+      ${th(mode === 'ath' ? '% to ATH' : '% from ATL', pctKey, tableId, 'num')}
+      ${th('52w High','wk52_high',tableId,'num')}
+      ${th('52w Low','wk52_low',tableId,'num')}
+      ${th(mode === 'ath' ? 'New ATHs 30d' : 'New ATLs 30d', cntKey, tableId, 'num')}
     </tr></thead><tbody>`;
   const body = sorted.map((r, i) => `<tr class="row-clickable" data-sym="${r.sym}">
     <td class="num">${i+1}</td>
@@ -698,11 +736,11 @@ function renderAthAtlTable(rows, mode) {
     <td><strong>${r.sym}</strong></td>
     <td class="num">${fmtMcap(r.mcap)}</td>
     <td class="num">$${r.price != null ? r.price.toFixed(2) : '—'}</td>
-    <td class="num">${(mode === 'ath' ? r.ath : r.atl) != null ? '$' + (mode === 'ath' ? r.ath : r.atl).toFixed(2) : '—'}</td>
-    <td class="num">${(mode === 'ath' ? r.pct_to_ath : r.pct_to_atl) != null ? '+' + (mode === 'ath' ? r.pct_to_ath : r.pct_to_atl).toFixed(1) + '%' : '—'}</td>
+    <td class="num">${r[extremaKey] != null ? '$' + r[extremaKey].toFixed(2) : '—'}</td>
+    <td class="num">${r[pctKey] != null ? '+' + r[pctKey].toFixed(1) + '%' : '—'}</td>
     <td class="num">${r.wk52_high != null ? '$' + r.wk52_high.toFixed(2) : '—'}</td>
     <td class="num">${r.wk52_low != null ? '$' + r.wk52_low.toFixed(2) : '—'}</td>
-    <td class="num">${(mode === 'ath' ? r.ath_30d : r.atl_30d) ?? '—'}</td>
+    <td class="num">${r[cntKey] ?? '—'}</td>
   </tr>`).join('');
   return head + body + '</tbody></table>';
 }
