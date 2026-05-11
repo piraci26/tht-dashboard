@@ -177,6 +177,7 @@ tr.chart-row td { padding: 0 !important; border-bottom: 1px solid var(--line); }
   padding: 4px; gap: 2px; position: relative;
   box-shadow: inset 0 1px 0 rgba(255,255,255,0.02);
 }
+.tab-row-extrema { margin-left: 12px; }
 .tab-btn {
   position: relative; background: transparent; color: var(--dim); border: none;
   padding: 7px 22px; font-size: 12px; font-weight: 600; letter-spacing: 0.05em;

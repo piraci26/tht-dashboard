@@ -33,6 +33,10 @@
   <button class="tab-btn" data-tf="weekly">Weekly</button>
   <button class="tab-btn" data-tf="monthly">Monthly</button>
 </div>
+<div class="tab-row tab-row-extrema">
+  <button class="tab-btn" data-tf="ath">ATH</button>
+  <button class="tab-btn" data-tf="atl">ATL</button>
+</div>
 <div class="filter-row">
   <label for="mcap-filter">Min market cap</label>
   <div class="filter-input-group">
@@ -56,6 +60,8 @@
 <div id="changes-table" class="table-wrap"></div>
 </section>
 
+<!-- Flip sections (shown for daily/weekly/monthly timeframes) -->
+<div id="flip-sections">
 <section class="green">
 <h2><span class="dot dot-green"></span>IQ Bands flipped GREEN today</h2>
 <div id="fvb-green-table" class="table-wrap"></div>
@@ -74,6 +80,19 @@
 <section class="red">
 <h2><span class="dot dot-red"></span>IQ Oscillator flipped RED today</h2>
 <div id="bxt-red-table" class="table-wrap"></div>
+</section>
+</div>
+
+<!-- ATH section (shown only when timeframe='ath') -->
+<section id="ath-section" class="green" style="display:none;">
+<h2><span class="dot dot-green"></span>Stocks making new ATH (last 30 days)</h2>
+<div id="ath-table" class="table-wrap"></div>
+</section>
+
+<!-- ATL section (shown only when timeframe='atl') -->
+<section id="atl-section" class="red" style="display:none;">
+<h2><span class="dot dot-red"></span>Stocks making new ATL (last 30 days)</h2>
+<div id="atl-table" class="table-wrap"></div>
 </section>
 </main>
 
@@ -594,8 +613,13 @@ let timeframe = localStorage.getItem('timeframe') || 'daily';
 const filterRows = rows => (rows || []).filter(r => (r.mcap || 0) >= minMcap);
 // Data backbone — separate repo, see https://github.com/piraci26/tht-data
 const DATA_BASE = 'https://piraci26.github.io/tht-data';
-const resultsUrl = () => `${DATA_BASE}/${timeframe === 'daily' ? 'results.json' : `results_${timeframe}.json`}`;
-const barsBaseUrl = () => `${DATA_BASE}/${timeframe === 'daily' ? 'bars' : `bars_${timeframe}`}`;
+const resultsUrl = () => {
+  if (timeframe === 'ath') return `${DATA_BASE}/ath_list.json`;
+  if (timeframe === 'atl') return `${DATA_BASE}/atl_list.json`;
+  return `${DATA_BASE}/${timeframe === 'daily' ? 'results.json' : `results_${timeframe}.json`}`;
+};
+const barsBaseUrl = () => `${DATA_BASE}/${(timeframe === 'ath' || timeframe === 'atl' || timeframe === 'daily') ? 'bars' : `bars_${timeframe}`}`;
+const isAthAtl = () => timeframe === 'ath' || timeframe === 'atl';
 
 function renderChanges(changes) {
   if (!changes) return '<p class="empty">No prior run to compare to.</p>';
@@ -651,14 +675,112 @@ function setIfNotOpen(wrapId, html) {
   document.getElementById(wrapId).innerHTML = html;
 }
 
+function renderAthAtlTable(rows, mode) {
+  if (!rows || rows.length === 0) {
+    return '<p class="empty">No stocks currently making ' + (mode === 'ath' ? 'new ATHs' : 'new ATLs') + ' in the last 30 days.</p>';
+  }
+  const sorted = rows.slice().sort((a, b) => (b.mcap || 0) - (a.mcap || 0));
+  const head = `<table>
+    <thead><tr>
+      <th class="num">#</th>
+      <th>Company</th><th>Sym</th>
+      <th class="num">Mkt Cap</th>
+      <th class="num">Price</th>
+      <th class="num">${mode === 'ath' ? 'ATH' : 'ATL'}</th>
+      <th class="num">${mode === 'ath' ? '% to ATH' : '% from ATL'}</th>
+      <th class="num">52w High</th>
+      <th class="num">52w Low</th>
+      <th class="num">${mode === 'ath' ? 'New ATHs 30d' : 'New ATLs 30d'}</th>
+    </tr></thead><tbody>`;
+  const body = sorted.map((r, i) => `<tr class="row-clickable" data-sym="${r.sym}">
+    <td class="num">${i+1}</td>
+    <td>${r.name}</td>
+    <td><strong>${r.sym}</strong></td>
+    <td class="num">${fmtMcap(r.mcap)}</td>
+    <td class="num">$${r.price != null ? r.price.toFixed(2) : '—'}</td>
+    <td class="num">${(mode === 'ath' ? r.ath : r.atl) != null ? '$' + (mode === 'ath' ? r.ath : r.atl).toFixed(2) : '—'}</td>
+    <td class="num">${(mode === 'ath' ? r.pct_to_ath : r.pct_to_atl) != null ? '+' + (mode === 'ath' ? r.pct_to_ath : r.pct_to_atl).toFixed(1) + '%' : '—'}</td>
+    <td class="num">${r.wk52_high != null ? '$' + r.wk52_high.toFixed(2) : '—'}</td>
+    <td class="num">${r.wk52_low != null ? '$' + r.wk52_low.toFixed(2) : '—'}</td>
+    <td class="num">${(mode === 'ath' ? r.ath_30d : r.atl_30d) ?? '—'}</td>
+  </tr>`).join('');
+  return head + body + '</tbody></table>';
+}
+
+function renderAthAtlChanges(rows, mode) {
+  // Accumulator: append-only list of stocks added since first run.
+  // No removals — just shows what's been seeded into the list over time.
+  if (!rows || rows.length === 0) return '<p class="empty">No new ' + (mode === 'ath' ? 'ATH-makers' : 'ATL-makers') + ' added yet.</p>';
+  const sorted = rows.slice().sort((a, b) => new Date(b.first_seen_at) - new Date(a.first_seen_at));
+  const head = `<table class="t-compact">
+    <thead><tr>
+      <th>Status</th>
+      <th>Company</th><th>Sym</th>
+      <th class="num">Cap</th>
+      <th class="num">Price</th>
+      <th class="num">${mode === 'ath' ? 'ATH' : 'ATL'}</th>
+      <th class="num">${mode === 'ath' ? '%ATH' : '%ATL'}</th>
+      <th class="num">52wH</th>
+      <th class="num">52wL</th>
+      <th class="num">${mode === 'ath' ? 'ATHs 30d' : 'ATLs 30d'}</th>
+      <th>First seen</th>
+    </tr></thead><tbody>`;
+  const color = mode === 'ath' ? 'green' : 'red';
+  const label = mode === 'ath' ? 'ATH Maker' : 'ATL Maker';
+  const fmtTime = iso => {
+    try {
+      const d = new Date(iso);
+      return d.toLocaleString('en-GB', { dateStyle: 'short', timeStyle: 'short' });
+    } catch { return iso; }
+  };
+  const body = sorted.map(r => `<tr class="row-clickable" data-sym="${r.sym}">
+    <td><span class="badge badge-${color} badge-added" style="white-space:nowrap;">${label} New</span></td>
+    <td class="col-name-compact" title="${r.name}">${r.name}</td>
+    <td><strong>${r.sym}</strong></td>
+    <td class="num">${fmtMcap(r.mcap)}</td>
+    <td class="num">${r.price != null ? '$' + r.price.toFixed(2) : '—'}</td>
+    <td class="num">${(mode === 'ath' ? r.ath : r.atl) != null ? '$' + (mode === 'ath' ? r.ath : r.atl).toFixed(2) : '—'}</td>
+    <td class="num">${(mode === 'ath' ? r.pct_to_ath : r.pct_to_atl) != null ? '+' + (mode === 'ath' ? r.pct_to_ath : r.pct_to_atl).toFixed(1) + '%' : '—'}</td>
+    <td class="num">${r.wk52_high != null ? '$' + r.wk52_high.toFixed(2) : '—'}</td>
+    <td class="num">${r.wk52_low != null ? '$' + r.wk52_low.toFixed(2) : '—'}</td>
+    <td class="num">${(mode === 'ath' ? r.ath_30d : r.atl_30d) ?? '—'}</td>
+    <td style="color:var(--dim);font-size:11px;">${fmtTime(r.first_seen_at)}</td>
+  </tr>`).join('');
+  return head + body + '</tbody></table>';
+}
+
 function renderAll() {
   if (!currentData) return;
   const d = currentData;
+  const flipSections = document.getElementById('flip-sections');
+  const athSection = document.getElementById('ath-section');
+  const atlSection = document.getElementById('atl-section');
+
+  if (timeframe === 'ath' || timeframe === 'atl') {
+    // ATH/ATL mode — show only the relevant ATH or ATL section
+    flipSections.style.display = 'none';
+    athSection.style.display = timeframe === 'ath' ? '' : 'none';
+    atlSection.style.display = timeframe === 'atl' ? '' : 'none';
+
+    const list = filterRows(d.list || []);
+    const accumulator = filterRows(d.accumulator || []);
+    document.getElementById('stats').textContent =
+      `${d.count || list.length} stocks making new ${timeframe.toUpperCase()}s · ${accumulator.length} in accumulator`;
+    setIfNotOpen('changes-table', renderAthAtlChanges(accumulator, timeframe));
+    if (timeframe === 'ath') setIfNotOpen('ath-table', renderAthAtlTable(list, 'ath'));
+    else                     setIfNotOpen('atl-table', renderAthAtlTable(list, 'atl'));
+    document.getElementById('updated').textContent = fmtUpd(d.updated_at);
+    return;
+  }
+
+  // Flip mode (daily / weekly / monthly)
+  flipSections.style.display = '';
+  athSection.style.display = 'none';
+  atlSection.style.display = 'none';
   const fg = filterRows(d.fvb_green), fr = filterRows(d.fvb_red);
   const bg = filterRows(d.bxt_green), br = filterRows(d.bxt_red);
   document.getElementById('stats').textContent =
     `${d.scanned_count} scanned in ${d.scan_seconds}s · IQ Bands ${fg.length}g/${fr.length}r · IQ Oscillator ${bg.length}g/${br.length}r`;
-  // Filter changes by mcap too
   const filteredChanges = { compared_to: d.changes.compared_to };
   for (const k of ['fvb_green_added','fvb_green_removed','fvb_red_added','fvb_red_removed','bxt_green_added','bxt_green_removed','bxt_red_added','bxt_red_removed']) {
     filteredChanges[k] = filterRows(d.changes[k]);
