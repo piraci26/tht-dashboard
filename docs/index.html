@@ -715,16 +715,19 @@ function renderAthAtlTable(rows, mode) {
   const tableId = mode === 'ath' ? 'ath-table' : 'atl-table';
   const state = sortState[tableId];
   const sorted = sortRowsBy(rows, state.col, state.dir);
-  const extremaKey = mode === 'ath' ? 'ath' : 'atl';
-  const pctKey     = mode === 'ath' ? 'pct_to_ath' : 'pct_to_atl';
-  const cntKey     = mode === 'ath' ? 'ath_30d' : 'atl_30d';
+  const extremaKey   = mode === 'ath' ? 'ath' : 'atl';
+  const pctKey       = mode === 'ath' ? 'pct_to_ath' : 'pct_to_atl';
+  const cntKey       = mode === 'ath' ? 'ath_30d' : 'atl_30d';
+  const todayKey     = mode === 'ath' ? 'last_high' : 'last_low';
+  const todayLabel   = mode === 'ath' ? "Today's High" : "Today's Low";
   const head = `<table>
     <thead><tr>
       <th class="num">#</th>
       ${th('Company','name',tableId)}
       ${th('Sym','sym',tableId)}
       ${th('Mkt Cap','mcap',tableId,'num')}
-      ${th('Price','price',tableId,'num')}
+      ${th('Close','price',tableId,'num')}
+      ${th(todayLabel, todayKey, tableId, 'num')}
       ${th(mode === 'ath' ? 'ATH' : 'ATL', extremaKey, tableId, 'num')}
       ${th(mode === 'ath' ? '% to ATH' : '% from ATL', pctKey, tableId, 'num')}
       ${th('52w High','wk52_high',tableId,'num')}
@@ -737,6 +740,7 @@ function renderAthAtlTable(rows, mode) {
     <td><strong>${r.sym}</strong></td>
     <td class="num">${fmtMcap(r.mcap)}</td>
     <td class="num">$${r.price != null ? r.price.toFixed(2) : '—'}</td>
+    <td class="num">${r[todayKey] != null ? '$' + r[todayKey].toFixed(2) : '—'}</td>
     <td class="num">${r[extremaKey] != null ? '$' + r[extremaKey].toFixed(2) : '—'}</td>
     <td class="num">${r[pctKey] != null ? '+' + r[pctKey].toFixed(1) + '%' : '—'}</td>
     <td class="num">${r.wk52_high != null ? '$' + r.wk52_high.toFixed(2) : '—'}</td>
