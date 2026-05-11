@@ -118,6 +118,8 @@ th {
 }
 th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
 td { padding: 11px 14px; border-bottom: 1px solid var(--line); }
+table.t-compact th, table.t-compact td { padding: 8px 8px; font-size: 12px; }
+table.t-compact .col-name-compact { max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 tbody tr:nth-child(even) { background: var(--row-alt); }
 tbody tr:last-child td { border-bottom: none; }
 tbody tr:hover { background: #1f1f1f; }

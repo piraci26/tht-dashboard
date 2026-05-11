@@ -611,13 +611,12 @@ function renderChanges(changes) {
   ];
   const total = buckets.reduce((s,b) => s + (b.items?.length || 0), 0);
   if (total === 0) return '<p class="empty">No changes since last refresh.</p>';
-  const head = `<table>
+  const head = `<table class="t-compact">
     <thead><tr>
       <th>Flip</th>
       <th>Company</th><th>Sym</th>
       <th class="num">Cap</th>
       <th class="num">Price</th>
-      <th class="num">Basis</th>
       <th class="num">Osc</th>
       <th class="num">ATH</th>
       <th class="num">%ATH</th>
@@ -629,11 +628,10 @@ function renderChanges(changes) {
   const body = buckets.flatMap(b =>
     (b.items || []).map(item => `<tr class="row-clickable" data-sym="${item.sym}">
       <td><span class="badge badge-${b.color} badge-${b.action}" style="white-space:nowrap;">${b.label}</span></td>
-      <td>${item.name}</td>
+      <td class="col-name-compact" title="${item.name}">${item.name}</td>
       <td><strong>${item.sym}</strong></td>
       <td class="num">${fmtMcap(item.mcap)}</td>
       <td class="num">${cell(item.price, '$')}</td>
-      <td class="num">${cell(item.basis, '$')}</td>
       <td class="num">${cell(item.bxt_today)}</td>
       <td class="num">${cell(item.ath, '$')}</td>
       <td class="num">${item.pct_to_ath != null ? '+' + item.pct_to_ath.toFixed(1) + '%' : '—'}</td>
