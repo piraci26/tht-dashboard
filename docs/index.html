@@ -613,23 +613,22 @@ function renderChanges(changes) {
   if (total === 0) return '<p class="empty">No changes since last refresh.</p>';
   const head = `<table>
     <thead><tr>
-      <th>Bucket</th><th>Action</th>
+      <th>Flip</th>
       <th>Company</th><th>Sym</th>
-      <th class="num">Mkt Cap</th>
+      <th class="num">Cap</th>
       <th class="num">Price</th>
       <th class="num">Basis</th>
-      <th class="num">IQ Osc</th>
+      <th class="num">Osc</th>
       <th class="num">ATH</th>
-      <th class="num">% to ATH</th>
-      <th class="num">52w High</th>
-      <th class="num">52w Low</th>
-      <th class="num">New ATHs 30d</th>
+      <th class="num">%ATH</th>
+      <th class="num">52wH</th>
+      <th class="num">52wL</th>
+      <th class="num">ATHs 30d</th>
     </tr></thead><tbody>`;
   const cell = (v, prefix='') => v == null ? '—' : `${prefix}${typeof v === 'number' ? v.toFixed(2) : v}`;
   const body = buckets.flatMap(b =>
     (b.items || []).map(item => `<tr class="row-clickable" data-sym="${item.sym}">
-      <td>${b.label}</td>
-      <td><span class="badge badge-${b.color} badge-${b.action}">${b.action.toUpperCase()}</span></td>
+      <td><span class="badge badge-${b.color} badge-${b.action}">${b.label} · ${b.action.toUpperCase()}</span></td>
       <td>${item.name}</td>
       <td><strong>${item.sym}</strong></td>
       <td class="num">${fmtMcap(item.mcap)}</td>
