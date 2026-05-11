@@ -628,7 +628,7 @@ function renderChanges(changes) {
   const cell = (v, prefix='') => v == null ? '—' : `${prefix}${typeof v === 'number' ? v.toFixed(2) : v}`;
   const body = buckets.flatMap(b =>
     (b.items || []).map(item => `<tr class="row-clickable" data-sym="${item.sym}">
-      <td><span class="badge badge-${b.color} badge-${b.action}">${b.label} · ${b.action.toUpperCase()}</span></td>
+      <td><span class="badge badge-${b.color} badge-${b.action}" style="white-space:nowrap;">${b.label}</span></td>
       <td>${item.name}</td>
       <td><strong>${item.sym}</strong></td>
       <td class="num">${fmtMcap(item.mcap)}</td>
