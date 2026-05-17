@@ -187,7 +187,7 @@ const COLS = [
   {key:'mcap',        label:'Mkt Cap',   cls:'num',  type:'num'},
   {key:'price',       label:'Price',     cls:'num',  type:'num'},
   {key:'basis',       label:'Basis',     cls:'num',  type:'num'},
-  {key:'bxt_today',   label:'THT Multi Timeframe BX', cls:'num', type:'num'},
+  {key:'bxt_today',   label:'BX',        cls:'num',  type:'num'},
   {key:'streak',      label:'Streak',    cls:'num',  type:'num'},
   {key:'ath',         label:'ATH',       cls:'num',  type:'num'},
   {key:'pct_to_ath',  label:'% to ATH',  cls:'num',  type:'num'},
@@ -722,7 +722,7 @@ function renderChanges(changes) {
       ${th('Sym','sym','changes-table')}
       ${th('Cap','mcap','changes-table','num')}
       ${th('Price','price','changes-table','num')}
-      ${th('Osc','bxt_today','changes-table','num')}
+      ${th('BX','bxt_today','changes-table','num')}
       ${th('ATH','ath','changes-table','num')}
       ${th('%ATH','pct_to_ath','changes-table','num')}
       ${th('52wH','wk52_high','changes-table','num')}
