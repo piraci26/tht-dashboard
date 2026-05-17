@@ -14,7 +14,7 @@
 body {
   background: var(--bg); color: var(--fg);
   font-family: -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", system-ui, sans-serif;
-  padding: 32px 24px; max-width: 1100px; margin: 0 auto;
+  padding: 32px 24px; max-width: 1400px; margin: 0 auto;
   font-size: 14px; line-height: 1.5;
 }
 header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 32px; }
@@ -111,15 +111,16 @@ h2 { font-size: 18px; font-weight: 600; margin-bottom: 16px; display: flex; alig
 .table-wrap { background: var(--table-bg); border: 1px solid var(--line); border-radius: 8px; overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; }
 /* Cap Company column so long names don't push trailing columns (e.g. ATH 30D) off-screen */
-.table-wrap table tbody td:nth-child(2) { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.table-wrap table tbody td:nth-child(2) { max-width: 180px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 thead { background: #1a1a1a; }
 th {
-  text-align: left; font-weight: 600; padding: 12px 14px;
-  color: var(--dim); font-size: 11px; text-transform: uppercase;
-  letter-spacing: 0.05em; border-bottom: 1px solid var(--line);
+  text-align: left; font-weight: 600; padding: 10px 8px;
+  color: var(--dim); font-size: 10.5px; text-transform: uppercase;
+  letter-spacing: 0.03em; border-bottom: 1px solid var(--line);
+  white-space: nowrap;
 }
 th.num, td.num { text-align: right; font-variant-numeric: tabular-nums; }
-td { padding: 11px 14px; border-bottom: 1px solid var(--line); }
+td { padding: 9px 8px; border-bottom: 1px solid var(--line); font-size: 13px; white-space: nowrap; }
 table.t-compact th, table.t-compact td { padding: 8px 8px; font-size: 12px; }
 table.t-compact .col-name-compact { max-width: 160px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 tbody tr:nth-child(even) { background: var(--row-alt); }
