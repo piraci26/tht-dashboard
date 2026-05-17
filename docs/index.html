@@ -186,7 +186,6 @@ const COLS = [
   {key:'sym',         label:'Sym',       cls:'',     type:'str'},
   {key:'mcap',        label:'Mkt Cap',   cls:'num',  type:'num'},
   {key:'price',       label:'Price',     cls:'num',  type:'num'},
-  {key:'basis',       label:'Basis',     cls:'num',  type:'num'},
   {key:'bxt_today',   label:'BX',        cls:'num',  type:'num'},
   {key:'streak',      label:'Streak',    cls:'num',  type:'num'},
   {key:'ath',         label:'ATH',       cls:'num',  type:'num'},
@@ -248,7 +247,6 @@ function renderTable(rows, tableId) {
     <td><strong>${r.sym}</strong></td>
     <td class="num">${fmtMcap(r.mcap)}</td>
     <td class="num">$${r.price.toFixed(2)}</td>
-    <td class="num">$${r.basis.toFixed(2)}</td>
     <td class="num">${r.bxt_today.toFixed(2)}</td>
     <td class="num">${streak != null ? streak + (timeframe === 'weekly' ? 'W' : timeframe === 'monthly' ? 'M' : 'd') : '—'}</td>
     <td class="num">${r.ath != null ? '$' + r.ath.toFixed(2) : '—'}</td>
