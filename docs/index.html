@@ -869,7 +869,7 @@ function renderLuxTable(rows, tableId, color) {
     return state.dir === 'asc' ? '<span class="sort-arrow active">↑</span>' : '<span class="sort-arrow active">↓</span>';
   };
   const sortedCls = (col) => state.col === col ? ' sorted' : '';
-  const ageLabel = color === 'green' ? 'Days red before flip' : 'Days green before flip';
+  const ageLabel = 'Days before flip';
   const head = `<table>
     <thead><tr>
       <th class="num">#</th>
