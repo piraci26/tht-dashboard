@@ -27,7 +27,7 @@
   <span class="separator">·</span>
   <span id="stats"></span>
 </div>
-<p class="subtitle">US stocks where <strong>IQ Bands</strong> or <strong>IQ Oscillator</strong> flipped. Click any row to expand chart.</p>
+<p class="subtitle">US stocks where <strong>IQ Bands</strong> or <strong>BX Trender</strong> flipped. Click any row to expand chart.</p>
 <div class="tab-row">
   <button class="tab-btn active" data-tf="daily">Daily</button>
   <button class="tab-btn" data-tf="weekly">Weekly</button>
@@ -70,12 +70,12 @@
 </section>
 
 <section class="green">
-<h2><span class="dot dot-green"></span>IQ Oscillator flipped GREEN today</h2>
+<h2><span class="dot dot-green"></span>BX Trender flipped GREEN today</h2>
 <div id="bxt-green-table" class="table-wrap"></div>
 </section>
 
 <section class="red">
-<h2><span class="dot dot-red"></span>IQ Oscillator flipped RED today</h2>
+<h2><span class="dot dot-red"></span>BX Trender flipped RED today</h2>
 <div id="bxt-red-table" class="table-wrap"></div>
 </section>
 </div>
@@ -96,16 +96,16 @@
 <div id="iqalgo-sections" style="display:none;">
 <section class="green"><h2><span class="dot dot-green"></span>IQ Bands — Daily <strong>GREEN</strong></h2><div id="iqa-d-bg-table" class="table-wrap"></div></section>
 <section class="red"><h2><span class="dot dot-red"></span>IQ Bands — Daily <strong>RED</strong></h2><div id="iqa-d-br-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>IQ Oscillator — Daily <strong>GREEN</strong></h2><div id="iqa-d-og-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>IQ Oscillator — Daily <strong>RED</strong></h2><div id="iqa-d-or-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>BX Trender — Daily <strong>GREEN</strong></h2><div id="iqa-d-og-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>BX Trender — Daily <strong>RED</strong></h2><div id="iqa-d-or-table" class="table-wrap"></div></section>
 <section class="green"><h2><span class="dot dot-green"></span>IQ Bands — Weekly <strong>GREEN</strong></h2><div id="iqa-w-bg-table" class="table-wrap"></div></section>
 <section class="red"><h2><span class="dot dot-red"></span>IQ Bands — Weekly <strong>RED</strong></h2><div id="iqa-w-br-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>IQ Oscillator — Weekly <strong>GREEN</strong></h2><div id="iqa-w-og-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>IQ Oscillator — Weekly <strong>RED</strong></h2><div id="iqa-w-or-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>BX Trender — Weekly <strong>GREEN</strong></h2><div id="iqa-w-og-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>BX Trender — Weekly <strong>RED</strong></h2><div id="iqa-w-or-table" class="table-wrap"></div></section>
 <section class="green"><h2><span class="dot dot-green"></span>IQ Bands — Monthly <strong>GREEN</strong></h2><div id="iqa-m-bg-table" class="table-wrap"></div></section>
 <section class="red"><h2><span class="dot dot-red"></span>IQ Bands — Monthly <strong>RED</strong></h2><div id="iqa-m-br-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>IQ Oscillator — Monthly <strong>GREEN</strong></h2><div id="iqa-m-og-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>IQ Oscillator — Monthly <strong>RED</strong></h2><div id="iqa-m-or-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>BX Trender — Monthly <strong>GREEN</strong></h2><div id="iqa-m-og-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>BX Trender — Monthly <strong>RED</strong></h2><div id="iqa-m-or-table" class="table-wrap"></div></section>
 </div>
 
 <!-- LuxAlgo sections (shown only when viewMode='lux') — 2 tables: green/red for the active timeframe -->
@@ -198,7 +198,7 @@ const COLS = [
   {key:'mcap',        label:'Mkt Cap',   cls:'num',  type:'num'},
   {key:'price',       label:'Price',     cls:'num',  type:'num'},
   {key:'basis',       label:'Basis',     cls:'num',  type:'num'},
-  {key:'bxt_today',   label:'IQ Osc',    cls:'num',  type:'num'},
+  {key:'bxt_today',   label:'BX Trender', cls:'num', type:'num'},
   {key:'streak',      label:'Streak',    cls:'num',  type:'num'},
   {key:'ath',         label:'ATH',       cls:'num',  type:'num'},
   {key:'pct_to_ath',  label:'% to ATH',  cls:'num',  type:'num'},
@@ -275,7 +275,7 @@ function renderTable(rows, tableId) {
 }
 
 // ─────────────────────────────────────────────────────────────────
-// Indicator math (mirrors scan.py — IQ Bands + IQ Oscillator)
+// Indicator math (mirrors scan.py — IQ Bands + BX Trender)
 // ─────────────────────────────────────────────────────────────────
 function sma(arr, len) {
   const out = new Array(arr.length).fill(null);
@@ -349,7 +349,7 @@ function computeIQBands(bars, length = 33, mult = 2.0, threshMult = 0.25) {
 }
 
 function computeBXT(closes) {
-  // IQ Oscillator short line: RSI(EMA(close,5) - EMA(close,20), 5) - 50
+  // BX Trender short line: RSI(EMA(close,5) - EMA(close,20), 5) - 50
   const e5  = ema(closes, 5);
   const e20 = ema(closes, 20);
   const diff = e5.map((v, i) => v != null && e20[i] != null ? v - e20[i] : null);
@@ -569,7 +569,7 @@ function renderChart(container, bars, sym) {
   const bxtChart = LightweightCharts.createChart(bxtWrap, {
     ...baseLayout,
     rightPriceScale: { borderColor: TV_COLORS.border, scaleMargins: { top: 0.1, bottom: 0.1 } },
-    watermark: { visible: true, color: 'rgba(120,123,134,0.25)', text: 'IQ Oscillator', fontSize: 14, horzAlign: 'left', vertAlign: 'top' },
+    watermark: { visible: true, color: 'rgba(120,123,134,0.25)', text: 'BX Trender', fontSize: 14, horzAlign: 'left', vertAlign: 'top' },
   });
 
   // Short-term: histogram — bright lime green positive / dark crimson negative
@@ -713,10 +713,10 @@ function renderChanges(changes) {
     {label: 'IQ Bands 🟢 Dropped', items: changes.fvb_green_removed, action: 'removed', color: 'green'},
     {label: 'IQ Bands 🔴 New',     items: changes.fvb_red_added,     action: 'added',   color: 'red'},
     {label: 'IQ Bands 🔴 Dropped', items: changes.fvb_red_removed,   action: 'removed', color: 'red'},
-    {label: 'IQ Oscillator 🟢 New',     items: changes.bxt_green_added,   action: 'added',   color: 'green'},
-    {label: 'IQ Oscillator 🟢 Dropped', items: changes.bxt_green_removed, action: 'removed', color: 'green'},
-    {label: 'IQ Oscillator 🔴 New',     items: changes.bxt_red_added,     action: 'added',   color: 'red'},
-    {label: 'IQ Oscillator 🔴 Dropped', items: changes.bxt_red_removed,   action: 'removed', color: 'red'},
+    {label: 'BX Trender 🟢 New',     items: changes.bxt_green_added,   action: 'added',   color: 'green'},
+    {label: 'BX Trender 🟢 Dropped', items: changes.bxt_green_removed, action: 'removed', color: 'green'},
+    {label: 'BX Trender 🔴 New',     items: changes.bxt_red_added,     action: 'added',   color: 'red'},
+    {label: 'BX Trender 🔴 Dropped', items: changes.bxt_red_removed,   action: 'removed', color: 'red'},
   ];
   // Flatten with bucket info embedded as columns for sort/render
   const flat = buckets.flatMap(b =>
@@ -1025,7 +1025,7 @@ function renderAll() {
   const fg = filterRows(d.fvb_green), fr = filterRows(d.fvb_red);
   const bg = filterRows(d.bxt_green), br = filterRows(d.bxt_red);
   document.getElementById('stats').textContent =
-    `${d.scanned_count} scanned in ${d.scan_seconds}s · IQ Bands ${fg.length}g/${fr.length}r · IQ Oscillator ${bg.length}g/${br.length}r`;
+    `${d.scanned_count} scanned in ${d.scan_seconds}s · IQ Bands ${fg.length}g/${fr.length}r · BX Trender ${bg.length}g/${br.length}r`;
   const filteredChanges = { compared_to: d.changes.compared_to };
   for (const k of ['fvb_green_added','fvb_green_removed','fvb_red_added','fvb_red_removed','bxt_green_added','bxt_green_removed','bxt_red_added','bxt_red_removed']) {
     filteredChanges[k] = filterRows(d.changes[k]);
