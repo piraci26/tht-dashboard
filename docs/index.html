@@ -1094,17 +1094,8 @@ async function load() {
 
 load();
 setInterval(load, 300000);
-
-document.addEventListener('visibilitychange', () => {
-  if (document.visibilityState === 'visible') load();
-});
-window.addEventListener('focus', load);
-
-setInterval(() => {
-  if (!currentData || !currentData.updated_at) return;
-  const ageMin = (Date.now() - new Date(currentData.updated_at)) / 60000;
-  if (ageMin > 12) location.reload();
-}, 60000);
+// No visibilitychange / focus refresh, no auto-reload — the 5min cadence is
+// the single source of refresh. Manual reload still works whenever needed.
 </script>
 </body>
 </html>
