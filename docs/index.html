@@ -34,7 +34,8 @@
   <button class="tab-btn" data-tf="monthly">Monthly</button>
 </div>
 <div class="tab-row tab-row-extrema">
-  <button class="tab-btn" data-tf="iqalgo">IQ Algo</button>
+  <button class="tab-btn" data-tf="fvb">Fair Value Bands</button>
+  <button class="tab-btn" data-tf="bxt">Multi Timeframe BX</button>
   <button class="tab-btn" data-tf="ath">ATH</button>
   <button class="tab-btn" data-tf="atl">ATL</button>
   <button class="tab-btn" data-tf="lux">LuxAlgo</button>
@@ -92,20 +93,16 @@
 <div id="atl-table" class="table-wrap"></div>
 </section>
 
-<!-- IQ Algo combined view (shown only when timeframe='iqalgo') — D/W/M × Bands/Osc × green/red = 12 tables -->
-<div id="iqalgo-sections" style="display:none;">
-<section class="green"><h2><span class="dot dot-green"></span>THT Fair Value Bands — Daily <strong>GREEN</strong></h2><div id="iqa-d-bg-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>THT Fair Value Bands — Daily <strong>RED</strong></h2><div id="iqa-d-br-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>THT Multi Timeframe BX — Daily <strong>GREEN</strong></h2><div id="iqa-d-og-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>THT Multi Timeframe BX — Daily <strong>RED</strong></h2><div id="iqa-d-or-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>THT Fair Value Bands — Weekly <strong>GREEN</strong></h2><div id="iqa-w-bg-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>THT Fair Value Bands — Weekly <strong>RED</strong></h2><div id="iqa-w-br-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>THT Multi Timeframe BX — Weekly <strong>GREEN</strong></h2><div id="iqa-w-og-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>THT Multi Timeframe BX — Weekly <strong>RED</strong></h2><div id="iqa-w-or-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>THT Fair Value Bands — Monthly <strong>GREEN</strong></h2><div id="iqa-m-bg-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>THT Fair Value Bands — Monthly <strong>RED</strong></h2><div id="iqa-m-br-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>THT Multi Timeframe BX — Monthly <strong>GREEN</strong></h2><div id="iqa-m-og-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>THT Multi Timeframe BX — Monthly <strong>RED</strong></h2><div id="iqa-m-or-table" class="table-wrap"></div></section>
+<!-- Fair Value Bands view (viewMode='fvb') — 2 tables: green/red for the active D/W/M timeframe -->
+<div id="fvb-sections" style="display:none;">
+<section class="green"><h2><span class="dot dot-green"></span>THT Fair Value Bands — <span id="fvb-green-title">Daily</span> <strong>GREEN</strong></h2><div id="fvb-only-green-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>THT Fair Value Bands — <span id="fvb-red-title">Daily</span> <strong>RED</strong></h2><div id="fvb-only-red-table" class="table-wrap"></div></section>
+</div>
+
+<!-- Multi Timeframe BX view (viewMode='bxt') — 2 tables: green/red for the active D/W/M timeframe -->
+<div id="bxt-sections" style="display:none;">
+<section class="green"><h2><span class="dot dot-green"></span>THT Multi Timeframe BX — <span id="bxt-green-title">Daily</span> <strong>GREEN</strong></h2><div id="bxt-only-green-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>THT Multi Timeframe BX — <span id="bxt-red-title">Daily</span> <strong>RED</strong></h2><div id="bxt-only-red-table" class="table-wrap"></div></section>
 </div>
 
 <!-- LuxAlgo sections (shown only when viewMode='lux') — 2 tables: green/red for the active timeframe -->
@@ -147,19 +144,11 @@ const sortState = {
   'changes-table':   {col:'mcap', dir:'desc'},
   'ath-table':       {col:'mcap', dir:'desc'},
   'atl-table':       {col:'mcap', dir:'desc'},
-  // IQ Algo aggregated tables (D/W/M × Bands/Osc × Green/Red)
-  'iqa-d-bg-table': {col:'mcap', dir:'desc'},
-  'iqa-d-br-table': {col:'mcap', dir:'desc'},
-  'iqa-d-og-table': {col:'mcap', dir:'desc'},
-  'iqa-d-or-table': {col:'mcap', dir:'desc'},
-  'iqa-w-bg-table': {col:'mcap', dir:'desc'},
-  'iqa-w-br-table': {col:'mcap', dir:'desc'},
-  'iqa-w-og-table': {col:'mcap', dir:'desc'},
-  'iqa-w-or-table': {col:'mcap', dir:'desc'},
-  'iqa-m-bg-table': {col:'mcap', dir:'desc'},
-  'iqa-m-br-table': {col:'mcap', dir:'desc'},
-  'iqa-m-og-table': {col:'mcap', dir:'desc'},
-  'iqa-m-or-table': {col:'mcap', dir:'desc'},
+  // Fair Value Bands / Multi Timeframe BX standalone views — driven by active timeframe
+  'fvb-only-green-table': {col:'mcap', dir:'desc'},
+  'fvb-only-red-table':   {col:'mcap', dir:'desc'},
+  'bxt-only-green-table': {col:'mcap', dir:'desc'},
+  'bxt-only-red-table':   {col:'mcap', dir:'desc'},
   // LuxAlgo tables — single green/red pair driven by active D/W/M timeframe
   'lux-green-table': {col:'mcap', dir:'desc'},
   'lux-red-table':   {col:'mcap', dir:'desc'},
@@ -212,13 +201,11 @@ const STREAK_KEY = {
   'fvb-red-table':   'fvb_streak',
   'bxt-green-table': 'bxt_streak',
   'bxt-red-table':   'bxt_streak',
-  // IQ Algo aggregated view inherits streak keys based on Bands vs Osc
-  'iqa-d-bg-table': 'fvb_streak', 'iqa-d-br-table': 'fvb_streak',
-  'iqa-d-og-table': 'bxt_streak', 'iqa-d-or-table': 'bxt_streak',
-  'iqa-w-bg-table': 'fvb_streak', 'iqa-w-br-table': 'fvb_streak',
-  'iqa-w-og-table': 'bxt_streak', 'iqa-w-or-table': 'bxt_streak',
-  'iqa-m-bg-table': 'fvb_streak', 'iqa-m-br-table': 'fvb_streak',
-  'iqa-m-og-table': 'bxt_streak', 'iqa-m-or-table': 'bxt_streak',
+  // Standalone product views (single product, single timeframe)
+  'fvb-only-green-table': 'fvb_streak',
+  'fvb-only-red-table':   'fvb_streak',
+  'bxt-only-green-table': 'bxt_streak',
+  'bxt-only-red-table':   'bxt_streak',
 };
 
 function sortRows(rows, col, dir, tableId) {
@@ -685,11 +672,14 @@ document.addEventListener('click', e => {
 
 let currentData = null;
 let minMcap = parseFloat(localStorage.getItem('minMcap') || '3.5');
-// Migrate legacy timeframe values that were really view modes (lux/ath/atl/iqalgo)
+// Migrate legacy timeframe values that were really view modes (lux/ath/atl/iqalgo → fvb)
 let _legacyTf = localStorage.getItem('timeframe') || 'daily';
 let timeframe = ['daily','weekly','monthly'].includes(_legacyTf) ? _legacyTf : 'daily';
-let viewMode = ['lux','ath','atl','iqalgo'].includes(_legacyTf) ? _legacyTf : (localStorage.getItem('viewMode') || 'flip');
-if (!['flip','lux','ath','atl','iqalgo'].includes(viewMode)) viewMode = 'flip';
+let _legacyVm = localStorage.getItem('viewMode') || 'flip';
+// iqalgo is gone — fall back to flip (no good single-tab successor; user can pick fvb or bxt)
+if (_legacyVm === 'iqalgo') _legacyVm = 'flip';
+let viewMode = ['lux','ath','atl','fvb','bxt'].includes(_legacyTf) ? _legacyTf : _legacyVm;
+if (!['flip','lux','ath','atl','fvb','bxt'].includes(viewMode)) viewMode = 'flip';
 localStorage.setItem('timeframe', timeframe);
 localStorage.setItem('viewMode', viewMode);
 const filterRows = rows => (rows || []).filter(r => (r.mcap || 0) >= minMcap);
@@ -700,7 +690,7 @@ const resultsUrl = () => {
   if (viewMode === 'ath')    return `${DATA_BASE}/ath_list.json`;
   if (viewMode === 'atl')    return `${DATA_BASE}/atl_list.json`;
   if (viewMode === 'lux')    return `${DATA_BASE}/lux_results.json`;
-  if (viewMode === 'iqalgo') return `${DATA_BASE}/results.json`;  // for stats; aggregate fetcher loads W and M separately
+  // fvb and bxt use the timeframe-scoped results files (same as flip mode)
   return `${DATA_BASE}/${timeframe === 'daily' ? 'results.json' : `results_${timeframe}.json`}`;
 };
 const barsBaseUrl = () => `${DATA_BASE}/${(viewMode === 'ath' || viewMode === 'atl' || timeframe === 'daily') ? 'bars' : `bars_${timeframe}`}`;
@@ -899,27 +889,6 @@ function renderLuxTable(rows, tableId, color) {
   return head + body + '</tbody></table>';
 }
 
-// Aggregated cache for the IQ Algo (combined D+W+M) view
-let iqAlgoCache = { D: null, W: null, M: null };
-
-async function loadIqAlgoAggregate() {
-  const urls = {
-    D: `${DATA_BASE}/results.json`,
-    W: `${DATA_BASE}/results_weekly.json`,
-    M: `${DATA_BASE}/results_monthly.json`,
-  };
-  for (const tf of ['D', 'W', 'M']) {
-    if (iqAlgoCache[tf]) continue;
-    try {
-      const r = await fetch(urls[tf]);
-      iqAlgoCache[tf] = await r.json();
-    } catch (e) {
-      console.warn(`Failed to load ${tf}:`, e);
-      iqAlgoCache[tf] = { fvb_green: [], fvb_red: [], bxt_green: [], bxt_red: [] };
-    }
-  }
-  return iqAlgoCache;
-}
 
 function renderAll() {
   if (!currentData) return;
@@ -928,45 +897,44 @@ function renderAll() {
   const athSection = document.getElementById('ath-section');
   const atlSection = document.getElementById('atl-section');
   const luxSections = document.getElementById('lux-sections');
-  const iqaSections = document.getElementById('iqalgo-sections');
+  const fvbSections = document.getElementById('fvb-sections');
+  const bxtSections = document.getElementById('bxt-sections');
 
-  if (viewMode === 'iqalgo') {
-    // IQ Algo combined view — 12 tables across D/W/M × Bands/Osc × Green/Red
+  const hideAllProductSections = () => {
     flipSections.style.display = 'none';
     athSection.style.display = 'none';
     atlSection.style.display = 'none';
     luxSections && (luxSections.style.display = 'none');
-    iqaSections.style.display = '';
+    fvbSections && (fvbSections.style.display = 'none');
+    bxtSections && (bxtSections.style.display = 'none');
+  };
+
+  if (viewMode === 'fvb' || viewMode === 'bxt') {
+    // Standalone Fair Value Bands / Multi Timeframe BX view — reuses the active
+    // D/W/M results file. Renders just green + red for the chosen product.
+    hideAllProductSections();
+    (viewMode === 'fvb' ? fvbSections : bxtSections).style.display = '';
     document.getElementById('changes-table').innerHTML = '';
-    // Load aggregate data
-    loadIqAlgoAggregate().then(cache => {
-      const fg = (a) => filterRows(a || []);
-      const tfMap = { D: 'd', W: 'w', M: 'm' };
-      let totals = { g: 0, r: 0 };
-      for (const tf of ['D', 'W', 'M']) {
-        const c = cache[tf] || {};
-        const bg = fg(c.fvb_green), br = fg(c.fvb_red), og = fg(c.bxt_green), or = fg(c.bxt_red);
-        totals.g += bg.length + og.length;
-        totals.r += br.length + or.length;
-        const prefix = `iqa-${tfMap[tf]}`;
-        setIfNotOpen(`${prefix}-bg-table`, renderTable(bg, `${prefix}-bg-table`));
-        setIfNotOpen(`${prefix}-br-table`, renderTable(br, `${prefix}-br-table`));
-        setIfNotOpen(`${prefix}-og-table`, renderTable(og, `${prefix}-og-table`));
-        setIfNotOpen(`${prefix}-or-table`, renderTable(or, `${prefix}-or-table`));
-      }
-      document.getElementById('stats').textContent =
-        `IQ Algo combined view · D/W/M · ${totals.g} greens / ${totals.r} reds (min mcap $${minMcap}B)`;
-      document.getElementById('updated').textContent = fmtUpd(cache.D.updated_at);
-    });
+
+    const tfLabel = timeframe.charAt(0).toUpperCase() + timeframe.slice(1);
+    const prefix  = viewMode; // 'fvb' or 'bxt'
+    const product = viewMode === 'fvb' ? 'THT Fair Value Bands' : 'THT Multi Timeframe BX';
+    document.getElementById(`${prefix}-green-title`).textContent = tfLabel;
+    document.getElementById(`${prefix}-red-title`).textContent   = tfLabel;
+
+    const greens = filterRows(d[`${prefix}_green`]);
+    const reds   = filterRows(d[`${prefix}_red`]);
+    document.getElementById('stats').textContent =
+      `${product} · ${tfLabel} · ${greens.length} greens / ${reds.length} reds (min mcap $${minMcap}B)`;
+    setIfNotOpen(`${prefix}-only-green-table`, renderTable(greens, `${prefix}-only-green-table`));
+    setIfNotOpen(`${prefix}-only-red-table`,   renderTable(reds,   `${prefix}-only-red-table`));
+    document.getElementById('updated').textContent = fmtUpd(d.updated_at);
     return;
   }
 
   if (viewMode === 'lux') {
     // LuxAlgo mode — D/W/M buttons select which timeframe slice to display
-    flipSections.style.display = 'none';
-    athSection.style.display = 'none';
-    atlSection.style.display = 'none';
-    iqaSections && (iqaSections.style.display = 'none');
+    hideAllProductSections();
     luxSections.style.display = '';
     document.getElementById('changes-table').innerHTML = '';
 
@@ -998,10 +966,7 @@ function renderAll() {
   }
 
   if (viewMode === 'ath' || viewMode === 'atl') {
-    luxSections && (luxSections.style.display = 'none');
-    iqaSections && (iqaSections.style.display = 'none');
-    // ATH/ATL mode — show only the relevant ATH or ATL section
-    flipSections.style.display = 'none';
+    hideAllProductSections();
     athSection.style.display = viewMode === 'ath' ? '' : 'none';
     atlSection.style.display = viewMode === 'atl' ? '' : 'none';
 
@@ -1017,11 +982,8 @@ function renderAll() {
   }
 
   // Flip mode (daily / weekly / monthly)
+  hideAllProductSections();
   flipSections.style.display = '';
-  athSection.style.display = 'none';
-  atlSection.style.display = 'none';
-  luxSections && (luxSections.style.display = 'none');
-  iqaSections && (iqaSections.style.display = 'none');
   const fg = filterRows(d.fvb_green), fr = filterRows(d.fvb_red);
   const bg = filterRows(d.bxt_green), br = filterRows(d.bxt_red);
   document.getElementById('stats').textContent =
@@ -1070,7 +1032,7 @@ syncPresets();
 // Tabs — top row is timeframe (daily/weekly/monthly), bottom row is viewMode.
 // In LuxAlgo (and similar) modes, timeframe filters the visible slice.
 const TIMEFRAMES = ['daily','weekly','monthly'];
-const VIEW_MODES = ['iqalgo','ath','atl','lux'];
+const VIEW_MODES = ['fvb','bxt','ath','atl','lux'];
 function syncTabs() {
   document.querySelectorAll('.tab-btn').forEach(b => {
     const tf = b.dataset.tf;
@@ -1087,7 +1049,7 @@ document.querySelectorAll('.tab-btn').forEach(b => {
     if (TIMEFRAMES.includes(tf)) {
       if (tf === timeframe && viewMode === 'flip') return;
       timeframe = tf;
-      // Clicking the timeframe row in 'lux' / 'iqalgo' keeps the view (D/W/M filters the slice);
+      // Clicking the timeframe row in 'lux' / 'fvb' / 'bxt' keeps the view (D/W/M filters the slice);
       // for ath/atl (no timeframe dimension) and flip, clear viewMode back to flip.
       if (viewMode === 'ath' || viewMode === 'atl') viewMode = 'flip';
       localStorage.setItem('timeframe', timeframe);
