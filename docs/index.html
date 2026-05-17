@@ -164,6 +164,13 @@ const sortState = {
   'iqa-m-br-table': {col:'mcap', dir:'desc'},
   'iqa-m-og-table': {col:'mcap', dir:'desc'},
   'iqa-m-or-table': {col:'mcap', dir:'desc'},
+  // LuxAlgo tables (sortable by mcap, name, sym, trend_strength)
+  'lux-d-green-table': {col:'mcap', dir:'desc'},
+  'lux-d-red-table':   {col:'mcap', dir:'desc'},
+  'lux-w-green-table': {col:'mcap', dir:'desc'},
+  'lux-w-red-table':   {col:'mcap', dir:'desc'},
+  'lux-m-green-table': {col:'mcap', dir:'desc'},
+  'lux-m-red-table':   {col:'mcap', dir:'desc'},
 };
 
 function sortRowsBy(rows, col, dir) {
@@ -842,27 +849,42 @@ function renderAthAtlChanges(rows, mode) {
   return head + body + '</tbody></table>';
 }
 
-function renderLuxTable(rows, tableId, isPlus) {
-  // Custom renderer for LuxAlgo result rows: sym, name, mcap, trend strength, signal type
-  if (!rows || rows.length === 0) return '<p class="empty">Nothing today.</p>';
-  const sorted = rows.slice().sort((a, b) => (b.mcap || 0) - (a.mcap || 0));
+function renderLuxTable(rows, tableId, color) {
+  // Polished LuxAlgo table: sortable headers, conviction-tier badges, trend strength
+  // color = 'green' | 'red'
+  if (!rows || rows.length === 0) {
+    return '<p class="empty">No LuxAlgo signals in this bucket today.</p>';
+  }
+  const state = sortState[tableId] || {col:'mcap', dir:'desc'};
+  // Coerce trend_strength to number for sorting
+  const enriched = rows.map(r => ({ ...r, _ts: parseFloat(r.trend_strength) }));
+  const sorted = sortRowsBy(enriched, state.col === '_ts' ? '_ts' : state.col, state.dir);
+
+  const tickerArrow = (key) => {
+    if (state.col !== key) return '<span class="sort-arrow">↕</span>';
+    return state.dir === 'asc' ? '<span class="sort-arrow active">↑</span>' : '<span class="sort-arrow active">↓</span>';
+  };
+  const sortedCls = (col) => state.col === col ? ' sorted' : '';
   const head = `<table>
     <thead><tr>
       <th class="num">#</th>
-      <th>Company</th>
-      <th>Sym</th>
-      <th class="num">Mkt Cap</th>
-      <th class="num">Trend Strength</th>
+      <th class="sortable${sortedCls('name')}"  data-col="name"  data-table="${tableId}">Company ${tickerArrow('name')}</th>
+      <th class="sortable${sortedCls('sym')}"   data-col="sym"   data-table="${tableId}">Sym ${tickerArrow('sym')}</th>
+      <th class="num sortable${sortedCls('mcap')}" data-col="mcap" data-table="${tableId}">Mkt Cap ${tickerArrow('mcap')}</th>
+      <th class="num sortable${sortedCls('_ts')}"  data-col="_ts"  data-table="${tableId}">Trend Strength ${tickerArrow('_ts')}</th>
       <th>Signal</th>
     </tr></thead><tbody>`;
   const body = sorted.map((r, i) => {
-    const tag = r.is_plus ? `<span class="badge badge-${isPlus}">▲▲ HIGH CONVICTION</span>` : `<span>${isPlus === 'green' ? '▲' : '▼'}</span>`;
+    const tag = r.is_plus
+      ? `<span class="badge badge-${color} badge-added">${color === 'green' ? '▲+ HIGH CONVICTION' : '▼+ HIGH CONVICTION'}</span>`
+      : `<span class="badge badge-${color}">${color === 'green' ? '▲' : '▼'}</span>`;
+    const ts = isFinite(r._ts) ? r._ts.toFixed(2) : (r.trend_strength || '—');
     return `<tr class="row-clickable" data-sym="${r.sym}">
       <td class="num">${i+1}</td>
       <td>${r.name}</td>
       <td><strong>${r.sym}</strong></td>
       <td class="num">${fmtMcap(r.mcap)}</td>
-      <td class="num">${r.trend_strength || '—'}</td>
+      <td class="num">${ts}</td>
       <td>${tag}</td>
     </tr>`;
   }).join('');
@@ -940,14 +962,24 @@ function renderAll() {
     luxSections.style.display = '';
     document.getElementById('changes-table').innerHTML = '';
 
-    const tfs = d.timeframes || {};
+    // Handle pre-data state gracefully — d may be a 404 fallback or empty stub
+    const hasTimeframes = d && d.timeframes && typeof d.timeframes === 'object';
+    if (!hasTimeframes) {
+      const msg = '<p class="empty">LuxAlgo scan data not yet available. The nightly scan loop populates this section. Check back after the next run.</p>';
+      ['lux-d-green-table','lux-d-red-table','lux-w-green-table','lux-w-red-table','lux-m-green-table','lux-m-red-table']
+        .forEach(id => { const el = document.getElementById(id); if (el) el.innerHTML = msg; });
+      document.getElementById('stats').textContent = 'LuxAlgo scan — waiting for first run';
+      document.getElementById('updated').textContent = 'No LuxAlgo data yet';
+      return;
+    }
+
+    const tfs = d.timeframes;
     const dT = tfs.D || {}, wT = tfs.W || {}, mT = tfs.M || {};
     const fg = (a) => filterRows(a || []);
-    const totalScanned = (dT.scanned || 0);
     const totalG = (dT.greens?.length||0) + (wT.greens?.length||0) + (mT.greens?.length||0);
     const totalR = (dT.reds?.length||0)  + (wT.reds?.length||0)  + (mT.reds?.length||0);
     document.getElementById('stats').textContent =
-      `${d.tickers_in_scope} tickers ≥ $${d.threshold_b}B · LuxAlgo: ${totalG} greens / ${totalR} reds across D/W/M`;
+      `${d.tickers_in_scope || 0} tickers ≥ $${d.threshold_b || '?'}B · LuxAlgo: ${totalG} greens / ${totalR} reds across D/W/M (min mcap $${minMcap}B)`;
     setIfNotOpen('lux-d-green-table', renderLuxTable(fg(dT.greens), 'lux-d-green-table', 'green'));
     setIfNotOpen('lux-d-red-table',   renderLuxTable(fg(dT.reds),   'lux-d-red-table',   'red'));
     setIfNotOpen('lux-w-green-table', renderLuxTable(fg(wT.greens), 'lux-w-green-table', 'green'));
@@ -1053,11 +1085,19 @@ syncTabs();
 async function load() {
   try {
     const res = await fetch(resultsUrl() + '?t=' + Date.now());
+    if (!res.ok) throw new Error('HTTP ' + res.status);
     const data = await res.json();
     currentData = data;
     renderAll();
   } catch (e) {
-    document.getElementById('updated').textContent = 'Failed to load results.json';
+    // For LuxAlgo specifically, fall through with an empty stub so the
+    // pre-data empty state renders instead of leaving stale tables on screen.
+    if (timeframe === 'lux') {
+      currentData = { updated_at: null, timeframes: null };
+      renderAll();
+    } else {
+      document.getElementById('updated').textContent = 'Failed to load results.json';
+    }
   }
 }
 
