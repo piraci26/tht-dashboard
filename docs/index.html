@@ -36,6 +36,7 @@
 <div class="tab-row tab-row-extrema">
   <button class="tab-btn" data-tf="ath">ATH</button>
   <button class="tab-btn" data-tf="atl">ATL</button>
+  <button class="tab-btn" data-tf="iqalgo">IQ Algo</button>
   <button class="tab-btn" data-tf="lux">LuxAlgo</button>
 </div>
 <div class="filter-row">
@@ -91,6 +92,22 @@
 <div id="atl-table" class="table-wrap"></div>
 </section>
 
+<!-- IQ Algo combined view (shown only when timeframe='iqalgo') — D/W/M × Bands/Osc × green/red = 12 tables -->
+<div id="iqalgo-sections" style="display:none;">
+<section class="green"><h2><span class="dot dot-green"></span>IQ Bands — Daily <strong>GREEN</strong></h2><div id="iqa-d-bg-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>IQ Bands — Daily <strong>RED</strong></h2><div id="iqa-d-br-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>IQ Oscillator — Daily <strong>GREEN</strong></h2><div id="iqa-d-og-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>IQ Oscillator — Daily <strong>RED</strong></h2><div id="iqa-d-or-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>IQ Bands — Weekly <strong>GREEN</strong></h2><div id="iqa-w-bg-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>IQ Bands — Weekly <strong>RED</strong></h2><div id="iqa-w-br-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>IQ Oscillator — Weekly <strong>GREEN</strong></h2><div id="iqa-w-og-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>IQ Oscillator — Weekly <strong>RED</strong></h2><div id="iqa-w-or-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>IQ Bands — Monthly <strong>GREEN</strong></h2><div id="iqa-m-bg-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>IQ Bands — Monthly <strong>RED</strong></h2><div id="iqa-m-br-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>IQ Oscillator — Monthly <strong>GREEN</strong></h2><div id="iqa-m-og-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>IQ Oscillator — Monthly <strong>RED</strong></h2><div id="iqa-m-or-table" class="table-wrap"></div></section>
+</div>
+
 <!-- LuxAlgo sections (shown only when timeframe='lux') — 6 tables: D/W/M × greens/reds -->
 <div id="lux-sections" style="display:none;">
 <section class="green"><h2><span class="dot dot-green"></span>LuxAlgo — Daily <strong>green</strong> today</h2><div id="lux-d-green-table" class="table-wrap"></div></section>
@@ -134,6 +151,19 @@ const sortState = {
   'changes-table':   {col:'mcap', dir:'desc'},
   'ath-table':       {col:'mcap', dir:'desc'},
   'atl-table':       {col:'mcap', dir:'desc'},
+  // IQ Algo aggregated tables (D/W/M × Bands/Osc × Green/Red)
+  'iqa-d-bg-table': {col:'mcap', dir:'desc'},
+  'iqa-d-br-table': {col:'mcap', dir:'desc'},
+  'iqa-d-og-table': {col:'mcap', dir:'desc'},
+  'iqa-d-or-table': {col:'mcap', dir:'desc'},
+  'iqa-w-bg-table': {col:'mcap', dir:'desc'},
+  'iqa-w-br-table': {col:'mcap', dir:'desc'},
+  'iqa-w-og-table': {col:'mcap', dir:'desc'},
+  'iqa-w-or-table': {col:'mcap', dir:'desc'},
+  'iqa-m-bg-table': {col:'mcap', dir:'desc'},
+  'iqa-m-br-table': {col:'mcap', dir:'desc'},
+  'iqa-m-og-table': {col:'mcap', dir:'desc'},
+  'iqa-m-or-table': {col:'mcap', dir:'desc'},
 };
 
 function sortRowsBy(rows, col, dir) {
@@ -183,6 +213,13 @@ const STREAK_KEY = {
   'fvb-red-table':   'fvb_streak',
   'bxt-green-table': 'bxt_streak',
   'bxt-red-table':   'bxt_streak',
+  // IQ Algo aggregated view inherits streak keys based on Bands vs Osc
+  'iqa-d-bg-table': 'fvb_streak', 'iqa-d-br-table': 'fvb_streak',
+  'iqa-d-og-table': 'bxt_streak', 'iqa-d-or-table': 'bxt_streak',
+  'iqa-w-bg-table': 'fvb_streak', 'iqa-w-br-table': 'fvb_streak',
+  'iqa-w-og-table': 'bxt_streak', 'iqa-w-or-table': 'bxt_streak',
+  'iqa-m-bg-table': 'fvb_streak', 'iqa-m-br-table': 'fvb_streak',
+  'iqa-m-og-table': 'bxt_streak', 'iqa-m-or-table': 'bxt_streak',
 };
 
 function sortRows(rows, col, dir, tableId) {
@@ -657,6 +694,7 @@ const resultsUrl = () => {
   if (timeframe === 'ath') return `${DATA_BASE}/ath_list.json`;
   if (timeframe === 'atl') return `${DATA_BASE}/atl_list.json`;
   if (timeframe === 'lux') return `${DATA_BASE}/lux_results.json`;
+  if (timeframe === 'iqalgo') return `${DATA_BASE}/results.json`;  // for stats; aggregate fetcher loads W and M separately
   return `${DATA_BASE}/${timeframe === 'daily' ? 'results.json' : `results_${timeframe}.json`}`;
 };
 const barsBaseUrl = () => `${DATA_BASE}/${(timeframe === 'ath' || timeframe === 'atl' || timeframe === 'daily') ? 'bars' : `bars_${timeframe}`}`;
@@ -831,6 +869,28 @@ function renderLuxTable(rows, tableId, isPlus) {
   return head + body + '</tbody></table>';
 }
 
+// Aggregated cache for the IQ Algo (combined D+W+M) view
+let iqAlgoCache = { D: null, W: null, M: null };
+
+async function loadIqAlgoAggregate() {
+  const urls = {
+    D: `${DATA_BASE}/results.json`,
+    W: `${DATA_BASE}/results_weekly.json`,
+    M: `${DATA_BASE}/results_monthly.json`,
+  };
+  for (const tf of ['D', 'W', 'M']) {
+    if (iqAlgoCache[tf]) continue;
+    try {
+      const r = await fetch(urls[tf]);
+      iqAlgoCache[tf] = await r.json();
+    } catch (e) {
+      console.warn(`Failed to load ${tf}:`, e);
+      iqAlgoCache[tf] = { fvb_green: [], fvb_red: [], bxt_green: [], bxt_red: [] };
+    }
+  }
+  return iqAlgoCache;
+}
+
 function renderAll() {
   if (!currentData) return;
   const d = currentData;
@@ -838,12 +898,45 @@ function renderAll() {
   const athSection = document.getElementById('ath-section');
   const atlSection = document.getElementById('atl-section');
   const luxSections = document.getElementById('lux-sections');
+  const iqaSections = document.getElementById('iqalgo-sections');
+
+  if (timeframe === 'iqalgo') {
+    // IQ Algo combined view — 12 tables across D/W/M × Bands/Osc × Green/Red
+    flipSections.style.display = 'none';
+    athSection.style.display = 'none';
+    atlSection.style.display = 'none';
+    luxSections && (luxSections.style.display = 'none');
+    iqaSections.style.display = '';
+    document.getElementById('changes-table').innerHTML = '';
+    // Load aggregate data
+    loadIqAlgoAggregate().then(cache => {
+      const fg = (a) => filterRows(a || []);
+      const tfMap = { D: 'd', W: 'w', M: 'm' };
+      let totals = { g: 0, r: 0 };
+      for (const tf of ['D', 'W', 'M']) {
+        const c = cache[tf] || {};
+        const bg = fg(c.fvb_green), br = fg(c.fvb_red), og = fg(c.bxt_green), or = fg(c.bxt_red);
+        totals.g += bg.length + og.length;
+        totals.r += br.length + or.length;
+        const prefix = `iqa-${tfMap[tf]}`;
+        setIfNotOpen(`${prefix}-bg-table`, renderTable(bg, `${prefix}-bg-table`));
+        setIfNotOpen(`${prefix}-br-table`, renderTable(br, `${prefix}-br-table`));
+        setIfNotOpen(`${prefix}-og-table`, renderTable(og, `${prefix}-og-table`));
+        setIfNotOpen(`${prefix}-or-table`, renderTable(or, `${prefix}-or-table`));
+      }
+      document.getElementById('stats').textContent =
+        `IQ Algo combined view · D/W/M · ${totals.g} greens / ${totals.r} reds (min mcap $${minMcap}B)`;
+      document.getElementById('updated').textContent = fmtUpd(cache.D.updated_at);
+    });
+    return;
+  }
 
   if (timeframe === 'lux') {
     // LuxAlgo mode — show 6 tables (D/W/M × greens/reds), hide others
     flipSections.style.display = 'none';
     athSection.style.display = 'none';
     atlSection.style.display = 'none';
+    iqaSections && (iqaSections.style.display = 'none');
     luxSections.style.display = '';
     document.getElementById('changes-table').innerHTML = '';
 
@@ -867,6 +960,7 @@ function renderAll() {
 
   if (timeframe === 'ath' || timeframe === 'atl') {
     luxSections && (luxSections.style.display = 'none');
+    iqaSections && (iqaSections.style.display = 'none');
     // ATH/ATL mode — show only the relevant ATH or ATL section
     flipSections.style.display = 'none';
     athSection.style.display = timeframe === 'ath' ? '' : 'none';
@@ -888,6 +982,7 @@ function renderAll() {
   athSection.style.display = 'none';
   atlSection.style.display = 'none';
   luxSections && (luxSections.style.display = 'none');
+  iqaSections && (iqaSections.style.display = 'none');
   const fg = filterRows(d.fvb_green), fr = filterRows(d.fvb_red);
   const bg = filterRows(d.bxt_green), br = filterRows(d.bxt_red);
   document.getElementById('stats').textContent =
