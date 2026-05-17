@@ -193,6 +193,7 @@ const COLS = [
   {key:'wk52_high',   label:'52w High',  cls:'num',  type:'num'},
   {key:'wk52_low',    label:'52w Low',   cls:'num',  type:'num'},
   {key:'ath_30d',     label:'New ATHs 30d', cls:'num', type:'num'},
+  {key:'atl_30d',     label:'New ATLs 30d', cls:'num', type:'num'},
 ];
 
 const STREAK_KEY = {
@@ -254,6 +255,7 @@ function renderTable(rows, tableId) {
     <td class="num">${r.wk52_high != null ? '$' + r.wk52_high.toFixed(2) : '—'}</td>
     <td class="num">${r.wk52_low  != null ? '$' + r.wk52_low.toFixed(2)  : '—'}</td>
     <td class="num">${r.ath_30d != null ? r.ath_30d : '—'}</td>
+    <td class="num">${r.atl_30d != null ? r.atl_30d : '—'}</td>
   </tr>`;
   }).join('');
   return head + body + '</tbody></table>';
