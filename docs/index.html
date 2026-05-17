@@ -27,15 +27,15 @@
   <span class="separator">·</span>
   <span id="stats"></span>
 </div>
-<p class="subtitle">US stocks where <strong>THT Fair Value Bands</strong> or <strong>THT Multi Timeframe BX</strong> flipped. Click any row to expand chart.</p>
+<p class="subtitle">US stocks where <strong>Bands</strong> or <strong>BX</strong> flipped. Click any row to expand chart.</p>
 <div class="tab-row">
   <button class="tab-btn active" data-tf="daily">Daily</button>
   <button class="tab-btn" data-tf="weekly">Weekly</button>
   <button class="tab-btn" data-tf="monthly">Monthly</button>
 </div>
 <div class="tab-row tab-row-extrema">
-  <button class="tab-btn" data-tf="fvb">Fair Value Bands</button>
-  <button class="tab-btn" data-tf="bxt">Multi Timeframe BX</button>
+  <button class="tab-btn" data-tf="fvb">Bands</button>
+  <button class="tab-btn" data-tf="bxt">BX</button>
   <button class="tab-btn" data-tf="ath">ATH</button>
   <button class="tab-btn" data-tf="atl">ATL</button>
   <button class="tab-btn" data-tf="lux">LuxAlgo</button>
@@ -61,22 +61,22 @@
 <!-- Flip sections (shown for daily/weekly/monthly timeframes) -->
 <div id="flip-sections">
 <section class="green">
-<h2><span class="dot dot-green"></span>THT Fair Value Bands flipped GREEN today</h2>
+<h2><span class="dot dot-green"></span>Bands flipped GREEN today</h2>
 <div id="fvb-green-table" class="table-wrap"></div>
 </section>
 
 <section class="red">
-<h2><span class="dot dot-red"></span>THT Fair Value Bands flipped RED today</h2>
+<h2><span class="dot dot-red"></span>Bands flipped RED today</h2>
 <div id="fvb-red-table" class="table-wrap"></div>
 </section>
 
 <section class="green">
-<h2><span class="dot dot-green"></span>THT Multi Timeframe BX flipped GREEN today</h2>
+<h2><span class="dot dot-green"></span>BX flipped GREEN today</h2>
 <div id="bxt-green-table" class="table-wrap"></div>
 </section>
 
 <section class="red">
-<h2><span class="dot dot-red"></span>THT Multi Timeframe BX flipped RED today</h2>
+<h2><span class="dot dot-red"></span>BX flipped RED today</h2>
 <div id="bxt-red-table" class="table-wrap"></div>
 </section>
 </div>
@@ -95,14 +95,14 @@
 
 <!-- Fair Value Bands view (viewMode='fvb') — 2 tables: green/red for the active D/W/M timeframe -->
 <div id="fvb-sections" style="display:none;">
-<section class="green"><h2><span class="dot dot-green"></span>THT Fair Value Bands — <span id="fvb-green-title">Daily</span> <strong>GREEN</strong></h2><div id="fvb-only-green-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>THT Fair Value Bands — <span id="fvb-red-title">Daily</span> <strong>RED</strong></h2><div id="fvb-only-red-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>Bands — <span id="fvb-green-title">Daily</span> <strong>GREEN</strong></h2><div id="fvb-only-green-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>Bands — <span id="fvb-red-title">Daily</span> <strong>RED</strong></h2><div id="fvb-only-red-table" class="table-wrap"></div></section>
 </div>
 
 <!-- Multi Timeframe BX view (viewMode='bxt') — 2 tables: green/red for the active D/W/M timeframe -->
 <div id="bxt-sections" style="display:none;">
-<section class="green"><h2><span class="dot dot-green"></span>THT Multi Timeframe BX — <span id="bxt-green-title">Daily</span> <strong>GREEN</strong></h2><div id="bxt-only-green-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>THT Multi Timeframe BX — <span id="bxt-red-title">Daily</span> <strong>RED</strong></h2><div id="bxt-only-red-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>BX — <span id="bxt-green-title">Daily</span> <strong>GREEN</strong></h2><div id="bxt-only-green-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>BX — <span id="bxt-red-title">Daily</span> <strong>RED</strong></h2><div id="bxt-only-red-table" class="table-wrap"></div></section>
 </div>
 
 <!-- LuxAlgo sections (shown only when viewMode='lux') — 2 tables: green/red for the active timeframe -->
@@ -262,7 +262,7 @@ function renderTable(rows, tableId) {
 }
 
 // ─────────────────────────────────────────────────────────────────
-// Indicator math (mirrors scan.py — THT Fair Value Bands + THT Multi Timeframe BX)
+// Indicator math (mirrors scan.py — Bands + BX)
 // ─────────────────────────────────────────────────────────────────
 function sma(arr, len) {
   const out = new Array(arr.length).fill(null);
@@ -311,7 +311,7 @@ function rsi(arr, len) {
 }
 
 function computeIQBands(bars, length = 33, mult = 2.0, threshMult = 0.25) {
-  // THT Fair Value Bands: SMA(OHLC4, 33) basis, stdev(close, 33), outer ±2σ, inner threshold ±0.25σ.
+  // Bands: SMA(OHLC4, 33) basis, stdev(close, 33), outer ±2σ, inner threshold ±0.25σ.
   // Sticky regime: close > threshUpper → bull on; close < threshLower → bear on; else stays.
   const n = bars.length;
   const closes = bars.map(b => b.close);
@@ -336,7 +336,7 @@ function computeIQBands(bars, length = 33, mult = 2.0, threshMult = 0.25) {
 }
 
 function computeBXT(closes) {
-  // THT Multi Timeframe BX short line: RSI(EMA(close,5) - EMA(close,20), 5) - 50
+  // BX short line: RSI(EMA(close,5) - EMA(close,20), 5) - 50
   const e5  = ema(closes, 5);
   const e20 = ema(closes, 20);
   const diff = e5.map((v, i) => v != null && e20[i] != null ? v - e20[i] : null);
@@ -524,7 +524,7 @@ function renderChart(container, bars, sym) {
   });
   candles.setData(bars);
 
-  // Flip markers — fire only when sticky regime changes (the actual THT Fair Value Bands flip)
+  // Flip markers — fire only when sticky regime changes (the actual Bands flip)
   const markers = [];
   for (let i = 1; i < bars.length; i++) {
     if (regimes[i] == null || regimes[i-1] == null) continue;
@@ -556,7 +556,7 @@ function renderChart(container, bars, sym) {
   const bxtChart = LightweightCharts.createChart(bxtWrap, {
     ...baseLayout,
     rightPriceScale: { borderColor: TV_COLORS.border, scaleMargins: { top: 0.1, bottom: 0.1 } },
-    watermark: { visible: true, color: 'rgba(120,123,134,0.25)', text: 'THT Multi Timeframe BX', fontSize: 14, horzAlign: 'left', vertAlign: 'top' },
+    watermark: { visible: true, color: 'rgba(120,123,134,0.25)', text: 'BX', fontSize: 14, horzAlign: 'left', vertAlign: 'top' },
   });
 
   // Short-term: histogram — bright lime green positive / dark crimson negative
@@ -699,14 +699,14 @@ const isAthAtl = () => viewMode === 'ath' || viewMode === 'atl';
 function renderChanges(changes) {
   if (!changes) return '<p class="empty">No prior run to compare to.</p>';
   const buckets = [
-    {label: 'THT Fair Value Bands 🟢 New',     items: changes.fvb_green_added,   action: 'added',   color: 'green'},
-    {label: 'THT Fair Value Bands 🟢 Dropped', items: changes.fvb_green_removed, action: 'removed', color: 'green'},
-    {label: 'THT Fair Value Bands 🔴 New',     items: changes.fvb_red_added,     action: 'added',   color: 'red'},
-    {label: 'THT Fair Value Bands 🔴 Dropped', items: changes.fvb_red_removed,   action: 'removed', color: 'red'},
-    {label: 'THT Multi Timeframe BX 🟢 New',     items: changes.bxt_green_added,   action: 'added',   color: 'green'},
-    {label: 'THT Multi Timeframe BX 🟢 Dropped', items: changes.bxt_green_removed, action: 'removed', color: 'green'},
-    {label: 'THT Multi Timeframe BX 🔴 New',     items: changes.bxt_red_added,     action: 'added',   color: 'red'},
-    {label: 'THT Multi Timeframe BX 🔴 Dropped', items: changes.bxt_red_removed,   action: 'removed', color: 'red'},
+    {label: 'Bands 🟢 New',     items: changes.fvb_green_added,   action: 'added',   color: 'green'},
+    {label: 'Bands 🟢 Dropped', items: changes.fvb_green_removed, action: 'removed', color: 'green'},
+    {label: 'Bands 🔴 New',     items: changes.fvb_red_added,     action: 'added',   color: 'red'},
+    {label: 'Bands 🔴 Dropped', items: changes.fvb_red_removed,   action: 'removed', color: 'red'},
+    {label: 'BX 🟢 New',     items: changes.bxt_green_added,   action: 'added',   color: 'green'},
+    {label: 'BX 🟢 Dropped', items: changes.bxt_green_removed, action: 'removed', color: 'green'},
+    {label: 'BX 🔴 New',     items: changes.bxt_red_added,     action: 'added',   color: 'red'},
+    {label: 'BX 🔴 Dropped', items: changes.bxt_red_removed,   action: 'removed', color: 'red'},
   ];
   // Flatten with bucket info embedded as columns for sort/render
   const flat = buckets.flatMap(b =>
@@ -918,7 +918,7 @@ function renderAll() {
 
     const tfLabel = timeframe.charAt(0).toUpperCase() + timeframe.slice(1);
     const prefix  = viewMode; // 'fvb' or 'bxt'
-    const product = viewMode === 'fvb' ? 'THT Fair Value Bands' : 'THT Multi Timeframe BX';
+    const product = viewMode === 'fvb' ? 'Bands' : 'BX';
     document.getElementById(`${prefix}-green-title`).textContent = tfLabel;
     document.getElementById(`${prefix}-red-title`).textContent   = tfLabel;
 
@@ -987,7 +987,7 @@ function renderAll() {
   const fg = filterRows(d.fvb_green), fr = filterRows(d.fvb_red);
   const bg = filterRows(d.bxt_green), br = filterRows(d.bxt_red);
   document.getElementById('stats').textContent =
-    `${d.scanned_count} scanned in ${d.scan_seconds}s · THT Fair Value Bands ${fg.length}g/${fr.length}r · THT Multi Timeframe BX ${bg.length}g/${br.length}r`;
+    `${d.scanned_count} scanned in ${d.scan_seconds}s · Bands ${fg.length}g/${fr.length}r · BX ${bg.length}g/${br.length}r`;
   const filteredChanges = { compared_to: d.changes.compared_to };
   for (const k of ['fvb_green_added','fvb_green_removed','fvb_red_added','fvb_red_removed','bxt_green_added','bxt_green_removed','bxt_red_added','bxt_red_removed']) {
     filteredChanges[k] = filterRows(d.changes[k]);
