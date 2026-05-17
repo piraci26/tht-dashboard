@@ -108,14 +108,10 @@
 <section class="red"><h2><span class="dot dot-red"></span>IQ Oscillator — Monthly <strong>RED</strong></h2><div id="iqa-m-or-table" class="table-wrap"></div></section>
 </div>
 
-<!-- LuxAlgo sections (shown only when timeframe='lux') — 6 tables: D/W/M × greens/reds -->
+<!-- LuxAlgo sections (shown only when viewMode='lux') — 2 tables: green/red for the active timeframe -->
 <div id="lux-sections" style="display:none;">
-<section class="green"><h2><span class="dot dot-green"></span>LuxAlgo — Daily <strong>green</strong> today</h2><div id="lux-d-green-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>LuxAlgo — Daily <strong>red</strong> today</h2><div id="lux-d-red-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>LuxAlgo — Weekly <strong>green</strong> today</h2><div id="lux-w-green-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>LuxAlgo — Weekly <strong>red</strong> today</h2><div id="lux-w-red-table" class="table-wrap"></div></section>
-<section class="green"><h2><span class="dot dot-green"></span>LuxAlgo — Monthly <strong>green</strong> today</h2><div id="lux-m-green-table" class="table-wrap"></div></section>
-<section class="red"><h2><span class="dot dot-red"></span>LuxAlgo — Monthly <strong>red</strong> today</h2><div id="lux-m-red-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>LuxAlgo — <span id="lux-green-title">Daily</span> <strong>green</strong> today</h2><div id="lux-green-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>LuxAlgo — <span id="lux-red-title">Daily</span> <strong>red</strong> today</h2><div id="lux-red-table" class="table-wrap"></div></section>
 </div>
 
 <!-- Changes since last refresh (moved to bottom) -->
@@ -164,13 +160,9 @@ const sortState = {
   'iqa-m-br-table': {col:'mcap', dir:'desc'},
   'iqa-m-og-table': {col:'mcap', dir:'desc'},
   'iqa-m-or-table': {col:'mcap', dir:'desc'},
-  // LuxAlgo tables (sortable by mcap, name, sym, trend_strength)
-  'lux-d-green-table': {col:'mcap', dir:'desc'},
-  'lux-d-red-table':   {col:'mcap', dir:'desc'},
-  'lux-w-green-table': {col:'mcap', dir:'desc'},
-  'lux-w-red-table':   {col:'mcap', dir:'desc'},
-  'lux-m-green-table': {col:'mcap', dir:'desc'},
-  'lux-m-red-table':   {col:'mcap', dir:'desc'},
+  // LuxAlgo tables — single green/red pair driven by active D/W/M timeframe
+  'lux-green-table': {col:'mcap', dir:'desc'},
+  'lux-red-table':   {col:'mcap', dir:'desc'},
 };
 
 function sortRowsBy(rows, col, dir) {
@@ -693,19 +685,26 @@ document.addEventListener('click', e => {
 
 let currentData = null;
 let minMcap = parseFloat(localStorage.getItem('minMcap') || '3.5');
-let timeframe = localStorage.getItem('timeframe') || 'daily';
+// Migrate legacy timeframe values that were really view modes (lux/ath/atl/iqalgo)
+let _legacyTf = localStorage.getItem('timeframe') || 'daily';
+let timeframe = ['daily','weekly','monthly'].includes(_legacyTf) ? _legacyTf : 'daily';
+let viewMode = ['lux','ath','atl','iqalgo'].includes(_legacyTf) ? _legacyTf : (localStorage.getItem('viewMode') || 'flip');
+if (!['flip','lux','ath','atl','iqalgo'].includes(viewMode)) viewMode = 'flip';
+localStorage.setItem('timeframe', timeframe);
+localStorage.setItem('viewMode', viewMode);
 const filterRows = rows => (rows || []).filter(r => (r.mcap || 0) >= minMcap);
 // Data backbone — separate repo, see https://github.com/piraci26/tht-data
 const DATA_BASE = 'https://piraci26.github.io/tht-data';
+const TF_KEY = { daily: 'D', weekly: 'W', monthly: 'M' };
 const resultsUrl = () => {
-  if (timeframe === 'ath') return `${DATA_BASE}/ath_list.json`;
-  if (timeframe === 'atl') return `${DATA_BASE}/atl_list.json`;
-  if (timeframe === 'lux') return `${DATA_BASE}/lux_results.json`;
-  if (timeframe === 'iqalgo') return `${DATA_BASE}/results.json`;  // for stats; aggregate fetcher loads W and M separately
+  if (viewMode === 'ath')    return `${DATA_BASE}/ath_list.json`;
+  if (viewMode === 'atl')    return `${DATA_BASE}/atl_list.json`;
+  if (viewMode === 'lux')    return `${DATA_BASE}/lux_results.json`;
+  if (viewMode === 'iqalgo') return `${DATA_BASE}/results.json`;  // for stats; aggregate fetcher loads W and M separately
   return `${DATA_BASE}/${timeframe === 'daily' ? 'results.json' : `results_${timeframe}.json`}`;
 };
-const barsBaseUrl = () => `${DATA_BASE}/${(timeframe === 'ath' || timeframe === 'atl' || timeframe === 'daily') ? 'bars' : `bars_${timeframe}`}`;
-const isAthAtl = () => timeframe === 'ath' || timeframe === 'atl';
+const barsBaseUrl = () => `${DATA_BASE}/${(viewMode === 'ath' || viewMode === 'atl' || timeframe === 'daily') ? 'bars' : `bars_${timeframe}`}`;
+const isAthAtl = () => viewMode === 'ath' || viewMode === 'atl';
 
 function renderChanges(changes) {
   if (!changes) return '<p class="empty">No prior run to compare to.</p>';
@@ -922,7 +921,7 @@ function renderAll() {
   const luxSections = document.getElementById('lux-sections');
   const iqaSections = document.getElementById('iqalgo-sections');
 
-  if (timeframe === 'iqalgo') {
+  if (viewMode === 'iqalgo') {
     // IQ Algo combined view — 12 tables across D/W/M × Bands/Osc × Green/Red
     flipSections.style.display = 'none';
     athSection.style.display = 'none';
@@ -953,8 +952,8 @@ function renderAll() {
     return;
   }
 
-  if (timeframe === 'lux') {
-    // LuxAlgo mode — show 6 tables (D/W/M × greens/reds), hide others
+  if (viewMode === 'lux') {
+    // LuxAlgo mode — D/W/M buttons select which timeframe slice to display
     flipSections.style.display = 'none';
     athSection.style.display = 'none';
     atlSection.style.display = 'none';
@@ -962,49 +961,48 @@ function renderAll() {
     luxSections.style.display = '';
     document.getElementById('changes-table').innerHTML = '';
 
+    const tfLabel = timeframe.charAt(0).toUpperCase() + timeframe.slice(1);
+    document.getElementById('lux-green-title').textContent = tfLabel;
+    document.getElementById('lux-red-title').textContent   = tfLabel;
+
     // Handle pre-data state gracefully — d may be a 404 fallback or empty stub
     const hasTimeframes = d && d.timeframes && typeof d.timeframes === 'object';
     if (!hasTimeframes) {
       const msg = '<p class="empty">LuxAlgo scan data not yet available. The nightly scan loop populates this section. Check back after the next run.</p>';
-      ['lux-d-green-table','lux-d-red-table','lux-w-green-table','lux-w-red-table','lux-m-green-table','lux-m-red-table']
-        .forEach(id => { const el = document.getElementById(id); if (el) el.innerHTML = msg; });
+      ['lux-green-table','lux-red-table'].forEach(id => { const el = document.getElementById(id); if (el) el.innerHTML = msg; });
       document.getElementById('stats').textContent = 'LuxAlgo scan — waiting for first run';
       document.getElementById('updated').textContent = 'No LuxAlgo data yet';
       return;
     }
 
-    const tfs = d.timeframes;
-    const dT = tfs.D || {}, wT = tfs.W || {}, mT = tfs.M || {};
+    const tfKey = TF_KEY[timeframe];
+    const slice = d.timeframes[tfKey] || { greens: [], reds: [] };
     const fg = (a) => filterRows(a || []);
-    const totalG = (dT.greens?.length||0) + (wT.greens?.length||0) + (mT.greens?.length||0);
-    const totalR = (dT.reds?.length||0)  + (wT.reds?.length||0)  + (mT.reds?.length||0);
+    const greens = fg(slice.greens);
+    const reds   = fg(slice.reds);
     document.getElementById('stats').textContent =
-      `${d.tickers_in_scope || 0} tickers ≥ $${d.threshold_b || '?'}B · LuxAlgo: ${totalG} greens / ${totalR} reds across D/W/M (min mcap $${minMcap}B)`;
-    setIfNotOpen('lux-d-green-table', renderLuxTable(fg(dT.greens), 'lux-d-green-table', 'green'));
-    setIfNotOpen('lux-d-red-table',   renderLuxTable(fg(dT.reds),   'lux-d-red-table',   'red'));
-    setIfNotOpen('lux-w-green-table', renderLuxTable(fg(wT.greens), 'lux-w-green-table', 'green'));
-    setIfNotOpen('lux-w-red-table',   renderLuxTable(fg(wT.reds),   'lux-w-red-table',   'red'));
-    setIfNotOpen('lux-m-green-table', renderLuxTable(fg(mT.greens), 'lux-m-green-table', 'green'));
-    setIfNotOpen('lux-m-red-table',   renderLuxTable(fg(mT.reds),   'lux-m-red-table',   'red'));
+      `${d.tickers_in_scope || 0} tickers ≥ $${d.threshold_b || '?'}B · LuxAlgo ${tfLabel}: ${greens.length} greens / ${reds.length} reds (min mcap $${minMcap}B)`;
+    setIfNotOpen('lux-green-table', renderLuxTable(greens, 'lux-green-table', 'green'));
+    setIfNotOpen('lux-red-table',   renderLuxTable(reds,   'lux-red-table',   'red'));
     document.getElementById('updated').textContent = fmtUpd(d.updated_at);
     return;
   }
 
-  if (timeframe === 'ath' || timeframe === 'atl') {
+  if (viewMode === 'ath' || viewMode === 'atl') {
     luxSections && (luxSections.style.display = 'none');
     iqaSections && (iqaSections.style.display = 'none');
     // ATH/ATL mode — show only the relevant ATH or ATL section
     flipSections.style.display = 'none';
-    athSection.style.display = timeframe === 'ath' ? '' : 'none';
-    atlSection.style.display = timeframe === 'atl' ? '' : 'none';
+    athSection.style.display = viewMode === 'ath' ? '' : 'none';
+    atlSection.style.display = viewMode === 'atl' ? '' : 'none';
 
     const list = filterRows(d.list || []);
     const accumulator = filterRows(d.accumulator || []);
     document.getElementById('stats').textContent =
-      `${d.count || list.length} stocks making new ${timeframe.toUpperCase()}s · ${accumulator.length} in accumulator`;
-    setIfNotOpen('changes-table', renderAthAtlChanges(accumulator, timeframe));
-    if (timeframe === 'ath') setIfNotOpen('ath-table', renderAthAtlTable(list, 'ath'));
-    else                     setIfNotOpen('atl-table', renderAthAtlTable(list, 'atl'));
+      `${d.count || list.length} stocks making new ${viewMode.toUpperCase()}s · ${accumulator.length} in accumulator`;
+    setIfNotOpen('changes-table', renderAthAtlChanges(accumulator, viewMode));
+    if (viewMode === 'ath') setIfNotOpen('ath-table', renderAthAtlTable(list, 'ath'));
+    else                    setIfNotOpen('atl-table', renderAthAtlTable(list, 'atl'));
     document.getElementById('updated').textContent = fmtUpd(d.updated_at);
     return;
   }
@@ -1060,19 +1058,41 @@ document.querySelectorAll('.filter-presets button').forEach(b => {
 });
 syncPresets();
 
-// Tabs (Daily / Weekly)
+// Tabs — top row is timeframe (daily/weekly/monthly), bottom row is viewMode.
+// In LuxAlgo (and similar) modes, timeframe filters the visible slice.
+const TIMEFRAMES = ['daily','weekly','monthly'];
+const VIEW_MODES = ['iqalgo','ath','atl','lux'];
 function syncTabs() {
   document.querySelectorAll('.tab-btn').forEach(b => {
-    b.classList.toggle('active', b.dataset.tf === timeframe);
+    const tf = b.dataset.tf;
+    if (TIMEFRAMES.includes(tf)) {
+      b.classList.toggle('active', tf === timeframe);
+    } else if (VIEW_MODES.includes(tf)) {
+      b.classList.toggle('active', tf === viewMode);
+    }
   });
 }
 document.querySelectorAll('.tab-btn').forEach(b => {
   b.addEventListener('click', () => {
-    if (b.dataset.tf === timeframe) return;
-    timeframe = b.dataset.tf;
-    localStorage.setItem('timeframe', timeframe);
+    const tf = b.dataset.tf;
+    if (TIMEFRAMES.includes(tf)) {
+      if (tf === timeframe && viewMode === 'flip') return;
+      timeframe = tf;
+      // Clicking the timeframe row in 'lux' / 'iqalgo' keeps the view (D/W/M filters the slice);
+      // for ath/atl (no timeframe dimension) and flip, clear viewMode back to flip.
+      if (viewMode === 'ath' || viewMode === 'atl') viewMode = 'flip';
+      localStorage.setItem('timeframe', timeframe);
+      localStorage.setItem('viewMode', viewMode);
+    } else if (VIEW_MODES.includes(tf)) {
+      // Toggle off if user clicks the active view mode again → back to flip.
+      const next = (viewMode === tf) ? 'flip' : tf;
+      if (next === viewMode) return;
+      viewMode = next;
+      localStorage.setItem('viewMode', viewMode);
+    } else {
+      return;
+    }
     syncTabs();
-    // Close any open chart since bars source changes
     document.querySelectorAll('tr.chart-row').forEach(el => el.remove());
     openChartSym = null;
     currentData = null;
@@ -1092,7 +1112,7 @@ async function load() {
   } catch (e) {
     // For LuxAlgo specifically, fall through with an empty stub so the
     // pre-data empty state renders instead of leaving stale tables on screen.
-    if (timeframe === 'lux') {
+    if (viewMode === 'lux') {
       currentData = { updated_at: null, timeframes: null };
       renderAll();
     } else {
