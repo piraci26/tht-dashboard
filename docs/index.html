@@ -36,6 +36,7 @@
 <div class="tab-row tab-row-extrema">
   <button class="tab-btn" data-tf="ath">ATH</button>
   <button class="tab-btn" data-tf="atl">ATL</button>
+  <button class="tab-btn" data-tf="lux">LuxAlgo</button>
 </div>
 <div class="filter-row">
   <label for="mcap-filter">Min market cap</label>
@@ -89,6 +90,16 @@
 <h2><span class="dot dot-red"></span>Stocks making new ATL today</h2>
 <div id="atl-table" class="table-wrap"></div>
 </section>
+
+<!-- LuxAlgo sections (shown only when timeframe='lux') — 6 tables: D/W/M × greens/reds -->
+<div id="lux-sections" style="display:none;">
+<section class="green"><h2><span class="dot dot-green"></span>LuxAlgo — Daily <strong>green</strong> today</h2><div id="lux-d-green-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>LuxAlgo — Daily <strong>red</strong> today</h2><div id="lux-d-red-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>LuxAlgo — Weekly <strong>green</strong> today</h2><div id="lux-w-green-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>LuxAlgo — Weekly <strong>red</strong> today</h2><div id="lux-w-red-table" class="table-wrap"></div></section>
+<section class="green"><h2><span class="dot dot-green"></span>LuxAlgo — Monthly <strong>green</strong> today</h2><div id="lux-m-green-table" class="table-wrap"></div></section>
+<section class="red"><h2><span class="dot dot-red"></span>LuxAlgo — Monthly <strong>red</strong> today</h2><div id="lux-m-red-table" class="table-wrap"></div></section>
+</div>
 
 <!-- Changes since last refresh (moved to bottom) -->
 <section class="changes">
@@ -645,6 +656,7 @@ const DATA_BASE = 'https://piraci26.github.io/tht-data';
 const resultsUrl = () => {
   if (timeframe === 'ath') return `${DATA_BASE}/ath_list.json`;
   if (timeframe === 'atl') return `${DATA_BASE}/atl_list.json`;
+  if (timeframe === 'lux') return `${DATA_BASE}/lux_results.json`;
   return `${DATA_BASE}/${timeframe === 'daily' ? 'results.json' : `results_${timeframe}.json`}`;
 };
 const barsBaseUrl = () => `${DATA_BASE}/${(timeframe === 'ath' || timeframe === 'atl' || timeframe === 'daily') ? 'bars' : `bars_${timeframe}`}`;
@@ -792,14 +804,69 @@ function renderAthAtlChanges(rows, mode) {
   return head + body + '</tbody></table>';
 }
 
+function renderLuxTable(rows, tableId, isPlus) {
+  // Custom renderer for LuxAlgo result rows: sym, name, mcap, trend strength, signal type
+  if (!rows || rows.length === 0) return '<p class="empty">Nothing today.</p>';
+  const sorted = rows.slice().sort((a, b) => (b.mcap || 0) - (a.mcap || 0));
+  const head = `<table>
+    <thead><tr>
+      <th class="num">#</th>
+      <th>Company</th>
+      <th>Sym</th>
+      <th class="num">Mkt Cap</th>
+      <th class="num">Trend Strength</th>
+      <th>Signal</th>
+    </tr></thead><tbody>`;
+  const body = sorted.map((r, i) => {
+    const tag = r.is_plus ? `<span class="badge badge-${isPlus}">▲▲ HIGH CONVICTION</span>` : `<span>${isPlus === 'green' ? '▲' : '▼'}</span>`;
+    return `<tr class="row-clickable" data-sym="${r.sym}">
+      <td class="num">${i+1}</td>
+      <td>${r.name}</td>
+      <td><strong>${r.sym}</strong></td>
+      <td class="num">${fmtMcap(r.mcap)}</td>
+      <td class="num">${r.trend_strength || '—'}</td>
+      <td>${tag}</td>
+    </tr>`;
+  }).join('');
+  return head + body + '</tbody></table>';
+}
+
 function renderAll() {
   if (!currentData) return;
   const d = currentData;
   const flipSections = document.getElementById('flip-sections');
   const athSection = document.getElementById('ath-section');
   const atlSection = document.getElementById('atl-section');
+  const luxSections = document.getElementById('lux-sections');
+
+  if (timeframe === 'lux') {
+    // LuxAlgo mode — show 6 tables (D/W/M × greens/reds), hide others
+    flipSections.style.display = 'none';
+    athSection.style.display = 'none';
+    atlSection.style.display = 'none';
+    luxSections.style.display = '';
+    document.getElementById('changes-table').innerHTML = '';
+
+    const tfs = d.timeframes || {};
+    const dT = tfs.D || {}, wT = tfs.W || {}, mT = tfs.M || {};
+    const fg = (a) => filterRows(a || []);
+    const totalScanned = (dT.scanned || 0);
+    const totalG = (dT.greens?.length||0) + (wT.greens?.length||0) + (mT.greens?.length||0);
+    const totalR = (dT.reds?.length||0)  + (wT.reds?.length||0)  + (mT.reds?.length||0);
+    document.getElementById('stats').textContent =
+      `${d.tickers_in_scope} tickers ≥ $${d.threshold_b}B · LuxAlgo: ${totalG} greens / ${totalR} reds across D/W/M`;
+    setIfNotOpen('lux-d-green-table', renderLuxTable(fg(dT.greens), 'lux-d-green-table', 'green'));
+    setIfNotOpen('lux-d-red-table',   renderLuxTable(fg(dT.reds),   'lux-d-red-table',   'red'));
+    setIfNotOpen('lux-w-green-table', renderLuxTable(fg(wT.greens), 'lux-w-green-table', 'green'));
+    setIfNotOpen('lux-w-red-table',   renderLuxTable(fg(wT.reds),   'lux-w-red-table',   'red'));
+    setIfNotOpen('lux-m-green-table', renderLuxTable(fg(mT.greens), 'lux-m-green-table', 'green'));
+    setIfNotOpen('lux-m-red-table',   renderLuxTable(fg(mT.reds),   'lux-m-red-table',   'red'));
+    document.getElementById('updated').textContent = fmtUpd(d.updated_at);
+    return;
+  }
 
   if (timeframe === 'ath' || timeframe === 'atl') {
+    luxSections && (luxSections.style.display = 'none');
     // ATH/ATL mode — show only the relevant ATH or ATL section
     flipSections.style.display = 'none';
     athSection.style.display = timeframe === 'ath' ? '' : 'none';
@@ -820,6 +887,7 @@ function renderAll() {
   flipSections.style.display = '';
   athSection.style.display = 'none';
   atlSection.style.display = 'none';
+  luxSections && (luxSections.style.display = 'none');
   const fg = filterRows(d.fvb_green), fr = filterRows(d.fvb_red);
   const bg = filterRows(d.bxt_green), br = filterRows(d.bxt_red);
   document.getElementById('stats').textContent =
