@@ -110,6 +110,8 @@ h2 { font-size: 18px; font-weight: 600; margin-bottom: 16px; display: flex; alig
 
 .table-wrap { background: var(--table-bg); border: 1px solid var(--line); border-radius: 8px; overflow-x: auto; }
 table { width: 100%; border-collapse: collapse; }
+/* Cap Company column so long names don't push trailing columns (e.g. ATH 30D) off-screen */
+.table-wrap table tbody td:nth-child(2) { max-width: 220px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
 thead { background: #1a1a1a; }
 th {
   text-align: left; font-weight: 600; padding: 12px 14px;
