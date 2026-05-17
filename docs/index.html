@@ -849,21 +849,27 @@ function renderAthAtlChanges(rows, mode) {
 }
 
 function renderLuxTable(rows, tableId, color) {
-  // Polished LuxAlgo table: sortable headers, conviction-tier badges, trend strength
+  // Polished LuxAlgo table: sortable headers, conviction-tier badges, trend strength,
+  // and prior-regime duration (days since the opposite signal last fired).
   // color = 'green' | 'red'
   if (!rows || rows.length === 0) {
     return '<p class="empty">No LuxAlgo signals in this bucket today.</p>';
   }
   const state = sortState[tableId] || {col:'mcap', dir:'desc'};
-  // Coerce trend_strength to number for sorting
-  const enriched = rows.map(r => ({ ...r, _ts: parseFloat(r.trend_strength) }));
-  const sorted = sortRowsBy(enriched, state.col === '_ts' ? '_ts' : state.col, state.dir);
+  // Coerce trend_strength and prior_regime_days for sorting
+  const enriched = rows.map(r => ({
+    ...r,
+    _ts: parseFloat(r.trend_strength),
+    _prd: (r.prior_regime_days == null) ? -1 : r.prior_regime_days,
+  }));
+  const sorted = sortRowsBy(enriched, state.col === '_ts' || state.col === '_prd' ? state.col : state.col, state.dir);
 
   const tickerArrow = (key) => {
     if (state.col !== key) return '<span class="sort-arrow">↕</span>';
     return state.dir === 'asc' ? '<span class="sort-arrow active">↑</span>' : '<span class="sort-arrow active">↓</span>';
   };
   const sortedCls = (col) => state.col === col ? ' sorted' : '';
+  const ageLabel = color === 'green' ? 'Days red before flip' : 'Days green before flip';
   const head = `<table>
     <thead><tr>
       <th class="num">#</th>
@@ -871,6 +877,7 @@ function renderLuxTable(rows, tableId, color) {
       <th class="sortable${sortedCls('sym')}"   data-col="sym"   data-table="${tableId}">Sym ${tickerArrow('sym')}</th>
       <th class="num sortable${sortedCls('mcap')}" data-col="mcap" data-table="${tableId}">Mkt Cap ${tickerArrow('mcap')}</th>
       <th class="num sortable${sortedCls('_ts')}"  data-col="_ts"  data-table="${tableId}">Trend Strength ${tickerArrow('_ts')}</th>
+      <th class="num sortable${sortedCls('_prd')}" data-col="_prd" data-table="${tableId}">${ageLabel} ${tickerArrow('_prd')}</th>
       <th>Signal</th>
     </tr></thead><tbody>`;
   const body = sorted.map((r, i) => {
@@ -878,12 +885,14 @@ function renderLuxTable(rows, tableId, color) {
       ? `<span class="badge badge-${color} badge-added">${color === 'green' ? '▲+ HIGH CONVICTION' : '▼+ HIGH CONVICTION'}</span>`
       : `<span class="badge badge-${color}">${color === 'green' ? '▲' : '▼'}</span>`;
     const ts = isFinite(r._ts) ? r._ts.toFixed(2) : (r.trend_strength || '—');
+    const prd = (r.prior_regime_days == null) ? '—' : `${r.prior_regime_days}`;
     return `<tr class="row-clickable" data-sym="${r.sym}">
       <td class="num">${i+1}</td>
       <td>${r.name}</td>
       <td><strong>${r.sym}</strong></td>
       <td class="num">${fmtMcap(r.mcap)}</td>
       <td class="num">${ts}</td>
+      <td class="num">${prd}</td>
       <td>${tag}</td>
     </tr>`;
   }).join('');
