@@ -126,7 +126,7 @@
 </footer>
 
 <script>
-const fmtMcap = b => !b ? '—' : b >= 1000 ? `$${(b/1000).toFixed(2)}T` : `$${b}B`;
+const fmtMcap = b => !b ? '—' : b >= 1000 ? `$${(b/1000).toFixed(2)}T` : `$${b.toFixed(2)}B`;
 const fmtPct  = p => p == null ? '—' : `+${p.toFixed(1)}%`;
 const fmtUpd  = iso => {
   const d = new Date(iso);
