@@ -113,7 +113,7 @@
 
 <!-- Changes since last refresh (moved to bottom) -->
 <section class="changes">
-<h2><span class="dot dot-changes"></span>Changes since last 5-min refresh</h2>
+<h2><span class="dot dot-changes"></span><span id="changes-header">Changes since last 5-min refresh</span></h2>
 <div id="changes-table" class="table-wrap"></div>
 </section>
 </main>
@@ -756,7 +756,7 @@ function setIfNotOpen(wrapId, html) {
 
 function renderAthAtlTable(rows, mode) {
   if (!rows || rows.length === 0) {
-    return '<p class="empty">No stocks currently making ' + (mode === 'ath' ? 'new ATHs' : 'new ATLs') + ' in the last 30 days.</p>';
+    return '<p class="empty">No stocks made ' + (mode === 'ath' ? 'new ATHs' : 'new ATLs') + ' today. Check the accumulator below for recent ' + (mode === 'ath' ? 'ATH' : 'ATL') + ' makers.</p>';
   }
   const tableId = mode === 'ath' ? 'ath-table' : 'atl-table';
   const state = sortState[tableId];
@@ -973,7 +973,9 @@ function renderAll() {
     const list = filterRows(d.list || []);
     const accumulator = filterRows(d.accumulator || []);
     document.getElementById('stats').textContent =
-      `${d.count || list.length} stocks making new ${viewMode.toUpperCase()}s · ${accumulator.length} in accumulator`;
+      `${d.count || list.length} new ${viewMode.toUpperCase()}s today · ${accumulator.length} recent in accumulator`;
+    document.getElementById('changes-header').textContent =
+      `Recent ${viewMode.toUpperCase()} makers (rolling accumulator)`;
     setIfNotOpen('changes-table', renderAthAtlChanges(accumulator, viewMode));
     if (viewMode === 'ath') setIfNotOpen('ath-table', renderAthAtlTable(list, 'ath'));
     else                    setIfNotOpen('atl-table', renderAthAtlTable(list, 'atl'));
@@ -984,6 +986,7 @@ function renderAll() {
   // Flip mode (daily / weekly / monthly)
   hideAllProductSections();
   flipSections.style.display = '';
+  document.getElementById('changes-header').textContent = 'Changes since last 5-min refresh';
   const fg = filterRows(d.fvb_green), fr = filterRows(d.fvb_red);
   const bg = filterRows(d.bxt_green), br = filterRows(d.bxt_red);
   document.getElementById('stats').textContent =
