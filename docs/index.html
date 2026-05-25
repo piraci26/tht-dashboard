@@ -15,7 +15,7 @@
 <body>
 <header>
 <div class="header-top">
-  <h1>THT Dual Scan</h1>
+  <h1>THT <span id="extra-data-trigger" title="extra data">D</span>ual Scan</h1>
   <a class="version-toggle" href="https://piraci26.github.io/tht-dashboard-dev/" aria-label="Preview the new design (beta)">
     <span class="version-toggle__pulse" aria-hidden="true"></span>
     <span class="version-toggle__label">Preview <span class="version-toggle__dim">new design</span></span>
@@ -39,6 +39,7 @@
   <button class="tab-btn" data-tf="ath">ATH</button>
   <button class="tab-btn" data-tf="atl">ATL</button>
   <button class="tab-btn" data-tf="lux">LuxAlgo</button>
+  <button class="tab-btn" data-tf="setups">Setups</button>
 </div>
 <div class="filter-row">
   <label for="mcap-filter">Min market cap</label>
@@ -109,6 +110,12 @@
 <div id="lux-sections" style="display:none;">
 <section class="green"><h2><span class="dot dot-green"></span>LuxAlgo — <span id="lux-green-title">Daily</span> <strong>green</strong> today</h2><div id="lux-green-table" class="table-wrap"></div></section>
 <section class="red"><h2><span class="dot dot-red"></span>LuxAlgo — <span id="lux-red-title">Daily</span> <strong>red</strong> today</h2><div id="lux-red-table" class="table-wrap"></div></section>
+</div>
+
+<!-- Setups view (viewMode='setups') — multi-TF confluence/alignment groupings -->
+<div id="setups-sections" style="display:none;">
+  <div id="setups-breadth" class="setups-breadth"></div>
+  <div id="setups-groups"></div>
 </div>
 
 <!-- Changes since last refresh (moved to bottom) -->
@@ -678,8 +685,8 @@ let timeframe = ['daily','weekly','monthly'].includes(_legacyTf) ? _legacyTf : '
 let _legacyVm = localStorage.getItem('viewMode') || 'flip';
 // iqalgo is gone — fall back to flip (no good single-tab successor; user can pick fvb or bxt)
 if (_legacyVm === 'iqalgo') _legacyVm = 'flip';
-let viewMode = ['lux','ath','atl','fvb','bxt'].includes(_legacyTf) ? _legacyTf : _legacyVm;
-if (!['flip','lux','ath','atl','fvb','bxt'].includes(viewMode)) viewMode = 'flip';
+let viewMode = ['lux','ath','atl','fvb','bxt','setups'].includes(_legacyTf) ? _legacyTf : _legacyVm;
+if (!['flip','lux','ath','atl','fvb','bxt','setups'].includes(viewMode)) viewMode = 'flip';
 localStorage.setItem('timeframe', timeframe);
 localStorage.setItem('viewMode', viewMode);
 const filterRows = rows => (rows || []).filter(r => (r.mcap || 0) >= minMcap);
@@ -690,6 +697,7 @@ const resultsUrl = () => {
   if (viewMode === 'ath')    return `${DATA_BASE}/ath_list.json`;
   if (viewMode === 'atl')    return `${DATA_BASE}/atl_list.json`;
   if (viewMode === 'lux')    return `${DATA_BASE}/lux_results.json`;
+  if (viewMode === 'setups') return `${DATA_BASE}/setups.json`;
   // fvb and bxt use the timeframe-scoped results files (same as flip mode)
   return `${DATA_BASE}/${timeframe === 'daily' ? 'results.json' : `results_${timeframe}.json`}`;
 };
@@ -890,6 +898,92 @@ function renderLuxTable(rows, tableId, color) {
 }
 
 
+// ─── Setups renderer (viewMode='setups') ──────────────────────────────────
+// Reads setups.json (produced by tht-data/setups_classify.py from regime_state.json).
+// Renders a breadth strip + one section per non-empty group. Sections are
+// grouped into visual rows: G (alignment) → A (confluence) → B (same-day flips)
+// → C/D (early bottoms/pullbacks) → E (bearish mirrors) → H (disagreement).
+const SETUP_ORDER = [
+  ['Full alignment',     ['G1_bull_stack','G1_young','G1_mature','G1_premium','G2_bear_stack','G2_young','G2_mature']],
+  ['Stack + trigger',    ['A1','A2','A3','A4_premium']],
+  ['Same-day flips',     ['B1_triple_green','B2_WM_green_D_already','B3_DW_green_M_already','B4_DW_green_counter_macro']],
+  ['Early bottoms / tops',['C1_first_D_green_deep_red','C2_D_green_W_recently_g','C3_first_D_red_deep_green']],
+  ['Pullback in trend',  ['D1_pullback','D2_regreen']],
+  ['Bearish mirrors',    ['E1_stack_red_D_trigger','E2_triple_red','E3_DW_red_M_already']],
+  ['Disagreement',       ['H1_bull_stack_cracking','H2_swing_rolled','H3_bottoms_forming','H4_tops_forming']],
+];
+
+function regimeBadge(tf){
+  // tf is {regime: 'g'|'r'|null, age, fired_g, fired_r}
+  if (!tf) return '<span class="rb rb-x">—</span>';
+  const r = tf.regime;
+  const age = tf.age != null ? Math.round(tf.age) : '';
+  const fire = tf.fired_g ? '<span class="rb-fire">▲</span>' : tf.fired_r ? '<span class="rb-fire">▼</span>' : '';
+  const cls = r === 'g' ? 'rb-g' : r === 'r' ? 'rb-r' : 'rb-x';
+  const letter = r === 'g' ? 'G' : r === 'r' ? 'R' : '—';
+  return `<span class="rb ${cls}" title="age ${age} bars${tf.ts!=null ? ', TS '+tf.ts.toFixed(0):''}">${letter}<span class="rb-age">${age}</span>${fire}</span>`;
+}
+
+function renderSetupTable(rows, key){
+  if (!rows || !rows.length) return '<div class="setup-empty">No tickers match this rule.</div>';
+  const head = `<table class="setup-table">
+    <thead><tr><th>#</th><th>Sym</th><th>Name</th><th class="num">Mcap</th><th>M</th><th>W</th><th>D</th><th class="num">M·TS</th></tr></thead><tbody>`;
+  const body = rows.map((r, i) => `
+    <tr>
+      <td class="num">${i+1}</td>
+      <td><strong>${r.sym}</strong></td>
+      <td class="name">${r.name||''}</td>
+      <td class="num">${fmtMcap(r.mcap)}</td>
+      <td>${regimeBadge(r.M)}</td>
+      <td>${regimeBadge(r.W)}</td>
+      <td>${regimeBadge(r.D)}</td>
+      <td class="num">${r.M && r.M.ts != null ? r.M.ts.toFixed(0) : '—'}</td>
+    </tr>`).join('');
+  return head + body + '</tbody></table>';
+}
+
+function renderSetups(d) {
+  const filterRows = rows => (rows || []).filter(r => (r.mcap || 0) >= minMcap);
+  const groups = d.groups || {};
+  const meta   = d.group_meta || {};
+  const b      = d.breadth || {};
+
+  // Top breadth strip
+  const strip = `
+    <div class="breadth-strip">
+      <span class="bs-pill"><b>${d.universe_size || '?'}</b> universe</span>
+      <span class="bs-pill bs-g"><b>${b.pct_M_green ?? '?'}%</b> M[g]</span>
+      <span class="bs-pill bs-r"><b>${b.pct_M_red ?? '?'}%</b> M[r]</span>
+      <span class="bs-pill bs-g"><b>${b.pct_MW_green ?? '?'}%</b> M+W[g]</span>
+      <span class="bs-pill bs-g"><b>${b.pct_full_bull ?? '?'}%</b> full bull stack</span>
+      <span class="bs-pill bs-r"><b>${b.pct_full_bear ?? '?'}%</b> full bear stack</span>
+      <span class="bs-pill"><b>${b.D_fires_g_today ?? '?'}g/${b.D_fires_r_today ?? '?'}r</b> D fires today</span>
+    </div>`;
+  document.getElementById('setups-breadth').innerHTML = strip;
+
+  // Sectioned groups
+  let html = '';
+  let total = 0;
+  for (const [sectionLabel, keys] of SETUP_ORDER) {
+    const items = keys.map(k => ({k, rows: filterRows(groups[k]||[]), rule: meta[k]||''}))
+                      .filter(x => x.rows.length);
+    if (!items.length) continue;
+    html += `<section class="setup-section"><h2 class="setup-h">${sectionLabel}</h2>`;
+    for (const {k, rows, rule} of items) {
+      total += rows.length;
+      html += `<div class="setup-group">
+        <div class="setup-group-h"><span class="setup-key">${k}</span><span class="setup-count">${rows.length}</span><span class="setup-rule">${rule}</span></div>
+        ${renderSetupTable(rows, k)}
+      </div>`;
+    }
+    html += `</section>`;
+  }
+  if (!html) html = '<p class="empty">No groups have tickers ≥ $' + minMcap + 'B. Try lowering the market-cap filter.</p>';
+  document.getElementById('setups-groups').innerHTML = html;
+  document.getElementById('stats').textContent =
+    `Setups · ${d.universe_size || '?'} scanned · ${total} hits (min mcap $${minMcap}B)`;
+}
+
 function renderAll() {
   if (!currentData) return;
   const d = currentData;
@@ -899,6 +993,7 @@ function renderAll() {
   const luxSections = document.getElementById('lux-sections');
   const fvbSections = document.getElementById('fvb-sections');
   const bxtSections = document.getElementById('bxt-sections');
+  const setupsSections = document.getElementById('setups-sections');
 
   const hideAllProductSections = () => {
     flipSections.style.display = 'none';
@@ -907,7 +1002,17 @@ function renderAll() {
     luxSections && (luxSections.style.display = 'none');
     fvbSections && (fvbSections.style.display = 'none');
     bxtSections && (bxtSections.style.display = 'none');
+    setupsSections && (setupsSections.style.display = 'none');
   };
+
+  if (viewMode === 'setups') {
+    hideAllProductSections();
+    setupsSections.style.display = '';
+    document.getElementById('changes-table').innerHTML = '';
+    renderSetups(d);
+    document.getElementById('updated').textContent = fmtUpd(d.updated_at);
+    return;
+  }
 
   if (viewMode === 'fvb' || viewMode === 'bxt') {
     // Standalone Fair Value Bands / Multi Timeframe BX view — reuses the active
@@ -1035,7 +1140,7 @@ syncPresets();
 // Tabs — top row is timeframe (daily/weekly/monthly), bottom row is viewMode.
 // In LuxAlgo (and similar) modes, timeframe filters the visible slice.
 const TIMEFRAMES = ['daily','weekly','monthly'];
-const VIEW_MODES = ['fvb','bxt','ath','atl','lux'];
+const VIEW_MODES = ['fvb','bxt','ath','atl','lux','setups'];
 function syncTabs() {
   document.querySelectorAll('.tab-btn').forEach(b => {
     const tf = b.dataset.tf;
@@ -1100,5 +1205,96 @@ setInterval(load, 300000);
 // No visibilitychange / focus refresh, no auto-reload — the 5min cadence is
 // the single source of refresh. Manual reload still works whenever needed.
 </script>
+
+<!-- Extra-data hidden panel: opened by clicking the "D" letter in the page title -->
+<div id="extra-data-panel" hidden>
+  <div class="ed-head">
+    <span class="ed-title">extra data</span>
+    <button class="ed-close" type="button" aria-label="Close">×</button>
+  </div>
+  <div class="ed-body" id="extra-data-body">
+    Click the <code>D</code> in the page title again to close. Loads from <code>setups.json</code>.
+  </div>
+</div>
+
+<script>
+// ─── Extra-data trigger ───────────────────────────────────────────────────
+// The trigger is the letter "D" inside "Dual" of the page title — completely
+// unmarked except for a hover affordance. Opens a floating panel sourced from
+// setups.json (same data the Setups tab consumes). Stays in sync with the main
+// view's market-cap filter.
+(function(){
+  const trig  = document.getElementById('extra-data-trigger');
+  const panel = document.getElementById('extra-data-panel');
+  const body  = document.getElementById('extra-data-body');
+  const close = panel.querySelector('.ed-close');
+  if (!trig || !panel) return;
+
+  async function fillExtraData(){
+    try {
+      const res = await fetch('https://piraci26.github.io/tht-data/setups.json?t=' + Date.now());
+      if (!res.ok) throw new Error('HTTP ' + res.status);
+      const d = await res.json();
+      const b = d.breadth || {};
+      const g = d.groups  || {};
+      const universe = d.universe_size || b.universe_size || '?';
+
+      const stat = (label, value, hint) =>
+        `<div class="ed-stat"><div class="ed-stat-v">${value}</div><div class="ed-stat-l">${label}</div>${hint ? `<div class="ed-stat-h">${hint}</div>` : ''}</div>`;
+
+      const topN = (key, n=3) => {
+        const xs = (g[key] || []).slice(0, n);
+        if (!xs.length) return '<span class="ed-empty">(none)</span>';
+        return xs.map(e => `<span class="ed-pill">${e.sym}</span>`).join(' ');
+      };
+
+      const rule = (key) => {
+        const meta = (d.group_meta || {})[key] || '';
+        const n = (g[key] || []).length;
+        return `<tr><td class="ed-k">${key}</td><td class="ed-n">${n}</td><td class="ed-m">${meta}</td></tr>`;
+      };
+
+      const allKeys = Object.keys(d.group_meta || g).sort();
+
+      body.innerHTML = `
+        <div class="ed-row ed-headerstats">
+          ${stat('Universe', universe, 'tickers scanned')}
+          ${stat('M[g]', (b.pct_M_green ?? '?') + '%', 'macro green')}
+          ${stat('M+W[g]', (b.pct_MW_green ?? '?') + '%', 'backbone + swing aligned')}
+          ${stat('Full bull', (b.pct_full_bull ?? '?') + '%', 'D+W+M all green')}
+          ${stat('Full bear', (b.pct_full_bear ?? '?') + '%', 'D+W+M all red')}
+          ${stat('D fires', (b.D_fires_g_today ?? '?') + 'g / ' + (b.D_fires_r_today ?? '?') + 'r', 'today on daily')}
+        </div>
+        <div class="ed-row ed-tops">
+          <div class="ed-tops-col"><div class="ed-tops-h">G1 picks</div>${topN('G1_bull_stack')}</div>
+          <div class="ed-tops-col"><div class="ed-tops-h">G2 picks</div>${topN('G2_bear_stack')}</div>
+          <div class="ed-tops-col"><div class="ed-tops-h">A1 today</div>${topN('A1')}</div>
+          <div class="ed-tops-col"><div class="ed-tops-h">B1 triple</div>${topN('B1_triple_green')}</div>
+        </div>
+        <table class="ed-rules">
+          <thead><tr><th>group</th><th>n</th><th>rule</th></tr></thead>
+          <tbody>${allKeys.map(rule).join('')}</tbody>
+        </table>
+        <div class="ed-foot">
+          source updated ${d.source_updated_at || '—'} · classifier ${d.updated_at || '—'} · threshold $${d.threshold_b}B
+        </div>`;
+    } catch (e) {
+      body.innerHTML = `<div class="ed-error">Failed to load setups.json (${e.message}). Run <code>regime_scan.py</code> then <code>setups_classify.py</code> in <code>tht-data</code>.</div>`;
+    }
+  }
+
+  function toggle(open){
+    const isOpen = !panel.hasAttribute('hidden');
+    const want = open === undefined ? !isOpen : open;
+    if (want) { panel.removeAttribute('hidden'); fillExtraData(); }
+    else      { panel.setAttribute('hidden', ''); }
+  }
+
+  trig.addEventListener('click', e => { e.preventDefault(); toggle(); });
+  close.addEventListener('click', () => toggle(false));
+  document.addEventListener('keydown', e => { if (e.key === 'Escape') toggle(false); });
+})();
+</script>
+
 </body>
 </html>

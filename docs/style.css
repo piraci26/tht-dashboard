@@ -234,3 +234,122 @@ footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line);
   h1 { font-size: 22px; }
   th, td { padding: 8px 10px; }
 }
+
+/* ─── Extra-data trigger (the "D" inside the H1 title) ──────────────────── */
+/* Invisible affordance by default — looks like a normal letter. Hover reveals
+   it. Clicking opens #extra-data-panel. */
+#extra-data-trigger {
+  cursor: pointer;
+  transition: text-shadow 0.15s, border-bottom-color 0.15s;
+  border-bottom: 1px dotted transparent;
+}
+#extra-data-trigger:hover {
+  border-bottom-color: var(--dim);
+  text-shadow: 0 0 12px rgba(255,255,255,0.15);
+}
+
+/* ─── Extra-data floating panel ─────────────────────────────────────────── */
+#extra-data-panel {
+  position: fixed; top: 80px; right: 24px; width: min(560px, calc(100vw - 48px));
+  max-height: calc(100vh - 120px); overflow-y: auto;
+  background: #0e0e0e; border: 1px solid #2a2a2a; border-radius: 8px;
+  box-shadow: 0 12px 40px rgba(0,0,0,0.6);
+  z-index: 1000; font-size: 13px;
+}
+#extra-data-panel[hidden] { display: none; }
+.ed-head {
+  display: flex; align-items: center; justify-content: space-between;
+  padding: 10px 16px; border-bottom: 1px solid var(--line); background: #131313;
+  border-radius: 8px 8px 0 0;
+}
+.ed-title { font-family: ui-monospace, Menlo, monospace; font-size: 12px; letter-spacing: 1px; color: var(--dim); text-transform: uppercase; }
+.ed-close {
+  background: none; border: none; color: var(--dim); font-size: 20px; line-height: 1;
+  cursor: pointer; padding: 0 4px; font-family: inherit;
+}
+.ed-close:hover { color: var(--fg); }
+.ed-body { padding: 16px; }
+.ed-row { display: flex; flex-wrap: wrap; gap: 12px; margin-bottom: 14px; }
+.ed-stat {
+  flex: 1 1 80px; min-width: 80px; padding: 8px 10px;
+  background: #141414; border: 1px solid var(--line); border-radius: 6px;
+}
+.ed-stat-v { font-size: 16px; font-weight: 600; color: var(--fg); font-variant-numeric: tabular-nums; }
+.ed-stat-l { font-size: 11px; color: var(--dim); text-transform: uppercase; letter-spacing: 0.5px; margin-top: 2px; }
+.ed-stat-h { font-size: 10px; color: #555; margin-top: 2px; }
+.ed-tops-col { flex: 1 1 120px; }
+.ed-tops-h { font-size: 10px; color: var(--dim); text-transform: uppercase; letter-spacing: 0.5px; margin-bottom: 4px; }
+.ed-pill {
+  display: inline-block; padding: 2px 7px; margin: 0 3px 3px 0;
+  background: #1a1a1a; border: 1px solid var(--line); border-radius: 999px;
+  font-family: ui-monospace, Menlo, monospace; font-size: 11px;
+}
+.ed-empty { color: #555; font-size: 11px; }
+.ed-rules { width: 100%; font-size: 11px; border-collapse: collapse; }
+.ed-rules th, .ed-rules td { padding: 4px 8px; border-bottom: 1px solid #1a1a1a; text-align: left; vertical-align: top; }
+.ed-rules th { color: var(--dim); text-transform: uppercase; font-size: 10px; letter-spacing: 0.5px; }
+.ed-rules .ed-k { font-family: ui-monospace, Menlo, monospace; color: var(--fg); white-space: nowrap; }
+.ed-rules .ed-n { text-align: right; color: var(--fg); font-variant-numeric: tabular-nums; width: 36px; }
+.ed-rules .ed-m { color: var(--dim); }
+.ed-foot { margin-top: 12px; padding-top: 8px; border-top: 1px solid var(--line); font-size: 10px; color: #555; }
+.ed-error { color: #ef9a9a; font-size: 12px; }
+.ed-body code {
+  font-family: ui-monospace, Menlo, monospace; font-size: 11px;
+  background: #1a1a1a; padding: 1px 5px; border-radius: 3px; color: var(--fg);
+}
+
+/* ─── Setups view ───────────────────────────────────────────────────────── */
+.breadth-strip {
+  display: flex; flex-wrap: wrap; gap: 8px; margin: 0 0 24px 0;
+  padding: 12px 0; border-bottom: 1px solid var(--line);
+}
+.bs-pill {
+  padding: 6px 12px; border-radius: 999px;
+  background: #141414; border: 1px solid var(--line);
+  font-size: 12px; color: var(--dim);
+  font-variant-numeric: tabular-nums;
+}
+.bs-pill b { color: var(--fg); margin-right: 5px; font-weight: 600; }
+.bs-pill.bs-g { border-color: var(--green-dim); }
+.bs-pill.bs-g b { color: var(--green); }
+.bs-pill.bs-r { border-color: var(--red-dim); }
+.bs-pill.bs-r b { color: var(--red); }
+
+.setup-section { margin: 0 0 32px 0; }
+.setup-h {
+  font-size: 11px; text-transform: uppercase; letter-spacing: 2px;
+  color: var(--dim); border-bottom: 1px solid var(--line);
+  padding-bottom: 6px; margin: 0 0 12px 0;
+}
+.setup-group { margin: 0 0 18px 0; }
+.setup-group-h { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
+.setup-key {
+  font-family: ui-monospace, Menlo, monospace; font-size: 12px;
+  background: #1a1a1a; color: var(--fg); padding: 2px 8px; border-radius: 4px;
+  border: 1px solid var(--line);
+}
+.setup-count {
+  font-size: 12px; color: var(--dim); font-variant-numeric: tabular-nums;
+}
+.setup-count::before { content: '· '; }
+.setup-rule { font-size: 12px; color: var(--dim); }
+.setup-empty { font-size: 12px; color: var(--dim); padding: 6px 0; }
+.setup-table { width: 100%; border-collapse: collapse; font-size: 13px; }
+.setup-table th, .setup-table td {
+  padding: 6px 10px; border-bottom: 1px solid #1a1a1a; text-align: left;
+}
+.setup-table th { color: var(--dim); text-transform: uppercase; font-size: 10px; letter-spacing: 0.5px; }
+.setup-table td.num { text-align: right; font-variant-numeric: tabular-nums; }
+.setup-table td.name { color: var(--dim); }
+
+/* Regime badge — colored letter + age subscript + optional fire arrow */
+.rb {
+  display: inline-flex; align-items: baseline; gap: 3px;
+  padding: 2px 6px; border-radius: 4px; font-size: 11px;
+  font-family: ui-monospace, Menlo, monospace;
+}
+.rb-g { background: var(--green-dim); color: var(--green); }
+.rb-r { background: var(--red-dim);   color: var(--red);   }
+.rb-x { background: #1a1a1a;          color: #555;         }
+.rb-age { font-size: 9px; opacity: 0.7; }
+.rb-fire { margin-left: 2px; font-size: 9px; }
