@@ -900,17 +900,34 @@ function renderLuxTable(rows, tableId, color) {
 
 // ─── Setups renderer (viewMode='setups') ──────────────────────────────────
 // Reads setups.json (produced by tht-data/setups_classify.py from regime_state.json).
-// Renders a breadth strip + one section per non-empty group. Sections are
-// grouped into visual rows: G (alignment) → A (confluence) → B (same-day flips)
-// → C/D (early bottoms/pullbacks) → E (bearish mirrors) → H (disagreement).
-const SETUP_ORDER = [
-  ['Full alignment',     ['G1_bull_stack','G1_young','G1_mature','G1_premium','G2_bear_stack','G2_young','G2_mature']],
-  ['Stack + trigger',    ['A1','A2','A3','A4_premium']],
-  ['Same-day flips',     ['B1_triple_green','B2_WM_green_D_already','B3_DW_green_M_already','B4_DW_green_counter_macro']],
-  ['Early bottoms / tops',['C1_first_D_green_deep_red','C2_D_green_W_recently_g','C3_first_D_red_deep_green']],
-  ['Pullback in trend',  ['D1_pullback','D2_regreen']],
-  ['Bearish mirrors',    ['E1_stack_red_D_trigger','E2_triple_red','E3_DW_red_M_already']],
-  ['Disagreement',       ['H1_bull_stack_cracking','H2_swing_rolled','H3_bottoms_forming','H4_tops_forming']],
+// Renders two top-level sections:
+//
+//   STATE  — where the regime stack stands right now (no fire required today)
+//   EVENT  — what actually flipped today (actionable triggers)
+//
+// Inside each, groups appear in priority order (strongest signal first).
+// Each group shows its plain-English name big, a one-paragraph explanation,
+// the precise rule, and the code-key tucked in as a small badge for reference.
+
+const STATE_ORDER = [
+  'G1_bull_stack', 'G1_premium', 'G1_young', 'G1_mature',
+  'H1_bull_stack_cracking', 'H2_swing_rolled', 'H3_bottoms_forming',
+  'G2_bear_stack', 'G2_young', 'G2_mature',
+];
+
+const EVENT_ORDER = [
+  // Confluence longs
+  'A1', 'A4_premium', 'A2', 'A3',
+  // Cascades
+  'B1_triple_green', 'B2_WM_green_D_already', 'B3_DW_green_M_already', 'B4_DW_green_counter_macro',
+  // Pullback / dip-buy
+  'D2_regreen', 'D1_pullback',
+  // Bottoms forming
+  'C2_D_green_W_recently_g', 'C1_first_D_green_deep_red',
+  // Tops / risk
+  'C3_first_D_red_deep_green', 'H4_tops_forming',
+  // Bearish mirrors
+  'E1_stack_red_D_trigger', 'E2_triple_red', 'E3_DW_red_M_already',
 ];
 
 function regimeBadge(tf){
@@ -942,11 +959,38 @@ function renderSetupTable(rows, key){
   return head + body + '</tbody></table>';
 }
 
-function renderSetups(d) {
+// Helper: pull display fields out of group_meta. Backwards-compatible —
+// older setups.json files where meta[key] is a plain string still render.
+function setupMetaFields(meta, key) {
+  const m = meta[key];
+  if (m && typeof m === 'object') {
+    return { name: m.name || key, summary: m.summary || '', rule: m.rule || '', kind: m.kind };
+  }
+  return { name: key, summary: '', rule: (typeof m === 'string') ? m : '', kind: null };
+}
+
+function renderSetupGroup(d, key) {
   const filterRows = rows => (rows || []).filter(r => (r.mcap || 0) >= minMcap);
-  const groups = d.groups || {};
-  const meta   = d.group_meta || {};
-  const b      = d.breadth || {};
+  const rows = filterRows((d.groups || {})[key] || []);
+  if (!rows.length) return { html: '', n: 0 };
+  const { name, summary, rule } = setupMetaFields(d.group_meta || {}, key);
+  const html = `<div class="setup-group">
+    <div class="setup-group-head">
+      <div class="setup-name-row">
+        <h3 class="setup-name">${name}</h3>
+        <span class="setup-count-pill">${rows.length}</span>
+        <span class="setup-key-badge" title="internal key">${key}</span>
+      </div>
+      ${summary ? `<p class="setup-summary">${summary}</p>` : ''}
+      ${rule    ? `<p class="setup-rule"><span class="setup-rule-label">Rule:</span> ${rule}</p>` : ''}
+    </div>
+    ${renderSetupTable(rows, key)}
+  </div>`;
+  return { html, n: rows.length };
+}
+
+function renderSetups(d) {
+  const b = d.breadth || {};
 
   // Top breadth strip
   const strip = `
@@ -961,23 +1005,36 @@ function renderSetups(d) {
     </div>`;
   document.getElementById('setups-breadth').innerHTML = strip;
 
-  // Sectioned groups
-  let html = '';
   let total = 0;
-  for (const [sectionLabel, keys] of SETUP_ORDER) {
-    const items = keys.map(k => ({k, rows: filterRows(groups[k]||[]), rule: meta[k]||''}))
-                      .filter(x => x.rows.length);
-    if (!items.length) continue;
-    html += `<section class="setup-section"><h2 class="setup-h">${sectionLabel}</h2>`;
-    for (const {k, rows, rule} of items) {
-      total += rows.length;
-      html += `<div class="setup-group">
-        <div class="setup-group-h"><span class="setup-key">${k}</span><span class="setup-count">${rows.length}</span><span class="setup-rule">${rule}</span></div>
-        ${renderSetupTable(rows, k)}
-      </div>`;
+  const renderSection = (title, blurb, keys) => {
+    let inner = '';
+    for (const k of keys) {
+      const { html, n } = renderSetupGroup(d, k);
+      inner += html;
+      total += n;
     }
-    html += `</section>`;
-  }
+    if (!inner) return '';
+    return `<section class="setup-section">
+      <header class="setup-section-head">
+        <h2 class="setup-section-title">${title}</h2>
+        <p class="setup-section-blurb">${blurb}</p>
+      </header>
+      ${inner}
+    </section>`;
+  };
+
+  let html = '';
+  html += renderSection(
+    'State — where the stack stands right now',
+    'No fire required today. Use these as universes and watchlists — the regime alignment is the signal.',
+    STATE_ORDER
+  );
+  html += renderSection(
+    'Event — what just flipped today',
+    'Today\'s bar matters. Use these as actionable triggers — something just changed.',
+    EVENT_ORDER
+  );
+
   if (!html) html = '<p class="empty">No groups have tickers ≥ $' + minMcap + 'B. Try lowering the market-cap filter.</p>';
   document.getElementById('setups-groups').innerHTML = html;
   document.getElementById('stats').textContent =
@@ -1249,9 +1306,11 @@ setInterval(load, 300000);
       };
 
       const rule = (key) => {
-        const meta = (d.group_meta || {})[key] || '';
+        const m = (d.group_meta || {})[key];
         const n = (g[key] || []).length;
-        return `<tr><td class="ed-k">${key}</td><td class="ed-n">${n}</td><td class="ed-m">${meta}</td></tr>`;
+        const name = (m && typeof m === 'object') ? (m.name || key) : key;
+        const rule = (m && typeof m === 'object') ? (m.rule || '') : (m || '');
+        return `<tr><td class="ed-k"><b>${name}</b><br><span class="ed-k-sub">${key}</span></td><td class="ed-n">${n}</td><td class="ed-m">${rule}</td></tr>`;
       };
 
       const allKeys = Object.keys(d.group_meta || g).sort();

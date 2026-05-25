@@ -315,24 +315,55 @@ footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line);
 .bs-pill.bs-r { border-color: var(--red-dim); }
 .bs-pill.bs-r b { color: var(--red); }
 
-.setup-section { margin: 0 0 32px 0; }
-.setup-h {
-  font-size: 11px; text-transform: uppercase; letter-spacing: 2px;
-  color: var(--dim); border-bottom: 1px solid var(--line);
-  padding-bottom: 6px; margin: 0 0 12px 0;
+/* Top-level setup section (State / Event) */
+.setup-section { margin: 0 0 48px 0; }
+.setup-section-head { margin: 0 0 20px 0; padding-bottom: 10px; border-bottom: 1px solid var(--line); }
+.setup-section-title {
+  font-size: 18px; font-weight: 600; color: var(--fg); margin: 0 0 4px 0;
 }
-.setup-group { margin: 0 0 18px 0; }
-.setup-group-h { display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px; }
-.setup-key {
-  font-family: ui-monospace, Menlo, monospace; font-size: 12px;
-  background: #1a1a1a; color: var(--fg); padding: 2px 8px; border-radius: 4px;
-  border: 1px solid var(--line);
+.setup-section-blurb {
+  font-size: 13px; color: var(--dim); margin: 0; line-height: 1.5;
 }
-.setup-count {
-  font-size: 12px; color: var(--dim); font-variant-numeric: tabular-nums;
+
+/* Individual group block */
+.setup-group { margin: 0 0 28px 0; }
+.setup-group-head { margin-bottom: 10px; }
+.setup-name-row {
+  display: flex; align-items: baseline; gap: 10px; margin-bottom: 6px;
+  flex-wrap: wrap;
 }
-.setup-count::before { content: '· '; }
-.setup-rule { font-size: 12px; color: var(--dim); }
+.setup-name {
+  font-size: 15px; font-weight: 600; color: var(--fg); margin: 0;
+}
+.setup-count-pill {
+  background: var(--green-dim); color: var(--green);
+  padding: 2px 9px; border-radius: 999px;
+  font-size: 11px; font-weight: 600; font-variant-numeric: tabular-nums;
+}
+.setup-key-badge {
+  font-family: ui-monospace, Menlo, monospace; font-size: 10px;
+  background: #1a1a1a; color: var(--dim); padding: 1px 7px; border-radius: 3px;
+  border: 1px solid var(--line); letter-spacing: 0.3px;
+}
+.setup-summary {
+  font-size: 13px; color: #b8b8b8; margin: 0 0 4px 0; line-height: 1.5;
+  max-width: 720px;
+}
+.setup-rule {
+  font-size: 12px; color: var(--dim); margin: 0; line-height: 1.5;
+  max-width: 720px;
+}
+.setup-rule-label {
+  font-family: ui-monospace, Menlo, monospace; font-size: 10px;
+  text-transform: uppercase; letter-spacing: 1px; color: #666;
+  margin-right: 4px;
+}
+
+/* Extra-data rule rows — show name big, key small */
+.ed-k-sub {
+  font-family: ui-monospace, Menlo, monospace; font-size: 9px;
+  color: #555; letter-spacing: 0.3px;
+}
 .setup-empty { font-size: 12px; color: var(--dim); padding: 6px 0; }
 .setup-table { width: 100%; border-collapse: collapse; font-size: 13px; }
 .setup-table th, .setup-table td {
