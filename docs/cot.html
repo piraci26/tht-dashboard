@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+<title>Positioning Monitor — CFTC COT</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="cot.css">
+<script data-goatcounter="https://jakubkaszynski.goatcounter.com/count"
+        async src="//gc.zgo.at/count.js"></script>
+</head>
+<body>
+
+<header>
+<div class="header-top">
+  <h1>Positioning <span class="title-accent">Monitor</span></h1>
+  <a class="version-toggle" href="./index.html" aria-label="Back to THT Dual Scan">
+    <span class="version-toggle__arrow" aria-hidden="true">←</span>
+    <span class="version-toggle__label">THT <span class="version-toggle__dim">Dual Scan</span></span>
+  </a>
+</div>
+<div class="meta">
+  <span id="last-update">Loading CFTC data…</span>
+  <span class="separator">·</span>
+  <span class="meta-dim">TFF Futures + Options Combined · Tuesday snapshot, Friday release</span>
+</div>
+<p class="subtitle">
+  Where the smart money is positioned. <strong>COT Index 0–100</strong> over a 3-year window (Briese / CMT Level III).
+  <strong>Asset Managers</strong> = slow real money. <strong>Leveraged Funds</strong> = hedge funds &amp; CTAs.
+  Read it as a fuel gauge — extremes mean the trade is full.
+</p>
+</header>
+
+<main>
+
+<!-- Composite read at top -->
+<section id="composite-section">
+  <div id="composite-card" class="composite-card">
+    <div class="composite-loading">Computing composite read…</div>
+  </div>
+</section>
+
+<!-- Contract grid -->
+<section id="contracts-section">
+  <h2 class="section-title">By Contract</h2>
+  <div id="contracts-grid" class="contracts-grid">
+    <div class="card-skeleton">Loading ES…</div>
+    <div class="card-skeleton">Loading NQ…</div>
+    <div class="card-skeleton">Loading RTY…</div>
+    <div class="card-skeleton">Loading YM…</div>
+    <div class="card-skeleton">Loading EMD…</div>
+    <div class="card-skeleton">Loading VX…</div>
+  </div>
+</section>
+
+<!-- Legend -->
+<section class="legend-section">
+  <h2 class="section-title">How to Read</h2>
+  <div class="legend-grid">
+    <div class="legend-item">
+      <div class="legend-bar"><div class="legend-bar-fill" style="width:15%; background:var(--red);"></div></div>
+      <div class="legend-label"><strong>0–20</strong> Extreme short. Squeeze fuel. Watch for unwind triggers.</div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-bar"><div class="legend-bar-fill" style="width:35%; background:#777;"></div></div>
+      <div class="legend-label"><strong>20–70</strong> Trade has room. Ride the wave with positioning, don't fade.</div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-bar"><div class="legend-bar-fill" style="width:85%; background:var(--green);"></div></div>
+      <div class="legend-label"><strong>70–90</strong> Getting heavy. Tighten stops, be selective about adding.</div>
+    </div>
+    <div class="legend-item">
+      <div class="legend-bar"><div class="legend-bar-fill" style="width:96%; background:var(--green); box-shadow: 0 0 12px var(--green);"></div></div>
+      <div class="legend-label"><strong>90+</strong> Tank is full. Asymmetric reversal risk regardless of thesis.</div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer>
+<p>Data: <a href="https://publicreporting.cftc.gov/" target="_blank" rel="noopener">CFTC public reporting</a> (Traders in Financial Futures, F+O combined). Refreshes on page load. COT Index methodology per Briese (CMT Level III curriculum). Not investment advice.</p>
+</footer>
+
+<script src="cot.js"></script>
+</body>
+</html>

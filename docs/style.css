@@ -19,6 +19,7 @@ body {
 }
 header { border-bottom: 1px solid var(--line); padding-bottom: 20px; margin-bottom: 32px; }
 .header-top { display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap; margin-bottom: 8px; }
+.header-actions { display: inline-flex; align-items: center; gap: 8px; flex-wrap: wrap; }
 h1 { font-size: 28px; font-weight: 700; letter-spacing: -0.02em; }
 
 /* --- version-toggle: tasteful "Preview / beta" affordance ------------- */
