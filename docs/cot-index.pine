@@ -41,8 +41,14 @@ i_showLF    = input.bool(true,  "Show Leveraged Funds (cyan)")
 i_showDealer = input.bool(false, "Show Dealer/Intermediary (gray, mostly flow noise)")
 
 // ─── Resolve CFTC code ───────────────────────────────────────────────────
-// Pass na to LibraryCOT and it tries to auto-detect from chart's root.
-cftcCode = i_cftcCode == "AUTO" ? na : i_cftcCode
+// LibraryCOT/6 requires a non-na CFTC code. For AUTO, ask the library to
+// look it up from the current chart symbol's root.
+string autoCode = cot.getCFTCCode(syminfo.tickerid)
+string cftcCode = i_cftcCode == "AUTO" ? autoCode : i_cftcCode
+
+// Fail loudly if neither AUTO-detection nor manual input gives us a code.
+if barstate.islast and (na(cftcCode) or cftcCode == "")
+    runtime.error("Could not auto-detect a CFTC code for '" + syminfo.tickerid + "'. Open the indicator settings and paste a CFTC Code (ES=13874A, NQ=20974+, RTY=239742, YM=12460+, EMD=33874A, VX=1170E1).")
 
 // ─── Pull TFF positions ──────────────────────────────────────────────────
 // LibraryCOT.requestCommitmentOfTraders(COTType, CFTCCode, includeOptions, metricName, metricDirection, metricType)
