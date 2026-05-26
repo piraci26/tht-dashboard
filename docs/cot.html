@@ -119,79 +119,61 @@
 // Methodology per Briese / CMT Level III:
 //   COT Index = 100 * (Current Net - Min over 156w) / (Max - Min over 156w)
 //
-// How to use:
-//   1. Open TradingView, go to Pine Editor.
-//   2. Paste this entire script. Click Save, give it a name, Add to chart.
-//   3. The indicator renders in its OWN PANE below the price chart.
-//   4. AUTO mode tries to detect the CFTC code from your chart's symbol
-//      (works on ES1!, NQ1!, RTY1!, YM1!, VX1!). If detection fails, open
-//      settings and paste a code: ES=13874A, NQ=20974+, RTY=239742,
-//      YM=12460+, EMD=33874A, VX=1170E1.
+// AUTO mode maps common ETF/index tickers (SPY, QQQ, IWM, DIA, MDY, VXX)
+// to their CFTC codes, then falls back to cot.getCFTCCode() for native
+// futures symbols (ES1!, NQ1!, etc.). Or paste a code manually in the
+// indicator settings: ES=13874A, NQ=209742, RTY=239742, YM=124603,
+// EMD=33874A, VX=1170E1.
 //
 // Reads as:
-//   > 80 = extreme long  (teal zone, asymmetric reversal risk)
-//   < 20 = extreme short (red zone, squeeze fuel)
+//   > 80 = extreme long  (asymmetric reversal risk)
+//   < 20 = extreme short (squeeze fuel)
 //  20-80 = trade has room (ride with positioning, don't fade)
 
 //@version=6
+indicator("COT Index", overlay=false)
 import TradingView/LibraryCOT/6 as cot
-indicator("COT Index - TFF (Asset Mgrs and Lev Funds)", shorttitle="COT Idx", overlay=false, format=format.price, precision=0)
 
-// Inputs
-i_cftcCode   = input.string("AUTO", "CFTC Code", tooltip="AUTO = detect from chart symbol. Or paste: ES=13874A, NQ=20974+, RTY=239742, YM=12460+, EMD=33874A, VX=1170E1")
-i_includeFO  = input.bool(true, "Include Options (F+O Combined)")
-i_window     = input.int(156, "Lookback (weeks)", minval=26, maxval=520)
-i_showAM     = input.bool(true,  "Show Asset Managers")
-i_showLF     = input.bool(true,  "Show Leveraged Funds")
-i_showDealer = input.bool(false, "Show Dealer/Intermediary")
+i_cftcCode  = input.string("AUTO", "CFTC Code", tooltip="AUTO = detect from chart symbol or fall back to index map. Or paste manually: ES=13874A, NQ=209742, RTY=239742, YM=124603, EMD=33874A, VX=1170E1")
+i_includeFO = input.bool(true, "Include Options (F+O Combined)")
+i_window    = input.int(156, "Lookback weeks", minval=26, maxval=520)
 
-// Resolve CFTC code
-string autoCode = cot.getCFTCCode(syminfo.tickerid)
-string cftcCode = i_cftcCode == "AUTO" ? autoCode : i_cftcCode
-if barstate.islast and (na(cftcCode) or cftcCode == "")
-    runtime.error("No CFTC code for '" + syminfo.tickerid + "'. Open settings and paste one: ES=13874A, NQ=20974+, RTY=239742, YM=12460+, EMD=33874A, VX=1170E1")
+getAutoCode() =>
+    sym = syminfo.ticker
+    switch
+        sym == "SPY" or sym == "SPX" or sym == "ES1!" => "13874A"
+        sym == "QQQ" or sym == "NDX" or sym == "NQ1!" => "209742"
+        sym == "IWM" or sym == "RUT" or sym == "RTY1!" => "239742"
+        sym == "DIA" or sym == "DJI" or sym == "YM1!" => "124603"
+        sym == "MDY" or sym == "EMD1!" => "33874A"
+        sym == "VXX" or sym == "UVXY" or sym == "VIX" or sym == "VX1!" => "1170E1"
+        => cot.getCFTCCode(syminfo.tickerid)
 
-// Pull TFF positions
-am_long  = cot.requestCommitmentOfTraders("Financial", cftcCode, i_includeFO, "Asset Manager Positions",   "Long",  "All")
-am_short = cot.requestCommitmentOfTraders("Financial", cftcCode, i_includeFO, "Asset Manager Positions",   "Short", "All")
-lf_long  = cot.requestCommitmentOfTraders("Financial", cftcCode, i_includeFO, "Leveraged Funds Positions", "Long",  "All")
-lf_short = cot.requestCommitmentOfTraders("Financial", cftcCode, i_includeFO, "Leveraged Funds Positions", "Short", "All")
-d_long   = cot.requestCommitmentOfTraders("Financial", cftcCode, i_includeFO, "Dealer Positions",          "Long",  "All")
-d_short  = cot.requestCommitmentOfTraders("Financial", cftcCode, i_includeFO, "Dealer Positions",          "Short", "All")
+string code = i_cftcCode == "AUTO" ? getAutoCode() : i_cftcCode
+
+am_long  = cot.requestCommitmentOfTraders("Financial", code, i_includeFO, "Asset Manager Positions",   "Long",  "All")
+am_short = cot.requestCommitmentOfTraders("Financial", code, i_includeFO, "Asset Manager Positions",   "Short", "All")
+lf_long  = cot.requestCommitmentOfTraders("Financial", code, i_includeFO, "Leveraged Funds Positions", "Long",  "All")
+lf_short = cot.requestCommitmentOfTraders("Financial", code, i_includeFO, "Leveraged Funds Positions", "Short", "All")
 
 am_net = am_long - am_short
 lf_net = lf_long - lf_short
-d_net  = d_long  - d_short
 
-// Briese COT Index: 100 * (current - min) / (max - min) over rolling window
-cotIndex(series float src, int win) =>
-    mn = ta.lowest(src,  win)
+cotIdx(series float src, int win) =>
+    mn = ta.lowest(src, win)
     mx = ta.highest(src, win)
     rng = mx - mn
     rng == 0 ? 50.0 : 100.0 * (src - mn) / rng
 
-am_idx = cotIndex(am_net, i_window)
-lf_idx = cotIndex(lf_net, i_window)
-d_idx  = cotIndex(d_net,  i_window)
+am_idx = cotIdx(am_net, i_window)
+lf_idx = cotIdx(lf_net, i_window)
 
-// Background shading when LF hits extreme
-bgcolor(lf_idx >= 90 ? color.new(color.teal, 85) : lf_idx <= 10 ? color.new(color.red, 85) : na, title="LF extreme zone")
+hline(80, "Long",  color=color.new(color.teal, 50), linestyle=hline.style_dashed)
+hline(50, "Mid",   color=color.new(color.gray, 60), linestyle=hline.style_dotted)
+hline(20, "Short", color=color.new(color.red,  50), linestyle=hline.style_dashed)
 
-// Reference lines at 0/20/50/80/100
-hline(80, "Extreme Long",  color=color.new(color.teal, 50), linestyle=hline.style_dashed)
-hline(50, "Midline",       color=color.new(color.gray, 60), linestyle=hline.style_dotted)
-hline(20, "Extreme Short", color=color.new(color.red,  50), linestyle=hline.style_dashed)
-hline(100, "", color=color.new(color.gray, 80))
-hline(0,   "", color=color.new(color.gray, 80))
-
-// Plots - amber AM, cyan LF, gray Dealer (matches the web dashboard)
-plot(i_showAM     ? am_idx : na, title="Asset Mgrs", color=color.new(#FFB74D, 0), linewidth=2)
-plot(i_showLF     ? lf_idx : na, title="Lev Funds",  color=color.new(#4DD0E1, 0), linewidth=2)
-plot(i_showDealer ? d_idx  : na, title="Dealer",     color=color.new(#9E9E9E, 0), linewidth=1)
-
-// Triangle markers on crowdedness flips
-plotshape(i_showLF and ta.crossover(lf_idx, 80),  title="LF Crowded Long",  style=shape.triangledown, location=location.top,    color=color.new(color.red,  20), size=size.tiny)
-plotshape(i_showLF and ta.crossunder(lf_idx, 20), title="LF Crowded Short", style=shape.triangleup,   location=location.bottom, color=color.new(color.teal, 20), size=size.tiny)
+plot(am_idx, "Asset Mgrs", color=color.new(#FFB74D, 0), linewidth=2)
+plot(lf_idx, "Lev Funds",  color=color.new(#4DD0E1, 0), linewidth=2)
 </script>
 
 <!-- Modal that shows the script for manual select+copy as ultimate fallback -->
