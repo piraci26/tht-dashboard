@@ -27,10 +27,10 @@
 //  20-80 = trade has room (ride with positioning, don't fade)
 // ─────────────────────────────────────────────────────────────────────────
 
-//@version=5
-indicator("COT Index — TFF (Asset Mgrs + Lev Funds)", shorttitle="COT Index", overlay=false, format=format.price, precision=0)
+//@version=6
+import TradingView/LibraryCOT/6 as cot
 
-import TradingView/LibraryCOT/2 as cot
+indicator("COT Index — TFF (Asset Mgrs + Lev Funds)", shorttitle="COT Index", overlay=false, format=format.price, precision=0)
 
 // ─── Inputs ───────────────────────────────────────────────────────────────
 i_cftcCode  = input.string("AUTO", "CFTC Code", tooltip="AUTO = detect from chart symbol. Otherwise paste the contract code (ES=13874A, NQ=20974+, RTY=239742, YM=12460+, EMD=33874A, VX=1170E1).")
