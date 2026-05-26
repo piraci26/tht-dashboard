@@ -13,14 +13,25 @@ const FETCH_WEEKS = 170;             // small buffer for safety
 // Contracts to track — order matters (render order)
 // Use Consolidated codes for NQ/YM (big + e-mini combined; the e-mini-only
 // codes stopped reporting separately in 2014-15 after CME consolidated).
+// `proxy` = Yahoo ticker used for the TV-style price chart (ETFs or indices).
 const CONTRACTS = [
-  { sym: 'ES',  name: 'S&P 500 E-mini',          code: '13874A' },
-  { sym: 'NQ',  name: 'Nasdaq-100 (Consolidated)', code: '20974+' },
-  { sym: 'RTY', name: 'Russell 2000 E-mini',     code: '239742' },
-  { sym: 'YM',  name: 'DJIA (Consolidated)',     code: '12460+' },
-  { sym: 'EMD', name: 'S&P MidCap 400 E-mini',   code: '33874A' },
-  { sym: 'VX',  name: 'VIX Futures',             code: '1170E1' },
+  { sym: 'ES',  name: 'S&P 500 E-mini',            code: '13874A', proxy: 'SPY' },
+  { sym: 'NQ',  name: 'Nasdaq-100 (Consolidated)', code: '20974+', proxy: 'QQQ' },
+  { sym: 'RTY', name: 'Russell 2000 E-mini',       code: '239742', proxy: 'IWM' },
+  { sym: 'YM',  name: 'DJIA (Consolidated)',       code: '12460+', proxy: 'DIA' },
+  { sym: 'EMD', name: 'S&P MidCap 400 E-mini',     code: '33874A', proxy: 'MDY' },
+  { sym: 'VX',  name: 'VIX Futures',               code: '1170E1', proxy: '^VIX' },
 ];
+
+// ─── TV-style price chart colors (match existing dashboard) ──────────────
+const TV_COLORS = {
+  bg:     '#131722',
+  text:   '#d1d4dc',
+  grid:   '#1e222d',
+  border: '#2A2E39',
+  bull:   '#26a69a',
+  bear:   '#ef5350',
+};
 
 // ─── Data fetching ───────────────────────────────────────────────────────
 
@@ -131,6 +142,136 @@ const READ_LABELS = {
   'crowded-short':  'Crowded Short',
 };
 
+// ─── Price bars (Yahoo via allorigins.win — CORS-friendly) ───────────────
+// Yahoo /v8/finance/chart doesn't send CORS headers, so we route through
+// allorigins.win which proxies the response with permissive CORS.
+const BAR_CACHE_KEY_PREFIX = 'cot_bars_v1_';
+const BAR_CACHE_TTL_MS = 6 * 60 * 60 * 1000;  // 6h — daily bars don't need fresher
+
+async function fetchBars(ticker, range = '6mo') {
+  const cacheKey = `${BAR_CACHE_KEY_PREFIX}${ticker}_${range}`;
+  try {
+    const cached = JSON.parse(localStorage.getItem(cacheKey) || 'null');
+    if (cached && Date.now() - cached.t < BAR_CACHE_TTL_MS) return cached.bars;
+  } catch {}
+
+  const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?range=${range}&interval=1d`;
+  const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(yUrl)}`;
+  const res = await fetch(proxyUrl);
+  if (!res.ok) throw new Error(`bars ${ticker}: HTTP ${res.status}`);
+  const json = await res.json();
+  const result = json?.chart?.result?.[0];
+  if (!result) throw new Error(`bars ${ticker}: empty result`);
+
+  const ts = result.timestamp || [];
+  const q = result.indicators?.quote?.[0] || {};
+  const bars = [];
+  for (let i = 0; i < ts.length; i++) {
+    const o = q.open?.[i], h = q.high?.[i], l = q.low?.[i], c = q.close?.[i];
+    if (o == null || h == null || l == null || c == null) continue;
+    bars.push({
+      time: ts[i],                          // unix seconds — lightweight-charts accepts this
+      open: o, high: h, low: l, close: c,
+      volume: q.volume?.[i] ?? 0,
+    });
+  }
+  if (!bars.length) throw new Error(`bars ${ticker}: no usable bars`);
+
+  try { localStorage.setItem(cacheKey, JSON.stringify({ t: Date.now(), bars })); } catch {}
+  return bars;
+}
+
+// ─── TV-style mini chart (candles + volume only — no indicators) ─────────
+function renderTvChart(container, bars, sym) {
+  if (typeof LightweightCharts === 'undefined') {
+    container.innerHTML = `<div class="chart-error" style="padding:18px;font-size:11px;">Chart lib failed to load.</div>`;
+    return;
+  }
+
+  container.innerHTML = '';
+
+  // TV-style header
+  const last = bars[bars.length - 1];
+  const prev = bars[bars.length - 2] || last;
+  const ch = last.close - prev.close;
+  const chPct = (ch / prev.close) * 100;
+  const chCol = ch >= 0 ? TV_COLORS.bull : TV_COLORS.bear;
+  const head = document.createElement('div');
+  head.className = 'tv-header tv-header-mini';
+  head.innerHTML = `
+    <span class="tv-sym">${sym}</span>
+    <span class="tv-tf">· 1D ·</span>
+    <span class="tv-ohlc">O <b>${last.open.toFixed(2)}</b> H <b>${last.high.toFixed(2)}</b> L <b>${last.low.toFixed(2)}</b> C <b>${last.close.toFixed(2)}</b></span>
+    <span class="tv-change" style="color:${chCol};margin-left:auto;">${ch >= 0 ? '+' : ''}${ch.toFixed(2)} (${ch >= 0 ? '+' : ''}${chPct.toFixed(2)}%)</span>
+  `;
+  container.appendChild(head);
+
+  // Chart canvas
+  const chartWrap = document.createElement('div');
+  chartWrap.style.cssText = 'width:100%; height:200px;';
+  container.appendChild(chartWrap);
+
+  const chart = LightweightCharts.createChart(chartWrap, {
+    layout: {
+      background: { color: TV_COLORS.bg },
+      textColor: TV_COLORS.text,
+      fontSize: 10,
+      fontFamily: '-apple-system, "Trebuchet MS", sans-serif',
+    },
+    grid: {
+      vertLines: { color: TV_COLORS.grid },
+      horzLines: { color: TV_COLORS.grid },
+    },
+    crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
+    rightPriceScale: { borderColor: TV_COLORS.border, scaleMargins: { top: 0.05, bottom: 0.25 } },
+    timeScale: { borderColor: TV_COLORS.border, timeVisible: false, secondsVisible: false, rightOffset: 2 },
+    handleScroll: false,
+    handleScale: false,
+    watermark: { visible: false },
+  });
+
+  const candles = chart.addCandlestickSeries({
+    upColor: TV_COLORS.bull, downColor: TV_COLORS.bear,
+    borderUpColor: TV_COLORS.bull, borderDownColor: TV_COLORS.bear,
+    wickUpColor: TV_COLORS.bull, wickDownColor: TV_COLORS.bear,
+    priceLineColor: '#787B86', priceLineStyle: 2,
+  });
+  candles.setData(bars);
+
+  // Volume — bottom 20%, dim, same-pane
+  const vol = chart.addHistogramSeries({
+    priceFormat: { type: 'volume' },
+    priceScaleId: 'volume',
+  });
+  vol.priceScale().applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
+  vol.setData(bars.map(b => ({
+    time: b.time, value: b.volume || 0,
+    color: b.close >= b.open ? 'rgba(38,166,154,0.35)' : 'rgba(239,83,80,0.35)',
+  })));
+
+  chart.timeScale().fitContent();
+
+  // Resize on container width change
+  const ro = new ResizeObserver(entries => {
+    for (const e of entries) {
+      chart.resize(e.contentRect.width, 200);
+      chart.timeScale().fitContent();
+    }
+  });
+  ro.observe(chartWrap);
+}
+
+async function renderCardChart(contract, container) {
+  container.innerHTML = '<div class="chart-loading" style="padding:18px;font-size:11px;color:#787B86;text-align:center;">Loading chart…</div>';
+  try {
+    const bars = await fetchBars(contract.proxy);
+    renderTvChart(container, bars, contract.proxy);
+  } catch (err) {
+    console.warn(`[${contract.sym}] chart failed:`, err);
+    container.innerHTML = `<div class="chart-error" style="padding:18px;font-size:11px;">Chart unavailable: ${err.message}</div>`;
+  }
+}
+
 // ─── Sparkline (SVG) ─────────────────────────────────────────────────────
 function sparkline(values, color) {
   const w = 100, h = 28;
@@ -238,11 +379,16 @@ function renderCard(contract, rows, container) {
       ${gaugeBar(am_idx, 'Asset Mgrs', am_d_idx, am_d_pos, am_class)}
       ${gaugeBar(lf_idx, 'Lev Funds',  lf_d_idx, lf_d_pos, lf_class)}
       <div class="read-tag ${headTag}">${READ_LABELS[headTag]}</div>
+      <div class="card-chart-wrap"></div>
       <div class="spark-wrap">
         <span class="spark-label">52w LF COT Idx</span>
         ${sparkline(lf_rolling, sparkColor)}
       </div>
     </div>`;
+
+  // Kick off chart load (async, doesn't block other cards)
+  const chartWrap = container.querySelector('.card-chart-wrap');
+  if (chartWrap) renderCardChart(contract, chartWrap);
 }
 
 // ─── Composite read ──────────────────────────────────────────────────────
