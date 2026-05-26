@@ -355,6 +355,57 @@
   font-variant-numeric: tabular-nums;
 }
 
+/* Pine Script modal (manual-copy fallback) */
+.pine-modal {
+  position: fixed; inset: 0; z-index: 2000;
+  background: rgba(0,0,0,0.7);
+  display: flex; align-items: center; justify-content: center;
+  padding: 24px;
+  animation: pine-modal-in 180ms ease;
+}
+.pine-modal[hidden] { display: none; }
+@keyframes pine-modal-in {
+  from { background: rgba(0,0,0,0); }
+  to   { background: rgba(0,0,0,0.7); }
+}
+.pine-modal-inner {
+  background: #0e0e0e;
+  border: 1px solid #2a2a2a;
+  border-radius: 12px;
+  width: min(960px, 100%);
+  max-height: calc(100vh - 64px);
+  display: flex; flex-direction: column;
+  box-shadow: 0 16px 50px rgba(0,0,0,0.7);
+}
+.pine-modal-head {
+  display: flex; justify-content: space-between; align-items: center;
+  padding: 12px 18px; border-bottom: 1px solid var(--line);
+  font-family: ui-monospace, Menlo, monospace;
+  font-size: 12px; color: var(--dim); letter-spacing: 0.5px;
+}
+.pine-modal-close {
+  background: none; border: none; color: var(--dim); font-size: 22px;
+  cursor: pointer; padding: 0 4px; line-height: 1;
+}
+.pine-modal-close:hover { color: var(--fg); }
+.pine-modal-textarea {
+  flex: 1; min-height: 360px;
+  background: #050505; color: #cfcfcf;
+  font-family: ui-monospace, Menlo, "SF Mono", monospace;
+  font-size: 12px; line-height: 1.45;
+  padding: 16px; border: none; resize: none;
+  white-space: pre; tab-size: 4;
+  outline: none;
+}
+.pine-modal-foot {
+  padding: 10px 18px; border-top: 1px solid var(--line);
+  font-size: 11.5px; color: var(--dim);
+}
+.pine-modal-foot code {
+  background: #1a1a1a; padding: 1px 6px; border-radius: 3px; color: var(--fg);
+  font-family: ui-monospace, Menlo, monospace; font-size: 11px;
+}
+
 /* Legend */
 .legend-section { margin-top: 48px; }
 .legend-grid {
