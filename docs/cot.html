@@ -55,6 +55,28 @@
   </div>
 </section>
 
+<!-- TradingView Pine Script -->
+<section class="pine-section">
+  <h2 class="section-title">Use it on your own TradingView charts</h2>
+  <div class="pine-card">
+    <div class="pine-head">
+      <div>
+        <div class="pine-title">COT Index — Pine Script v5</div>
+        <div class="pine-sub">Adds the same Asset Managers + Leveraged Funds COT Index as a sub-pane indicator on any TradingView chart. Auto-detects the CFTC code from the symbol (works on ES1!, NQ1!, RTY1!, YM1!, VX1!, …).</div>
+      </div>
+      <div class="pine-actions">
+        <a class="pine-btn" id="pine-copy" href="javascript:void(0)" aria-label="Copy Pine Script">Copy script</a>
+        <a class="pine-btn pine-btn-alt" href="./cot-index.pine" download="cot-index.pine">Download .pine</a>
+      </div>
+    </div>
+    <div class="pine-steps">
+      <span class="pine-step"><span class="pine-step-num">1</span> Open TradingView → Pine Editor</span>
+      <span class="pine-step"><span class="pine-step-num">2</span> Paste &amp; Save</span>
+      <span class="pine-step"><span class="pine-step-num">3</span> Add to chart — renders below price</span>
+    </div>
+  </div>
+</section>
+
 <!-- Legend -->
 <section class="legend-section">
   <h2 class="section-title">How to Read</h2>
@@ -84,6 +106,24 @@
 <p>Data: <a href="https://publicreporting.cftc.gov/" target="_blank" rel="noopener">CFTC public reporting</a> (Traders in Financial Futures, F+O combined). Refreshes on page load. COT Index methodology per Briese (CMT Level III curriculum). Not investment advice.</p>
 </footer>
 
+<script>
+// Wire the "Copy script" button — fetches cot-index.pine, writes to clipboard.
+document.getElementById('pine-copy').addEventListener('click', async (e) => {
+  const btn = e.currentTarget;
+  const orig = btn.textContent;
+  try {
+    const res = await fetch('./cot-index.pine?t=' + Date.now());
+    const text = await res.text();
+    await navigator.clipboard.writeText(text);
+    btn.textContent = 'Copied ✓';
+    btn.classList.add('pine-btn-copied');
+    setTimeout(() => { btn.textContent = orig; btn.classList.remove('pine-btn-copied'); }, 1800);
+  } catch (err) {
+    btn.textContent = 'Copy failed';
+    setTimeout(() => { btn.textContent = orig; }, 1800);
+  }
+});
+</script>
 <script src="cot.js"></script>
 </body>
 </html>

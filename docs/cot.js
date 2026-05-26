@@ -142,67 +142,85 @@ const READ_LABELS = {
   'crowded-short':  'Crowded Short',
 };
 
-// ─── Price bars (Yahoo via allorigins.win — CORS-friendly) ───────────────
-// Yahoo /v8/finance/chart doesn't send CORS headers, so we route through
-// allorigins.win which proxies the response with permissive CORS.
-const BAR_CACHE_KEY_PREFIX = 'cot_bars_v1_';
-const BAR_CACHE_TTL_MS = 6 * 60 * 60 * 1000;  // 6h — daily bars don't need fresher
-
-async function fetchBars(ticker, range = '6mo') {
-  const cacheKey = `${BAR_CACHE_KEY_PREFIX}${ticker}_${range}`;
-  try {
-    const cached = JSON.parse(localStorage.getItem(cacheKey) || 'null');
-    if (cached && Date.now() - cached.t < BAR_CACHE_TTL_MS) return cached.bars;
-  } catch {}
-
-  const yUrl = `https://query1.finance.yahoo.com/v8/finance/chart/${encodeURIComponent(ticker)}?range=${range}&interval=1d`;
-  const proxyUrl = `https://api.allorigins.win/raw?url=${encodeURIComponent(yUrl)}`;
-  const res = await fetch(proxyUrl);
-  if (!res.ok) throw new Error(`bars ${ticker}: HTTP ${res.status}`);
-  const json = await res.json();
-  const result = json?.chart?.result?.[0];
-  if (!result) throw new Error(`bars ${ticker}: empty result`);
-
-  const ts = result.timestamp || [];
-  const q = result.indicators?.quote?.[0] || {};
-  const bars = [];
-  for (let i = 0; i < ts.length; i++) {
-    const o = q.open?.[i], h = q.high?.[i], l = q.low?.[i], c = q.close?.[i];
-    if (o == null || h == null || l == null || c == null) continue;
-    bars.push({
-      time: ts[i],                          // unix seconds — lightweight-charts accepts this
-      open: o, high: h, low: l, close: c,
-      volume: q.volume?.[i] ?? 0,
-    });
-  }
-  if (!bars.length) throw new Error(`bars ${ticker}: no usable bars`);
-
-  try { localStorage.setItem(cacheKey, JSON.stringify({ t: Date.now(), bars })); } catch {}
-  return bars;
-}
-
-// ─── TV-style mini chart (candles + volume only — no indicators) ─────────
-function renderTvChart(container, bars, sym) {
+// ─── TV-style COT Index oscillator chart ─────────────────────────────────
+// Plots the rolling COT Index (Briese, 3y window) for Asset Managers and
+// Leveraged Funds. NOT the underlying price — that's the wrong thing to
+// look at in a positioning monitor.
+function renderCotIndexChart(container, parsedRows, contract) {
   if (typeof LightweightCharts === 'undefined') {
     container.innerHTML = `<div class="chart-error" style="padding:18px;font-size:11px;">Chart lib failed to load.</div>`;
     return;
   }
-
   container.innerHTML = '';
 
-  // TV-style header
-  const last = bars[bars.length - 1];
-  const prev = bars[bars.length - 2] || last;
-  const ch = last.close - prev.close;
-  const chPct = (ch / prev.close) * 100;
-  const chCol = ch >= 0 ? TV_COLORS.bull : TV_COLORS.bear;
+  // Build chronological (oldest→newest) series of weekly net positions
+  // parsedRows is DESC by date, so reverse for plotting.
+  const chrono = [...parsedRows].reverse();
+  const dates  = chrono.map(r => r.date);
+  const am_net = chrono.map(r => r.am_long - r.am_short);
+  const lf_net = chrono.map(r => r.lf_long - r.lf_short);
+
+  // Rolling 156-week COT Index. For each week i, compute over [i-155 .. i].
+  function rollingIdx(series, window = LOOKBACK_WEEKS) {
+    const out = [];
+    for (let i = 0; i < series.length; i++) {
+      const start = Math.max(0, i - window + 1);
+      const win = series.slice(start, i + 1);
+      if (win.length < 8) { out.push(null); continue; }
+      const cur = win[win.length - 1];
+      let mn = cur, mx = cur;
+      for (const v of win) { if (v < mn) mn = v; if (v > mx) mx = v; }
+      out.push(mx === mn ? 50 : 100 * (cur - mn) / (mx - mn));
+    }
+    return out;
+  }
+  const am_idx_series = rollingIdx(am_net);
+  const lf_idx_series = rollingIdx(lf_net);
+
+  // Convert YYYY-MM-DD string → unix-seconds time for lightweight-charts
+  const toTime = d => Math.floor(new Date(d + 'T00:00:00Z').getTime() / 1000);
+  const buildSeries = (vals) => {
+    const out = [];
+    for (let i = 0; i < dates.length; i++) {
+      if (vals[i] == null) continue;
+      out.push({ time: toTime(dates[i]), value: vals[i] });
+    }
+    return out;
+  };
+  const am_data = buildSeries(am_idx_series);
+  const lf_data = buildSeries(lf_idx_series);
+
+  // Threshold lines at 20 / 80 across full date range
+  const dateMin = dates.length ? toTime(dates[0])               : 0;
+  const dateMax = dates.length ? toTime(dates[dates.length-1])  : 0;
+  const flatLine = (val) => [
+    { time: dateMin, value: val },
+    { time: dateMax, value: val },
+  ];
+
+  // TV-style header — show CURRENT COT Index values + 4w delta
+  const am_now = am_data.length ? am_data[am_data.length-1].value : null;
+  const lf_now = lf_data.length ? lf_data[lf_data.length-1].value : null;
+  const am_4w  = am_data.length > 4 ? am_data[am_data.length-5].value : null;
+  const lf_4w  = lf_data.length > 4 ? lf_data[lf_data.length-5].value : null;
+  const fmtIdx = v => v == null ? '—' : v.toFixed(0);
+  const fmtDelta4w = v => v == null ? '·' : (v > 0 ? '+' : '') + v.toFixed(0);
+  const am_d4 = (am_now != null && am_4w != null) ? am_now - am_4w : null;
+  const lf_d4 = (lf_now != null && lf_4w != null) ? lf_now - lf_4w : null;
+  const colorFor = idx => idx == null ? '#787B86' : idx >= 80 ? '#26a69a' : idx <= 20 ? '#ef5350' : '#d1d4dc';
+
   const head = document.createElement('div');
   head.className = 'tv-header tv-header-mini';
   head.innerHTML = `
-    <span class="tv-sym">${sym}</span>
-    <span class="tv-tf">· 1D ·</span>
-    <span class="tv-ohlc">O <b>${last.open.toFixed(2)}</b> H <b>${last.high.toFixed(2)}</b> L <b>${last.low.toFixed(2)}</b> C <b>${last.close.toFixed(2)}</b></span>
-    <span class="tv-change" style="color:${chCol};margin-left:auto;">${ch >= 0 ? '+' : ''}${ch.toFixed(2)} (${ch >= 0 ? '+' : ''}${chPct.toFixed(2)}%)</span>
+    <span class="tv-sym">COT Index</span>
+    <span class="tv-tf">· W · 3y</span>
+    <span class="tv-ohlc">
+      <b style="color:#FFB74D">AM</b> <b style="color:${colorFor(am_now)}">${fmtIdx(am_now)}</b>
+      <span class="tv-delta" style="color:${am_d4 == null ? '#787B86' : am_d4 > 0 ? '#26a69a' : '#ef5350'}">${fmtDelta4w(am_d4)}</span>
+      &nbsp;&nbsp;
+      <b style="color:#4DD0E1">LF</b> <b style="color:${colorFor(lf_now)}">${fmtIdx(lf_now)}</b>
+      <span class="tv-delta" style="color:${lf_d4 == null ? '#787B86' : lf_d4 > 0 ? '#26a69a' : '#ef5350'}">${fmtDelta4w(lf_d4)}</span>
+    </span>
   `;
   container.appendChild(head);
 
@@ -223,35 +241,80 @@ function renderTvChart(container, bars, sym) {
       horzLines: { color: TV_COLORS.grid },
     },
     crosshair: { mode: LightweightCharts.CrosshairMode.Normal },
-    rightPriceScale: { borderColor: TV_COLORS.border, scaleMargins: { top: 0.05, bottom: 0.25 } },
+    rightPriceScale: {
+      borderColor: TV_COLORS.border,
+      scaleMargins: { top: 0.08, bottom: 0.08 },
+      autoScale: false,
+      // Explicit 0..100 range for the COT Index oscillator
+      mode: 0,
+    },
     timeScale: { borderColor: TV_COLORS.border, timeVisible: false, secondsVisible: false, rightOffset: 2 },
     handleScroll: false,
     handleScale: false,
-    watermark: { visible: false },
+    watermark: {
+      visible: true,
+      color: 'rgba(120,123,134,0.18)',
+      text: contract.sym + '  ·  COT INDEX',
+      fontSize: 13,
+      horzAlign: 'right', vertAlign: 'top',
+    },
   });
 
-  const candles = chart.addCandlestickSeries({
-    upColor: TV_COLORS.bull, downColor: TV_COLORS.bear,
-    borderUpColor: TV_COLORS.bull, borderDownColor: TV_COLORS.bear,
-    wickUpColor: TV_COLORS.bull, wickDownColor: TV_COLORS.bear,
-    priceLineColor: '#787B86', priceLineStyle: 2,
+  // Reference shading — extreme zones (>80 long, <20 short)
+  const extremeLong = chart.addAreaSeries({
+    topColor: 'rgba(38,166,154,0.10)', bottomColor: 'rgba(38,166,154,0.00)',
+    lineColor: 'rgba(0,0,0,0)', lineWidth: 0,
+    priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false,
+    baseValue: { type: 'price', price: 80 },
   });
-  candles.setData(bars);
+  extremeLong.setData(flatLine(100));
 
-  // Volume — bottom 20%, dim, same-pane
-  const vol = chart.addHistogramSeries({
-    priceFormat: { type: 'volume' },
-    priceScaleId: 'volume',
+  const extremeShort = chart.addAreaSeries({
+    topColor: 'rgba(239,83,80,0.10)', bottomColor: 'rgba(239,83,80,0.00)',
+    lineColor: 'rgba(0,0,0,0)', lineWidth: 0,
+    priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false,
+    baseValue: { type: 'price', price: 20 },
   });
-  vol.priceScale().applyOptions({ scaleMargins: { top: 0.82, bottom: 0 } });
-  vol.setData(bars.map(b => ({
-    time: b.time, value: b.volume || 0,
-    color: b.close >= b.open ? 'rgba(38,166,154,0.35)' : 'rgba(239,83,80,0.35)',
-  })));
+  extremeShort.setData(flatLine(0));
+
+  // Reference lines at 20 / 50 / 80
+  const refLine = (val, color, style) => {
+    const s = chart.addLineSeries({
+      color, lineWidth: 1, lineStyle: style,
+      priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false,
+    });
+    s.setData(flatLine(val));
+  };
+  refLine(80, 'rgba(38,166,154,0.45)',  LightweightCharts.LineStyle.Dashed);
+  refLine(50, 'rgba(120,123,134,0.30)', LightweightCharts.LineStyle.Dotted);
+  refLine(20, 'rgba(239,83,80,0.45)',   LightweightCharts.LineStyle.Dashed);
+
+  // Asset Managers (slow money) — amber
+  const amLine = chart.addLineSeries({
+    color: '#FFB74D', lineWidth: 2,
+    priceLineVisible: true, priceLineColor: '#FFB74D', priceLineStyle: LightweightCharts.LineStyle.Dotted,
+    lastValueVisible: true, crosshairMarkerRadius: 3,
+    title: 'Asset Mgrs',
+  });
+  amLine.setData(am_data);
+
+  // Leveraged Funds (hedge funds) — cyan
+  const lfLine = chart.addLineSeries({
+    color: '#4DD0E1', lineWidth: 2,
+    priceLineVisible: true, priceLineColor: '#4DD0E1', priceLineStyle: LightweightCharts.LineStyle.Dotted,
+    lastValueVisible: true, crosshairMarkerRadius: 3,
+    title: 'Lev Funds',
+  });
+  lfLine.setData(lf_data);
+
+  // Pin the price scale to 0..100 by setting fixed visible range via the
+  // synthetic ref lines we already drew (refLine 0->100 emits no series at
+  // those values, so we add invisible anchors).
+  const anchorTop = chart.addLineSeries({ color: 'rgba(0,0,0,0)', lineWidth: 0, priceLineVisible: false, lastValueVisible: false, crosshairMarkerVisible: false });
+  anchorTop.setData([{ time: dateMin, value: 0 }, { time: dateMax, value: 100 }]);
 
   chart.timeScale().fitContent();
 
-  // Resize on container width change
   const ro = new ResizeObserver(entries => {
     for (const e of entries) {
       chart.resize(e.contentRect.width, 200);
@@ -259,17 +322,6 @@ function renderTvChart(container, bars, sym) {
     }
   });
   ro.observe(chartWrap);
-}
-
-async function renderCardChart(contract, container) {
-  container.innerHTML = '<div class="chart-loading" style="padding:18px;font-size:11px;color:#787B86;text-align:center;">Loading chart…</div>';
-  try {
-    const bars = await fetchBars(contract.proxy);
-    renderTvChart(container, bars, contract.proxy);
-  } catch (err) {
-    console.warn(`[${contract.sym}] chart failed:`, err);
-    container.innerHTML = `<div class="chart-error" style="padding:18px;font-size:11px;">Chart unavailable: ${err.message}</div>`;
-  }
 }
 
 // ─── Sparkline (SVG) ─────────────────────────────────────────────────────
@@ -364,8 +416,6 @@ function renderCard(contract, rows, container) {
        : 'neutral')
     : 'neutral';
 
-  const sparkColor = lf_idx >= 75 ? '#00ffbb' : lf_idx <= 25 ? '#ff4040' : '#666';
-
   container.innerHTML = `
     <div class="contract-card ${cardState}">
       <div class="card-head">
@@ -380,15 +430,12 @@ function renderCard(contract, rows, container) {
       ${gaugeBar(lf_idx, 'Lev Funds',  lf_d_idx, lf_d_pos, lf_class)}
       <div class="read-tag ${headTag}">${READ_LABELS[headTag]}</div>
       <div class="card-chart-wrap"></div>
-      <div class="spark-wrap">
-        <span class="spark-label">52w LF COT Idx</span>
-        ${sparkline(lf_rolling, sparkColor)}
-      </div>
     </div>`;
 
-  // Kick off chart load (async, doesn't block other cards)
+  // Render the COT Index oscillator chart inside this card (sync — data is
+  // already in hand, no extra fetch needed).
   const chartWrap = container.querySelector('.card-chart-wrap');
-  if (chartWrap) renderCardChart(contract, chartWrap);
+  if (chartWrap) renderCotIndexChart(chartWrap, parsed, contract);
 }
 
 // ─── Composite read ──────────────────────────────────────────────────────
