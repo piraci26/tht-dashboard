@@ -11,6 +11,9 @@
 <script src="https://unpkg.com/lightweight-charts@4.2.0/dist/lightweight-charts.standalone.production.js"></script>
 <script data-goatcounter="https://jakubkaszynski.goatcounter.com/count"
         async src="//gc.zgo.at/count.js"></script>
+<!-- Supabase data adapter (translates Supabase tables into the JSON shapes
+     the renderer already speaks; sets window.suprAdapter / window.suprClient). -->
+<script type="module" src="supabase-adapter.js"></script>
 </head>
 <body>
 <header>
@@ -1244,29 +1247,60 @@ document.querySelectorAll('.tab-btn').forEach(b => {
 });
 syncTabs();
 
+// supabase-adapter.js is a deferred ES module — wait for it to assign
+// window.suprAdapter before issuing any data calls. Polls every 20ms;
+// resolves immediately if already loaded.
+function waitForAdapter() {
+  if (window.suprAdapter) return Promise.resolve(window.suprAdapter);
+  return new Promise((resolve) => {
+    const tick = () => window.suprAdapter ? resolve(window.suprAdapter) : setTimeout(tick, 20);
+    tick();
+  });
+}
+
+async function fetchForViewMode() {
+  const a = await waitForAdapter();
+  switch (viewMode) {
+    case 'ath':    return a.fetchExtrema('ath');
+    case 'atl':    return a.fetchExtrema('atl');
+    case 'lux':    return a.fetchLux();
+    case 'setups': return a.fetchSetups();
+    // 'flip', 'fvb', 'bxt' all read the per-timeframe flip_results slice
+    default:       return a.fetchResults(timeframe);
+  }
+}
+
 async function load() {
   try {
-    const res = await fetch(resultsUrl() + '?t=' + Date.now());
-    if (!res.ok) throw new Error('HTTP ' + res.status);
-    const data = await res.json();
+    const data = await fetchForViewMode();
     currentData = data;
     renderAll();
   } catch (e) {
-    // For LuxAlgo specifically, fall through with an empty stub so the
-    // pre-data empty state renders instead of leaving stale tables on screen.
+    console.error('load() failed:', e);
     if (viewMode === 'lux') {
       currentData = { updated_at: null, timeframes: null };
       renderAll();
     } else {
-      document.getElementById('updated').textContent = 'Failed to load results.json';
+      document.getElementById('updated').textContent = 'Failed to load from Supabase: ' + (e.message || e);
     }
   }
 }
 
-load();
-setInterval(load, 300000);
-// No visibilitychange / focus refresh, no auto-reload — the 5min cadence is
-// the single source of refresh. Manual reload still works whenever needed.
+// Initial fetch + realtime subscription. Realtime pushes are the primary
+// freshness signal; the 60s interval is a safety net in case the websocket
+// drops (Supabase reconnects automatically but we don't always notice).
+load().then(async () => {
+  const a = await waitForAdapter();
+  let pending = null;
+  // Debounce — a single scan run can fire dozens of UPDATE/INSERT events
+  // within a couple seconds. Coalesce into a single reload.
+  const onChange = () => {
+    if (pending) clearTimeout(pending);
+    pending = setTimeout(() => { pending = null; load(); }, 750);
+  };
+  a.subscribeAll(onChange);
+});
+setInterval(load, 60000);
 </script>
 
 <!-- Extra-data hidden panel: opened by clicking the "D" letter in the page title -->
@@ -1295,9 +1329,8 @@ setInterval(load, 300000);
 
   async function fillExtraData(){
     try {
-      const res = await fetch('https://piraci26.github.io/tht-data/setups.json?t=' + Date.now());
-      if (!res.ok) throw new Error('HTTP ' + res.status);
-      const d = await res.json();
+      if (!window.suprAdapter) throw new Error('adapter not ready');
+      const d = await window.suprAdapter.fetchSetups();
       const b = d.breadth || {};
       const g = d.groups  || {};
       const universe = d.universe_size || b.universe_size || '?';
