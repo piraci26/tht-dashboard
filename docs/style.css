@@ -385,3 +385,49 @@ footer { margin-top: 48px; padding-top: 20px; border-top: 1px solid var(--line);
 .rb-x { background: #1a1a1a;          color: #555;         }
 .rb-age { font-size: 9px; opacity: 0.7; }
 .rb-fire { margin-left: 2px; font-size: 9px; }
+
+/* ── Sector / sub-sector dropdown filters ───────────────────────────── */
+.dd { position: relative; display: inline-block; }
+.dd-btn {
+  background: #141414; color: var(--dim); border: 1px solid var(--line);
+  border-radius: 999px; padding: 5px 12px; font-size: 12px; font-weight: 500;
+  cursor: pointer; font-family: inherit; transition: all 0.12s;
+}
+.dd-btn:hover { color: var(--fg); border-color: #333; }
+/* Active only when a filter is actually narrowing the view — an empty
+   selection means "all", which is the same as no filter at all. */
+.dd.has-selection .dd-btn { background: var(--green-dim); color: var(--green); border-color: var(--green); }
+.dd-count { font-variant-numeric: tabular-nums; }
+.dd-count:not(:empty) { margin-left: 6px; opacity: 0.85; }
+
+.dd-panel {
+  position: absolute; top: calc(100% + 6px); left: 0; z-index: 50;
+  min-width: 260px; max-width: 320px; max-height: 340px; overflow-y: auto;
+  background: var(--table-bg); border: 1px solid var(--line);
+  border-radius: 10px; padding: 6px; box-shadow: 0 8px 28px rgba(0,0,0,0.55);
+}
+.dd-head {
+  display: flex; align-items: center; justify-content: space-between;
+  gap: 10px; padding: 4px 8px 8px; border-bottom: 1px solid var(--line); margin-bottom: 4px;
+}
+.dd-hint { font-size: 11px; color: var(--dim); }
+.dd-clear {
+  background: none; border: none; color: var(--dim); cursor: pointer;
+  font-family: inherit; font-size: 11px; text-decoration: underline; padding: 0;
+}
+.dd-clear:hover { color: var(--fg); }
+
+.dd-opt {
+  display: flex; align-items: center; gap: 8px;
+  padding: 5px 8px; border-radius: 6px; cursor: pointer;
+  font-size: 12px; color: var(--fg); line-height: 1.3;
+}
+.dd-opt:hover { background: var(--row-alt); }
+.dd-opt input { accent-color: var(--green); cursor: pointer; flex: none; }
+/* Sub-sector list groups under sector headings once 2+ sectors are picked. */
+.dd-group {
+  padding: 8px 8px 3px; font-size: 10px; font-weight: 600;
+  text-transform: uppercase; letter-spacing: 0.06em; color: var(--dim);
+}
+.dd-group + .dd-opt { margin-top: 0; }
+.dd-empty { padding: 10px 8px; font-size: 12px; color: var(--dim); }

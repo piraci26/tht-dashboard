@@ -19,6 +19,52 @@ window.suprClient = sb;
 // ─── Helpers ───────────────────────────────────────────────────────────
 const byMcapDesc = (a, b) => (b.mcap || 0) - (a.mcap || 0);
 
+// PostgREST hard-caps a response at 1000 rows (max-rows), and .limit(n) can't
+// raise it — asking for 10000 still silently returns the first 1000. Any table
+// that can exceed that must be paged with .range(). setup_hits (~1.8k) and
+// regime_state (~4.5k) both do.
+const PAGE = 1000;
+async function fetchAll(build) {
+  const out = [];
+  for (let from = 0; ; from += PAGE) {
+    const { data, error } = await build().range(from, from + PAGE - 1);
+    if (error) throw error;
+    out.push(...(data || []));
+    if (!data || data.length < PAGE) return out;
+  }
+}
+
+// ─── Sector / industry lookup ─────────────────────────────────────────
+// The flip / setup / extrema tables carry no sector column, so the browser
+// joins against `universe` (written nightly by build_universe_3_5b.py). Fetched
+// once and cached for the page's lifetime — sectors don't change intraday.
+let _universePromise = null;
+function universeMap() {
+  if (!_universePromise) {
+    _universePromise = fetchAll(() => sb.from('universe').select('symbol,sector,industry'))
+      .then((rows) => {
+        const m = new Map();
+        for (const r of rows) m.set(r.symbol, { sector: r.sector, industry: r.industry });
+        return m;
+      })
+      .catch((e) => {
+        // A failed sector fetch must not blank the dashboard — fall back to an
+        // empty map, which leaves every row unclassified but still rendered.
+        console.error('universe fetch failed; sector filters will be empty:', e);
+        return new Map();
+      });
+  }
+  return _universePromise;
+}
+
+// Stamp sector/industry onto a row shape the renderer already speaks.
+const withSector = (uni, sym, row) => {
+  const u = uni.get(sym);
+  row.sector   = u?.sector   || null;
+  row.industry = u?.industry || null;
+  return row;
+};
+
 const flipToRow = (r) => ({
   sym:   r.symbol,
   name:  r.name,
@@ -41,19 +87,32 @@ const setupHitToEntry = (h) => ({
   M: { regime: h.m_regime, age: h.m_age, ts: h.m_ts, fired_g: !!h.m_fired_g, fired_r: !!h.m_fired_r, fired_g_plus: false, fired_r_plus: false },
 });
 
+// The full sector -> industries tree the filter UI renders its checkboxes from.
+// Built from `universe`, so it only ever offers sectors that real rows can have.
+async function fetchSectorTree() {
+  const uni = await universeMap();
+  const tree = {};
+  for (const { sector, industry } of uni.values()) {
+    if (!sector) continue;
+    (tree[sector] ||= new Set()).add(industry || 'Unclassified');
+  }
+  return Object.fromEntries(
+    Object.keys(tree).sort().map((s) => [s, [...tree[s]].sort()])
+  );
+}
+
 // ─── Flip results (Bands / BX greens & reds per timeframe) ────────────
 async function fetchResults(timeframe) {
-  const { data, error } = await sb
-    .from('flip_results')
-    .select('*')
-    .eq('timeframe', timeframe);
-  if (error) throw error;
+  const [data, uni] = await Promise.all([
+    fetchAll(() => sb.from('flip_results').select('*').eq('timeframe', timeframe)),
+    universeMap(),
+  ]);
 
   const buckets = { fvb_green: [], fvb_red: [], bxt_green: [], bxt_red: [] };
   let latest = null;
   for (const r of data || []) {
     const key = `${r.product}_${r.side}`;
-    if (buckets[key]) buckets[key].push(flipToRow(r));
+    if (buckets[key]) buckets[key].push(withSector(uni, r.symbol, flipToRow(r)));
     if (!latest || r.scanned_at > latest) latest = r.scanned_at;
   }
   for (const k of Object.keys(buckets)) buckets[k].sort(byMcapDesc);
@@ -79,22 +138,24 @@ async function fetchResults(timeframe) {
 
 // ─── LuxAlgo greens/reds per TF — derived from regime_state ───────────
 async function fetchLux() {
-  const { data, error } = await sb
-    .from('regime_state')
-    .select('symbol,tf,name,mcap,ts,dsg,dsr,fired_g,fired_g_plus,fired_r,fired_r_plus,scanned_at')
-    .or('fired_g.eq.true,fired_r.eq.true');
-  if (error) throw error;
+  const [data, uni] = await Promise.all([
+    fetchAll(() => sb
+      .from('regime_state')
+      .select('symbol,tf,name,mcap,ts,dsg,dsr,fired_g,fired_g_plus,fired_r,fired_r_plus,scanned_at')
+      .or('fired_g.eq.true,fired_r.eq.true')),
+    universeMap(),
+  ]);
 
   const tfs = { D: { greens: [], reds: [] }, W: { greens: [], reds: [] }, M: { greens: [], reds: [] } };
   let latest = null;
   for (const r of data || []) {
     if (!tfs[r.tf]) continue;
-    const row = {
+    const row = withSector(uni, r.symbol, {
       sym: r.symbol, name: r.name || '', mcap: r.mcap || 0,
       trend_strength: r.ts != null ? r.ts.toFixed(2) : '',
       is_plus: !!(r.fired_g_plus || r.fired_r_plus),
       days_since_green: r.dsg, days_since_red: r.dsr,
-    };
+    });
     if (r.fired_g) tfs[r.tf].greens.push(row);
     else if (r.fired_r) tfs[r.tf].reds.push(row);
     if (!latest || r.scanned_at > latest) latest = r.scanned_at;
@@ -113,19 +174,18 @@ async function fetchLux() {
 
 // ─── ATH / ATL events ──────────────────────────────────────────────────
 async function fetchExtrema(kind) {
-  const { data, error } = await sb
-    .from('extrema_events')
-    .select('*')
-    .eq('kind', kind);
-  if (error) throw error;
+  const [data, uni] = await Promise.all([
+    fetchAll(() => sb.from('extrema_events').select('*').eq('kind', kind)),
+    universeMap(),
+  ]);
   const list = [], accumulator = [];
   let latest = null;
   for (const r of data || []) {
-    const row = {
+    const row = withSector(uni, r.symbol, {
       sym: r.symbol, name: r.name || '', mcap: r.mcap || 0,
       price: r.price, [kind]: r.ath_or_atl,
       occurred_at: r.occurred_at,
-    };
+    });
     if (r.is_today) list.push(row);
     else accumulator.push(row);
     if (!latest || r.scanned_at > latest) latest = r.scanned_at;
@@ -141,18 +201,19 @@ async function fetchExtrema(kind) {
 
 // ─── Setups + breadth ─────────────────────────────────────────────────
 async function fetchSetups() {
-  const [meta, hits, breadth] = await Promise.all([
-    sb.from('setup_groups').select('*'),
-    sb.from('setup_hits').select('*').limit(10000),
+  // setup_hits runs ~1.8k rows — it MUST be paged. The old .limit(10000) was
+  // silently capped at 1000 by PostgREST, dropping ~45% of every setup group.
+  const [meta, hits, breadth, uni] = await Promise.all([
+    fetchAll(() => sb.from('setup_groups').select('*')),
+    fetchAll(() => sb.from('setup_hits').select('*')),
     sb.from('breadth_snapshots').select('*').order('scanned_at', { ascending: false }).limit(1),
+    universeMap(),
   ]);
-  if (meta.error)    throw meta.error;
-  if (hits.error)    throw hits.error;
   if (breadth.error) throw breadth.error;
 
   // Reshape into the legacy setups.json schema the renderer already speaks.
   const group_meta = {};
-  for (const g of meta.data || []) {
+  for (const g of meta || []) {
     group_meta[g.group_key] = {
       name: g.name, kind: g.kind, rule: g.rule, summary: g.summary,
     };
@@ -161,9 +222,9 @@ async function fetchSetups() {
   const groups = {};
   for (const k of Object.keys(group_meta)) groups[k] = [];
   let latest = null;
-  for (const h of hits.data || []) {
+  for (const h of hits || []) {
     if (!groups[h.group_key]) groups[h.group_key] = [];
-    groups[h.group_key].push(setupHitToEntry(h));
+    groups[h.group_key].push(withSector(uni, h.symbol, setupHitToEntry(h)));
     if (!latest || h.scanned_at > latest) latest = h.scanned_at;
   }
   // Sort by M trend strength desc, fall back to mcap.
@@ -219,5 +280,5 @@ function subscribeAll(onReload) {
 }
 
 window.suprAdapter = {
-  fetchResults, fetchLux, fetchExtrema, fetchSetups, subscribeAll,
+  fetchResults, fetchLux, fetchExtrema, fetchSetups, fetchSectorTree, subscribeAll,
 };

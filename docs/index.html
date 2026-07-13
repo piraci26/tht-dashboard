@@ -64,6 +64,27 @@
     <button type="button" data-mcap="200">$200B</button>
     <button type="button" data-mcap="1000">$1T</button>
   </div>
+  <!-- Sector / sub-sector. Nothing checked = everything shown. -->
+  <div class="dd" id="dd-sector">
+    <button type="button" class="dd-btn" aria-expanded="false">Sector<span class="dd-count"></span></button>
+    <div class="dd-panel" hidden>
+      <div class="dd-head">
+        <span class="dd-hint">Nothing checked = all</span>
+        <button type="button" class="dd-clear">Clear</button>
+      </div>
+      <div class="dd-list"></div>
+    </div>
+  </div>
+  <div class="dd" id="dd-industry">
+    <button type="button" class="dd-btn" aria-expanded="false">Sub-sector<span class="dd-count"></span></button>
+    <div class="dd-panel" hidden>
+      <div class="dd-head">
+        <span class="dd-hint">Nothing checked = all</span>
+        <button type="button" class="dd-clear">Clear</button>
+      </div>
+      <div class="dd-list"></div>
+    </div>
+  </div>
 </div>
 </header>
 
@@ -169,6 +190,14 @@ const sortState = {
   'lux-green-table': {col:'mcap', dir:'desc'},
   'lux-red-table':   {col:'mcap', dir:'desc'},
 };
+
+// Sector / industry strings are interpolated into checkbox markup and value
+// attributes; ampersands alone would break the value round-trip.
+function escapeHtml(s) {
+  return String(s).replace(/[&<>"']/g, (c) => (
+    { '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]
+  ));
+}
 
 function sortRowsBy(rows, col, dir) {
   if (!col) return rows;
@@ -698,7 +727,24 @@ let viewMode = ['lux','ath','atl','fvb','bxt','setups'].includes(_legacyTf) ? _l
 if (!['flip','lux','ath','atl','fvb','bxt','setups'].includes(viewMode)) viewMode = 'flip';
 localStorage.setItem('timeframe', timeframe);
 localStorage.setItem('viewMode', viewMode);
-const filterRows = rows => (rows || []).filter(r => (r.mcap || 0) >= minMcap);
+// Sector / sub-sector selections. An EMPTY set means "everything" — that's the
+// whole contract: check nothing and no narrowing happens, uncheck the last box
+// and you're back to the full universe. So these are only ever applied when
+// non-empty; there is no separate "all" sentinel to keep in sync.
+const loadSet = (k) => {
+  try { return new Set(JSON.parse(localStorage.getItem(k) || '[]')); }
+  catch { return new Set(); }
+};
+const saveSet = (k, s) => localStorage.setItem(k, JSON.stringify([...s]));
+let selSectors    = loadSet('selSectors');
+let selIndustries = loadSet('selIndustries');
+let sectorTree    = {};   // { sector: [industry, ...] } — filled at boot
+
+const filterRows = rows => (rows || []).filter(r =>
+  (r.mcap || 0) >= minMcap &&
+  (selSectors.size    === 0 || selSectors.has(r.sector)) &&
+  (selIndustries.size === 0 || selIndustries.has(r.industry))
+);
 // Data backbone — separate repo, see https://github.com/piraci26/tht-data
 const DATA_BASE = 'https://piraci26.github.io/tht-data';
 const TF_KEY = { daily: 'D', weekly: 'W', monthly: 'M' };
@@ -979,7 +1025,6 @@ function setupMetaFields(meta, key) {
 }
 
 function renderSetupGroup(d, key) {
-  const filterRows = rows => (rows || []).filter(r => (r.mcap || 0) >= minMcap);
   const rows = filterRows((d.groups || {})[key] || []);
   if (!rows.length) return { html: '', n: 0 };
   const { name, summary, rule } = setupMetaFields(d.group_meta || {}, key);
@@ -1202,6 +1247,145 @@ document.querySelectorAll('.filter-presets button').forEach(b => {
   });
 });
 syncPresets();
+
+// ── Sector / sub-sector filters ──────────────────────────────────────
+// Empty selection = no narrowing. The sub-sector list is derived from the
+// sector selection: none picked shows every sub-sector flat, one picked shows
+// just that sector's, two or more groups them under sector subheadings.
+const ddSector   = document.getElementById('dd-sector');
+const ddIndustry = document.getElementById('dd-industry');
+
+const optHtml = (val, checked) =>
+  `<label class="dd-opt"><input type="checkbox" value="${escapeHtml(val)}"${checked ? ' checked' : ''}>${escapeHtml(val)}</label>`;
+
+function industriesOf(sectors) {
+  const out = new Set();
+  for (const s of sectors) for (const i of sectorTree[s] || []) out.add(i);
+  return [...out].sort();
+}
+
+function renderSectorPanel() {
+  const list = ddSector.querySelector('.dd-list');
+  const sectors = Object.keys(sectorTree);
+  list.innerHTML = sectors.length
+    ? sectors.map((s) => optHtml(s, selSectors.has(s))).join('')
+    : '<div class="dd-empty">No sector data.</div>';
+}
+
+function renderIndustryPanel() {
+  const list = ddIndustry.querySelector('.dd-list');
+  const chosen = [...selSectors];
+
+  if (!Object.keys(sectorTree).length) {
+    list.innerHTML = '<div class="dd-empty">No sector data.</div>';
+    return;
+  }
+  // 0 or 1 sector → a flat list needs no subheadings to disambiguate.
+  if (chosen.length <= 1) {
+    const scope = chosen.length ? chosen : Object.keys(sectorTree);
+    list.innerHTML = industriesOf(scope).map((i) => optHtml(i, selIndustries.has(i))).join('');
+    return;
+  }
+  // 2+ sectors → group so it's clear which sector each sub-sector belongs to.
+  list.innerHTML = chosen.sort().map((s) => (
+    `<div class="dd-group">${escapeHtml(s)}</div>` +
+    (sectorTree[s] || []).map((i) => optHtml(i, selIndustries.has(i))).join('')
+  )).join('');
+}
+
+function syncDdButtons() {
+  for (const [dd, sel] of [[ddSector, selSectors], [ddIndustry, selIndustries]]) {
+    dd.classList.toggle('has-selection', sel.size > 0);
+    dd.querySelector('.dd-count').textContent = sel.size ? String(sel.size) : '';
+  }
+}
+
+// Deselecting a sector must drop any sub-sector that lived under it — otherwise
+// an invisible checkbox keeps filtering rows and the view looks mysteriously
+// empty. With no sectors chosen every sub-sector is back in scope, so nothing
+// needs pruning.
+function pruneIndustries() {
+  if (selSectors.size === 0) return;
+  const valid = new Set(industriesOf(selSectors));
+  for (const i of [...selIndustries]) if (!valid.has(i)) selIndustries.delete(i);
+}
+
+function applySectorFilters({ sectorsChanged = false } = {}) {
+  if (sectorsChanged) pruneIndustries();
+  saveSet('selSectors', selSectors);
+  saveSet('selIndustries', selIndustries);
+  if (sectorsChanged) renderIndustryPanel();
+  syncDdButtons();
+  renderAll();
+}
+
+ddSector.querySelector('.dd-list').addEventListener('change', (e) => {
+  const cb = e.target.closest('input[type=checkbox]');
+  if (!cb) return;
+  cb.checked ? selSectors.add(cb.value) : selSectors.delete(cb.value);
+  applySectorFilters({ sectorsChanged: true });
+});
+
+ddIndustry.querySelector('.dd-list').addEventListener('change', (e) => {
+  const cb = e.target.closest('input[type=checkbox]');
+  if (!cb) return;
+  cb.checked ? selIndustries.add(cb.value) : selIndustries.delete(cb.value);
+  applySectorFilters();
+});
+
+ddSector.querySelector('.dd-clear').addEventListener('click', () => {
+  selSectors.clear();
+  renderSectorPanel();
+  applySectorFilters({ sectorsChanged: true });
+});
+
+ddIndustry.querySelector('.dd-clear').addEventListener('click', () => {
+  selIndustries.clear();
+  renderIndustryPanel();
+  applySectorFilters();
+});
+
+// Open/close. Only one panel open at a time; click-outside and Escape close.
+for (const dd of [ddSector, ddIndustry]) {
+  dd.querySelector('.dd-btn').addEventListener('click', (e) => {
+    e.stopPropagation();
+    const panel = dd.querySelector('.dd-panel');
+    const opening = panel.hidden;
+    for (const other of [ddSector, ddIndustry]) {
+      other.querySelector('.dd-panel').hidden = true;
+      other.querySelector('.dd-btn').setAttribute('aria-expanded', 'false');
+    }
+    panel.hidden = !opening;
+    dd.querySelector('.dd-btn').setAttribute('aria-expanded', String(opening));
+  });
+  dd.querySelector('.dd-panel').addEventListener('click', (e) => e.stopPropagation());
+}
+document.addEventListener('click', () => {
+  for (const dd of [ddSector, ddIndustry]) {
+    dd.querySelector('.dd-panel').hidden = true;
+    dd.querySelector('.dd-btn').setAttribute('aria-expanded', 'false');
+  }
+});
+document.addEventListener('keydown', (e) => {
+  if (e.key === 'Escape') document.dispatchEvent(new Event('click'));
+});
+
+// Sectors come from the `universe` table and don't change intraday, so this
+// runs once. A failure leaves the panels empty but never blocks the tables.
+waitForAdapter()
+  .then((a) => a.fetchSectorTree())
+  .then((tree) => {
+    sectorTree = tree;
+    // Drop any persisted selection that no longer exists in the universe.
+    const sectors = new Set(Object.keys(tree));
+    for (const s of [...selSectors]) if (!sectors.has(s)) selSectors.delete(s);
+    pruneIndustries();
+    renderSectorPanel();
+    renderIndustryPanel();
+    syncDdButtons();
+    renderAll();
+  })
+  .catch((e) => console.error('sector tree load failed:', e));
 
 // Tabs — top row is timeframe (daily/weekly/monthly), bottom row is viewMode.
 // In LuxAlgo (and similar) modes, timeframe filters the visible slice.
