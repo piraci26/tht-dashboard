@@ -143,6 +143,7 @@ fvb_streak = consecutive bars before t where is_bull == is_bull[t-1]
 - **Schedule**: `~/Library/LaunchAgents/com.kuba.thtscan.plist` (every 5 min, runs `run_and_push.sh`)
 - **Logs**: `/tmp/tht-scan.log` (stdout) + `/tmp/tht-scan.err` (stderr)
 - **Rate-limit guard**: `scan.py` aborts the write if Yahoo returns < 100 valid tickers (preserves last-known-good state)
+- **Analytics**: privacy-friendly [GoatCounter](https://goatcounter.com), cookieless
 
 ## Disclaimer
 
