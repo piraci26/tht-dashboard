@@ -76,6 +76,12 @@ const flipToRow = (r) => ({
   // row appeared in; we set both so either lookup works.
   fvb_streak: r.product === 'fvb' ? r.streak : null,
   bxt_streak: r.product === 'bxt' ? r.streak : null,
+  // ATH/ATL enrichment — same keys the legacy results.json rows carried.
+  // Undefined until the flip_enrichment migration lands; renderer shows dashes.
+  ath: r.ath, atl: r.atl,
+  pct_to_ath: r.pct_to_ath, pct_to_atl: r.pct_to_atl,
+  wk52_high: r.wk52_high, wk52_low: r.wk52_low,
+  ath_30d: r.ath_30d, atl_30d: r.atl_30d,
 });
 
 const setupHitToEntry = (h) => ({
@@ -178,12 +184,23 @@ async function fetchExtrema(kind) {
     fetchAll(() => sb.from('extrema_events').select('*').eq('kind', kind)),
     universeMap(),
   ]);
+  // Table columns are kind-generic; the renderer reads kind-specific keys
+  // (last_high vs last_low, pct_to_ath vs pct_to_atl, ath_30d vs atl_30d).
+  const todayKey = kind === 'ath' ? 'last_high'  : 'last_low';
+  const pctKey   = kind === 'ath' ? 'pct_to_ath' : 'pct_to_atl';
+  const cntKey   = kind === 'ath' ? 'ath_30d'    : 'atl_30d';
+
   const list = [], accumulator = [];
   let latest = null;
   for (const r of data || []) {
     const row = withSector(uni, r.symbol, {
       sym: r.symbol, name: r.name || '', mcap: r.mcap || 0,
       price: r.price, [kind]: r.ath_or_atl,
+      [todayKey]: r.today_extreme,
+      [pctKey]:   r.pct_to_extreme,
+      wk52_high:  r.wk52_high,
+      wk52_low:   r.wk52_low,
+      [cntKey]:   r.extreme_30d,
       occurred_at: r.occurred_at,
     });
     if (r.is_today) list.push(row);
