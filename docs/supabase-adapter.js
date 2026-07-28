@@ -7,8 +7,8 @@
 
 import { createClient } from 'https://esm.sh/@supabase/supabase-js@2';
 
-const SUPABASE_URL = 'https://uwtxrgrydaxtglerdfxt.supabase.co';
-const SUPABASE_ANON_KEY = 'sb_publishable_1-VR3k-YyepvDSHS4XCe4A_sbIldGMm';
+const SUPABASE_URL = 'https://fmjzserpkgffqiwfnmii.supabase.co';
+const SUPABASE_ANON_KEY = 'sb_publishable_oMr5QAISe07Fj9ltbAFaBg_fa-Vo4hg';
 
 const sb = createClient(SUPABASE_URL, SUPABASE_ANON_KEY, {
   auth: { persistSession: false },
